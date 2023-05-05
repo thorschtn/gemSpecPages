@@ -31,8 +31,8 @@ Pull concepts, specifications and requirement documents at
 
 Access documents through static links - including direct access to chapters and requirements:
 
-[https://thorschtn.github.io/docs/gemProdT/gemProdT_Basis-Consumer/gemProdT_Basis-Consumer_PTV_1.6.0-0_V1.0.0/#3.1.1](https://thorschtn.github.io/docs/gemProdT/gemProdT_Basis-Consumer/gemProdT_Basis-Consumer_PTV_1.6.0-0_V1.0.0/#3.1.1)
-[https://thorschtn.github.io/docs/gemSpec/gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0/#A_17303](https://thorschtn.github.io/docs/gemSpec/gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0/#A_17303)
+[https://thorschtn.github.io/gemSpecPages/docs/gemProdT/gemProdT_Basis-Consumer/gemProdT_Basis-Consumer_PTV_1.6.0-0_V1.0.0/#3.1.1](https://thorschtn.github.io/gemSpecPages/docs/gemProdT/gemProdT_Basis-Consumer/gemProdT_Basis-Consumer_PTV_1.6.0-0_V1.0.0/#3.1.1)
+[https://thorschtn.github.io/gemSpecPages/docs/gemSpec/gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0/#A_17303](https://thorschtn.github.io/gemSpecPages/docs/gemSpec/gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0/#A_17303)
 
 **Browse & Navigate**
 
