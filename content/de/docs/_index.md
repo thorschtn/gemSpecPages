@@ -8,12 +8,42 @@ menu:
     weight: 20
 ---
 
-Proof of Concept!
-Datenbestand beinhaltet ausgewählte zulassungsfähige und gültige Zulassungsobjekte aus Q1/2023!
+<h1>Proof of Concept!</h1>
 
-Offene Punkte:
-- auf Github lauffähig machen
-- Dokumenttitel (Spec und ProdT) vervollständigen
-- Verlinkung reparieren
-- Breadcrumbs, Categories und Suche reparieren (localhost)
-- Startseite bauen
+The database contains only selected documents (requirement documents and specifications) from Q1/2023!
+
+Open points:
+- Add document titles (Spec and ProdT).
+- Add further specifications (folder limit).
+- Simplify the URL structure (redirects).
+
+<h1>Hello World.</h1>
+
+Welcome to the proof of concept for web-based publication of gematik specifications.
+
+**Github Repository**
+
+Pull concepts, specifications and requirement documents at 
+
+[https://github.com/thorschtn/gemSpec](https://github.com/thorschtn/gemSpec)
+{: .fs-2 }
+
+**Static Links**
+
+Access documents through static links - including direct access to chapters and requirements:
+
+[https://thorschtn.github.io/docs/gemProdT/gemProdT_Basis-Consumer/gemProdT_Basis-Consumer_PTV_1.6.0-0_V1.0.0/#3.1.1](https://thorschtn.github.io/docs/gemProdT/gemProdT_Basis-Consumer/gemProdT_Basis-Consumer_PTV_1.6.0-0_V1.0.0/#3.1.1)
+[https://thorschtn.github.io/docs/gemSpec/gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0/#A_17303](https://thorschtn.github.io/docs/gemSpec/gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0/#A_17303)
+{: .fs-2 }
+
+**Browse & Navigate**
+
+Browse & Navigate through all documents - use the navigation menu on the left:
+
+[https://thorschtn.github.io/gemSpecPages/docs/](https://thorschtn.github.io/gemSpecPages/docs/) 
+{: .fs-2 }
+
+
+<br><br>**Coming soon**
+
+File Compare; Semantic Web; Approval Objects; Collaboration (Jira & Confluence, gematik internal only)
