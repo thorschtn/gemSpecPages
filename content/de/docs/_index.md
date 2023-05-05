@@ -8,16 +8,18 @@ menu:
     weight: 20
 ---
 
-<h1>Proof of Concept!</h1>
+<h2>Proof of Concept!</h2>
 
-The database contains only selected documents (requirement documents and specifications) from Q1/2023!
+The database contains selected documents (requirement documents and specifications) from Q1/2023!
 
-Open points:
-- Add document titles (Spec and ProdT).
+ToDo:
+- Bug Fix: Occasionally missing images.
+- Layout improvements (e.g. tables).
+- Add document titles (Spec and ProdT) on overview pages.
 - Remove the limit on the number of menu entries (Specs).
 - Simplify the URL structure (Redirects).
 
-<h1>Hello World.</h1>
+<h2>Hello World.</h2>
 
 Welcome to the proof of concept for web-based publication of gematik specifications.
 
@@ -39,9 +41,12 @@ Access documents through static links - including direct access to chapters and 
 Browse & Navigate through all documents - use the navigation menu on the left:
 
 [https://thorschtn.github.io/gemSpecPages/docs/](https://thorschtn.github.io/gemSpecPages/docs/) 
-{: .fs-2 }
 
 
 <br><br>**Coming soon**
 
 File Compare; Semantic Web; Approval Objects; Collaboration (Jira & Confluence, gematik internal only)
+
+----------
+
+<h2>Document types:</h2>
