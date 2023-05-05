@@ -310,7 +310,7 @@ ol:first-of-type {
   </div>
   <div id="A_22216">
    <p><b>A_22216 - FHIR-Ressourcen Versionsangabe</b></p>
-   <p>Die Produkttypen der Anwendung E-Rezept und das PS der verordnenden und abgebenden LEI MÜSSEN alle generierten FHIR-Ressourcen mit der Versionsnummer gemäß&nbsp;<a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/datatypes/#canonical">https://www.hl7.org/fhir/datatypes.html#canonical</a>&nbsp;im Feld Ressource.meta.profile kennzeichnen, zu dessen aktuell gültiger Profilversion sie mutmaßlich validieren. <b>[&lt;=]</b></p>
+   <p>Die Produkttypen der Anwendung E-Rezept und das PS der verordnenden und abgebenden LEI MÜSSEN alle generierten FHIR-Ressourcen mit der Versionsnummer gemäß&nbsp;<a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/datatypes.html#canonical">https://www.hl7.org/fhir/datatypes.html#canonical</a>&nbsp;im Feld Ressource.meta.profile kennzeichnen, zu dessen aktuell gültiger Profilversion sie mutmaßlich validieren. <b>[&lt;=]</b></p>
   </div>
   <div id="A_22920">
    <p><b>A_22920 - Kodierung&nbsp;fullURL</b></p>
@@ -561,7 +561,7 @@ ol:first-of-type {
     <ul>
      <li><span style="font-weight: bold;">AuditEvent.text</span>: Generierung eines HTML-&lt;div&gt;-Elements mit lesbarer Beschreibung in einfacher Sprache<br></li>
      <li><span style="font-weight: bold;">AuditEvent.type</span>: Fester Wert "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">rest</span>" gemäß&nbsp;<a class="descriptionLink" target="_top" href="http://terminology.hl7.org/CodeSystem/audit-event-type">http://terminology.hl7.org/CodeSystem/audit-event-type</a>&nbsp;<br></li>
-     <li><span style="font-weight: bold;">AuditEvent.subtype</span>: aus dem ValueSet <a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-sub-type/">https://www.hl7.org/fhir/valueset-audit-event-sub-type.html</a>&nbsp; gemäß&nbsp;<a class="descriptionLink" target="_top" href="http://hl7.org/fhir/restful-interaction">http://hl7.org/fhir/restful-interaction</a>&nbsp;<br></li>
+     <li><span style="font-weight: bold;">AuditEvent.subtype</span>: aus dem ValueSet <a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-sub-type.html">https://www.hl7.org/fhir/valueset-audit-event-sub-type.html</a>&nbsp; gemäß&nbsp;<a class="descriptionLink" target="_top" href="http://hl7.org/fhir/restful-interaction">http://hl7.org/fhir/restful-interaction</a>&nbsp;<br></li>
      <li style="list-style: none">
       <ul>
        <li><span style="font-size: 10pt;line-height: 1.5;">"<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">create</span>" beim Hinzufügen/Speichern/Anlegen eines Datenobjekts mit Versichertenbezug (mit Ausnahme von AuditEvent- und Communication-Ressource)<br></span></li>
@@ -569,9 +569,9 @@ ol:first-of-type {
        <li><span style="font-size: 10pt;line-height: 1.5;">"<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">update</span>", wenn das Datenobjekt mit Versichertenbezug geändert/aktualisiert wird<br></span></li>
        <li><span style="font-size: 10pt;line-height: 1.5;">"<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">delete</span>", wenn das Datenobjekt mit Versichertenbezug manuell oder automatisch gelöscht wird</span><br></li>
       </ul></li>
-     <li><span style="font-weight: bold;">AuditEvent.action</span>: analog AuditEvent.subType (C, R, U, D) gemäß&nbsp;<a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-action/">https://www.hl7.org/fhir/valueset-audit-event-action.html</a>&nbsp;</li>
+     <li><span style="font-weight: bold;">AuditEvent.action</span>: analog AuditEvent.subType (C, R, U, D) gemäß&nbsp;<a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-action.html">https://www.hl7.org/fhir/valueset-audit-event-action.html</a>&nbsp;</li>
      <li><span style="font-weight: bold;">AuditEvent.recorded</span>: aktuelle Systemzeit des E-Rezept-Fachdienstes</li>
-     <li><span style="font-weight: bold;">AuditEvent.outcome</span>: Ergebnis der aufgerufenen Operation gemäß&nbsp;<a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-outcome/">https://www.hl7.org/fhir/valueset-audit-event-outcome.html</a> (0 = Erfolg, 4 = Fehler auf Clientseite, 8 = Serverfehler)&nbsp;</li>
+     <li><span style="font-weight: bold;">AuditEvent.outcome</span>: Ergebnis der aufgerufenen Operation gemäß&nbsp;<a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-outcome.html">https://www.hl7.org/fhir/valueset-audit-event-outcome.html</a> (0 = Erfolg, 4 = Fehler auf Clientseite, 8 = Serverfehler)&nbsp;</li>
      <li><span style="font-weight: bold;">AuditEvent.agent.type</span>: Fester Wert "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">humanuser</span>" aus&nbsp;&nbsp;<a class="descriptionLink" target="_top" href="http://terminology.hl7.org/CodeSystem/extra-security-role-type">http://terminology.hl7.org/CodeSystem/extra-security-role-type</a>&nbsp;</li>
      <li><span style="font-weight: bold;">AuditEvent.agent.name</span><span style="font-weight: normal;">:</span><span style="font-weight: bold;">&nbsp;</span>Lesbarer Name aus Identity-Token des Zugreifenden, der die zu protokollierende Aktion getriggert hat, z.B. "Praxis Dr. Müller, Bahnhofstr. 78" oder Versicherter z.B. "Max Mustermann"</li>
      <li><span style="font-weight: bold;">AuditEvent.agent.who</span>: KVNR bzw. Telematik-ID des zugreifenden Nutzers aus Identity-Token, der diesen Protokolleintrag ausgelöst hat</li>

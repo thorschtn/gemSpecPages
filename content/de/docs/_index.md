@@ -14,8 +14,8 @@ The database contains only selected documents (requirement documents and specifi
 
 Open points:
 - Add document titles (Spec and ProdT).
-- Add further specifications (folder limit).
-- Simplify the URL structure (redirects).
+- Remove the limit on the number of menu entries (Specs).
+- Simplify the URL structure (Redirects).
 
 <h1>Hello World.</h1>
 
@@ -26,7 +26,6 @@ Welcome to the proof of concept for web-based publication of gematik specificati
 Pull concepts, specifications and requirement documents at 
 
 [https://github.com/thorschtn/gemSpec](https://github.com/thorschtn/gemSpec)
-{: .fs-2 }
 
 **Static Links**
 
@@ -34,7 +33,6 @@ Access documents through static links - including direct access to chapters and 
 
 [https://thorschtn.github.io/docs/gemProdT/gemProdT_Basis-Consumer/gemProdT_Basis-Consumer_PTV_1.6.0-0_V1.0.0/#3.1.1](https://thorschtn.github.io/docs/gemProdT/gemProdT_Basis-Consumer/gemProdT_Basis-Consumer_PTV_1.6.0-0_V1.0.0/#3.1.1)
 [https://thorschtn.github.io/docs/gemSpec/gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0/#A_17303](https://thorschtn.github.io/docs/gemSpec/gemSpec_Basis_KTR_Consumer/gemSpec_Basis_KTR_Consumer_V1.4.0/#A_17303)
-{: .fs-2 }
 
 **Browse & Navigate**
 
