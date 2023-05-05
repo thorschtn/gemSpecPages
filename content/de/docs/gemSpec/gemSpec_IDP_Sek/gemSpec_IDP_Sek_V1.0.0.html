@@ -708,7 +708,7 @@ ol:first-of-type {
   <p id="polarion_39"><span style="font-style: italic;">Hinweis</span>: Der Aufbau der Anfrage entspricht [gemSpec_IDP_Dienst#Kapitel 7.1 Authorization Request], jedoch mit dem Scope "erp_sek_auth+openid".</p>
   <div id="A_22315">
    <p><b>A_22315 - Prüfung der "redirect_uri" durch sektoralen IDP</b></p>
-   <p>Der sektorale Identity Provider MUSS bei Erhalt eines Authorization Request die enthaltene "redirect_uri" gegen die eines der bekannten Authenticator-Module auf Gleichheit prüfen. Stimmen diese nicht überein, MUSS die weitere Verarbeitung mit einem Fehler-Response abgebrochen werden (vgl. https://openid.net/specs/openid-connect-core-1_0.html#AuthError). <b>[&lt;=]</b></p>
+   <p>Der sektorale Identity Provider MUSS bei Erhalt eines Authorization Request die enthaltene "redirect_uri" gegen die eines der bekannten Authenticator-Module auf Gleichheit prüfen. Stimmen diese nicht überein, MUSS die weitere Verarbeitung mit einem Fehler-Response abgebrochen werden (vgl. https://openid.net/specs/openid-connect-core-1_0/#AuthError). <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_378"><span style="font-style: italic;">Hinweis: Nach [openid-connect-core-1_0.html # AuthRequest] ist es zulässig, dass ein Client mehrere "redirect_uri" bei der Registrierung hinterlegt. Der sektorale Identity Provider&nbsp;muss laut der OIDC-Spezifikation prüfen, ob die im Request gelieferte "redirect_uri" mit exakt einer der hinterlegten "kk_app_redirect_uri" übereinstimmt. Die Prüfung muss über eine 'Simple String Comparison' nach [RFC3986#section-6.2.1] erfolgen.</span></p>
   <h4 id="5.2.7">5.2.7 Authorization-Endpunkt Ausgangsdaten</h4>
@@ -771,7 +771,7 @@ ol:first-of-type {
   </div>
   <div id="A_22319">
    <p><b>A_22319 - Signatur des ID-Token des sektoralen Identity Provider</b></p>
-   <p>Der sektorale Identity Provider MUSS selbst erstellte ID-Token unter Verwendung eines privaten Schlüssels der im Discovery Document unter "jwks_uri" referenzierten öffentlichen Schlüssel signieren. Das zu verwendende Verfahren MUSS ECDSA auf Basis der NIST-Kurve P-256 sein (vergleiche&nbsp;<a class="descriptionLink" target="_top" href="https://openid.net/specs/draft-jones-json-web-signature-04.html#DefiningECDSA">https://openid.net/specs/draft-jones-json-web-signature-04.html#DefiningECDSA</a>). <b>[&lt;=]</b></p>
+   <p>Der sektorale Identity Provider MUSS selbst erstellte ID-Token unter Verwendung eines privaten Schlüssels der im Discovery Document unter "jwks_uri" referenzierten öffentlichen Schlüssel signieren. Das zu verwendende Verfahren MUSS ECDSA auf Basis der NIST-Kurve P-256 sein (vergleiche&nbsp;<a class="descriptionLink" target="_top" href="https://openid.net/specs/draft-jones-json-web-signature-04/#DefiningECDSA">https://openid.net/specs/draft-jones-json-web-signature-04.html#DefiningECDSA</a>). <b>[&lt;=]</b></p>
   </div>
   <h2 id="6">6 Anhang A – Verzeichnisse</h2>
   <h3 id="6.1">6.1 Abkürzungen</h3>
@@ -876,7 +876,7 @@ ol:first-of-type {
     </tr>
     <tr>
      <td style="width: 190px;height: 57.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Discovery Document</td>
-     <td style="width: 540px;height: 57.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ein OpenID-Connect-Metadatendokument (siehe [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-discovery-1_0.html">openid-connect-discovery 1.0</a>]), das den Großteil der Informationen enthält, die für eine App zum Durchführen einer Anmeldung erforderlich sind. Hierzu gehören Informationen, wie z.B. die zu verwendenden URLs und der Speicherort der öffentlichen Signaturschlüssel des Dienstes.</td>
+     <td style="width: 540px;height: 57.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ein OpenID-Connect-Metadatendokument (siehe [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-discovery-1_0/">openid-connect-discovery 1.0</a>]), das den Großteil der Informationen enthält, die für eine App zum Durchführen einer Anmeldung erforderlich sind. Hierzu gehören Informationen, wie z.B. die zu verwendenden URLs und der Speicherort der öffentlichen Signaturschlüssel des Dienstes.</td>
     </tr>
     <tr>
      <td style="width: 190px;height: 57.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Funktionsmerkmal</td>
