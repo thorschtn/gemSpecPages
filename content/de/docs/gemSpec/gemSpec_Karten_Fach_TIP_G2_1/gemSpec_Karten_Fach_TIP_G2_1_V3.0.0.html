@@ -40,6 +40,8 @@ ol:first-of-type {
   counter-reset: mycounter;
 } */
 
+@media print { h1, h2 { break-before: page; } }
+
 
 </style>
   <meta charset="utf-8">
@@ -65,7 +67,7 @@ ol:first-of-type {
      </tr>
      <tr>
       <td>Revision</td>
-      <td>548770</td>
+      <td>591017</td>
      </tr>
      <tr>
       <td>Stand</td>
@@ -86,7 +88,7 @@ ol:first-of-type {
     </table></pre> 
   </div>
   <p id="polarion_11"></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-1106">Dokumentinformationen</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1352">Dokumentinformationen</h1>
   <p id="polarion_16"> <span style="font-weight: bold;">Änderungen zur Vorversion</span> </p>
   <p id="polarion_17">Erweiterungen und Änderungen für Kartengeneration 2.1</p>
   <p id="polarion_18"> <span style="font-weight: bold;">Dokumentenhistorie</span> </p>
@@ -193,13 +195,13 @@ ol:first-of-type {
    </tbody> 
   </table>
   <p id="polarion_20"> <br> </p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-1107">Inhaltsverzeichnis</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1353">Inhaltsverzeichnis</h1>
   <p id="polarion_22"> <br> </p>
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-1106">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-1107">Inhaltsverzeichnis</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1352">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1353">Inhaltsverzeichnis</a></li>
    <li> : <a href="#1">1 Einordnung des Dokuments</a></li>
    <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
    <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
@@ -361,9 +363,10 @@ ol:first-of-type {
   <p id="polarion_13"> <span style="font-size: 9pt;line-height: 1.5;">Hinweis (2) **Die Spalte „Write“ kennzeichnet, ob ein Artefakt nach dem Einbringen in die Karte unveränderbar ist (gekennzeichnet durch " ") oder durch welche Instanz es änderbar ist.</span> </p>
   <p id="polarion_14"> <span style="font-size: 9pt;line-height: 1.5;">Hinweis (3) Leserechte werden in der Tabelle nicht dargestellt, da für alle Artefakte „Read Always“ angenommen wird.</span> </p>
   <h4 id="2.1.2">2.1.2 Kodierung von Versionskennungen und Produktidentifikatoren</h4>
+  <p id="polarion_48"></p>
   <div id="Card-G2-A_3479">
    <p><b>Card-G2-A_3479 - Kodierung von Versionskennungen</b></p>
-   <p><p style="margin-left: 0px;"><span>Jede Versionsnummer MUSS wie folgt in 3 Oktetten kodiert werden:</span></p>
+   <p>Jede Versionsnummer MUSS wie folgt in 3 Oktetten kodiert werden:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
@@ -371,33 +374,33 @@ ol:first-of-type {
         <ol class="continue" style="list-style-type:none">
          <li>
           <ol class="continue">
-           <li><p><span>Das 1. Oktett enthält I2OS(Hauptversionsnummer, 1)</span></p></li>
-           <li><p><span>Das 2. Oktett enthält I2OS(Nebenversionsnummer, 1)</span></p></li>
-           <li><p><span>Das 3. Oktett enthält I2OS(Revisionsnummer, 1)</span></p></li>
+           <li><p>Das 1. Oktett enthält I2OS(Hauptversionsnummer, 1)</p></li>
+           <li><p>Das 2. Oktett enthält I2OS(Nebenversionsnummer, 1)</p></li>
+           <li><p>Das 3. Oktett enthält I2OS(Revisionsnummer, 1)</p></li>
           </ol></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_48">Versionskennung, wie sie in Produkttypen und Produktidentifikatoren verwendet werden, müssen nach einem einheitlichen Schema kodiert werden:</p>
+  <p id="polarion_21">Versionskennung, wie sie in Produkttypen und Produktidentifikatoren verwendet werden, müssen nach einem einheitlichen Schema kodiert werden:</p>
   <div id="Card-G2-A_3480">
    <p><b>Card-G2-A_3480 - Kodierung von Produktidentifikatoren</b></p>
-   <p><p><span>Jeder </span><span>Produktidentifikator</span><span> </span><span>MUSS wie folgt in 16 Oktetten kodiert werden:</span></p>
+   <p>Jeder Produktidentifikator MUSS wie folgt in 16 Oktetten kodiert werden:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Die ersten fünf Oktette enthalten die von der gematik vergebene Hersteller-ID, wobei j</span><span>e</span><span>des Oktett genau ein in UTF-8 kodiertes Zeichen enthält.</span></p></li>
-         <li><p><span>Die nächsten acht Oktette enthalten ein vom Hersteller gewähltes und im Rahmen der Zulassung angegebenes Produktkürzel, wobei jedes Oktett genau ein in UTF-8 kodiertes Zeichen enthält.</span></p></li>
-         <li><p><span>Die Oktette 14 bis 16 enthalten eine vom Hersteller vergebene und im Rahmen der Zulassung angegebene Versionsnummer gemäß der Kodierung von Versionskennungen. </span></p></li>
+         <li><p>Die ersten fünf Oktette enthalten die von der gematik vergebene Hersteller-ID, wobei jedes Oktett genau ein in UTF-8 kodiertes Zeichen enthält.</p></li>
+         <li><p>Die nächsten acht Oktette enthalten ein vom Hersteller gewähltes und im Rahmen der Zulassung angegebenes Produktkürzel, wobei jedes Oktett genau ein in UTF-8 kodiertes Zeichen enthält.</p></li>
+         <li><p>Die Oktette 14 bis 16 enthalten eine vom Hersteller vergebene und im Rahmen der Zulassung angegebene Versionsnummer gemäß der Kodierung von Versionskennungen.</p></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3481">
    <p><b>Card-G2-A_3481 - Ausschluss für die Kodierung von Produktidentifikatoren</b></p>
-   <p><p style="margin-left: 0px;"><span>Die Kombination Hauptversionsnummer . Nebenversionsnummer . Revisionsnummer = 0.0.0 DARF NICHT verwendet werden</span><span style="font-weight: bolder;">.</span></p> <b>[&lt;=]</b></p>
+   <p>Die Kombination Hauptversionsnummer . Nebenversionsnummer . Revisionsnummer = 0.0.0 DARF NICHT verwendet werden<span style="font-weight: bolder;">.</span> <b>[&lt;=]</b></p>
   </div>
   <h3 id="2.2">2.2 EF.Version @deprecated</h3>
   <p id="polarion_52">Die Datei EF.Version diente bei eGKs bis Version 1+ zur Versionierung des Card Operating Systems (COS), des eGK-Objektsystems sowie der Speicherstrukturen der eGK. Aus Gründen der Abwärtskompatibilität bleibt diese Datei und ihre Befüllung auf eGKs der Generation 2 noch erhalten. Systeme, die neu erstellt oder angepasst werden, sollten jedoch ausschließlich EF.Version2 verwenden. In kommenden Versionen des eGK-Objektsystems wird diese Datei vermutlich gestrichen werden.</p>
@@ -514,226 +517,222 @@ ol:first-of-type {
   <p id="polarion_57"> <br> </p>
   <div id="Card-G2-A_3484">
    <p><b>Card-G2-A_3484 - K_Initialisierung: Reihenfolge der Datenobjekte in body von EF.Version2</b></p>
-   <p><p style="margin-left: 0px;"><span>Bei der Befüllung der Dabei EF.Version2 KANN der Hersteller bei dem initialisierten </span><span style="font-style: italic;">body</span><span> nach dem&nbsp;&nbsp;DO </span><span>'C0'</span><span> von der Reihenfolge der Datenobjekte in der Tabelle Tab_Karten_Fach_TIP_002 abweichen.</span></p> <b>[&lt;=]</b></p>
+   <p>Bei der Befüllung der Dabei EF.Version2 KANN der Hersteller bei dem initialisierten <span style="font-style: italic;">body</span> nach dem&nbsp;&nbsp;DO 'C0' von der Reihenfolge der Datenobjekte in der Tabelle Tab_Karten_Fach_TIP_002 abweichen. <b>[&lt;=]</b></p>
   </div>
   <h3 id="2.4">2.4 EF.ATR (Answer to Reset)</h3>
   <p id="polarion_15">Die transparente Datei EF.ATR enthält Informationen zur maximalen Größe der APDU. Ferner dient sie zur Versionierung unveränderlicher Elemente einer Karte.</p>
   <p id="polarion_47">Für das Attribut body von EF.ATR gelten folgende Festlegungen:</p>
-  <p id="polarion_49"></p>
   <div id="Card-G2-A_3485">
    <p><b>Card-G2-A_3485 - K_Initialisierung: Datenobjekte in EF.ATR</b></p>
-   <p>Der Oktettstring <span style="font-style: italic;">body</span> MUSS DER-TLV-kodierte Datenobjekte (DO) enthalten. Die Datenobjekte MÜSSEN lückenlos hintereinander konkateniert werden. <br> <br> <b>[&lt;=]</b></p>
+   <p>Der Oktettstring <span style="font-style: italic;">body</span> MUSS DER-TLV-kodierte Datenobjekte (DO) enthalten. Die Datenobjekte MÜSSEN lückenlos hintereinander konkateniert werden. <br><br> <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_60"></p>
-  <p id="polarion_61"></p>
   <div id="Card-G2-A_3486">
    <p><b>Card-G2-A_3486 - K_Initialisierung: DO_BufferSize in EF.ATR</b></p>
-   <p>In <span style="font-style: italic;">body</span> MUSS an erster Stelle genau ein DO_BufferSize mit folgenden Eigenschaften enthalten sein:<br> 
-    <ol> 
-     <li>Tag = ‘E0’.<br> </li> 
-     <li>DO_Buffersize MUSS genau vier DO mit einem Tag ‘02’ enthalten. Das Tag ‘02’ bezeichnet einen Integer Wert, der gemäß [ISO8825-1#8.3] codiert werden MUSS.<span style="font-weight: bold;"> </span><br> </li> 
-     <li>Das erste DO mit Tag ‘02’ MUSS die maximale Anzahl der Oktette enthalten, die eine ungesicherte Kommando-APDU nicht überschreiten darf.<br> </li> 
-     <li>Das zweite DO mit Tag ‘02’ MUSS die maximale Anzahl der Oktette enthalten, die eine ungesicherte Antwort nicht überschreiten darf.<br> </li> 
-     <li>Das dritte DO mit Tag ‘02’ MUSS die maximale Anzahl der Oktette enthalten, die eine gesicherte Kommando-APDU nicht überschreiten darf.<br> </li> 
-     <li>Das vierte DO mit Tag ‘02’ MUSS die maximale Anzahl der Oktette enthalten, die eine gesicherte Antwort nicht überschreiten darf.<br> </li> 
+   <p>In <span style="font-style: italic;">body</span> MUSS an erster Stelle genau ein DO_BufferSize mit folgenden Eigenschaften enthalten sein:<br>
+    <ol>
+     <li>Tag = ‘E0’.<br></li>
+     <li>DO_Buffersize MUSS genau vier DO mit einem Tag ‘02’ enthalten. Das Tag ‘02’ bezeichnet einen Integer Wert, der gemäß [ISO8825-1#8.3] codiert werden MUSS.<br></li>
+     <li>Das erste DO mit Tag ‘02’ MUSS die maximale Anzahl der Oktette enthalten, die eine ungesicherte Kommando-APDU nicht überschreiten darf.<br></li>
+     <li>Das zweite DO mit Tag ‘02’ MUSS die maximale Anzahl der Oktette enthalten, die eine ungesicherte Antwort nicht überschreiten darf.<br></li>
+     <li>Das dritte DO mit Tag ‘02’ MUSS die maximale Anzahl der Oktette enthalten, die eine gesicherte Kommando-APDU nicht überschreiten darf.<br></li>
+     <li>Das vierte DO mit Tag ‘02’ MUSS die maximale Anzahl der Oktette enthalten, die eine gesicherte Antwort nicht überschreiten darf.<br></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3487">
    <p><b>Card-G2-A_3487 - K_Initialisierung und K_Personalisierung: DO_HistoricalBytes in EF.ATR</b></p>
    <p>In <span style="font-style: italic;">body</span> MUSS an zweiter Stelle genau ein DO_HistoricalBytes mit folgenden Eigenschaften enthalten sein:<br> 
-    <ol> 
-     <li>Tag = ‘5F52’.<br> </li> 
-     <li>Das Wertfeld von DO’5F52’ MUSS Historical Bytes enthalten, die gemäß ISO/IEC 7816-4 zu kodieren sind. <br> </li> 
-     <li>Das erste Oktett des Wertfeldes von DO_HistoricalBytes MUSS aus der Menge Category Indicator = {’00’, ’80’} gewählt werden.<br> </li> 
-     <li>Das Wertfeld von DO_HistoricalBytes MUSS genau ein DO_PreIssuingData als COMPACT-TLV data object mit folgenden Eigenschaften enthalten:<br> </li> 
-     <ol> 
-      <li>Tag/Length = ’6y’, wobei „y“ die Zahl der Oktette angibt.<br> </li> 
-      <li>Das erste Oktett des Wertfeldes MUSS die Chiphersteller-ID gemäß [SD5] enthalten (siehe auch Hersteller-Kennungen).<br> </li> 
-      <li>Die Oktette zwei bis sechs MÜSSEN die Kartenhersteller-ID enthalten. Informationen zur Kartenhersteller-ID sind unter [FH-SIT] verfügbar. <br> </li> 
-      <li>Weitere Oktette sind herstellerspezifisch zu codieren und können eine Betriebssystemversion eineindeutig referenzieren.<br> </li> 
-     </ol> 
-     <li>Das Wertfeld von DO_HistoricalBytes MUSS genau ein DO_Card Capabilities als COMPACT-TLV data object mit folgenden Eigenschaften enthalten:<br> </li> 
-    </ol> 
-    <ol> 
-     <ol> 
-      <li> Tag/Length = ’73’. <br> </li> 
-      <li>Das Wertfeld von DO ’73’. MUSS den Wert ’96 21 xy’ enthalten.<br> </li> 
-      <li>Die obersten drei Bits in ‘xy’ MÜSSEN gesetzt sein. <br> </li> 
-      <li>Die Bits b5 und b4 in ‘xy’ MÜSSEN entweder <br> </li> 
-      <ol> 
-       <li>anzeigen, dass die Smartcard nur den Basiskanal unterstützt, oder <br> </li> 
-       <li>anzeigen, dass die Kanalnummer von der Smartcard zugewiesen wird. <br> </li> 
-      </ol> 
-      <li>Die unteren drei Bits in ‘y’ MÜSSEN die Anzahl unterstützter Kanäle anzeigen. <br> </li> 
-     </ol> 
-    </ol> <br> <b>[&lt;=]</b></p>
+    <ol>
+     <li>Tag = ‘5F52’.<br></li>
+     <li>Das Wertfeld von DO’5F52’ MUSS Historical Bytes enthalten, die gemäß ISO/IEC 7816-4 zu kodieren sind.<br></li>
+     <li>Das erste Oktett des Wertfeldes von DO_HistoricalBytes MUSS aus der Menge Category Indicator = {’00’, ’80’} gewählt werden.<br></li>
+     <li>Das Wertfeld von DO_HistoricalBytes MUSS genau ein DO_PreIssuingData als COMPACT-TLV data object mit folgenden Eigenschaften enthalten:<br></li>
+     <li style="list-style: none">
+      <ol>
+       <li>Tag/Length = ’6y’, wobei „y“ die Zahl der Oktette angibt.<br></li>
+       <li>Das erste Oktett des Wertfeldes MUSS die Chiphersteller-ID gemäß [SD5] enthalten (siehe auch Hersteller-Kennungen).<br></li>
+       <li>Die Oktette zwei bis sechs MÜSSEN die Kartenhersteller-ID enthalten. Informationen zur Kartenhersteller-ID sind unter [FH-SIT] verfügbar.<br></li>
+       <li>Weitere Oktette sind herstellerspezifisch zu codieren und können eine Betriebssystemversion eineindeutig referenzieren.<br></li>
+      </ol></li>
+     <li>Das Wertfeld von DO_HistoricalBytes MUSS genau ein DO_Card Capabilities als COMPACT-TLV data object mit folgenden Eigenschaften enthalten:<br></li>
+    </ol>
+    <div style="margin-left: 2em">
+     <ol>
+      <li>Tag/Length = ’73’.<br></li>
+      <li>Das Wertfeld von DO ’73’. MUSS den Wert ’96 21 xy’ enthalten.<br></li>
+      <li>Die obersten drei Bits in ‘xy’ MÜSSEN gesetzt sein.<br></li>
+      <li>Die Bits b5 und b4 in ‘xy’ MÜSSEN entweder<br></li>
+      <li style="list-style: none">
+       <ol>
+        <li>anzeigen, dass die Smartcard nur den Basiskanal unterstützt, oder<br></li>
+        <li>anzeigen, dass die Kanalnummer von der Smartcard zugewiesen wird.<br></li>
+       </ol></li>
+      <li>Die unteren drei Bits in ‘y’ MÜSSEN die Anzahl unterstützter Kanäle anzeigen.<br></li>
+     </ol>
+    </div><br> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3488">
    <p><b>Card-G2-A_3488 - K_Initialisierung: DO_PT_COS in EF.ATR</b></p>
-   <p><p style="margin-left: 40px;"><span>In </span><span style="font-style: italic;">body</span><span> MUSS ein DO_PT_COS mit folgenden Eigenschaften en</span><span>t</span><span>halten sein:</span></p>
+   <p>In <span style="font-style: italic;">body</span> MUSS ein DO_PT_COS mit folgenden Eigenschaften enthalten sein:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Tag = </span><span>‘</span><span>D0</span><span>’</span><span>.</span></p></li>
-         <li><p><span>Das </span><span>Wertfeld</span><span> enthält die Produkttypversion von PT_COS&nbsp;&nbsp;gemäß der Kodierung von Versionskennungen. </span></p></li>
+         <li><p>Tag = ‘D0’.</p></li>
+         <li><p>Das Wertfeld enthält die Produkttypversion von PT_COS&nbsp;&nbsp;gemäß der Kodierung von Versionskennungen.</p></li>
         </ol></li>
       </ol></li>
-    </ol><p style="margin-left: 0px;"><span>Die Angaben Hauptversionsnummer, Nebenversionsnummer und Revisionsnummer entsprechen der im Rahmen der Zulassung angegebenen Version des zugrundeliegenden Produkttyps.</span><span style="font-weight: bolder;"> </span></p> <b>[&lt;=]</b></p>
+    </ol>Die Angaben Hauptversionsnummer, Nebenversionsnummer und Revisionsnummer entsprechen der im Rahmen der Zulassung angegebenen Version des zugrundeliegenden Produkttyps. <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3489">
    <p><b>Card-G2-A_3489 - K_Initialisierung: DO_PI_CHIP in EF.ATR</b></p>
-   <p><p style="margin-left: 40px;"><span>In </span><span style="font-style: italic;">body</span><span> MUSS ein </span><span>DO_PI_Chip</span><span> mit folgenden Eigenschaften enthalten sein:</span></p>
+   <p>In <span style="font-style: italic;">body</span> MUSS ein DO_PI_Chip mit folgenden Eigenschaften enthalten sein:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Tag = </span><span>‘</span><span>D2</span><span>’</span><span>.</span></p></li>
-         <li><p><span>Das </span><span>Wertfeld</span><span> enthält die im Rahmen der Zulassung angegebene Produktidentifikation des Chips gemäß der Kodierung von </span><span>Produktidentifikatoren</span><span>.</span></p></li>
+         <li><p>Tag = ‘D2’.</p></li>
+         <li><p>Das Wertfeld enthält die im Rahmen der Zulassung angegebene Produktidentifikation des Chips gemäß der Kodierung von Produktidentifikatoren.</p></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3490">
    <p><b>Card-G2-A_3490 - K_Initialisierung: DO_PI_COS in EF.ATR</b></p>
-   <p><p style="margin-left: 40px;"><span>In </span><span style="font-style: italic;">body</span><span> MUSS ein DO_PI_COS mit folgenden Eigenschaften enthalten sein:</span></p>
+   <p>In <span style="font-style: italic;">body</span> MUSS ein DO_PI_COS mit folgenden Eigenschaften enthalten sein:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Tag = </span><span>‘</span><span>D3</span><span>’</span><span>.</span></p></li>
-         <li><p><span>Das </span><span>Wertfeld</span><span> enthält die im Rahmen der Zulassung angegebene Produktidentifikation des COS gemäß der Kodierung von </span><span>Produktidentifikatoren</span><span>.</span></p></li>
+         <li><p>Tag = ‘D3’.</p></li>
+         <li><p>Das Wertfeld enthält die im Rahmen der Zulassung angegebene Produktidentifikation des COS gemäß der Kodierung von Produktidentifikatoren.</p></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3491">
    <p><b>Card-G2-A_3491 - K_Initialisierung: DO_PI_InitialisiertesObjSys in EF.ATR</b></p>
-   <p><p style="margin-left: 40px;"><span>In </span><span style="font-style: italic;">body</span><span> MUSS ein </span><span>DO_PI_InitialisiertesObjSys</span><span> mit folgenden Eigenschaften enthalten sein:</span></p>
+   <p>In <span style="font-style: italic;">body</span> MUSS ein DO_PI_InitialisiertesObjSys mit folgenden Eigenschaften enthalten sein:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Tag = </span><span>‘</span><span>D4</span><span>’</span><span>.</span></p></li>
-         <li><p><span>Das </span><span>Wertfeld</span><span> enthält die im Rahmen der Zulassung angegebene Produktidentifikation des initialisierten Objektsystems gemäß der Kodierung von </span><span>Produktidentifikatoren</span><span>.</span></p></li>
+         <li><p>Tag = ‘D4’.</p></li>
+         <li><p>Das Wertfeld enthält die im Rahmen der Zulassung angegebene Produktidentifikation des initialisierten Objektsystems gemäß der Kodierung von Produktidentifikatoren.</p></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3492">
    <p><b>Card-G2-A_3492 - K_Personalisierung: DO_PT_Pers in EF.ATR</b></p>
-   <p><p style="margin-left: 40px;"><span>In </span><span style="font-style: italic;">body</span><span> KANN ein </span><span>DO_PT_Pers</span><span> mit folgenden Eigenschaften en</span><span>t</span><span>halten sein:</span></p>
+   <p>In <span style="font-style: italic;">body</span> KANN ein DO_PT_Pers mit folgenden Eigenschaften enthalten sein:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Tag = </span><span>‘</span><span>D5</span><span>’</span><span>.</span></p></li>
-         <li><p><span>Das </span><span>Wertfeld</span><span> enthält die Produkttypversion von </span><span>PT_Pers</span><span> gemäß der Kodierung von Versionskennungen.</span></p></li>
-         <li><p><span>Die Angaben Hauptversionsnummer, Nebenversionsnummer und Revisionsnummer entsprechen der im Rahmen der Zulassung angegebenen Version des zugrundeliegenden Produkttyps.</span></p></li>
+         <li><p>Tag = ‘D5’.</p></li>
+         <li><p>Das Wertfeld enthält die Produkttypversion von PT_Pers gemäß der Kodierung von Versionskennungen.</p></li>
+         <li><p>Die Angaben Hauptversionsnummer, Nebenversionsnummer und Revisionsnummer entsprechen der im Rahmen der Zulassung angegebenen Version des zugrundeliegenden Produkttyps.</p></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3493">
    <p><b>Card-G2-A_3493 - K_Initialisierung DO_PI_Kartenkörper in EF.ATR-Initialisierung</b></p>
-   <p><p style="margin-left: 40px;"><span>In </span><span style="font-style: italic;">body</span><span> KANN ein </span><span>DO_PI_Kartenkörper</span><span> mit folgenden Eigenschaften enthalten sein:</span></p>
+   <p>In <span style="font-style: italic;">body</span> KANN ein DO_PI_Kartenkörper mit folgenden Eigenschaften enthalten sein:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Tag = </span><span>‘</span><span>D6</span><span>’</span><span>.</span></p></li>
-         <li><p><span>Das </span><span>Wertfeld</span><span> enthält die im Rahmen der Zulassung angegebene Produktidentifikation des Kartenkörpers gemäß der Kodierung von </span><span>Produktidentifikatoren</span><span>.</span></p></li>
+         <li><p>Tag = ‘D6’.</p></li>
+         <li><p>Das Wertfeld enthält die im Rahmen der Zulassung angegebene Produktidentifikation des Kartenkörpers gemäß der Kodierung von Produktidentifikatoren.</p></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3494">
    <p><b>Card-G2-A_3494 - K_Personalisierung: DO_PI_Kartenkörper in EF.ATR-Personalisierung</b></p>
-   <p><p style="margin-left: 40px;"><span>In </span><span style="font-style: italic;">body</span><span> MUSS ein </span><span>DO_PI_Kartenkörper</span><span> mit folgenden Eigenschaften enthalten sein:</span></p>
+   <p>In <span style="font-style: italic;">body</span> MUSS ein DO_PI_Kartenkörper mit folgenden Eigenschaften enthalten sein:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Tag = </span><span>‘</span><span>D6</span><span>’</span><span>.</span></p></li>
-         <li><p><span>Das </span><span>Wertfeld</span><span> enthält die im Rahmen der Zulassung angegebene Produktidentifikation des Kartenkörpers gemäß der Kodierung von </span><span>Produktidentifikatoren</span><span>.</span></p></li>
+         <li><p>Tag = ‘D6’.</p></li>
+         <li><p>Das Wertfeld enthält die im Rahmen der Zulassung angegebene Produktidentifikation des Kartenkörpers gemäß der Kodierung von Produktidentifikatoren.</p></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3495">
    <p><b>Card-G2-A_3495 - K_Personalisierung: DO_PI_Personalisierung in EF.ATR-Personalisierung</b></p>
-   <p><p style="margin-left: 40px;"><span>In </span><span style="font-style: italic;">body</span><span> KANN ein </span><span>DO_PI_Personalisierung</span><span> mit folgenden Eigenschaften enthalten sein:</span></p>
+   <p>In <span style="font-style: italic;">body</span> KANN ein DO_PI_Personalisierung mit folgenden Eigenschaften enthalten sein:<br>
     <ol style="list-style-type:none">
      <li>
       <ol class="continue" style="list-style-type:none">
        <li>
         <ol class="continue">
-         <li><p><span>Tag = </span><span>‘</span><span>D7</span><span>’</span><span>.</span></p></li>
-         <li><p><span>Das </span><span>Wertfeld</span><span> enthält die im Rahmen der Zulassung angegebene Produktidentifikation der Personalisierung gemäß der Kodierung von </span><span>Produktidentifikatoren</span><span>.</span></p></li>
+         <li><p>Tag = ‘D7’.</p></li>
+         <li><p>Das Wertfeld enthält die im Rahmen der Zulassung angegebene Produktidentifikation der Personalisierung gemäß der Kodierung von Produktidentifikatoren.</p></li>
         </ol></li>
       </ol></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="Card-G2-A_3496">
    <p><b>Card-G2-A_3496 - K_Initialisierung: Weitere Datenobjekte in DO_HistoricalBytes in EF.ATR</b></p>
-   <p>Das Wertfeld von DO_HistoricalBytes KANN weitere COMPACT-TLV-codierte<span style="font-size: 10pt;color: #000080;line-height: 1.5;"> </span>Datenobjekte enthalten. <br> <br> <b>[&lt;=]</b></p>
+   <p>Das Wertfeld von DO_HistoricalBytes KANN weitere COMPACT-TLV-codierte Datenobjekte enthalten. <br><br> <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_50"></p>
+  <p id="polarion_51"></p>
   <div id="Card-G2-A_3497">
    <p><b>Card-G2-A_3497 - K_Personalisierung: Vollständige Befüllung von EF.ATR</b></p>
-   <p>EF.ATR MUSS mit Abschluss der Personalisierung vollständig befüllt sein. Semantisch nicht verwendeter Speicher MUSS mit DO'CF' gefüllt sein <br> <br> <b>[&lt;=]</b></p>
+   <p>EF.ATR MUSS mit Abschluss der Personalisierung vollständig befüllt sein. Semantisch nicht verwendeter Speicher MUSS mit DO'CF' gefüllt sein <br><br> <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_51"> <span style="font-style: italic;">Hinweis (6) Möglicherweise wird die optionale Kennzeichnung der Personalisierung (PT_Pers und PI_Personalisierung) in einer Folgeversion verpflichtend.</span> </p>
+  <p id="polarion_65">Hinweis (6) Möglicherweise wird die optionale Kennzeichnung der Personalisierung (PT_Pers und PI_Personalisierung) in einer Folgeversion verpflichtend.</p>
   <h3 id="2.5">2.5 EF.GDO</h3>
   <p id="polarion_53">EF.GDO enthält die Seriennummer der Karte.</p>
-  <div id="Card-G2-A_3498">
-   <p><b>Card-G2-A_3498 - K_Personalisierung: DO_ICCSN in EF.GDO</b></p>
-   <p>In <span style="font-style: italic;">body</span> MUSS genau ein DER–TLV codiertes Datenobjekt DO_ICCSN mit folgenden Eigenschaften enthalten sein:<br> 
-    <ol> 
-     <li>Tag = ‘5A’ und Längenfeld = ‘0A’.<br> </li> 
-     <li>Für das Wertfeld MUSS gelten:<br> </li> 
-    </ol> 
-    <ol> 
-     <ol> 
-      <li>Das erste Oktett MUSS den Major Industry Identifier (MII) mit dem Wert ‘80’ enthalten, welcher eine Gesundheitskarte kennzeichnet (siehe [EN1867]).<br> </li> 
-      <li>Die nächsten drei Nibble MÜSSEN den Country Code Deutschlands mit dem Wert ‘276’enthalten (siehe [ISO3166-1]).<br> </li> 
-      <li>Die nächsten fünf Nibble MÜSSEN den Issuer Identifier enthalten.<br> </li> 
-      <li>Die restlichen fünf Oktette MÜSSEN BCD codiert eine Seriennummer enthalten. <br> </li> 
-     </ol> 
-    </ol> <b>[&lt;=]</b></p>
-  </div>
   <p id="polarion_76"></p>
   <p id="polarion_56"> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Hinweis (7) Die Kennung eines Kartenherausgebers (Issuer Identifier) erlaubt in Verbindung mit dem Ländercode eine weltweit eineindeutige Identifizierung des Kartenherausgebers. In Verbindung mit der Seriennummer ist es deshalb möglich, eine Karte weltweit eineindeutig zu referenzieren.</span> </p>
   <p id="polarion_58"> <span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Hinweis (8) Die Kennung des Kartenherausgebers entsprechend [EN1867] wird in Deutschland im Auftrag des DIN durch GS1 Germany GmbH, Köln (</span><a href="http://www.gs1-germany.de" target="_blank" class="descriptionLink">www.gs1-germany.de</a><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">) vergeben. Der Kartenherausgeber ist gewöhnlich der rechtmäßige Besitzer der ausgegebenen Karte.</span> </p>
   <p id="polarion_81"> <br> </p>
   <p id="polarion_82" style="text-align: center;"> <br> </p>
+  <div id="Card-G2-A_3498">
+   <p><b>Card-G2-A_3498 - K_Personalisierung: DO_ICCSN in EF.GDO</b></p>
+   <p>In <span style="font-style: italic;">body</span> MUSS genau ein DER–TLV codiertes Datenobjekt DO_ICCSN mit folgenden Eigenschaften enthalten sein:<br>
+    <ol>
+     <li>Tag = ‘5A’ und Längenfeld = ‘0A’.<br></li>
+     <li>Für das Wertfeld MUSS gelten:<br></li>
+    </ol>
+    <div style="margin-left: 2em">
+     <ol>
+      <li>Das erste Oktett MUSS den Major Industry Identifier (MII) mit dem Wert ‘80’ enthalten, welcher eine Gesundheitskarte kennzeichnet (siehe [EN1867]).<br></li>
+      <li>Die nächsten drei Nibble MÜSSEN den Country Code Deutschlands mit dem Wert ‘276’enthalten (siehe [ISO3166-1]).<br></li>
+      <li>Die nächsten fünf Nibble MÜSSEN den Issuer Identifier enthalten.<br></li>
+      <li>Die restlichen fünf Oktette MÜSSEN BCD codiert eine Seriennummer enthalten.<br></li>
+     </ol>
+    </div> <b>[&lt;=]</b></p>
+  </div>
   <h2 id="3">3 Befüllvorschriften für Karten mit der Option „Lange Lebensdauer im Feld“</h2>
   <h3 id="3.1">3.1 EF.KeyInfo (Struktur der Zugriffstabelle)</h3>
   <p id="polarion_83">Die Datei EF.KeyInfo dient zur Adressierung der Schlüssel und zugehörigen Zertifikate einer Karte, die aktuell verwendet werden müssen. Bei der Option „Lange Lebensdauer im Feld“ wird nach Ablauf der Nutzbarkeit eines Schlüssels auf einen neuen Schlüssel und das dazugehörende Zertifikat umgeschaltet. Bei diesem Umschalten müssen die Inhalte von EF.KeyInfo entsprechend geändert werden.</p>
   <p id="polarion_84">Inhalt und Struktur der Datei EF.Keyinfo werden erst festgelegt, wenn Funktionalität und Schnittstellen des Certificate Update Service (CUpS) spezifiziert werden. Die damit einhergehende Befüllvorschrift erhält die Versionsnummer 2.0.0.</p>
-  <p id="polarion_85"> <br> </p>
-  <p id="polarion_86"> <br> </p>
-  <p id="polarion_87" style="text-align: center;"> <br> </p>
   <h2 id="4">4 Befüllvorschriften für die Plattformanteile der eGK</h2>
   <h3 id="4.1">4.1 EF.Logging (Protokolldaten)</h3>
   <p id="polarion_59">Die Datei EF.Logging der eGK wird mit 50 Records fester Satzlänge rotierend beschrieben (siehe [gemSpec_eGK_ObjSys]. Die Datei EF.Logging ist auf der eGK als zyklische Datei nach dem FIFO-Prinzip umgesetzt, so dass hier keine Informationen zum Füllstand der Datei beschrieben oder verwaltet werden.</p>
   <div id="Card-G2-A_3506">
    <p><b>Card-G2-A_3506 - Speicherstruktur für EF.Logging</b></p>
-   <p><p style="margin-left: 0px;"><span>Die Rekords der Datei </span><span></span><span></span><span></span><span>EF.Logging</span><span></span><span> der </span><span>eGK</span><span> MÜSSEN die in Tab_Karten_Fach_TIP_010 festgelegte Struktur aufweisen.</span></p><p class="polarion-rte-caption-paragraph" id="polarion___3"><span>Tabelle </span><span></span><span><span class="polarion-rte-caption" data-sequence="Tabelle">5</span></span><span></span><span></span><span></span><span>: Tab_Karten_Fach_TIP_010 _</span><span>Struktur</span><span></span><span></span><span></span><span>EF.Logging</span><span></span><span> – Struktur der Rekords der Datei </span><span></span><span></span><span></span><span>EF.Logging</span><span></span><span> </span></p>
+   <p>Die Rekords der Datei EF.Logging der eGK MÜSSEN die in Tab_Karten_Fach_TIP_010 festgelegte Struktur aufweisen.<br><p class="polarion-rte-caption-paragraph" id="polarion___3">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">5</span>: Tab_Karten_Fach_TIP_010 _StrukturEF.Logging – Struktur der Rekords der Datei EF.Logging</p>
     <table style="empty-cells: show;border-collapse: collapse;margin: auto auto auto 0px;width: 410pt;">
      <tbody>
       <tr>
-       <th style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(224, 224, 224);text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Informations-el</span><span style="font-weight: bolder;font-size: 10pt;">e</span><span style="font-weight: bolder;font-size: 10pt;">ment</span></p></th>
+       <th style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(224, 224, 224);text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Informations-element</span></p></th>
        <th style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(224, 224, 224);text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Länge in Byte</span></p></th>
        <th style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(224, 224, 224);text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Typ</span></p></th>
-       <th style="vertical-align: top;width: 58pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(224, 224, 224);text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Initia</span><span style="font-weight: bolder;font-size: 10pt;">l</span><span style="font-weight: bolder;font-size: 10pt;">wert</span></p></th>
+       <th style="vertical-align: top;width: 58pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(224, 224, 224);text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Initialwert</span></p></th>
        <th style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(224, 224, 224);text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Bemerkung</span></p></th>
       </tr>
       <tr>
@@ -741,7 +740,7 @@ ol:first-of-type {
        <td style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">4</span></p></td>
        <td style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">BINÄR</span></p></td>
        <td style="vertical-align: top;width: 58pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">0</span></p></td>
-       <td style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Zeitpunkt des Datenzugriffs in der Form, dass die A</span><span style="font-size: 10pt;">n</span><span style="font-size: 10pt;">zahl der Sekunden, die seit dem 1.1.1970 00:00 UTC vergangen sind, angeg</span><span style="font-size: 10pt;">e</span><span style="font-size: 10pt;">ben werden.</span></p></td>
+       <td style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Zeitpunkt des Datenzugriffs in der Form, dass die Anzahl der Sekunden, die seit dem 1.1.1970 00:00 UTC vergangen sind, angegeben werden.</span></p></td>
       </tr>
       <tr>
        <td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Data Type</span></p></td>
@@ -751,30 +750,29 @@ ol:first-of-type {
        <td style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Diese Werte werden durch die Fachanwendungen definiert.</span></p></td>
       </tr>
       <tr>
-       <td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Type </span><span style="font-size: 10pt;">of</span><span style="font-size: 10pt;"> A</span><span style="font-size: 10pt;">c</span><span style="font-size: 10pt;">cess</span></p></td>
+       <td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Type of Access</span></p></td>
        <td style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">1</span></p></td>
        <td style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">ALPHA</span></p></td>
        <td style="vertical-align: top;width: 58pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">0x00</span></p></td>
        <td style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Diese Werte werden durch die Fachanwendungen definiert.</span></p></td>
       </tr>
       <tr>
-       <td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Actor</span><span style="font-size: 10pt;">-ID</span></p></td>
+       <td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Actor-ID</span></p></td>
        <td style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">10</span></p></td>
        <td style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">BCD</span></p></td>
        <td style="vertical-align: top;width: 58pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">0</span></p></td>
-       <td style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">EU-Resolution-190-konforme ICCSN des HBA oder der SMC-B des zugreifenden A</span><span style="font-size: 10pt;">k</span><span style="font-size: 10pt;">teurs</span></p></td>
+       <td style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">EU-Resolution-190-konforme ICCSN des HBA oder der SMC-B des zugreifenden Akteurs</span></p></td>
       </tr>
       <tr>
-       <td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Actor</span><span style="font-size: 10pt;">-Name</span></p></td>
+       <td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Actor-Name</span></p></td>
        <td style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">30</span></p></td>
        <td style="vertical-align: top;width: 54pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">ALPHA</span></p></td>
        <td style="vertical-align: top;width: 58pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">0x00</span></p></td>
-       <td style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Name des zugreifenden A</span><span style="font-size: 10pt;">k</span><span style="font-size: 10pt;">teurs.</span><span style="font-size: 10pt;"><br>Beim Zugriff über die SMC-B wird als Akteurs-Name der CN (Common Name) des OSIG-Zertifikats verwendet.</span></p><p><span style="font-size: 10pt;">Beim Zugriff über den HBA wird aus dem AUT-Zertifikat zunächst das Feld SN (Nachname) und anschließend das Feld GN (Vorname) verwendet. Zw</span><span style="font-size: 10pt;">i</span><span style="font-size: 10pt;">schen SN und GN wird ein Komma als Trennze</span><span style="font-size: 10pt;">i</span><span style="font-size: 10pt;">chen benutzt (SN, GN).</span></p><p><span style="font-size: 10pt;">Wenn die Zeichenkette (CN aus OSIG oder "SN,GN" aus AUT)</span></p><p><span style="font-size: 10pt;">länger als 30 Byte ist, dann we</span><span style="font-size: 10pt;">r</span><span style="font-size: 10pt;">den die ersten 30 Byte verwendet</span></p><p><span style="font-size: 10pt;">kürzer als 30 Byte ist, dann wird die Zeichenkette am Ende mit Leerze</span><span style="font-size: 10pt;">i</span><span style="font-size: 10pt;">chen (0x20) auf 30 Byte </span><span style="font-size: 10pt;">aufgefüllt.</span></p></td>
+       <td style="vertical-align: top;width: 168pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);"><p><span style="font-size: 10pt;">Name des zugreifenden Akteurs.<br>Beim Zugriff über die SMC-B wird als Akteurs-Name der CN (Common Name) des OSIG-Zertifikats verwendet.</span></p><p><span style="font-size: 10pt;">Beim Zugriff über den HBA wird aus dem AUT-Zertifikat zunächst das Feld SN (Nachname) und anschließend das Feld GN (Vorname) verwendet. Zwischen SN und GN wird ein Komma als Trennzeichen benutzt (SN, GN).</span></p><p><span style="font-size: 10pt;">Wenn die Zeichenkette (CN aus OSIG oder "SN,GN" aus AUT)</span></p><p><span style="font-size: 10pt;">länger als 30 Byte ist, dann werden die ersten 30 Byte verwendet</span></p><p><span style="font-size: 10pt;">kürzer als 30 Byte ist, dann wird die Zeichenkette am Ende mit Leerzeichen (0x20) auf 30 Byte aufgefüllt.</span></p></td>
       </tr>
      </tbody>
-    </table><p style="margin-left: 0px;"><br></p> <b>[&lt;=]</b></p>
+    </table><br> <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_88"></p>
   <h3 id="4.2">4.2 Vorlage für Fachanwendungen der eGK (informativ)</h3>
   <p id="polarion_90">Die meisten Fachanwendungen besitzen entsprechend [gemSpec_eGK_P2] bzw. [gemSpec_eGK_ObjSys] (jeweils einschl. relevanter SRQs) einen Status-Container zur Ablage von Verwaltungsinformation wie z.&nbsp;B. Statusinformationen, Zeitstempel und Versionsinformationen.</p>
   <p id="polarion_91">Ziel dieses Kapitels ist es, eine informative Vorlage zur Strukturierung des Status-Containers der Fachanwendung zu geben, damit einheitliche Mechanismen zur Abbildung von Statusattributen, Zeitstempeln für Zugriffe sowie zur Versionierung auf der eGK Anwendung finden. Die jeweils konkrete Ausprägung des Status-Containers einer Fachanwendung wird in den Dokumenten der Fachanwendung festgelegt.</p>
@@ -831,15 +829,15 @@ ol:first-of-type {
   <h3 id="5.1">5.1 EF.EnvironmentSettings (Umgebungskennzeichnung)</h3>
   <p id="polarion_62">Gemäß Testkonzept [gemKPT_Test#TIP1-A_2839] muss ein Hersteller eines Konnektors seine Modelle in drei Ausführungen vorsehen: Eine für die Testumgebung, eine für die Referenzumgebung und eine für die Produktivumgebung.</p>
   <p id="polarion_63">Damit trotz dieser Forderung die Firmware je Konnektorversion für alle drei Umgebungen identisch ist, werden die Erkennung der Umgebung, sowie die pro Umgebung notwendigen Parameter an die gSMC-K gebunden. Die gSMC-K besitzt hierzu den ReadOnly-Datencontainer EF.EnvironmentSettings.</p>
-  <p id="polarion_64"></p>
+  <p id="polarion_49"></p>
   <div id="Card-G2-A_3507">
    <p><b>Card-G2-A_3507 - K_Personalisierung Versionierung Inhalte von EF.EnvironmentSettings</b></p>
-   <p><p style="margin-left: 0px;"><span>In </span><span></span><span></span><span></span><span>EF.Version</span><span></span><span>2 der </span><span>gSMC</span><span>-K MUSS ein DO ’C3’ enthalten sein. Das DO ’C3’ MUSS die Version der </span><span>Befüllvorschrift</span><span> für die Datei </span><span></span><span></span><span></span><span>EF.EnvironmentSettings</span><span></span><span> enthalten.</span></p> <b>[&lt;=]</b></p>
+   <p>In EF.Version2 der gSMC-K MUSS ein DO ’C3’ enthalten sein. Das DO ’C3’ MUSS die Version der Befüllvorschrift für die Datei EF.EnvironmentSettings enthalten. <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_97"></p>
+  <p id="polarion_50"></p>
   <div id="Card-G2-A_3509">
    <p><b>Card-G2-A_3509 - K_Personalisierung Inhalt von EF.EnvironmentSettings</b></p>
-   <p><p style="margin-left: 0px;"><span>Das Byte 0 in der Datei </span><span></span><span></span><span></span><span>EF.EnvironmentSettings</span><span></span><span> der </span><span>gSMC</span><span>-K MUSS bei der Personalisierung von Testkarten mit dem Wert 0 gefüllt werden.</span></p><p style="margin-left: 0px;"><span>Das Byte 0 in der Datei </span><span></span><span></span><span></span><span>EF.EnvironmentSettings</span><span></span><span> der </span><span>gSMC</span><span>-K MUSS bei der Personalisierung von Produktivkarten mit dem Wert 1 gefüllt werden.</span></p> <b>[&lt;=]</b></p>
+   <p>Das Byte 0 in der Datei EF.EnvironmentSettings der gSMC-K MUSS bei der Personalisierung von Testkarten mit dem Wert 0 gefüllt werden.<br>Das Byte 0 in der Datei EF.EnvironmentSettings der gSMC-K MUSS bei der Personalisierung von Produktivkarten mit dem Wert 1 gefüllt werden. <b>[&lt;=]</b></p>
   </div>
   <h2 id="6">6 Anhang A – Verzeichnisse</h2>
   <h3 id="6.1">6.1 Abkürzungen</h3>

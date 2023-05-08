@@ -40,6 +40,8 @@ ol:first-of-type {
   counter-reset: mycounter;
 } */
 
+@media print { h1, h2 { break-before: page; } }
+
 
 </style>
   <meta charset="utf-8">
@@ -91,7 +93,7 @@ ol:first-of-type {
     </table></pre>
   </div> 
   <p id="polarion_16"></p> 
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5586">Dokumentinformationen</h1> 
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-7439">Dokumentinformationen</h1> 
   <p id="polarion_21"></p> 
   <p id="polarion_78"></p> 
   <p id="polarion_103"><span style="font-weight: bold;">Änderungen zur Vorversion</span></p> 
@@ -168,12 +170,12 @@ ol:first-of-type {
   </table> 
   <p id="polarion_27"></p> 
   <p id="polarion_147"></p> 
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5587">Inhaltsverzeichnis</h1> 
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-7440">Inhaltsverzeichnis</h1> 
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5586">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5587">Inhaltsverzeichnis</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-7439">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-7440">Inhaltsverzeichnis</a></li>
    <li> : <a href="#1">1 Einordnung des Dokumentes</a></li>
    <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
    <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
@@ -1562,7 +1564,7 @@ ol:first-of-type {
    <p>Das PS der abgebenden LEI MUSS sicherstellen, dass die Einbettung einer externen URL ausschließlich für das Einlösen von E-Rezepten in einer externen Bestellplattform genutzt wird. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_293"></p> 
-  <p id="polarion_216"><span style="font-size: 10pt;line-height: 1.5;">Für die Nutzerführung im E-Rezept-FdV ist es wichtig zu erkennen, ob es sich um eine automatisierte Antwort oder bspw. die Bitte um Rückruf handelt. Hierfür kann optional das Feld Communication.topic verwendet werden.&nbsp;Es kommen die Werte des Standard-Codesystems&nbsp;<a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/codesystem-communication-topic/">https://www.hl7.org/fhir/codesystem-communication-topic.html</a>&nbsp;zur Anwendung.</span></p> 
+  <p id="polarion_216"><span style="font-size: 10pt;line-height: 1.5;">Für die Nutzerführung im E-Rezept-FdV ist es wichtig zu erkennen, ob es sich um eine automatisierte Antwort oder bspw. die Bitte um Rückruf handelt. Hierfür kann optional das Feld Communication.topic verwendet werden.&nbsp;Es kommen die Werte des Standard-Codesystems&nbsp;<a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/codesystem-communication-topic.html">https://www.hl7.org/fhir/codesystem-communication-topic.html</a>&nbsp;zur Anwendung.</span></p> 
   <p id="polarion_294"><span style="font-size: 10pt;line-height: 1.5;"></span></p> 
   <p id="polarion_223"></p> 
   <div id="A_19332">
@@ -1625,7 +1627,7 @@ ol:first-of-type {
      <li><span style="font-size: 10pt;line-height: 1.5;">Textnachricht in <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">payload contentString</span>&nbsp;<br></span></li>
      <li><span style="font-size: 10pt;line-height: 1.5;">optional: verfügbare Belieferungsoptionen&nbsp;["Apotheke", "Bote", "Versand"] der Apotheke&nbsp;</span></li>
      <li><span style="font-size: 10pt;line-height: 1.5;">optional: Verfügbarkeitsstatus gemäß <span style="color: #333333;">ValueSet 'AvailabilityStatusVS' [10, 20, ..., 90]</span></span></li>
-     <li><span style="font-size: 10pt;color: #333333;line-height: 1.5;">optional: Communication.topic mit Code gemäß <a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/codesystem-communication-topic/">https://www.hl7.org/fhir/codesystem-communication-topic.html</a>&nbsp;zur Kennzeichnung des Inhalts ("phone-consult", o.ä.)</span></li>
+     <li><span style="font-size: 10pt;color: #333333;line-height: 1.5;">optional: Communication.topic mit Code gemäß <a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/codesystem-communication-topic.html">https://www.hl7.org/fhir/codesystem-communication-topic.html</a>&nbsp;zur Kennzeichnung des Inhalts ("phone-consult", o.ä.)</span></li>
     </ul>erstellen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_143">Für die Spezifikation der&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Communication</span>&nbsp;Ressource siehe [gemSpec_DM_eRp].</p> 
@@ -1910,7 +1912,7 @@ ol:first-of-type {
     <tr>
      <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task-ID</td>
      <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">POST /Task/$create</span>)<br></td>
-     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://hl7.org/fhir/http/">https://hl7.org/fhir/http.html</a>&nbsp;</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://hl7.org/fhir/http.html">https://hl7.org/fhir/http.html</a>&nbsp;</td>
     </tr>
     <tr>
      <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AccessCode</td>
@@ -2218,7 +2220,7 @@ ol:first-of-type {
     </tr>
     <tr>
      <td style="text-align: left;vertical-align: top;width: 142.727px;height: 37.2727px;border: 1px solid #CCCCCC;padding: 3px;">[BMV-Z]</td>
-     <td style="text-align: left;vertical-align: top;width: 588.182px;height: 37.2727px;border: 1px solid #CCCCCC;padding: 3px;">Bundesmantelvertrag - Zahnärzte<br> <a class="descriptionLink" target="_top" href="https://www.kzbv.de/bundesmantelvertrag.1223.de/">https://www.kzbv.de/bundesmantelvertrag.1223.de.html</a>&nbsp;</td>
+     <td style="text-align: left;vertical-align: top;width: 588.182px;height: 37.2727px;border: 1px solid #CCCCCC;padding: 3px;">Bundesmantelvertrag - Zahnärzte<br> <a class="descriptionLink" target="_top" href="https://www.kzbv.de/bundesmantelvertrag.1223.de.html">https://www.kzbv.de/bundesmantelvertrag.1223.de.html</a>&nbsp;</td>
     </tr>
     <tr>
      <td style="text-align: left;vertical-align: top;width: 142.727px;height: 37.2727px;border: 1px solid #CCCCCC;padding: 3px;">[ExpBack]</td>

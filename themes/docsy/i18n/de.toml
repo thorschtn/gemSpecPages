@@ -44,7 +44,8 @@ other = "Quellcode dieser Seite ansehen"
 [post_create_child_page]
 other = "Unterseite anlegen"
 [post_create_issue]
-other = "Problem zu dieser Seite melden"
+# other = "Problem zu dieser Seite melden"
+other = "Dieses Dokument kommentieren"
 [post_create_project_issue]
 other = "Problem melden"
 [post_posts_in]
@@ -62,7 +63,9 @@ other = "Druckvorgang starten"
 [print_show_regular]
 other = "Zur Standardansicht zurückkehren"
 [print_entire_section]
-other = "Kapitel inkl. Unterseiten drucken"
+#other = "Kapitel inkl. Unterseiten drucken"
+other = "Druckansicht"
+
 
 # Community
 [community_join]

@@ -40,6 +40,8 @@ ol:first-of-type {
   counter-reset: mycounter;
 } */
 
+@media print { h1, h2 { break-before: page; } }
+
 
 </style>
   <meta charset="utf-8">
@@ -68,7 +70,7 @@ ol:first-of-type {
      </tr>
      <tr>
       <td>Revision</td>
-      <td>588744</td>
+      <td>604178</td>
      </tr>
      <tr>
       <td>Stand</td>
@@ -89,7 +91,7 @@ ol:first-of-type {
     </table></pre>
   </div>
   <p id="polarion_13"><br></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=konnektorPTV5Maintenance-30512">Dokumentinformationen</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=IDPMaintenance232-290">Dokumentinformationen</h1>
   <p id="polarion_18"><span style="font-weight: bold;">Änderungen zur Vorversion</span></p>
   <p id="polarion_19">Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen.</p>
   <p id="polarion_384"></p>
@@ -309,12 +311,12 @@ ol:first-of-type {
    </tbody>
   </table>
   <p id="polarion_79"></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=konnektorPTV5Maintenance-30513">Inhaltsverzeichnis</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=IDPMaintenance232-291">Inhaltsverzeichnis</h1>
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=konnektorPTV5Maintenance-30512">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=konnektorPTV5Maintenance-30513">Inhaltsverzeichnis</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=IDPMaintenance232-290">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=IDPMaintenance232-291">Inhaltsverzeichnis</a></li>
    <li> : <a href="#1">1 Einführung</a></li>
    <li> : : <a href="#1.1">1.1 Zielsetzung und Einordnung des Dokuments</a></li>
    <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
@@ -1276,31 +1278,32 @@ ol:first-of-type {
   <p id="polarion_222">Für eine verbesserte Interoperabilität zu bestimmten TLS-Implementierungen (bspw. SChannel, vgl. auch ( <a class="descriptionLink" target="_blank" href="https://en.wikipedia.org/wiki/Comparison_of_TLS_implementations">https://en.wikipedia.org/wiki/Comparison_of_TLS_implementations</a>&nbsp;bzw. <a class="descriptionLink" target="_blank" href="https://www.ssllabs.com/ssltest/clients.html">https://www.ssllabs.com/ssltest/clients.html</a>) sollen im Konnektor zusätzlich zu den Cipher-Suiten aus GS-A_4384-* weitere Cipher-Suiten unterstützt werden. Mit der mittelfristigen Anhebung des zu erreichenden Sicherheitsniveaus auf 120 Bit (vgl. [SOG-IS-2020] und [BSI-TR-03116-1]) werden die folgenden Cipher-Suiten mittelfristig verpflichtend. In diesem Kontext spielt die Performanz (3000 Bit Diffie-Hellman vs. 256 Bit Elliptic Curve Diffie-Hellman) bei Embedded-Geräten wie dem Konnektor eine wichtige Rolle.</p>
   <div id="GS-A_5345-01">
    <p><b>GS-A_5345-01 - TLS-Verbindungen Konnektor</b></p>
-   <p>Der Konnektor MUSS für die TLS gesicherten Verbindungen neben den in [gemSpec_Krypt#GS-A_4384-*]<span id="polarion-comment:474"></span> aufgeführten Ciphersuiten folgende Vorgaben umsetzen:<br> <br> 
-    <ol> 
-     <li>Der Konnektor MUSS zusätzlich folgende Ciphersuiten unterstützen:<br> </li> 
-    </ol> 
-    <div style="margin-left: 2em;"> 
-     <ul> 
-      <li><span style="font-size: 10pt;line-height: 1.5;">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xC0, 0x27)<span style="font-family: Arial, Helvetica, sans-serif;">,</span><br> </span></li> 
-      <li><span style="font-size: 10pt;line-height: 1.5;">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xC0, 0x28)<span style="font-family: Arial, Helvetica, sans-serif;">,</span><br> </span></li> 
-      <li><span style="font-size: 10pt;line-height: 1.5;">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xC0, 0x2f) <span style="font-family: Arial, Helvetica, sans-serif;">und</span><br> </span></li> 
-      <li><span style="font-size: 10pt;line-height: 1.5;">TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xC0, 0x30)<span style="font-family: Arial, Helvetica, sans-serif;">.</span><br> </span></li> 
-     </ul> 
-    </div> 
-    <ol class="continue"> 
-     <li>Der Konnektor KANN <span style="color: #000000;">weitere Ciphersuiten aus [TR-02102-2, Abschnitt 3.3.1 Tabelle 1] unterstützen.</span><br> </li> 
-     <li><span style="color: #000000;">Falls Ciphersuiten aus Spiegelstrich (1) oder (2) unterstützt werden,</span><br> </li> 
-     <ol> 
-      <li><span style="color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;MÜSSEN bei dem ephemeren Elliptic-Curve-Diffie-Hellman-Schlüsselaustausch die Kurven P-256 und P-384 [FIPS-186-4] unterstützt werden,</span><br> </li> 
-      <li><span style="color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;MÜSSEN die Kurven brainpoolP256r1 und brainpoolP384r1 (vgl. [RFC-5639] und [RFC-7027]) unterstützt werden.</span><br> </li> 
-     </ol> 
-    </ol> 
-    <div style="margin-left: 40px;"> 
-     <span style="color: #000000;">&nbsp;&nbsp; Andere Kurven SOLLEN NICHT verwendet werden.</span> 
-    </div> 
-    <ol class="continue"> 
-     <li><span style="color: #000000;">Falls Ciphersuiten aus (1) oder (2) unterstützt werden, so MÜSSEN diese im CC-Zertifizierungsverfahren berücksichtigt werden.</span><br> </li> 
+   <p>Der Konnektor MUSS für die TLS gesicherten Verbindungen neben den in [gemSpec_Krypt#GS-A_4384-*] aufgeführten Ciphersuiten folgende Vorgaben umsetzen:<br> <br> 
+    <ol>
+     <li>Der Konnektor MUSS zusätzlich folgende Ciphersuiten unterstützen:<br></li>
+    </ol>
+    <div style="margin-left: 2em;">
+     <ul>
+      <li><span style="font-size: 10pt;line-height: 1.5;">TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xC0, 0x27)<span style="font-family: Arial, Helvetica, sans-serif;">,</span><br></span></li>
+      <li><span style="font-size: 10pt;line-height: 1.5;">TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xC0, 0x28)<span style="font-family: Arial, Helvetica, sans-serif;">,</span><br></span></li>
+      <li><span style="font-size: 10pt;line-height: 1.5;">TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xC0, 0x2f) <span style="font-family: Arial, Helvetica, sans-serif;">und</span><br></span></li>
+      <li><span style="font-size: 10pt;line-height: 1.5;">TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xC0, 0x30)<span style="font-family: Arial, Helvetica, sans-serif;">.</span><br></span></li>
+     </ul>
+    </div>
+    <ol class="continue">
+     <li>Der Konnektor KANN <span style="color: #000000;">weitere Ciphersuiten aus [TR-02102-2, Abschnitt 3.3.1 Tabelle 1] unterstützen.</span><br></li>
+     <li><span style="color: #000000;">Falls Ciphersuiten aus Spiegelstrich (1) oder (2) unterstützt werden,</span><br></li>
+     <li style="list-style: none">
+      <ol>
+       <li><span style="color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;MÜSSEN bei dem ephemeren Elliptic-Curve-Diffie-Hellman-Schlüsselaustausch die Kurven P-256 und P-384 [FIPS-186-4] unterstützt werden,</span><br></li>
+       <li><span style="color: #000000;">&nbsp;&nbsp;&nbsp;&nbsp;MÜSSEN die Kurven brainpoolP256r1 und brainpoolP384r1 (vgl. [RFC-5639] und [RFC-7027]) unterstützt werden.</span><br></li>
+      </ol></li>
+    </ol>
+    <div style="margin-left: 40px;">
+     <span style="color: #000000;">&nbsp;&nbsp; Andere Kurven SOLLEN NICHT verwendet werden.</span>
+    </div>
+    <ol class="continue">
+     <li><span style="color: #000000;">Falls Ciphersuiten aus (1) oder (2) unterstützt werden, so MÜSSEN diese im CC-Zertifizierungsverfahren berücksichtigt werden.</span><br></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
   <div id="A_23226-01">
@@ -1319,7 +1322,7 @@ ol:first-of-type {
   <p id="polarion_50">Erläuterung: Eine&nbsp;andere Anwendung des Gesundheitswesens ohne Zugriff auf Dienste der TI in angeschlossenen Netzen des Gesundheitswesens (WANDA Basic) muss beim TLS-basierten Nachrichtentransport durch die TI nach [TR-02102-2] sichere Cipher-Suiten und Domainparameter verwenden. Für solch eine Anwendung ist eine die Interoperabilität mit TI-Diensten sicherstellende Einschränkung der Cipher-Suiten und Domainparameter nach GS-A_4384-* und A_17124-* nicht notwendig, d. h. beide Anforderungen gelten nicht für solche Anwendungen, sondern A_18183 gilt.</p>
   <div id="A_18986">
    <p><b>A_18986 - Fachdienst-interne TLS-Verbindungen</b></p>
-   <p>Alle Produkttypen, die Übertragungen mittels TLS durchführen, die nur innerhalb ihres Produkttypen verlaufen (bspw. ePA-Aktensystem interne TLS-Verbindungen zwischen dem Zugangsgateway und der Komponente Authentisierung), KÖNNEN für diese TLS-Verbindungen neben den in GS-A_4384-* und ggf. A_17124-* <span id="polarion-comment:477"></span>festgelegten TLS-Vorgaben ebenfalls alle weiteren in [TR-02102-2] empfohlenen TLS-Versionen und TLS-Ciphersuiten mit den jeweiligen in [TR-02102-2] dafür aufgeführten Domainparametern (Kurven, Schlüssellängen etc.) verwenden. <b>[&lt;=]</b></p>
+   <p>Alle Produkttypen, die Übertragungen mittels TLS durchführen, die nur innerhalb ihres Produkttypen verlaufen (bspw. ePA-Aktensystem interne TLS-Verbindungen zwischen dem Zugangsgateway und der Komponente Authentisierung), KÖNNEN für diese TLS-Verbindungen neben den in GS-A_4384-* und ggf. A_17124-* festgelegten TLS-Vorgaben ebenfalls alle weiteren in [TR-02102-2] empfohlenen TLS-Versionen und TLS-Ciphersuiten mit den jeweiligen in [TR-02102-2] dafür aufgeführten Domainparametern (Kurven, Schlüssellängen etc.) verwenden. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_192">Erläuterung: A_18986 ”befreit” Produkttypen-interne TLS-Verbindungen von der Beschränkung auf die Vorgaben von GS-A_4384-* und ggf. A_17124-* und erweitert diese Vorgaben auf die Gesamtheit der in [TR-02102-2] empfohlenen TLS-Konfigurationen.</p>
   <p id="polarion_39">Hinweis: In Abschnitt "<span data-scope="Mainline_OPB1" data-option-id="longoutline" data-item-id="ML-93951" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;" gibt es weitere TLS-Vorgaben.</p>

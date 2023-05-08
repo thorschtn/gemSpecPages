@@ -40,6 +40,8 @@ ol:first-of-type {
   counter-reset: mycounter;
 } */
 
+@media print { h1, h2 { break-before: page; } }
+
 
 </style>
   <meta charset="utf-8">
@@ -92,7 +94,7 @@ ol:first-of-type {
     </table></pre>
   </div>
   <p id="polarion_16"></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-1974">Dokumentinformationen</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-9181">Dokumentinformationen</h1>
   <p id="polarion_21"><span style="font-weight: bold;">Änderungen zur Vorversion</span></p>
   <p id="polarion_22">Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen.</p>
   <p id="polarion_23"></p>
@@ -137,12 +139,12 @@ ol:first-of-type {
    </tbody>
   </table>
   <p id="polarion_27"></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-1975">Inhaltsverzeichnis</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-9182">Inhaltsverzeichnis</h1>
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-1974">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-1975">Inhaltsverzeichnis</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-9181">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-9182">Inhaltsverzeichnis</a></li>
    <li> : <a href="#1">1 Einordnung des Dokumentes</a></li>
    <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
    <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
@@ -551,7 +553,7 @@ ol:first-of-type {
   </div>
   <p id="polarion_317"></p>
   <h6 id="6.7.2.2.3">6.7.2.2.3 Lokale Initialisierung des Geräts</h6>
-  <div class="heading-7" id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-2007"></div>
+  <div class="heading-7" id="polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-9214"></div>
   <div id="A_21576">
    <p><b>A_21576 - Löschung bestehender alternativer Authentisierungsmittel</b></p>
    <p>Sofern für das verwendete Gerät und Nutzer bereits ein alternatives Authentisierungsmittel registriert ist, MUSS das Authenticator-Modul den Nutzer zur Deregistrierung der Pairing-Daten auffordern. Der Nutzer MUSS jederzeit die Möglichkeit haben, ein von ihm registriertes alternatives Authentisierungsmittel zu erneuern. <b>[&lt;=]</b></p>
@@ -566,7 +568,7 @@ ol:first-of-type {
   </div>
   <p id="polarion_308"><span style="font-style: italic;">Hinweis: Die Anforderung adressiert keine faktische funktionale Prüfung, sondern eine vorab durchgeführte Auswertung von Informationen, die über Betriebssystem-APIs bereitgestellt werden.</span></p>
   <p id="polarion_318"></p>
-  <div class="heading-7" id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-2008"></div>
+  <div class="heading-7" id="polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-9215"></div>
   <div id="A_21579">
    <p><b>A_21579 - Sicherstellung des Vorliegens einer geeigneten Umgebung für Schlüsselerzeugung, Anwendung und Speicherung</b></p>
    <p>Das Authenticator-Modul MUSS sicherstellen, dass die Erzeugung des Schlüsselpaares PrK_SE_AUT/PuK_SE_AUT, dessen Speicherung, Anwendung und die Löschung des PrK_SE_AUT ausschließlich&nbsp;durch eine gesonderte, vertrauenswürdige Ausführungsumgebung erfolgt, die 
@@ -702,7 +704,7 @@ ol:first-of-type {
    <p>Das Authenticator-Modul MUSS die Parameter für die Erzeugung des Schlüsselpaars PrK_SE_AUT/PuK_SE_AUT so setzen, dass sichergestellt ist, dass der Schlüssel PrK_SE_AUT ausschließlich zum Zweck der Signaturbildung auf Daten angewendet werden kann.&nbsp; <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_326"></p>
-  <div class="heading-7" id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-2009"></div>
+  <div class="heading-7" id="polarion_wiki macro name=module-workitem;params=id=releaseSektoralerIDP-9216"></div>
   <div id="A_21588">
    <p><b>A_21588 - Erzeugung eines Key-Identifiers für das Schlüsselpaar PrK_SE_AUT/PuK_SE_AUT gegenüber dem IdP-Dienst</b></p>
    <p>Das Authenticator-Modul MUSS einen Key-Identifier zur Identifikation des Schlüsselpaars PrK_SE_AUT/PuK_SE_AUT gegenüber dem IdP-Dienst erzeugen. Der Key-Identifier MUSS so erzeugt werden, dass die Erzeugung ein und desselben Identifiers über verschiedene Geräte eines Nutzers mit hoher Wahrscheinlichkeit ausgeschlossen ist. Der Key-Identifier MUSS zufällig erzeugt werden. Er DARF NICHT aus Nutzer- oder Gerätedaten abgeleitet werden. Der zum IdP-Dienst übertragene Key-Identifier MUSS eine Länge von 32 Byte besitzen. Der Wert KANN zur Referenzierung des PrK_SE_AUT im lokalen Schlüsselspeicher verwendet werden. Der Key-Identifier selbst oder ein Datenobjekt, aus dem er abgeleitet werden kann, MUSS auf dem Endgerät gespeichert werden. Der Key-Identifier selbst oder das Datenobjekt MUSS gegen Löschung und anwendungsübergreifende Verwendung geschützt sein. <b>[&lt;=]</b></p>

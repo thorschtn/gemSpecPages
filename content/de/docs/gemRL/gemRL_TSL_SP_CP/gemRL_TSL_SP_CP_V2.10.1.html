@@ -40,6 +40,8 @@ ol:first-of-type {
   counter-reset: mycounter;
 } */
 
+@media print { h1, h2 { break-before: page; } }
+
 
 </style>
   <meta charset="utf-8">
@@ -66,7 +68,7 @@ ol:first-of-type {
      </tr>
      <tr>
       <td>Revision</td>
-      <td>548770</td>
+      <td>592334</td>
      </tr>
      <tr>
       <td>Stand</td>
@@ -87,7 +89,7 @@ ol:first-of-type {
     </table></pre> 
   </div>
   <p id="polarion_15"></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-9456">Dokumentinformationen</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1520">Dokumentinformationen</h1>
   <p id="polarion_20">Object Identifier (OID) dieser Version des Dokumentes:</p>
   <p id="polarion_21" style="text-align: center;">1.2.276.0.76.4.163</p>
   <p id="polarion_22">Soll die OID in anderen Dokumenten versionsunabhängig referenziert werden, so ist die Kennung oid_policy_gem_or_cp zu verwenden. Die Ermittlung der relevanten OID ist dann über das Dokument [gemSpec_OID] möglich.</p>
@@ -194,12 +196,12 @@ ol:first-of-type {
    </tbody> 
   </table>
   <p id="polarion_17"></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-9457">Inhaltsverzeichnis</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1521">Inhaltsverzeichnis</h1>
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-9456">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-9457">Inhaltsverzeichnis</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1520">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=HighspeedKonnektorPTV1110-1521">Inhaltsverzeichnis</a></li>
    <li> : <a href="#1">1 Einordnung des Dokumentes</a></li>
    <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
    <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
@@ -602,17 +604,17 @@ ol:first-of-type {
    <p><b>A_20973 - Unveränderbarkeit der Versandadresse</b></p>
    <p>Ein Anbieter HBA und ein Anbieter SMC-B MUSS sicherstellen, dass während des Gesamtprozesses der Kartenherausgabe eine Veränderung der Versandadresse, welche im Rahmen der Antragstellung angegeben wurde, ausgeschlossen ist. <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_48"> Sollte eine Zustellung nach A_20971-01 fehlschlagen, darf der Anbieter zur Vermeidung eines Neustarts des Prozesses (inkl. Sperrung und Vernichtung der nicht zugestellten Karte) auf eine ihm bereits bekannte, verifizierte und eindeutig zum Antragsteller zugehörige Adresse ausweichen. Dies kann unter anderem die Meldeadresse (gemäß Ausweisdokument) bei HBA oder die Betriebsanschrift (z.B. Krankenhaus/Apotheke/Praxis) bei SMC-B sein. </p>
+  <p id="polarion_48">Sollte eine Zustellung nach A_20971-01 fehlschlagen, darf der Anbieter zur Vermeidung eines Neustarts des Prozesses (inkl. Sperrung und Vernichtung der nicht zugestellten Karte) auf eine ihm bereits bekannte, verifizierte und eindeutig zum Antragsteller zugehörige Adresse ausweichen. Dies kann unter anderem die Meldeadresse (gemäß Ausweisdokument) bei HBA oder die Betriebsanschrift (z.B. Krankenhaus/Apotheke/Praxis) bei SMC-B sein.</p>
   <div id="A_21956">
    <p><b>A_21956 - Beschränkung der Versandadresse</b></p>
    <p>Ein Anbieter HBA und ein Anbieter SMC-B KANN in Abstimmung mit dem Kartenherausgeber die Versandadresse auf spezifische Adresstypen, wie z.B. Meldeadresse, Praxisadresse etc., beschränken. Die Verifikation der Adresse erfolgt dabei in einem zwischen Anbieter und Herausgeber abgestimmten Verfahren. <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_66"> Wird von der Beschränkung der Versandadresse Gebrauch gemacht, so gilt diese Beschränkung auch für das Ausweichen auf eine verifizierte Adresse gemäß A_20973.<span style="font-size: 11pt;line-height: 1.5;"></span> </p>
+  <p id="polarion_66">Wird von der Beschränkung der Versandadresse Gebrauch gemacht, so gilt diese Beschränkung auch für das Ausweichen auf eine verifizierte Adresse gemäß A_20973.</p>
   <div id="A_21957">
    <p><b>A_21957 - Explizite Aktivierung</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Ein Anbieter HBA und ein Anbieter SMC-B MUSS sicherstellen, dass ein HBA oder eine SMC-B nur aktiviert werden kann, wenn der Empfänger Kenntnis eines Shared Secrets hat, welche ausschließlich im Antragsprozess erlangt werden kann.&nbsp;</span> <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_49"> Der Anbieter muss sicherstellen, dass das Shared Secret nicht aus anderen Daten des Antragsprozesses oder aus öffentlichen Daten errechnet oder auf andere Weise abgeleitet werden kann.<span style="font-size: 11pt;line-height: 1.5;"></span> </p>
+  <p id="polarion_49">Der Anbieter muss sicherstellen, dass das Shared Secret nicht aus anderen Daten des Antragsprozesses oder aus öffentlichen Daten errechnet oder auf andere Weise abgeleitet werden kann.</p>
   <div id="A_20966">
    <p><b>A_20966 - Sicherheit des Gesamtprozesses</b></p>
    <p>Im Gesamtprozess der Kartenherausgabe MUSS ein Anbieter HBA und Anbieter SMC-B&nbsp;sicherstellen, dass private Schlüssel vor der Verwendung durch unberechtigte Dritte geschützt werden.&nbsp; <b>[&lt;=]</b></p>
@@ -626,7 +628,7 @@ ol:first-of-type {
    <p><b>A_21958 - Überschreitung des Gültigkeitsdatums einer Identifikation</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Eine Identifikation des Zertifikatsinhabers nach A_20112-03 MUSS spätestens nach 5 Jahren wiederholt werden. Ein Anbieter HBA und Anbieter SMC-B MUSS sicherstellen, dass eine im Feld befindliche Karte, deren Gültigkeitszeitraum die 5 Jahre nach Identifikation um mehr als 3 Monate übersteigt, entweder gesperrt oder der Zertifikatsinhaber erneut identifiziert wird.</span> <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_29"> Insbesondere bei Ausgabe von Ersatz- und Austauschkarten, mit einer erneuten Gültigkeit von 5 Jahren, kann die Gültigkeit der Karte die Wiederholungsfrist der Identifikation übersteigen. Eine erneute Identifikation gemäß A_20112-03 ohne erneute Ausstellung bzw. Zusendung einer neuen Karte wird explizit vorgesehen.&nbsp;Auch bei regulären Nachfolgekarten kann eine Überschreitung des Gültigkeitszeitraums der Identifikation auftreten.&nbsp; </p>
+  <p id="polarion_29">Insbesondere bei Ausgabe von Ersatz- und Austauschkarten, mit einer erneuten Gültigkeit von 5 Jahren, kann die Gültigkeit der Karte die Wiederholungsfrist der Identifikation übersteigen. Eine erneute Identifikation gemäß A_20112-03 ohne erneute Ausstellung bzw. Zusendung einer neuen Karte wird explizit vorgesehen.&nbsp;Auch bei regulären Nachfolgekarten kann eine Überschreitung des Gültigkeitszeitraums der Identifikation auftreten.&nbsp;</p>
   <div id="A_21478">
    <p><b>A_21478 - Ausgabe von Ersatzkarten</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Bei Verlust, Defekt oder Kompromittierung eines HBA oder einer SMC-B DARF der Anbieter HBA oder Anbieter SMC-B eine Ersatzkarte auf Basis der ursprünglichen Antragsdaten und der ursprünglich erteilten Produktionsfreigabe und Bestätigung des Berufsgruppenattributes und somit anhand der identischen Personenstammdaten, Adressdaten und Berufsattributen ausstellen. Ein Anbieter HBA oder Anbieter SMC-B informiert den Kartenherausgeber anhand einer eindeutigen Referenz der ursprünglichen Bestellung (z.B. Vorgangsnummer oder Bestellnummer) über die Produktion der Ersatzkarte.<span id="polarion-comment:162"></span></span> <b>[&lt;=]</b></p>
@@ -2489,7 +2491,7 @@ ol:first-of-type {
    <p><b>GS-A_4332 - Dokumentation der Pflichten des Antragstellers eines Komponentenzertifikats</b></p>
    <p><p style="margin-left: 0px;"><span>Ein TSP-X.509 nonQES MUSS die Verantwortlichkeiten eines Antragstellers hin</span><span>sicht</span><span>lich des korrekten Umgangs mit den Komponentenzertifikaten durch den Zertifi</span><span>kats</span><span>nehmer doku</span><span>mentieren und dem Antragsteller mitteilen.</span></p> <b>[&lt;=]</b></p>
   </div>
-  <p id="polarion_386"> Ergänzend zu Abschnitt 5.6 gelten zusätzlich folgende Anforderungen hinsichtlich der Zertifikatserneuerung bei einem TSP-X.509 nonQES für Komponentenzertifikate (gSMC-K): </p>
+  <p id="polarion_386">Ergänzend zu Abschnitt 5.6 gelten zusätzlich folgende Anforderungen hinsichtlich der Zertifikatserneuerung bei einem TSP-X.509 nonQES für Komponentenzertifikate (gSMC-K):</p>
   <div id="A_21764">
    <p><b>A_21764 - Erneuerung von Zertifikaten der gSMC-K</b></p>
    <p>Ein TSP-X.509 nonQES für Komponenten MUSS Zertifikate der gSMC-K (C.NK.VPN, C.AK.AUT und C.SAK.AUT) auf Basis des ursprünglich eingereichten CSR bzw. der zuvor ausgestellten Zertifikate erneuern können. <b>[&lt;=]</b></p>
