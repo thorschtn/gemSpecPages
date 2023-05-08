@@ -13,7 +13,6 @@ menu:
 The database contains selected documents (requirement documents and specifications) from Q1/2023!
 
 ToDo:
-- Bug Fix: Occasionally missing images.
 - Layout improvements (e.g. tables).
 - Add document titles (Spec and ProdT) on overview pages.
 - Remove the limit on the number of menu entries (Specs).
