@@ -10,17 +10,7 @@ menu:
 
 <h2>Proof of Concept!</h2>
 
-The database contains selected documents (requirement documents and specifications) from Q1/2023!
-
-ToDo:
-- Layout improvements (e.g. tables).
-- Add document titles (Spec and ProdT) on overview pages.
-- Remove the limit on the number of menu entries (Specs).
-- Simplify the URL structure (Redirects).
-
-<h2>Hello World.</h2>
-
-Welcome to the proof of concept for web-based publication of gematik specifications.
+Welcome to the proof of concept for web-based publication of gematik specifications. The database contains selected documents (requirement documents and specifications) from Q1/2023! Testdata only!
 
 **Github Repository**
 
