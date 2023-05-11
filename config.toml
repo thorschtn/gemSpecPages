@@ -124,7 +124,7 @@ github_repo = "https://github.com/thorschtn/gemSpecPages/"
 github_branch= "master"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "c7ca7466fd64f4aaf"
+#gcs_engine_id = "c7ca7466fd64f4aaf"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
