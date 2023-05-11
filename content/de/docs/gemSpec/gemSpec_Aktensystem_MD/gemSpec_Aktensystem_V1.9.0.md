@@ -1,3 +1,9 @@
+---
+layout: page
+title: gemSpec_Aktensystem_V1.9.0
+#linkTitle: gemSpec_Aktensystem_V1.9.0
+categories: [Spezifikation]
+---
 
 Elektronische Gesundheitskarte und Telematikinfrastruktur
 
