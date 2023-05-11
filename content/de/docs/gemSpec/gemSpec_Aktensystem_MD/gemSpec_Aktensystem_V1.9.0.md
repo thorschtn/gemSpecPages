@@ -197,6 +197,21 @@ Einarbeitung Änderungsliste ePA_Maintenance_21.4 und ePA_Maintenance_21.5
 </td><td>
 gematik
 
+</td></tr><tr><td>
+1.9.1
+
+</td><td>
+12.05.23
+
+</td><td>
+0
+
+</td><td>
+Testdaten SE Workshop
+
+</td><td>
+gematik
+
 </td></tr></table>
 
 ### Inhaltsverzeichnis
@@ -251,7 +266,7 @@ gematik
 
 Die vorliegende Spezifikation definiert die übergreifenden Anforderungen zu
 Herstellung, Test und Betrieb des Produkttyps ePA-Aktensystem. Hierbei handelt
-es sich insbesondere um übergreifende technische Anforderungen, die von allen
+es sich insbesondere um übergreifende technische Requirements, die von allen
 Komponenten gleichermaßen umzusetzen sind, um organisatorische Anforderungen
 gegen den Anbieter des ePA-Aktensystems, die für die Realisierung der
 Anwendungsfälle zur Aktenkontoverwaltung benötigt werden, und um
