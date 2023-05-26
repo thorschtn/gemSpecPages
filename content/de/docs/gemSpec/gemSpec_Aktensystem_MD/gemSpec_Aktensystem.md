@@ -1,7 +1,7 @@
 ---
 layout: page
-title: gemSpec_Aktensystem_V1.9.3
-#linkTitle: gemSpec_Aktensystem_V1.9.3
+title: gemSpec_Aktensystem_V1.52.0
+#linkTitle: gemSpec_Aktensystem_V1.52.0
 categories: [Spezifikation]
 ---
 
@@ -11,10 +11,10 @@ Elektronische Gesundheitskarte und Telematikinfrastruktur
 
 - Klassifizierung: öffentlich
 - Referenzierung: gemSpec_Aktensystem
-- Revision: 588744
-- Stand: 24.05.2022
+- Revision: 548770
+- Stand: 01.12.2022
 - Status: freigegeben
-- Version: 1.9.3
+- Version: 1.52.0
 
 ### Dokumentinformationen
 
@@ -216,13 +216,24 @@ Einarbeitung Änderungsliste ePA_Maintenance_22.1
 gematik
 
 </td></tr><tr><td>
-1.9.2
+1.50.0
 
 </td><td>
-11.04.22
+13.04.22
 
 </td><td>
-5.7
+ePA-Stufe 2.5:
+
+gemF_ePA_FDZ_Anbindung
+
+</td><td>
+gematik
+
+</td></tr><tr><td>
+1.50.1
+
+</td><td>
+23.05.22
 
 </td><td>
 Einarbeitung Kommentierung
@@ -231,16 +242,28 @@ Einarbeitung Kommentierung
 gematik
 
 </td></tr><tr><td>
-1.9.3
+1.51.0
 
 </td><td>
-24.05.22
+25.07.22
 
 </td><td>
-5.7
+Änderungsliste ePA_Maintenance_22.2
 
 </td><td>
-Anpassung der Kommentierungseinarbeitung
+gematik
+
+</td></tr><tr><td>
+1.52.0
+
+</td><td>
+01.12.22
+
+</td><td>
+5.6
+
+</td><td>
+Einarbeitung Änderungsliste ePA_Maintenance_22.3
 
 </td><td>
 gematik
@@ -487,7 +510,7 @@ Falls ein Anbieter eines ePA-Aktensystems und ein Anbieter eines
 Signaturdienstes den Versicherten eine gemeinsame Kontaktstelle (z.B.
 User-Help-Desk) sowohl für Anfragen zum ePA-Aktensystem als auch zum
 Signaturdienst anbieten, MÜSSEN sowohl der Anbieter des ePA-Aktensystems als
-auch der Anbieter des Signaturdienstes folgendes dokumentieren,
+auch der Anbieter des Signaturdienstes folgendes dokumentieren:
 
  ---> UL
 
@@ -811,7 +834,7 @@ epa.anbieter2.de.
 _1-2-276-0-76-3-1-99._gwvers._tcp.epa.telematik. 86400 IN
 TXT „txtvers=1“ „hcid=1.2.276.0.76.3.1.99“ „name=AnbierKK2“
 
-**A_14128-02 - Anbieter ePA-Aktensystem - Resource Records FQDN ePA**
+**A_14128-03 - Anbieter ePA-Aktensystem - Resource Records FQDN ePA**
 
 Der Anbieter des ePA-Aktensystems MUSS in den Nameservern Internet die Resource
 Records gemäß nachstehender Tabelle verwalten.
@@ -839,8 +862,8 @@ TXT Resource Records zur Ermittlung der Aufruf-Schnittstellen der jeweiligen
 Module des ePA-Aktensystems. Alle für die Adressierung dieser Module
 benötigten Resource Records MÜSSEN bereitgestellt werden und deren
 Zugehörigkeit zum Aktensystem des Anbieters durch Clients (ePA-Frontend des
-Versicherten, Fachmodul ePA) eindeutig zu erkennen sein. Die in den Klammern
-angegebenen Kürzel MÜSSEN für das jeweilige Modul verwendet werden.
+Versicherten) eindeutig zu erkennen sein. Die in den Klammern angegebenen
+Kürzel MÜSSEN für das jeweilige Modul verwendet werden.
 
  ---> UL
 
@@ -863,7 +886,9 @@ Klammern dienen der Abgrenzung eines Wertes):
 
 "sgd1=/\<pfad_Schlüsselgenerierungsdienst_typ1\>/"
 
-"sgd2=/\<pfad_Schlüsselgenerierungsdienst_typ2\>/"
+"sgd2=/\<pfad_Schlüsselgenerierungsdienst_typ2\>/" 
+
+"proxy=/\<pfad_transport_proxy\>/"
 
 </td></tr></table>
 
@@ -873,6 +898,30 @@ Beispiel zur Dienstlokalisierung im Internet-DNS:*.epa1.de. IN
 A \<IP-Adresse\>*.epa1.de. TTL IN TXT "txtvers=1" "hcid=1.2.276.0.76.3.1.99"
 "authn=/authn/" "authz=/authz/" "avzd=/avzd/" "docv=/docv/" "ocspf=/ocspf/"
 "sgd1=/SGD1/" "sgd2=/SGD2/"ggf. weitere Records für SRV, NS
+
+**A_22688 - Anbieter ePA-Aktensystem, Konfiguration Schnittstellen über
+/.well-known/**
+
+Der Anbieter des ePA-Aktensystems MUSS an seinen Zugangsgateway des Versicherten
+die Schnittstellenkonfiguration aus A_14128-* über den URL-Pfadnamen (bwz. die
+Datei) /.well-known/epa-configuration.json eine JSON-Repräsentation aller
+dieser Attribute (vgl. A_14128-*) verfügbar machen.D. h. der Aufrufende
+(ePA-FdV) MUSS wenn er diesen Pfad per HTTP-GET abfragt ein JSON-Objekt (also
+Content-Type "application/json") vom Zugangsgateway des Versicherten erhalten
+der Art{  
+    "ocspf" : "...Wert1...",  
+    "hcid"  : "...Wert2...", 
+
+    "authn" : "...Wert3...",  
+    "authz" : "...Wert4...",  
+    .... 
+
+} **[\<=]**
+
+**A_22687 - Aktensystem, Konfiguration Schnittstellen über /.well-known/**
+
+Das ePA-Aktensystem MUSS sicherstellen, dass dem Anbieter des ePA-Aktensystems
+die technische Möglichkeit bereitgestellt wird A_22688-* umzusetzen. **[\<=]**
 
 **A_17969-04 - Anbieter ePA-Aktensystem - Schnittstellenadressierung**
 
@@ -965,7 +1014,7 @@ mehr die Protokolle aus der Dokumentenverwaltung zur Verfügung.
 
 **A_21204 - ePA-Aktensystem - PAdES-Signatur in getSignedAuditEvents**
 
-Die Komponenten des ePA-Aktensystems MÜSSEN beim Signieren ein Protokolls im
+Die Komponenten des ePA-Aktensystems MÜSSEN beim Signieren eines Protokolls im
 PDF/A-Format eine PAdES-Signatur gemäß [PAdES-3] und [PAdES Baseline Profile]
 erstellen. Bei der Signaturerstellung ist das Attribut signing certificate
 reference gemäß den Vorgaben aus [PAdES-3] Kapitel 4.4.3 „Signing
@@ -989,7 +1038,7 @@ Protokollabruf eingeschränkt werden können.
 Wenn ein Client keinerlei Filtervorgaben macht, erhält er immer alle
 Protokolleinträge zurück.
 
-**A_21303-03 - ePA-Aktensystem - Suchparameter beim Abruf von Protokollen**
+**A_21303-04 - ePA-Aktensystem - Suchparameter beim Abruf von Protokollen**
 
 Beim Abrufen von Protokollen über die
 SchnittstellenI_Authentication_Insurant::getAuditEvents,I_Authentication_Insurant::getSignedAuditEvents,
@@ -1298,13 +1347,16 @@ missbraucht werden könnten. Dies ist z. B. bei der Komponente Autorisierung
 (Profile anhand der Berechtigungen) oder den Komponenten zur Authentifizierung
 der Fall. **[\<=]**
 
-**A_15107 - Anbieter ePA-Aktensystem - Keine unzulässige Weitergabe von Daten**
+**A_15107-01 - Anbieter ePA-Aktensystem - Keine unzulässige Weitergabe von
+Daten**
 
 Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die in seinem
-Aktensystem verarbeiteten Daten, außer an berechtigte Nutzer der Aktenkonten
-oder an den vom Versicherten gewählten Anbieter beim Anbieterwechsel, nicht
-weitergegeben werden, auch nicht in pseudonymisierter oder anonymisierter
-Form.   **[\<=]**
+Aktensystem verarbeiteten Daten nicht weitergegeben werden, auch nicht in
+pseudonymisierter oder anonymisierter Form. Davon ausgenommen sind Weitergaben
+an berechtigte Nutzer der Aktenkonten, an einen durch den Versicherten
+gewählten Anbieter beim Anbieterwechsel sowie Übermittlungen an das
+Forschungsdatenzentrum nach Freigabe durch den Versicherten oder einen
+Vertreter. **[\<=]**
 
 **A_15109 - Anbieter ePA-Aktensystem - Unterschiedliche Mitarbeiter für
 Vertragsverwaltung und ePA-Aktensystem**
@@ -1385,13 +1437,6 @@ Der Anbieter des ePA-Aktensystems MUSS Zugriffe und Zugriffsmuster, die nicht
 einer Standard-Aktennutzung entsprechen, erkennen und Maßnahmen zur
 Schadensreduzierung umsetzen.  **[\<=]**
 
-**A_22569 - Anbieter ePA-Aktensystem – Unterbindung des Zugriffs aufgrund
-einer Sperrung**
-
-Der Anbieter des ePA-Aktensystems KANN den Zugriff auf die Akte bei begründeten
-Verdachtsfällen sperren und dazu in der Komponente Autorisierung entsprechende
-Informationen hinterlegen. **[\<=]**
-
 **A_15156 - Anbieter ePA-Aktensystem - Einsatz zertifizierter HSM**
 
 Der Anbieter des ePA-Aktensystems MUSS beim Einsatz eines HSM sicherstellen,
@@ -1434,24 +1479,24 @@ sensiblen Anwendungsfällen**
 
 Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass für den Beginn der
 folgenden Anwendungsfälle eine nochmalige Authentifizierung erfolgt, wenn die
-letzte Authentifizierung mehr als 10 Minuten zurück liegt.
+letzte Authentifizierung mehr als 10 Minuten zurückliegt.
 
  ---> UL
 
 **[\<=]**
 
-**A_15823 - Anbieter ePA-Aktensystem – Versicherte über sensible Änderungen
-informieren.**
+**A_15823-01 - Anbieter ePA-Aktensystem – Versicherte über sensible
+Änderungen informieren.**
 
 Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass der Versicherte über
 Änderungen in den folgenden Anwendungsfällen informiert wird,  
 
  ---> UL
 
-und wenn der Anbieter des Aktensystems eine manuelle Änderung in einer Akte im
-Auftrag eines Versicherten durchführt. **[\<=]**
+und wenn der Anbieter des Aktensystems eine manuelle Änderung bezüglich einer
+Akte (Aktenverwaltung) im Auftrag eines Versicherten durchführt. **[\<=]**
 
-Hinweis: Dies kann z.B. durch eine Notifikations-E-Mail an dem Versicherter
+Hinweis: Dies kann z.B. durch eine Notifikations-E-Mail an den Versicherten
 erfolgen. Solche E-Mails dürfen keine Details über die Änderungen
 beschreiben, sondern nur einen Hinweis geben, dass eine Änderung gemacht wurde
 und dass der Versicherte die Änderungen in seinem Aktenkonto prüfen sollte.
@@ -1579,6 +1624,10 @@ werden:
 
  ---> UL
 
+Die mittels der Validierungskonten in der Produktivumgebung realisierten
+Anwendungsfälle müssen sich möglichst auf die genannten, unbedingt jedoch
+auf spezifizierte Anwendungsfälle beschränken.
+
 **A_18168-01 - Anbieter des ePA-Aktensystem - Validierungsaktenkonto für
 gematik**
 
@@ -1606,8 +1655,8 @@ Der Anbieter des ePA-Aktensystems MUSS auf Antrag der gematik
 
 **[\<=]**
 
-Hinweis zuA_22522: Die Einrichtung der Validierungsaktenkonten für Dritte kann
-gegen Bezahlung erfolgen. Die Entscheidung dafür obliegt dem Anbieter des
+Hinweis zuA_22522-*: Die Einrichtung der Validierungsaktenkonten für Dritte
+kann gegen Bezahlung erfolgen. Die Entscheidung dafür obliegt dem Anbieter des
 ePA-Aktensystems.
 
 Falls ein Antragsteller keine Löschung eines Validierungsaktenkontos beim
@@ -1936,16 +1985,17 @@ Activated
 Die folgenden Anforderungen legen die zulässigen Zustandswechsel eines Kontos
 fest. Soweit nur der "Wunsch des Versicherten" als auslösendes Ereignis
 genannt wird, ist die Willensbekundung des Versicherten auf elektronischem,
-postalischem oder einem anderem geeigneten Weg gemeint.
+postalischem oder einem anderen geeigneten Weg gemeint.
 
-**A_15037 - Anbieter ePA-Aktensystem - Status Konto initialisieren**
+**A_15037-01 - Anbieter ePA-Aktensystem - Status Konto initialisieren**
 
 Der Anbieter des ePA-Aktensystems MUSS beim Initialisieren (Beantragen) des
 Kontos durch den Versicherten einen Datensatz KeyChain in der Komponente
-Autorisierung anlegen mit dem Status entweder RecordState =
-REGISTERED_FOR_MIGRATIONwenn der Versicherte eine Datenübernahme von einem
-bestehenden, gekündigten Konto wünscht oder RecordState = REGISTEREDwenn er
-dies nicht wünscht oder bisher kein Konto besaß. **[\<=]**
+Autorisierung mit dem Status RecordState = REGISTERED_FOR_MIGRATION anlegen,
+wenn der Versicherte bei einen anderen Anbieter ein gekündigtes Konto besitzt
+von dem die Daten übernommen werden sollen (siehe auch A_15617-*). Sofern kein
+Konto existiert, ist die KeyChain mit dem RecordState = REGISTERED anzulegen.
+**[\<=]**
 
 **A_21737 - Anbieter ePA-Aktensystem - Start Datenübernahme initialisiertes
 Konto**
@@ -2291,6 +2341,14 @@ Falls der Anbieter des ePA-Aktensystems dem Versicherten kündigt, MUSS der
 Anbieter dem Versicherten die Möglichkeit geben, in angemessener Zeit seinen
 Anbieter zu wechseln bzw. seine Daten lokal zu sichern. **[\<=]**
 
+**A_22836 - ePA-Aktensystem: Hinweis auf Widerruf der Forschungsdatenfreigabe
+bei Schließung des Aktenkontos**
+
+Der Anbieter des ePA-Aktensystems MUSS Versicherte, die Ihre Akte schließen
+wollen, darauf hinweisen, gegebenenfalls für die Forschung freigegebene Daten
+vor dem Schließen der Akte zu widerrufen, da diese ansonsten nicht mehr
+widerrufen werden können.   **[\<=]**
+
 ### 6.1.4 Prozess des Anbieterwechsels
 
 Der Prozess des Anbieterwechsels wird durch das ePA-Frontend des Versicherten
@@ -2357,7 +2415,7 @@ OperationI_Account_Management::GetExportPackage um.
 Der Anbieter des ePA-Aktensystems MUSS das erstellte Exportpaket mit einem
 "Digest" HTTP Response Header (https://tools.ietf.org/html/rfc5843) als
 Integritätsschutz  versehen und dabei als Digest Algorithmus
-SHA-256verwenden.  
+SHA-256 verwenden.  
 Beispiel Digest-Header:  
 Digest:
 SHA-256=MWVkMWQxYTRiMzk5MDQ0MzI3NGU5NDEyZTk5OWY1ZGFmNzgyZTJlODYzYjRjYzFhOTlmNTQwYzI2M2QwM2U2MQ==
@@ -2456,20 +2514,20 @@ Das FdV kann diese Operation im Rahmen der Ausübung einer Vertretung zur
 Auswahl des Aktensystems des zu Vertretenen oder im Rahmen des Anbieterwechsels
 zur Auswahl des abgebenden Aktensystems verwenden. **[\<=]**
 
-Neu:Um im Feld Migrationsprobleme bei der Einführung von
-Metadata DocumentEntry.originalURI zu vermeiden (für den Fall, dass ein
-importierendes System eine Metadatenvalidierung durchführt und die Anwesenheit
-von originalURI im Exportpacket zu einem Fehler führen würde), wird eine
+Neu:Um im Feld Migrationsprobleme bei der Einführung von Metadata
+DocumentEntry.originalURI zu vermeiden (für den Fall, dass ein importierendes
+System eine Metadatenvalidierung durchführt und die Anwesenheit
+von originalURI im Exportpaket zu einem Fehler führen würde), wird eine
 Möglichkeit zur Konfiguration des Aktensystems geschaffen. Die Konfiguration
 ermöglicht es, beim Export die Verwendung von DocumentEntry.URI
 gemäß A_14885 einzuschalten. Ein Aktensystem prüft beim Import prinzipiell
 das Vorhandensein von DocumentEntry.originalURI in METADATA.XML. Ist dies der
-Fall wird DocumentEntry.URI gemäß A_14905 verwendet, andernfalls darf das
+Fall, wird DocumentEntry.URI gemäß A_14905 verwendet, andernfalls darf das
 Fehlen nicht zu einem Fehler führen.
 
 **A_22579 - Konfigurierbarkeit von DocumentEntry.originalURI beim Export**
 
-DasAktensystem MUSS die Verwendung von DocumentEntry.originalURI beim Export
+Das Aktensystem MUSS die Verwendung von DocumentEntry.originalURI beim Export
 konfigurierbar machen. Der Defaultwert ist "deaktiviert" und bedeutet, dass
 DocumentEntry.originalURI beim Export nicht erzeugt und nicht in METADATA.XML
 geschrieben wird. Der Wert "aktiviert" bedeutet,
@@ -2481,7 +2539,7 @@ MUSS der Wert in das Metadatum DocumentEntry.URI übernommen werden. **[\<=]**
 **A_22580 - Prozess beim Konfigurieren von DocumentEntry.originalURI beim
 Export**
 
-DerAnbieter des ePA-Aktensystems MUSS sicherstellen, dass die Aktivierung der
+Der Anbieter des ePA-Aktensystems MUSS sicherstellen, dass die Aktivierung der
 Verwendung von DocumentEntry.originalURI beim Export per Konfiguration durch
 einen geordneten Prozess gesteuert durch die gematik erfolgt. **[\<=]**
 
@@ -2516,8 +2574,8 @@ DIN EN ISO 9241 – Teile mit Bezug zur Software-Ergonomie
 
 BITV 2.0 - Barrierefreie Informationstechnik-Verordnung
 
-Die Umsetzung der Verordnung dient zur behindertengerechten Umsetzung
-von Webseiten und anderen grafischen Oberflächen.
+Die Umsetzung der Verordnung dient zur behindertengerechten Umsetzung von 
+Webseiten und anderen grafischen Oberflächen.
 
 Insbesondere sollen deshalb neben der Übernahme der international anerkannten
 Standards für barrierefreie Webinhalte, die Web Content Accessibility
@@ -2682,7 +2740,7 @@ gestellt.
 ### 9.3 Abbildungsverzeichnis
 
 - [Abbildung-1] - Komponenten des ePA-Aktensystems
-- [Abbildung-2] - Nachbarsysteme des ePA-Aktensystems
+- [Abbildung-2] -  Nachbarsysteme des ePA-Aktensystems
 - [Abbildung-3] - Zustandsdiagramm zum Lebenszyklus einer Akte bei einem Anbieter
 
 ### 9.4 Tabellenverzeichnis
@@ -2728,6 +2786,12 @@ gematik: Systemspezifisches Konzept ePA
 </td><td>
 gematik: Übergreifende Spezifikation Performance und Mengengerüst TI-Plattform
 
+</td></tr><tr><td>
+[gemSpec_PK_eGK]
+
+</td><td>
+gematik: Spezifikation für Prüfkarten des Typs eGK
+
 </td></tr></table>
 
 ### 9.5.2 Weitere Dokumente
@@ -2760,7 +2824,10 @@ https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/Download/FD_BS_K
 </td><td>
 XML Spoofing Resistant Electronic Signature, Sichere Implementierung für XML
 Signature, 2012, BSI,
-https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/SOA/XSpRESS.pdf 
+
+https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/SOA/XSpRESS.pdf
+
+ 
 
 </td></tr><tr><td>
 [GJLS-2009]
@@ -2797,7 +2864,10 @@ Interfaces,
 
 Juraj Somorovsky, Mario Heiderich,Meiko Jensen, Jörg Schwenk, Nils Gruschka,
 Luigi Lo Iacono, 2011,
-https://www.nds.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2011/10/22/AmazonSignatureWrapping.pdf  
+
+https://www.nds.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2011/10/22/AmazonSignatureWrapping.pdf
+
+ 
 
 </td></tr></table>
 
@@ -2848,15 +2918,18 @@ https://www.nds.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2011/10/22/Amaz
 [9.5]:                   #95-referenzierte-dokumente
 [9.5.1]:                 #951-dokumente-der-gematik
 [9.5.2]:                 #952-weitere-dokumente
-[Abbildung-1]:           gemSpec_Aktensystem_V1.9.3.attachments/12886754441907223759.png
-[Abbildung-2]:           gemSpec_Aktensystem_V1.9.3.attachments/14604182796060723996.png
-[Abbildung-3]:           gemSpec_Aktensystem_V1.9.3.attachments/13176684799393580011.png
-[Tbl-001]:               #Tbl-001 (&93834767749376)
-[Tabelle-1]:             #Tabelle-1 (&93834777767976)
-[Tabelle-2]:             #Tabelle-2 (&93834809688192)
-[Tabelle-3]:             #Tabelle-3 (&93834781722008)
-[Tbl-005]:               #Tbl-005 (&93834772258168)
-[Tbl-006]:               #Tbl-006 (&93834777626336)
-[Tbl-007]:               #Tbl-007 (&93834777648368)
-[Tbl-008]:               #Tbl-008 (&93834777660744)
-[https://tools.ietf.org/html/rfc5843]: https://tools.ietf.org/html/rfc5843 (&93834808656048)
+[Abbildung-1]:           gemSpec_Aktensystem_V1.52.0.attachments/12886754441907223759.png
+[Abbildung-2]:           gemSpec_Aktensystem_V1.52.0.attachments/5270196261647075316.png
+[Abbildung-3]:           gemSpec_Aktensystem_V1.52.0.attachments/13176684799393580011.png
+[Tbl-001]:               #Tbl-001 (&93834767743608)
+[Tabelle-1]:             #Tabelle-1 (&93834811846296)
+[Tabelle-2]:             #Tabelle-2 (&93834799852624)
+[Tabelle-3]:             #Tabelle-3 (&93834781698024)
+[Tbl-005]:               #Tbl-005 (&93834783635920)
+[Tbl-006]:               #Tbl-006 (&93834768786456)
+[Tbl-007]:               #Tbl-007 (&93834768808496)
+[Tbl-008]:               #Tbl-008 (&93834768822400)
+[https://tools.ietf.org/html/rfc5843]: https://tools.ietf.org/html/rfc5843 (&93834804572480)
+[https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/SOA/XSpRESS.pdf]: https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/SOA/XSpRESS.pdf (&93834783471080)
+[https://lists.w3.org/Archives/Public/public-xmlsec/2009Nov/att-0019/Camera-Ready.pdf]: https://lists.w3.org/Archives/Public/public-xmlsec/2009Nov/att-0019/Camera-Ready.pdf (&93834783473960)
+[https://www.nds.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2011/10/22/AmazonSignatureWrapping.pdf]: https://www.nds.ruhr-uni-bochum.de/media/nds/veroeffentlichungen/2011/10/22/AmazonSignatureWrapping.pdf (&93834783481360)
