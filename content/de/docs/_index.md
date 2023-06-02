@@ -7,7 +7,7 @@ menu:
   main:
     weight: 20
 ---
-<h2>Proof of Concept!</h2>
+<h2>Proof of Concept!!</h2>
 
 Welcome to the proof of concept for web-based publication of gematik specifications.
 
