@@ -3,11 +3,7 @@ title: ""
 linkTitle: "gemSpecPages"
 weight: 20
 ---
-<<<<<<< HEAD
-<h3>Proof of Concept!</h3>
-=======
 <h2>Proof of Concept!!</h2>
->>>>>>> 2966b665d3ff97ff05808677f7a08824ea35a633
 
 Welcome to the proof of concept for web-based publication of gematik specifications.
 

@@ -1,0 +1,780 @@
+<html>
+ <head>
+  <style>
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* ol {
+  list-style-type: none;
+  Remove default numbering
+}
+
+ol > li:before {
+  counter-increment: mycounter;
+  content: counter(mycounter) ". ";
+}
+
+ol:first-of-type {
+  counter-reset: mycounter;
+} */
+
+
+</style>
+  <meta charset="utf-8">
+ </head>
+ <body>
+  <p id="polarion_47"> <br> </p>
+  <p id="polarion_48"> <br> </p>
+  <p id="polarion_49"> <br> </p>
+  <p id="polarion_50"> <br> </p>
+  <p id="polarion_51"> <br> </p>
+  <p id="polarion_52"> <span style="font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;">Elektronische Gesundheitskarte und Telematikinfrastruktur</span> </p>
+  <p id="polarion_62"> <br> </p>
+  <p id="polarion_63"> <br> </p>
+  <p id="polarion_64"> <br> </p>
+  <p id="polarion_65"> <br> </p>
+  <p id="polarion_66" style="text-align: center;"> <span style="font-weight: bold;font-size: 28pt;line-height: 1.2;">Spezifikation<br> Apothekenverzeichnis im E-Rezept</span> </p>
+  <p id="polarion_69"> <br> </p>
+  <p id="polarion_71"> <br> </p>
+  <p id="polarion_73"> <br> </p>
+  <div id="polarion_editor_html_block1" class="polarion-dle-wiki-block"> 
+   <div id="polarion_editor_html_block_content" contenteditable="false"></div>
+   <pre id="polarion_editor_html_block_source" class="polarion-dle-wiki-block-source" contenteditable="false">
+    <table>
+     <tr>
+      <td>Version</td>
+      <td>1.0.0</td>
+     </tr>
+     <tr>
+      <td>Revision</td>
+      <td>548770</td>
+     </tr>
+     <tr>
+      <td>Stand</td>
+      <td>07.10.2021</td>
+     </tr>
+     <tr>
+      <td>Status</td>
+      <td>freigegeben</td>
+     </tr>
+     <tr>
+      <td>Klassifizierung</td>
+      <td>öffentlich</td>
+     </tr>
+     <tr>
+      <td>Referenzierung</td>
+      <td>gemSpec_eRp_APOVZD</td>
+     </tr>
+    </table></pre> 
+  </div>
+  <p id="polarion_75"></p>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5637">Dokumentinformationen</h1>
+  <p id="polarion_33"></p>
+  <p id="polarion_115"> <span style="font-weight: bold;">Änderungen zur Vorversion</span> </p>
+  <p id="polarion_84"> <span style="font-size: 10pt;line-height: 1.5;">Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen.</span> </p>
+  <p id="polarion_93"></p>
+  <p id="polarion_99"> <span style="font-weight: bold;">Dokumentenhistorie</span> </p>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=100" style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;"> 
+   <tbody> 
+    <tr> 
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 47pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">Version<br> </span></th> 
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 53pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">Stand<br> </span></th> 
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 39pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">Kap./ Seite<br> </span></th> 
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 205pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">Grund der Änderung, besondere Hinweise<br> </span></th> 
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 83pt;height: 29pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">Bearbeitung<br> </span></th> 
+    </tr> 
+    <tr> 
+     <td style="width: 47pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">1.0.0&nbsp;</span></td> 
+     <td style="width: 53pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">07.10.2021</span></td> 
+     <td style="width: 39pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">&nbsp;&nbsp;</span></td> 
+     <td style="width: 205pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Erstveröffentlichung des Dokumentes</span></td> 
+     <td style="width: 83pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">gematik&nbsp;&nbsp;</span></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_102"> <br> </p>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5638">Inhaltsverzeichnis</h1>
+  <div id="polarion_wiki macro name=toc"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5637">Dokumentinformationen</a></li>
+   <li><a href="#polarion_wiki macro name=module-workitem;params=id=tIBaseline20221-5638">Inhaltsverzeichnis</a></li>
+   <li> : <a href="#1">1 Einordnung des Dokuments</a></li>
+   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
+   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
+   <li> : : <a href="#1.3">1.3 Abgrenzungen</a></li>
+   <li> : : <a href="#1.4">1.4 Methodik</a></li>
+   <li> : <a href="#2">2 Epic und User Story</a></li>
+   <li> : : <a href="#2.1">2.1 Epic Apothekeninformationen im E-Rezept</a></li>
+   <li> : : : <a href="#2.1.1">2.1.1 User Stories</a></li>
+   <li> : <a href="#3">3 Einordnung in die Telematikinfrastruktur</a></li>
+   <li> : <a href="#4">4 Technisches Konzept</a></li>
+   <li> : : <a href="#4.1">4.1 Use Case "Apothekeninformationen abrufen"</a></li>
+   <li> : : <a href="#4.2">4.2 Use Case "Pflege des Apothekenverzeichnisses"</a></li>
+   <li> : : <a href="#4.3">4.3 Leistungen des Apothekenverzeichnisses</a></li>
+   <li> : : <a href="#4.4">4.4 Leistungen eines Clientsystems</a></li>
+   <li> : : <a href="#4.5">4.5 Leistungen zur Pflege der Informationen</a></li>
+   <li> : : <a href="#4.6">4.6 Informationsmodell</a></li>
+   <li> : <a href="#5">5 Spezifikation</a></li>
+   <li> : : <a href="#5.1">5.1 Anforderungen an das Apothekenverzeichnis</a></li>
+   <li> : : : <a href="#5.1.1">5.1.1 Abgleich mit Verzeichnisdienst der TI (VZD)</a></li>
+   <li> : : : <a href="#5.1.2">5.1.2 Authentifizierung von Clientsystemen</a></li>
+   <li> : : : <a href="#5.1.3">5.1.3 Schnittstelle</a></li>
+   <li> : : <a href="#5.2">5.2 Anforderungen an Clients des Apothekenverzeichnisses</a></li>
+   <li> : : <a href="#5.3">5.3 Sicherheits- und Datenschutzaspekte</a></li>
+   <li> : : <a href="#5.4">5.4 Betrieb</a></li>
+   <li> : : : <a href="#5.4.1">5.4.1 Servicemodell</a></li>
+   <li> : <a href="#6">6 Beispiele und Referenzimplementierungen</a></li>
+   <li> : <a href="#7">7 Anhang A – Verzeichnisse</a></li>
+   <li> : : <a href="#7.1">7.1 Abkürzungen</a></li>
+   <li> : : <a href="#7.2">7.2 Referenzierte Dokumente</a></li>
+   <li> : : : <a href="#7.2.1">7.2.1 Dokumente der gematik</a></li>
+   <li> : : : <a href="#7.2.2">7.2.2 Weitere Dokumente</a></li>
+  </div>
+  <p id="polarion_76"></p>
+  <h2 id="1">1 Einordnung des Dokuments</h2>
+  <p id="polarion_1">Dieses Dokument beschreibt die Anforderungen und Funktionsumfang eines Apothekenverzeichnisses für die Fachanwendung E-Rezept. Dies umfasst die Schnittstellen zum Abruf von Informationen durch Clientsysteme über Apotheken, die zur Abgabe apothekenpflichtiger Arzneimittel in Deutschland berechtigt sind, sowie Schnittstellen und Prozesse zur Pflege der Informationen innerhalb des Verzeichnisses.</p>
+  <h3 id="1.1">1.1 Zielsetzung</h3>
+  <p id="polarion_5">Die Beschreibung des Funktionsumfangs erleichtert das Verständnis und die Nachvollziehbarkeit der Lösung, ausgehend von der Darstellung der Nutzersicht auf Epic-Ebene, über das technische Konzept bis zur Spezifikation der technischen Details.</p>
+  <p id="polarion_29">Die vorliegende Spezifikation definiert die Anforderungen zu Herstellung, Test und Betrieb des Produkttyps Apothekenverzeichnis.</p>
+  <h3 id="1.2">1.2 Zielgruppe</h3>
+  <p id="polarion_6"> <span style="font-size: 10pt;line-height: 1.5;">Das Dokument richtet sich an den Hersteller und Anbieter des Produkttypen, welcher das Apothekenverzeichnis umsetzt sowie an Hersteller und Betreiber von Produkttypen, die das Apothekenverzeichnis nutzen.&nbsp;</span>Ebenso enthält dieses Dokument Informationen für Institutionen und Organisationen, die mit der Pflege der Daten beauftragt werden/sind. </p>
+  <h3 id="1.3">1.3 Abgrenzungen</h3>
+  <p id="polarion_8">Nicht Bestandteil des Dokuments sind die Festlegungen zum E-Rezept und seiner Workflows selbst.</p>
+  <h3 id="1.4">1.4 Methodik</h3>
+  <p id="polarion_113"> <span style="font-weight: bold;">Anforderungen&nbsp;und Anwendungsfälle</span> </p>
+  <p id="polarion_12">Anforderungen und Anwendungsfälle als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC 2119 [RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet.</p>
+  <p id="polarion_13">Da in dem Beispielsatz „Eine leere Liste DARF NICHT ein Element besitzen.“ die Phrase „DARF NICHT“ semantisch irreführend wäre (wenn nicht ein, dann vielleicht zwei?), wird in diesem Dokument stattdessen „Eine leere Liste DARF KEIN Element besitzen.“ verwendet. Die Schlüsselworte werden außerdem um Pronomen in Großbuchstaben ergänzt, wenn dies den Sprachfluss verbessert oder die Semantik verdeutlicht.</p>
+  <p id="polarion_14"> Anforderungen und Anwendungsfälle werden im Dokument wie folgt dargestellt:<br> <span style="font-weight: bold;">&lt;ID&gt; - &lt;Titel der Afo / Titel des Anwendungsfalles&gt;</span><br> Text / Beschreibung<br> [&lt;=] </p>
+  <p id="polarion_4">Die einzelnen Elemente beschreiben:</p>
+  <ul id="polarion_22"> 
+   <li><span style="font-weight: bold;">ID</span>: einen eindeutigen Identifier.</li> 
+   <ul> 
+    <li>bei einer Anforderung besteht der Identifier aus der Zeichenfolge 'A_' gefolgt von einer Zahl,</li> 
+    <li>bei einem Anwendungsfall besteht der Identifier aus der Zeichenfolge 'AF_' gefolgt von einer Zahl,&nbsp;</li> 
+   </ul> 
+   <li><span style="font-weight: bold;">Titel der Anforderung / Anwendungsfalles</span>: ein Titel, welcher zusammenfassend den Inhalt beschreibt</li> 
+   <li><span style="font-weight: bold;">Text / Beschreibung</span>: ausführliche Beschreibung des Inhalts, kann neben Text Tabellen, Abbildungen und Modelle enthalten</li> 
+  </ul>
+  <p id="polarion_15">Dabei umfasst die Anforderung/der Anwendungsfall&nbsp;sämtliche zwischen ID und Textmarke [&lt;=] angeführten Inhalte.</p>
+  <p id="polarion_96"> <span style="font-weight: bold;">Hinweise auf offene Punkte</span> </p>
+  <p id="polarion_124">Themen, die noch intern geklärt werden müssen oder eine Entscheidung seitens der Gesellschafter erfordern, sind wie folgt im Dokument gekennzeichnet:</p>
+  <p id="polarion_125"> <span style="font-style: italic;color: #3366FF;">Beispiel für einen offenen Punkt.</span> </p>
+  <h2 id="2">2 Epic und User Story</h2>
+  <p id="polarion_23">In diesem Abschnitt wird der Produkttyp&nbsp;Apothekenverzeichnis fachlich motiviert und der Mehrwert für Nutzer vorgestellt. Aus diesen Epics und User Stories wird anschließend ein technisches Konzept abgeleitet.</p>
+  <h3 id="2.1">2.1 Epic Apothekeninformationen im E-Rezept</h3>
+  <p id="polarion_17"> Die E-Rezept-App schafft Mehrwerte durch sinnvolle Verknüpfung von Diensten. In diesem konkreten Kontext ermöglicht die E-Rezept-App eine komfortable Suche nach geeigneten Apotheken für die Dispensierung durch die Kombination von Suchfunktionen, Landkartendiensten und dem Verzeichnisdienst&nbsp;der TI (VZD) – angereichert&nbsp;<span style="font-size: 10pt;line-height: 1.5;">um die freiwilligen Mehrwertinformationen des Apothekenportals für Apotheken.</span> </p>
+  <p id="polarion_34">Nutzer sind gewohnt, ortsbasierte Dienste in Anspruch zu nehmen, wenn sie etwas suchen, oder Filterfunktionen anzuwenden, um Ergebnislisten einzugrenzen. Um E-Rezepte einlösen zu können, brauchen sie eine Apotheke. Wenn die App bei der Suche nach nahegelegenen Apotheken hilft, indem der aktuelle Standort des Nutzers verwendet wird, dann schafft die App Mehrwerte. Nutzer erwarten Informationen, die ihnen den nächsten Schritt vereinfachen. Der nächste Schritt ist das Einlösen des Rezepts, daher ist es aus Nutzersicht wichtig, Apotheken zu finden, die auch geöffnet sind und bei denen er jetzt einlösen kann. Mit dem E-Rezept wird die Beschaffung von Medikamenten über Versandapotheken für Nutzer attraktiver werden, weil sich der Prozess deutlich vereinfacht. Gleichzeitig können Offizin-Apotheken lagernde Medikamente sofort abgeben, was für viele Nutzer ein großes Plus ist. Daher muss der Nutzer die Wahl haben, ob er zu einer Offizin-Apotheke geht oder lieber den Versandhandel wählt.&nbsp;</p>
+  <p id="polarion_36">Die gematik muss hierbei sicherstellen, dass die Such- und Filterfunktionen in Clients wettbewerbsneutral ausgestaltet sind (d.h. z.B. Sortierung nach Alphabet, nächster Standort, etc.). Alle Apotheken aus dem Apothekenverzeichnis müssen einbezogen werden. Eine Hervorhebung oder andere Art der Bevorzugung von Apotheken bei der Darstellung darf nicht erfolgen.</p>
+  <h4 id="2.1.1">2.1.1 User Stories</h4>
+  <ul id="polarion_45"> 
+   <li>Als Patient möchte ich die Apotheke, in der ich E-Rezepte einlösen kann, komfortabel suchen können, so dass ich keine Zeit und Nerven damit verschwenden muss, eine geeignete Apotheke zu finden.<br> </li> 
+   <li>Als Patient möchte ich die Ortungsfunktion meines Geräts nutzen können, um nahegelegene Apotheken finden zu können, so dass ich spontan die für mich bestgelegene Apotheke auswählen kann.<br> </li> 
+   <li>Als Patient möchte ich die Berechtigung erteilen können, dass die App die Ortungsfunktion nutzen darf, um mir das Finden nahegelegener Apotheken zu vereinfachen.<br> </li> 
+   <li>Als Patient möchte ich in der Lage sein, Apotheken herauszufiltern, die gerade geöffnet haben oder die bald öffnen werden, so dass ich nicht vor verschlossenen Türen stehe, wenn ich meine Medikamente abholen will.<br> </li> 
+   <li>Als Patient möchte ich Apotheken mit Notdiensten filtern können, falls ich einmal außerhalb der Öffnungszeiten ein Medikament benötige.</li> 
+   <li>Als Patient möchte ich in der Lage sein, mir von meiner bevorzugten Navigations-App eine Route zur ausgewählten Apotheke berechnen zu lassen, so dass ich nicht Adressen in meine Navigations-App kopieren muss, um den Weg zu finden.<br> </li> 
+   <li>Als Patient möchte ich Offizin-Apotheken und Versandapotheken in der Apothekensuche finden können, so dass ich die Wahl habe, ob ich den Versand nutze oder lieber die Apotheke um die Ecke wähle.<br> </li> 
+   <li>Als Patient möchte ich schon während der Suche nach Apotheken erkennen können, ob eine Apotheke die Belieferung nach Hause anbietet, so dass ich die Wahl habe, ob ich mich lieber beliefern lassen will oder Medikamente abholen gehe.</li> 
+   <li>Als Patient möchte ich auf einen Blick erkennen können, welche Suchergebnisse Offizin- oder Versandapotheke sind.<br> </li> 
+   <li>Als Patient möchte ich eine Apotheke, der ich ein E-Rezept zugewiesen habe, direkt nach der Zuweisung als eine Stammapotheke speichern können, so dass ich sie nicht noch einmal suchen muss.<br> </li> 
+   <li>Als Patient möchte ich eine Apotheke, die ich in der Apothekensuche gefunden habe, als Stammapotheke speichern können, so dass ich sie nicht noch einmal suchen muss.<br> </li> 
+   <li>Als Patient möchte ich mehrere Stammapotheken speichern können, so dass ich die Apotheken in der Nähe meines Wohnorts, meines Arbeitsorts, des Wohnorts meiner Eltern etc. speichern kann.<br> </li> 
+   <li>Als Patient möchte ich leicht auf meine Stammapotheken zugreifen können, so dass ich mich nicht durch die Suchfunktion arbeiten muss, um sie zu finden.<br> </li> 
+   <li>Als Patient möchte ich, dass meine App automatisch die von mir zuletzt ausgewählten Apotheken speichert, so dass ich sie nicht noch einmal suchen muss.</li> 
+   <li>Als Patient möchte ich, dass die Suchfunktion meiner App fehlertolerant ist, wenn ich mich beim Eingeben des Apothekennamens vertippe oder es mehrere Apotheken mit ähnlichem Namen gibt.</li> 
+   <li>Als Patient möchte ich in meiner App verschiedene Such- und Filterfunktionen kombinieren können wie z.B. die Ortungsfunktion und die Filterung nach Öffnungszeiten, um eine Apotheke zu finden.</li> 
+   <li>Als Patient möchte ich weitere Informationen zu einer Apotheke erhalten, um mich mit ihr in Verbindung setzen bzw. über sie informieren zu können (z.B. Telefonnummer, Fax, E-Mail-Adresse, Webseite).</li> 
+   <li>Als Institution, welche die Daten im Apothekenverzeichnis eintragen und pflegen will, brauche ich einen supportverantwortlichen Ansprechpartner mit entsprechenden Serviceleveln für die technische Schnittstelle.</li> 
+   <li>Als Institution, welche die Daten im Apothekenverzeichnis eintragen und pflegen will, brauche ich einen definierten Prozess zur Anbindung an die technische Pflegeschnittstelle.</li> 
+   <li>Als Institution, welche die Daten im Apothekenverzeichnis eintragen und pflegen will, brauche ich eine einfache (technische) Möglichkeit, die Daten für das Apothekenverzeichnis editieren zu können (einstellen, lesen, verändern, löschen).</li> 
+   <li>Als Gesamtverantwortlicher für die TI möchte ich steuern können, wer einen Zugriff auf die Pflegeschnittstelle des Apothekenverzeichnisses&nbsp;erhält und jederzeit eine aktuelle Übersicht für alle Umgebungen (RU/TU/PU) haben.</li> 
+   <li>Als Gesamtverantwortlicher für die TI möchte ich jederzeit wissen, welche Daten im Apothekenverzeichnis hinterlegt sind und ob diese korrekt sind bzw. Fehlermeldungen vorliegen.</li> 
+   <li>Als Gesamtverantwortlicher für die TI möchte ich, dass nur berechtigte Institutionen für die Pflege der Informationen die entsprechenden Berechtigungen (er)halten.</li> 
+   <li>Als Gesamtverantwortlicher für die TI muss ich sicherstellen, dass bei einem Ausfall des Dienstes die Kunden entsprechendes Feedback und Support erhalten und ggf. Fehlermeldungen korrekt eingestellt und weitergeleitet werden.<span style="background-color: #FFFF99;"></span></li> 
+  </ul>
+  <h2 id="3">3 Einordnung in die Telematikinfrastruktur</h2>
+  <p id="polarion_27"> Das E-Rezept wird in der Telematikinfrastruktur durch drei wesentliche Komponenten/Produkttypen realisiert. Der <span style="font-weight: bold;">E-Rezept-Fachdienst</span> speichert und verwaltet den Status der elektronischen Verordnungen, der Zugriff durch Clients erfolgt für Leistungserbringer über ihre <span style="font-weight: bold;">Primärsysteme</span>, Versicherte nutzen zur Verwaltung ihrer E-Rezepte das <span style="font-weight: bold;">E-Rezept-Frontend des Versicherten</span> (E-Rezept-FdV) <span style="font-size: 10pt;line-height: 1.5;">oder das E-Rezept-Anwendungen des Versicherten (E-Rezept-AdV).</span> </p>
+  <p id="polarion_2">Um Versicherten im E-Rezept-FdV eine Übersicht der Apotheken zu geben, die ein E-Rezept beliefern können, wird ein Apothekenverzeichnis eingeführt, das dem Versicherten beschreibende Informationen (Anschrift, Öffnungszeiten, weitere Dienstleistungen) und dem E-Rezept-FdV Daten zur Anzeige des Apothekenstandorts in einer Karte liefert.</p>
+  <p id="polarion_3">Das Apothekenverzeichnis wird als Service der Telematikinfrastruktur konzipiert, der die Daten zum Abruf im Internet durch das E-Rezept-FdV bereitstellt. Der Zugriff durch das E-Rezept-FdV soll über eine FHIR-Schnittstelle, analog der Schnittstelle des E-Rezept-Fachdienstes, erfolgen. Der FHIR-Standard definiert ein RESTful Interface und findet zunehmend Verbreitung im digitalen Gesundheitswesen. Der Vorteil liegt in der Einfachheit der verwalteten Ressourcen und des Transports über das HTTP-Protokoll. Für das Apothekenverzeichnis werden zwei Datentypen (Standort: Location, Dienstleistungen: HealthcareService) benötigt. Mit einer entsprechenden Konfiguration und angemessener Sicherheitsleistung kann hierfür ein Standard-FHIR-Server verwendet werden.</p>
+  <p id="polarion_11">Die für das E-Rezept notwendigen Apothekendaten werden vom Deutschen Apothekerverband (DAV) als Leistungserbringerorganisation der Apotheken in Deutschland und Gesellschafter der gematik bereitgestellt. Das Apothekenverzeichnis stellt eine apothekerverwaltete Teilkomponente des Verzeichnisdienstes der Telematikinfrastruktur dar.&nbsp;&nbsp;</p>
+  <p id="polarion_16">Die folgende Abbildung gibt einen Überblick des Apothekenverzeichnisses mit den beteiligten Komponenten und Diensten in der Telematikinfrastruktur.</p>
+  <p id="polarion_21" data-keep-next="true"> <img src="data:image/png;base64,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" style="width: 754px;height: 441px;" data-lastmodified="2021-05-17T18:09:56.931+02:00"> </p>
+  <p id="polarion_32" style="text-align: center;" class="polarion-rte-caption-paragraph"> Abbildung <span data-sequence="Abbildung" class="polarion-rte-caption">1</span>: Überblick Apothekenverzeichnis </p>
+  <p id="polarion_127">Das E-Rezept-FdV als Komponente der Telematikinfrastruktur ruft die Schnittstellen des Apothekenverzeichnisses über das Internet auf. Der Verzeichnisdienst der TI wird vom Apothekenverzeichnis über die im Internet erreichbare Pflegeschnittstelle aufgerufen. Für die Lieferung von Betriebsdaten nutzt das Apothekenverzeichnis die Schnittstelle der Betriebsdatenerfassung im Internet. Das Apothekenverzeichnis ist nicht an das zentrale Netz der Telematikinfrastruktur angeschlossen.</p>
+  <p id="polarion_128"> Der Import von Apothekendaten in das Apothekenverzeichnis erfolgt durch ein Drittsystem des Anbieters des Apothekenverzeichnisses, das nicht als Teil der Telematikinfrastruktur betrachtet wird. Es wird hier der Vollständigkeit halber dargestellt.<span style="background-color: #FFFFCC;"> </span> </p>
+  <h2 id="4">4 Technisches Konzept</h2>
+  <p id="polarion_105">Die folgenden Ausführungen stellen den technischen Rahmen und das Zusammenspiel der beteiligten Produkttypen in konzeptionellen Anforderungen dar.</p>
+  <p id="polarion_129"> Das Apothekenverzeichnis wird als Service konzipiert, der FHIR-Ressourcen verwaltet und über eine RESTful-Schnittstelle zum Abruf im Internet gemäß [FHIR-API] bereitstellt. Es kann als Erweiterung eines bestehenden FHIR-Servers oder als eigenständiger FHIR-Server realisiert werden. In einer ersten Stufe werden zunächst die FHIR-Ressourcen Location und HealthcareService betrachtet, was den Einsatz eines FHIR-Servers mit größerem Funktionsumfang nicht ausschließt. </p>
+  <p id="polarion_30">Im Folgenden werden die wesentlichen Use Cases der Interaktion mit dem Apothekenverzeichnis dargestellt.</p>
+  <h3 id="4.1">4.1 Use Case "Apothekeninformationen abrufen"</h3>
+  <p id="polarion_56">Mit diesem Anwendungsfall kann ein Versicherter über das Clientsystem Apothekeninformationen aus dem Apothekenverzeichnis abrufen und anzeigen lassen.</p>
+  <div id="AF_10076">
+   <p><b>AF_10076 - UC "Apothekeninformationen abrufen"</b></p>
+   <p>Alle am Anwendungsfall "Apothekeninformationen abrufen" beteiligten Produkttypen und Komponenten MÜSSEN die nachfolgenden Festlegungen umsetzen. <p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;" id="polarion___1"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">1</span> : Apothekeninformationen abrufen </p> 
+    <table id="polarion_wiki macro name=table;params=width=100%|uid=client4" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Name</span></th> 
+       <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Apothekeninformationen abrufen</span></th> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Vorbedingungen</span></td> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">keine</span></td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Kurzbeschreibung<br> (Außenansicht)</span></td> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Das Clientsystem greift direkt auf das Apothekenverzeichnis zu. Dazu fragt das&nbsp;Clientsystem beim Apothekenverzeichnis die Ressourcen mit ihren FHIR-spezifischen Suchparametern an. Der Versicherte benennt Suchkriterien, die das Clientsystem als Suchparameter in den Aufruf einbettet. Das Clientsystem erhält eine passende Treffermenge als Antwort.</span></td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Nachbedingungen</span></td> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Die Liste der zur Suchanfrage passenden Apotheken liegen als Liste im Clientsystem zur Anzeige bzw. Darstellung auf einer Karte&nbsp; bereit.<br> Der Versicherte hat die Option, eine Nachricht an eine aus der Treffermenge erwählte Apotheke zu schicken.</span></td> 
+      </tr> 
+     </tbody> 
+    </table> <br>  <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion___2"> Abbildung <span data-sequence="Abbildung" class="polarion-rte-caption">2</span>: Apothekensuche&nbsp; </p> <span id="polarion-comment:71"></span> <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="4.2">4.2 Use Case "Pflege des Apothekenverzeichnisses"</h3>
+  <p id="polarion_60">Mit diesem Anwendungsfall kann ein Redakteur die Einträge des Apothekenverzeichnisses aktualisieren.</p>
+  <div id="AF_10077">
+   <p><b>AF_10077 - UC "Pflege des Apothekenverzeichnisses"</b></p>
+   <p>Alle am Anwendungsfall "Pflege des Apothekenverzeichnisses" beteiligten Produkttypen und Komponenten MÜSSEN die nachfolgenden Festlegungen umsetzen.<br> <p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;" id="polarion___3"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">2</span> : Pflege des Apothekenverzeichnisses </p> 
+    <table id="polarion_wiki macro name=table;params=width=100%|uid=98" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Name</span></th> 
+       <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Pflege des Apothekenverzeichnis</span></th> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Vorbedingungen</span></td> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;"> </span> 
+        <ul> 
+         <li><span style="font-size: 9pt;line-height: 1.5;">Redakteur ist mit Redakteurrechten<span id="polarion-comment:22"></span>&nbsp;(insbesondere Schreibrechte) im Apothekenverzeichnis registriert</span></li> 
+         <li><span style="font-size: 9pt;line-height: 1.5;">Für zu aktualisierende Einträge hat ein initialer Import<span id="polarion-comment:23"></span> stattgefunden, die Ressourcen-ID<span id="polarion-comment:24"></span> der Einträge im Apothekenverzeichnis sind bekannt</span></li> 
+         <li><span style="font-size: 9pt;line-height: 1.5;">Im Pflegeclient liegen Informationen zur Aktualisierung einzelner Apothekenverzeichniseinträge vor</span></li> 
+        </ul> <span style="font-size: 9pt;line-height: 1.5;"> </span></td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Kurzbeschreibung<br> (Außenansicht)</span></td> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Der Redakteur stößt die Aktualisierung im Pflegeclient an. Der Pflegeclient weist sich gegenüber dem Apothekenverzeichnis mit den Zugangsdaten des Redakteurs aus.<br> Für jeden zu aktualisierenden Eintrag wird ein Aktualisierungsaufruf (POST, PUT, etc.<span id="polarion-comment:72"></span> adressiert über die bekannte Ressourcen-ID) mit den zu ändernden Daten an das Apothekenverzeichnis geschickt. <br> Das Apothekenverzeichnis bestätigt die Änderung mit dem neu angelegten oder aktualisierten Datensatz in der Response inkl. Nennung der Ressourcen-ID für die Adressierung in zukünftigen Anwendungsfällen.<br> Wurde ein Eintrag des Apothekenverzeichnisses über den Statusabgleich mit dem VZD gelöscht, beantwortet das Apothekenverzeichnis den Aufruf mit dem HTTP-Status-Code 404.<br> </span></td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Nachbedingungen</span></td> 
+       <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;"> </span> 
+        <ul> 
+         <li><span style="font-size: 9pt;line-height: 1.5;">aktualisierte Apothekeninformationen liegen zum Abruf durch Clients bereit</span></li> 
+        </ul> <span style="font-size: 9pt;line-height: 1.5;"> </span></td> 
+      </tr> 
+     </tbody> 
+    </table> <br>  <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion___4"> Abbildung <span data-sequence="Abbildung" class="polarion-rte-caption">3</span>: Pflege des Apothekenverzeichnisses&nbsp; </p> <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="4.3">4.3 Leistungen des Apothekenverzeichnisses</h3>
+  <p id="polarion_53">Das Apothekenverzeichnis wird als FHIR-Server eingeführt. Um die zweckgebunden erhobenen Informationen des Apothekenverzeichnisses vor unberechtigtem Zugriff (außerhalb des Gesundheitswesens) zu schützen, sind Zugriffe ausschließlich durch authentifizierte Nutzer zulässig.&nbsp;</p>
+  <p id="polarion_101">Das Apothekenverzeichnis muss den Abruf von Apothekeninformationen über die Bereitstellung einer HL7-FHIR-konformen REST-Schnittstelle [FHIR_API] ermöglichen.</p>
+  <p id="polarion_107">Das Apothekenverzeichnis muss die Pflege von Apothekeneinträgen über eine Schnittstelle für autorisierte Nutzer ermöglichen.</p>
+  <p id="polarion_116">Das Apothekenverzeichnis muss Maßnahmen zum Schutz vor der aktuellen Version der OWASP-Top-10-Risiken umsetzen.</p>
+  <p id="polarion_117">Das Apothekenverzeichnis muss sicherstellen, dass der Status der gelisteten Apotheken mit jenen des VZD der Telematikinfrastruktur übereinstimmt.</p>
+  <p id="polarion_118"> </p>
+  <h3 id="4.4">4.4 Leistungen eines Clientsystems</h3>
+  <p id="polarion_89">Das Clientsystem erreicht das Apothekenverzeichnis über das Internet. Für eine intuitive Suche nach relevanten Informationen sind Nutzer auf geeignete Darstellungen und User Interfaces angewiesen. Als Clientsysteme kommt für das Apothekenverzeichnis in einer ersten Umsetzung das E-Rezept-FdV zum Einsatz.</p>
+  <p id="polarion_119">Das Clientsystem muss die Schnittstelle des Apothekenverzeichnisses als HTTP-REST-Client gemäß den Festlegungen in [FHIR-API] nutzen.</p>
+  <p id="polarion_120">Das Clientsystem muss abgerufene Apothekeninformationen aus dem Apothekenverzeichnis lokal cachen, um das Aufrufaufkommen am Apothekenverzeichnis auf sinnvolle Suchanfragen zu reduzieren. So muss bspw. das minimale Verschieben der Ansicht auf einer Karte und die sekundliche Frage nach "neuen" Daten nicht notwendigerweise zu einem erneuten Schnittstellenaufruf führen.</p>
+  <p id="polarion_121">Das Clientsystem muss dem Nutzer ein geeignetes User Interface zur Eingabe von Filterkriterien für Apothekennamen, Adressinformationen und Dienstleistungen anbieten.</p>
+  <p id="polarion_122">Das Clientsystem muss vom Nutzer vor der ersten Abfrage zu dessen aktueller Geoposition die Einwilligung zur Abfrage und Zustimmung zur Übermittlung an das Apothekenverzeichnis einholen.</p>
+  <h3 id="4.5">4.5 Leistungen zur Pflege der Informationen</h3>
+  <p id="polarion_92">Das Apothekenverzeichnis hat das Ziel, Informationen für Versicherte zu allen öffentlichen Apotheken in Deutschland und Versandapotheken bereitzustellen, damit die Versicherten ein E-Rezept in der Apotheke ihrer Wahl einlösen und über das E-Rezept-FdV mit der Apotheke kommunizieren können.</p>
+  <p id="polarion_42"> Die für diesen Mehrwert der Versicherten nötigen Informationen unterliegen Anpassungen (Öffnungszeiten, Nacht-/Notdienstzeiten, Lieferoptionen etc.) und werden über einen Dienstleister von den Apothekern erhoben. Dieser Dienstleister pflegt mögliche Anpassungen an den Informationen in das Apothekenverzeichnis ein <span style="font-size: 10pt;line-height: 1.5;">oder stellt sie über eine API zum Import bereit</span>. Neben diesen vom Dienstleister verwalteten Einträgen können zusätzliche Einträge existieren, deren Pflegehoheit bei der gematik liegt (z.B. Informationen über Versandapotheken mit Sitz im europäischen Ausland). </p>
+  <p id="polarion_9">Das Apothekenverzeichnis muss den Dienstleister als Redakteur&nbsp;der Apothekeninformationen eindeutig anhand spezieller Redakteur-Zugangsdaten identifizieren.</p>
+  <p id="polarion_54">Das Apothekenverzeichnis muss den Import und die Aktualisierung von Apothekeninformationen durch einen Redakteur&nbsp;über das Internet gemäß einer&nbsp;HL7-FHIR-konformen REST-Schnittstelle [FHIR_API] ermöglichen.</p>
+  <p id="polarion_18"> Das Apothekenverzeichnis muss das Aktualisieren und das Löschen von Einträgen, die der Pflege durch einen Redakteur&nbsp;unterliegen, über das Internet gemäß einer&nbsp;HL7-FHIR-konformen REST-Schnittstelle [FHIR_API] ermöglichen. </p>
+  <p id="polarion_70"> Das Apothekenverzeichnis muss bestimmte Einträge des Apothekenverzeichnisses auf Antrag der gematik als nicht-änderbar und nicht-löschbar durch einen Redakteur&nbsp;markieren können. </p>
+  <h3 id="4.6">4.6 Informationsmodell</h3>
+  <p id="polarion_31"> Das Apothekenverzeichnis wird als FHIR-Server konzipiert. Für das Abbild der notwendigen Apothekeninformationen werden die Standard-Profile der HL7-FHIR-Ressourcen Location und HealthcareService verwendet. </p>
+  <p id="polarion_123"> Das Apothekenverzeichnis und das Clientsystem müssen die Standard-Profile für Location [FHIR-Location] und&nbsp;HealthcareService [FHIR-HealthcareService] gemäß den Festlegungen im FHIR-Standard unterstützen. </p>
+  <p id="polarion_38">Das Apothekenverzeichnis muss für den Statusabgleich der Apothekeneinträge mit dem Status im VZD die Telematik-ID als Primärschlüssel verwenden.</p>
+  <h2 id="5">5 Spezifikation</h2>
+  <p id="polarion_37">Dieses Kapitel beschreibt die technische Umsetzung der konzeptionellen Anforderungen an die verschiedenen Produkt- und Anbietertypen. In den jeweiligen Produkt- und Anbietertypsteckbriefen sind zu den Anforderungen ("Blattanforderungen") die jeweiligen Prüfverfahren angegeben.</p>
+  <h3 id="5.1">5.1 Anforderungen an das Apothekenverzeichnis</h3>
+  <p id="polarion_7">Dieser Abschnitt beschreibt die Anforderungen an das Apothekenverzeichnis als Produkttyp und an den Anbieter des Apothekenverzeichnisses. Als Produkt kann das Apothekenverzeichnis als eigenständige Komponente oder Erweiterung eines existierenden Produkttyps realisiert werden. Der Anbieter des Apothekenverzeichnisses kann ebenso als eigenständiger Anbieter auftreten oder der Anbieter eines existierenden Produkts übernimmt die Anbieterrolle für das Apothekenverzeichnis, das als Erweiterung seines Produkts umgesetzt wird.</p>
+  <div id="A_21130">
+   <p><b>A_21130 - Anbieter Apothekenverzeichnis - Schnittstellenadressierung</b></p>
+   <p>Der Anbieter des Apothekenverzeichnisses MUSS die im Internet angebotene Schnittstelle des Apothekenverzeichnisses unter der folgenden URL zur Verfügung stellen: <br> 
+    <ul> 
+     <li>h<span style="font-size: 10pt;line-height: 1.5;">ttps://apovzd.zentral.erp.splitdns.ti-dienste.de/ - Schnittstelle des Apothekenverzeichnisses</span></li> 
+    </ul> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21277">
+   <p><b>A_21277 - Apothekenverzeichnis - TLS-Zertifikat</b></p>
+   <p>Das Apothekenverzeichnis MUSS sich beim TLS-Verbindungsaufbau über das Transportnetz gegenüber dem Client mit einem Extended Validation TLS-Zertifikat eines Herausgebers gemäß [CAB-Forum]&nbsp;authentisieren. Das Zertifikat MUSS an die Schnittstelle des Eingangspunkts für Clientsysteme gebunden werden, damit Clientsysteme beim TLS-Verbindungsaufbau eine vereinfachte Zertifikatsprüfung mit TLS-Standardbibliotheken durchführen können. <b>[&lt;=]</b></p>
+  </div>
+  <h4 id="5.1.1">5.1.1 Abgleich mit Verzeichnisdienst der TI (VZD)</h4>
+  <p id="polarion_28">Der Verzeichnisdienst der TI (VZD) ist das führende Verzeichnis der bekannten und registrierten Leistungserbringerinstitutionen und wird von den Kartenherausgebern der zertifikatsgebundenen Institutsidentitäten (SMC-B) gepflegt. Daher ist ein regelmäßiger Statusabgleich der im Apothekenverzeichnis gelisteten Apothekeneinträge mit dem technischen Status in der Telematikinfrastruktur erforderlich, um ggfs. keine veralteten Einträge an Clients des Apothekenverzeichnisses herauszugeben.</p>
+  <div id="A_21149">
+   <p><b>A_21149 - Apothekenverzeichnis - Statusabfrage in der Telematikinfrastruktur</b></p>
+   <p>Das Apothekenverzeichnis MUSS einmal täglich den Status der im Apothekenverzeichnis gelisteten Apothekeneinträge auf Basis der Institutsidentität (Zertifikatsattribute) gegen den technischen Status in der Telematikinfrastruktur prüfen und nicht mehr vorhandene Einträge aus dem Apothekenverzeichnis löschen<span id="polarion-comment:76"></span> sowie neu gelistete Apotheken in das Apothekenverzeichnis aufnehmen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_58"> Die Liste aller aktuell gültigen Apothekeneinträge ist über die RESTful-Pflegeschnittstelle des VZD über das Internet abrufbar. Hierfür müssen Zugangsdaten beim Anbieter des VZD der Telematikinfrastruktur beantragt werden. Eine detaillierte Beschreibung findet sich im Dokument [<span style="font-weight: normal;">gemILF_Pflege_VZD]. Insbesondere Abschnitt 3 "API Dokumentation" erläutert detailliert die Schritte zur Beantragung und Implementierung eines Clients zum Abruf der Daten.</span> </p>
+  <div id="A_21392">
+   <p><b>A_21392 - Apothekenverzeichnis - Registrierung beim Anbieter der Pflegeschnittstelle VZD</b></p>
+   <p>Der<span id="polarion-comment:77"></span> Anbieter des Apothekenverzeichnisses MUSS einen Zugang zur Nutzung der Pflegeschnittstelle des VZD beantragen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_132"> <span style="background-color: #FF0000;"> </span> </p>
+  <div id="A_21393">
+   <p><b>A_21393 - Apothekenverzeichnis - Read-Only-Zugriffe auf Pflegeschnittstelle VZD</b></p>
+   <p>Das Apothekenverzeichnis MUSS ausschließlich lesend (HTTP-Operation GET, HEAD, etc.) auf die Pflegeschnittstelle des VZD zugreifen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21398">
+   <p><b>A_21398 - Apothekenverzeichnis - VZD-Informationen führend</b></p>
+   <p>Das Apothekenverzeichnis MUSS beim Abgleich mit dem VZD die Informationen des VZD als führend erachten. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21516">
+   <p><b>A_21516 - Apothekenverzeichnis - Queryparameter Pflegeschnittstelle VZD</b></p>
+   <p>Das Apothekenverzeichnis MUSS beim Abgleich mit dem VZD die Liste aller tagesaktuellen Apothekeneinträge mittels der Queryparameter <br> 
+    <ul> 
+     <li><span style="font-size: 10pt;line-height: 1.5;">telematikID beginnend mit "3-"</span></li> 
+     <li><span style="font-size: 10pt;line-height: 1.5;">personalEntry = false</span></li> 
+     <li><span style="font-size: 10pt;line-height: 1.5;">baseEntryOnly=true</span></li> 
+    </ul> der Pflegeschnittstelle abrufen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_126"></p>
+  <p id="polarion_39"> </p>
+  <div id="A_21762">
+   <p><b>A_21762 - Apothekenverzeichnis - Queryparameter Pflegeschnittstelle VZD - Europäische Versandapotheken</b></p>
+   <p>Das Apothekenverzeichnis MUSS beim Abgleich mit dem VZD die Liste aller tagesaktuellen Apothekeneinträge der europäischen Versandapotheken mittels der Queryparameter<br> 
+    <ul> 
+     <li>telematikID beginnend mit "9-"</li> 
+     <li>specialization =&nbsp;urn:psc:1.3.6.1.4.1.19376.3.276.1.5.5:PHZ</li> 
+     <li>personalEntry = false</li> 
+     <li>baseEntryOnly = true</li> 
+    </ul> der Pflegeschnittstelle abrufen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_85"> </p>
+  <div id="A_22219">
+   <p><b>A_22219 - Apothekenverzeichnis - Queryparameter Pflegeschnittstelle VZD - Einschränkung</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das Apothekenverzeichnis DARF NICHT Daten beim VZD abrufen, wenn die telematikID nicht mit "3-" oder "9-" beginnt</span>. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_109"></p>
+  <p id="polarion_135" style="text-align: left;" data-keep-next="true" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">3</span> : Mapping der Attribute der Pflegeschnittstelle auf FHIR Datenobjekte </p>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=136" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Attribut in DirectoryEntries-Ressource<br> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Mapping auf FHIR-Attribut in Location-Ressource<br> </span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Führendes Attribut<br> </span></th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">displayName</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.name </span></td> 
+     <td style="text-align: center;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">X</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">streetAddress</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.address.line[0]</span></td> 
+     <td style="text-align: center;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">X</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">postalCode</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.address.postalCode</span></td> 
+     <td style="text-align: center;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">X</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">countryCode</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.address.country&nbsp;</span></td> 
+     <td style="text-align: center;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">X</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">localityName</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.address.city</span></td> 
+     <td style="text-align: center;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">X</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">telematikID</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.identifier</span></td> 
+     <td style="text-align: center;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">X</span></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <div id="A_21778">
+   <p><b>A_21778 - Apothekenverzeichnis - Synchronisation VZD - Kennzeichen europäische Versandapotheken</b></p>
+   <p>Das Apothekenverzeichnis MUSS beim Abgleich mit dem VZD für die Liste der europäischen Versandapotheken die Attribute&nbsp;location.type&nbsp;= "PHARM" und&nbsp;location.type&nbsp;= "MOBL"&nbsp;gemäß Codesystem "<a href="http://terminology.hl7.org/CodeSystem/v3-RoleCode" target="_top" class="descriptionLink">http://terminology.hl7.org/CodeSystem/v3-RoleCode</a>&nbsp;" setzen, um die Einträge als Versandapotheke zu kennzeichnen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21256">
+   <p><b>A_21256 - Anbieter Apothekenverzeichnis - vertraulicher und integritätsgeschützter Datenaustausch</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des Apothekenverzeichnisses MUSS sicherstellen, dass der Datenaustausch zum Abgleich der Apothekendaten im VZD vertraulich und integritätsgeschützt erfolgt.</span> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_26"> Im VZD sind ggfs. Apotheken gelistet, denen die Belieferung von E-Rezepten nicht gestattet ist bzw. an deren Belieferung besondere Anforderungen gerichtet sind (z.B. Bundeswehrapotheken). Das Apothekenverzeichnis stellt Clients nur solche Einträge zum Abruf bereit, in denen eine Einlösung von E-Rezepten möglich ist. Eine Liste der zulässigen Einträge soll konfigurierbar sein. </p>
+  <p id="polarion_25">Zunächst wird die konfigurierbare Liste der zulässigen Einträge des Apothekenverzeichnisses nur die öffentliche Apotheke umfassen (oid_oeffentliche_apotheke). Versandapotheken werden ebenfalls unter dieser Rollen-OID geführt.</p>
+  <h4 id="5.1.2">5.1.2 Authentifizierung von Clientsystemen</h4>
+  <p id="polarion_137"> Das Apothekenverzeichnis führt öffentliche Informationen über Apotheken in Deutschland sowie weitere von den Apothekeninhabern erhobene, zweckgebundene Auskünfte zur Nutzung im E-Rezept. Zusätzlich sind Informationen (Telematik-ID) enthalten, die nur in Anwendungsfällen für authentifizierte Nutzer genutzt werden kann und ebenso als schützenswerte Informationen bewertet sind. Daher ist der Zugriff auf solche Informationen nur authentifizierten Nutzern gestattet, wobei das Apothekenverzeichnis keine Auswertung der individuellen Nutzerinformationen vornimmt. Das Apothekenverzeichnis erlaubt daher den Zugriff nur explizit authentifizierten Nutzern (Redakteuren) und technischen Systemen mit Wissen um einen API-Key.&nbsp; </p>
+  <p id="polarion_19">Für die Pflege der Informationen durch einen Redakteur sind gesonderte Zugriffsrechte erforderlich.</p>
+  <div id="A_21221">
+   <p><b>A_21221 - Anbieter Apothekenverzeichnis - AuthorizationServer für Zugriffsautorisierung Redakteur</b></p>
+   <p>Der Anbieter des Apothekenverzeichnisses MUSS einen eigenen AuthorizationServer für die Umsetzung der speziellen redaktionellen Zugriffsrechte einsetzen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21296">
+   <p><b>A_21296 - Anbieter Apothekenverzeichnis - Prozess zur Registrierung neuer Redakteure</b></p>
+   <p>Der Anbieter&nbsp;des Apothekenverzeichnisses MUSS einen organisatorischen Prozess etablieren, um neue Redakteure zu registrieren. <b>[&lt;=]</b></p>
+  </div>
+  <h4 id="5.1.3">5.1.3 Schnittstelle</h4>
+  <p id="polarion_138">Für den Abruf von Apothekeninformationen stellt das Apothekenverzeichnis eine Schnittstelle im Internet zur Verfügung.</p>
+  <div id="A_21144">
+   <p><b>A_21144 - Apothekenverzeichnis - FHIR-Schnittstelle</b></p>
+   <p>Das Apothekenverzeichnis MUSS eine Schnittstelle im Internet zum Abruf von Apothekeninformationen in Form einer [FHIR-API] des FHIR-Standards in Version 4.0.1 oder höher bereitstellen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_59">Zum Angebot der FHIR-Schnittstelle gehört gemäß Definition der FHIR-Konformität die Bereitstellung eines Capability-Statements.</p>
+  <div id="A_21233">
+   <p><b>A_21233 - Apothekenverzeichnis - Apothekeneintrag als Location</b></p>
+   <p>Das Apothekenverzeichnis MUSS Apothekenstandorte als FHIR-Ressource Location verwalten und bereitstellen sowie Clientsystemen den Zugriff inkl. Suchanfragen gemäß [FHIR-Location] ermöglichen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_41"></p>
+  <p id="polarion_10" style="text-align: left;" data-keep-next="true" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">4</span> : Verwendete Attribute Ressource Location </p>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=42" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Attribut</span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Beschreibung</span></th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.name</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Name der Institution&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.address.line[0]</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Straße der Institution</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.address.postalCode</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Postleitzahl der Institution</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.address.city</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Ortsname der Institution&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.identifier</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Telematik-ID</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.position.latitude</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Geokoordinaten Latitude</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.position.longitude</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Geokoordinaten Longitude</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.telecom</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Telefon, Fax, E-Mail und Website-Daten&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.hoursOfOperation</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Öffnungszeiten der Apotheke&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">location.lastUpdatedAt</span></td> 
+     <td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">verwendet für Synchronisierung</span></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <div id="A_21234">
+   <p><b>A_21234 - Apothekenverzeichnis - Apothekendienstleistung als HealthcareService</b></p>
+   <p>Das Apothekenverzeichnis MUSS Apothekendienstleistungen als FHIR-Ressource HealthcareService verwalten und bereitstellen sowie Clientsystemen den Zugriff inkl. Suchanfragen gemäß [FHIR-HealthcareService] ermöglichen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_90"></p>
+  <p id="polarion_24" style="text-align: left;" data-keep-next="true" class="polarion-rte-caption-paragraph"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">5</span> : Verwendete Attribute HealthcareService </p>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=43" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 290px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Attribut</span></th> 
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 290.8px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Beschreibung</span></th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 290px;height: 17.2px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">HealthcareService.ServiceCoverageRange</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 290.8px;height: 17.2px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Liefergebiet Botendienst</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;vertical-align: top;width: 290px;height: 17.2px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">HealthcareService.resource-effectivePeriod</span></td> 
+     <td style="text-align: left;vertical-align: top;width: 290.8px;height: 17.2px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">zeitlich befristete Dienstleistungsangebote</span></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_72">Das Apothekenverzeichnis setzt auf die Standarddefinitionen der verwendeten FHIR-Profile. Es erfolgt keine Profilierung, da der Hersteller/Anbieter des Apothekenverzeichnisses als auch des Clients eindeutig benannt werden können und in diesem Kreis keine zusätzlichen Clients und auch keine alternativen Anbieter des Verzeichnisses zu finden sein werden.</p>
+  <p id="polarion_94">Zur Klarstellung der Funktionsweise sind im Folgenden die Ergänzungen zu den Standardprofilen dargestellt.</p>
+  <div id="A_21278">
+   <p><b>A_21278 - Apothekenverzeichnis - Angabe Liefergebiet Botendienste</b></p>
+   <p>Das Apothekenverzeichnis MUSS das von einer Apotheke angebotene Liefergebiet für optionale Botendienstlieferungen als optionale Extension&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ServiceCoverageRange</span> der Ressource HealthcareService in der folgenden Form<span id="polarion-comment:113"></span><br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&lt;valueQuantity&gt;<br> &nbsp; &nbsp; &lt;value value="12"/&gt;<br> &nbsp; &nbsp; &lt;unit value="km"/&gt;<br> &lt;/valueQuantity&gt;</span><br> ausweisen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21279">
+   <p><b>A_21279 - Apothekenverzeichnis - Angabe zeitlich befristete Dienstleistungsangebote</b></p>
+   <p>Das Apothekenverzeichnis MUSS von einer Apotheke zeitlich befristete Dienstleistungsangebote (z.B. Notdienst) als optionale Extension&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">resource-effectivePeriod</span> der Ressource HealthcareService in der folgenden Form<br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;"> &lt;valuePeriod&gt;<br> &nbsp; &nbsp; &lt;start value="..."/&gt; // Format:&nbsp;yyyy-mm-dd<br> &nbsp; &nbsp; &lt;end value="..."/&gt;&nbsp; // Format: yyyy-mm-dd<br> &lt;/valuePeriod&gt;<br> </span>ausweisen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21779">
+   <p><b>A_21779 - Apothekenverzeichnis - Angabe Type</b></p>
+   <p>&nbsp;Das Apothekenverzeichnis MUSS von einer Apotheke die Art des Services als&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">type</span> der Ressource Location gemäß&nbsp;<a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-RoleCode.html" target="_top" class="descriptionLink">http://terminology.hl7.org/2.1.0/CodeSystem-v3-RoleCode.html</a>&nbsp; mit den Werten&nbsp;<br> 
+    <ul> 
+     <li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">PHARM</span> - Präsenzapotheke</li> 
+     <li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">OUTPHARM</span> -&nbsp;Präsenzapotheke mit Botendienst&nbsp;</li> 
+     <li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">MOBL</span> - Versandapotheke</li> 
+    </ul> ausweisen. <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_40"> </p>
+  <div id="A_21146">
+   <p><b>A_21146 - Apothekenverzeichnis - Zugriffsautorisierung</b></p>
+   <p>Das Apothekenverzeichnis MUSS jeden schreibenden Zugriff auf die FHIR-Schnittstelle ohne eine Nutzerauthentifizierung als unautorisiert (HTTP-Statuscode 401) ablehnen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21394">
+   <p><b>A_21394 - Apothekenverzeichnis - Zuordnung Abfrageursprung FdV</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das Apothekenverzeichnis MUSS jeden lesenden Zugriff auf die FHIR-Schnittstelle per API-KEY einer Quelle zuordnen können, z.B. dem E-Rezept-FdV. Die erlaubten QuellenAbfragen ohne API-KEY MÜSSEN als unautorisiert (HTTP-Statuscode 403) abgelehnt werden.</span> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_139"> </p>
+  <div id="A_21395">
+   <p><b>A_21395 - Anbieter Apothekenverzeichnis - Prozess zur Registrierung neuer Quellen</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des Apothekenverzeichnisses MUSS einen organisatorischen Prozess etablieren, um neue Clients als Zugreifende der API zu registrieren und für Abfragen zuzulassen. Der entsprechende API-KEY ist während des Transports mit geeigneten Mitteln zu schützen..&nbsp;</span> <b>[&lt;=]</b></p>
+  </div>
+  <p id="polarion_68"> </p>
+  <p id="polarion_140"> </p>
+  <div id="A_21169">
+   <p><b>A_21169 - Apothekenverzeichnis - ReadOnly für Client des Versicherten</b></p>
+   <p>Das Apothekenverzeichnis MUSS sicherstellen, dass der Zugriff durch einen Client des Versicherten ausschließlich lesend erfolgt, d.h. HTTP-Operationen für Schreiboperationen (PUT, POST, PATCH, DELETE) verboten sind und mit dem HTTP-StatusCode 401 beantwortet werden. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21170">
+   <p><b>A_21170 - Apothekenverzeichnis - Schreibrechte für Redakteur</b></p>
+   <p>Das Apothekenverzeichnis MUSS sicherstellen, dass der schreibende Zugriff ausschließlich durch einen Redakteur mit gesonderten Zugangsdaten erfolgt. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21171">
+   <p><b>A_21171 - Anbieter Apothekenverzeichnis - Pflege zusätzlicher Einträge</b></p>
+   <p>Der Anbieter des Apothekenverzeichnis MUSS auf Anforderung der gematik Anpassungen an speziellen Einträgen vornehmen, die nicht in der Pflegehoheit eines Redakteurs liegen. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="5.2">5.2 Anforderungen an Clients des Apothekenverzeichnisses</h3>
+  <p id="polarion_141"> Clientsysteme haben keine hochfrequenten Änderungen im Apothekenverzeichnis zu erwarten. Um jedoch das eigene Datenvolumen zu schonen ist es ratsam, Abfrageergebnisse zu cachen. Aufgrund der standardisierten Suchparameter inkl. Geopositions-Suche kann das Apothekenverzeichnis eine Stütze beim Auffinden relevanter Apothekeneinträge sein. </p>
+  <div id="A_21397">
+   <p><b>A_21397 - Client des Apothekenverzeichnisses - Verwendung eines API-Keys zum Aufruf der HL7-FHIR Schnittstelle</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das Clientsystem MUSS die Schnittstelle des Apothekenverzeichnisses mit Übergabe eines API-Keys aufrufen, der mittels Header-Feld "X-API-KEY" bei Requests übergeben wird.&nbsp;</span><span style="font-size: 11pt;line-height: 1.5;"></span> <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21151">
+   <p><b>A_21151 - Client des Apothekenverzeichnisses - Zugriff auf HL7-FHIR-Schnittstelle</b></p>
+   <p>Das Clientsystem MUSS die Schnittstelle des Apothekenverzeichnisses als HTTP-REST-Client gemäß den Festlegungen in [FHIR-API] nutzen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21152">
+   <p><b>A_21152 - Client des Apothekenverzeichnisses - Lokaler Cache</b></p>
+   <p>Das Clientsystem MUSS abgerufene Apothekeninformationen aus dem Apothekenverzeichnis lokal cachen, um das Aufrufaufkommen am Apothekenverzeichnis auf sinnvolle Suchanfragen zu reduzieren. So muss bspw. das minimale Verschieben der Ansicht auf einer Karte und die sekundliche Frage nach "neuen" Daten nicht notwendigerweise zu einem erneuten Schnittstellenaufruf führen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21153">
+   <p><b>A_21153 - Client des Apothekenverzeichnisses - Userinterface</b></p>
+   <p>Das Clientsystem MUSS dem Nutzer ein geeignetes Userinterface zur Eingabe geeigneter Filterkriterien auf Basis der Suchparameter in [FHIR-Location] und [FHIR-HealthcareService] für Namen,&nbsp; Adressinformationen und Dienstleistungen anbieten. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21154">
+   <p><b>A_21154 - Client des Apothekenverzeichnisses - Erlaubnis Standortabfrage</b></p>
+   <p>Das Clientsystem MUSS vom Nutzer vor der ersten Abfrage zu dessen aktueller Geoposition die Einwilligung zur Abfrage und Zustimmung zur Übermittlung an das Apothekenverzeichnis einholen. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="5.3">5.3 Sicherheits- und Datenschutzaspekte</h3>
+  <p id="polarion_43">Dem Anbieter des Apothekenverzeichnisses werden entsprechend dem Modularisierungskonzept in [gemSpec_DS_Anbieter] die folgenden Module der Informationssicherheit und des Datenschutzes zugeordnet:</p>
+  <ul id="polarion_57"> 
+   <li>Informationssicherheit: Basis-IS, Basis-ISMS, TI-Sicherheitsbericht</li> 
+   <li>Datenschutz: Basis-DS, TI- Datenschutzbericht&nbsp;</li> 
+  </ul>
+  <p id="polarion_74">Die Überprüfung der Anforderungen erfolgt im Wesentlichen über ein Anbieter-Sicherheitsgutachten.</p>
+  <p id="polarion_78"> Diese Zuordnung begründet sich aus der Situation, dass auf der einen Seite das Apothekenverzeichnis logisch&nbsp;als Teil des Verzeichnisdienstes der TI gesehen wird, und auf der anderen Seite im Apothekenverzeichnis&nbsp;keine personenbezogenen medizinischen Daten verarbeitet werden. </p>
+  <p id="polarion_79">Jedoch erhält das Apothekenverzeichnis&nbsp;Daten aus dem Verzeichnisdienstes der TI,&nbsp;um einen Abgleich der Einträge vornehmen zu können. Diese Daten dürfen durch den Apothekenverzeichnis-Betreiber nur in der vorgesehenen Weise verwendet werden. Die gematik hat ein Interesse daran, dass die Daten der Apotheken im Apothekenverzeichnis korrekt sind.</p>
+  <p id="polarion_80">Da es sich bei der Apothekensuche um eine Komfortfunktion handelt, ist aus Sicht der Sicherheit keine besondere Verfügbarkeit des Apothekenverzeichnisses erforderlich.</p>
+  <p id="polarion_86">Folgende Anforderungen sind spezifisch für das Apothekenverzeichnis umzusetzen:</p>
+  <div id="A_21260">
+   <p><b>A_21260 - Apothekenverzeichnis - Korrektheit der Daten</b></p>
+   <p>Der Anbieter des Apothekenverzeichnisses MUSS durch technische und organisatorische Maßnahmen die Korrektheit der Daten im Apothekenverzeichnis&nbsp;sicherstellen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21261">
+   <p><b>A_21261 - Apothekenverzeichnis - Verbot der Profilbildung</b></p>
+   <p>Der Anbieter des Apothekenverzeichnisses DARF NICHT Profile aus den Kommunikationsdaten der abfragenden Clients bilden. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21262">
+   <p><b>A_21262 - Apothekenverzeichnis - Zweckbindung der Daten aus dem VZD TI</b></p>
+   <p>Der Anbieter des Apothekenverzeichnisses DARF die Daten, die er vom zentralen Verzeichnisdienst der TI erhält, NICHT für andere als die von gematik vorgegebenen Zwecke verwenden. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21263">
+   <p><b>A_21263 - Apothekenverzeichnis - Datenminimierung in der Client-Kommunikation</b></p>
+   <p>Das Apothekenverzeichnis DARF NICHT andere Daten als die von der gematik festgelegten&nbsp;an Clients ausliefern. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21264">
+   <p><b>A_21264 - Verwendung von TLS für Kommunikation mit Clients</b></p>
+   <p>Das Apothekenverzeichnis MUSS Verbindungen von Clients (Internet oder TI) ausschließlich über TLS akzeptieren. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21155">
+   <p><b>A_21155 - Apothekenverzeichnis - Schutz der Daten vor unberechtigten Zugriff</b></p>
+   <p>Der Anbieter des Apothekenverzeichnisses MUSS die Apothekendaten vor einem unberechtigten Zugriff durch Dritte schützen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21156">
+   <p><b>A_21156 - Apothekenverzeichnis - Maßnahmen zur Absicherung eines Servers gegenüber dem Internet</b></p>
+   <p>Der Anbieter des Apothekenverzeichnisses MUSS Maßnahmen gegen die Gefährdungen aus der BSI-Leitlinie zur Internet-Sicherheit „Absicherung eines Servers (ISi-Server)“ umsetzen. <b>[&lt;=]</b></p>
+  </div>
+  <div id="A_21259">
+   <p><b>A_21259 - Apothekenverzeichnis - Berücksichtigung der Empfehlungen des BSI zur Absicherung eines Servers gegenüber dem Internet</b></p>
+   <p>Der Anbieter des Apothekenverzeichnisses SOLL&nbsp;die Empfehlungen aus der BSI-Leitlinie zur Internet-Sicherheit „Absicherung eines Servers (ISi-Server)“ umsetzen. <b>[&lt;=]</b></p>
+  </div>
+  <h3 id="5.4">5.4 Betrieb</h3>
+  <p id="polarion_44"> Das Apothekenverzeichnis wird als neuer Produkttyp konzipiert und wird von einem neuen Anbieter betrieben. Aus Sicht des Betriebes relevante Anforderungen wurden dem Produkt- und dem Anbietertypsteckbrief zugewiesen. Das Apothekenverzeichnis wird aus Sicht des Betriebes wie der Fachdienst E-Rezept behandelt. Ergänzende oder abweichende Anforderungen und Regelungen werden im Folgenden beschrieben. </p>
+  <h4 id="5.4.1">5.4.1 Servicemodell</h4>
+  <p id="polarion_158">Der Anbieter Apothekenverzeichnis muss die organisatorischen Service Level im Modell H+N gemäß [gemKPT_Betr#TIP1-A_7265-03] liefern.</p>
+  <p id="polarion_165"></p>
+  <p id="polarion_168"></p>
+  <h2 id="6">6 Beispiele und Referenzimplementierungen</h2>
+  <p id="polarion_20"> Beispiele zur Nutzung der Abrufschnittstelle des Apothekenverzeichnisses finden sich auf der github-Seite der gematik unter&nbsp;<a href="https://github.com/gematik/api-erp/blob/master/docs/erp_versicherte.adoc#eine-apotheke-aus-dem-apotheken-verzeichnis-ausw%C3%A4hlen" target="_top" class="descriptionLink">https://github.com/gematik/api-erp/blob/master/docs/erp_versicherte.adoc#eine-apotheke-aus-dem-apotheken-verzeichnis-ausw%C3%A4hlen</a>&nbsp; </p>
+  <h2 id="7">7 Anhang A – Verzeichnisse</h2>
+  <h3 id="7.1">7.1 Abkürzungen</h3>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=2" style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;"> 
+   <tbody> 
+    <tr> 
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 112px;height: 14pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;"><span style="font-weight: bold;">Kürzel</span> </span></th> 
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 615px;height: 14pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;"><span style="font-weight: bold;">Erläuterung</span> </span></th> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 0px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">APOVZD</span></td> 
+     <td style="width: 615px;height: 0px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Apothekenverzeichnis</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 0px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">DAV</span></td> 
+     <td style="width: 615px;height: 0px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">Deutscher Apothekerverband</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 0px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">E-Rezept</span></td> 
+     <td style="width: 615px;height: 0px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">elektronisches Rezept</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">E-Rezept-FdV</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">E-Rezept-Frontend des Versicherten</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">FdV</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">Frontend des Versicherten</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: normal;font-size: 9pt;color: #172B4D;line-height: 1.5;">FHIR</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #252525;line-height: 1.5;">Fast Healthcare Interoperable Resources</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">HL7</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">Health Level 7 (Gruppe internationaler Standards für den Datenaustausch zwischen Organisationen im Gesundheitswesen und deren Computersystemen)</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">IDP</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">Identity Provider&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">LDAP</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">Leightweight Directory Access Protocol</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">OWASP</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Open Web Application Security Project</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">SMC-B</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">Security Module Card Typ B, Institutionenkarte</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">TI</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Telematikinfrastruktur</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 20px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">URL</span></td> 
+     <td style="width: 615px;height: 20px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">Uniform Resource Locator</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">VAU</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;color: #172B4D;line-height: 1.5;">Vertrauenswürdige Ausführungsumgebung</span></td> 
+    </tr> 
+    <tr> 
+     <td style="width: 112px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">VZD</span></td> 
+     <td style="width: 615px;height: 16pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Verzeichnisdienst</span></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_83"></p>
+  <h3 id="7.2">7.2 Referenzierte Dokumente</h3>
+  <h4 id="7.2.1">7.2.1 Dokumente der gematik</h4>
+  <p id="polarion_103">Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Der mit der vorliegenden Version korrelierende Entwicklungsstand dieser Konzepte und Spezifikationen wird pro Release in einer Dokumentenlandkarte definiert; Version und Stand der referenzierten Dokumente sind daher in der nachfolgenden Tabelle nicht aufgeführt. Deren zu diesem Dokument jeweils gültige Versionsnummern sind in der aktuellen, von der gematik veröffentlichten Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.</p>
+  <p id="polarion_104"></p>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=105" style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <td style="background-color: #F0F0F0;vertical-align: top;width: 145px;height: 15pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">[Quelle]<br> </span></td> 
+     <td style="background-color: #F0F0F0;vertical-align: top;width: 582px;height: 15pt;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">Herausgeber: Titel<br> </span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 145px;height: 20px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[gemGlossar]<br> </span></td> 
+     <td style="vertical-align: top;width: 582px;height: 20px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">gematik: Glossar der Telematikinfrastruktur </span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 145px;height: 20px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[gemILF_Pflege_VZD]</span></td> 
+     <td style="vertical-align: top;width: 582px;height: 20px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">gematik: Implementierungsleitfaden&nbsp;zur Pflege der Daten des Verzeichnisdienstes</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 145px;height: 20px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[gemKPT_Betr]</span></td> 
+     <td style="vertical-align: top;width: 582px;height: 20px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">gematik: Betriebskonzept Online-Produktivbetrieb</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 145px;height: 4px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[gemKPT_Test]</span></td> 
+     <td style="vertical-align: top;width: 582px;height: 4px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">gematik: Testkonzept der Telematikinfrastruktur</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 145px;height: 4px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[gemSpec_DS_Anbieter]</span></td> 
+     <td style="vertical-align: top;width: 582px;height: 4px;border: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">gematik:&nbsp;Spezifikation Datenschutz- und Sicherheitsanforderungen der TI an Anbieter</span></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_106"></p>
+  <h4 id="7.2.2">7.2.2 Weitere Dokumente</h4>
+  <table id="polarion_wiki macro name=table;params=width=100%|uid=107" style="width: 100%;margin-left: auto;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
+   <tbody> 
+    <tr> 
+     <td style="background-color: #F0F0F0;vertical-align: top;width: 108pt;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">[Quelle] </span></td> 
+     <td style="background-color: #F0F0F0;vertical-align: top;width: 440pt;height: 15pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-weight: bold;font-size: 9pt;line-height: 1.5;">Herausgeber (Erscheinungsdatum): Titel </span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 108pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[CAB-Forum]</span></td> 
+     <td style="vertical-align: top;width: 440pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Liste vertrauenswürdiger Zertifikatsherausgeber (Root-CAs) für Anwendungen im Internet<br> https://cabforum.org/members/</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 108pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[FHIR-API]</span></td> 
+     <td style="vertical-align: top;width: 440pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">RESTful-API für FHIR-Server<br> <a href="https://www.hl7.org/fhir/http.html" target="_top" class="descriptionLink">https://www.hl7.org/fhir/http.html</a>&nbsp; </span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 108pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[FHIR-Location]</span></td> 
+     <td style="vertical-align: top;width: 440pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Definition Location Ressource<br> <a href="http://hl7.org/fhir/location.html" target="_top" class="descriptionLink">http://hl7.org/fhir/location.html</a>&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 108pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">[FHIR-HealthcareService]</span></td> 
+     <td style="vertical-align: top;width: 440pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Definition HealthcareService Ressource<br> <a href="http://hl7.org/fhir/HealthcareService.html" target="_top" class="descriptionLink">http://hl7.org/fhir/HealthcareService.html</a>&nbsp;</span></td> 
+    </tr> 
+    <tr> 
+     <td style="vertical-align: top;width: 108pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">Absicherung eines Servers (ISi-Server)</span></td> 
+     <td style="vertical-align: top;width: 440pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 9pt;line-height: 1.5;">BSI-Leitlinie zur Internet-Sicherheit<br> <a href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Internetsicherheit/isi-server_pdf.html" target="_top" class="descriptionLink">https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Internetsicherheit/isi-server_pdf.html</a>&nbsp;</span></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p id="polarion_108"></p>
+  <p id="polarion_111"></p>
+  <p id="polarion_95"></p>
+  <p id="polarion_88"></p>
+ </body>
+</html>
