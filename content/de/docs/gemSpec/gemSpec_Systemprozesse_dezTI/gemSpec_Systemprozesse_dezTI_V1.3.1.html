@@ -69,7 +69,7 @@ ol:first-of-type {
      </tr>
      <tr>
       <td>Revision</td>
-      <td>548770</td>
+      <td>654368</td>
      </tr>
      <tr>
       <td>Stand</td>
@@ -90,7 +90,7 @@ ol:first-of-type {
     </table></pre> 
   </div>
   <p id="polarion_16"> <br> </p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=konnektorPTV5Maintenance-10911">Dokumentinformationen</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=Release_ePA_2_6_0-2-1633">Dokumentinformationen</h1>
   <p id="polarion_21"> <span style="font-weight: bold;">Änderungen zur Vorversion</span> </p>
   <p id="polarion_22"> <span style="font-size: 10pt;line-height: 1.5;">Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen.</span> </p>
   <p id="polarion_25"></p>
@@ -141,83 +141,304 @@ ol:first-of-type {
     </tr> 
    </tbody> 
   </table>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=konnektorPTV5Maintenance-10912">Inhaltsverzeichnis</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=Release_ePA_2_6_0-2-1634">Inhaltsverzeichnis</h1>
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=konnektorPTV5Maintenance-10911">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=konnektorPTV5Maintenance-10912">Inhaltsverzeichnis</a></li>
-   <li> : <a href="#1">1 Einordnung des Dokuments</a></li>
-   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
-   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
-   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
-   <li> : : <a href="#1.4">1.4 Abgrenzungen</a></li>
-   <li> : : <a href="#1.5">1.5 Methodik</a></li>
-   <li> : <a href="#2">2 Leistungen</a></li>
-   <li> : : <a href="#2.1">2.1 Systemprozesse für den Zugriff auf Smartcards der TI</a></li>
-   <li> : : : <a href="#2.1.1">2.1.1 Die Realisierungsumgebung des CardProxy</a></li>
-   <li> : : : : <a href="#2.1.1.1">2.1.1.1 ENV_TUC_CARD_SECRET_INPUT – Realisierung Eingabe PIN-Geheimnis</a></li>
-   <li> : : : : <a href="#2.1.1.2">2.1.1.2 ENV_TUC_CARD_TO_CARD – Realisierung Card-2-Card</a></li>
-   <li> : : : : <a href="#2.1.1.3">2.1.1.3 ENV_TUC_CARD_APDU_TRANSPORT – Realisierung APDU-Transport</a></li>
-   <li> : : : <a href="#2.1.2">2.1.2 Konfiguration und Statusinformationen</a></li>
-   <li> : : : : <a href="#2.1.2.1">2.1.2.1 Konfiguration des CardProxy</a></li>
-   <li> : : : : <a href="#2.1.2.2">2.1.2.2 Initialisierung CardProxy für eGK</a></li>
-   <li> : : : : <a href="#2.1.2.3">2.1.2.3 Initialisierung CardProxy für SM-B</a></li>
-   <li> : : : : <a href="#2.1.2.4">2.1.2.4 PL_TUC_CARD_INFORMATION – Gesammelte Statusinformationen zu einer Karte</a></li>
-   <li> : : : : <a href="#2.1.2.5">2.1.2.5 PL_TUC_EGK_STATUS – Gültigkeit der eGK prüfen</a></li>
-   <li> : : : : <a href="#2.1.2.6">2.1.2.6 PL_TUC_CARD_RESET – Rücksetzen einer Karte</a></li>
-   <li> : : : <a href="#2.1.3">2.1.3 Zugriff auf Smartcards der TI</a></li>
-   <li> : : : : <a href="#2.1.3.1">2.1.3.1 PL_TUC_CARD_CHANGE_PIN – PIN Ändern</a></li>
-   <li> : : : : <a href="#2.1.3.2">2.1.3.2 PL_TUC_CARD_ENABLE_PIN – PIN-Schutz einschalten</a></li>
-   <li> : : : : <a href="#2.1.3.3">2.1.3.3 PL_TUC_CARD_DISABLE_PIN – PIN-Schutz abschalten</a></li>
-   <li> : : : : <a href="#2.1.3.4">2.1.3.4 PL_TUC_CARD_UNBLOCK_PIN – PIN mit PUK entsperren</a></li>
-   <li> : : : : <a href="#2.1.3.5">2.1.3.5 PL_TUC_CARD_VERIFY_PIN – Benutzer verifizieren</a></li>
-   <li> : : : : <a href="#2.1.3.6">2.1.3.6 PL_TUC_CARD_ACTIVATE_APPLICATION – Anwendung aktivieren</a></li>
-   <li> : : : : <a href="#2.1.3.7">2.1.3.7 PL_TUC_CARD_DEACTIVATE_APPLICATION – Anwendung deaktivieren</a></li>
-   <li> : : : : <a href="#2.1.3.8">2.1.3.8 PL_TUC_CARD_GET_CHALLENGE – Auslesen einer Zufallszahl</a></li>
-   <li> : : : : <a href="#2.1.3.9">2.1.3.9 PL_TUC_CARD_READ_FILE – Lesen von Daten aus einer SmartCard</a></li>
-   <li> : : : : <a href="#2.1.3.10">2.1.3.10 PL_TUC_CARD_WRITE_FILE – Schreiben von Daten auf eine SmartCard</a></li>
-   <li> : : : : <a href="#2.1.3.11">2.1.3.11 PL_TUC_CARD_UPDATE_FILE – Aktualisieren von Daten in einer transparenten Datei einer SmartCard</a></li>
-   <li> : : : : <a href="#2.1.3.12">2.1.3.12 PL_TUC_CARD_DELETE_FILE – Löschen von Daten auf einer SmartCard</a></li>
-   <li> : : : : <a href="#2.1.3.13">2.1.3.13 PL_TUC_CARD_ERASE_FILE – Rücksetzen des Inhalts einer transparenten Datei</a></li>
-   <li> : : : : <a href="#2.1.3.14">2.1.3.14 PL_TUC_CARD_READ_RECORD – Lesen von Daten aus einer strukturierten Datei</a></li>
-   <li> : : : : <a href="#2.1.3.15">2.1.3.15 PL_TUC_EGK_READ_PROTOCOL – Auslesen des Zugriffprotokolls der eGK</a></li>
-   <li> : : : : <a href="#2.1.3.16">2.1.3.16 PL_TUC_CARD_WRITE_RECORD – Schreiben von Daten in eine strukturierte Datei</a></li>
-   <li> : : : : <a href="#2.1.3.17">2.1.3.17 PL_TUC_CARD_APPEND_RECORD – Anfügen von Daten an eine strukturierte Datei</a></li>
-   <li> : : : : <a href="#2.1.3.18">2.1.3.18 PL_TUC_EGK_APPEND_PROTOCOL – Zugriff auf der eGK protokollieren</a></li>
-   <li> : : : : <a href="#2.1.3.19">2.1.3.19 PL_TUC_CARD_DELETE_RECORD – Löschen von Daten in einer strukturierten Datei</a></li>
-   <li> : : : : <a href="#2.1.3.20">2.1.3.20 PL_TUC_CARD_ERASE_RECORD – Rücksetzen eines Datensatzes in einer strukturierten Datei</a></li>
-   <li> : : : <a href="#2.1.4">2.1.4 Transparenter Zugriff auf eine SmartCard</a></li>
-   <li> : : : : <a href="#2.1.4.1">2.1.4.1 PL_TUC_CARD_TC_OPEN</a></li>
-   <li> : : : : <a href="#2.1.4.2">2.1.4.2 PL_TUC_CARD_TC_SEND</a></li>
-   <li> : : : : <a href="#2.1.4.3">2.1.4.3 PL_TUC_CARD_TC_CLOSE</a></li>
-   <li> : : <a href="#2.2">2.2 Kommunikation und Vernetzung</a></li>
-   <li> : : : <a href="#2.2.1">2.2.1 PL_TUC_TLS_SECURE_CHANNEL – TLS-Verbindung mit gegenseitiger Authentisierung</a></li>
-   <li> : : : <a href="#2.2.2">2.2.2 PL_TUC_NET_NAME_RESOLUTION</a></li>
-   <li> : : : <a href="#2.2.3">2.2.3 PL_TUC_NET_SYNC_TIME</a></li>
-   <li> : : <a href="#2.3">2.3 Zugriffe auf den Verzeichnisdienst</a></li>
-   <li> : : : <a href="#2.3.1">2.3.1 PL_TUC_VZD_BIND - Verbindung aufbauen</a></li>
-   <li> : : : <a href="#2.3.2">2.3.2 PL_TUC_VZD_SEARCH - Verzeichnis abfragen</a></li>
-   <li> : : : <a href="#2.3.3">2.3.3 PL_TUC_VZD_UNBIND - Verbindung trennen</a></li>
-   <li> : : : <a href="#2.3.4">2.3.4 PL_TUC_VZD_ABANDON - Verzeichnisabfrage abbrechen</a></li>
-   <li> : : <a href="#2.4">2.4 Vertraulichkeit, Authentizität, Integrität</a></li>
-   <li> : : : <a href="#2.4.1">2.4.1 PL_TUC_SIGN_HASH_nonQES – mit TI-Identität nonQES signieren</a></li>
-   <li> : : : <a href="#2.4.2">2.4.2 PL_TUC_HYBRID_ENCIPHER – Hybrid verschlüsseln</a></li>
-   <li> : : : <a href="#2.4.3">2.4.3 PL_TUC_HYBRID_DECIPHER – Hybrid entschlüsseln</a></li>
-   <li> : : : <a href="#2.4.4">2.4.4 PL_TUC_SYMM_ENCIPHER – Symmetrisch verschlüsseln</a></li>
-   <li> : : : <a href="#2.4.5">2.4.5 PL_TUC_SYMM_DECIPHER – Symmetrisch entschlüsseln</a></li>
-   <li> : : : <a href="#2.4.6">2.4.6 PL_TUC_SIGN_DOCUMENT_nonQES – Dokument nonQES signieren</a></li>
-   <li> : : : <a href="#2.4.7">2.4.7 PL_TUC_VERIFY_DOCUMENT_nonQES - nonQES Dokumentensignatur verifizieren</a></li>
-   <li> : : <a href="#2.5">2.5 Leistungen der PKI</a></li>
-   <li> : : : <a href="#2.5.1">2.5.1 PL_TUC_PKI_VERIFY_CERTIFICATE – Prüfung eines Zertifikats der TI</a></li>
-   <li> : <a href="#3">3 Anhang A – Verzeichnisse</a></li>
-   <li> : : <a href="#3.1">3.1 Abkürzungen</a></li>
-   <li> : : <a href="#3.2">3.2 Glossar</a></li>
-   <li> : : <a href="#3.3">3.3 Abbildungsverzeichnis</a></li>
-   <li> : : <a href="#3.4">3.4 Tabellenverzeichnis</a></li>
-   <li> : : <a href="#3.5">3.5 Referenzierte Dokumente</a></li>
-   <li> : : : <a href="#3.5.1">3.5.1 Dokumente der gematik</a></li>
-   <li> : : : <a href="#3.5.2">3.5.2 Weitere Dokumente</a></li>
+   <ul>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=Release_ePA_2_6_0-2-1633">Dokumentinformationen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=Release_ePA_2_6_0-2-1634">Inhaltsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#1">1 Einordnung des Dokuments</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.1">1.1 Zielsetzung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.2">1.2 Zielgruppe</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.3">1.3 Geltungsbereich</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.4">1.4 Abgrenzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.5">1.5 Methodik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#2">2 Leistungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.1">2.1 Systemprozesse für den Zugriff auf Smartcards der TI</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.1.1">2.1.1 Die Realisierungsumgebung des CardProxy</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.1.1">2.1.1.1 ENV_TUC_CARD_SECRET_INPUT – Realisierung Eingabe PIN-Geheimnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.1.2">2.1.1.2 ENV_TUC_CARD_TO_CARD – Realisierung Card-2-Card</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.1.3">2.1.1.3 ENV_TUC_CARD_APDU_TRANSPORT – Realisierung APDU-Transport</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.1.2">2.1.2 Konfiguration und Statusinformationen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.2.1">2.1.2.1 Konfiguration des CardProxy</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.2.2">2.1.2.2 Initialisierung CardProxy für eGK</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.2.3">2.1.2.3 Initialisierung CardProxy für SM-B</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.2.4">2.1.2.4 PL_TUC_CARD_INFORMATION – Gesammelte Statusinformationen zu einer Karte</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.2.5">2.1.2.5 PL_TUC_EGK_STATUS – Gültigkeit der eGK prüfen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.2.6">2.1.2.6 PL_TUC_CARD_RESET – Rücksetzen einer Karte</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.1.3">2.1.3 Zugriff auf Smartcards der TI</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.1">2.1.3.1 PL_TUC_CARD_CHANGE_PIN – PIN Ändern</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.2">2.1.3.2 PL_TUC_CARD_ENABLE_PIN – PIN-Schutz einschalten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.3">2.1.3.3 PL_TUC_CARD_DISABLE_PIN – PIN-Schutz abschalten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.4">2.1.3.4 PL_TUC_CARD_UNBLOCK_PIN – PIN mit PUK entsperren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.5">2.1.3.5 PL_TUC_CARD_VERIFY_PIN – Benutzer verifizieren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.6">2.1.3.6 PL_TUC_CARD_ACTIVATE_APPLICATION – Anwendung aktivieren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.7">2.1.3.7 PL_TUC_CARD_DEACTIVATE_APPLICATION – Anwendung deaktivieren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.8">2.1.3.8 PL_TUC_CARD_GET_CHALLENGE – Auslesen einer Zufallszahl</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.9">2.1.3.9 PL_TUC_CARD_READ_FILE – Lesen von Daten aus einer SmartCard</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.10">2.1.3.10 PL_TUC_CARD_WRITE_FILE – Schreiben von Daten auf eine SmartCard</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.11">2.1.3.11 PL_TUC_CARD_UPDATE_FILE – Aktualisieren von Daten in einer transparenten Datei einer SmartCard</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.12">2.1.3.12 PL_TUC_CARD_DELETE_FILE – Löschen von Daten auf einer SmartCard</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.13">2.1.3.13 PL_TUC_CARD_ERASE_FILE – Rücksetzen des Inhalts einer transparenten Datei</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.14">2.1.3.14 PL_TUC_CARD_READ_RECORD – Lesen von Daten aus einer strukturierten Datei</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.15">2.1.3.15 PL_TUC_EGK_READ_PROTOCOL – Auslesen des Zugriffprotokolls der eGK</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.16">2.1.3.16 PL_TUC_CARD_WRITE_RECORD – Schreiben von Daten in eine strukturierte Datei</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.17">2.1.3.17 PL_TUC_CARD_APPEND_RECORD – Anfügen von Daten an eine strukturierte Datei</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.18">2.1.3.18 PL_TUC_EGK_APPEND_PROTOCOL – Zugriff auf der eGK protokollieren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.19">2.1.3.19 PL_TUC_CARD_DELETE_RECORD – Löschen von Daten in einer strukturierten Datei</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.3.20">2.1.3.20 PL_TUC_CARD_ERASE_RECORD – Rücksetzen eines Datensatzes in einer strukturierten Datei</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.1.4">2.1.4 Transparenter Zugriff auf eine SmartCard</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.4.1">2.1.4.1 PL_TUC_CARD_TC_OPEN</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.4.2">2.1.4.2 PL_TUC_CARD_TC_SEND</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#2.1.4.3">2.1.4.3 PL_TUC_CARD_TC_CLOSE</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.2">2.2 Kommunikation und Vernetzung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.2.1">2.2.1 PL_TUC_TLS_SECURE_CHANNEL – TLS-Verbindung mit gegenseitiger Authentisierung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.2.2">2.2.2 PL_TUC_NET_NAME_RESOLUTION</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.2.3">2.2.3 PL_TUC_NET_SYNC_TIME</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.3">2.3 Zugriffe auf den Verzeichnisdienst</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.3.1">2.3.1 PL_TUC_VZD_BIND - Verbindung aufbauen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.3.2">2.3.2 PL_TUC_VZD_SEARCH - Verzeichnis abfragen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.3.3">2.3.3 PL_TUC_VZD_UNBIND - Verbindung trennen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.3.4">2.3.4 PL_TUC_VZD_ABANDON - Verzeichnisabfrage abbrechen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.4">2.4 Vertraulichkeit, Authentizität, Integrität</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.1">2.4.1 PL_TUC_SIGN_HASH_nonQES – mit TI-Identität nonQES signieren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.2">2.4.2 PL_TUC_HYBRID_ENCIPHER – Hybrid verschlüsseln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.3">2.4.3 PL_TUC_HYBRID_DECIPHER – Hybrid entschlüsseln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.4">2.4.4 PL_TUC_SYMM_ENCIPHER – Symmetrisch verschlüsseln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.5">2.4.5 PL_TUC_SYMM_DECIPHER – Symmetrisch entschlüsseln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.6">2.4.6 PL_TUC_SIGN_DOCUMENT_nonQES – Dokument nonQES signieren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.7">2.4.7 PL_TUC_VERIFY_DOCUMENT_nonQES - nonQES Dokumentensignatur verifizieren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.5">2.5 Leistungen der PKI</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.5.1">2.5.1 PL_TUC_PKI_VERIFY_CERTIFICATE – Prüfung eines Zertifikats der TI</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#3">3 Anhang A – Verzeichnisse</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.1">3.1 Abkürzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.2">3.2 Glossar</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.3">3.3 Abbildungsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.4">3.4 Tabellenverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.5">3.5 Referenzierte Dokumente</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.5.1">3.5.1 Dokumente der gematik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.5.2">3.5.2 Weitere Dokumente</a>
+     </div></li>
+   </ul>
   </div>
   <h2 id="1">1 Einordnung des Dokuments</h2>
   <h3 id="1.1">1.1 Zielsetzung</h3>
@@ -253,19 +474,19 @@ ol:first-of-type {
   <p id="polarion_75">Der CardProxy benötigt einen Zugriff auf Umgebungsschnittstellen, die je nach Einsatzumgebung der Karten unterschiedlich ausgeprägt sind. Der CardProxy benötigt eine Transportschnittstelle der physischen Anbindung zur Karte, einen Kommunikationskanal zu einem Remote-CardProxy mit einer zweiten Karte für eine Freischaltung nach dem Zwei-Schlüssel-Prinzip (Card-2-Card) und eine Schnittstelle zur Eingabe eines PIN-Geheimnisses.</p>
   <h5 id="2.1.1.1">2.1.1.1 ENV_TUC_CARD_SECRET_INPUT – Realisierung Eingabe PIN-Geheimnis</h5>
   <p id="polarion_76">Das System zur Umsetzung der Plattformleistungen zur Anbindung der Karte muss für seine konkrete Realisierungsumgebung festlegen, wie PIN- bzw. PUK-Geheimnisse von einem Benutzerinterface an die Karte gelangen.</p>
-  <div id="TIP1-A_6889">
+  <div id="TIP1-A_6889" severity="MUSS">
    <p><b>TIP1-A_6889 - Eingabeschnittstelle für PIN</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen PL_TUC_CARD_* MUSS eine Eingabeschnittstelle definieren, mittels der die Eingabe eines PIN-Geheimnisses an der Schnittstelle CardProxy und Kartenterminal gemäß [gemSpec_CardProxy#Schnittstelle CardProxy und Kartenleser] übergeben wird. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6890">
+  <div id="TIP1-A_6890" severity="MUSS">
    <p><b>TIP1-A_6890 - Eingabeschnittstelle für PUK</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen PL_TUC_CARD_* MUSS eine Eingabeschnittstelle definieren, mittels der die Eingabe eines PUK-Geheimnisses an der Schnittstelle CardProxy und Kartenterminal gemäß [gemSpec_CardProxy#Schnittstelle CardProxy und Kartenleser] übergeben wird. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6891">
+  <div id="TIP1-A_6891" severity="MUSS">
    <p><b>TIP1-A_6891 - Eingabeschnittstelle für newPIN</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen PL_TUC_CARD_* MUSS eine Eingabeschnittstelle definieren, mittels der die Eingabe eines neuen PIN-Geheimnisses an der Schnittstelle CardProxy und Kartenterminal gemäß [gemSpec_CardProxy#Schnittstelle CardProxy und Kartenleser] übergeben wird. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_7017">
+  <div id="TIP1-A_7017" severity="MUSS">
    <p><b>TIP1-A_7017 - Statusinformationen im Rahmen der PIN-Verifikation</b></p>
    <p>Produkttypen und Dienste der TI die eine PIN/PUK-Eingabe mittels ENV_TUC_CARD_SECRET_INPUT umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy#Sicherheitszustand] zurückmelden:<br>
     <ol>
@@ -275,11 +496,11 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.1.2">2.1.1.2 ENV_TUC_CARD_TO_CARD – Realisierung Card-2-Card</h5>
   <p id="polarion_78">Das System zur Umsetzung der Plattformleistungen zur Anbindung der Karte muss für seine konkrete Realisierungsumgebung festlegen, wie der Datentransport innerhalb einer Card-2-Card-Freischaltung zwischen zwei beteiligten Karten erfolgt.</p>
-  <div id="TIP1-A_6892">
+  <div id="TIP1-A_6892" severity="MUSS">
    <p><b>TIP1-A_6892 - Umgebungsschnittstelle für Card-2-Card</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen PL_TUC_CARD_* MUSS eine Transportschnittstelle „Umgebung“ definieren, mittels welcher der Datenaustausch von Challenge und Response im Card-2-Card-Verfahren zwischen zwei CardProxy-Instanzen von CardProxy_A an CardProxy_B gemäß [gemSpec_CardProxy#Sicherheitszustand#Card-2-Card] realisiert wird. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_7018">
+  <div id="TIP1-A_7018" severity="MUSS">
    <p><b>TIP1-A_7018 - Statusinformationen im Rahmen von Card-2-Card</b></p>
    <p>Produkttypen und Dienste der TI die eine Card-2-Card-Freischaltung mittels ENV_TUC_CARD_TO_CARD umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy#Sicherheitszustand] zurückmelden:<br>
     <ol>
@@ -291,30 +512,30 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.1.3">2.1.1.3 ENV_TUC_CARD_APDU_TRANSPORT – Realisierung APDU-Transport</h5>
   <p id="polarion_79">Das System zur Umsetzung der Plattformleistungen zur Anbindung der Karte muss für seine konkrete Realisierungsumgebung festlegen, wie die elektrische Schnittstelle zwischen CardProxy und Karte als Kartenkontaktiereinheit IFD realisiert wird.</p>
-  <div id="TIP1-A_6893">
+  <div id="TIP1-A_6893" severity="MUSS">
    <p><b>TIP1-A_6893 - Umgebungsschnittstelle für Kartenkommandos</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen PL_TUC_CARD_* MUSS eine Schnittstelle realisieren, mittels welcher der Transport der APDU-Kommandos zwischen CardProxy und Karte gemäß [gemSpec_CardProxy Konzept der Komponente Kartenterminal Proxy] über eine Kartenkontaktiereinheit gemäß [ISO7816-3] realisiert wird. <b>[&lt;=]</b></p>
   </div>
   <h4 id="2.1.2">2.1.2 Konfiguration und Statusinformationen</h4>
   <p id="polarion_80">Um die korrekte Funktionsweise einer CardProxy-Instanz in einer konkreten Realisierungsumgebung sicherzustellen, ist eine Konfiguration und Initialisierung des CardProxies erforderlich. Es muss festgelegt werden, welchen Kartentyp eine jeweilige CardProxy-Instanz unterstützen soll und welche Operation auf welchen Objekten der jeweiligen Karte in einer Anwendung zulässig sind.</p>
   <h5 id="2.1.2.1">2.1.2.1 Konfiguration des CardProxy</h5>
-  <div id="TIP1-A_6894">
+  <div id="TIP1-A_6894" severity="MUSS">
    <p><b>TIP1-A_6894 - Konfiguration des Kartenzugriffs</b></p>
    <p>Das System zur Umsetzung der Kartenzugriffe mittels CardProxy MUSS für seine Realisierungsumgebung eine Konfigurationstabelle gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] für jeden unterstützten Kartentyp einer SmartCard der TI definieren. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_81">Die Konfigurationstabelle legt die zulässigen Operationen für jeden unterstützten Kartentyp in einer konkreten Realisierungsumgebung fest. Um eine Eindeutigkeit in der Auswahl einer passenden Zugriffsregel eines Objektes auf der Karte zu erhalten, muss der Nutzer der Plattformleistung festlegen, in welchen Rollen ein Akteur in Anwendungsfällen mit Bezug zu einer Karte der TI interagieren kann.</p>
-  <div id="TIP1-A_7019">
+  <div id="TIP1-A_7019" severity="MUSS">
    <p><b>TIP1-A_7019 - Konfiguration der Rollen des Benutzers einer Karte</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen für Systemprozesse der TI-Plattform MUSS für seine Realisierungsumgebung festlegen, welche Rollen ein Benutzer in Anwendungsfällen mit Bezug auf eine Karte der TI einnehmen darf. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6895">
+  <div id="TIP1-A_6895" severity="MUSS">
    <p><b>TIP1-A_6895 - Festlegung des Zugriffsprofils zur Rollenauthentisierung gegenüber einer eGK</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen für Systemprozesse der TI-Plattform MUSS festlegen, welche Zugriffe eine SmartCard (HBA, SM-B) bei der Rollenauthentisierung gegenüber einer eGK in seiner konkreten Realisierungsumgebung freischalten darf. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_84">Mit dieser Anforderung wird sichergestellt, dass die zum Einsatz kommenden Karten über die entsprechenden Zertifikate zur Rollenauthentisierung gegenüber einer eGK verfügen. Diese Rollen bilden Zugriffsrechte auf der eGK ab, die in der Konfigurationstabelle für den CardProxy verzeichnet sind.</p>
   <h5 id="2.1.2.2">2.1.2.2 Initialisierung CardProxy für eGK</h5>
   <p id="polarion_86">Bei der Initialisierung des CardProxy in dessen Zugriff sich eine eGK befindet, soll die komplette CV-Zertifikatskette einer in der Realisierungsumgebung vorgehaltenen SM-B, die für die Freischaltung der eGK vorgesehen ist, übergeben werden. Daraus ergibt sich, dass die in der Realisierungsumgebung eingesetzte SM-B bereits über einen initialisierten CardProxy adressiert werden kann. Die Instanz des CardProxy mit eGK muss mit der Referenz der SM-B der übergebenen SM-B-CV-Zertifikatskette und dem bei der Initialisierung des SM-B-CardProxy ausgelesenen X.509-AUT-Zertifikats assoziiert werden.</p>
-  <div id="TIP1-A_6896">
+  <div id="TIP1-A_6896" severity="MUSS">
    <p><b>TIP1-A_6896 - Initialisierung CardProxy für eGK</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen für Systemprozesse der TI-Plattform MUSS bei der Initialisierung des CardProxies mit Zugriff auf eine eGK <br>
     <ul>
@@ -325,7 +546,7 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.2.3">2.1.2.3 Initialisierung CardProxy für SM-B</h5>
   <p id="polarion_88">Bei der Initialisierung des CardProxy in dessen Zugriff sich eine SM-B befindet, soll die SM-B mittels PIN-Eingabe freigeschaltet werden sowie das CV- und das X.509-AUT-Zertifikat ausgelesen werden.</p>
-  <div id="TIP1-A_6897">
+  <div id="TIP1-A_6897" severity="MUSS">
    <p><b>TIP1-A_6897 - Initialisierung CardProxy für SM-B</b></p>
    <p>Das System zur Umsetzung der Plattformleistungen für Systemprozesse der TI-Plattform MUSS bei der Initialisierung des CardProxies mit Zugriff auf eine SM-B <br> 
     <ul>
@@ -336,11 +557,11 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.2.4">2.1.2.4 PL_TUC_CARD_INFORMATION – Gesammelte Statusinformationen zu einer Karte</h5>
   <p id="polarion_90">Der Systemprozess PL_TUC_CARD_INFORMATION sammelt Statusinformationen zu einer SmartCard, die über eine umgebungsspezifische Schnittstelle an das System angebunden wird und stellt diese zum Abruf durch andere Systemprozesse bereit. Die Informationen umfassen zum einen Auskünfte über Kartentyp und Kartengeneration bzw. -version und zum anderen Statusinformationen über auf der Karte vorhandene Anwendungen und PINs.</p>
-  <div id="TIP1-A_6898">
+  <div id="TIP1-A_6898" severity="MUSS">
    <p><b>TIP1-A_6898 - Leistung zu Statusinformationen zu einer Karte</b></p>
    <p>Produkttypen und Dienste der TI mit Zugriff auf Smartcards der TI MÜSSEN eine Plattformleistung PL_TUC_CARD_INFORMATION realisieren und mit Statusinformationen einer SmartCard befüllen, die über die Umgebungsschnittstelle ENV_TUC_CARD_APDU_TRANSPORT mit dem System verbunden wird. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6899">
+  <div id="TIP1-A_6899" severity="MUSS">
    <p><b>TIP1-A_6899 - Liste verfügbarer Informationen zu einer SmartCard</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_INFORMATION umsetzen, MÜSSEN die folgenden Informationen zum Status einer angebundenen SmartCard sammeln, bei Änderung aktualisieren und für die Dauer der Verbindung zu dieser SmartCard zum Abruf bereitstellen. <br> <br> 
     <table style="width: 100%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
@@ -431,7 +652,7 @@ ol:first-of-type {
   <p id="polarion_31"></p>
   <h5 id="2.1.2.5">2.1.2.5 PL_TUC_EGK_STATUS – Gültigkeit der eGK prüfen</h5>
   <p id="polarion_91">Der Systemprozess PL_TUC_EGK_STATUS fasst Leistungen verschiedener Domänen unter Einbeziehung einer elektronischen Gesundheitskarte zu einer höherwertigen Plattformleistung zusammen. Mit dieser wird eine Gültigkeitsprüfung der eGK durchgeführt, die zum einen Prüfschritte direkt auf der Karte durchführt und andererseits die Legitimität der Karte mittels Onlineabfrage beim Kartenherausgeber prüft.</p>
-  <div id="TIP1-A_6901">
+  <div id="TIP1-A_6901" severity="MUSS">
    <p><b>TIP1-A_6901 - Prüfkriterien der Gültigkeit der eGK</b></p>
    <p>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -469,7 +690,7 @@ ol:first-of-type {
      </tbody>
     </table><p><br></p> <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6902">
+  <div id="TIP1-A_6902" severity="MUSS">
    <p><b>TIP1-A_6902 - Prüfergebnis der Echtheit_und_Gültigkeit der eGK</b></p>
    <p>Produkttypen und Dienste der TI MÜSSEN zur Realisierung von PL_EGK_STATUS über das Ergebnis jedes Prüfkriteriums der Echtheit- und Gültigkeitsprüfung der eGK informieren und mit einem Status die erfolgreiche Prüfung aller Kriterien mitteilen.<br>
     <ol>
@@ -482,22 +703,22 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.2.6">2.1.2.6 PL_TUC_CARD_RESET – Rücksetzen einer Karte</h5>
   <p id="polarion_92">Mit dem Systemprozess PL_TUC_CARD_RESET soll der logische Kanal einer im Zugriff eines CardProxy befindlichen SmartCard der TI auf den Initialisierungsstand zurückgesetzt werden.</p>
-  <div id="TIP1-A_7020">
+  <div id="TIP1-A_7020" severity="MUSS">
    <p><b>TIP1-A_7020 - Leistung zum Rücksetzen einer Karte</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Rücksetzen des logischen Kanals einer SmartCard als Plattformleistung PL_TUC_CARD_RESET gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> mit dem Aktionsparameter <span style="font-style: italic;">RESETCHANNEL</span> und dem IDENTIFIKATOR „*“ (Wildcard) umsetzen und das Abschließen dieser Aktion mit dem Rückgabewert<br>OK<br>bestätigen. <b>[&lt;=]</b></p>
   </div>
   <h4 id="2.1.3">2.1.3 Zugriff auf Smartcards der TI</h4>
   <p id="polarion_115">Der folgende Abschnitt definiert Systemprozesse für den Zugriff auf Smartcards der TI als funktionale Abläufe. Voraussetzung für die korrekte Funktionsweise sind zum einen umgebungsspezifische Abläufe an den Außenschnittstellen, die von der jeweiligen Realisierungsumgebung festgelegt werden müssen. Zum anderen muss für die jeweils durch einen CardProxy adressierbaren Karten eine Konfigurationstabelle der zulässigen Kartenoperationen definiert werden.</p>
   <h5 id="2.1.3.1">2.1.3.1 PL_TUC_CARD_CHANGE_PIN – PIN Ändern</h5>
-  <div id="TIP1-A_6903">
+  <div id="TIP1-A_6903" severity="MUSS">
    <p><b>TIP1-A_6903 - Leistung zur Änderung einer PIN</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Ändern einer PIN auf einer SmartCard als Plattformleistung PL_TUC_CARD_CHANGE_PIN gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für Passwortobjekte</span> mit dem Aktionsparameter <span style="font-style: italic;">CHANGE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6904">
+  <div id="TIP1-A_6904" severity="MUSS">
    <p><b>TIP1-A_6904 - Aufrufparameter zum Ändern einer PIN</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_CHANGE_PIN umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> des Passwortobjektes gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6905-01">
+  <div id="TIP1-A_6905-01" severity="MUSS">
    <p><b>TIP1-A_6905-01 - Ergebnis der Änderung einer PIN</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_CHANGE_PIN umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -514,15 +735,15 @@ ol:first-of-type {
   <p id="polarion_116">Durch den Systemprozess PL_TUC_CARD_CHANGE_PIN wird das PIN-Geheimnis einer referenzierten PIN auf einer SmartCard der TI geändert.</p>
   <h5 id="2.1.3.2">2.1.3.2 PL_TUC_CARD_ENABLE_PIN – PIN-Schutz einschalten</h5>
   <p id="polarion_117">Mit dem Systemprozess PL_TUC_CARD_ENABLE_PIN wird die PIN-Verifikation der referenzierten PIN eingeschaltet.</p>
-  <div id="TIP1-A_6906">
+  <div id="TIP1-A_6906" severity="MUSS">
    <p><b>TIP1-A_6906 - Leistung zum Einschalten einer PIN</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Einschalten einer PIN auf einer SmartCard als Plattformleistung PL_TUC_CARD_ENABLE_PIN gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für Passwortobjekte</span> mit dem Aktionsparameter <span style="font-style: italic;">ENABLE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6907">
+  <div id="TIP1-A_6907" severity="MUSS">
    <p><b>TIP1-A_6907 - Aufrufparameter zum Einschalten einer PIN</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_ENABLE_PIN umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> des Passwortobjektes gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6908">
+  <div id="TIP1-A_6908" severity="MUSS">
    <p><b>TIP1-A_6908 - Ergebnis des Einschaltens einer PIN</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_ENABLE_PIN umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -537,15 +758,15 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <h5 id="2.1.3.3">2.1.3.3 PL_TUC_CARD_DISABLE_PIN – PIN-Schutz abschalten</h5>
-  <div id="TIP1-A_6909">
+  <div id="TIP1-A_6909" severity="MUSS">
    <p><b>TIP1-A_6909 - Leistung zum Abschalten einer PIN</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Abschalten einer PIN auf einer SmartCard als Plattformleistung PL_TUC_CARD_DISABLE_PIN gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für Passwortobjekte</span> mit dem Aktionsparameter <span style="font-style: italic;">DISABLE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6910">
+  <div id="TIP1-A_6910" severity="MUSS">
    <p><b>TIP1-A_6910 - Aufrufparameter zum Abschalten einer PIN</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_DISABLE_PIN umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> des Passwortobjektes gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6911">
+  <div id="TIP1-A_6911" severity="MUSS">
    <p><b>TIP1-A_6911 - Ergebnis des Abschaltens einer PIN</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_DISABLE_PIN umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -561,15 +782,15 @@ ol:first-of-type {
   </div>
   <p id="polarion_118">Mit dem Systemprozess PL_TUC_CARD_DISABLE_PIN wird die PIN-Verifikation einer referenzierten PIN abgeschaltet. Objekte auf einer SmartCard mit Zugriffsbedingungen, die die referenzierte PIN enthalten, sind bei abgeschalteter PIN weniger geschützt.</p>
   <h5 id="2.1.3.4">2.1.3.4 PL_TUC_CARD_UNBLOCK_PIN – PIN mit PUK entsperren</h5>
-  <div id="TIP1-A_6912">
+  <div id="TIP1-A_6912" severity="MUSS">
    <p><b>TIP1-A_6912 - Leistung zum Entsperren einer PIN mittels PUK</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Entsperren einer PIN auf einer SmartCard als Plattformleistung PL_TUC_CARD_UNBLOCK_PIN gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für Passwortobjekte</span> mit dem Aktionsparameter <span style="font-style: italic;">UNBLOCK</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6913">
+  <div id="TIP1-A_6913" severity="MUSS">
    <p><b>TIP1-A_6913 - Aufrufparameter zum Entsperren einer PIN mittels PUK</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_UNBLOCK_PIN umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> des Passwortobjektes gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6914">
+  <div id="TIP1-A_6914" severity="MUSS">
    <p><b>TIP1-A_6914 - Ergebnis der Entsperrung einer PIN mittels PUK</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_UNBLOCK_PIN umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -586,15 +807,15 @@ ol:first-of-type {
   </div>
   <p id="polarion_119">Mit dem Systemprozess PL_TUC_CARD_UNBLOCK_PIN wird eine gesperrte PIN entsperrt. Das Entsperren kann mit gleichzeitigem Setzen einer neuen PIN oder ohne das setzen einer neuen PIN erfolgen. Der Modus der Entsperrung erfolgt auf Grundlage der Festlegungen in der Konfiguration des CardProxies für einen bestimmten Kartentypen.</p>
   <h5 id="2.1.3.5">2.1.3.5 PL_TUC_CARD_VERIFY_PIN – Benutzer verifizieren</h5>
-  <div id="TIP1-A_6915">
+  <div id="TIP1-A_6915" severity="MUSS">
    <p><b>TIP1-A_6915 - Leistung zur Benutzerverifikation</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine Benutzerverifikation mittels PIN als Plattformleistung PL_TUC_CARD_VERIFY_PIN gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für Passwortobjekte</span> mit dem Aktionsparameter <span style="font-style: italic;">VERIFY</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6916">
+  <div id="TIP1-A_6916" severity="MUSS">
    <p><b>TIP1-A_6916 - Aufrufparameter der Benutzerverifikation</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_VERIFY_PIN umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> des Passwortobjektes gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6917">
+  <div id="TIP1-A_6917" severity="MUSS">
    <p><b>TIP1-A_6917 - Ergebnis der Leistung zur Eingabe einer PIN</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_VERIFY_PIN umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -610,15 +831,15 @@ ol:first-of-type {
   </div>
   <p id="polarion_120">Der Systemprozess PL_TUC_CARD_VERIFY_PIN führt eine kartenbasierte Benutzerverifikation durch. Dazu wird auf einer SmartCard der TI eine PIN-Eingabe angestoßen, über die sich ein Benutzer als Besitzer des Kartengeheimnisses authentifiziert.</p>
   <h5 id="2.1.3.6">2.1.3.6 PL_TUC_CARD_ACTIVATE_APPLICATION – Anwendung aktivieren</h5>
-  <div id="TIP1-A_6918">
+  <div id="TIP1-A_6918" severity="MUSS">
    <p><b>TIP1-A_6918 - Leistung zum Aktivieren einer Anwendung</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Sichtbarmachen einer Anwendung auf einer SmartCard als Plattformleistung PL_TUC_CARD_ACTIVATE_APPLICATION gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für Ordner</span> mit dem Aktionsparameter <span style="font-style: italic;">ACTIVATE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6919">
+  <div id="TIP1-A_6919" severity="MUSS">
    <p><b>TIP1-A_6919 - Aufrufparameter zum Aktivieren einer Anwendung</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_ACTIVATE_APPLICATION umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der Anwendung gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6920">
+  <div id="TIP1-A_6920" severity="MUSS">
    <p><b>TIP1-A_6920 - Ergebnis der Leistung zur Aktivieren einer Anwendung</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_ACTIVATE_APPLICATION umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -633,15 +854,15 @@ ol:first-of-type {
   </div>
   <p id="polarion_121">Der Systemprozess PL_TUC_CARD_ACTIVATE_APPLICATION schaltet eine verborgene Anwendung auf einer SmartCard sichtbar.</p>
   <h5 id="2.1.3.7">2.1.3.7 PL_TUC_CARD_DEACTIVATE_APPLICATION – Anwendung deaktivieren</h5>
-  <div id="TIP1-A_6921">
+  <div id="TIP1-A_6921" severity="MUSS">
    <p><b>TIP1-A_6921 - Leistung zum Deaktivieren einer Anwendung</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Verbergen einer Anwendung auf einer SmartCard als Plattformleistung PL_TUC_CARD_DEACTIVATE_APPLICATION gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für Ordner</span> mit dem Aktionsparameter DE<span style="font-style: italic;">ACTIVATE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6922">
+  <div id="TIP1-A_6922" severity="MUSS">
    <p><b>TIP1-A_6922 - Aufrufparameter zum Deaktivieren einer Anwendung</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_DEACTIVATE_APPLICATION umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der Anwendung gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6923">
+  <div id="TIP1-A_6923" severity="MUSS">
    <p><b>TIP1-A_6923 - Ergebnis der Leistung zur Deaktivieren einer Anwendung</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_DEACTIVATE_APPLICATION umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -656,15 +877,15 @@ ol:first-of-type {
   </div>
   <p id="polarion_122">Mit dem Systemprozess PL_CAR_DEACTIVATE_APPLICATION wird eine Anwendung auf einer SmartCard verborgen.</p>
   <h5 id="2.1.3.8">2.1.3.8 PL_TUC_CARD_GET_CHALLENGE – Auslesen einer Zufallszahl</h5>
-  <div id="TIP1-A_6924">
+  <div id="TIP1-A_6924" severity="MUSS">
    <p><b>TIP1-A_6924 - Leistung zum Auslesen einer Zufallszahl</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Auslesen einer Zufallszahl&nbsp;gemäß [gemSpec_Krypt#2.2 Zufallszahlengeneratoren]<span style="text-decoration: line-through;"></span> als Plattformleistung PL_TUC_GET_CHALLENGE&nbsp;umsetzen.&nbsp;Bei Verwendung einer SmartCard MUSS dies gemäß [gemSpec_CardProxy] mittels&nbsp; <span style="font-style: italic;">cardOperation für Ordner</span> mit dem Aktionsparameter <span style="font-style: italic;">GETRANDOM</span> und dem IDENTIFIKATOR <span style="font-style: italic;">„</span><span style="font-weight: bold;font-style: italic;">*</span><span style="font-style: italic;">“</span> (Wildcard) erfolgen. Bei Verwendung eines HSM MUSS dies unter Verwendung der durch das HSM bereitgestellten Zufallszahlengenerierung erfolgen. <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6925">
+  <div id="TIP1-A_6925" severity="MUSS">
    <p><b>TIP1-A_6925 - Aufrufparameter für das Auslesen einer Zufallszahl</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_<span style="text-decoration: line-through;background-color: #FFFF99;"></span>GET_CHALLENGE unter Verwendung einer SmartCard umsetzen, MÜSSEN vom Nutzer die Längenangabe <span style="font-style: italic;">LENGTH</span> der auszulesenden Zufallszahl gemäß [gemSpec_CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6926">
+  <div id="TIP1-A_6926" severity="MUSS">
    <p><b>TIP1-A_6926 - Ergebnis des Auslesens einer Zufallszahl</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_<span style="text-decoration: line-through;background-color: #FFFF99;"></span>GET_CHALLENGE umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br> 
     <ol> 
@@ -673,19 +894,19 @@ ol:first-of-type {
   </div>
   <p id="polarion_123">Mit dem Systemprozess PL_TUC_GET_CHALLENGE kann eine Zufallszahl ausgelesen werden. Bei Verwendung einer elektronischen&nbsp;Gesundheitskarte genügt die Qualität der Zufallszahl zur Ableitung ephemerer Schlüsselparameter.</p>
   <h5 id="2.1.3.9">2.1.3.9 PL_TUC_CARD_READ_FILE – Lesen von Daten aus einer SmartCard</h5>
-  <div id="TIP1-A_6927">
+  <div id="TIP1-A_6927" severity="MUSS">
    <p><b>TIP1-A_6927 - Leistung zum Lesen einer Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Lesen des Inhalts einer Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_READ_FILE gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für transparente Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">READ</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6928">
+  <div id="TIP1-A_6928" severity="MUSS">
    <p><b>TIP1-A_6928 - Aufrufparameter für das Lesen einer Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_READ_FILE umsetzen, MÜSSEN vom Nutzer den <span style="font-style: italic;">IDENTIFIKATOR</span> der zu lesenden Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6929">
+  <div id="TIP1-A_6929" severity="MUSS">
    <p><b>TIP1-A_6929 - Optionale Parameter für das Lesen einer Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_READ_FILE umsetzen, MÜSSEN die vom Nutzer optional bereitgestellten Parameter <span style="font-style: italic;">OFFSET</span> und <span style="font-style: italic;">LENGTH</span> bei Vorhandensein entgegennehmen und diese in der Umsetzung von [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> verwenden, um die zu lesende Datenmenge zu beschränken. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6930">
+  <div id="TIP1-A_6930" severity="MUSS">
    <p><b>TIP1-A_6930 - Ergebnis des Lesens des Inhalts einer Datei</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_READ_FILE umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -699,15 +920,15 @@ ol:first-of-type {
   </div>
   <p id="polarion_124">Mit dem Systemprozess PL_TUC_CARD_READ_FILE werden Daten aus einer transparenten Datei einer SmartCard gelesen. Über die Parameter Offset und Length kann gesteuert werden, ab welcher Position in der Datei eine festgelegte Anzahl Bytes gelesen werden. Fehlen diese Parameter, wird der komplette Dateiinhalt ausgelesen.</p>
   <h5 id="2.1.3.10">2.1.3.10 PL_TUC_CARD_WRITE_FILE – Schreiben von Daten auf eine SmartCard</h5>
-  <div id="TIP1-A_6931">
+  <div id="TIP1-A_6931" severity="MUSS">
    <p><b>TIP1-A_6931 - Leistung zum Schreiben von Daten in eine transparente Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Schreiben von Daten in eine transparente Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_WRITE_FILE gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für transparente Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">UPDATE</span> und dem <span style="font-style: italic;">OFFSET = 0</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6932">
+  <div id="TIP1-A_6932" severity="MUSS">
    <p><b>TIP1-A_6932 - Aufrufparameter für das Schreiben einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_WRITE_FILE umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der zu schreibenden Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] sowie <span style="font-style: italic;">NEWDATA</span> entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6933">
+  <div id="TIP1-A_6933" severity="MUSS">
    <p><b>TIP1-A_6933 - Ergebnis des Schreibens von Datei in eine transparente Datei</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_WRITE_FILE umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -722,19 +943,19 @@ ol:first-of-type {
   </div>
   <p id="polarion_125">Mit dem Systemprozess PL_TUC_CARD_WRITE_FILE werden Binärdaten in eine transparente Datei einer SmartCard geschrieben. Die Schreiboperation fügt die neuen Daten an eventuell vorhandene Daten an.</p>
   <h5 id="2.1.3.11">2.1.3.11 PL_TUC_CARD_UPDATE_FILE – Aktualisieren von Daten in einer transparenten Datei einer SmartCard</h5>
-  <div id="TIP1-A_6934">
+  <div id="TIP1-A_6934" severity="MUSS">
    <p><b>TIP1-A_6934 - Leistung zum Aktualisieren von Daten in einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Aktualisieren von Daten in einer transparenten Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_UPDATE_FILE gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für transparente Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">UPDATE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6935">
+  <div id="TIP1-A_6935" severity="MUSS">
    <p><b>TIP1-A_6935 - Aufrufparameter zum Aktualisieren von Daten in einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_UPDATE_FILE umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der zu aktualisierenden Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] sowie <span style="font-style: italic;">NEWDATA</span> entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6936">
+  <div id="TIP1-A_6936" severity="MUSS">
    <p><b>TIP1-A_6936 - Optionaler Parameter für das Aktualisieren von Datei in einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_READ_FILE umsetzen, MÜSSEN den vom Nutzenden optional bereitgestellten Parameter <span style="font-style: italic;">OFFSET</span> bei Vorhandensein entgegennehmen und diesen in der Umsetzung von [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> verwenden, um die Startposition der Schreiboperation innerhalb der Datei festzulegen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6937">
+  <div id="TIP1-A_6937" severity="MUSS">
    <p><b>TIP1-A_6937 - Ergebnis der Aktualisierung von Daten einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_UDPATE_FILE umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -750,15 +971,15 @@ ol:first-of-type {
   </div>
   <p id="polarion_126">Mit dem Systemprozess PL_TUC_CARD_UPDATE_FILE werden Binärdaten in eine transparente Datei einer SmartCard geschrieben, so dass vorhandene Daten überschrieben werden. Über den Parameter Offset kann gesteuert werden, ab welcher Position in der Datei die neuen Daten geschrieben werden. Fehlt dieser Parameter, beginnt die Schreiboperation am Anfang der Datei.</p>
   <h5 id="2.1.3.12">2.1.3.12 PL_TUC_CARD_DELETE_FILE – Löschen von Daten auf einer SmartCard</h5>
-  <div id="TIP1-A_6938">
+  <div id="TIP1-A_6938" severity="MUSS">
    <p><b>TIP1-A_6938 - Leistung des Löschens einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Löschen einer transparenten Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_DELETE_FILE gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für transparente Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">DELETE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6939">
+  <div id="TIP1-A_6939" severity="MUSS">
    <p><b>TIP1-A_6939 - Aufrufparameter zum Löschen einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_DELETE_FILE umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der zu löschenden Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6940">
+  <div id="TIP1-A_6940" severity="MUSS">
    <p><b>TIP1-A_6940 - Ergebnis der Löschoperation einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_DELETE_FILE umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -773,19 +994,19 @@ ol:first-of-type {
   <p id="polarion_127">Der Systemprozess PL_TUC_CARD_DELETE_FILE entfernt eine transparente Datei auf einer SmartCard samt Dateiinhalt. Die gelöschte Datei ist im Anschluss nicht mehr adressierbar.</p>
   <h5 id="2.1.3.13">2.1.3.13 PL_TUC_CARD_ERASE_FILE – Rücksetzen des Inhalts einer transparenten Datei</h5>
   <p id="polarion_128">Der Systemprozess PL_TUC_CARD_ERASE_FILE entfernt den Inhalt einer transparenten Datei. Die adressierte Datei ist weiterhin verwendbar.</p>
-  <div id="TIP1-A_6941">
+  <div id="TIP1-A_6941" severity="MUSS">
    <p><b>TIP1-A_6941 - Leistung zum Rücksetzen einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Rücksetzen des Dateiinhalts einer transparenten Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_ERASE_FILE gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für transparente Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">ERASE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6942">
+  <div id="TIP1-A_6942" severity="MUSS">
    <p><b>TIP1-A_6942 - Aufrufparameter zum Rücksetzen einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_ERASE_FILE umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der zurückzusetzenden Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6943">
+  <div id="TIP1-A_6943" severity="MUSS">
    <p><b>TIP1-A_6943 - Optionaler Parameter für das Rücksetzen des Inhalts einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_ERASE_FILE umsetzen, MÜSSEN den vom Nutzenden optional bereitgestellten Parameter <span style="font-style: italic;">OFFSET</span> bei Vorhandensein entgegennehmen und dieses in der Umsetzung von [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> verwenden, um die Startposition der Operation innerhalb der Datei festzulegen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6944">
+  <div id="TIP1-A_6944" severity="MUSS">
    <p><b>TIP1-A_6944 - Ergebnis des Rücksetzens einer transparenten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_ERASE_FILE umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -800,19 +1021,19 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.3.14">2.1.3.14 PL_TUC_CARD_READ_RECORD – Lesen von Daten aus einer strukturierten Datei</h5>
   <p id="polarion_129">Mit dem Systemprozess PL_TUC_CARD_READ_RECORD werden Daten aus einer strukturierten Datei auf einer SmartCard ausgelesen. Über die optionale Angabe der recordNumber wird gesteuert, ob nur ein einzelner Record oder alle Records der strukturierten Datei gelesen werden sollen.</p>
-  <div id="TIP1-A_6945">
+  <div id="TIP1-A_6945" severity="MUSS">
    <p><b>TIP1-A_6945 - Leistung zum Lesen einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Lesen einer strukturierten Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_READ_RECORD gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für strukturierte Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">READ</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6946">
+  <div id="TIP1-A_6946" severity="MUSS">
    <p><b>TIP1-A_6946 - Aufrufparameter für das Lesen einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_READ_RECORD umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der zu lesenden Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6947">
+  <div id="TIP1-A_6947" severity="MUSS">
    <p><b>TIP1-A_6947 - Optionale Parameter für das Lesen einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_READ_RECORD umsetzen, MÜSSEN den vom Nutzenden optional bereitgestellten Parameter <span style="font-style: italic;">RECORDNUMBER</span> bei Vorhandensein entgegennehmen und diese in der Umsetzung von [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> verwenden, um die zu lesende Datenmenge zu beschränken. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6948">
+  <div id="TIP1-A_6948" severity="MUSS">
    <p><b>TIP1-A_6948 - Ergebnis des Lesens einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI die die Plattformleistung PL_TUC_CARD_READ_RECORD umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -827,15 +1048,15 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.3.15">2.1.3.15 PL_TUC_EGK_READ_PROTOCOL – Auslesen des Zugriffprotokolls der eGK</h5>
   <p id="polarion_130">Mit dem Systemprozess PL_TUC_EGK_READ_PROTOCOL wird das gesamte Zugriffsprotokoll auf der elektronischen Gesundheitskarte ausgelesen. Im Gegensatz zur generischen Leseoperation eines strukturierten Elementary Files wird in diesem Baustein der Zugriff auf die Karte durch die Kartenzugriffsschicht CardProxy optimiert und es werden alle Log-Einträge (maximal 50) in einer Liste zurückgegeben.&nbsp;</p>
-  <div id="TIP1-A_6949">
+  <div id="TIP1-A_6949" severity="MUSS">
    <p><b>TIP1-A_6949 - Leistung zum Lesen des Zugriffprotokolls auf der eGK</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Auslesen des Zugriffprotokolls auf der eGK als Plattformleistung PL_TUC_EGK_READ_PROTOCOL gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für strukturiertes Elementary File</span> mit dem Aktionsparameter <span style="font-style: italic;">READ</span> und dem IDENTIFIKATOR <span style="font-style: italic;">EF.Logging</span> gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy eGK G2] umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6996">
+  <div id="TIP1-A_6996" severity="MUSS">
    <p><b>TIP1-A_6996 - Aufbereitung Zugriffsprotokolleinträge</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_EGK_READ_PROTOCOL umsetzen, MÜSSEN alle aus der Karte gelesenen, binär-codierten Zugriffsprotokolleinträge gemäß [gemSpec_Karten_Fach_TIP#Tab_Karten_Fach_TIP_010_StrukturEF.Logging] in ein strukturiertes Format überführen und die Werte entsprechend des angegeben Datentyps decodieren. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6950">
+  <div id="TIP1-A_6950" severity="MUSS">
    <p><b>TIP1-A_6950 - Ergebnis des Auslesens des Zugriffprotokolls der eGK</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_EGK_READ_PROTOCOL umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -848,15 +1069,15 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.3.16">2.1.3.16 PL_TUC_CARD_WRITE_RECORD – Schreiben von Daten in eine strukturierte Datei</h5>
   <p id="polarion_131">Der Systemprozess PL_TUC_CARD_WRITE_RECORD schreibt einen Datensatz in einen Record einer strukturierten Datei auf einer SmartCard. Enthält der zu schreibende Record bereits Daten, wird der alte Datensatz mit dem neuen Wert überschrieben.</p>
-  <div id="TIP1-A_6951">
+  <div id="TIP1-A_6951" severity="MUSS">
    <p><b>TIP1-A_6951 - Leistung zum Schreiben von Daten in eine strukturierte Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Schreiben eines Records einer strukturierten Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_WRITE_RECORD gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für strukturierte Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">UPDATE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6952">
+  <div id="TIP1-A_6952" severity="MUSS">
    <p><b>TIP1-A_6952 - Aufrufparameter zum Schreiben von Daten in eine strukturierte Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_WRITE_RECORD umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der zu aktualisierenden Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy], die <span style="font-style: italic;">RECORDNUMBER</span> sowie NEWDATA entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6953">
+  <div id="TIP1-A_6953" severity="MUSS">
    <p><b>TIP1-A_6953 - Ergebnis der Schreiboperation in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI die die Plattformleistung PL_TUC_CARD_WRITE_RECORD umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -875,15 +1096,15 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.3.17">2.1.3.17 PL_TUC_CARD_APPEND_RECORD – Anfügen von Daten an eine strukturierte Datei</h5>
   <p id="polarion_132">Mit dem Systemprozess PL_TUC_CARD_APPEND_RECORD wird ein Datensatz als neuer Record in einer strukturierten Datei an das Ende angefügt.</p>
-  <div id="TIP1-A_6954">
+  <div id="TIP1-A_6954" severity="MUSS">
    <p><b>TIP1-A_6954 - Leistung zum Anfügen von Daten in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Anfügen eines Records in einer strukturierten Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_APPEND_RECORD gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für strukturierte Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">APPEND</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6955">
+  <div id="TIP1-A_6955" severity="MUSS">
    <p><b>TIP1-A_6955 - Aufrufparameter zum Anfügen von Daten in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_APPEND_RECORD umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der zu aktualisierenden Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] sowie <span style="font-style: italic;">RECORDDATA</span> entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6956">
+  <div id="TIP1-A_6956" severity="MUSS">
    <p><b>TIP1-A_6956 - Ergebnis der Anfügeoperation in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_CARD_APPEND_RECORD umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -901,11 +1122,11 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.3.18">2.1.3.18 PL_TUC_EGK_APPEND_PROTOCOL – Zugriff auf der eGK protokollieren</h5>
   <p id="polarion_133">Mit dem Systemprozess PL_TUC_EGK_APPEND_PROTOCOL wird ein höherwertiger Baustein für das Schreiben eines Zugriffsprotokoll-Eintrags auf die eGK definiert. Nutzern dieser Plattformleistung genügt es, beim Aufruf den Identifikator der zu protokollierenden Fachanwendung mit der Art des durch die Fachanwendung erfolgten Zugriffs mitzuteilen. Der Systemprozess erzeugt aus diesen Daten zusammen mit den Angaben des Karteninhabers der SM-B-AUT-Identität, der diese eGK in einem Card-2-Card-Verfahren mit einem CV-Zertifikat freigeschaltet hat, einen Protokolldatensatz. Für das Protokollieren auf der eGK nutzt der Systemprozess die Schreiboperation des CardProxy der eGK.</p>
-  <div id="TIP1-A_6957">
+  <div id="TIP1-A_6957" severity="MUSS">
    <p><b>TIP1-A_6957 - Leistung zum Protokollieren des eGK-Zugriffs</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI mit Zugriff auf die eGK realisieren, MÜSSEN das Hinzufügen eines Protokolleintrags auf der eGK als Plattformleistung PL_TUC_EGK_APPEND_PROTOCOL umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6958">
+  <div id="TIP1-A_6958" severity="MUSS">
    <p><b>TIP1-A_6958 - Aufrufparameter der Zugriffsprotokollierung</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_EGK_APPEND_PROTOCOL umsetzen, MÜSSEN vom Nutzenden die Protokollparameter<br> 
     <ol>
@@ -913,7 +1134,7 @@ ol:first-of-type {
      <li>ACCESSTYPE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1 Byte] „Identifikator der Zugriffsart“<br></li>
     </ol>entgegennehmen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6959">
+  <div id="TIP1-A_6959" severity="MUSS">
    <p><b>TIP1-A_6959 - Hinzufügen eines Protokolleintrags auf die eGK</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_EGK_APPEND_PROTOCOL umsetzen, MÜSSEN die Schritte zum Hinzufügen eines Protokolleintrags auf der eGK in der angegebenen Reihenfolge durchführen:<br> 
     <table style="width: 100%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
@@ -953,19 +1174,19 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.3.19">2.1.3.19 PL_TUC_CARD_DELETE_RECORD – Löschen von Daten in einer strukturierten Datei</h5>
   <p id="polarion_134">Mit dem Systemprozess PL_TUC_CARD_DELETE_RECORD wird ein einzelner Record einer strukturierten Datei oder werden alle Records einer strukturierten Datei auf einer SmartCard gelöscht. Beim Löschen eines einzelnen Records reduziert sich die Anzahl der Records in der strukturierten Datei um eins. Werden alle Records gelöscht, ist die Anzahl der Records nach erfolgreichem Abschluss der Operation null. Die strukturierte Datei ist weiterhin adressierbar.</p>
-  <div id="TIP1-A_6960">
+  <div id="TIP1-A_6960" severity="MUSS">
    <p><b>TIP1-A_6960 - Leistung zum Löschen von Daten in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Löschen von Daten einer strukturierten Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_DELETE_RECORD gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für strukturierte Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">DELETERECORD</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6961">
+  <div id="TIP1-A_6961" severity="MUSS">
    <p><b>TIP1-A_6961 - Aufrufparameter zum Löschen von Daten in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_DELETE_RECORD umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der betroffenen Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6962">
+  <div id="TIP1-A_6962" severity="MUSS">
    <p><b>TIP1-A_6962 - Optionale Parameter für das Löschen von Daten einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_DELETE_RECORD umsetzen, MÜSSEN den vom Nutzenden optional bereitgestellten Parameter <span style="font-style: italic;">RECORDNUMBER</span> bei Vorhandensein entgegennehmen und diese in der Umsetzung von [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> verwenden, um die zu löschende Datenmenge auf einen einzelnen Record zu beschränken. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6963">
+  <div id="TIP1-A_6963" severity="MUSS">
    <p><b>TIP1-A_6963 - Ergebnis der Löschoperation in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_CARD_DELETE_RECORD umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -981,15 +1202,15 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.3.20">2.1.3.20 PL_TUC_CARD_ERASE_RECORD – Rücksetzen eines Datensatzes in einer strukturierten Datei</h5>
   <p id="polarion_135">Der Systemprozess PL_TUC_CARD_ERASE_RECORD löscht den Inhalt eines einzelnen der strukturierten Datei auf einer SmartCard. Der Record sowie die gesamte strukturierte Datei bleiben dabei erhalten. Der zurückgesetzte Record sowie die strukturierte Datei sind weiterhin adressierbar.</p>
-  <div id="TIP1-A_6964">
+  <div id="TIP1-A_6964" severity="MUSS">
    <p><b>TIP1-A_6964 - Leistung zum Rücksetzen eines Datensatzes in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Rücksetzen eines Records einer strukturierten Datei auf einer SmartCard als Plattformleistung PL_TUC_CARD_ERASE_RECORD gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für strukturierte Elementary Files</span> mit dem Aktionsparameter <span style="font-style: italic;">ERASE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6965">
+  <div id="TIP1-A_6965" severity="MUSS">
    <p><b>TIP1-A_6965 - Aufrufparameter zum Rücksetzen eines Datensatzes in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_ERASE_RECORD umsetzen, MÜSSEN vom Nutzenden den <span style="font-style: italic;">IDENTIFIKATOR</span> der zu betroffenen strukturierten Datei gemäß [gemSpec_CardProxy#Konfigurationstabelle CardProxy] sowie die <span style="font-style: italic;">RECORDNUMBER</span> des zurückzusetzenden Datensatzes entgegennehmen und in der Umsetzung von <span style="font-style: italic;">cardOperation</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6966">
+  <div id="TIP1-A_6966" severity="MUSS">
    <p><b>TIP1-A_6966 - Ergebnis des Rücksetzens eines Datensatzes in einer strukturierten Datei</b></p>
    <p>Produkttypen und Dienste der TI die die Plattformleistung PL_TUC_CARD_DELETE_RECORD umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span> zurückmelden:<br>
     <ol>
@@ -1007,11 +1228,11 @@ ol:first-of-type {
   <p id="polarion_136">Mit dem Zugriff auf eine SmartCard über einen transparenten Kanal ist es möglich, von entfernter Stelle mit der Karte zu interagieren. Über den CardProxy werden Kartenkommandos direkt an die Karte weitergeleitet und deren Antwort-APDU zurückgegeben. Weder die kapselnden Systemprozesse noch CardProxy werten den Inhalt der an die Karte gesendeten und von dort empfangenen APDUs aus. Im speziellen Fall einer verschlüsselten Kommunikation (trusted channel) zwischen der Karte und einem Server in Card-to-Server-Kommunikation ist dies ohnehin nicht möglich.</p>
   <h5 id="2.1.4.1">2.1.4.1 PL_TUC_CARD_TC_OPEN</h5>
   <p id="polarion_137">Der Systemprozess PL_TUC_CARD_TC_OPEN öffnet einen transparenten Kommunikationskanal zu einer SmartCard. Mit der Nutzung dieses Plattformbausteins findet kein direkter Zugriff auf die Karte statt, es aktiviert in der Kartenzugriffsschicht eine exklusive Nutzung der Karte für diesen transparenten Kanal. Während dieser geöffnet ist, sind ausschließlich Aktionen mit den Systemprozessen PL_TUC_CARD_TC_SEND und _CLOSE möglich.</p>
-  <div id="TIP1-A_6967">
+  <div id="TIP1-A_6967" severity="MUSS">
    <p><b>TIP1-A_6967 - Leistung zum Öffnen eines transparenten Kanals</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Öffnen eines transparenten Kanals zu einer SmartCard als Plattformleistung PL_TUC_CARD_TC_OPEN gemäß [gemSpec_CardProxy] <span style="font-style: italic;">Funktion transparentChannel</span> mit dem Aktionsparameter <span style="font-style: italic;">OPEN</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6968">
+  <div id="TIP1-A_6968" severity="MUSS">
    <p><b>TIP1-A_6968 - Ergebnis des Öffnens eines transparenten Kanals</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_TC_OPEN umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">Funktion transparentChannel</span> zurückmelden<span style="font-weight: bold;">:</span><br>
     <ol>
@@ -1021,15 +1242,15 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.4.2">2.1.4.2 PL_TUC_CARD_TC_SEND</h5>
   <p id="polarion_138">Mittels des Systemprozesses PL_TUC_CARD_TC_SEND wird ein Kartenkommando zu einer Karte weitergeleitet, ohne den Inhalt auszuwerten. Gelangt das Kartenkommando erfolgreich zur Karte wird immer das Response-Kommando der Karte zurückgegeben.</p>
-  <div id="TIP1-A_6969">
+  <div id="TIP1-A_6969" severity="MUSS">
    <p><b>TIP1-A_6969 - Leistung der transparenten Kommunikation zur Karte</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Senden von transparenten Kartenkommandos an eine SmartCard als Plattformleistung PL_TUC_CARD_TC_SEND gemäß [gemSpec_CardProxy] <span style="font-style: italic;">Funktion transparentChannel</span> mit dem Aktionsparameter <span style="font-style: italic;">SENDAPDU</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6970">
+  <div id="TIP1-A_6970" severity="MUSS">
    <p><b>TIP1-A_6970 - Aufrufparameter zur transparenten Kommunikation zur Karte</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_CARD_TC_SEND umsetzen, MÜSSEN vom Nutzenden die <span style="font-style: italic;">COMMANDAPDU</span>, welche an die Karte weitergeleitet werden soll, entgegennehmen und in der Umsetzung der <span style="font-style: italic;">Funktion transparentChannel</span> verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6971">
+  <div id="TIP1-A_6971" severity="MUSS">
    <p><b>TIP1-A_6971 - Ergebnis der transparenten Kommunikation zur Karte</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_TC_SEND umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">Funktion transparentChannel</span> zurückmelden<span style="font-weight: bold;">:</span><br>
     <ol>
@@ -1040,11 +1261,11 @@ ol:first-of-type {
   </div>
   <h5 id="2.1.4.3">2.1.4.3 PL_TUC_CARD_TC_CLOSE</h5>
   <p id="polarion_139">Der Systemprozess PL_TUC_CARD_TC_CLOSE schließt einen transparenten Kommunikationskanal zu einer SmartCard und gibt diese als Ressource für andere Plattformleistungen wieder frei. Mit der Nutzung dieses Plattformbausteins findet kein direkter Zugriff auf die Karte statt, es deaktiviert in der Kartenzugriffsschicht die exklusive Nutzung der Karte für diesen transparenten Kanal.</p>
-  <div id="TIP1-A_6972">
+  <div id="TIP1-A_6972" severity="MUSS">
    <p><b>TIP1-A_6972 - Leistung zum Schließen eines transparenten Kanals</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Schließen eines transparenten Kanals zu einer SmartCard als Plattformleistung PL_TUC_CARD_TC_CLOSE gemäß [gemSpec_CardProxy] <span style="font-style: italic;">Funktion transparentChannel</span> mit dem Aktionsparameter <span style="font-style: italic;">CLOSE</span> umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6973">
+  <div id="TIP1-A_6973" severity="MUSS">
    <p><b>TIP1-A_6973 - Ergebnis des Schließens eines transparenten Kanals</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_CARD_TC_CLOSE umsetzen, MÜSSEN das Ergebnis gemäß [gemSpec_CardProxy] <span style="font-style: italic;">Funktion transparentChannel</span> zurückmelden<span style="font-weight: bold;">:</span><br>
     <ol>
@@ -1055,17 +1276,17 @@ ol:first-of-type {
   <h3 id="2.2">2.2 Kommunikation und Vernetzung</h3>
   <h4 id="2.2.1">2.2.1 PL_TUC_TLS_SECURE_CHANNEL – TLS-Verbindung mit gegenseitiger Authentisierung</h4>
   <p id="polarion_27"> Der Systemprozess PL_TUC_TLS_SECURE_CHANNEL baut eine verschlüsselte Verbindung von einem Clientsystem auf Basis einer in einem Sicherheitsmodul (z.B. HSM, SmartCard) gespeicherten Identität der TI zu einem Zielsystem her. Dazu erfolgt eine <span style="font-weight: bold;">gegenseitige Authentisierung</span> zwischen dem Zielsystem und dem verwendeten Sicherheitsmodul und es werden symmetrische Sitzungsschlüssel, für die verschlüsselte Kommunikation zwischen Client- und Zielsystem, ausgehandelt. </p>
-  <div id="TIP1-A_6974">
+  <div id="TIP1-A_6974" severity="MUSS">
    <p><b>TIP1-A_6974 - Leistung zur TLS-Verbindung mit gegenseitiger Authentisierung</b></p>
    <p><br> Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_TLS_SECURE_CHANNEL für den Aufbau einer TLS-Verbindung auf Basis einer in einem Sicherheitsmodul gespeicherten Identität umsetzen. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_26"></p>
-  <div id="TIP1-A_6975">
+  <div id="TIP1-A_6975" severity="MUSS">
    <p><b>TIP1-A_6975 - Aufrufparameter zur TLS-Verbindung mit gegenseitiger Authentisierung</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_TLS_SECURE_CHANNEL umsetzen, MÜSSEN vom Nutzer den <span style="font-style: italic;">URI</span> des Zielsystems und den <span style="font-style: italic;">ROLLENBEZEICHNER</span> der erwarteten Rolle des Zielsystems als Parameter entgegennehmen und diese im Verbindungsaufbau verwenden. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_35"></p>
-  <div id="TIP1-A_6976">
+  <div id="TIP1-A_6976" severity="MUSS">
    <p><b>TIP1-A_6976 - Aufbau der TLS-Verbindung mit gegenseitiger Authentisierung</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_TLS_SECURE_CHANNEL umsetzen, MÜSSEN die Schritte zum Aufbau einer TLS-Verbindung auf Basis einer in einem Sicherheitsmodul gespeicherten Identität in der angegebenen Reihenfolge durchführen:<br> 
     <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
@@ -1114,13 +1335,13 @@ ol:first-of-type {
   </div>
   <h4 id="2.2.2">2.2.2 PL_TUC_NET_NAME_RESOLUTION</h4>
   <p id="polarion_141">Mit dem Systemprozess PL_TUC_NET_NAME_RESOLUTION wird ein URI einer Netzwerkkomponente der TI mittels des Namensdienstes der zentralen TI-Plattform in eine IP-Adresse aufgelöst.</p>
-  <div id="TIP1-A_6977">
+  <div id="TIP1-A_6977" severity="SOLL">
    <p><b>TIP1-A_6977 - Auflösen von URI in IP-Adresse</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, SOLLEN eine Auflösung von Netzwerk-URI in IP-Adresse als Plattformleistung PL_TUC_NET_NAME_RESOLUTION über die Schnittstelle I_DNS_Name_Resolution zum TI-Namensdienst gemäß [gemSpec_Net#Namensdienst] anbieten. <b>[&lt;=]</b></p>
   </div>
   <h4 id="2.2.3">2.2.3 PL_TUC_NET_SYNC_TIME</h4>
   <p id="polarion_142">Über den Systemprozess PL_TUC_NET_SYNC_TIME können sich Dienste und Komponenten der Telematikinfrastruktur mit dem Zeitserver der zentralen TI-Plattform synchronisieren.</p>
-  <div id="TIP1-A_6978">
+  <div id="TIP1-A_6978" severity="MUSS">
    <p><b>TIP1-A_6978 - Synchronisierung mit Zeitdienst</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine Zeitsynchronisation als Plattformleistung PL_TUC_NET_SYNC_TIME über die Schnittstelle I_NTP_Time_Informationen zum Zeitdienst der Telematikinfrastruktur gemäß [gemSpec_Net#Zeitdienst] umsetzen und diese TI-Zeit als gültige, gesetzliche Zeit betrachten. <b>[&lt;=]</b></p>
   </div>
@@ -1128,11 +1349,11 @@ ol:first-of-type {
   <p id="polarion_41"> Über die im Folgenden beschriebenen Systemprozesse können Zugriffe auf den Verzeichnisdienst der zentralen TI-Plattform durchgeführt werden.<span style="background-color: #FFFF99;"> </span> </p>
   <p id="polarion_34"></p>
   <h4 id="2.3.1">2.3.1 PL_TUC_VZD_BIND - Verbindung aufbauen</h4>
-  <div id="A_17431">
+  <div id="A_17431" severity="MUSS">
    <p><b>A_17431 - Leistung zum Verbindungsaufbau zum VZD</b></p>
    <p>Produkttypen und Dienste der TI, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_VZD_BIND für den Aufbau einer Verbindung zum Verzeichnisdienst der zentralen TI-Plattform umsetzen. <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17445">
+  <div id="A_17445" severity="MUSS">
    <p><b>A_17445 - Aufbau der Verbindung zum VZD</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_VZD_BIND umsetzen, MÜSSEN die Schritte zum Aufbau einer Verbindung zum Verzeichnisdienst der zentralen TI-Plattform&nbsp;in der angegebenen Reihenfolge durchführen: <br> <br> 
     <table style="width: 100%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;">
@@ -1156,48 +1377,48 @@ ol:first-of-type {
     </table><br> <br> <b>[&lt;=]</b></p>
   </div>
   <h4 id="2.3.2">2.3.2 PL_TUC_VZD_SEARCH - Verzeichnis abfragen</h4>
-  <div id="A_17432">
+  <div id="A_17432" severity="MUSS">
    <p><b>A_17432 - Leistung zur Abfrage des VZD</b></p>
    <p>Produkttypen und Dienste der TI, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_VZD_SEARCH für die Abfrage des Verzeichnisdienst der zentralen TI-Plattform gemäß [gemSpec_VZD#Schnittstelle I_Directory_Query] umsetzen. <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17448">
+  <div id="A_17448" severity="MUSS">
    <p><b>A_17448 - Aufrufparameter der Verzeichnisabfrage</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_VZD_SEARCH umsetzen, MÜSSEN vom Nutzer den <span style="font-style: italic;">SEARCH_REQUEST</span> als Aufrufparameter entgegennehmen und in der Umsetzung als LDAPv3 Search Request gemäß [RFC-4511#4.5.1] über die Schnittstelle <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">I_Directory_Query</span> an den Verzeichnisdienst der zentralen TI-Plattform senden. <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17449">
+  <div id="A_17449" severity="MUSS">
    <p><b>A_17449 - Ergebnis der Verzeichnisabfrage</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_VZD_SEARCH umsetzen, MÜSSEN die LDAPv3 Search Response gemäß [RFC-4511#4.5.2] vom Verzeichnisdienst empfangen und als <span style="font-style: italic;">SEARCH_RESPONSE</span> an den Nutzer übergeben. Fehler MÜSSEN ggf. gemäß [RFC-4511#Appendix A] als <span style="font-style: italic;">ERROR</span> an den Nutzer übergeben und behandelt werden. <br> <br> <b>[&lt;=]</b></p>
   </div>
   <h4 id="2.3.3">2.3.3 PL_TUC_VZD_UNBIND - Verbindung trennen</h4>
-  <div id="A_17446">
+  <div id="A_17446" severity="MUSS">
    <p><b>A_17446 - Leistung zur Verbindungstrennung zum VZD</b></p>
    <p>Produkttypen und Dienste der TI, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_VZD_UNBIND für die Trennung einer Verbindung zum Verzeichnisdienst der zentralen TI-Plattform umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17465">
+  <div id="A_17465" severity="MUSS">
    <p><b>A_17465 - Trennen der Verbindung zum VZD</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_VZD_UNBIND umsetzen, MÜSSEN in der Umsetzung einen LDAPv3 Unbind Request gemäß [RFC-4511#4.3] an den Verzeichnisdienst der zentralen TI-Plattform senden.&nbsp;Fehler MÜSSEN ggf. gemäß [RFC-4511# Appendix A] als <span style="font-style: italic;">ERROR</span> an den Nutzer übergeben und behandelt werden. <br> <b>[&lt;=]</b></p>
   </div>
   <h4 id="2.3.4">2.3.4 PL_TUC_VZD_ABANDON - Verzeichnisabfrage abbrechen</h4>
-  <div id="A_17447">
+  <div id="A_17447" severity="MUSS">
    <p><b>A_17447 - Leistung zum Abbrechen einer Verzeichnisabfrage</b></p>
    <p>Produkttypen und Dienste der TI, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_VZD_ABANDON für den Abbruch einer Abfrage des Verzeichnisdienstes der zentralen TI-Plattform umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17468">
+  <div id="A_17468" severity="MUSS">
    <p><b>A_17468 - Abbrechen einer Verzeichnisabfrage</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_VZD_ABANDON umsetzen, MÜSSEN in der Umsetzung einen LDAPv3 Abandon Request gemäß [RFC-4511#4.11] an den Verzeichnisdienst der zentralen TI-Plattform senden. Fehler MÜSSEN ggf. gemäß [RFC-4511# Appendix A] als <span style="font-style: italic;">ERROR</span> an den Nutzer übergeben und behandelt werden. <br> <b>[&lt;=]</b></p>
   </div>
   <h3 id="2.4">2.4 Vertraulichkeit, Authentizität, Integrität</h3>
   <h4 id="2.4.1">2.4.1 PL_TUC_SIGN_HASH_nonQES – mit TI-Identität nonQES signieren</h4>
   <p id="polarion_32"> Der Systemprozess PL_TUC_SIGN_HASH_nonQES versieht einen übergebenen Hash-Wert mit einer auf einer TI-Identität basierenden&nbsp;digitalen nonQES Signatur. Dazu wird unter Verwendung eines Sicherheitsmoduls (SmartCard, HSM) oder Signaturdienstes und einer auf dem Sicherheitsmodul bzw. dem Signaturdienst gespeicherten Identität<span style="font-size: 10pt;line-height: 1.5;"> </span>der TI ein Binärwert signiert. </p>
-  <div id="TIP1-A_6979">
+  <div id="TIP1-A_6979" severity="MUSS">
    <p><b>TIP1-A_6979 - Leistung der nonQES-Signatur</b></p>
    <p><br> Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Signieren eines Hashwertes mit einer TI-Identität als Plattformleistung PL_TUC_SIGN_HASH_nonQES umsetzen.&nbsp;Bei Verwendung einer SmartCard MUSS dies gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation für private Schlüsselobjekte</span>&nbsp; erfolgen. Bei Verwendung eines HSMs oder eines Signaturdienstes MUSS dies gemäß [gemSpec_HSMProxy#logische Operation <span style="font-style: italic;">sign</span> für Signaturen] bzw. [gemSpec_SigD#Operationsdefinition I_Remote_Sign_Operations::sign_Data] erfolgen. <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6980">
+  <div id="TIP1-A_6980" severity="MUSS">
    <p><b>TIP1-A_6980 - Aufrufparameter der nonQES-Signatur</b></p>
    <p><br>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_SIGN_HASH_nonQES umsetzen, MÜSSEN vom Nutzer den <span style="font-style: italic;">IDENTIFIKATOR</span> des privaten Schlüssels der TI-Identität, das <span style="font-style: italic;">SIGNATURVERFAHREN gemäß</span> [gemSpec_Krypt#3.7 Signatur binärer Inhaltsdaten (Dokumente)/5.7.2 ECDSA-Signaturen im CMS-Format]&nbsp; sowie den zu signierenden <span style="font-style: italic;">HASHWERT</span> als Aufrufparameter entgegennehmen und in der Umsetzung verwenden. <br>Bei Nutzung einer SmartCard MUSS der <span style="font-style: italic;">IDENTIFIKATOR</span> gemäß [gemSpecCardProxy#Konfigurationstabelle CardProxy] verwendet werden, <span style="font-style: italic;">SIGNATURVERFAHREN</span> und <span style="font-style: italic;">HASHWERT</span> MÜSSEN als Aktionsparameter bzw. Eingangsparameter von <span style="font-style: italic;">cardOperation</span> gemäß [gemSpec_CardProxy] verwendet werden. <br>Bei Nutzung eines Signaturdienstes oder eines HSM MÜSSEN <span style="font-style: italic;">IDENTIFIKATOR</span> und der <span style="font-style: italic;">HASHWERT</span> als Aufrufparameter Identifier bzw. Data gemäß [gemSpec_SigD#Operationsdefinition I_Remote_Sign_Operations::sign_Data] bzw. Identity und Data gemäß [gemSpec_HSMProxy#logische Operation <span style="font-style: italic;">sign</span> für Signaturen] übergeben werden.<br> <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6981">
+  <div id="TIP1-A_6981" severity="MUSS">
    <p><b>TIP1-A_6981 - Ergebnis der nonQES-Signatur</b></p>
    <p><br>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_SIGN_HASH_nonQES umsetzen, MÜSSEN das Ergebnis und ggf. Fehler an die nutzende Komponente zurückmelden: <br> <br> - bei Verwendung einer Karte gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation:</span><br> 
     <ol>
@@ -1220,11 +1441,11 @@ ol:first-of-type {
   </div>
   <h4 id="2.4.2">2.4.2 PL_TUC_HYBRID_ENCIPHER – Hybrid verschlüsseln</h4>
   <p id="polarion_106">Der Systemprozess PL_TUC_HYBRID_ENCIPHER führt eine hybride Verschlüsselung eines Dokuments für ein oder mehrere Empfängerzertifikate durch. Dazu muss zunächst ein symmetrischer Schlüssel erzeugt werden, mit dem das Eingabedokument verschlüsselt wird. Dieser symmetrische Schlüssel wird anschließend mit dem öffentlichen Schlüsselmaterial der Dokumentenempfänger (bereitgestellt über X.509v3-Zertifikate) verschlüsselt und an das Dokument angefügt.</p>
-  <div id="TIP1-A_6982">
+  <div id="TIP1-A_6982" severity="MUSS">
    <p><b>TIP1-A_6982 - Leistung zum hybriden Verschlüsseln</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_HYBRID_ENCIPHER zum hybriden Verschlüsseln eines Dokuments umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6983-01">
+  <div id="TIP1-A_6983-01" severity="MUSS">
    <p><b>TIP1-A_6983-01 - Aufrufparameter zum hybriden Verschlüsseln</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_HYBRID_ENCIPHER umsetzen, MÜSSEN vom Nutzer die Aufrufparameter<br> 
     <ol>
@@ -1233,7 +1454,7 @@ ol:first-of-type {
      <li>Attribute&nbsp; &nbsp; "zusätzliche Attribute (optional)"</li>
     </ol>entgegennehmen.<br> <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6984-02">
+  <div id="TIP1-A_6984-02" severity="MUSS">
    <p><b>TIP1-A_6984-02 - Ablauf der hybriden Verschlüsselung eines Dokuments</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_HYBRID_ENCYPHER umsetzen, MÜSSEN die Schritte zum Verschlüsseln eines gegebenen Dokuments in der angegebenen Reihenfolge durchführen: <br> 
     <table style="width: 100%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;">
@@ -1278,11 +1499,11 @@ ol:first-of-type {
   </div>
   <h4 id="2.4.3">2.4.3 PL_TUC_HYBRID_DECIPHER – Hybrid entschlüsseln</h4>
   <p id="polarion_107">Der Systemprozess PL_TUC_HYBRID_DECIPHER entschlüsselt ein hybrid verschlüsseltes Dokument. Dazu wird zunächst der verschlüsselte Dokumentenschlüssel aus dem Eingabedokument extrahiert und mit einem privaten Schlüssel des Empfängers entschlüsselt. Die Speicherung und Nutzung des privaten Schlüssels ist dabei bevorzugt unter Verwendung eines Sicherheitsmoduls (SmartCard, HSM) durchzuführen. Mit dem wiederhergestellten Dokumentenschlüssel wird anschließend das Dokument in einem symmetrischen Verfahren entschlüsselt.</p>
-  <div id="TIP1-A_6985">
+  <div id="TIP1-A_6985" severity="MUSS">
    <p><b>TIP1-A_6985 - Leistung zum hybriden Entschlüsseln</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_HYBRID_DECIPHER zum hybriden Entschlüsseln eines Dokuments umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6986">
+  <div id="TIP1-A_6986" severity="MUSS">
    <p><b>TIP1-A_6986 - Aufrufparameter zum hybriden Entschlüsseln</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_HYBRID_DECIPHER umsetzen, MÜSSEN vom Nutzer die Aufrufparameter<br> 
     <ol>
@@ -1290,7 +1511,7 @@ ol:first-of-type {
      <li>Id&nbsp; &nbsp; &nbsp; &nbsp; "(Identität des) Empfänger" (sofern nicht implizit eindeutig)<br></li>
     </ol>entgegennehmen.<br> <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6987">
+  <div id="TIP1-A_6987" severity="MUSS">
    <p><b>TIP1-A_6987 - Ablauf der hybriden Entschlüsselung eines Dokuments</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_HYBRID_DECYPHER umsetzen, MÜSSEN die Schritte zum Entschlüsseln eines verschlüsselten Dokuments in der angegebenen Reihenfolge durchführen:<br> 
     <table style="width: 100%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;">
@@ -1343,11 +1564,11 @@ ol:first-of-type {
   </div>
   <h4 id="2.4.4">2.4.4 PL_TUC_SYMM_ENCIPHER – Symmetrisch verschlüsseln</h4>
   <p id="polarion_64">Der Systemprozess PL_TUC_SYMM_ENCIPHER führt eine symmetrische Verschlüsselung eines Dokuments durch. Dazu können zusammen mit dem Dokument ein Schlüssel und associatedData (beide optional) übergeben werden.&nbsp;Falls kein Schlüssel übergeben wird, wird ein symmetrischer Schlüssel erzeugt.</p>
-  <div id="A_14970">
+  <div id="A_14970" severity="MUSS">
    <p><b>A_14970 - Leistung zum symmetrischen Verschlüsseln</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_SYMM_ENCIPHER zum symmetrischen Verschlüsseln eines Dokuments umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_14971">
+  <div id="A_14971" severity="MUSS">
    <p><b>A_14971 - Aufrufparameter zum symmetrischen Verschlüsseln</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_SYMM_ENCIPHER umsetzen, MÜSSEN vom Nutzer die Aufrufparameter<br> 
     <ol> 
@@ -1356,7 +1577,7 @@ ol:first-of-type {
      <li>AD&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;optional&gt; associatedData, für Authenticated Encryption with Associated Data&nbsp;(AEAD)&nbsp;<br> </li> 
     </ol> entgegennehmen.<br> <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_14972">
+  <div id="A_14972" severity="MUSS">
    <p><b>A_14972 - Ablauf des symmetrischen Verschlüsseln eines Dokuments</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_SYMM_ENCYPHER umsetzen, MÜSSEN die Schritte zum Verschlüsseln eines gegebenen Dokuments in der angegebenen Reihenfolge durchführen:<br> 
     <table style="width: 100%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
@@ -1391,11 +1612,11 @@ ol:first-of-type {
   </div>
   <h4 id="2.4.5">2.4.5 PL_TUC_SYMM_DECIPHER – Symmetrisch entschlüsseln</h4>
   <p id="polarion_108">Der Systemprozess PL_TUC_SYMM_DECIPHER entschlüsselt ein symmetrisch verschlüsseltes Dokument.</p>
-  <div id="A_14982">
+  <div id="A_14982" severity="MUSS">
    <p><b>A_14982 - Leistung zum symmetrischen Entschlüsseln</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine Plattformleistung PL_TUC_SYMM_DECIPHER zum symmetrischen Entschlüsseln eines Dokuments umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_14983">
+  <div id="A_14983" severity="MUSS">
    <p><b>A_14983 - Aufrufparameter zum symmetrischen Entschlüsseln</b></p>
    <p>Produkttypen und Dienste der TI, die die Plattformleistung PL_TUC_SYMM_DECIPHER umsetzen, MÜSSEN vom Nutzer die Aufrufparameter<br> 
     <ol> 
@@ -1404,7 +1625,7 @@ ol:first-of-type {
      <li>AD&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;optional&gt; associatedData, für Authenticated Encryption with Associated Data&nbsp;(AEAD)<br> </li> 
     </ol> entgegennehmen.<br> <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_14984">
+  <div id="A_14984" severity="MUSS">
    <p><b>A_14984 - Ablauf des symmetrischen Entschlüsselns eines Dokuments</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_SYMM_DECYPHER umsetzen, MÜSSEN die Schritte zum Entschlüsseln eines verschlüsselten Dokuments in der angegebenen Reihenfolge durchführen:<br> 
     <table style="width: 100%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
@@ -1433,15 +1654,15 @@ ol:first-of-type {
   </div>
   <h4 id="2.4.6">2.4.6 PL_TUC_SIGN_DOCUMENT_nonQES – Dokument nonQES signieren</h4>
   <p id="polarion_112"> Der Systemprozess PL_TUC_SIGN_DOCUMENT_nonQES versieht ein übergebenes Dokument mit einer auf einer TI-Identität basierenden digitalen nonQES Signatur. Dazu wird unter Verwendung eines Sicherheitsmoduls (SmartCard, HSM) und einer darauf gespeicherten Identität der TI ein Dokument signiert.<span style="background-color: #FFFF99;"> </span> </p>
-  <div id="A_17376">
+  <div id="A_17376" severity="MUSS">
    <p><b>A_17376 - Leistung der nonQES Dokumenten-Signatur</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN das Signieren eines Dokuments mit einer TI-Identität als Plattformleistung PL_TUC_SIGN_DOCUMENT_nonQES umsetzen. Bei Verwendung einer SmartCard MUSS dies gemäß [gemSpec_CardProxy] cardOperation für private Schlüsselobjekte erfolgen. Bei Verwendung eines HSMs MUSS dies gemäß [gemSpec_HSMProxy#logische Operation sign für Signaturen] erfolgen. <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17377">
+  <div id="A_17377" severity="MUSS">
    <p><b>A_17377 - Aufrufparameter der nonQES Dokumenten-Signatur</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_SIGN_DOCUMENT_nonQES umsetzen, MÜSSEN vom Nutzer den <span style="font-style: italic;">IDENTIFIKATOR</span> des privaten Schlüssels der TI-Identität, das <span style="font-style: italic;">SIGNATURVERFAHREN</span> gemäß [gemSpec_Krypt#3.1.1 XML-Signaturen für nicht-qualifizierte Signaturen, 3.7 Signatur binärer Inhaltsdaten (Dokumente)] (RSA) bzw. [gemSpec_Krypt#5.7.1 ECDSA-Signaturen im XML-Format, 5.7.2 ECDSA-Signaturen im CMS-Format] (ECC) sowie das zu signierende <span style="font-style: italic;">DOKUMENT</span> und den <span style="font-style: italic;">DOKUMENTENTYP</span> (XML, CMS) als Aufrufparameter entgegennehmen und in der Umsetzung verwenden. Das DOKUMENT MUSS gemäß DOKUMENTENTYP für die Signatur vorbereitet werden, dabei ist der zu signierende HASHWERT zu ermitteln.<br>Bei Nutzung einer SmartCard MUSS der <span style="font-style: italic;">IDENTIFIKATOR</span> gemäß [gemSpecCardProxy#Konfigurationstabelle CardProxy] verwendet werden, das&nbsp;<span style="font-style: italic;">SIGNATURVERFAHREN sowie der HASHWERT&nbsp;</span>MÜSSEN als Aktionsparameter bzw. Eingangsparameter von <span style="font-style: italic;">cardOperation</span> gemäß [gemSpec_CardProxy] verwendet werden.<br>Bei Nutzung eines HSMs MUSS die Verwendung der genannten Aufrufparameter für Identity und Data gemäß [gemSpec_HSMProxy#logische Operation <span style="font-style: italic;">sign</span> für Signaturen] erfolgen.<br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17380">
+  <div id="A_17380" severity="MUSS">
    <p><b>A_17380 - Ergebnis der nonQES Dokumenten-Signatur</b></p>
    <p>Produkttypen und Dienste der TI die eine Plattformleistung PL_TUC_SIGN_DOCUMENT_nonQES umsetzen, MÜSSEN das Ergebnis und ggf. Fehler an die nutzende Komponente zurückmelden:<br> <br> - bei Verwendung einer Karte gemäß [gemSpec_CardProxy] <span style="font-style: italic;">cardOperation</span>:<br> 
     <ol>
@@ -1459,11 +1680,11 @@ ol:first-of-type {
   </div>
   <h4 id="2.4.7">2.4.7 PL_TUC_VERIFY_DOCUMENT_nonQES - nonQES Dokumentensignatur verifizieren</h4>
   <p id="polarion_37"> Der Systemprozess PL_TUC_VERIFY_DOCUMENT_nonQES überprüft die nonQES Signatur eines gegebenen Dokuments im Format XML oder CMS, unter Verwendung eines zusammen mit dem Dokument gegebenen X.509-Zertifikates der PKI der Telematikinfrastruktur.<span style="background-color: #FFFF99;"> </span> </p>
-  <div id="A_17559">
+  <div id="A_17559" severity="MUSS">
    <p><b>A_17559 - Leistung zur Prüfung der nonQES Dokumentensignatur</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine nonQES Signaturprüfung eines Dokumentes im Format XML oder CMS als Plattformleistung PL_TUC_PKI_VERIFY_DOCUMENT_nonQES umsetzen. <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17561">
+  <div id="A_17561" severity="MUSS">
    <p><b>A_17561 - Aufrufparameter zur Prüfung der nonQES Dokumentensignatur</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_PKI_VERIFY_DOCUMENT_nonQES umsetzen, MÜSSEN vom Nutzer die folgenden Parameter entgegennehmen und in der Umsetzung verwenden:<br> 
     <ol> 
@@ -1473,7 +1694,7 @@ ol:first-of-type {
      <li>TIME_REFERENCE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Referenzzeitpunkt für Gültigkeitsprüfung<br> </li> 
     </ol> <br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17562">
+  <div id="A_17562" severity="MUSS">
    <p><b>A_17562 - Ablauf der Prüfung der nonQES Dokumentensignatur</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_PKI_VERIFY_DOCUMENT_nonQES umsetzen, MÜSSEN die Schritte zur Prüfung der Signatur eines Dokuments in der angegebenen Reihenfolge durchführen:</span> <br> 
     <table style="width: 100%;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"> 
@@ -1504,11 +1725,11 @@ ol:first-of-type {
   <h3 id="2.5">2.5 Leistungen der PKI</h3>
   <h4 id="2.5.1">2.5.1 PL_TUC_PKI_VERIFY_CERTIFICATE – Prüfung eines Zertifikats der TI</h4>
   <p id="polarion_113">Der Systemprozess PL_TUC_PKI_VERIFY_CERTIFICATE kapselt die Prüfung eines X.509-Zertifikats der PKI der Telematikinfrastruktur. Es wird die zeitliche Gültigkeit zu einem Referenzzeitpunktes sowie die mathematische Gültigkeit geprüft. Zusätzlich kann via Parameter eine Online-Prüfung des Sperrstatus des Zertifikats verlangt werden.</p>
-  <div id="TIP1-A_6991">
+  <div id="TIP1-A_6991" severity="MUSS">
    <p><b>TIP1-A_6991 - Leistung zur Prüfung eines Zertifikats in der TI</b></p>
    <p>Produkttypen und Dienste, welche Systemprozesse der TI realisieren, MÜSSEN eine Zertifikatsprüfung als Plattformleistung PL_TUC_PKI_VERIFY_CERTIFICATE umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6992-01">
+  <div id="TIP1-A_6992-01" severity="MUSS">
    <p><b>TIP1-A_6992-01 - Aufrufparameter der Zertifikatsprüfung in der TI</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_PKI_VERIFY_CERTIFICATE umsetzen, MÜSSEN vom Nutzer die folgenden Parameter entgegennehmen und in der Zertifikatsprüfung verwenden:<span style="font-size: 10pt;line-height: 1.5;"><br></span> <br> 
     <ol>
@@ -1532,7 +1753,7 @@ ol:first-of-type {
      <li>TOLERATE_OCSP_FAILURE:&nbsp;&nbsp;&nbsp;&nbsp;ja/nein, default: nein<span id="polarion-comment:212"></span></li>
     </ol> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_18072">
+  <div id="A_18072" severity="MUSS">
    <p><b>A_18072 - Ablauf der Zertifikatsprüfung in der TI</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_PKI_VERIFY_CERTIFICATE umsetzen, MÜSSEN die Schritte zur Prüfung eines Zertifikats in der angegebenen Reihenfolge durchführen:<br> 
     <table id="polarion_wiki macro name=table;params=bold=1|width=99.14%" class="polarion-Document-table" style="width: 99.14%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
@@ -1572,7 +1793,7 @@ ol:first-of-type {
      </tbody> 
     </table> <b>[&lt;=]</b></p>
   </div>
-  <div id="TIP1-A_6993">
+  <div id="TIP1-A_6993" severity="MUSS">
    <p><b>TIP1-A_6993 - Ergebnis der Zertifikatsprüfung in der TI</b></p>
    <p>Produkttypen und Dienste der TI, die eine Plattformleistung PL_TUC_PKI_VERIFY_CERTIFICATE umsetzen, MÜSSEN das Ergebnis jedes Prüfkriteriums und Fehler in der Zertifikatsprüfung&nbsp;zurückmelden: <br> 
     <table id="polarion_wiki macro name=table;params=header=no|width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
@@ -1691,13 +1912,16 @@ ol:first-of-type {
   <div data-sequence="Abbildung" id="polarion_wiki macro name=tof;params=uid=1"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_20">Abbildung 1: Systemprozesse der Basis-TI</a></li>
-   <li><a href="#polarion_28">Abbildung 2: Umgebungsspezifische Operationen</a></li>
+   <ul>
+    <li><a href="#polarion_20">Abbildung 1: Systemprozesse der Basis-TI</a></li>
+    <li><a href="#polarion_28">Abbildung 2: Umgebungsspezifische Operationen</a></li>
+   </ul>
   </div>
   <h3 id="3.4">3.4 Tabellenverzeichnis</h3>
   <div data-sequence="Tabelle" id="polarion_wiki macro name=tof;params=uid=2"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
+   <ul></ul>
   </div>
   <h3 id="3.5">3.5 Referenzierte Dokumente</h3>
   <h4 id="3.5.1">3.5.1 Dokumente der gematik</h4>
@@ -1761,7 +1985,7 @@ ol:first-of-type {
     </tr> 
     <tr> 
      <td style="vertical-align: top;width: 89pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[CAdES]<br> </span></td> 
-     <td style="vertical-align: top;width: 347pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">ETSI: Electronic Signature Formats, Electronic Signatures and Infrastructures (ESI) – Technical Specification, ETSI TS 101 733 V2.2.1, 2008-07, via http://www.etsi.org <br> </span></td> 
+     <td style="vertical-align: top;width: 347pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">ETSI: Electronic Signature Formats, Electronic Signatures and Infrastructures (ESI) – Technical Specification, ETSI TS 101 733 V2.2.1, 2008-07, via&nbsp;<a href="http://www.etsi.org" target="_top" class="descriptionLink">http://www.etsi.org</a><br> </span></td> 
     </tr> 
     <tr> 
      <td style="vertical-align: top;width: 89pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[RFC-4511]<br> </span></td> 
@@ -1793,7 +2017,7 @@ ol:first-of-type {
     </tr> 
     <tr> 
      <td style="vertical-align: top;width: 89pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[XMLDSig]<br> </span></td> 
-     <td style="vertical-align: top;width: 347pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">W3C Recommendation (06.2008): XML-Signature Syntax and Processing http://www.w3.org/TR/2008/REC-xmldsig-core-20080610/<br> </span></td> 
+     <td style="vertical-align: top;width: 347pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">W3C Recommendation (06.2008): XML-Signature Syntax and Processing <br> <a href="http://www.w3.org/TR/2008/REC-xmldsig-core-20080610/" target="_top" class="descriptionLink">http://www.w3.org/TR/2008/REC-xmldsig-core-20080610/</a>&nbsp;<br> </span></td> 
     </tr> 
     <tr> 
      <td style="vertical-align: top;width: 89pt;height: 14pt;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 4pt;"><span style="font-size: 10pt;line-height: 1.5;">[XMLEnc-1.1]<br> </span></td> 

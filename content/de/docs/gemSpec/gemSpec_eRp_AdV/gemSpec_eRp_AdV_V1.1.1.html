@@ -1,0 +1,1582 @@
+<html>
+ <head>
+  <style>
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* ol {
+  list-style-type: none;
+  Remove default numbering
+}
+
+ol > li:before {
+  counter-increment: mycounter;
+  content: counter(mycounter) ". ";
+}
+
+ol:first-of-type {
+  counter-reset: mycounter;
+} */
+
+@media print { h1, h2 { break-before: page; } }
+
+
+</style>
+  <meta charset="utf-8">
+ </head>
+ <body>
+  <p id="polarion_1"><br></p> 
+  <p id="polarion_2"><br></p> 
+  <p id="polarion_3"><br></p> 
+  <p id="polarion_4"><br></p> 
+  <p id="polarion_5"><br></p> 
+  <p id="polarion_6"><span style="font-weight: bold;text-decoration: underline;font-size: 11pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;">Elektronische Gesundheitskarte und Telematikinfrastruktur</span></p> 
+  <p id="polarion_7"><br></p> 
+  <p id="polarion_8"><br></p> 
+  <p id="polarion_9"><br></p> 
+  <p id="polarion_10"><br></p> 
+  <p style="text-align: center;" id="polarion_11"><span style="font-weight: bold;font-size: 26pt;line-height: 1.2;">Spezifikation</span></p> 
+  <p style="text-align: center;" id="polarion_12"><span style="font-weight: bold;font-size: 26pt;line-height: 1.2;">E-Rezept-Anwendung des Versicherten</span></p> 
+  <p id="polarion_13"><br></p> 
+  <p id="polarion_14"><br></p> 
+  <p id="polarion_15"><br></p> 
+  <div class="polarion-dle-wiki-block" id="polarion_editor_html_block2">
+   <div contenteditable="false" id="polarion_editor_html_block_content"></div>
+   <pre contenteditable="false" class="polarion-dle-wiki-block-source" id="polarion_editor_html_block_source">
+    <table>
+     <tr>
+      <td>Version</td>
+      <td>1.1.1</td>
+     </tr>
+     <tr>
+      <td>Revision</td>
+      <td>621720</td>
+     </tr>
+     <tr>
+      <td>Stand</td>
+      <td>28.04.2023</td>
+     </tr>
+     <tr>
+      <td>Status</td>
+      <td>freigegeben</td>
+     </tr>
+     <tr>
+      <td>Klassifizierung</td>
+      <td>öffentlich</td>
+     </tr>
+     <tr>
+      <td>Referenzierung</td>
+      <td>gemSpec_eRp_AdV</td>
+     </tr>
+    </table></pre>
+  </div> 
+  <p id="polarion_16"></p> 
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=eRp160-6837">Dokumentinformationen</h1> 
+  <p id="polarion_110"></p> 
+  <p id="polarion_116"><span style="font-weight: bold;">Änderungen zur Vorversion</span></p> 
+  <p id="polarion_22">Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen.</p> 
+  <p id="polarion_119"></p> 
+  <p data-keep-next="true" id="polarion_25"><span style="font-weight: bold;">Dokumentenhistorie</span></p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=6">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 78px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Version<br></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 86.8px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Stand<br></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 65.2px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Kap./ Seite<br></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 348.4px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Grund der Änderung, besondere Hinweise<br></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 120.4px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Bearbeitung<br></th>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 78px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">1.0.0</td>
+     <td style="text-align: left;vertical-align: top;width: 86.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">23.02.2022</td>
+     <td style="text-align: left;vertical-align: top;width: 65.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"></td>
+     <td style="text-align: left;vertical-align: top;width: 348.4px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">freigegeben</td>
+     <td style="text-align: left;vertical-align: top;width: 120.4px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">gematik</td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 78px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">1.1.0</td>
+     <td style="text-align: left;vertical-align: top;width: 86.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">07.12.2022</td>
+     <td style="text-align: left;vertical-align: top;width: 65.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"></td>
+     <td style="text-align: left;vertical-align: top;width: 348.4px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Einarbeitung gemäß Änderungsliste E-Rezept_Maintenance_22.3</td>
+     <td style="text-align: left;vertical-align: top;width: 120.4px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">gematik</td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 78px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">1.1.1</td>
+     <td style="text-align: left;vertical-align: top;width: 86.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">28.04.2023</td>
+     <td style="text-align: left;vertical-align: top;width: 65.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"></td>
+     <td style="text-align: left;vertical-align: top;width: 348.4px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">redaktionelle Änderungen</td>
+     <td style="text-align: left;vertical-align: top;width: 120.4px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">gematik</td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_27"></p> 
+  <p id="polarion_144"></p> 
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=eRp160-6838">Inhaltsverzeichnis</h1> 
+  <div id="polarion_wiki macro name=toc"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <ul>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=eRp160-6837">Dokumentinformationen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=eRp160-6838">Inhaltsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#1">1 Einordnung des Dokumentes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.1">1.1 Zielsetzung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.2">1.2 Zielgruppe</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.3">1.3 Geltungsbereich</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.4">1.4 Abgrenzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.5">1.5 Methodik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#1.5.1">1.5.1 Hinweis auf offene Punkte</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#2">2 Systemüberblick</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#3">3 Systemkontext</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.1">3.1 Akteure und Rollen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.2">3.2 Nachbarsysteme</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#4">4 Übergreifende Festlegungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.1">4.1 Datenschutz und Sicherheit</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.1.1">4.1.1 Anforderungen zum Herstellungsprozess</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.1.2">4.1.2 Unterstützung von Audits</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.2">4.2 Benutzeroberfläche</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.3">4.3 Konfiguration der E-Rezept-AdV</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.4">4.4 Logging</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#5">5 Funktionsmerkmale</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.1">5.1 Allgemein</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.1">5.1.1 Session-Verwaltung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.2">5.1.2 Kommunikation mit Diensten der TI</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.3">5.1.3 Authentisierung des Nutzers für Dienste der TI</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.4">5.1.4 Verschlüsselte Kommunikation zur VAU des E-Rezept-Fachdienstes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.5">5.1.5 Zertifikatsprüfung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.1.5.1">5.1.5.1 Zertifikatsprüfung von Zertifikaten der TI</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.1.5.2">5.1.5.2 Zertifikatsprüfung von Internet-Zertifikaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.2">5.2 E-Rezept Anwendungsfälle in der E-Rezept-AdV</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.2.1">5.2.1 Anwendungsfälle</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.2.1.1">5.2.1.1 E-Rezepte einsehen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.2.1.2">5.2.1.2 E-Rezepte löschen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.2.1.3">5.2.1.3 Protokolldaten anzeigen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.2.1.4">5.2.1.4 Nachrichten empfangen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.2.1.5">5.2.1.5 Nachrichten löschen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.2.2">5.2.2 Fehlerbehandlung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#6">6 Informationsmodell</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#7">7 Verteilungssicht</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#8">8 Anhang A – Verzeichnisse</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.1">8.1 Abkürzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.2">8.2 Glossar</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.3">8.3 Abbildungsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.4">8.4 Tabellenverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.5">8.5 Referenzierte Dokumente</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.5.1">8.5.1 Dokumente der gematik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.5.2">8.5.2 Weitere Dokumente</a>
+     </div></li>
+   </ul>
+  </div> 
+  <p id="polarion_38"></p> 
+  <h2 id="1">1 Einordnung des Dokumentes</h2> 
+  <h3 id="1.1">1.1 Zielsetzung</h3> 
+  <p id="polarion_40">Die vorliegende Spezifikation definiert die Anforderungen zu Herstellung, Test und Betrieb des Produkttyps E-Rezept-Anwendung des Versicherten.</p> 
+  <h3 id="1.2">1.2 Zielgruppe</h3> 
+  <p id="polarion_44">Das Dokument richtet sich an Hersteller&nbsp;von Produkten des Produkttypen E-Rezept-Anwendung des Versicherten (gematik) sowie an Hersteller und Anbieter von weiteren&nbsp;Produkttypen der Fachanwendung E-Rezept.</p> 
+  <h3 id="1.3">1.3 Geltungsbereich</h3> 
+  <p id="polarion_53">Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens. Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungs- oder Abnahmeverfahren wird durch die gematik GmbH in gesonderten Dokumenten (z.B. Produkttypsteckbrief, Leistungsbeschreibung, ...) festgelegt und bekanntgegeben.</p> 
+  <p id="polarion_54"></p> 
+  <p id="polarion_26"><span style="font-weight: bold;font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;">Schutzrechts-/Patentrechtshinweis</span></p> 
+  <p id="polarion_55"><span style="font-style: italic;font-size: 10pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;">Die nachfolgende Spezifikation ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Spezifikation in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der Spezifikation angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen.</span></p> 
+  <p id="polarion_18"></p> 
+  <h3 id="1.4">1.4 Abgrenzungen</h3> 
+  <p id="polarion_41">Die vollständige Anforderungslage für den Produkttyp ergibt sich aus weiteren Konzept- und Spezifikationsdokumenten, diese sind in dem Produkttypsteckbrief des Produkttyps E-Rezept-Anwendung des Versicherten verzeichnet.</p> 
+  <p id="polarion_222">Diese Spezifikation beschreibt Anforderungen zu den Aspekten Sicherheit, Interoperabilität und Funktionalität. Die konkrete Ausgestaltung der Benutzeroberfläche (GUI) und der Benutzerführung (UX) wird während der Entwicklung festgelegt und ist nicht Teil dieser Spezifikation.</p> 
+  <h3 id="1.5">1.5 Methodik</h3> 
+  <p id="polarion_59">Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC 2119 [RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet.</p> 
+  <p id="polarion_60">Sie werden im Dokument wie folgt dargestellt:<span style="font-weight: bold;font-family: Wingdings, 'Wingdings Regular';"><br></span> <span style="font-weight: bold;">&lt;AFO-ID&gt; - &lt;Titel der Afo&gt;</span><br> Text / Beschreibung<br> [&lt;=]</p> 
+  <p id="polarion_61">Dabei umfasst die Anforderung sämtliche zwischen Afo-ID und der Textmarke [&lt;=] angeführten Inhalte.</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=header=no|width=100%|uid=1">
+   <tbody>
+    <tr>
+     <td style="height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">In diesem Dokument werden auch Anforderungen aus dem Dokument Spezifikation E-Rezept-Frontend des Versicherten [gemSpec_eRp_FdV] referenziert. Sie sind im Titel mit "E-Rezept-FdV" bezeichnet.&nbsp;<span style="font-weight: bold;">Diese Anforderungen gelten sowohl für das E-Rezept-Frontend des Versicherten als auch für die E-Rezept-Anwendung des Versicherten.</span><br> Anforderungen, die sich nur auf die E-Rezept-AdV beziehen, werden im Titel der Anforderungen mit "E-Rezept-AdV:" bezeichnet.<br></td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_123"><span style="font-weight: bold;">User Stories</span></p> 
+  <p id="polarion_124">Eine User Story ist eine in Alltagssprache formulierte Software-Anforderung. Sie ist bewusst kurz gehalten und umfasst in der Regel nicht mehr als zwei Sätze. User Stories werden im Rahmen der agilen Softwareentwicklung zusammen mit Akzeptanztests zur Spezifikation von Anforderungen eingesetzt. [Wikepedia:User Storie]<br> Aus diesem Grund kann in den User Stories eine abweichende Terminologie genutzt werden, welche für den Leser nachvollziehbar (bspw. Patient = Versicherter) ist.</p> 
+  <h4 id="1.5.1">1.5.1 Hinweis auf offene Punkte</h4> 
+  <p id="polarion_28">Themen, die noch intern geklärt werden müssen oder eine Entscheidung seitens der Gesellschafter erfordern, sind wie folgt im Dokument gekennzeichnet:</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=header=no|width=100%|uid=29">
+   <tbody>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 591.6px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-style: italic;font-size: 9pt;color: #3366FF;line-height: 1.5;">Beispiel für einen offenen Punkt.</span></td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_76"></p> 
+  <h2 id="2">2 Systemüberblick</h2> 
+  <p id="polarion_78">Die E-Rezept-Anwendung des Versicherten (<span style="font-size: 10pt;line-height: 1.5;">E-Rezept-AdV</span>) ist eine Anwendung&nbsp;für den Versicherten, welche die für die Wahrnehmung der Rechte der <span style="font-size: 10pt;line-height: 1.5;">informationelle&nbsp;</span>Selbstbestimmung in&nbsp;der Fachanwendung E-Rezept&nbsp;notwendigen Funktionalitäten bündelt und dezentrale Fachlogik der Fachanwendung E-Rezept ausführt.</p> 
+  <p id="polarion_65">Ausführungsumgebung der E-Rezept-AdV ist ein stationäres Gerät des Versicherten (GdV). Es steht unter alleiniger Kontrolle des Versicherten. Dem Versicherten&nbsp;obliegt es, durch geeignete Maßnahmen die Sicherheit der Daten zu stärken.</p> 
+  <p id="polarion_21"><span style="font-size: 10pt;line-height: 1.5;">Unterschiede zum E-Rezept-FdV bestehen in der Ausführungsumgebung und im reduzierten Umfang der für den Nutzer ausführbaren Anwendungsfälle.</span></p> 
+  <h2 id="3">3 Systemkontext</h2> 
+  <h3 id="3.1">3.1 Akteure und Rollen</h3> 
+  <p id="polarion_81">Im Systemkontext der E-Rezept-AdV interagieren verschiedene Akteure (aktive Komponenten) in unterschiedlichen Rollen mit der E-Rezept-AdV.</p> 
+  <p class="polarion-rte-caption-paragraph" id="polarion_69">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">1</span> : TAB_AdVERP_001 – Akteure und Rollen</p> 
+  <table style="width: 98.21%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=uid=70|width=98.21%">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 98px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Akteur</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 198px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Rolle</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 411px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Beschreibung</span></th>
+    </tr>
+    <tr>
+     <td style="width: 98px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Nutzer der E-Rezept-AdV</td>
+     <td style="width: 198px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Versicherter</td>
+     <td style="width: 411px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">primärer Anwender, Ausführen von fachlichen Anwendungsfällen mit Zugriff auf den E-Rezept-Fachdienst</td>
+    </tr>
+    <tr>
+     <td style="width: 98px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ausführungsumgebung</td>
+     <td style="width: 198px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Gerät des Versicherten&nbsp;</td>
+     <td style="width: 411px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Betriebs-/Ablaufumgebung der E-Rezept-AdV<br> ein stationäres Gerät<br></td>
+    </tr>
+    <tr>
+     <td style="width: 98px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Hersteller E-Rezept-AdV (gematik)</td>
+     <td style="width: 198px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">organisatorisch, kein Akteur in der Ausführung von E-Rezept-Anwendungsfällen</td>
+     <td style="width: 411px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Der Hersteller E-Rezept-AdV stellt im Handbuch Informationen bereit bezüglich:<br></span> 
+      <ul>
+       <li><span style="font-size: 10pt;line-height: 1.5;">Anforderungen an die Ausführungsumgebung</span></li>
+      </ul> <span style="font-size: 10pt;line-height: 1.5;">Der Hersteller E-Rezept-AdV erfüllt sicherheitstechnische Anforderungen zum Herstellungsprozess.</span></td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_71"></p> 
+  <h3 id="3.2">3.2 Nachbarsysteme</h3> 
+  <p id="polarion_84">Die von der E-Rezept-AdV direkt erreichbaren Produkttypen der TI sind</p> 
+  <ul id="polarion_224">
+   <li>Identity Provider (IDP)</li>
+   <li>E-Rezept-Fachdienst</li>
+   <li>elektronische Gesundheitskarte (eGK)</li>
+  </ul> 
+  <p data-keep-next="true" style="text-align: center;" id="polarion_34"><img data-lastmodified="2020-08-06T12:49:52.998+02:00" style="max-width: 750px;" src="data:image/bmp;base64,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"></p> 
+  <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion_32">Abbildung <span class="polarion-rte-caption" data-sequence="Abbildung">1</span> : Systemüberblick E-Rezept-AdV</p> 
+  <p id="polarion_131"><span style="font-weight: bold;">Identity Provider</span></p> 
+  <p id="polarion_104">Der Identity Provider (IDP) ist ein Dienst der TI, welcher die Authentifizierung von Nutzern und die Bereitstellung bestätigter Identitätsmerkmale der Nutzer als Plattformleistungen bereitstellt. Der IDP bietet außerdem die Möglichkeit, bereits erfolgte Authentifizierungen eines Nutzers im Sinne eines Single Sign-on nachzunutzen.</p> 
+  <p id="polarion_115"><span style="font-weight: bold;">E-Rezept-Fachdienst</span></p> 
+  <p id="polarion_117">Der E-Rezept-Fachdienst ist ein offener fachanwendungsspezifischer Dienst in der TI, welcher den Workflow zu den E-Rezepten umsetzt.</p> 
+  <p id="polarion_17"><span style="font-weight: bold;">Authenticator-Modul</span></p> 
+  <p id="polarion_70">Das Authenticator-Modul ist eine logische Komponente in der E-Rezept-AdV. Das&nbsp;Authenticator-Modul kapselt funktionale Anteile des Authentifizierungsprozesses und die Kommunikation mit der Smart Card des Nutzers.&nbsp;Im Authentisierungsprozess übernimmt das Authenticator-Modul die Rolle Authenticator-Modul und das E-Rezept-AdV die Rolle Anwendungsfrontend. Siehe [gemSpec_IDP_FD].<br> Für die Authentisierung mittels eGK greift die E-Rezept-AdV über die kontaktbehaftete Schnittstelle oder mittels des&nbsp;Funkstandards Near Field Communication (NFC) zur drahtlosen Datenübertragung auf die kontaktlose Schnittstelle auf die eGK zu. Das bedeutet für den Nutzer, dass er einen Kartenleser benötigt.</p> 
+  <h2 id="4">4 Übergreifende Festlegungen</h2> 
+  <h3 id="4.1">4.1 Datenschutz und Sicherheit</h3> 
+  <p id="polarion_226">In diesem Kapitel werden übergreifende Anforderungen beschrieben, die sich aus den Themenfeldern Datenschutz und Sicherheit ergeben.&nbsp;</p> 
+  <div id="A_19176" severity="MUSS">
+   <p><b>A_19176 - E-Rezept-FdV – Nutzungshinweise</b></p>
+   <p>Der Hersteller bzw. der Anbieter des E-Rezept-FdV MUSS den Nutzer über die Annahmen und Anforderungen seines Produktes an das Gerät,&nbsp;auf dem das E-Rezept-FdV läuft, sowie über den Bezug des Produkts aus vertrauenswürdigen App Stores informieren. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21359" severity="MUSS">
+   <p><b>A_21359 - E-Rezept-AdV – Vertrauenswürdige Bezugsquellen</b></p>
+   <p>Der Hersteller bzw. der Anbieter der E-Rezept-AdV MUSS es den Versicherten ermöglichen, die E-Rezept-AdV aus vertrauenswürdigen Quellen zu beziehen. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21364" severity="MUSS">
+   <p><b>A_21364 - E-Rezept-AdV – Information über Bezugsquellen</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Der Hersteller bzw. der Anbieter der E-Rezept-AdV MUSS die Versicherten darüber informieren, aus welchen vertrauenswürdigen Quellen sie die E-Rezept-AdV beziehen können und wie diese verifiziert werden können.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21365" severity="MUSS">
+   <p><b>A_21365 - E-Rezept-AdV – Authentifizierung der- Bezugsquelle bei Erstbezug</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Der Hersteller bzw. der Anbieter der E-Rezept-AdV MUSS sicherstellen, dass der Versicherte bei Erstbezug einer E-Rezept-AdV die Authentizität der vertrauenswürdigen Bezugsquelle verifizieren kann.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_154"><span style="font-size: 10pt;line-height: 1.5;">Hinweis: Beim Erstbezug der E-Rezept-AdV kann die Prüfung der Authentizität der Quelle noch nicht durch die E-Rezept-AdV selbst erfolgen. Dies kann z.B. über eine TLS-Serverauthentifizierung der Bezugsquelle oder das Einstellen der E-Rezept-AdV in einen vertrauenswürdigen Store erreicht werden.</span></p> 
+  <div id="A_21366" severity="MUSS">
+   <p><b>A_21366 - E-Rezept-AdV – Technische Authentifizierung der Update-Bezugsquellen</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Die E-Rezept-AdV MUSS Updates ausschließlich von bekannten, vertrauenswürdigen und authentisierten Quellen laden.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21367" severity="MUSS">
+   <p><b>A_21367 - E-Rezept-AdV - lokale Datenverarbeitung</b></p>
+   <p><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Die E-Rezept-AdV MUSS sicherstellen, dass die Klartextverarbeitung aller personenbezogenen bzw. sicherheitsrelevanten Daten eines Versicherten lokal auf dem Gerät des Versicherten erfolgt.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21368" severity="MUSS">
+   <p><b>A_21368 - E-Rezept-AdV – Ausführung nur von zugelassenen Code</b></p>
+   <p><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Die E-Rezept-AdV MUSS sicherstellen, dass nur von der gematik zugelassener Code ausgeführt wird. Dies gilt auch für dynamisch geladenen Code.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21369" severity="MUSS">
+   <p><b>A_21369 - E-Rezept-AdV – Berücksichtigung OWASP ASVS</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Der Hersteller der E-Rezept-AdV MUSS die E-Rezept-AdV unter Berücksichtigung des jeweils aktuellen OWASP Application Security Verification Standard Level 3 entwickeln und für jede Anforderung dokumentieren, wie sie umgesetzt ist bzw. ob sie ggf. für die E-Rezept-AdV nicht zutrifft.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19480" severity="DARF NICHT">
+   <p><b>A_19480 - E-Rezept-FdV – Schutz der Session-Daten</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das E-Rezept-FdV DARF Session-Daten (bspw. ACCESS_TOKEN und ID_TOKEN) NICHT an Dritte, außer im Rahmen der in den Anwendungsfällen spezifizierten Kommunikation, weitergeben.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20184" severity="DARF NICHT">
+   <p><b>A_20184 - E-Rezept-FdV - Speicherung der Session-Daten</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das E-Rezept-FdV DARF NICHT Session-Daten (bspw. ACCESS_TOKEN und ID_TOKEN) unverschlüsselt auf permanenten Speichermedien ablegen.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20185" severity="MUSS">
+   <p><b>A_20185 - E-Rezept-FdV - Session-Timeout</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das E-Rezept-FdV MUSS die Session nach einem angemessenen Session-Timeout, gemäß aktuellen Best-Practice-Empfehlungen, aktiv beenden.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20186" severity="MUSS">
+   <p><b>A_20186 - E-Rezept-FdV - Session-Daten löschen</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das E-Rezept-FdV MUSS beim Beenden einer Session die Session-Daten (bspw. ACCESS_TOKEN und ID_TOKEN) sicher löschen.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19179" severity="MUSS">
+   <p><b>A_19179 - E-Rezept-FdV – Qualität verwendeter Schlüssel</b></p>
+   <p>Das E-Rezept-FdV MUSS sicherstellen, dass die von ihm erzeugten Schlüssel eine ausreichende Qualität besitzen. <b>[&lt;=]</b></p>
+  </div> 
+  <p class="MsoNormal" id="polarion_238">Für Festlegungen zur Schlüsselerzeugung siehe [gemSpec_Krypt#GS-A_4368].</p> 
+  <p id="polarion_239"><span style="font-size: 10pt;line-height: 1.5;">Um die geforderte Entropie zu erreichen,&nbsp;können Informationen von zusätzlichen Quellen (bspw. Internet, Sensoren des Geräts) zusammengeführt werden.</span></p> 
+  <div id="A_19979" severity="DARF NICHT">
+   <p><b>A_19979 - E-Rezept-FdV – Kein Zugriff von Diensten Dritter auf personenbezogene medizinische Daten</b></p>
+   <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Das E-Rezept-FdV DARF Diensten Dritter NICHT Zugriff auf personenbezogene medizinische Daten geben.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19181-01" severity="MUSS">
+   <p><b>A_19181-01 - E-Rezept-FdV – Privacy bei default</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das E-Rezept-FdV MUSS bei Konfigurationsmöglichkeiten die Voreinstellung wählen, so dass nur personenbezogene Daten, deren Verarbeitung für den jeweiligen bestimmten Verarbeitungszweck erforderlich ist, verarbeitet werden.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19182" severity="MUSS">
+   <p><b>A_19182 - E-Rezept-FdV – Sicherheitsrisiken von Software-Bibliotheken minimieren</b></p>
+   <p>Das E-Rezept-FdV MUSS Maßnahmen umsetzen, um die Auswirkung von unentdeckten Schwachstellen in benutzten Software-Bibliotheken zu minimieren.&nbsp; <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_90">Hinweis:&nbsp;Beispielmaßnahmen sind in [OWASP Proactive Control#C2] zu finden. Das gewählte Verfahren muss die gleiche Wirksamkeit aufweisen wie die Kapselung gemäß [OWASP Proactive Control#C2 Punkt 4].</p> 
+  <div id="A_19980" severity="MUSS">
+   <p><b>A_19980 - E-Rezept-FdV – Information über Datenweitergabe an Dienste Dritter</b></p>
+   <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Das E-Rezept-FdV MUSS den Versicherten darauf hinweisen, dass durch die Nutzung von Diensten Dritter Daten an diese abfließen und welche Daten dies sind.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_128">Hinweis: Dienste Dritter, an die andere Daten als personenbezogene medizinische Daten weitergeleitet werden können, sind z.B. Kartendienste oder der Arzneimitteldatenbanken. Näheres hierzu regelt die Rechtsverordnung nach § 360 (5) PDSG.</p> 
+  <div id="A_19981" severity="MUSS">
+   <p><b>A_19981 - E-Rezept-FdV – Zustimmung über Datenweitergabe an Dienste Dritter</b></p>
+   <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Das E-Rezept-FdV MUSS vor einer Weitergabe von Daten an Dienste von Dritten einmalig das Einverständnis des Versicherten einholen (OPT-IN).</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19982" severity="MUSS">
+   <p><b>A_19982 - E-Rezept-FdV – Rücknahme der Zustimmung über Datenweitergabe an Dienste Dritter</b></p>
+   <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Das E-Rezept-FdV MUSS es dem Versicherten ermöglichen das Einverständnis zur Weitergabe von Daten an Dienste von Dritten zu widerrufen und ihn dabei über eventuelle Einschränkungen in der Funktionalität informieren.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_68">Hinweis: Nach dem Widerruf darf das E-Rezept-AdV keine Daten mehr an Dienste von Dritten weitergeben.</p> 
+  <div id="A_19983" severity="DARF NICHT">
+   <p><b>A_19983 - E-Rezept-FdV – Keine Nutzung von Diensten Dritter mit bekannten Schwachstellen</b></p>
+   <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Das E-Rezept-FdV DARF NICHT Dienste von Dritten nutzen, wenn diese bekannte Schwachstellen besitzen.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19984" severity="SOLL">
+   <p><b>A_19984 - E-Rezept-FdV – Validierung eingehender Daten von Diensten Dritter</b></p>
+   <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Das E-Rezept-FdV SOLL&nbsp;eingehende Daten von Diensten Dritter validieren.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19186" severity="MUSS">
+   <p><b>A_19186 - E-Rezept-FdV – Sichere Speicherung lokaler Daten</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das E-Rezept-FdV MUSS Daten lokal sicher speichern, so dass keine andere App auf demselben Gerät unbefugt Zugriff auf die Daten hat. Insbesondere MUSS das E-Rezept-FdV&nbsp;Zugriffsschlüssel verschlüsselt ablegen. Außerdem MUSS das E-Rezept-FdV sicherstellen, dass vertrauliche Daten nicht vom Betriebssystem an anderen Ablageorten zwischengespeichert werden.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19187" severity="DARF NICHT">
+   <p><b>A_19187 - E-Rezept-FdV – Authentisierung vor Zugang zum Dienst</b></p>
+   <p>Das E-Rezept-FdV DARF NICHT eine Verbindung zum E-Rezept-Fachdienst aufbauen, wenn es keinen ACCESS_TOKEN vom IDP erhalten hat. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19188" severity="MUSS">
+   <p><b>A_19188 - E-Rezept-FdV - Sichere Deinstallation</b></p>
+   <p>Das E-Rezept-FdV MUSS die von ihm verarbeiteten Daten so speichern, dass die Daten bei einer Deinstallation des E-Rezept-FdV mit gelöscht werden. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_67">Hinweis: Zu diesen Daten gehören u.a. Session-Daten, Cashes, Schlüssel, E-Rezept-Inhaltsdaten.</p> 
+  <h4 id="4.1.1">4.1.1 Anforderungen zum Herstellungsprozess</h4> 
+  <p id="polarion_87">Der Hersteller der E-Rezept-AdV muss die Anforderungen aus dem Abschnitt "Sicherer Softwareentwicklungsprozess" des Dokuments [gemSpec_DS_Hersteller] erfüllen.</p> 
+  <h4 id="4.1.2">4.1.2 Unterstützung von Audits</h4> 
+  <p id="polarion_86">Der Hersteller der E-Rezept-AdV muss die Anforderungen aus dem Abschnitt "Unterstützung von Audits" des Dokuments [gemSpec_DS_Hersteller] erfüllen.</p> 
+  <h3 id="4.2">4.2 Benutzeroberfläche</h3> 
+  <p id="polarion_225">Die Benutzeroberfläche, welche durch den Versicherten genutzt wird, um E-Rezept-Anwendungsfälle auszuführen, ist Teil der E-Rezept-AdV.</p> 
+  <p id="polarion_43">Ausführungen zur visuellen Darstellung, Usability und zu geltenden technischen Normen werden im Dokument [gemSpec_eRp_FdV] beschrieben.</p> 
+  <p id="polarion_33">Die konkrete Ausgestaltung der GUI und der Benutzerführung wird während der Entwicklung festgelegt und in diesem Dokument nicht weiter behandelt.</p> 
+  <h3 id="4.3">4.3 Konfiguration der E-Rezept-AdV</h3> 
+  <p id="polarion_92">Im Folgenden sind Konfigurationsparameter der Anwendung beschrieben, deren Werte für die Nutzung der Schnittstellen benötigt werden. Darüber hinaus kann der Hersteller der E-Rezept-AdV zusätzliche Konfigurationsparameter definieren.</p> 
+  <div id="A_20647" severity="MUSS">
+   <p><b>A_20647 - E-Rezept-AdV: Parameter speichern und laden</b></p>
+   <p>Die E-Rezept-AdV MUSS die Parameter aus TAB_AdVERP_002 persistent speichern und bei der Initialisierung laden. <p class="polarion-rte-caption-paragraph" id="polarion___1">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">2</span> : TAB_AdVERP_002 – Konfiguration E-Rezept-AdV</p>
+    <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=client4">
+     <tbody>
+      <tr>
+       <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 200px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Parameter</span><br><br></th>
+       <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 257px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beschreibung</th>
+       <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 265px;height: 42px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Wertebereich</span><br> <span style="font-size: 10pt;line-height: 1.5;">(Default Wert)</span></th>
+      </tr>
+      <tr>
+       <td style="width: 200px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Option Card Access Number (CAN) zur Authentisierung</td>
+       <td style="width: 257px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">falls eine Authentifizierung mittels eGK über die NFC-Schnittstelle unterstützt wird:<br> Wahlmöglichkeit, ob die CAN der eGK in der E-Rezept-AdV gespeichert werden soll</td>
+       <td style="width: 265px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja/nein<br> Default: nein</td>
+      </tr>
+      <tr>
+       <td style="width: 200px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Card Access Number</td>
+       <td style="width: 257px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">falls Option für Speichern der CAN aktiviert wurde</td>
+       <td style="width: 265px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Default: leer</td>
+      </tr>
+      <tr>
+       <td style="width: 200px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Option Usability Tracking</td>
+       <td style="width: 257px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">falls Usability Tracking durch die E-Rezept-AdV unterstützt werden kann:<br> Wahlmöglichkeit, ob der Nutzer Usability Tracking unterstützen möchte</td>
+       <td style="width: 265px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja/nein<br> Default: nein</td>
+      </tr>
+      <tr>
+       <td style="width: 200px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Option Crash Reporting</td>
+       <td style="width: 257px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">falls Crash Reporting durch die E-Rezept-AdV unterstützt werden kann:<br> Wahlmöglichkeit, ob der Nutzer Crash Reporting unterstützen möchte</td>
+       <td style="width: 265px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja/nein<br> Default: nein</td>
+      </tr>
+     </tbody>
+    </table> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20678" severity="MUSS">
+   <p><b>A_20678 - E-Rezept-AdV: Konfigurationsparameter verwalten</b></p>
+   <p>Die E-Rezept-AdV MUSS es dem Nutzer ermöglichen, die Parameter aus TAB_AdVERP_002 zu verwalten (anzeigen, ändern, löschen). <b>[&lt;=]</b></p>
+  </div> 
+  <h3 id="4.4">4.4 Logging</h3> 
+  <p id="polarion_62">Die E-Rezept-AdV kann Protokolldateien schreiben, die eine Analyse technischer Vorgänge erlauben. Diese Protokolldateien sind dafür vorgesehen, aufgetretene Fehler zu identifizieren, die Performance zu analysieren und interne Abläufe zu beobachten.</p> 
+  <p id="polarion_96">Ein Logging der E-Rezept-AdV auf Geräten des Versicherten ist im Betrieb nicht vorgesehen, da die Protokolldaten zur Auswertung nicht erreichbar sind. Die Protokollierung auf einem externen Dienst ermöglicht eine Auswertung und kann die Fehlersuche unterstützen (siehe Usability Tracking und Crash Reporting). Für Testzwecke soll ein Logging zur Fehleranalyse möglich sein.&nbsp;</p> 
+  <div id="A_19682" severity="MUSS">
+   <p><b>A_19682 - E-Rezept-FdV - Kein Logging auf Geräten des Versicherten</b></p>
+   <p>Das E-Rezept-FdV&nbsp;MUSS <span style="font-size: 10pt;line-height: 1.5;">für den Betrieb auf dem Gerät des Versicherten</span> das Logging deaktiviert haben. <b>[&lt;=]</b></p>
+  </div> 
+  <h2 id="5">5 Funktionsmerkmale</h2> 
+  <h3 id="5.1">5.1 Allgemein</h3> 
+  <h4 id="5.1.1">5.1.1 Session-Verwaltung</h4> 
+  <p id="polarion_35"><span style="background-color: #FF9900;"></span>Eine Authentisierung gegenüber der TI nach dem Start der Anwendung erfolgt automatisch.</p> 
+  <p id="polarion_79">Eine <span style="font-weight: bold;">TI-Session</span> bezeichnet den Zeitraum von der Authentisierung gegenüber der TI bis zum Ablauf der Authentisierung.</p> 
+  <p id="polarion_80">Die Authentisierung gegenüber der TI erfolgt über ein Authentisierungsmodul, welche Bestandteil der E-Rezept-AdV ist oder als eigenständige Komponente ebenfalls auf dem Gerät des Versicherten (GdV) installiert ist. Das Authentisierungsmodul unterstützt in der ersten Stufe eine Authentisierung des Versicherten mit der eGK, wobei der Versicherte die PIN eingeben muss.</p> 
+  <p id="polarion_82">Der Versicherte weist sich gegenüber der TI mit der Identität der eGK aus.</p> 
+  <p id="polarion_132">Die Anbindung der eGK an das GdV kann mittels kontaktloser NFC-Schnittstelle oder der kontaktbehafteten Schnittstelle erfolgen.</p> 
+  <p id="polarion_142">Die Authentisierung des Nutzers erfolgt mittels eGK, MRPIN.home und, falls die NFC Schnittstelle genutzt wird, der CAN.</p> 
+  <p id="polarion_58">Die Authentisierungsdauer einer TI-Session beträgt maximal 12 Stunden ab dem Zeitpunkt der Erstellung des Authentisierungstokens.&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Wird die Anwendung durch den Nutzer aktiv beendet, werden die Session-Daten gelöscht und eine erneute Authentisierung wird erforderlich.</span></p> 
+  <div id="A_20117" severity="MUSS">
+   <p><b>A_20117 - E-Rezept-FdV: Authentisierung wenn kein gültiger ACCESS_CODE</b></p>
+   <p>Das E-Rezept-FdV MUSS,&nbsp;falls für den Aufruf des E-Rezept-Fachdienstes kein gültiger ACCESS_TOKEN&nbsp; sowie kein gültiger ACCESS_CODE vorliegt, die TI-Session starten. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20035" severity="MUSS">
+   <p><b>A_20035 - E-Rezept-FdV: TI-Session starten</b></p>
+   <p>Das E-Rezept-FdV MUSS zum Start der TI-Session die Aktivität "Authentisierung des Nutzers gegenüber TI"&nbsp; ausführen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_94">Für die Aktivität "Authentisierung des Nutzers gegenüber TI" siehe Kapitel <span data-scope="Mainline_OPB1" data-option-id="shortoutline" data-item-id="ML-109995" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;.</p> 
+  <div id="A_19481" severity="MUSS">
+   <p><b>A_19481 - E-Rezept-FdV: Löschen der App-Session-Daten</b></p>
+   <p>Das E-Rezept-FdV MUSS zum Beenden der App-Session&nbsp;die ACCESS_TOKEN und den ACCESS_CODE sicher löschen. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19482" severity="MUSS">
+   <p><b>A_19482 - E-Rezept-FdV: Beenden der TI-Session</b></p>
+   <p>Das E-Rezept-FdV MUSS zum Beenden der TI-Session <br> 
+    <ul>
+     <li>bestehende TLS-Verbindungen zu den Diensten der TI abbauen,</li>
+     <li>die Schlüssel für die sichere Verbindung zur VAU des E-Rezept-Fachdienstes löschen und</li>
+     <li>alle&nbsp;ACCESS_TOKEN und ACCESS_CODE löschen.</li>
+    </ul> <b>[&lt;=]</b></p>
+  </div> 
+  <h4 id="5.1.2">5.1.2 Kommunikation mit Diensten der TI</h4> 
+  <p id="polarion_160">Die E-Rezept-AdV nutzt TLS-Verbindungen für die Kommunikation zu den Diensten der TI. Es verbindet sich mit dem E-Rezept-Fachdienst und einem Identity Provider.</p> 
+  <div id="A_19438-01" severity="MUSS">
+   <p><b>A_19438-01 - E-Rezept-FdV: Adressierung E-Rezept-Fachdienst</b></p>
+   <p>Das E-Rezept-FdV MUSS für die Kommunikation mit dem E-Rezept-Fachdienst die vom E-Rezept-Fachdienst im Internet bereitgestellten Schnittstellen nutzen.&nbsp; <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_56">Für die URLs der Schnittstellen siehe&nbsp;[gemSpec_FD_eRP#A_21782-*].</p> 
+  <div id="A_19747" severity="MUSS">
+   <p><b>A_19747 - E-Rezept-FdV: Endpunkt Schnittstelle E-Rezept-Fachdienst</b></p>
+   <p>Das E-Rezept-FdV MUSS die URL für die Kommunikation mit dem E-Rezept-Fachdienst gemäß <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">https://&lt;FQDN aus DNS Lookup&gt;:443/&lt;path&gt;</span>&nbsp;bilden. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_168">Die Informationen zu den Endpunkten des Identity Providers ermittelt die E-Rezept-AdV aus dem Discovery Document. Siehe auch [&nbsp;<a class="descriptionLink" target="_top" href="https://gsbepo03.int.gematik.de/polarion/#/project/Mainline_OPB1/wiki/Spezifikation/gemSpec_IDP_Frontend?selection=ML-110768">gemSpec_IDP_Frontend#A_20512 - Regelmäßiges Einlesen des Discovery Document</a>&nbsp;]. Das Discovery Document ist vom IDP-Dienst unter der URL <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">/.well-known/openid-configuration</span> abrufbar.&nbsp;</p> 
+  <div id="A_19215" severity="MUSS">
+   <p><b>A_19215 - E-Rezept-FdV: Kommunikation über TLS-Verbindung</b></p>
+   <p>Das E-Rezept-FdV MUSS mit den Diensten der TI ausschließlich über TLS kommunizieren. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_74">Für Informationen zur Nutzung der TLS siehe [gemSpec_Krypt].</p> 
+  <div id="A_20206-01" severity="MUSS">
+   <p><b>A_20206-01 - E-Rezept-FdV: Kommunikation über TLS-Verbindung mit Diensten Dritter</b></p>
+   <p><span style="font-size: 10pt;line-height: 1.5;">Das E-Rezept-FdV MUSS mit den Diensten Dritter ausschließlich über TLS kommunizieren.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19216" severity="MUSS">
+   <p><b>A_19216 - E-Rezept-FdV: Unzulässige TLS-Verbindungen ablehnen</b></p>
+   <p>Das E-Rezept-FdV MUSS bei jedem Verbindungsaufbau den Dienst der TI anhand seines TLS-Zertifikats authentifizieren und MUSS die Verbindungen ablehnen, falls die Authentifizierung fehlschlägt. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20014-01" severity="MUSS">
+   <p><b>A_20014-01 - E-Rezept-FdV: HTTP-Header user-agent</b></p>
+   <p>Das E-Rezept-FdV MUSS in alle HTTP-Requests an Dienste der TI im äußeren Http-Request den HTTP-Header user-agent&nbsp;gemäß [RFC7231] mit<br>&nbsp;<span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&lt;Produktname&gt;/&lt;Produktversion&gt; &lt;Herstellername&gt;/&lt;client_id&gt;&nbsp;</span>gemäß der Produktidentifikation befüllen:<br></span> 
+    <ul>
+     <li><span style="font-size: 10pt;line-height: 1.5;">&lt;client_id&gt; gemäß Registrierung bei der gematik.</span></li>
+    </ul> <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_20">Für Informationen zur Produktidentifikation siehe [gemSpec_OM].</p> 
+  <div id="A_21553" severity="MUSS">
+   <p><b>A_21553 - E-Rezept-FdV: Organisatorische Registrierung</b></p>
+   <p>Der Hersteller des E-Rezept-FdV MUSS organisatorische Prozesse für API-KEYs für die Kommunikation zum E-Rezept-Fachdienst unterstützen. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21554" severity="MUSS">
+   <p><b>A_21554 - E-Rezept-FdV: API-KEY speichern</b></p>
+   <p>Das E-Rezept-FdV MUSS den von der gematik vergebenen API-KEY im E-Rezept-FdV verwahren. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_23">Der Wechsel des API-KEY erfolgt mit einer neuen Version der E-Rezept-AdV.</p> 
+  <div id="A_21555" severity="MUSS">
+   <p><b>A_21555 - E-Rezept-FdV - Verwendung API-KEY</b></p>
+   <p>Das E-Rezept-FdV MUSS in allen HTTP-Requests an den E-Rezept-Fachdienst im äußeren HTTP-Request den HTTP-Header "<span style="font-size: 10pt;line-height: 1.5;">X-api-key" mit dem von der gematik&nbsp;übermittelten&nbsp;API-KEY befüllen.</span> <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_24">Der HTTP-Header X-api-key wird im äußeren HTTP-Request, d.h. außerhalb der Verschlüsselung des VAU-Transports,&nbsp;gesendet.</p> 
+  <div id="A_21567" severity="MUSS">
+   <p><b>A_21567 - E-Rezept-FdV: HTTP-Header X-erp-user</b></p>
+   <p>Das E-Rezept-FdV MUSS in alle Anfragen an den E-Rezept-Fachdienst im äußeren HTTP-Request den HTTP-Header "X-erp-user"&nbsp;mit dem Wert "v" einfügen. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21570" severity="MUSS">
+   <p><b>A_21570 - E-Rezept-FdV: HTTP-Header X-erp-resource</b></p>
+   <p>Das E-Rezept-FdV MUSS in alle Anfragen an den E-Rezept-Fachdienst im äußeren HTTP-Request den HTTP-Header "X-erp-resource"&nbsp;mit dem Wert gemäß der angefragten Ressource im FHIR-Request einfügen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_121"></p> 
+  <p class="polarion-rte-caption-paragraph" data-keep-next="true" style="text-align: left;" id="polarion_122">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">3</span> : TAB_FdVERP_019 -&nbsp;HTTP-Header "X-erp-resource"</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=123">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Operation</span><br></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">X-erp-resource</span><br></th>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">DELETE /Communication/&lt;id&gt;<br></td>
+     <td style="width: 295px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Communication</td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /AuditEvent/<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AuditEvent<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /AuditEvent/&lt;id&gt;<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AuditEvent<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /Communication/<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Communication&nbsp;<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /Communication/&lt;id&gt;<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Communication&nbsp;<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /Device/<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Device<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /MedicationDispense/<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">MedicationDispense<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /MedicationDispense/&lt;id&gt;<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">MedicationDispense<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /metadata/<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">metadata<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /Task/<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GET /Task/&lt;id&gt;<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task<br></td>
+    </tr>
+    <tr>
+     <td style="width: 436px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">POST /Task/&lt;id&gt;/$abort<br></td>
+     <td style="width: 295px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task<br></td>
+    </tr>
+   </tbody>
+  </table> 
+  <h4 id="5.1.3">5.1.3 Authentisierung des Nutzers für Dienste der TI</h4> 
+  <p id="polarion_177">Der Nutzer&nbsp;authentisiert sich für Zugriffe auf Dienste der TI gegenüber der TI.&nbsp;Die E-Rezept-AdV erhält bei erfolgreicher Authentisierung einen Authentisierungstoken (ACCESS_TOKEN), welcher für die Authentisierung bei den Diensten der TI weitergeleitet wird.</p> 
+  <div id="A_20167" severity="MUSS">
+   <p><b>A_20167 - E-Rezept-FdV: Authentisierung - Rolle Authenticator-Modul und Anwendungsfrontend</b></p>
+   <p>Das E-Rezept-FdV MUSS für den Zugriff auf Dienste der TI,&nbsp;wenn kein gültiger ACCESS_TOKEN vorliegt, sich gegenüber einem Identity Provider der TI in den Rollen Authenticator-Modul und Anwendungsfrontend Applikation authentisieren. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_46">Für Informationen zum Ablauf der Authentisierung siehe [gemSpec_IDP_Dienst] und&nbsp;[gemSpec_IDP_Frontend].</p> 
+  <h4 id="5.1.4">5.1.4 Verschlüsselte Kommunikation zur VAU des E-Rezept-Fachdienstes</h4> 
+  <p id="polarion_227">Die Kommunikation zum E-Rezept-Fachdienst&nbsp;wird zusätzlich zu TLS über einen sicheren Kanal zwischen die E-Rezept-AdV und der Vertrauenswürdigen Ausführungsumgebung (VAU) im E-Rezept-Fachdienst gesichert.</p> 
+  <div id="A_19740-01" severity="MUSS">
+   <p><b>A_19740-01 - E-Rezept-FdV: Umsetzung sicherer Kanal zur VAU des E-Rezept-Fachdienstes</b></p>
+   <p>Das E-Rezept-FdV MUSS für alle Anfragen an den E-Rezept-Fachdienst für <br> 
+    <ul> 
+     <li>die Abfrage des <span style="font-size: 10pt;line-height: 1.5;">capability statement</span></li> 
+     <li><span style="font-size: 10pt;line-height: 1.5;">den Zugriff auf <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Task</span><span style="font-family: Arial, Helvetica;">,</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">MedicationDispense</span><span style="font-family: Arial, Helvetica;">,&nbsp;</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AuditEvent</span> oder <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Communication</span> Ressourcen</span></li> 
+    </ul> das Kommunikationsprotokoll zwischen E-Rezept-VAU und E-Rezept-Clients in der Rolle E-Rezept-Client nutzen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_64">Für Informationen zum Kommunikationsprotokoll zwischen E-Rezept-AdV und der&nbsp;VAU des E-Rezept-Fachdienstes siehe <span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-109241" data-custom-label="[gemSpec_Krypt#3.16 E-Rezept-spezifische Vorgaben (informativ)]" id="fake" data-type="polarion" class="polarion-rte-link"></span>&nbsp;und <span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-109239" data-custom-label="[gemSpec_Krypt#7&nbsp;Kommunikationsprotokoll zwischen E-Rezept-VAU und E-Rezept-Clients]" id="fake" data-type="polarion" class="polarion-rte-link"></span>&nbsp;.</p> 
+  <h4 id="5.1.5">5.1.5 Zertifikatsprüfung</h4> 
+  <p id="polarion_256">Die E-Rezept-AdV verwendet bei den in TAB_FdVERP_017 dargestellten Aktivitäten Zertifikate.</p> 
+  <p class="polarion-rte-caption-paragraph" data-keep-next="true" id="polarion_257">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">4</span> : TAB_FdVERP_017 – Zertifikatsnutzung</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=258">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 197px;height: 36.2222px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">Aktivität</span><br></span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 81px;height: 36.2222px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">Zertifikat der TI</span><br></span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 175px;height: 36.2222px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">Zertifikatstyp</span><br></span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 177px;height: 36.2222px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">Rollen-OID</span><br></span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 67px;height: 36.2222px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">Nutzung</span><br></span></th>
+    </tr>
+    <tr>
+     <td style="width: 197px;height: 14px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">TLS-Verbindungsaufbau zum E-Rezept-Fachdienst<br></span></td>
+     <td style="width: 81px;height: 14px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">nein<br></span></td>
+     <td style="width: 175px;height: 14px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">TLS Internet Zertifikat<br></span></td>
+     <td style="width: 177px;height: 14px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">n/a<br></span></td>
+     <td style="width: 67px;height: 14px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">aktiv<br></span></td>
+    </tr>
+    <tr>
+     <td style="width: 197px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">TLS-Verbindungsaufbau zum IDP</td>
+     <td style="width: 81px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">nein</td>
+     <td style="width: 175px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">TLS Internet Zertifikat</td>
+     <td style="width: 177px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">n/a</td>
+     <td style="width: 67px;height: 8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">aktiv</td>
+    </tr>
+    <tr>
+     <td style="width: 197px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Aufbau sicherer Kanal zur VAU des E-Rezept-Fachdienstes<br></span></td>
+     <td style="width: 81px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">ja<br></span></td>
+     <td style="width: 175px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">C.FD.ENC<br></span></td>
+     <td style="width: 177px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">oid_erp_vau<br></span></td>
+     <td style="width: 67px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">aktiv<br></span></td>
+    </tr>
+    <tr>
+     <td style="width: 197px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Signaturzertifikat Fachdienst</td>
+     <td style="width: 81px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja</td>
+     <td style="width: 175px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">C.FD.SIG</td>
+     <td style="width: 177px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">oid_erezept</td>
+     <td style="width: 67px;height: 18.4444px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">aktiv</td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_259"><span style="font-size: 10pt;line-height: 1.5;">Es gelten folgende übergreifende Festlegungen für die Prüfung aktiv durch das E-Rezept-FdV genutzter Zertifikate.</span></p> 
+  <div id="A_19739" severity="MUSS">
+   <p><b>A_19739 - E-Rezept FdV: verpflichtende Zertifikatsprüfung</b></p>
+   <p>Das E-Rezept-FdV MUSS alle Zertifikate, die es aktiv verwendet (bspw. TLS-Verbindungsaufbau), auf Integrität und Authentizität prüfen. Falls die Prüfung kein positives Ergebnis ("gültig") liefert,&nbsp;so MUSS es die von dem Zertifikat und den darin enthaltenen Attributen (bspw. öffentliche Schlüssel) abhängenden Arbeitsabläufe ablehnen.<br> Das E-Rezept-FdV MUSS alle öffentlichen Schlüssel, die es verwenden will, auf eine positiv verlaufene Zertifikatsprüfung zurückführen können. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_235">"Ein Zertifikat aktiv verwenden" bedeutet im Sinne von A_19739, dass eine E-Rezept-AdV einen dort aufgeführten öffentlichen Schlüssel innerhalb einer kryptografischen Operation (Signaturprüfung, Verschlüsselung, Signaturprüfung von öffentlichen (EC)DH-Schlüsseln etc.) nutzt. Erhält die E-Rezept-AdV ein Datenobjekt, in dem Signaturen und Zertifikate enthalten sind und behandelt es dieses als opakes Datenobjekt, ohne die Zertifikate darin gesondert zu betrachten, dann verwendet die E-Rezept-AdV diese Zertifikate im Sinne von A_19739 passiv.</p> 
+  <p id="polarion_146"></p> 
+  <h5 id="5.1.5.1">5.1.5.1 Zertifikatsprüfung von Zertifikaten der TI</h5> 
+  <p id="polarion_260">In der folgenden Anforderung sind die Schritte zum Prüfen eines Zertifikates der TI beschrieben. In den Schritten werden TUC_PKI_* referenziert. Sie dienen als Rahmen für den&nbsp;Ablauf der Prüfschritte. Die TUC_PKI_* sind in dieser Afo nicht normativ umzusetzen.</p> 
+  <div id="A_20032-01" severity="MUSS">
+   <p><b>A_20032-01 - E-Rezept-FdV: Prüfung TI-Zertifikate</b></p>
+   <p>Das E-Rezept-FdV MUSS bei der Prüfung von X.509-Zertifikaten der TI folgende Prüfschritte durchlaufen.<br> 
+    <ol>
+     <li>Prüfung der zeitlichen Gültigkeit des Zertifikats auf Basis der aktuellen Systemzeit (orientiert an [gemSpec_PKI#TUC_PKI_002])<br></li>
+     <li>Ist das Zertifikat kryptographisch (Signaturprüfung) rückführbar auf ein CA-Zertifikat aus einer authentischen und integeren und zeitlich gültigen, vertrauenswürdigen Zertifikatskette?&nbsp;(siehe Festlegungen in [gemSpec_Krypt#7.2.2] "Client-seitige Prüfung der E-Rezept-VAU-Identität")<br></li>
+     <li>Prüfung auf den für den Anwendungsfall korrekten Zertifikatstyp gemäß TAB_FdVERP_017. Die OID des Zertifikatstyps gemäß [gemSpec_OID] muss in der Extension CertificatePolicies enthalten sein.<br></li>
+     <li>Falls das Zertifikat für den Aufbau des sicheren Kanals zur VAU verwendet wird (VAU-Zertifikat innerhalb des VAU-Protokolls, vgl. [gemSpec_Krypt#Kommunikationsprotokoll zwischen VAU und E-Rezept-Clients]), so MUSS die Rolle "oid_erp-vau" gemäß&nbsp;<span data-url="/wiki/Spezifikation/gemSpec_OID?revision=20844&amp;selection=ML-7553" data-custom-label="[gemSpec_OID#GS-A_4446]" id="fake" data-type="polarion" class="polarion-rte-link"></span> im EE-Zertifikat aufgeführt sein (analog [gemSpec_PKI#TUC_PKI_009]). Falls nein, MUSS das Zertifikat für den Aufbau des sicheren Kanals zur VAU&nbsp;abgelehnt werden.<br></li>
+     <li>Falls das Zertifikat ein EE-Zertifikat ist: Ermittlung der OCSP-Statusinformation. Ist das Zertifikat nicht gesperrt (Status "good" [RFC-6960#2.2 Response]) (vgl. A_15869)? Eine OCSP-Antwort&nbsp;KANN lokal maximal 4 Stunden gecacht und als Prüfgrundlage verwendet werden.<br> Die Prüfung ist analog gemSpec_PKI#TUC_PKI_006 mit den Parametern Referenzzeitpunkt=Systemzeit, OCSP-Graceperiod=4 Stunden.<br></li>
+     <li>Prüfung der Extensions KeyUsage und ExtendedKeyUsage auf die richtige Belegung gemäß dem Anwendungsfall (orientiert an [gemSpec_PKI#TUC_PKI_018] Schritt 2).<br></li>
+    </ol>Führt einer der Prüfschritte nicht zu einem positiven Prüfergebnis, so MUSS das Zertifikat abgelehnt werden und die weitere Verarbeitung des Zertifikats oder der Attribute darin abgelehnt werden.<br> Das E-Rezept-FdV muss die referenzierten technischen Use Cases (TUC_PKI_*)&nbsp;aus [gemSpec_PKI] im Rahmen dieser Anforderung nicht normativ umsetzen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_261">Für die Prüfung des Online-Status von Zertifikaten der TI wird die Schnittstelle I_OCSP_Status_Information genutzt. Siehe [gemSpec_PKI#9]. Die Schnittstelle wird durch den E-Rezept-Fachdienst angeboten. Siehe auch [gemSpec_FD_eRp#A_20024 - E-Rezept-Fachdienst - Bereitstellung OCSP-Forwarder].</p> 
+  <p id="polarion_101">Der E-Rezept-Fachdienst stellt neben der TSL eine zweite Lösung bereit, im E-Rezept-AdV einen Vertrauensraum auf Basis eines Root-CA-Zertifikats aufzubauen. Diese Lösung besteht in einer JSON-Struktur, die eine Zertifikatskette (CA-Zertifikate, Cross-Zertifikate) hin zur dem E-Rezept-FdV bekannten Root-CA enthält. Die JSON-Struktur ist einfacher zu verarbeiten. Die Anforderungen und Schritte zum Aufbau dieser vertrauenswürdigen Zertifikatskette finden sich in der Spezifikation [gemSpec_Krypt] in Abschnitt 7.2.2 "Client-seitige Prüfung der E-Rezept-VAU-Identität".</p> 
+  <h5 id="5.1.5.2">5.1.5.2 Zertifikatsprüfung von Internet-Zertifikaten</h5> 
+  <p id="polarion_230">Folgende Vorgaben gelten für die Prüfung von Internet-Zertifikaten.</p> 
+  <div id="A_20033" severity="MUSS">
+   <p><b>A_20033 - E-Rezept-FdV: Prüfung Internet-Zertifikate</b></p>
+   <p>Das E-Rezept-FdV MUSS für die Prüfung des internetseitigen Zertifikats von Diensten der TI das Zertifikat auf ein CA-Zertifikat einer CA, die die "CA/Browser Forum Baseline Requirements for the Issuance and Management of Publicly-Trusted Certificates" (<a href="https://cabforum.org/baseline-requirements-documents/" target="_top" class="descriptionLink">https://cabforum.org/baseline-requirements-documents/</a>) erfüllt, kryptographisch (Signaturprüfung) zurückführen können. Ansonsten MUSS es das Zertifikat als "ungültig" bewerten.<br> Das E-Rezept-FdV MUSS die zeitliche Gültigkeit des Zertifikats prüfen. Falls diese Prüfung negativ ausfällt, muss es das Zertifikat als "ungültig" bewerten.&nbsp; <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_262">Hinweis: Der erste Teil von A_20033 ist gleichbedeutend damit, dass das CA-Zertifikat im Zertifikats-Truststore eines aktuellen Webbrowsers ist.</p> 
+  <h3 id="5.2">5.2 E-Rezept Anwendungsfälle in der E-Rezept-AdV</h3> 
+  <p id="polarion_42">In diesem Kapitel wird&nbsp;die Umsetzung der im systemspezifischen Konzept [gemSysL_eRp] spezifizierten Anwendungsfälle in der E-Rezept-AdV beschrieben.</p> 
+  <h4 id="5.2.1">5.2.1 Anwendungsfälle</h4> 
+  <p id="polarion_140"></p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=header=no|width=100%|uid=2">
+   <tbody>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 735px;height: 39px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 9pt;line-height: 1.5;">Die in diesem Kapitel aufgeführten User Stories schildern die Absichten des Nutzers in Verbindung mit der E-Rezept-AdV und dienen als Lesehilfe zu den fachlichen Anwendungsfällen. Die User Stories erheben keinen Anspruch auf Vollständigkeit.</span><br></td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_158"></p> 
+  <h5 id="5.2.1.1">5.2.1.1 E-Rezepte einsehen</h5> 
+  <p class="MsoNormal" id="polarion_72">User Stories:</p> 
+  <ul id="polarion_73">
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich nach Authentisierung in der E-Rezept-AdV alle meine Verordnungen einsehen können, so dass ich einen Überblick über meine Verordnungen behalte.</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich die relevanten Informationen aus einem E-Rezept lesen können, so dass ich weiß, was mir verschrieben wurde.</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich alle E-Rezepte, die für mich verfügbar sind, sehen können, so dass ich entscheiden kann, was ich mit diesen E-Rezepten machen will.</span> <span style="font-size: 12pt;line-height: 1.5;"></span></li>
+  </ul> 
+  <p id="polarion_47">Mit diesem Anwendungsfall kann sich der Nutzer (Versicherter) die Informationen zu allen seinen auf dem E-Rezept-Fachdienst hinterlegten E-Rezepten in seine E-Rezept-AdV herunterladen und speichern, um sie sich&nbsp;<span style="font-size: 10pt;line-height: 1.5;">anschließend</span>&nbsp;anzeigen zu lassen.</p> 
+  <div id="A_20576" severity="MUSS">
+   <p><b>A_20576 - E-Rezept-AdV: E-Rezepte abrufen</b></p>
+   <p>Das E_Rezept-AdV MUSS den Anwendungsfall "UC 3.1 - E-Rezepte durch Versicherten abrufen"&nbsp;aus [gemSysL_eRp]&nbsp;gemäß TAB_AdVERP_009 umsetzen. <p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;" id="polarion___2"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">5</span>:&nbsp;TAB_AdVERP_009 - E-Rezepte abrufen </p> 
+    <table id="polarion_wiki macro name=table;params=header=no|width=100%|uid=143" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;"> 
+     <tbody> 
+      <tr> 
+       <td style="width: 147px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Name<br> </td> 
+       <td style="width: 584px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezepte abrufen</td> 
+      </tr> 
+      <tr> 
+       <td style="width: 147px;height: 0px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Auslöser</td> 
+       <td style="width: 584px;height: 0px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Aufruf des Anwendungsfalls in der GUI</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="width: 147px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akteur</td> 
+       <td style="width: 584px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Versicherter</td> 
+      </tr> 
+      <tr> 
+       <td style="width: 147px;height: 3px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Vorbedingung</td> 
+       <td style="width: 584px;height: 3px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Authentisierung des Nutzers ggü. der TI ist erfolgt.</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="width: 147px;height: 34px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Nachbedingung</td> 
+       <td style="width: 584px;height: 34px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Die E-Rezepte können angezeigt werden.</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="width: 147px;height: 115px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Standardablauf</td> 
+       <td style="width: 584px;height: 115px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ol> 
+         <li>E-Rezepte herunterladen</li> 
+         <li>Für jedes E-Rezept:</li> 
+         <ol> 
+          <li>E-Rezept decodieren</li> 
+          <li>Signatur prüfen</li> 
+         </ol> 
+         <li>Dispensierinformation herunterladen</li> 
+        </ol> </td> 
+      </tr> 
+     </tbody> 
+    </table> <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_83"></p> 
+  <div id="A_19347" severity="MUSS">
+   <p><b>A_19347 - E-Rezept-FdV: E-Rezept herunterladen</b></p>
+   <p>Das E-Rezept-FdV MUSS im Anwendungsfall "E-Rezepte empfangen" zum Herunterladen alle E-Rezepte des Nutzers die HTTP-Operation <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /Task</span> mit 
+    <ul>
+     <li>ACCESS_TOKEN im Authorization-Header</li>
+    </ul>ausführen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_233">Für weitere Informationen siehe Operation "Alle E-Rezepte ansehen" aus der API-Schnittstelle [E-Rezept API Dokumentation].</p> 
+  <p id="polarion_111">Falls E-Rezepte auf dem E-Rezept-Fachdienst für den Versicherten abgelegt sind, dann liefert der Response ein Set von <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Task</span> Ressourcen. Für die Spezifikation der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Task</span> Ressource siehe [gemSpec_DM_eRp]. Jeder Task enthält u.a. die folgenden fachlichen Informationen:</p> 
+  <ul id="polarion_112">
+   <li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Task-ID</span> (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Task.id</span>), mit dem der Task bei Aufrufen des E-Rezept-Fachdienstes referenziert wird<br></li>
+   <li>E-Rezept-Bundle mit den Detailinformationen zum E-Rezept</li>
+   <li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">signature</span> mit der durch den E-Rezept-Fachdienst erzeugten FHIR-Signatur des E-Rezept-Bundles</li>
+  </ul> 
+  <p id="polarion_118">Das E-Rezept-FdV prüft die FHIR-Signatur des E-Rezept-Bundles. Hierzu wird das base64-kodierte <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">data</span> Element aus&nbsp; <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">signature</span> dekodiert. Es enthält eine JSON Web Signature mit&nbsp;Information zum Algorithmus, eine Referenz zum Zertifikat und die signierten Daten.&nbsp;</p> 
+  <div id="A_20053" severity="MUSS">
+   <p><b>A_20053 - E-Rezept-FdV: FHIR-Signatur prüfen</b></p>
+   <p>Das E-Rezept-FdV MUSS die FHIR-Signatur des E-Rezept-Bundles aus dem vom E-Rezept-Fachdienst heruntergeladenen E-Rezept gemäß [RFC7515#5.2] prüfen und bei negativer Prüfung die Verarbeitung abbrechen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_126">Der Ablauf der Prüfung erfolgt in den folgenden Schritten:</p> 
+  <ol id="polarion_127">
+   <li><span style="font-size: 10pt;line-height: 1.5;">JSON als String einlesen, Header.Payload.Signatur sind punktgetrennt, ohne Zeilenumbruch</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Header Base64 decodieren</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Header JSON-Syntax prüfen, passen „{„ etc nach JSON-RFC</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Header prüfen, keine Dubletten-Attribute im Header</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Header „Schema“ validieren (Implementierung muss Header-Inhalt verstehen)</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Payload Base64 decodieren</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Signatur Base64 decodieren</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Signaturinput = „ASCII(BASE64URL(UTF8(JWS Protected Header))+'.'+BASE64URL(JWS Payload))“ für Prüfung gemäß Signaturverfahren wie im Header angegeben</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">4-8 ggfs. wiederholen, falls mehrere Signaturen drin sind</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Feststellung gültig/ungültig</span></li>
+  </ol> 
+  <p id="polarion_137"></p> 
+  <div id="A_20594" severity="MUSS">
+   <p><b>A_20594 - E-Rezept-AdV: E-Rezepte einsehen - MedicationDispense herunterladen</b></p>
+   <p>Die E-Rezept-AdV MUSS im Anwendungsfall "E-Rezepte abrufen" die HTTP-Operation&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /MedicationDispense</span>&nbsp; mit 
+    <ul> 
+     <li>ACCESS_TOKEN im Authorization-Header</li> 
+    </ul> ausführen, um die die Dispensierinformation zu E-Rezepten mit dem Status "quittiert" abzufragen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_88">Für weitere Informationen siehe "Abgabeinformationen abrufen" in&nbsp;der API-Schnittstelle [E-Rezept API Dokumentation].</p> 
+  <p id="polarion_89">Falls auf dem E-Rezept-Fachdienst Informationen zur Abgabe durch die abgebende LEI hinterlegt wurden, liefert der Response ein <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">MedicationDispense</span> Ressource. Zur Spezifikation der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">MedicationDispense</span> Ressource siehe [gemSpec_DM_eRp]. Diese beinhaltet u.a. die folgenden fachlichen Informationen zum abgegebenen Arzneimittel:</p> 
+  <ul id="polarion_48">
+   <li><span style="font-size: 10pt;line-height: 1.5;">bei Fertigarzneimitteln: Pharmazentralnummer (sofern vorhanden)</span></li>
+   <li>Beschreibung des Arzneimittels</li>
+  </ul> 
+  <p id="polarion_52">Mittels der Task-ID können die Dispensierinformationen den E-Rezepten zugeordnet werden.</p> 
+  <div id="A_20595" severity="MUSS">
+   <p><b>A_20595 - E-Rezept-AdV: E-Rezepte im Frontend anzeigen</b></p>
+   <p>Die E-Rezept-AdV MUSS dem Nutzer die vom E-Rezept-Fachdienst heruntergeladenen E-Rezepte in geeigneter Weise anzeigen. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20036" severity="MUSS">
+   <p><b>A_20036 - E-Rezept-FdV: Anzeige der Abgabeinformationen</b></p>
+   <p>Das E-Rezept-FdV MUSS dem Nutzer die Abgabeinformationen in geeigneter Weise anzeigen <b>[&lt;=]</b></p>
+  </div> 
+  <h5 id="5.2.1.2">5.2.1.2 E-Rezepte löschen</h5> 
+  <p class="MsoNormal" id="polarion_49">User Stories:</p> 
+  <ul id="polarion_50">
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich nach Authentisierung in der E-Rezept-AdV einzelne Verordnungen löschen können, so dass ich E-Rezepte, die ich nicht benötige, permanent entfernen kann und diese nicht mehr einsehbar sind und ich mein Recht auf informationelle Selbstbestimmung ausüben kann.</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich verstehen können, welche Konsequenzen das Löschen von E-Rezepten hat, so dass ich mir der Tragweite meines Handelns bewusst sein kann.</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich, dass mich die E-Rezept-AdV davor bewahrt, ein E-Rezept aus Versehen zu löschen, so dass ich keine Fehler mache und damit meine Therapie gefährde.</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich Rückmeldung darüber erhalten, wenn die ausgewählten E-Rezepte gelöscht worden sind, so dass ich sicher sein kann, dass die Daten auch wirklich nicht mehr vorliegen.</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich eine Rückmeldung darüber erhalten, wenn das Löschen fehlgeschlagen ist, so dass ich auf anderem Wege eine Löschen einleiten kann.</span></li>
+  </ul> 
+  <p id="polarion_37">Mit diesem Anwendungsfall kann der Nutzer (Versicherter) einzelne ausgewählte oder alle E-Rezepte, die auf dem E-Rezept-Fachdienst gespeichert sind, löschen.</p> 
+  <div id="A_19219" severity="MUSS">
+   <p><b>A_19219 - E-Rezept-FdV: E-Rezepte löschen - E-Rezepte zum Löschen auswählen</b></p>
+   <p>Das E-Rezept-FdV MUSS es dem Nutzer ermöglichen, ein oder mehrere E-Rezepte aus der Übersicht aller E-Rezepte zum Löschen auf dem Fachdienst zu markieren. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19220" severity="MUSS">
+   <p><b>A_19220 - E-Rezept-FdV: E-Rezept löschen - Bestätigung</b></p>
+   <p>Das E-Rezept-FdV MUSS vom Nutzer eine Bestätigung einholen, dass die selektierten E-Rezepte gelöscht werden sollen und die Möglichkeit geben, das Löschen&nbsp;abzubrechen. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20575" severity="MUSS">
+   <p><b>A_20575 - E-Rezept-AdV: E-Rezepte löschen</b></p>
+   <p>Das E-Rezept-AdV MUSS den Anwendungsfall "UC 3.2 - E-Rezept durch Versicherten löschen"&nbsp;aus [gemSysL_eRp]&nbsp;gemäß TAB_AdVERP_008 umsetzen.&nbsp; <p data-keep-next="true" class="polarion-rte-caption-paragraph" id="polarion___3"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">6</span> : TAB_AdVERP_008 – E-Rezepte löschen </p> 
+    <table id="polarion_wiki macro name=table;params=header=no|width=100%|uid=client6" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;"> 
+     <tbody> 
+      <tr> 
+       <td style="width: 115px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Name</td> 
+       <td style="width: 615px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezepte löschen</td> 
+      </tr> 
+      <tr> 
+       <td style="width: 115px;height: 37.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Auslöser</td> 
+       <td style="width: 615px;height: 37.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Aufruf des Anwendungsfalls in der GUI</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="width: 115px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akteur</td> 
+       <td style="width: 615px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Versicherter</td> 
+      </tr> 
+      <tr> 
+       <td style="width: 115px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Vorbedingung</td> 
+       <td style="width: 615px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Der Nutzer hat ein oder mehrere E-Rezepte zum Löschen markiert und das Löschen bestätigt.</li> 
+         <li>Der Nutzer hat sich gegenüber der TI authentisiert.</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="width: 115px;height: 10px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Nachbedingung</td> 
+       <td style="width: 615px;height: 10px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Die ausgewählten E-Rezepte sind vom E-Rezept-Fachdienst unwiederbringlich gelöscht.</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="width: 115px;height: 102.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Standardablauf</td> 
+       <td style="width: 615px;height: 102.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ol> 
+         <li>Für jedes E-Rezept:</li> 
+         <ol> 
+          <li>Task-ID des E-Rezepts bestimmen</li> 
+          <li>E-Rezept löschen</li> 
+         </ol> 
+        </ol> </td> 
+      </tr> 
+     </tbody> 
+    </table> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_20648" severity="MUSS">
+   <p><b>A_20648 - E-Rezept-AdV: E-Rezept löschen - Löschrequest</b></p>
+   <p>Die E-Rezept-AdV MUSS im Anwendungsfall "E-Rezepte löschen" für jedes zu löschende E-Rezept die HTTP-Operation&nbsp;<span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">POST /Task/&lt;id&gt;/$abort</span>&nbsp;des E-Rezept-Fachdienstes mit 
+    <ul> 
+     <li>ACCESS_TOKEN im Authorization-Header</li> 
+     <li>Task-ID in URL <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&lt;id&gt;</span></li> 
+    </ul> <span style="font-family: Arial, Helvetica;">ausführen</span> <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_45">Für weitere Informationen siehe Operation "Ein E-Rezept löschen" aus der API-Schnittstelle [E-Rezept API Dokumentation].</p> 
+  <h5 id="5.2.1.3">5.2.1.3 Protokolldaten anzeigen</h5> 
+  <p class="MsoNormal" id="polarion_75">User Stories:</p> 
+  <ul id="polarion_77">
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich nach Authentisierung im E-Rezept-AdV die Zugriffsprotokolle einzelner oder aller Verordnungen einsehen können, um nachzuvollziehen wer darauf zugegriffen hat</span></li>
+   <li><span style="font-size: 10pt;line-height: 1.5;">Als Patient möchte ich, dass mein Protokoll so dargestellt wird, dass ich mit den Informationen auch was anfangen kann, so dass die Protokolleinträge für mich nicht nutzlos oder sogar verwirrend sind.</span> <span style="font-size: 12pt;line-height: 1.5;"></span></li>
+  </ul> 
+  <p id="polarion_183">Mit diesem Anwendungsfall kann der Nutzer (Versicherter) Einsicht in alle protokollierten Zugriffe in Verbindung mit seinen E-Rezepten nehmen.</p> 
+  <div id="A_19209" severity="MUSS">
+   <p><b>A_19209 - E-Rezept-FdV: Protokolldaten anzeigen</b></p>
+   <p>Das E-Rezept-FdV MUSS den Anwendungsfall "UC 3.5 - Protokolldaten abrufen"&nbsp;aus [gemSysL_eRp] gemäß TAB_FdVERP_014 umsetzen. <p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;" id="polarion___4"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">7</span> : TAB_FdVERP_014 – Protokolldaten anzeigen </p> 
+    <table id="polarion_wiki macro name=table;params=header=no|width=100%|uid=380" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 173px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Name</td> 
+       <td style="text-align: left;vertical-align: top;width: 558px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Protokolldaten anzeigen</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 173px;height: 14px;border: 1px solid #CCCCCC;padding: 5px;">Auslöser</td> 
+       <td style="text-align: left;vertical-align: top;width: 558px;height: 14px;border: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Aufruf des Anwendungsfalls in der GUI</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 173px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Akteur</td> 
+       <td style="text-align: left;vertical-align: top;width: 558px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Versicherter</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 173px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Vorbedingung</td> 
+       <td style="text-align: left;vertical-align: top;width: 558px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Der Nutzer ist gegenüber der TI authentifiziert.</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 173px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Nachbedingung</td> 
+       <td style="text-align: left;vertical-align: top;width: 558px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Die Protokolldaten werden angezeigt</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 173px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Standardablauf</td> 
+       <td style="text-align: left;vertical-align: top;width: 558px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;"> 
+        <ol> 
+         <li>Protokolleinträge vom E-Rezept-Fachdienst abrufen</li> 
+         <li>Protokolleinträge anzeigen</li> 
+        </ol> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 173px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Varianten / Alternativen</td> 
+       <td style="text-align: left;vertical-align: top;width: 558px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Als Alternative zur Abfrage aller Protokolleinträge können die Protokolleinträge zu einer spezifischen Task-ID abgefragt werden.</td> 
+      </tr> 
+     </tbody> 
+    </table> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19210" severity="MUSS">
+   <p><b>A_19210 - E-Rezept-FdV: Protokolldaten anzeigen - Protokolleinträge abrufen</b></p>
+   <p>Das E-Rezept-FdV MUSS im Anwendungsfall "Protokolldaten anzeigen" zum Abrufen der Protokolleinträge vom E-Rezept-Fachdienst die HTTP-Operation <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /AuditEvent</span> mit&nbsp;<br> 
+    <ul> 
+     <li>ACCESS_TOKEN im Authorization-Header</li> 
+    </ul> ausführen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_199">Für weitere Informationen siehe "Eingriff in das Zugriffsprotokoll" in&nbsp;der API-Schnittstelle [E-Rezept API Dokumentation].</p> 
+  <p id="polarion_215">Der Response beinhaltet ein Bundle mit einem <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">searchset</span> von <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AuditEvent</span> Ressourcen. Eine <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AuditEvent</span> Ressource beinhaltet die folgenden Informationen (Siehe auch [<span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_DM_eRp?selection=ML-119667" data-custom-label="gemSpec_DM_eRp#A_19296-* - E-Rezept-Fachdienst - Inhalt Protokolleintrag" id="fake" data-type="polarion" class="polarion-rte-link"></span>&nbsp;]):</p> 
+  <ul id="polarion_216">
+   <li>ID des Datenobjektes, auf das zugegriffen wurde (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AuditEvent.entity.what</span>) Das entspricht der Task-ID oder MedicationDispense-ID</li>
+   <li>lesbarer Beschreibung in einfacher Sprache (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AuditEvent.text</span>)</li>
+   <li>Name des Zugreifenden (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AuditEvent.agent.who</span>)</li>
+   <li>Zeitpunkt des Zugriffs (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AuditEvent.recorded</span>)</li>
+   <li>Ergebnis der aufgerufenen Operation (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AuditEvent.outcome</span>)</li>
+  </ul> 
+  <div id="A_19211" severity="MUSS">
+   <p><b>A_19211 - E-Rezept-FdV: Protokolldaten anzeigen - Anzeigen</b></p>
+   <p>Das E-Rezept-FdV MUSS eine Anzeige für die Protokolldaten umsetzten, in der die Protokolleinträge übersichtlich dargestellt werden. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_102">Die E-Rezept-AdV kann es dem Nutzer über einen Link in der Anzeige ermöglichen, die Details zum&nbsp;referenzierten E-Rezept anzuzeigen.</p> 
+  <p id="polarion_220">Die Protokolldaten sollen für den Nutzer sortierbar und filterbar über die Angabe von Filterkriterien wie z.B. Zeitraum, dargestellt werden.</p> 
+  <div id="A_19479" severity="MUSS">
+   <p><b>A_19479 - E-Rezept-FdV: Filterfunktion</b></p>
+   <p>Das E-Rezept-FdV MUSS es dem Nutzer ermöglichen, die Suchergebnisse nach festgelegten Kriterien zu filtern.&nbsp; <b>[&lt;=]</b></p>
+  </div> 
+  <h5 id="5.2.1.4">5.2.1.4 Nachrichten empfangen</h5> 
+  <p class="MsoNormal" id="polarion_85">User Stories:</p> 
+  <p class="MsoListParagraph" style="margin-left: 36pt;" id="polarion_95"><span style="font-family: Symbol, 'Symbol Regular';">·<span style="font-weight: normal;font-style: normal;font-size: 8pt;font-family: 'Times New Roman', Times;line-height: 1.5;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span> Als Versicherter möchte ich, dass ich Nachrichten von meiner Apotheke empfangen kann.</p> 
+  <p class="MsoNormal" id="polarion_108">Mit diesem Anwendungsfall kann der Nutzer (Versicherter) Nachrichten von der Apotheke oder anderen Versicherten empfangen und anzeigen lassen.</p> 
+  <div id="A_21527" severity="MUSS">
+   <p><b>A_21527 - E-Rezept-AdV: Nachrichten empfangen</b></p>
+   <p>Die E-Rezept-AdV MUSS den Anwendungsfall "UC 3.4 - Nachrichten durch Versicherten empfangen"&nbsp;aus [gemSysL_eRp] gemäß TAB_AdVERP_010 umsetzen.<br> <p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;" id="polarion___5"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">8</span> : TAB_AdVERP_010 - Nachrichten empfangen </p> 
+    <table id="polarion_wiki macro name=table;params=header=no|width=100%|uid=2" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 174px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> Name<br> </span></td> 
+       <td style="text-align: left;vertical-align: top;width: 557px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> Nachrichten empfangen<br> </span></td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 174px;height: 39.0909px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Auslöser</td> 
+       <td style="text-align: left;vertical-align: top;width: 557px;height: 39.0909px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Aufruf des Anwendungsfalls in der GUI</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 174px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> Akteur<br> </span></td> 
+       <td style="text-align: left;vertical-align: top;width: 557px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Versicherter<br> </span></td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 174px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> Vorbedingung<br> </span></td> 
+       <td style="text-align: left;vertical-align: top;width: 557px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> Der Nutzer ist gegenüber der TI authentifiziert.<br> </span></td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 174px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> Nachbedingung<br> </span></td> 
+       <td style="text-align: left;vertical-align: top;width: 557px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Die Nachrichten stehen zur Anzeige bereit.<br> </span></td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 174px;height: 26px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> Standardablauf<br> </span></td> 
+       <td style="text-align: left;vertical-align: top;width: 557px;height: 26px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> </span> 
+        <ol> 
+         <li><span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;">Nachrichten herunterladen</span></li> 
+        </ol> <span style="font-size: 10pt;font-family: Arial, Helvetica;line-height: 1.5;"> </span></td> 
+      </tr> 
+     </tbody> 
+    </table> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_19205" severity="MUSS">
+   <p><b>A_19205 - E-Rezept-FdV: Nachrichten anzeigen - Nachrichten herunterladen</b></p>
+   <p>Das E-Rezept-FdV MUSS im Anwendungsfall "Nachrichten von Apotheken anzeigen" zum Herunterladen von Nachrichten vom E-Rezept-Fachdienst die HTTP-Operation <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /Communication</span>&nbsp; mit <br> 
+    <ul> 
+     <li>ACCESS_TOKEN im Authorization-Header</li> 
+     <li>optional: <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">?received=null</span> für nur ungelesene Nachrichten</li> 
+     <li>optional: <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">?<span style="font-size: 10pt;line-height: 1.5;">r</span></span><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">eceived=gtYYYY-MM-DD_sort=sent</span> für Nachrichten jünger als&nbsp;</span>Datum DD.MM.YYY</li> 
+    </ul> ausführen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_66">Für weitere Informationen siehe "Anwendungsfall Alle Nachrichten vom E-Rezept-Fachdienst abrufen" und "Anwendungsfall Auf neue Nachrichten im E-Rezept-Fachdienst prüfen" in&nbsp;der API-Schnittstelle [E-Rezept API Dokumentation].</p> 
+  <p id="polarion_97">Der Response liefert ein Bundle mit <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Communication</span> Ressourcen.</p> 
+  <p id="polarion_98">Eine <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Communication</span> Ressource beinhaltet u.a. die fachlichen Informationen:</p> 
+  <ul id="polarion_114">
+   <li>Absender-ID (Telematik-ID der Apotheke)</li>
+   <li>Mitteilung<br> Für die strukturierten Informationen in der Mitteilung siehe [gemILF_PS_eRp]</li>
+  </ul> 
+  <div id="A_19208" severity="MUSS">
+   <p><b>A_19208 - E-Rezept-FdV: Nachrichten anzeigen - Anzeigen</b></p>
+   <p>Das E-Rezept-FdV MUSS die vom E-Rezept-Fachdienst heruntergeladenen Nachrichten in geeigneter Weise anzeigen. <b>[&lt;=]</b></p>
+  </div> 
+  <h5 id="5.2.1.5">5.2.1.5 Nachrichten löschen</h5> 
+  <p id="polarion_120">User Stories:</p> 
+  <ul id="polarion_113">
+   <li>Als Versicherter möchte ich auf dem Fachdienst gespeicherte Nachrichten löschen können.</li>
+  </ul> 
+  <p id="polarion_63">Mit diesem Anwendungsfall kann der Nutzer von ihm zuvor versandte Nachrichten auf dem E-Rezept-Fachdienst löschen.</p> 
+  <div id="A_21523" severity="MUSS">
+   <p><b>A_21523 - E-Rezept-FdV: Nachrichten löschen - Nachrichten zum Löschen auswählen</b></p>
+   <p>Das E-Rezept-FdV MUSS es dem Nutzer ermöglichen, ein oder mehrere Nachrichten zum Löschen auf dem E-Rezept-Fachdienst zu markieren. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21524" severity="MUSS">
+   <p><b>A_21524 - E-Rezept-FdV: Nachrichten löschen - Bestätigung</b></p>
+   <p>Das E-Rezept-FdV MUSS vom Nutzer eine Bestätigung einholen, dass die selektierten Nachrichten gelöscht werden sollen und die Möglichkeit geben, das Löschen&nbsp;abzubrechen. <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21525" severity="MUSS">
+   <p><b>A_21525 - E-Rezept-FdV: Nachrichten löschen</b></p>
+   <p>Das E-Rezept-FdV MUSS den Anwendungsfall "UC 3.8 - Nachricht durch Versicherten löschen"&nbsp;aus [gemSysL_eRp] gemäß TAB_FdVERP_018 umsetzen. <p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;" id="polarion___6"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">9</span> : TAB_FdVERP_018 – Nachrichten löschen </p> 
+    <table id="polarion_wiki macro name=table;params=header=no|width=100%|uid=189" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
+     <tbody> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 175px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Name</td> 
+       <td style="text-align: left;vertical-align: top;width: 556px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Nachrichten löschen</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 175px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Auslöser</td> 
+       <td style="text-align: left;vertical-align: top;width: 556px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Aufruf des Anwendungsfalls in der GUI</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 175px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akteur</td> 
+       <td style="text-align: left;vertical-align: top;width: 556px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Versicherter</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 175px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Vorbedingung</td> 
+       <td style="text-align: left;vertical-align: top;width: 556px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul> 
+         <li>Der Nutzer hat ein oder mehrere Nachrichten zum Löschen markiert und das Löschen bestätigt.</li> 
+         <li>Der Nutzer ist gegenüber der TI authentifiziert.</li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 175px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Nachbedingung</td> 
+       <td style="text-align: left;vertical-align: top;width: 556px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Die Nachrichten sind im E-Rezept-Fachdienst unwiederbringlich gelöscht.</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;vertical-align: top;width: 175px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Standardablauf</td> 
+       <td style="text-align: left;vertical-align: top;width: 556px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ol> 
+         <li>Für jede Nachricht:<br> </li> 
+         <ol> 
+          <li>Communication-ID der Nachricht bestimmen<br> </li> 
+          <li>Nachricht löschen<br> </li> 
+         </ol> 
+        </ol> </td> 
+      </tr> 
+     </tbody> 
+    </table> <b>[&lt;=]</b></p>
+  </div> 
+  <div id="A_21526" severity="MUSS">
+   <p><b>A_21526 - E-Rezept-FdV: Nachrichten löschen - Löschrequest</b></p>
+   <p>Das E-Rezept-FdV MUSS im Anwendungsfall "Nachrichten löschen" für jede zu löschende Nachricht die HTTP-Operation <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">DELETE /Communication/&lt;id&gt;</span>&nbsp;des E-Rezept-Fachdienstes mit 
+    <ul> 
+     <li>ACCESS_TOKEN im Authorization-Header</li> 
+     <li>Communication-ID in URL <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&lt;id&gt;</span></li> 
+    </ul> ausführen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_91">Wenn die Nachricht bereits vom Empfänger abgerufen wurde, dann wird im Response des E-Rezept-Fachdienstes im HTTP-Header eine Warnung mit dem Zeitpunkt des Abrufes übermittelt.</p> 
+  <h4 id="5.2.2">5.2.2 Fehlerbehandlung</h4> 
+  <p id="polarion_157">Tritt ein Fehler bei der Verarbeitung von Operationsaufrufen des E-Rezept-Fachdienstes auf, dann antwortet der E-Rezept-Fachdienst mit einer Fehlermeldung. Das Format und die verwendeten Fehlercodes sind in den Spezifikationen der Interfaces beschrieben. Weiterhin können Fehler in der lokalen Verarbeitung auftreten.</p> 
+  <div id="A_19560" severity="MUSS">
+   <p><b>A_19560 - E-Rezept-FdV: Abbrechen des Anwendungsfalls</b></p>
+   <p>Das E-Rezept-FdV MUSS, wenn bei der Abarbeitung der Aktivitäten eines Anwendungsfalls ein Fehler auftritt und keine Fehlerbehandlung beschrieben ist, den Anwendungsfall abbrechen. <b>[&lt;=]</b></p>
+  </div> 
+  <p id="polarion_107">Die E-Rezept-AdV soll dem Nutzer nach einem Abbruch eine verständliche Fehlermeldung anzeigen.</p> 
+  <p id="polarion_109">Wenn die Möglichkeit besteht, dass der Nutzer das fehlerverursachende Problem selbst beheben kann, kann die E-Rezept-AdV den Nutzer auf die Lösung hinweisen.</p> 
+  <div id="A_19561" severity="SOLL">
+   <p><b>A_19561 - E-Rezept-FdV: Anzeige von Handlungsmöglichkeiten im Fehlerfall</b></p>
+   <p>Das E-Rezept-FdV SOLL dem Nutzer im Fehlerfall einen Hinweis geben, wenn es für den Nutzer Handlungsmöglichkeiten dazu gibt. <b>[&lt;=]</b></p>
+  </div> 
+  <h2 id="6">6 Informationsmodell</h2> 
+  <p id="polarion_161">Dienste der TI:</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=1">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 266px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Datenfeld</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 229px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Herkunft</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 225px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Beschreibung</span></th>
+    </tr>
+    <tr>
+     <td style="width: 266px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Fachdienst - E-Rezept-Schnittstelle FQDN, Port</td>
+     <td style="width: 229px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">DNS-Abfrage</td>
+     <td style="width: 225px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Lokalisierungsinformationen</td>
+    </tr>
+    <tr>
+     <td style="width: 266px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Fachdienst -&nbsp;OCSP-Status-Proxy FQDN, Port</td>
+     <td style="width: 229px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">DNS-Abfrage</td>
+     <td style="width: 225px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Lokalisierungsinformationen</td>
+    </tr>
+    <tr>
+     <td style="width: 266px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Identity Provider: FQDN, Port, Path</td>
+     <td style="width: 229px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">DNS-Abfrage</td>
+     <td style="width: 225px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Lokalisierungsinformationen</td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_39"></p> 
+  <p id="polarion_93">Session-Daten (TI-Session)&nbsp;</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=94">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 178px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Datenfeld</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 320px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Herkunft</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 222px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Beschreibung</span></th>
+    </tr>
+    <tr>
+     <td style="width: 178px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;">ACCESS_TOKEN</td>
+     <td style="width: 320px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;">IDP<br> Token-Endpunkt</td>
+     <td style="width: 222px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;">Authentisierungs-Token für den Zugriff auf Dienste der TI</td>
+    </tr>
+    <tr>
+     <td style="width: 178px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">ACCESS_CODE</td>
+     <td style="width: 320px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">IDP</td>
+     <td style="width: 222px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_99"></p> 
+  <p id="polarion_29">E-Rezept:</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=100">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Datenfeld</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Herkunft</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Beschreibung</span></th>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept-ID</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Task.identifier</span> mit&nbsp;NamingSystem "PrescriptionID"</span><br> E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /Task</span>)</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/gemerxprescriptionid">https://simplifier.net/erezept-workflow/gemerxprescriptionid</a>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task-ID</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /Task</span>)<br> alternativ: E-Rezept-Token (2D-Code scannen)</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/gemerxprescriptionid">https://simplifier.net/erezept-workflow/gemerxprescriptionid</a>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Einlösedatum</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">acceptDate</span><br> E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /Task</span>)</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Datum, bis wann das E-Rezept zur Erstattung durch die Krankenkasse einlösbar ist<br> <a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/acceptdate">https://simplifier.net/erezept-workflow/acceptdate</a>&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Gültig bis</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">expiryDate</span><br> E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /Task</span>)</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Datum, an dem das E-Rezept seine Gültigkeit verliert<br> <a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/expirydate">https://simplifier.net/erezept-workflow/expirydate</a>&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Bundle</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /Task</span>)</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept/kbvprerpbundle">https://simplifier.net/erezept/kbvprerpbundle</a>&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">FHIR signature</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">signature</span><br> E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /Task</span>)</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">durch den E-Rezept-Fachdienst erstellte FHIR-Signatur des E-Rezept-Bundles</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">MedicationDispense</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /MedicationDispense</span>)</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/gemerxmedicationdispense">https://simplifier.net/erezept-workflow/gemerxmedicationdispense</a>&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Protokolleinträge</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Fachdienst (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">GET /AuditEvent</span>)</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/gemerxauditevent">https://simplifier.net/erezept-workflow/gemerxauditevent</a>&nbsp;</td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_129">Weitere detaillierte Daten zum Informationsmodell der Verordnung sind im Datenmodell der KBV <a class="descriptionLink" target="_top" href="https://simplifier.net/erezept/kbvprerpbundle">https://simplifier.net/erezept/kbvprerpbundle</a>&nbsp;enthalten. Siehe [gemSpec_DM_eRp].</p> 
+  <p id="polarion_133"></p> 
+  <p id="polarion_19">MedicationDispense&nbsp;</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=20">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Datenfeld</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Herkunft</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Beschreibung</span></th>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">PZN&nbsp;</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;" rowspan="4" colspan="1">Medikamentinformationen</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;" rowspan="4" colspan="1"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept/kbvprerpmedikamentpzn">https://simplifier.net/erezept/kbvprerpmedikamentpzn</a>&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beschreibung</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Darreichungsform</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Menge</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">LEI, welche das Mittel abgegeben hat</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">&nbsp;performer</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/gemerxorganization">https://simplifier.net/erezept-workflow/gemerxorganization</a>&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ID des zugehörigen Task</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">supportingInformation</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/gemerxtask">https://simplifier.net/erezept-workflow/gemerxtask</a>&nbsp;</td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_31"></p> 
+  <p id="polarion_138">Protokolleintrag:</p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=139">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Datenfeld</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Herkunft</span></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Beschreibung</span></th>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ID des Datenobjektes, auf das zugegriffen wurde</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AuditEvent.entity</td>
+     <td style="width: 177.2px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;" rowspan="6" colspan="1"><a class="descriptionLink" target="_top" href="https://simplifier.net/erezept-workflow/gemerxauditevent">https://simplifier.net/erezept-workflow/gemerxauditevent</a>&nbsp;</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Rezept-ID</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">AuditEvent.entity.description</span></td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">lesbarer Beschreibung in einfacher Sprache</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AuditEvent.text</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Name des Zugreifenden</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AuditEvent.agent.name</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Zeitpunkt des Zugriffs</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AuditEvent.recorded</td>
+    </tr>
+    <tr>
+     <td style="width: 146.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ergebnis der aufgerufenen Operation</td>
+     <td style="width: 246px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AuditEvent.outcome</td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_143"></p> 
+  <h2 id="7">7 Verteilungssicht</h2> 
+  <p id="polarion_170"><span style="font-style: normal;font-size: 10pt;font-family: Arial, Helvetica, sans-serif;color: #000000;line-height: 1.5;">Eine Darstellung der hardwareseitigen Verteilung des Produkttyps bzw. seiner Teilsysteme und der Einbettung in die physikalische Umgebung wird nicht benötigt.</span></p> 
+  <h2 id="8">8 Anhang A – Verzeichnisse</h2> 
+  <h3 id="8.1">8.1 Abkürzungen</h3> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=8">
+   <tbody>
+    <tr>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 94px;height: 19.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Kürzel</span><br></th>
+     <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 486.8px;height: 19.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;">Erläuterung</span><br></th>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AdV</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Anwendung des Versicherten</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">CAN</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Card Access Number</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">DF.HCA</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Gesundheitsanwendung, Health Care Application</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">eGK</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">elektronische Gesundheitskarte</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">eRp</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept (elektronisches Rezept)</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">FdV</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Frontend des Versicherten</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GdV</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Gerät des Versicherten</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">GUI</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">graphical user interface, Benutzeroberfläche</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">IDP</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Identity Provider</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">MRPIN.home</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Multireferenz-PIN<br> Das Geheimnis entspricht der Personal Identification Number Card Holder (PIN des Karteneigentümers)</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">NFC</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Near Field Communication</td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">UX</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">User <span style="font-size: 10pt;line-height: 1.5;">Experience</span></td>
+    </tr>
+    <tr>
+     <td style="width: 94px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">VAU</td>
+     <td style="width: 486.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Vertrauenswürdige Ausführungsumgebung</td>
+    </tr>
+   </tbody>
+  </table> 
+  <h3 id="8.2">8.2 Glossar</h3> 
+  <p id="polarion_36"></p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=2">
+   <tbody>
+    <tr>
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 195px;height: 19.6px;border: 1px solid #CCCCCC;padding: 5px;">Begriff<br></th>
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 536px;height: 19.6px;border: 1px solid #CCCCCC;padding: 5px;">Erläuterung<br></th>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 195px;height: 47px;border: 1px solid #CCCCCC;padding: 5px;">Funktionsmerkmal</td>
+     <td style="text-align: left;vertical-align: top;width: 536px;height: 47px;border: 1px solid #CCCCCC;padding: 5px;">Der Begriff beschreibt eine Funktion oder auch einzelne, eine logische Einheit bildende Teilfunktionen der TI im Rahmen der funktionalen Zerlegung des Systems.</td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_181">Das Glossar wird als eigenständiges Dokument (vgl. [gemGlossar]) zur Verfügung gestellt.</p> 
+  <h3 id="8.3">8.3 Abbildungsverzeichnis</h3> 
+  <div id="polarion_wiki macro name=tof;params=uid=1" data-sequence="Abbildung"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <ul>
+    <li><a href="#polarion_32">Abbildung 1 : Systemüberblick E-Rezept-AdV</a></li>
+   </ul>
+  </div> 
+  <h3 id="8.4">8.4 Tabellenverzeichnis</h3> 
+  <div id="polarion_wiki macro name=tof;params=uid=2" data-sequence="Tabelle"></div>
+  <div id="toc_container">
+   <p class="toc_title"><h1></h1></p>
+   <ul>
+    <li><a href="#polarion_69">Tabelle 1 : TAB_AdVERP_001 – Akteure und Rollen</a></li>
+    <li><a href="#polarion___1">Tabelle 2 : TAB_AdVERP_002 – Konfiguration E-Rezept-AdV</a></li>
+    <li><a href="#polarion_122">Tabelle 3 : TAB_FdVERP_019 -&nbsp;HTTP-Header "X-erp-resource"</a></li>
+    <li><a href="#polarion_257">Tabelle 4 : TAB_FdVERP_017 – Zertifikatsnutzung</a></li>
+    <li><a href="#polarion___2">Tabelle 5:&nbsp;TAB_AdVERP_009 - E-Rezepte abrufen</a></li>
+    <li><a href="#polarion___3">Tabelle 6 : TAB_AdVERP_008 – E-Rezepte löschen</a></li>
+    <li><a href="#polarion___4">Tabelle 7 : TAB_FdVERP_014 – Protokolldaten anzeigen</a></li>
+    <li><a href="#polarion___5">Tabelle 8 : TAB_AdVERP_010 - Nachrichten empfangen</a></li>
+    <li><a href="#polarion___6">Tabelle 9 : TAB_FdVERP_018 – Nachrichten löschen</a></li>
+   </ul>
+  </div> 
+  <h3 id="8.5">8.5 Referenzierte Dokumente</h3> 
+  <h4 id="8.5.1">8.5.1 Dokumente der gematik</h4> 
+  <p id="polarion_186">Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Der mit der vorliegenden Version korrelierende Entwicklungsstand dieser Konzepte und Spezifikationen wird pro Release in einer Dokumentenlandkarte definiert; Version und Stand der referenzierten Dokumente sind daher in der nachfolgenden Tabelle nicht aufgeführt. Deren zu diesem Dokument jeweils gültige Versionsnummern sind in der aktuellen, von der gematik veröffentlichten Dokumentenlandkarte enthalten, in der die vorliegende Version aufgeführt wird.</p> 
+  <p id="polarion_187"></p> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=4">
+   <tbody>
+    <tr>
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[Quelle]<br></th>
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Herausgeber: Titel<br></th>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 6px;border: 1px solid #CCCCCC;padding: 5px;">[gemGlossar]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 6px;border: 1px solid #CCCCCC;padding: 5px;">gematik: Einführung der Gesundheitskarte – Glossar</td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 15px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_DS_Hersteller]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 15px;border: 1px solid #CCCCCC;padding: 5px;">gematik:&nbsp;Spezifikation Datenschutz- und Sicherheitsanforderungen der TI an Hersteller</td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_eRp_FdV]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik: Spezifikation E-Rezept-Frontend des Versicherten</td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_FD_eRP]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik: Spezifikation E-Rezept-Fachdienst</td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_IDP_Dienst]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik: Spezifikation&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Identity Provider - Dienst</span></td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_IDP_FD]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik: Spezifikation&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Identity Provider – Nutzungsspezifikation&nbsp; für Fachdienste</span></td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_IDP_Frontend]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik: Spezifikation&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Identity Provider - Frontend</span></td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_Krypt]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik:&nbsp;Übergreifende Spezifikation – Verwendung kryptographischer Algorithmen in der Telematikinfrastruktur</td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_OM]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematic:&nbsp;Übergreifende Spezifikation – Operations und Maintenance</td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 156px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[gemSpec_PKI]</td>
+     <td style="text-align: left;vertical-align: top;width: 575px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">gematik: Übergreifende Spezifikation – Spezifikation PKI</td>
+    </tr>
+   </tbody>
+  </table> 
+  <h4 id="8.5.2">8.5.2 Weitere Dokumente</h4> 
+  <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=5">
+   <tbody>
+    <tr>
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 148px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">[Quelle]<br></th>
+     <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 599px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;">Herausgeber (Erscheinungsdatum): Titel<br></th>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 148px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+     <td style="text-align: left;vertical-align: top;width: 599px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+    </tr>
+    <tr>
+     <td style="text-align: left;vertical-align: top;width: 148px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+     <td style="text-align: left;vertical-align: top;width: 599px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"></td>
+    </tr>
+   </tbody>
+  </table> 
+  <p id="polarion_30"></p> 
+  <p id="polarion_196"></p> 
+ </body>
+</html>

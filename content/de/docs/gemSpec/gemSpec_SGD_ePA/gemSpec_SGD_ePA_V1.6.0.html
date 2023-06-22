@@ -72,7 +72,7 @@ ol:first-of-type {
      </tr>
      <tr>
       <td>Revision</td>
-      <td>612077</td>
+      <td>654368</td>
      </tr>
      <tr>
       <td>Stand</td>
@@ -93,7 +93,7 @@ ol:first-of-type {
     </table></pre>
   </div>
   <p id="polarion_16"><br></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=konnektorPTV5PlusMaintenance-9748">Dokumentinformationen</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=Release_ePA_2_6_0-2-1434">Dokumentinformationen</h1>
   <p id="polarion_21"><span style="font-weight: bold;">Änderungen zur Vorversion</span></p>
   <p id="polarion_22">Anpassungen des vorliegenden Dokumentes im Vergleich zur Vorversion können Sie der nachfolgenden Tabelle entnehmen.</p>
   <p id="polarion_23"><span style="font-style: italic;color: #0000FF;">&nbsp;</span></p>
@@ -180,77 +180,280 @@ ol:first-of-type {
    </tbody>
   </table>
   <p id="polarion_26"></p>
-  <h1 id="polarion_wiki macro name=module-workitem;params=id=konnektorPTV5PlusMaintenance-9749">Inhaltsverzeichnis</h1>
+  <h1 id="polarion_wiki macro name=module-workitem;params=id=Release_ePA_2_6_0-2-1435">Inhaltsverzeichnis</h1>
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=konnektorPTV5PlusMaintenance-9748">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=konnektorPTV5PlusMaintenance-9749">Inhaltsverzeichnis</a></li>
-   <li> : <a href="#1">1 Einordnung des Dokuments</a></li>
-   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
-   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
-   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
-   <li> : : <a href="#1.4">1.4 Abgrenzungen</a></li>
-   <li> : : <a href="#1.5">1.5 Methodik</a></li>
-   <li> : <a href="#2">2 Überblick</a></li>
-   <li> : : <a href="#2.1">2.1 Grundlage und Kernidee</a></li>
-   <li> : : <a href="#2.2">2.2 Akteure und Komponenten</a></li>
-   <li> : : <a href="#2.3">2.3 Basisablauf Kommunikation SGD-Client und SGD</a></li>
-   <li> : : <a href="#2.4">2.4 Initiale Schlüsselableitung für den Kontoinhaber</a></li>
-   <li> : : <a href="#2.5">2.5 Schlüsselableitung durch den Kontoinhaber</a></li>
-   <li> : : <a href="#2.6">2.6 Schlüsselableitung für einen Berechtigungsempfänger</a></li>
-   <li> : : <a href="#2.7">2.7 Schlüsselableitung durch einen Berechtigten</a></li>
-   <li> : : <a href="#2.8">2.8 Schlüsselableitung für einen Berechtigungsempfänger durch einen Vertreter</a></li>
-   <li> : : <a href="#2.9">2.9 Schlüsselableitung für einen durch einen Vertreter berechtigten Berechtigten</a></li>
-   <li> : : <a href="#2.10">2.10 Nichtspeicherung von Versichertendaten</a></li>
-   <li> : : <a href="#2.11">2.11 Besondere Rolle SGD-HSM</a></li>
-   <li> : <a href="#3">3 Übergreifende Festlegungen</a></li>
-   <li> : : <a href="#3.1">3.1 Beziehung zwischen ePA-Aktensystem und SGD</a></li>
-   <li> : : <a href="#3.2">3.2 Verfügbarkeit und Performanz</a></li>
-   <li> : : <a href="#3.3">3.3 Sichere Betreiberumgebung</a></li>
-   <li> : : <a href="#3.4">3.4 Verschiedenes</a></li>
-   <li> : <a href="#4">4 Bestandteile eines SGD</a></li>
-   <li> : : <a href="#4.1">4.1 Request-Verarbeitung in einem SGD</a></li>
-   <li> : : : <a href="#4.1.1">4.1.1 Routing auf die SGD-HSM</a></li>
-   <li> : : <a href="#4.2">4.2 SGD-HSM</a></li>
-   <li> : : <a href="#4.3">4.3 Schlüssel im SGD-HSM</a></li>
-   <li> : : <a href="#4.4">4.4 Pflege der Prüfschlüssel (S2) im SGD-HSM</a></li>
-   <li> : : : <a href="#4.4.1">4.4.1 Zuordnung von OCSP-Responder-Zertifikaten zu CA-Zertifikaten (informativ)</a></li>
-   <li> : : <a href="#4.5">4.5 Funktionsablauf Firmware-Modul SGD-HSM</a></li>
-   <li> : : : <a href="#4.5.1">4.5.1 Zertifikats- und Schlüsselprüfung im SGD-HSM</a></li>
-   <li> : : : <a href="#4.5.2">4.5.2 Authentisierungstoken im SGD-HSM</a></li>
-   <li> : : : <a href="#4.5.3">4.5.3 Schlüsselableitung im SGD-HSM</a></li>
-   <li> : : : <a href="#4.5.4">4.5.4 Kommando-Abarbeitung KeyDerivation im SGD-HSM</a></li>
-   <li> : : : <a href="#4.5.5">4.5.5 Betriebsunterstützende Leistungen im SGD-HSM</a></li>
-   <li> : : <a href="#4.6">4.6 Betriebsunterstützende Leistungen allgemein</a></li>
-   <li> : <a href="#5">5 Kodierung von Schlüsseln und Nachrichten</a></li>
-   <li> : : <a href="#5.1">5.1 Kodierung von Schlüsseln</a></li>
-   <li> : : : <a href="#5.1.1">5.1.1 ECIES-Schlüssel eines SGD-HSM</a></li>
-   <li> : : : <a href="#5.1.2">5.1.2 ECIES-Schlüssel eines Clients</a></li>
-   <li> : : <a href="#5.2">5.2 Kodierung von Chiffraten</a></li>
-   <li> : <a href="#6">6 Schnittstellen und Operationen</a></li>
-   <li> : : <a href="#6.1">6.1 Innenschnittstellen</a></li>
-   <li> : : <a href="#6.2">6.2 HTTPS-Schnittstellen und HTTP-Kommunikation</a></li>
-   <li> : : <a href="#6.3">6.3 Anforderungen an die JSON-Requests und -Responses</a></li>
-   <li> : : <a href="#6.4">6.4 Operation GetPublicKey</a></li>
-   <li> : : <a href="#6.5">6.5 Operation GetAuthenticationToken</a></li>
-   <li> : : <a href="#6.6">6.6 Operation KeyDerivation</a></li>
-   <li> : : <a href="#6.7">6.7 Fehlermeldungen</a></li>
-   <li> : : : <a href="#6.7.1">6.7.1 Fehlermeldungen und HTTP-Status-Code (informativ)</a></li>
-   <li> : <a href="#7">7 Clientspezifische Festlegungen</a></li>
-   <li> : : <a href="#7.1">7.1 Mehrfachableitung</a></li>
-   <li> : <a href="#8">8 Interoperables Austauschformat</a></li>
-   <li> : <a href="#9">9 Datenkanal zwischen Client und SGD (informativ)</a></li>
-   <li> : : <a href="#9.1">9.1 Ablauf Kommunikation zwischen Client und SGD-HSM</a></li>
-   <li> : : <a href="#9.2">9.2 ECIES-Verfahren</a></li>
-   <li> : <a href="#10">10 Anhang – Verzeichnisse</a></li>
-   <li> : : <a href="#10.1">10.1 Abkürzungen</a></li>
-   <li> : : <a href="#10.2">10.2 Glossar</a></li>
-   <li> : : <a href="#10.3">10.3 Abbildungsverzeichnis</a></li>
-   <li> : : <a href="#10.4">10.4 Tabellenverzeichnis</a></li>
-   <li> : : <a href="#10.5">10.5 Referenzierte Dokumente</a></li>
-   <li> : : : <a href="#10.5.1">10.5.1 – Dokumente der gematik</a></li>
-   <li> : : : <a href="#10.5.2">10.5.2 – Weitere Dokumente</a></li>
+   <ul>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=Release_ePA_2_6_0-2-1434">Dokumentinformationen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=Release_ePA_2_6_0-2-1435">Inhaltsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#1">1 Einordnung des Dokuments</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.1">1.1 Zielsetzung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.2">1.2 Zielgruppe</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.3">1.3 Geltungsbereich</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.4">1.4 Abgrenzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.5">1.5 Methodik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#2">2 Überblick</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.1">2.1 Grundlage und Kernidee</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.2">2.2 Akteure und Komponenten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.3">2.3 Basisablauf Kommunikation SGD-Client und SGD</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.4">2.4 Initiale Schlüsselableitung für den Kontoinhaber</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.5">2.5 Schlüsselableitung durch den Kontoinhaber</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.6">2.6 Schlüsselableitung für einen Berechtigungsempfänger</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.7">2.7 Schlüsselableitung durch einen Berechtigten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.8">2.8 Schlüsselableitung für einen Berechtigungsempfänger durch einen Vertreter</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.9">2.9 Schlüsselableitung für einen durch einen Vertreter berechtigten Berechtigten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.10">2.10 Nichtspeicherung von Versichertendaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.11">2.11 Besondere Rolle SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#3">3 Übergreifende Festlegungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.1">3.1 Beziehung zwischen ePA-Aktensystem und SGD</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.2">3.2 Verfügbarkeit und Performanz</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.3">3.3 Sichere Betreiberumgebung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.4">3.4 Verschiedenes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#4">4 Bestandteile eines SGD</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.1">4.1 Request-Verarbeitung in einem SGD</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.1.1">4.1.1 Routing auf die SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.2">4.2 SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.3">4.3 Schlüssel im SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.4">4.4 Pflege der Prüfschlüssel (S2) im SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.4.1">4.4.1 Zuordnung von OCSP-Responder-Zertifikaten zu CA-Zertifikaten (informativ)</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.5">4.5 Funktionsablauf Firmware-Modul SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.5.1">4.5.1 Zertifikats- und Schlüsselprüfung im SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.5.2">4.5.2 Authentisierungstoken im SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.5.3">4.5.3 Schlüsselableitung im SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.5.4">4.5.4 Kommando-Abarbeitung KeyDerivation im SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.5.5">4.5.5 Betriebsunterstützende Leistungen im SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.6">4.6 Betriebsunterstützende Leistungen allgemein</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#5">5 Kodierung von Schlüsseln und Nachrichten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.1">5.1 Kodierung von Schlüsseln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.1">5.1.1 ECIES-Schlüssel eines SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.2">5.1.2 ECIES-Schlüssel eines Clients</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.2">5.2 Kodierung von Chiffraten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#6">6 Schnittstellen und Operationen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.1">6.1 Innenschnittstellen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.2">6.2 HTTPS-Schnittstellen und HTTP-Kommunikation</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.3">6.3 Anforderungen an die JSON-Requests und -Responses</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.4">6.4 Operation GetPublicKey</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.5">6.5 Operation GetAuthenticationToken</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.6">6.6 Operation KeyDerivation</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.7">6.7 Fehlermeldungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#6.7.1">6.7.1 Fehlermeldungen und HTTP-Status-Code (informativ)</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#7">7 Clientspezifische Festlegungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.1">7.1 Mehrfachableitung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#8">8 Interoperables Austauschformat</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#9">9 Datenkanal zwischen Client und SGD (informativ)</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#9.1">9.1 Ablauf Kommunikation zwischen Client und SGD-HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#9.2">9.2 ECIES-Verfahren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#10">10 Anhang – Verzeichnisse</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#10.1">10.1 Abkürzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#10.2">10.2 Glossar</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#10.3">10.3 Abbildungsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#10.4">10.4 Tabellenverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#10.5">10.5 Referenzierte Dokumente</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#10.5.1">10.5.1 – Dokumente der gematik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#10.5.2">10.5.2 – Weitere Dokumente</a>
+     </div></li>
+   </ul>
   </div>
   <p id="polarion_36"></p>
   <h2 id="1">1 Einordnung des Dokuments</h2>
@@ -626,23 +829,23 @@ ol:first-of-type {
   <h2 id="3">3 Übergreifende Festlegungen</h2>
   <h3 id="3.1">3.1 Beziehung zwischen ePA-Aktensystem und SGD</h3>
   <p id="polarion_67">Für einen Versicherten müssen zwei unabhängige SGD-Instanzen zur parallelen Nutzung für die zweifache Schlüsselgenerierung zur Verfügung stehen. Beide SGD müssen dabei technisch, organisatorisch und wirtschaftlich unabhängig sein. Um dies sicherzustellen, gibt es einen SGD, den alle Aktensysteme als SGD 2 verwenden (<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94679" data-custom-label="A_17881" id="fake" data-type="crossReference" class="polarion-rte-link"></span>).&nbsp;</p>
-  <div id="A_17881">
+  <div id="A_17881" severity="MUSS">
    <p><b>A_17881 - Anbieter SGD - Rollenausschluss für Anbieter des SGD der zentralen TI-Plattform</b></p>
    <p>Der Anbieter des Schlüsselgenerierungsdienstes der zentralen TI-Plattform MUSS unabhängig von Anbietern von ePA-Aktensystemen sein, d. h. es sind mindestens jeweils eigenständige Rechtspersönlichkeiten mit eigenständigen operativen Geschäfts- und Betriebsführungen und es ist eine strikte Vermeidung von Personenidentitäten bzw. Doppelrollen in den Funktionen Geschäftsführung, leitende Mitarbeiter und Zugangsberechtigte zum Betriebsort des Schlüsselgenerierungsdienstes bzw. ePA-Aktensystems gewährleistet. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17883">
+  <div id="A_17883" severity="MUSS">
    <p><b>A_17883 - Weiterführung der Schlüsselableitungsfunktionalität bei SGD-Instanzwechsel</b></p>
    <p>Ein Anbieter eines ePA-Aktensystems und ein Anbieter eines SGD ePA MÜSSEN beim Wechsel ihrer jeweiligen SGD-Instanz&nbsp;die Weiterführung der Schlüsselableitungsfunktionalität ePA sicherstellen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17884">
+  <div id="A_17884" severity="MUSS">
    <p><b>A_17884 - Migrationskonzept bei SGD-Instanzwechsel</b></p>
    <p>Ein Anbieter eines ePA-Aktensystems und Anbieter eines SGD ePA MÜSSEN&nbsp;ein Migrationskonzept erstellen und pflegen, worin festgelegt wird, wie beim Wechsel ihrer SGD-Instanz die für deren Kunden verwendeten Ableitungsschlüssel sicher an die SGD-Folgeinstanz übergeben werden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17885">
+  <div id="A_17885" severity="MUSS">
    <p><b>A_17885 - ePA-Aktensystem-spezifische Ableitungsschlüssel eines SGD-Instanz</b></p>
    <p>Ein Anbieter eines ePA-Aktensystems MUSS sicherstellen, dass die von ihm verwendete SGD-Instanz (d. h. technisch formuliert "SGD 1") ePA-Aktensystemanbieter-spezifische Ableitungsschlüssel (Schlüsselableitungsfunktionalität ePA) verwendet. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17886">
+  <div id="A_17886" severity="MUSS">
    <p><b>A_17886 - Migration SGD-Instanz</b></p>
    <p>Ein Anbieter eines ePA-Aktensystems&nbsp;MUSS beim Wechsel der SGD-Instanz&nbsp;(vgl. <span data-option-id="custom" data-item-id="ML-94682" data-custom-label="A_17884" id="fake" data-type="crossReference" class="polarion-rte-link"></span> alle Ableitungsschlüssel sicher an die SGD-Folgeinstanz übergeben und anschließend sicher in der alten SGD-Instanz löschen. <b>[&lt;=]</b></p>
   </div>
@@ -650,16 +853,16 @@ ol:first-of-type {
   <p id="polarion_42">Verfügbarkeits- und Performanzanforderungen für einen SGD befinden sich in <span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_Perf?selection=ML-94477" data-custom-label="[gemSpec_Perf#Produkttyp Schlüsselgenerierungsdienst]" id="fake" data-type="polarion" class="polarion-rte-link"></span>&nbsp;und sind dem Produkttypsteckbrief SGD zugewiesen.</p>
   <h3 id="3.3">3.3 Sichere Betreiberumgebung</h3>
   <p id="polarion_94">Ähnlich wie einem TSP werden an den Betreiber eines SGD ePA&nbsp;Anforderungen u. a. an die sichere Betreiberumgebung aus [gemSpec_DS_Anbieter] gestellt (vgl. Zuordnung im Produkttypsteckbrief). Die zugeordneten Module sind "Basis-IS", "Basis-ISMS", "Erweitertes ISMS", "TI-Sicherheitsbericht" und "„Erweiterter TI-Sicherheitsbericht“.</p>
-  <div id="A_18956">
+  <div id="A_18956" severity="MUSS">
    <p><b>A_18956 - Sicherer Betrieb des Produkts nach Handbuch</b></p>
    <p>Der Anbieter eines Schlüsselgenerierungsdiensts MUSS die im Handbuch des eingesetzten Schlüsselgenerierungsdienstes beschriebenen Voraussetzungen für den sicheren Betrieb des Produktes gewährleisten. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_18955">
+  <div id="A_18955" severity="MUSS">
    <p><b>A_18955 - Darstellen der Voraussetzungen für sicheren Betrieb des Produkts im Handbuch</b></p>
    <p>Der Hersteller des Schlüsselgenerierungsdienstes MUSS für sein Produkt im dazugehörigen Handbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des Produktes gewährleistet werden kann. <b>[&lt;=]</b></p>
   </div>
   <h3 id="3.4">3.4 Verschiedenes</h3>
-  <div id="A_17880">
+  <div id="A_17880" severity="MUSS">
    <p><b>A_17880 - Zeitsynchronität mit der TI</b></p>
    <p>Ein SGD ePA MUSS mit den Stratum-1-NTP-Servern der TI synchronisieren. <b>[&lt;=]</b></p>
   </div>
@@ -673,12 +876,12 @@ ol:first-of-type {
   <p id="polarion_259">Eine Zeitdrift von weniger als 5 Minuten innerhalb des SGD (RVE, SGD-HSM) ist aus Sicherheitssicht akzeptabel.</p>
   <p id="polarion_283">Die praktische Erfahrung nach mehr als einen Jahr mit verschiedenen SGDs in der PU&nbsp;zeigt, dass es notwendig ist die Zeit in den SGD-HSM kontinuierlich über NTP zu korrigieren. Die HSMs besitzen je nach Hersteller unterschiedliche Mechanismen, die eine schädliche Auswirkung einer temporärer Fehlfunktion des verwendeten NTP-Servers verhindern&nbsp;(ruckartige Änderungen über in den SGD-HSM konfigurierte Schrankenwerte).</p>
   <p id="polarion_291">Ein weiterer Erfahrungswert ist, dass ein Nachgehen der lokalen Zeit in den SGD-HSM um mehr als 5 Minuten insbesondere die Verfügbarkeit des SGD gefährdet, da dann i. d. R. OCSP-Antworten aus der Zukunft zu kommen scheinen, der akzeptable Schwellwert dafür dann überschritten ist und vom einen SGD-HSM die OCSP-Antworten abgelehnt werden.</p>
-  <div id="A_22485">
+  <div id="A_22485" severity="MUSS">
    <p><b>A_22485 - SGD, verpflichtende automatisierte Zeit-Synchronisation (NTP) SGD-HSM</b></p>
    <p>Der Anbieter eines SGD ePA MUSS sicherstellen, dass die SGD-HSM in dessen SGD per NTP synchronisiert werden. Die dabei zu verwendenden Schwellwerte (HSM-Hersteller-spezifische Mechanismen in den HSM, um die schädliche Auswirkung von temporären Fehlfunktionen des verwendeten NTP-Servers zu verhindern) werden während der Erst-Initialisierung zusammen mit der gematik in den SGD-HSM festgelegt.<span style="background-color: #FFFF99;"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_254">Ebenfalls ist ein betriebliches Monitoring der Zeit in den SGD-HSM notwendig.</p>
-  <div id="A_22486">
+  <div id="A_22486" severity="MUSS">
    <p><b>A_22486 - Monitoring Zeit in den SGD-HSM</b></p>
    <p>Der Anbieter eines SGD ePA MUSS sicherstellen, dass die Uhrzeit in den SGD-HSM in dessen SGD mindestens täglich automatisiert überwacht wird und bei substanziellen Abweichungen (bspw. mehr als +- 15 Sekunden) eine automatische Alarmierung an die SGD-HSM-Administration erfolgt. Die SGD-HSM-Administration MUSS bei Alarmierung dann Schritte zur Korrektur der Uhrzeit in den SGD-HSM ergreifen.<span style="background-color: #FFFF99;"></span> <b>[&lt;=]</b></p>
   </div>
@@ -695,7 +898,7 @@ ol:first-of-type {
   <h3 id="4.1">4.1 Request-Verarbeitung in einem SGD</h3>
   <p id="polarion_112">Eingehende Requests eines Clients werden von der Request verarbeitenden Einheit (RVE) an der HTTPS-Außenschnittstelle (vgl. <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94687" data-custom-label="A_17889" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;) entgegengenommen. Dort werden sie entweder direkt beantwortet (Operation GetPublicKey, A_17895-*)&nbsp;oder aufbereitet und danach an das SGD-HSM gesendet. Abhängig von der Antwort des SGD-HSM erzeugt die RVE eine Antwort für den Client (<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109359" data-custom-label="A_17908-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;) und sendet diese an ihn. Die RVE hat keinen Einblick in den beidseitig authentisierten und verschlüsselten Datenkanal zwischen Client und SGD-HSM (vgl. Abschnitt&nbsp;<span data-scope="Mainline_OPB1" data-option-id="shortoutline" data-item-id="ML-94770" id="fake" data-type="crossReference" class="polarion-rte-link"></span>). Die RVE stellt nur in Bezug auf die Verfügbarkeit (DoS-Gegenmaßnahmen, Einholen von signierten OCSP-Responses, Umkodieren von Requests etc.) des SGD eine kritische Komponente dar. In Bezug auf die Vertraulichkeit der Schlüssel erbringt sie keine Sicherheitsleistung.</p>
   <p id="polarion_113">Die Schnittstelle zwischen RVE und SGD-HSM ist eine Innenschnittstelle (vgl. Abschnitt&nbsp;<span data-scope="Mainline_OPB1" data-option-id="longoutline" data-item-id="ML-94070" id="fake" data-type="crossReference" class="polarion-rte-link"></span>) und wird deshalb nicht ausspezifiziert beschrieben. Es werden nur notwendige Festlegungen getroffen.</p>
-  <div id="A_17908-01">
+  <div id="A_17908-01" severity="MUSS">
    <p><b>A_17908-01 - Request-Verarbeitung in der SGD</b></p>
    <p>Die Request verarbeitende Einheit (RVE) eines SGD ePA MUSS alle Informationen, die ein SGD-HSM für die Zertifikatsprüfung nach&nbsp;<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17919-01" data-item-id="ML-109357" data-option-id="custom"></span>&nbsp; benötigt, bereitstellen und dem SGD-HSM bei der Weiterleitung des Requests übergeben.<br> Wenn die RVE erkennt, dass die Informationen dem SGD-HSM nicht ausreichen werden, so MUSS die RVE die Weiterleitung an die SGD-HSM abbrechen (i. S. v. gar nicht erst durchführen) und den Request mit einer Fehlermeldung, so wie in den Außenschnittstellen beschrieben, beantworten.<br> <b>[&lt;=]</b></p>
   </div>
@@ -710,7 +913,7 @@ ol:first-of-type {
   <p id="polarion_298"><span style="font-weight: bold;font-size: 12pt;line-height: 1.5;"></span></p>
   <h4 id="4.1.1">4.1.1 Routing auf die SGD-HSM</h4>
   <p id="polarion_304">Ziel ist es, dass die SGD-HSM in einem SGD von einander unabhängig arbeiten können. D. h., u. a. sollen sie nicht ihre kurzlebigen Schlüssel (S4) und die damit verbundenen Schlüssel (S5) (vgl. jeweils Abschnitt "4.3 Schlüssel im SGD-HSM") untereinander synchronisieren müssen. Daher muss die RVE am Anfang des SGD-Protokoll für einen Client bei Erhalt der Nachricht 1 (vgl. Abschnitt "9.1 Ablauf Kommunikation zwischen Client und SGD-HSM") ein SGD-HSM aus der Menge der im SGD verfügbaren SGD-HSM auswählen. Diese Auswahl nimmt die RVE vor und teilt sie dem Client mit, in dem sie dem Client den aktuellen (S4)-Schlüssel des ausgewählten SGD-HSM bei GetPublicKey (vgl. Abschnitt "6.4 Operation GetPublicKey") als Protokoll-Nachricht 2 sendet. Alle weiteren Nachrichten dieses Client innerhalb dieses Protokollablaufes müssen dann genau das ausgewählte SGD-HSM erreichen. Dies bedeutet: die RVE muss für die folgenden vom Client gesendeten Nachrichten des SGD-Protokolls geeignete Routing-Entscheidungen vornehmen. Eine solche Routing-Entscheidung kann die RVE leicht treffen, denn im "PublicKeyECIES" (vgl. A_17900) ist der Hashwert des Ziel-(S4)-Schlüssels enthalten und der "PublicKeyECIES" ist Bestandteil jeder weiteren Protokoll-Nachricht des Clients.</p>
-  <div id="A_22493">
+  <div id="A_22493" severity="MUSS">
    <p><b>A_22493 - SGD, RVE, Routing der Protokoll-Nachrichten eines SGD-Clients auf die SGD-HSM</b></p>
    <p>Die Request verarbeitende Einheit (RVE) eines SGD ePA MUSS folgende Vorgaben umsetzen:<br> 
     <ol> 
@@ -732,7 +935,7 @@ ol:first-of-type {
    <li>verschlüsselt die abgeleiteten Schlüssel für den Anfragenden.</li>
   </ol>
   <p id="polarion_206">Das SGD-HSM muss ein besonderes Firmware-Modul enthalten, das diese Funktionalität abbildet. Dieses hat einen sehr begrenzten Funktionsumfang (ECC- und AES-Schlüssel erzeugen, Signaturen prüfen, aus einem AUT-Zertifikat die KVNR bzw. Telematik-ID auslesen, eine Hashfunktion (HKDF) berechnen, ECIES Ver- und Entschlüsselung durchführen und AES-GCM ausführen). Die Mehrzahl der Funktionen sind schon standardmäßig im HSM vorhanden.</p>
-  <div id="A_17907">
+  <div id="A_17907" severity="MUSS">
    <p><b>A_17907 - SGD, Sicherheitsbegutachtung SGD-HSM</b></p>
    <p>Ein SGD ePA MUSS Folgendes sicherstellen:<br> 
     <ol> 
@@ -749,7 +952,7 @@ ol:first-of-type {
   <p id="polarion_218">Analog zu den CC-Evaluierungen der TI-Komponenten muss es möglich sein, ohne dass Verschwiegenheitsregelungen die Klärung von fachlichen Punkten während der&nbsp;Sicherheitsbegutachtung behindern, die notwendige Dauer der&nbsp;Sicherheitsbegutachtung zu minimieren.</p>
   <h3 id="4.3">4.3 Schlüssel im SGD-HSM</h3>
   <p id="polarion_43">In einem SGD müssen verschiedene Schlüssel verfügbar sein, die durch ein SGD-HSM geschützt werden müssen.</p>
-  <div id="A_17910-01">
+  <div id="A_17910-01" severity="MUSS">
    <p><b>A_17910-01 - Schlüssel in einem SGD-HSM</b></p>
    <p>Ein SGD ePA MUSS sicherstellen, dass in seinem (oder seinen) SGD-HSM folgende Schlüssel existieren und durch das (die) SGD-HSM geschützt werden:<br> 
     <ol> 
@@ -760,15 +963,15 @@ ol:first-of-type {
      <li>zwei Ableitungsschlüssel (S5) für die Erstellung der Authentisierungstoken (je ein Ableitungsschlüssel zugeordnet zu genau einem ECIES-Schlüsselpaar (S4)).</li> 
     </ol> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17911-01">
+  <div id="A_17911-01" severity="MUSS">
    <p><b>A_17911-01 - SGD-HSM: Schlüsselerstellung und Veränderung im Mehr-Augen-Prinzip</b></p>
    <p>Ein SGD ePA MUSS sicherstellen, dass die Schlüssel (S1) bis (S5) aus <span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17910-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp; ausschließlich im Mehr-Augen-Prinzip erstellbar und änderbar sind (bzw. (S4) und (S5) autonom durch das SGD-HSM-Firmware-Modul).&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Ausgenommen davon sind schon über die PKI der TI Intergritäts- und Authentitätsgeschützte Schlüssel (Import von Cross-signierten neuen Root-Schlüsseln, Import von CA-Schlüsseln die über schon im SGD-HSM vorhandene Root-Schlüssel geprüft werden können).</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17912-01">
+  <div id="A_17912-01" severity="MUSS">
    <p><b>A_17912-01 - SGD-HSM: Root-Schlüssel sind Teil des Firmware-Moduls</b></p>
    <p>Ein SGD ePA MUSS sicherstellen, dass die Schlüssel (S2) aus <span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17910-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp; Teil des SGD-HSM-Firmware-Moduls sind. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17913-01">
+  <div id="A_17913-01" severity="MUSS">
    <p><b>A_17913-01 - SGD-HSM: Exklusive Nutzungsrechte der Schlüssel für das Firmware-Modul</b></p>
    <p>Ein SGD ePA MUSS technisch sicherstellen, dass<br> der private Schlüsselbestätigungsschlüssel bei (S1) (vgl.&nbsp;jeweils&nbsp;<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17910-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp;),<br> 
     <ol> 
@@ -777,7 +980,7 @@ ol:first-of-type {
      <li>die zu den (S4) 1:1-zugeordneten Ableitungsschlüssel (S5) für die Erstellung der Authentisierungstoken</li> 
     </ol> ausschließlich durch das SGD-HSM-Firmware-Modul nutzbar sind.<br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17914-01">
+  <div id="A_17914-01" severity="MUSS">
    <p><b>A_17914-01 - SGD-HSM: kurzlebige ECIES-Schlüssel</b></p>
    <p>Ein SGD ePA MUSS Folgendes sicherstellen: <br> 
     <ol> 
@@ -788,7 +991,7 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_58">Hinweis zu <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109450" data-custom-label="A_17914-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;&nbsp;: Alle 15 Minuten wird&nbsp;ein neues ECIES&nbsp;-Schlüsselpaar (vgl. auch [gemSpec_Krypt#<span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-94670" data-custom-label="A_17873" id="fake" data-type="polarion" class="polarion-rte-link"></span>&nbsp;]) erzeugt werden. Wenn kurz zuvor ein Client (ePA-FdV oder FM ePA) jedoch den öffentliche Schlüssel des alten Schlüsselpaares über die Schnittstelle GetPublicKey (A_17895-*&nbsp;) erhalten hat, kann er das alte Schlüsselpaar maximal 15 Minuten weiter nutzen. Die Lebensdauer eines solchen ECIES-Schlüsselpaars in einem SGD-HSM ist also 30 Minuten.</p>
-  <div id="A_18022-02">
+  <div id="A_18022-02" severity="MUSS">
    <p><b>A_18022-02 - SGD-HSM: Ableitungsschlüssel Authentisierungstoken (S5) pro ECIES-Schlüssel (S4)</b></p>
    <p>Ein SGD ePA MUSS Folgendes sicherstellen:<br> 
     <ol> 
@@ -797,15 +1000,15 @@ ol:first-of-type {
      <li>Wenn ein ECIES-Schlüsselpaar (S4) sicher gelöscht wird (vgl. <span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17914-01" data-item-id="ML-109450" data-option-id="custom"></span>&nbsp;), so MUSS auch der zugeordnete Ableitungsschlüssel (S5) sicher gelöscht werden.</li> 
     </ol> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17915-01">
+  <div id="A_17915-01" severity="DARF NICHT">
    <p><b>A_17915-01 - SGD: Nicht-Synchronisation der ECIES-Schlüssel (S4) und zugordnete Ableitungsschlüssel (S5)</b></p>
    <p>Ein SGD ePA DARF die kurzlebigen privaten ECIES&nbsp;-Schlüssel (&nbsp;<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17910-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp; (S4)) und die mit diesen 1:1-zugeordneten Ableitungsschlüssel (<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17915-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp;&nbsp; (S5)) (Erstellung der Authentisierungstoken) NICHT über mehrere SGD-HSM synchronisieren.<br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17916">
+  <div id="A_17916" severity="MUSS">
    <p><b>A_17916 - Verfügbarkeit der Schlüssel in einem SGD-HSM</b></p>
    <p>Ein SGD ePA MUSS technisch sicherstellen, dass der private&nbsp;Schlüsselbestätigungsschlüssel ( <span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17910-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp;(S1)) und die geheimen Ableitungsschlüssel (<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17910-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp; (S3)) in dessen SGD-HSM ausschließlich verschlüsselt und im Mehr-Augen-Prinzip importierbar und exportierbar sind (Ziel: Sicherstellung der&nbsp;Verfügbarkeit dieser Schlüssel). Der SGD ePA MUSS technisch sicherstellen, dass beim Import und Export dieser Schlüssel notwendiger Weise ein Mitarbeiter der gematik beteiligt ist.<br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17917">
+  <div id="A_17917" severity="MUSS">
    <p><b>A_17917 - Schutz des SGD-HSM-Firmware-Moduls</b></p>
    <p>Ein SGD ePA MUSS durch technische Maßnahmen sicherstellen, dass<br> 
     <ol>
@@ -815,7 +1018,7 @@ ol:first-of-type {
   </div>
   <p id="polarion_95">Verständnishinweis zu <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94719" data-custom-label="A_17916" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;und&nbsp;<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94716" data-custom-label="A_17917" id="fake" data-type="crossReference" class="polarion-rte-link"></span>: Dies ist analog zu den Vorgaben, wie seit 2014 die CVC-Root der TI betrieben wird. Damit wird der Betreiber eines SGD vom Verdacht befreit es könnte die geheimen Ableitungsschlüssel <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109449" data-custom-label="A_17910-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp; (S3) missbrauchen. Er ist technisch aufgrund der zwei Anforderungen nicht in der Lage dies zu tun.</p>
   <p id="polarion_221">Aufgrund der Bedeutung der Schlüsselbestätigungsschlüssel für die Sicherheitsleistung werden diese innerhalb eines Clients nicht über die üblichen Zertifikatsprüfverfahren überprüft, sondern die Zertifikate, die die&nbsp;Schlüsselbestätigungsschlüssel enthalten, sind direkt (explizit) in der TSL aufgeführt (vgl.&nbsp;<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94621" data-custom-label="A_17847" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;(Prüfung eines SGD-HSM-Zertifikats) und&nbsp;<span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_PKI?selection=ML-94225" data-custom-label="[gemSpec_PKI#A_17700]" id="fake" data-type="polarion" class="polarion-rte-link"></span>). Dadurch wirken etwaige Probleme bspw. in der Komponenten-PKI nicht auf die Sicherung der Authentizität der&nbsp;Schlüsselbestätigungsschlüssel (risikominimierende Maßnahme).</p>
-  <div id="A_17846-01">
+  <div id="A_17846-01" severity="MUSS">
    <p><b>A_17846-01 - Prüfbarkeit des Schlüsselbestätigungsschlüssels eines nicht-zentralen SGD</b></p>
    <p>Ein SGD ePA, der nicht der SGD der zentralen TI-Plattform ist, MUSS folgende Vorgaben durchsetzen. <br> Der öffentlichen Schlüsselbestätigungsschlüssel (<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17910-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp;&nbsp;(S1)) MUSS in einem EE-Zertifikat nach dem Zertifikatsprofil [gemSpec_PKI#Tab_PKI_296] C.SGD-HSM.AUT aufgeführt werden.<br> 
     <ol> 
@@ -824,7 +1027,7 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_177">Hinweis: vgl. auch [gemSpec_PKI#Abschnitt&nbsp;<span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_PKI?selection=ML-94617" data-custom-label="SGD-HSM – Schlüsselgenerierungsdienst-HSM" id="fake" data-type="polarion" class="polarion-rte-link"></span>].&nbsp;</p>
-  <div id="A_17918-01">
+  <div id="A_17918-01" severity="MUSS">
    <p><b>A_17918-01 - Prüfbarkeit des Schlüsselbestätigungsschlüssels des SGD der zentralen TI-Plattform</b></p>
    <p>Ein SGD ePA der zentralen TI-Plattform MUSS folgende Vorgaben durchsetzen. <br> 
     <ol> 
@@ -836,7 +1039,7 @@ ol:first-of-type {
   <p id="polarion_174">Hinweis: Die gematik stellt sicher, dass sich in der TSL nur SGD-HSM-Zertifikate nach <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109456" data-custom-label="A_17846-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;#(1) und nach <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109457" data-custom-label="A_17918-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;&nbsp;#(1) befinden, die zugehörig sind zu SGD-HSMs von zugelassenen SGD. Vergleiche auch&nbsp;&nbsp;<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94621" data-custom-label="A_17847" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;(Prüfung eines SGD-HSM-Zertifikats).</p>
   <h3 id="4.4">4.4 Pflege der Prüfschlüssel (S2) im SGD-HSM</h3>
   <p id="polarion_142">In <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109449" data-custom-label="A_17910-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;(Schlüssel in einem SGD-HSM) wird mit (S2) eine geordnete Liste von Zertifikatssignaturprüfschlüsseln eingeführt. Diese Schlüssel bildet die Grundlage für die Zertifikatsprüfung in einem SGD-HSM ( <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109357" data-custom-label="A_17919-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;). Einerseits handelt es sich um den RSA-Schlüssel der aktuellen X.509-Root-Version (RCA2) und analog den ECC-Schlüssel (RCA3) und andererseits um nicht von der TI-X.509-Root bestätigte X.509-eGK-CA-Zertifikate, die in der TSL der TI aufgeführt sind. Diese Schlüssel sind fester Bestandteil des SGD-HSM-Firmwaremoduls (<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109454" data-custom-label="A_17912-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;). Alle zukünftig erzeugten CA-Zertifikate der TI werden durch die X.509-Root bestätigt werden [gemSpec_X.509_TSP#<span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_X_509_TSP?selection=ML-10037" data-custom-label="TIP1-A_3894" id="fake" data-type="polarion" class="polarion-rte-link"></span>].&nbsp;</p>
-  <div id="A_17952-01">
+  <div id="A_17952-01" severity="MUSS">
    <p><b>A_17952-01 - SGD-HSM, geordnete Liste von Signaturprüfschlüsseln</b></p>
    <p>Der SGD ePA MUSS Folgendes sicherstellen.<br> 
     <ol> 
@@ -852,7 +1055,7 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_184">Aus Performanzgründen müssen für die Zertifikatsprüfung die CA-Zertifikate schon geprüft im SGD-HSM vorliegen. Ansatzpunkt der Prüfung von EE-Zertifikaten ist im SGD-HSM immer einen solcher CA-Schlüssel. Die RVE kennt die aktuelle Liste im SGD-HSM (<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109458" data-custom-label="A_17952-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;&nbsp;Punkt 1) und teilt dem SGD-HSM bei einer Requestweitergabe mit welcher Prüfschlüssel im SGD-HSM für die Zertifikatsprüfung der Richtige ist (vgl.&nbsp;<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109359" data-custom-label="A_17908-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;), also vom SGD-HSM zu verwenden ist. Wie ein SGD-HSM erkennen kann, ob ein importiertes Zertifikat ein CA-Zertifikat oder ein OCSP-Signer-Zertifikat ist, ist in [gemSpec_PKI] definiert.</p>
-  <div id="A_17953">
+  <div id="A_17953" severity="MUSS">
    <p><b>A_17953 - SGD, täglicher Abgleich CA-Zertifikate TSL und Liste im SGD-HSM</b></p>
    <p>Der SGD ePA MUSS Folgendes sicherstellen.<br> 
     <ol> 
@@ -865,7 +1068,7 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_200">Wenn bei <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94790" data-custom-label="A_17953" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;Punkt (1) der Download aufgrund eines Fehlers nicht erfolgen kann, so greift das bei einer "Trust-service Status List" (TSL) übliche Standardvorgehen: die am Vortag heruntergeladene TSL hat eine in der TSL kodierte Gültigkeitsdauer (i. d. R. 30 Tage). Diese TSL ist dann im SGD weiterhin verwendbar und auch zu verwenden. Sollte der Download länger als diese Gültigkeitsdauer nicht funktionieren (was aufgrund der SLA des TSL-Dienstes quasi ausgeschlossen ist), so kann die RVE keine EE-Zertifikatsprüfungen mehr durchführen und muss alle Client-Requests (bis auf GetPublicKey) ablehnen, weil sie bspw.&nbsp;<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-96275" data-custom-label="A_18021" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;(Zertifikatsprüfung) erfüllen muss ("Falls eine der Prüfungen ein nicht-positives Ergebnis liefert, so MUSS die RVE des SGD&nbsp;mit einer entsprechenden Fehlermeldung [...] die weitere Requestverarbeitung abbrechen").&nbsp;</p>
-  <div id="A_17954-01">
+  <div id="A_17954-01" severity="MUSS">
    <p><b>A_17954-01 - SGD, Aktualisieren von X.509-Root-Schlüsseln</b></p>
    <p>Der SGD ePA MUSS wöchentlich überprüfen, ob neue X.509-Root-CA-Versionen existieren und entsprechende Cross-Zertifikate verfügbar sind. Falls dies der Fall ist, so MUSS der SGD ePA diese neue Root-Versionen in seinen SGD-HSMs importieren (vgl.&nbsp;&nbsp;<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17952-01" data-item-id="ML-109458" data-option-id="custom"></span>&nbsp;&nbsp;Punkt 5).<br> <b>[&lt;=]</b></p>
   </div>
@@ -888,7 +1091,7 @@ ol:first-of-type {
   <h4 id="4.5.1">4.5.1 Zertifikats- und Schlüsselprüfung im SGD-HSM</h4>
   <p id="polarion_101">Damit im SGD-HSM nur für den jeweils Berechtigten eine Schlüsselableitung durchgeführt wird, muss dessen Request auf Authentizität geprüft werden. Dafür muss dessen AUT-Zertifikat innerhalb des SGD-HSMs überprüft werden.</p>
   <p id="polarion_45">Eine Standard-TI-Prüfung auf Basis der TSL ist technisch relativ komplex und ist insbesondere in beschränkten&nbsp; Laufzeitumgebungen wie Chipkarten oder HSM-Firmware-Modulen nur schwer umsetzbar. Damit diese Prüfung technisch praktikabel ist, wird bei der Prüfung des AUT-Zertifikats die Signaturkette auf die X.509-Root der TI geprüft. Es werden ebenfalls OCSP-Antworten notwendigerweise ausgewertet.</p>
-  <div id="A_17919-01">
+  <div id="A_17919-01" severity="MUSS">
    <p><b>A_17919-01 - Zertifikatsprüfung in einem SGD-HSM</b></p>
    <p>Ein SGD ePA MUSS folgende Vorgaben durchsetzen:<br> 
     <ol> 
@@ -908,16 +1111,16 @@ ol:first-of-type {
   <p id="polarion_106"></p>
   <p id="polarion_34">Hinweis zu&nbsp;<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109357" data-custom-label="A_17919-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp;:</p>
   <p id="polarion_47">Das SGD-HSM kann davon ausgehen, dass die X.509-Root-CA und alle in der PKI-Hierarchie folgenden CAs korrekt formatierte Zertifikate ausgeben. Es muss also vom SGD-HSM nicht die vollständige Konformität der erhaltenen Zertifikate zu den in [gemSpec_PKI] definierten Zertifikatsprofilen geprüft werden, was technisch in einer beschränkten Laufzeitumgebung schwierig ist.</p>
-  <div id="A_18010">
+  <div id="A_18010" severity="MUSS">
    <p><b>A_18010 - SGD-HSM, Entfernen von abgelaufenen Prüfschlüsseln/Zertifikaten</b></p>
    <p>Ein SGD ePA MUSS sicherstellen, dass dessen SGD-HSM mindestens alle 24 Stunden die Schlüssel aus der Prüfschlüsselliste&nbsp;gemäß&nbsp;<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17952-01" data-item-id="ML-109458" data-option-id="custom"></span>&nbsp;&nbsp;auf zeitliche Gültigkeit hin überprüft. Ist eine solcher Prüfschlüssel nur noch weniger als 24 Stunden gültig, so MUSS das SGD-HSM diesen Schlüssel aus seiner Prüfschlüsselliste löschen. Ausgenommen davon sind die Root-Schlüssel aus&nbsp;<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17952-01" data-item-id="ML-109458" data-option-id="custom"></span>&nbsp;&nbsp;Punkt 2. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_278">Die Sonderbehandlung von Root-Schlüsseln im SGD-HSM in A_18010 ist analog definiert worden wie das Verhalten im COS bei G2-Karten. Ein SGD-HSM kann nach A_21274 davon abweichen und die Gültigkeitsdauer auch bei Root-Schlüsseln streng durchsetzen.</p>
-  <div id="A_21274">
+  <div id="A_21274" severity="KANN">
    <p><b>A_21274 - SGD-HSM, Entfernen von abgelaufenen Root-Schlüsseln</b></p>
    <p>Ein SGD ePA KANN bei der Umsetzung von A_18010 auf die Sonderbehandlung von Root-Schlüsseln verzichten, d. h. diese KANN das SGD-HSM analog zu CA-Schlüsseln nach Ablauf der Gültigkeitsdauer im SGD-HSM löschen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_18027">
+  <div id="A_18027" severity="MUSS">
    <p><b>A_18027 - SGD-HSM, Prüfung von Client-ECIES-Schlüssel und Client-ECIES-Schlüssel-Signatur</b></p>
    <p>Ein SGD ePA MUSS sicherstellen, dass dessen SGD-HSM den Client-ECIES-Schlüssel und dessen Signatur wie folgt prüft.<br> 
     <ol> 
@@ -929,7 +1132,7 @@ ol:first-of-type {
     </ol> Liefert eine der Prüfungen ein nicht-positives Ergebnis, so MUSS das SGD-HSM die Verarbeitung mit einer entsprechenden Fehlermeldung an die RVE abbrechen. <b>[&lt;=]</b></p>
   </div>
   <h4 id="4.5.2">4.5.2 Authentisierungstoken im SGD-HSM</h4>
-  <div id="A_18026-01">
+  <div id="A_18026-01" severity="MUSS">
    <p><b>A_18026-01 - SGD-HSM, Ausstellen von Authentisierungstoken für SGD-Clients</b></p>
    <p>Ein SGD ePA&nbsp;MUSS folgende Vorgaben durchsetzen:<br> Bei der Umsetzung von GetAuthenticationToken (<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18021" data-item-id="ML-96275" data-option-id="custom"></span>) MUSS die RVE dem SGD-HSM (das für den Client bestimmt ist)<br> 
     <ol> 
@@ -942,7 +1145,7 @@ ol:first-of-type {
     </ol> bilden. <br> Das SGD-HSM MUSS H als SHA-256-Hashwert von A berechnen.<br> Das SGD-HSM MUSS prüfen, ob der Wert H hexadezimal kodiert gleich dem zweiten 256-Bit hexadezimal kodierten Wert im entschlüsselten Klartext ist. Falls nein, so MUSS das SGD-HSM die Verarbeitung des Request mit einer Fehlermeldung abbrechen.<br> Anschließend MUSS das SGD-HSM eine Schlüsselableitung mit dem Schlüssel (S5), der mit dem ECIES-SGD-HSM-Schlüssel (S4) verbunden ist, für den die Verschlüsselung durch den Client vorgenommen wurde, und dem erzeugten Ableitungsvektor A (info-Parameter) gemäß [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_18023" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-96279"></span>] durchführen.<br> Aus der Ableitung MUSS das SGD-HSM einen 256-Bit-Wert erhalten und diesen Hexadezimal kodieren und davor die Zeichenkette "AT" setzen. Das Ergebnis ist der Authentisierungstoken.<br> Beispiel:<br> <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">&nbsp; &nbsp; AT1ce627dd5e4c6536ca0dd93f896744d42c6580537953a49fcc5840dd8f8f4efa</span><br> <br> Anschließend MUSS das SGD-HSM eine Zeichenkette der folgenden Form bilden:<br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp; &nbsp; Response &lt;vom-Client-erhaltener-hexadezimal-256-Bit-Wert&gt; &lt;H-in-Hexform&gt; &lt;Authentisierungstoken&gt;</span><br> Diese Zeichenkette muss das SGD-HSM mittels des ECIES-Verfahrens gemäß [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_17875" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-94672"></span>] für den Client-ECIES-Schlüssel verschlüsseln und das Chiffrat an die RVE übergeben.<br> <b>[&lt;=]</b></p>
   </div>
   <h4 id="4.5.3">4.5.3 Schlüsselableitung im SGD-HSM</h4>
-  <div id="A_17926">
+  <div id="A_17926" severity="MUSS">
    <p><b>A_17926 - SGD-HSM, Schlüsselableitung im SGD-HSM</b></p>
    <p>Ein SGD ePA MUSS folgende Vorgaben durchsetzen:<br> 
     <ol>
@@ -952,7 +1155,7 @@ ol:first-of-type {
   </div>
   <p id="polarion_292">Beispiel zu A_17926:</p>
   <p id="polarion_293">Sei RND="123" und KVNR="a4b5c6". Wenn im Algorithmus in Tabelle 3 a="r1:&lt;RND&gt;:&lt;KVNR&gt;" gesetzt wird, und a als Ableitungsvektor verwendet werden soll, so müssen die Werte der Variablen RND und KVNR interpoliert werden. Es entsteht damit die Zeichenkette a="r1:123:4a5b6c". Dieser Wert von a muss dann als Wert des Ableitungsvektor bei der Schlüsselableitung verwendet werden.</p>
-  <div id="A_17920-02">
+  <div id="A_17920-02" severity="MUSS">
    <p><b>A_17920-02 - SGD-HSM, Schlüsselableitungsschlüssel und Schlüsselableitung im SGD-HSM</b></p>
    <p>Ein SGD ePA&nbsp;MUSS folgende Vorgaben durchsetzen:<br> 
     <ol> 
@@ -973,7 +1176,7 @@ ol:first-of-type {
   <p id="polarion_116">Testmöglichkeit:</p>
   <p id="polarion_149"><span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">echo 'Bezeichner 2021-Test 1' | \</span><br> <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">perl -ne 'print /^\w[\w -]{1,7167}$/ ? "OK: " : "UNGÜLTIG: ", $_;'</span></p>
   <h4 id="4.5.4">4.5.4 Kommando-Abarbeitung KeyDerivation im SGD-HSM</h4>
-  <div id="A_18030">
+  <div id="A_18030" severity="MUSS">
    <p><b>A_18030 - SGD-HSM, Empfang einer Ableitungsanforderung (KeyDerivation)</b></p>
    <p>Ein SGD ePA&nbsp;MUSS folgende Vorgaben durchsetzen:<br> Bei der Umsetzung von KeyDerivation (<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17898" data-item-id="ML-94696" data-option-id="custom"></span>) MUSS die RVE dem SGD-HSM (das für den <span style="text-decoration: line-through;background-color: #FFFF99;"></span>Client bestimmt ist) <br> 
     <ol> 
@@ -985,7 +1188,7 @@ ol:first-of-type {
      <li>Client-AUT-Zertifikat</li> 
     </ol> bilden. Anschließend MUSS das SGD-HSM eine Schlüsselableitung mit dem Schlüssel (S5), der mit dem ECIES-SGD-HSM Schlüssel (S4) verbunden ist für den die Verschlüsselung durch den Client vorgenommen wurde, und dem erzeugten Ableitungsvektor A (info-Parameter) gemäß [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_18023" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-96279"></span>] durchführen.<br> Aus der Ableitung MUSS das SGD-HSM einen 256-Bit-Wert erhalten und diesen Hexadezimal kodieren und davor die Zeichenkette "AT" setzen. Das Ergebnis ist das Authentisierungstoken.<br> Beispiel:<br> <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">&nbsp; &nbsp; AT1ce627dd5e4c6536ca0dd93f896744d42c6580537953a49fcc5840dd8f8f4efa</span><br> <br> Das SGD-HSM MUSS prüfen, ob der Authentisierungstoken mit dem Anfangswert des Klartextes übereinstimmt.<br> Falls nein, so MUSS das SGD-HSM mit entsprechender Fehlermeldung abbrechen.<br> <br> Das SGD-HSM MUSS mit der Kommando-Abarbeitung der Operation KeyDerivation gemäß&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17922" data-item-id="ML-94727" data-option-id="custom"></span>&nbsp;fortfahren. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17922">
+  <div id="A_17922" severity="MUSS">
    <p><b>A_17922 - SGD-HSM, Kommando-Abarbeitung der Operation KeyDerivation im SGD-HSM</b></p>
    <p>Ein SGD&nbsp;ePA MUSS folgende Vorgaben durchsetzen: Nachdem das SGD-HSM erfolgreich die Authentizität der Anfrage mittels&nbsp; <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18030" data-item-id="ML-96287" data-option-id="custom"></span>&nbsp;überprüft hat und den Klartext erhalten hat, MUSS es den erhaltenen Klartext analysieren. <br> Es entfernt den Authentisierungstoken und die Request-ID inkl. folgenden Leerzeichen vom Anfang der Nachricht des Clients und speichert das Authentisierungstoken und die Request-ID für die Erzeugung der Antwort.<br> (Beispiel:<br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp;"AT1ce627dd5e4c6536ca0dd93f896744d42c6580537953a49fcc5840dd8f8f4efa&nbsp;<span style="font-size: 10pt;line-height: 1.5;">7522d04ca28f2c6d3f5a53b2a31aebe1f91f2cfb75145b35c9a01fae7930340c&nbsp;</span>KeyDerivation r2:7f8f77003dbab49c3a4e32f44726f92324d292fa668fde5ebc3424397986be99:107299005A112102647:2-20a1201-001:Bezeichner ACME Q1 2020"<br> </span> <span style="font-family: Arial, Helvetica;">Das Authentisierungstoken ist gleich</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"AT1c...efa"</span><span style="font-family: Arial, Helvetica;">, die Request-ID ist gleich</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"7522..340c"</span><span style="font-family: Arial, Helvetica;">. Die restliche Zeichenkette des Klartexts ist die Eingabe für den Algorithmus in&nbsp;[gemSpec_SDG_ePA#Tab_Kommandoabarbeitung_im_SGD-HSM].<br> )</span><br> Das SGD-HSM MUSS den in [gemSpec_SDG_ePA#Tab_Kommandoabarbeitung_im_SGD-HSM] aufgeführten Algorithmus implementieren und verwenden. Wenn der Algorithmus mit einem FAIL abbricht, so MUSS das SGD-HSM dies mit einem entsprechender Fehlermeldung an das RVE weitergeben. <br> Anderenfalls MUSS das SGD-HSM die durch den Algorithmus erzeugte Antwort-Zeichenkette erweitern, indem es das gespeicherte Authentisierungstoken und die Request-ID inkl. folgenden Leerzeichen vor die Antwort-Zeichenkette stellt. Diese erhaltene Zeichenkette ist der Klartext, der den Client erreichen solle. Diesen Klartext MUSS das SGD-HSM&nbsp;gemäß den Vorgaben aus [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_17875" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-94672"></span>] verschlüsseln (ECIES-Verfahren mit Authenticated Encryption) und mit einer positiven Rückmeldung (OK) an die RVE das erzeugte Chiffrat im Format gemäß&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17902" data-item-id="ML-94703" data-option-id="custom"></span>&nbsp;übergeben.<br> <b>[&lt;=]</b></p>
   </div>
@@ -1001,17 +1204,17 @@ ol:first-of-type {
    </tbody>
   </table>
   <p id="polarion_73"></p>
-  <div id="A_17924-01">
+  <div id="A_17924-01" severity="MUSS">
    <p><b>A_17924-01 - Anfragen an das SGD-HSM (Client)</b></p>
    <p>Ein Client eines SGD ePA MUSS für die Anfragen an das SGD-HSM die Syntax der Kommandos und der Antworten des SGD-HSMs (für die Kommandos im verschlüsselten "EncryptedMessage"-Feld in <span data-option-id="custom" data-item-id="ML-94696" data-custom-label="A_17898" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;und die Auswertung der entschlüsselten Antwort (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"&lt;Authentisierungstoken&gt; &lt;Request-ID&gt; OK-KeyDerivation ..."</span>)) gemäß&nbsp;<span data-option-id="custom" data-item-id="ML-94727" data-custom-label="A_17922" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;verwenden und auswerten können. <b>[&lt;=]</b></p>
   </div>
   <h4 id="4.5.5">4.5.5 Betriebsunterstützende Leistungen im SGD-HSM</h4>
   <p id="polarion_62"></p>
-  <div id="A_20975">
+  <div id="A_20975" severity="MUSS">
    <p><b>A_20975 - SGD-HSM, Ausgabe der konkreten Schlüsselwerte der Prüfschlüssel (S2)</b></p>
    <p>Ein SGD ePA MUSS folgende Vorgaben durchsetzen: Ein SGD-HSM MUSS es ermöglichen die aktuell im SGD-HSM gültigen Zertifikatssignaturprüfschlüssel (S2) (inkl. der Root-Schlüssel) (vgl. A_17910-*) mit ihren konkreten Schlüsselwerten (öffentliche Schlüsselwerte) auszugeben. &lt;= <b>[&lt;=]</b></p>
   </div>
-  <div id="A_20976">
+  <div id="A_20976" severity="MUSS">
    <p><b>A_20976 - SGD-HSM, Informationen über die im SGD-HSM vorhandenen Ableitungsschlüssel (S3)</b></p>
    <p>Ein SGD ePA MUSS folgende Vorgaben durchsetzen: Ein SGD-HSM MUSS es ermöglichen über alle im SGD-HSM befindlichen Ableitungsschlüssel (S3) (vgl. A_17910-*) zu iterieren und dabei pro Ableitungsschlüssel das Tupel (dessen Ableitungsschlüsselbezeichner (vgl. A_17920-*), dessen Ableitungsschlüsselprüfwert) auszugeben.<br> Der Ableitungsschlüsselprüfwert eines Ableitungsschlüssels wird erzeugt indem man<br> 
     <ol> 
@@ -1021,7 +1224,7 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <h3 id="4.6">4.6 Betriebsunterstützende Leistungen allgemein</h3>
-  <div id="A_22501">
+  <div id="A_22501" severity="MUSS">
    <p><b>A_22501 - SGD, Betriebsunterstützende Leistungen allgemein</b></p>
    <p>Ein SGD ePA MUSS als Teil des Lieferumfangs SGD-Produkt einem Betreiber des SGD Kommandozeilen-Tools zur Verfügung stellen, die folgende Leistungen ermöglichen.<br> 
     <ol>
@@ -1030,7 +1233,7 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_327">&nbsp;Die RVE ist dafür verantwortlich neu in der TSL aufgeführte Prüfschlüssel automatisch in die SGD-HSM zu importieren (vgl. Abschnitt "<span data-scope="Mainline_OPB1" data-option-id="longoutline" data-item-id="ML-94787" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;"). Die SGD-HSM stellen die Authentiztität der neu importieren Prüfschlüssel über die Signaturprüfung auf Grundlage von schon im SGD-HSM vorhandenen Root- und CA-Schlüsseln sicher. Um im Betrieb zu erkennen, ob dieses Update evtl. fehlerhafter Weise nicht erfolgt ist, wird mit A_22502-* eine automatische Überprüfung (Abgleich Ist-Soll-Stand der Prüfschlüssel in den SGD-HSM) gefordert.</p>
-  <div id="A_22502">
+  <div id="A_22502" severity="MUSS">
    <p><b>A_22502 - SGD, Betrieb, automatisierter Abgleich Ist- und Soll-Wert (S2)-Schlüssel</b></p>
    <p>Der Anbieter eines SGD ePA MUSS sicherstellen, dass der SGD mindestens einmal pro Woche die von der gematik veröffentlichte Liste der öffentlichen (S2)-Zertifikatssignaturprüfschlüssel (Soll-Wert) mit den in den SGD-HSM befindlichen (S2)-Zertifikatssignaturprüfschlüssel abgleicht. Falls es beim Abgleich sich eine Differenz ungleich Null ergibt, so MUSS der Anbieter den Änderungsbedarf analysieren und die fehlenden Prüfschlüssel (vgl. A_22501-* Punkt 2) in den SGD-HSM ergänzen. <b>[&lt;=]</b></p>
   </div>
@@ -1038,13 +1241,13 @@ ol:first-of-type {
   <p id="polarion_328">Die Umsetzung des Fehlererkennungsteils von A_22502 ist in nur wenigen Zeilen Bash-Skript möglich.</p>
   <h2 id="5">5 Kodierung von Schlüsseln und Nachrichten</h2>
   <p id="polarion_202">Im Rahmen des SGD-Protokolls müssen verschiedene Zahlenwerte (Koordinaten von Kurvenpunkten) und Hashwerte (Hashwerte von Schlüsselwerten) kodiert werden. Diese Kodierungen fließen an mehreren Stellen in eine Hashwerterzeugung mit ein. Dabei ist es wichtig, ob bspw. die Zahl 10 als "0xa" oder "0xA" kodiert wird. Analog bei Hashwerten in Hexadezimalform, die in eine Hashwerterzeugung mit einfließen.</p>
-  <div id="A_18249">
+  <div id="A_18249" severity="MUSS">
    <p><b>A_18249 - Groß- und Kleinschreibung von Daten in Hexadezimalform</b></p>
    <p>Ein SGD ePA und ein Client eines SGD ePA MÜSSEN sicherstellen, dass, wenn sie Datenfeld in Hexadezimalform kodieren, sie stets kleine Buchstaben bei der Hexadezimal-Kodierung verwenden (a-f und nicht A-F). <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_170">Gut-Beispiel (vgl. <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94700" data-custom-label="A_17900" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;):</p>
   <p id="polarion_175"><span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"brainpoolP256r1 " +</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"0x3672030bace787aa319e21d40645b2999006beec437fd084dd3fc592f5fcd77c" + " " +</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"0x335b226ce5fac0c36a18ce42e95f43c9eed3e256bdd0c98e55a069595515d15b" + " " +</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"a3a56e51377c1de0bea0522eba3ec6277e3355edb67d48b9852ab7d7e536feb7" + " " +</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"8b2405f41cebaf44d10b2c9025484515b005be5ba785d0c898eae0739a67eb5a"</span></p>
-  <div id="A_18250">
+  <div id="A_18250" severity="MUSS">
    <p><b>A_18250 - keine führenden Nullen bei Punktkoordinaten</b></p>
    <p>Ein SGD ePA und ein Client eines SGD ePA MÜSSEN sicherstellen, dass wenn sie Koordinaten von Kurvenpunkten in Hexadezimalform kodieren, keine führende(n) Null(en) verwenden:<br> OK: "0xa8f217b77338f1d4d6624c3ab4f6cc16d2aa843d0c0fca016b91e2ad25cae39d"<br> Falsch: "0x0a8f217b77338f1d4d6624c3ab4f6cc16d2aa843d0c0fca016b91e2ad25cae39d"<br> Falsch: "0x00a8f217b77338f1d4d6624c3ab4f6cc16d2aa843d0c0fca016b91e2ad25cae39d" <b>[&lt;=]</b></p>
   </div>
@@ -1052,7 +1255,7 @@ ol:first-of-type {
   <h3 id="5.1">5.1 Kodierung von Schlüsseln</h3>
   <h4 id="5.1.1">5.1.1 ECIES-Schlüssel eines SGD-HSM</h4>
   <p id="polarion_216">Bei der Operation GetPublicKey (A_17895-*) muss der aktuelle öffentliche ECIES-Schlüssel (<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-109449" data-custom-label="A_17910-01" id="fake" data-type="workItem" class="polarion-rte-link"></span>&nbsp; (S4))&nbsp;des SGD-HSMs an einen Client versendet werden.</p>
-  <div id="A_17894-01">
+  <div id="A_17894-01" severity="MUSS">
    <p><b>A_17894-01 - SGD, Kodierung des öffentlichen ECIES-Schlüssels + Signatur + Zertifikat</b></p>
    <p>Ein SGD ePA MUSS sicherstellen, dass der signierte öffentliche ECIES-Schlüssel inkl. Zertifikat eines SGD-HSMs in folgender Kodierung übertragen (vgl. Operation GetPublicKey,&nbsp;A_17895-*)&nbsp;wird.<br> <br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">{ "PublicKeyECIES" : "&lt;KurvenID&gt; 0x&lt;X-Koordinate&gt; 0x&lt;Y-Koordinate&gt;",</span><br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp; "Signature" : "... Base64-kodierte-ECDSA-Signatur ...",</span><br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp; "Certificate" : "... Base64-kodiertes Zertifikat vgl.</span> <span style="font-size: 10pt;line-height: 1.5;"><span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17846-01" data-item-id="ML-109456" data-option-id="custom"></span>&nbsp;</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp;und&nbsp;</span><span style="font-size: 10pt;line-height: 1.5;"><span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17918-01" data-item-id="ML-109457" data-option-id="custom"></span>&nbsp;</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp;..." }</span><br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">}</span><br> <br> <b>[&lt;=]</b></p>
   </div>
@@ -1066,13 +1269,13 @@ ol:first-of-type {
    </tbody>
   </table>
   <p id="polarion_209"></p>
-  <div id="A_17899">
+  <div id="A_17899" severity="MUSS">
    <p><b>A_17899 - SGD-Clients, Auswertung der Kodierung des öffentlichen ECIES-Schlüssels eines SGD-HSMs</b></p>
    <p>Ein Client eines SGD ePA MUSS als Antwort auf einen GetPublicKey-Request (A_17895-*) die Kodierung nach&nbsp;<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17894-01" data-item-id="ML-109378" data-option-id="custom"></span>&nbsp; des öffentlichen ECIES-Schlüssels eines SGD-HSMs auswerten können. <b>[&lt;=]</b></p>
   </div>
   <h4 id="5.1.2">5.1.2 ECIES-Schlüssel eines Clients</h4>
   <p id="polarion_207">Das kurzlebige ECIES-Schlüsselpaar eines Clients (ePA-FdV, FM EPA etc.) muss an die aktuellen öffentlichen ECDH-Schlüssel des nun angefragten SGD-HSM "gebunden" werden. Dies geschieht über die Signatur durch die eGK, die alternative Versichertenidentität, die SMC-B oder eine SMC-KTR.</p>
-  <div id="A_17900">
+  <div id="A_17900" severity="MUSS">
    <p><b>A_17900 - SGD-Clients, Kodierung des eigenen kurzlebigen ECIES-Schlüssels</b></p>
    <p>Ein Client eines SGD ePA MUSS für die Kodierung des "PublicKeyECIES"-Feldes folgende Kodierung verwenden (vgl.&nbsp;A_17895-*):<br> <br> "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&lt;KurvenID&gt;" + " " + "0x&lt;X-Koordinate&gt;" + " " + "0x&lt;Y-Koordinate&gt;" + " " + "&lt;SHA-256-Hashwert-PubKey-SGD1-HSM-Hexdump-Form&gt;" + " " + "&lt;SHA-256-Hashwert-PubKey-SGD2-HSM-Hexdump-Form&gt;" </span><br> (vgl. [gemSpec_SGD_ePA#Hinweis zu A_17900]). <b>[&lt;=]</b></p>
   </div>
@@ -1103,12 +1306,12 @@ ol:first-of-type {
     </tr>
    </tbody>
   </table>
-  <div id="A_17901">
+  <div id="A_17901" severity="MUSS">
    <p><b>A_17901 - SGD-Clients, Kodierung der Signatur des eigenen ECIES-Schlüssels</b></p>
    <p>Ein Client eines SGD ePA MUSS die Kodierung des eigenen kurzlebigen ECIES-Schlüssels nach <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17900" data-item-id="ML-94700" data-option-id="custom"></span>&nbsp;signieren (mittels des AUT- oder AUT_ALT-Materials). Diese Signatur MUSS von ihm Base64-kodiert in den Value-Teil des "Signature"-Felds bei der Operation&nbsp;GetAuthenticationToken (A_18025-*) und&nbsp;KeyDerivation&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17898" data-item-id="ML-94696" data-option-id="custom"></span>&nbsp; für einen Request eingetragen werden.<br> <b>[&lt;=]</b></p>
   </div>
   <h3 id="5.2">5.2 Kodierung von Chiffraten</h3>
-  <div id="A_17902">
+  <div id="A_17902" severity="MUSS">
    <p><b>A_17902 - Kontext SGD, Chiffrat-Kodierung beim Nachrichtentransport</b></p>
    <p>Ein SGD ePA und ein Client eines SGD ePA MÜSSEN sicherstellen, dass die in den "EncryptedMessage"-Feldern bei <span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17894-01" data-item-id="ML-109378" data-option-id="custom"></span>&nbsp;&nbsp;(GetAuthenticationToken) und bei <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17898 (KeyDerivation)" data-item-id="ML-94696" data-option-id="custom"></span>&nbsp;kodierten Chiffrate (jeweils bei dem Request und bei der Response) folgendes Format aufweisen:<br> <br> Hilfsdefinitionen:<br> 
     <ol> 
@@ -1127,7 +1330,7 @@ ol:first-of-type {
   <p id="polarion_151"><span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"AT1ce627dd5e4c6536ca0dd93f896744d42c6580537953a49fcc5840dd8f8f4efa&nbsp;</span><span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">7522d04ca28f2c6d3f5a53b2a31aebe1f91f2cfb75145b35c9a01fae7930340c&nbsp;</span><span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">KeyDerivation r2:7f8f77003dbab49c3a4e32f44726f92324d292fa668fde5ebc3424397986be99:107299005A112102647:2-20a1201-001:Bezeichner ACME Q1 2020"</span></p>
   <p id="polarion_160">Dann hat das für den Request vom Client zu erzeugende&nbsp;Chiffrat ("EncryptedMessage"-Feld im Request) folgende Form</p>
   <p id="polarion_169"><span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"brainpoolP256r1" + " " +&nbsp;</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"0x743cf1b8b5cd4f2eb55f8aa369593ac436ef044166699e37d51a14c2ce13ea0e" + " " +</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"0x36ed163337deba9c946fe0bb776529da38df059f69249406892ada097eeb7cd4" + " " +</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"0xa8f217b77338f1d4d6624c3ab4f6cc16d2aa843d0c0fca016b91e2ad25cae39d" + " " +</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"0x4b49cafc7dac26bb0aa2a6850a1b40f5fac10e4589348fb77e65cc5602b74f9d" + " " +</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">"pvUazQKriCfuE5wUX74yj5lvnzygbaUgtP/gAY1aPs1NjXCiWseV4GquSKdMozNoYsfIf0LbdpLwKdUSFYz2dySspGLTUBpmalYz/6G/B5M19y6Ce+TyoLJehTB0TzzAD9pwzVSJFsUiYCUG1KU6SohSjAIxHrebyo7+MYuQAd4uPnZ3ZiDukWglDr/7fTUafAEiF5gS0T+LRcaKimfSmPQjtjomgjn6jfl5u9gSyrAwOTCuVkZpSY6yjI1LjEy2jKRpMov4DiYTCMMbY8fLG1PmBp4SDvoLd7p+2ay9cyx1qYU43/zbxQGfK3nzBtFKMggS+73rHJpCL+0FPYoqTRkSAN17vxRUHCBESUfd9aAar3ZrhMrQwSj/QKnyG6Gg43WHYMjT6znsHxA="</span></p>
-  <div id="A_17903">
+  <div id="A_17903" severity="MUSS">
    <p><b>A_17903 - Kontext SGD, Prüfung der ephemeren ECC-Schlüssel des Senders beim ECIES-Verfahren</b></p>
    <p>Ein SGD ePA und ein Client eines SGD-ePA MÜSSEN sicherstellen, dass sie die beim Empfang einer über das ECIES-Verfahren verschlüsselten Nachricht den vom Sender erzeugten ephemeren ECC-Punkt überprüfen:<br> 
     <ol> 
@@ -1141,7 +1344,7 @@ ol:first-of-type {
   <h3 id="6.1">6.1 Innenschnittstellen</h3>
   <p id="polarion_148">Die Innenschnittstellen zwischen der Request verarbeitende Einheit (RVE) für die eingehenden HTTP-Request und dem SGD-HSM sind SGD-intern. Deren Ausgestaltung bleibt dem Betreiber überlassen.</p>
   <h3 id="6.2">6.2 HTTPS-Schnittstellen und HTTP-Kommunikation</h3>
-  <div id="A_17889">
+  <div id="A_17889" severity="MUSS">
    <p><b>A_17889 - HTTPS-Schnittstelle SGD</b></p>
    <p>Ein SGD ePA MUSS Folgendes sicherstellen:<span style="font-size: 10pt;line-height: 1.5;"><br></span> 
     <ol>
@@ -1153,19 +1356,19 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_188">Genaue Vorgaben für die Verwendung des TLS-Protokolls bei der HTTPS-Schnittstelle befinden sich in [gemSpec_Krypt] und die entsprechenden Anforderungen sind den Produkttypen (Produkttypsteckbrief) zugewiesen.</p>
-  <div id="A_17890">
+  <div id="A_17890" severity="KANN">
    <p><b>A_17890 - HTTPS-Schnittstelle SGD, KANN HTTP/2</b></p>
    <p>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title><p><span>Ein SGD ePA KANN auf dessen HTTPS-Schnittstelle nach&nbsp;</span><span></span><span><span linkid="189" data-type="crossReference" data-option-id="custom" data-item-id="ML-94687" data-custom-label="A_17889" class="polarion-rte-link"></span></span><span></span><span style="text-decoration: underline;"></span><span style="text-decoration: underline;"></span><span>&nbsp;zusätzlich HTTP&nbsp;</span><span>Version 2 (HTTP/2) anbieten.</span></p> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_329">Es kann nicht ausgeschlossen werden, dass aufgrund von Fehlkonfiguration oder Fehlfunktion eines Clients aus der TI sehr viele TCP-Verbindungen in kurzer Zeit zum SGD aufgebaut werden. Dann muss es dem Betreiber möglich sein, diesen Sender temporär durch Verwerfen der IP-Pakete des Senders am Verbindungsaufbau zu hindern.</p>
-  <div id="A_22495">
+  <div id="A_22495" severity="MUSS">
    <p><b>A_22495 - SGD, Firewall, DoS-Schutz</b></p>
    <p>Der Anbieter eines SGD ePA MUSS sicherstellen, dass die Netzwerk-Außenschnittstellen des SGD es erlauben eingehenden Datenverkehr von bestimmten während des Betriebs des SGD konfigurierbaren IP-Adressen zu verwerfen.<span style="background-color: #FFFF99;"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_330">Das ZGdV (vgl.<span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_Zugangsgateway_Vers?selection=ML-93876" data-custom-label="[gemSpec_Zugangsgateway_Vers#Proxy Schlüsselgenerierungsdienst]" id="fake" data-type="polarion" class="polarion-rte-link"></span>) ist im Vergleich zu einem SGD in einer besseren Position, Gegenmaßnahmen gegen DoS-Angriffe aus dem Internet zu ergreifen. Ein SGD kennt nicht die IP-Adresse des Clients – alle Requests kommen von einer IP-Adresse des ZGdV. Deswegen kann ein SGD nur schlecht auf IP-Ebene DoS-Gegenmaßnahmen gegen Clients aus dem Internet ergreifen. Ein SGD kann jedoch die kryptographische Identität des Anfragenden mit hoher Sicherheit schon in der RVE feststellen und bei DoS-Angriffen auf dieser Grundlage Client-spezifische DoS-Gegenmaßnahmen ergreifen.</p>
-  <div id="A_17891">
+  <div id="A_17891" severity="MUSS">
    <p><b>A_17891 - HTTPS-Schnittstelle SGD, DoS-Schutz</b></p>
    <p>Ein SGD ePA MUSS bei seiner HTTPS-Schnittstelle in der Request verarbeitenden Einheit (RVE) Maßnahmen gegen DoS-Angriffe auf Applikation-Ebene umsetzen (vgl. [gemSpec_SGD_ePA#Hinweise zu A_17891]). <b>[&lt;=]</b></p>
   </div>
@@ -1176,7 +1379,7 @@ ol:first-of-type {
   <p id="polarion_257">Ein Herunterpriorisieren oder Ablehnen von Client-Requests auf Applikationsebene kann man effizient bspw. mittels "counting bloom filter" implementieren. Dafür&nbsp;erzeugt der SGD ein ausreichend großes 64-bit-Zählerfeld. Bspw. die letzten 256 Bits der Signatur des AUT-Zertifikats werden beim Eintreffen der schon geprüften Requests über eine (nicht-notwendigerweise kryptographisch sichere, d. h. sehr performante) Hashfunktion auf einen Index des Feldes überführt. Dort wird der Zähler mit dem entsprechenden Index im Feld erhöht. Falls dieser Zählerwert über einem festgelegten Limit ist, wird der Request abgelehnt. Periodisch werden alle Zähler des Zählerfeldes, die größer als Null sind, verringert.</p>
   <p id="polarion_195">Bei der Requestverarbeitung (vgl. Abschnitt <span data-scope="Mainline_OPB1" data-option-id="longoutline" data-item-id="ML-93580" id="fake" data-type="crossReference" class="polarion-rte-link"></span>) meldet das SGD-HSM der RVE verschiedene Fehlerfälle. Treten bei Requests mit bestimmten&nbsp;"Certificate"-Inhalten besonders häufig Fehler auf, so kann die RVE solche Requests für eine gewisse Zeit sperren oder ein Rate-Limiting für solche Requests durchsetzen.</p>
   <p id="polarion_196">Bei bestimmten Arten von DoS-Angriffen kann nur das ZGdV effektiv Gegenmaßnahmen ergreifen (vgl. Kommentar vor <span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94689" data-custom-label="A_17891" id="fake" data-type="crossReference" class="polarion-rte-link"></span>).&nbsp;</p>
-  <div id="A_22505">
+  <div id="A_22505" severity="MUSS">
    <p><b>A_22505 - SGD, HTTPS-Schnittstelle, DoS-Schutz, Unterscheidung der Identitätsklassen</b></p>
    <p>Ein SGD ePA MUS bei der Umsetzung von A_17891-* zwischen drei Nutzergruppen unterscheiden:<br> 
     <ol> 
@@ -1189,24 +1392,24 @@ ol:first-of-type {
   <p id="polarion_332">Es ist davon auszugehen, das SMC-B-Zertifikat über den VZD semi-öffentlich verfügbar sind. Damit kann man mit dem "Certificate"-Feld alleine nicht sicher auf die Identität des anfragenden Client schließen. Da im öffentlichen Client-Schlüssel der Hashwert des aktuell vom Client verwendeten (S4)-Schlüssels enthalten ist und dieser sich alle 15 Minuten ändert, kann man mit hoher Sicherheit davon ausgehen, dass wenn die Signatur des Client-Schlüssel kryptographisch korrekt ist, der Request tatsächlich vom angegebenen Client (SMC-B-AUT-Zertifikat) kommt.</p>
   <p id="polarion_333">Für diese Signaturprüfung ist nach A_22448-* ein Cache zu verwenden. Man kann bei Ankunft eines Requests für GetAuthenticationToken oder KeyDerivation nach einigen Sanity-Check (Signaturfeld leer? Certificate-Feld leer? etc.) den Hashwert von P<span style="color: #202020;">ublicKeyECIES || Signature || Certificate berechnen und den Hashwert als Abfrageschlüssel für den Cache verwenden. Im Cache-Eintrag kann man dann ebenfalls den Zertifikatstyp aufführen. Damit kann man effizient entscheiden welche Nutzergruppe hier vorliegt (welche Datenstruktur jetzt zu befragen ist) und dann das Certificate-Feld oder Teile daraus im weiteren Verlauf in der entsprechenden Datenstruktur (Bloomfilter, Redis-In-Memory-Datenbank etc.) verwenden.</span></p>
   <p id="polarion_334">Hinweis zum Mengengerüst: im Normalfall existierte pro Kasse eine KTR-Identität (KTR-Consumer-Zertifikat), also sehr viel weniger (Faktor &gt; 3000) als LEI-Identitäten (Kontext Dimensierung der damit verbundenere Datenstrukturen).</p>
-  <div id="A_22496">
+  <div id="A_22496" severity="MUSS">
    <p><b>A_22496 - HTTPS-Schnittstelle SGD, DoS-Schutz, SGD-Userpseudonym</b></p>
    <p>Ein SGD ePA MUSS bei seiner HTTPS-Schnittstelle in jedem HTTP-Response-Header die folgende HTTP-Variable mit folgendem Wert aufnehmen:<br> &nbsp; &nbsp; &nbsp; <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SGD-Userpseudonym: reserved for future use</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;background-color: #FFFF99;"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_335">Erläuterung: Über den Weg der regelmäßig wechselnden Nutzerpseudonyme im HTTP-Header wird es in einer zukünftigen Ausbaustufe des SGDs einem SGD ermöglicht den DoS-Schutz noch effizienter umzusetzen (analog zu gemSpec_Krypt#A_20162). Vgl. auch A_22494.</p>
   <h3 id="6.3">6.3 Anforderungen an die JSON-Requests und -Responses</h3>
-  <div id="A_17892">
+  <div id="A_17892" severity="MUSS">
    <p><b>A_17892 - Aufwärtskompatibilität JSON-Requests und -Responses</b></p>
    <p>Alle an einer Kommunikation mit einer SGD beteiligten Parteien (Client, ZGdV, SGD selbst) MÜSSEN sicherstellen, dass die JSON-Datenstrukturen, die bei der Kommunikation übermittelt werden, zusätzliche Key-Value-Paare enthalten können, d. h. ein Beteiligter MUSS ihm unbekannte Key-Value-Paare ignorieren. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17893">
+  <div id="A_17893" severity="MUSS">
    <p><b>A_17893 - Maximale Größe der JSON-Requests und -Responses</b></p>
    <p>Ein SGD ePA und ein Client eines SGD ePA MÜSSEN&nbsp;JSON-Requests und -Responses auf den SGD (GetPublicKey, KeyDerivation) ablehnen, wenn diese größer als 2 MiB sind. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_68">Hinweis zu A_17893:</p>
   <p id="polarion_93">Bei einer Sicherheitsüberprüfung muss u. a. die Validierung von Daten an der Außenschnittstelle betrachtet werden. Dabei unterstützt&nbsp;<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94690" data-custom-label="A_17893" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;.</p>
   <h3 id="6.4">6.4 Operation GetPublicKey</h3>
-  <div id="A_17895-02">
+  <div id="A_17895-02" severity="MUSS">
    <p><b>A_17895-02 - SGD, Operation GetPublicKey</b></p>
    <p>Ein SGD ePA MUSS Folgendes sicherstellen: Wenn über dessen HTTPS-SGD-Schnittstelle (vgl. <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17889" data-item-id="ML-94687" data-option-id="custom"></span>) ein POST-Request mit dem Request-Body nach [gemSpec_SGD_ePA#Tab_GetPublicKey-Request]&nbsp;eintrifft, so MUSS die RVE das Zertifikat im Datenfeld "Certificate" des Requests asynchron prüfen (Prüfung gegen die TSL inkl. Sperrinformationen über OCSP) (vgl. auch [gemSpec_SGD_ePA#Hinweis zu A_17895-*). Unabhängig vom Prüfergebnis MUSS der SGD eines seiner SGD-HSMs auswählen, an das er den zu erwartenden Folgerequest (im Normalfall GetAuthenticationToken) senden möchte. In Bezug auf dieses avisierte SGD-HSM MUSS der SGD den aktuellen signierten öffentlichen ECIES-Schlüssel des SGD-HSMs + Zertifikat nach der in <span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17894-01" data-item-id="ML-109378" data-option-id="custom"></span>&nbsp; angegebenen Kodierung als Antwort senden.<br> <b>[&lt;=]</b></p>
   </div>
@@ -1226,21 +1429,21 @@ ol:first-of-type {
    <li>Es wird außerdem einem SGD ermöglicht, vorab eine Zertifikatsprüfung (Einholen der OCSP-Antworten) durchzuführen (diese OCSP-Antworten werden von dem SGD-HSM benötigt). Diese Zertifikatsprüfung muss die RVE asynchron durchführen, d. h. der SGD darf den Client in Bezug auf die Antwort (der aktuelle signierte ECIES-Schlüssel des für den Client "vorgesehenen" SGD-HSMs)&nbsp;nicht warten lassen.</li>
   </ol>
   <p id="polarion_336">Für weitere Vorgaben und Hinweise in Bezug auf die Zuweisung eines Clients auf ein SGD-HSM aus der Menge der im SGD verfügbaren SGD-HSM durch die RVE vergleiche Abschnitt "<span data-scope="Mainline_OPB1" data-option-id="longoutline" data-item-id="ML-94519" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;".&nbsp;</p>
-  <div id="A_17896">
+  <div id="A_17896" severity="MUSS">
    <p><b>A_17896 - SGD: Vorhalten (caching) von Zertifikatsprüfungen in der RVE</b></p>
    <p>Eine SGD ePA MUSS das Ergebnis einer Zertifikatsprüfung&nbsp;(inkl. OCSP-Response) innerhalb der RVE 4 Stunden vorhalten (cachen) und, falls ein vorgehaltenes Prüfergebnis vorliegt, dieses anstatt einer neuen Zertifikatsprüfung verwenden. Prüfergebnisse, die älter als 4 Stunden sind, MÜSSEN verworfen und gelöscht werden. Falls der Client eine OCSP-Response mit übergeben hat, so MUSS der SGD zunächst diese nutzen. Wenn die&nbsp;OCSP-Response ungültig oder älter als 4 Stunden ist, so MUSS der SGD selbst eine OCSP-Response einholen. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_337">Das in A_17896-* definierte Caching von Sperrinformationen ist die lokale Quelle für die OCSP-Informationen, die die RVE an die SGD-HSM sendet (beim Aufruf von GetAuthenticationToken und KeyDerivation).&nbsp;</p>
   <p id="polarion_98">Wie in Abschnitt <span data-scope="Mainline_OPB1" data-option-id="shortoutline" data-item-id="ML-94496" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;beschrieben, benötigt ein SGD in Bezug auf die Schlüsselableitungsfunktionalität das AUT-Zertifikat des Nutzers und eine OCSP-Response für dieses Zertifikat. Dies bildet die Grundlage des beidseitig authentisierten verschlüsselten Datenkanals zwischen SGD-HSM und Client (vgl. Abschnitt <span data-scope="Mainline_OPB1" data-option-id="shortoutline" data-item-id="ML-94770" id="fake" data-type="crossReference" class="polarion-rte-link"></span>). Ein SGD darf diese beiden Daten nicht längerfristig speichern (<span data-scope="Mainline_OPB1" data-option-id="custom" data-item-id="ML-94843" data-custom-label="A_17965" id="fake" data-type="crossReference" class="polarion-rte-link"></span>). Andere personenbezogenen Daten fallen bei einem SGD nicht an. Da ein Versicherter immer über das ZGdV eine Datenverbindung zu den beiden SGD aufbaut, erfahren beide SGD nicht die vom Versicherten verwendete IP-Adresse.</p>
-  <div id="A_17965">
+  <div id="A_17965" severity="DARF NICHT">
    <p><b>A_17965 - SGD: Löschen der Client-AUT-Zertifikate und OCSP-Responses</b></p>
    <p>Ein SGD ePA DARF NICHT Client-spezifische Daten (also das Client-AUT-Zertifikat oder OCSP-Responses dafür)&nbsp;persistent (also außerhalb des Zeitraums aus <span data-option-id="custom" data-item-id="ML-94695" data-custom-label="A_17896" id="fake" data-type="crossReference" class="polarion-rte-link"></span>)&nbsp;speichern. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17897">
+  <div id="A_17897" severity="MUSS">
    <p><b>A_17897 - SGD-Client, Anfrage GetPublicKey (Client)</b></p>
    <p>Ein Client eines SGD ePA MUSS den aktuellen signierten öffentlichen ECIES-Schlüssel eines SGD-HSMs über die Operation GetPublicKey gemäß&nbsp;A_17895-*&nbsp; erfragen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_18024">
+  <div id="A_18024" severity="MUSS">
    <p><b>A_18024 - SGD-Client, Prüfung SGD-HSM-ECIES-Schlüssel</b></p>
    <p>Ein Client eines SGD ePA MUSS den über die Operation GetPublicKey (A_17895-*) erhaltenen signierten öffentlichen ECIES-Schlüssel eines SGD-HSMs (vgl.A_17894-01)&nbsp;wie folgt prüfen.<br> 
     <ol> 
@@ -1251,11 +1454,11 @@ ol:first-of-type {
     </ol> Wenn einer der Prüfschritte ein FAIL liefert, so MUSS der Client die Verwendung des erhalten Schlüssel (A_17895-*) abbrechen. <b>[&lt;=]</b></p>
   </div>
   <h3 id="6.5">6.5 Operation GetAuthenticationToken</h3>
-  <div id="A_18025-01">
+  <div id="A_18025-01" severity="MUSS">
    <p><b>A_18025-01 - SGD-Client, Anfrage GetAuthenticationToken</b></p>
    <p>Ein Client eines SGD-ePA MUSS, nachdem er den &nbsp;jeweiligen aktuellen öffentlichen SGD-HSM-Schlüssel&nbsp;(<span class="polarion-rte-link" data-type="workItem" id="fake" data-custom-label="A_17910-01" data-item-id="ML-109449" data-option-id="custom"></span>&nbsp;(S4)) für die Nachrichtenübermittelung mittels des ECIES-Verfahrens (vgl. Abschnitt&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-94770" data-option-id="shortoutline"></span>&nbsp;) erfragt (<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17897" data-item-id="ML-94694" data-option-id="custom"></span>) und geprüft (<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18024" data-item-id="ML-96280" data-option-id="custom"></span>) hat, ein Authentisierungstoken über die&nbsp;Operation GetAuthenticationToken (<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18025" data-item-id="ML-96275" data-option-id="custom"></span>) anfordern. <br> <br> Dafür MUSS der Client eine 256-Bit-Zufallszahl als Challenge erzeugen (RND-Client) und in Hexadezimalform kodieren.<br> Weiterhin MUSS der Client den SHA-256-Wert aus der Aneinanderreihung seines Client-spezifischen ECIES-Schlüssels in der Kodierung nach&nbsp;A_17900&nbsp;und des für dessen Signatur verwendeten AUT-Zertifikats (DER-kodiert) berechnen. Dieser Hashwert wird hexadezimal kodiert und wird so kodiert als Wert H bezeichnet.<br> Anschließend MUSS der Client die Zeichenkette "Challenge &lt;RND-Client&gt; &lt;Wert-H&gt;" erzeugen. <br> <br> Beispiel: <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;"> &nbsp; Challenge&nbsp;<span style="font-size: 10pt;line-height: 1.5;">f97cbc538b020d705a960a7e8fa5912c8e202fcf7d6516da3818eff68ce7e00d&nbsp;c4d0613a597826cfdca992d0a02d0ea26667829345033dee158a578cc8524cab<span style="font-size: 11pt;font-family: Arial, Helvetica;line-height: 1.5;"><br> </span></span></span><br> Die Zeichenkette hat damit eine Länge von 9 + 2 + 2*64 = 139 Zeichen.&nbsp;Diese Zeichenkette MUSS der Client über das ECIES-Verfahren gemäß [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_17875" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-94672"></span>] für das SGD-HSM verschlüsseln. Das erhaltene Chiffrat&nbsp;MUSS der Client gemäß&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17902" data-item-id="ML-94703" data-option-id="custom"></span>&nbsp;kodieren und die Kodierung als "EncryptedMessage" bei Operation GetAuthenticationToken (A_18021) verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_18021">
+  <div id="A_18021" severity="MUSS">
    <p><b>A_18021 - SGD, GetAuthenticationToken</b></p>
    <p>Ein SGD ePA MUSS Folgendes sicherstellen: Wenn über dessen HTTPS-SGD-Schnittstelle (vgl. <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17889" data-item-id="ML-94687" data-option-id="custom"></span>) ein POST-Request mit dem Request-Body nach [gemSpec_SGD_ePA#Tab_GetAuthenticationTolken-Request]&nbsp;eintrifft, so MUSS die RVE des SGD<span style="font-family: Arial, Helvetica;"><br> </span> 
     <ol> 
@@ -1273,7 +1476,7 @@ ol:first-of-type {
    </tbody>
   </table>
   <p id="polarion_108"></p>
-  <div id="A_22488">
+  <div id="A_22488" severity="MUSS">
    <p><b>A_22488 - SGD, RVE, Caching der Signaturprüfung der Client-PublicKeyECIES-Schlüssel</b></p>
    <p>Ein SGD ePA (spezifischer: die RVE) muss nach A_18021-* und A_17898-* die Signatur des kurzlebigen Client-Schlüssels "PublicKeyECIES" bei den Operation GetAuthenticationToken und KeyDerivation prüfen. Ein SGD ePA MUSS das Ergebnis der Signaturprüfung cachen. Die "PublicKeyECIES" (vgl. A_17900-*) sind kryptographisch an die kurzlebigen ECIES-Schlüssel (S4) (vgl. Abschnitt <span style="font-size: 10pt;line-height: 1.5;">4.3 Schlüssel im SGD-HSM") gebunden. Das Caching MUSS so lange andauern bis die (S4)-Schlüssel ungültig werden.&nbsp; Das Caching MUSS Maßnahmen gegen DoS-Angriffe umsetzen (Größenlimitierung des Caches, notfalls Einträge nicht in den Cache aufnehmen). Der Zugriff auf die Caching-Ergebnisse MUSS schneller sein als die Signaturprüfung, die es zu cachen gilt. Es sind die Implementierungshinweise nach A_22488-* zu beachten.</span> <b>[&lt;=]</b></p>
   </div>
@@ -1281,7 +1484,7 @@ ol:first-of-type {
   <p id="polarion_339">In jedem SGD-HSM eines SGD wird alle 15 Minuten ein neues (S4)-Schlüsselpaar erzeugt. Das zuvor erzeugte (S4)-Schlüsselpaar ist noch 15 Minuten gültig. Damit gibt es pro SGD-HSM im Normalbetrieb (d. h. nachdem der SGD schon mindestens 30 Minuten am Stück arbeitet) genau zwei gültige (S4)-Schlüsselpaare. Da die "PublicKeyECIES"-Schlüssel jeweils an einen öffentlichen (S4)-Schlüssel pro SGD kryptographisch gebunden sind (vgl. A_17900-*) -- und damit auch dessen Signaturprüfung, kann der Cache als <span style="font-size: 10pt;line-height: 1.5;">Associative Array</span> pro (S4)-Schlüsselpaar in der RVE implementiert werden. Verliert ein alter öffentlicher (S4)-Schlüssel nach 30 Minuten seine Gültigkeit, so kann das mit diesen öffentlichen (S4)-Schlüssel verbundene <span style="font-size: 10pt;line-height: 1.5;">Associative Array&nbsp;</span>komplett verworfen/gelöscht werden.&nbsp;</p>
   <p id="polarion_340">Sollte es der Implementierung dienen, so ist es zulässig, dass der Cache-Mechanismus nach A_22488 pro RZ-Flanke implementiert wird und nicht zwischen den RZ-Flanken synchronisiert wird.</p>
   <p id="polarion_341">In der PoC-Implementierung hat das Caching der Signaturprüfung eine Geschwindigkeitssteigerung der Signaturprüfung für A_18021-* und A_17898-* um dem Faktor 1.9 bis 17.1 je nach Verteilung der simulierten Anfragen ergeben. D.h., bei 0% Mehrfachableitungen in der Simulation der Anfragen, war fast eine Verdoppelung der Geschwindigkeit der Signaturprüfung erreicht. Diese Steigerung hatte bei 90% Mehrfachableitungen (bspw. kurzzeitige Last bei Quartalsende KTR-Consumer) den Faktor 17.1.</p>
-  <div id="A_18028">
+  <div id="A_18028" severity="MUSS">
    <p><b>A_18028 - SGD-Client, Auswertung der Anfrage GetAuthenticationToken</b></p>
    <p>Ein Client eines SGD-ePA MUSS, nachdem er über die Operation GetAuthenticationToken (A_18025-*) ein Authentisierungstoken angefordert hat, die Antwort in "EncryptedMessage" mittels des ECIES-Verfahrens gemäß [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_17875" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-94672"></span>&nbsp;] entschlüsseln.<br> Der Client MUSS prüfen, ob die Antwort folgender Form entspricht:<br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp; &nbsp; Response &lt;vom-Client-hexadezimal-kodierter-256-Bit-Zufallswert&gt; &lt;256-Bit-Wert-H-in-Hexform&gt; AT&lt;256-Bit-Hexadezimal-kodiert&gt;</span><br> Beispiel:<br> <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">&nbsp; &nbsp; Response f97cbc538b020d705a960a7e8fa5912c8e202fcf7d6516da3818eff68ce7e00d c4d0613a597826cfdca992d0a02d0ea26667829345033dee158a578cc8524cab&nbsp;AT1ce627dd5e4c6536ca0dd93f896744d42c6580537953a49fcc5840dd8f8f4efa</span><br> <br> Der Client MUSS prüfen, ob der erste Wert (256-Bit Zufallswert aus der Clientanfrage) genau der Wert aus der Anfrage des Client gemäß&nbsp;A_18025-*&nbsp;ist. Falls nein, so MUSS der Client mit einem Fehler abbrechen und ggf. mit dem Protokollablauf neu starten.&nbsp;<br> <br> Der Client MUSS prüfen, ob der zweite Wert H der SHA-256-Wert aus der Aneinanderreihung seines Client-spezifischen ECIES-Schlüssels in der Kodierung nach&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17900" data-item-id="ML-94700" data-option-id="custom"></span>&nbsp;und des für dessen Signatur verwendeten AUT-Zertifikats (DER-kodiert) ist.<br> Falls nein, so MUSS der Client mit einem Fehler abbrechen und ggf. mit dem Protokollablauf neu starten.&nbsp;<br> <br> Der Client MUSS den zweiten Wert (das Authentisierungstoken) wie folgt prüfen: 
     <ol> 
@@ -1290,11 +1493,11 @@ ol:first-of-type {
     </ol> Falls eine der Prüfungen ein FAIL liefert,&nbsp;so MUSS der Client mit einem Fehler abbrechen und ggf. mit dem Protokollablauf neu starten.&nbsp;<br> Der Client MUSS den Authentisierungstoken für die im Protokollablauf folgenden Aufruf der Operation KeyDerivation (<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17898" data-item-id="ML-94696" data-option-id="custom"></span>&nbsp;) speichern. <br> <b>[&lt;=]</b></p>
   </div>
   <h3 id="6.6">6.6 Operation KeyDerivation</h3>
-  <div id="A_18029">
+  <div id="A_18029" severity="MUSS">
    <p><b>A_18029 - SGD-Client, Anfrage KeyDerivation</b></p>
    <p>Ein Client eines SGD-ePA MUSS, nachdem er über erfolgreich über die Operation GetAuthenticationToken (A_18025-*) ein Authentisierungstoken vom SGD-HSM erhalten hat (vgl.&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18028" data-item-id="ML-96285" data-option-id="custom"></span>&nbsp;), eine Zeichenkette der folgenden Form bilden:<br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp; &nbsp; &lt;Authentisierungstoken&gt; &lt;Request-ID&gt; KeyDerivation &lt;Ableitungsregel&gt;<br> </span><br> Die Request-ID MUSS ein 256-Bit Zufallswert in Hexadezimalform sein (ohne führendes "0x"), den der Client pro Request (KeyDerivation) zufällig erzeugen MUSS. Diese Request-ID MUSS der Client zwischenspeichern (vgl. Prüfung in&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18031-01" data-item-id="ML-102757" data-option-id="custom"></span>&nbsp;&nbsp;).<br> <br> Die Ableitungsregeln MUSS der Client je nach Anwendungsfall (vgl. [gemSpec_SGD_ePA#Abschnitt <span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-94493" data-option-id="shortoutline"></span>&nbsp;ff])&nbsp;gemäß&nbsp;<span style="font-size: 10pt;line-height: 1.5;"><span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17924-01" data-item-id="ML-102756" data-option-id="custom"></span>&nbsp;</span>&nbsp;erzeugen.<br> <br> Diese erzeugte Zeichenkette MUSS der Client über das ECIES-Verfahren gemäß [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_17875" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-94672"></span>] für das SGD-HSM verschlüsseln. Das erhaltene Chiffrat&nbsp;MUSS der Client gemäß&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17902" data-item-id="ML-94703" data-option-id="custom"></span>&nbsp;kodieren und die Kodierung als "EncryptedMessage" bei Operation KeyDerivation (<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17898" data-item-id="ML-94696" data-option-id="custom"></span>&nbsp;) verwenden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17898">
+  <div id="A_17898" severity="MUSS">
    <p><b>A_17898 - SGD, KeyDerivation</b></p>
    <p>Ein SGD ePA MUSS Folgendes sicherstellen: Wenn über dessen HTTPS-SGD-Schnittstelle (vgl. <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17889" data-item-id="ML-94687" data-option-id="custom"></span>&nbsp;) ein POST-Request mit dem Request-Body nach [gemSpec_SGD_ePA#Tab_KeyDerivation-Request]&nbsp;eintrifft, so MUSS die RVE des SGD<span style="font-family: Arial, Helvetica;"><br> </span> 
     <ol> 
@@ -1313,20 +1516,20 @@ ol:first-of-type {
   </table>
   <p id="polarion_211"></p>
   <p id="polarion_342">Hinweis: für das Caching der Signaturprüfung nach A_17898-* gilt ebenfalls A_22488 aus Abschnitt "<span data-scope="Mainline_OPB1" data-option-id="longoutline" data-item-id="ML-96277" id="fake" data-type="crossReference" class="polarion-rte-link"></span>".</p>
-  <div id="A_17888">
+  <div id="A_17888" severity="MUSS">
    <p><b>A_17888 - SGD, KeyDerivation (Client)</b></p>
    <p>Ein Client eines SGD ePA MUSS die Operation KeyDerivation gemäß <span data-option-id="custom" data-item-id="ML-94696" data-custom-label="A_17898" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;umsetzen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_18031-01">
+  <div id="A_18031-01" severity="MUSS">
    <p><b>A_18031-01 - SGD-Client, Auswertung der Anfrage KeyDerivation (1/2)</b></p>
    <p>Ein Client eines SGD-ePA MUSS, nachdem er über die Operation KeyDerivation (&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17898" data-item-id="ML-94696" data-option-id="custom"></span>&nbsp;) die Durchführung einer Schlüsselableitung angefordert hat, die Antwort in "EncryptedMessage" mittels des ECIES-Verfahrens gemäß [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_17875" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-94672"></span>&nbsp;] entschlüsseln.<br> <br> Der Client MUSS prüfen, ob die Antwort folgender&nbsp;Form entspricht:<br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&nbsp; &nbsp; &lt;Authentisierungstoken&gt; &lt;Request-ID&gt; OK-KeyDerivation &lt;256-Bit-AES-Schlüssel-in-Hexform&gt; &lt;Ableitungsvektor&gt;</span><br> Beispiel:<br> <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">&nbsp; &nbsp; AT1ce627dd5e4c6536ca0dd93f896744d42c6580537953a49fcc5840dd8f8f4efa 7522d04ca28f2c6d3f5a53b2a31aebe1f91f2cfb75145b35c9a01fae7930340c&nbsp;OK-KeyDerivation 4a76068ed4796ac5d513ee05c9ff7d007271499f8bd8e04e8146031af576b4dd&nbsp;r2:7f8f77003dbab49c3a4e32f44726f92324d292fa668fde5ebc3424397986be99:107299005A112102647:2-20a1201-001:Bezeichner ACME Q1 2020</span><br> <br> Der Client MUSS prüfen, ob der Authentisierungstoken genau der Token ist, den der Client im Request für KeyDerivation verwendet hat.&nbsp;Falls nein, so MUSS er die erhaltene Antwort verwerfen (i. S. v. er darf insbesondere die erhaltenen Schlüssel nicht nutzen).&nbsp;<br> <br> Der Client MUSS prüfen, ob die Request-ID genau die ist, die der Client für Request für KeyDerivation verwendet hat (zufällig erzeugt hat vgl. <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18029" data-item-id="ML-96286" data-option-id="custom"></span>). Falls nein, so MUSS er die erhaltene Antwort verwerfen (i. S. v. er darf insbesondere die erhaltenen Schlüssel nicht nutzen).&nbsp;&nbsp; <b>[&lt;=]</b></p>
   </div>
-  <div id="A_20977">
+  <div id="A_20977" severity="MUSS">
    <p><b>A_20977 - SGD-Client, Auswertung der Anfrage KeyDerivation (2/2)</b></p>
    <p>Ein Client eines SGD-ePA MUSS, nachdem er die Prüfungen aus A_18031-* durchgeführt hat, folgendes prüfen.<br>Er MUSS prüfen, ob die Ableitungsregel im Ableitungsvektor, der in der Antwort des SGD-HSMs angeführt ist, der Ableitungsregel entspricht die der Client erwartet (siehe folgend).<br>Falls er nicht den erwarteten Wert in der Antwort des SGD-HSMs vorfindet, so MUSS er den Protokoll-Durchlauf abbrechen und MUSS die enthalten Schlüssel ("&lt;256-Bit-AES-Schlüssel-in-Hexform&gt;" aus A_18031-*) verwerfen, d. h.&nbsp;sie nicht für eine Ver-oder Entschlüsselung verwenden.<br> <br>Es gibt 3 Arten von Ableitungsregeln, die ein Client bei der Operation KeyDerivation an ein SGD-HSM senden kann. Jeweils gibt es eine "initiale" Variante bspw.&nbsp;"r1:&lt;KVNR&gt;" und eine Variante für spätere Aufrufe bspw. ""r1:&lt;256-Bit-RND-in-Hexform&gt;:&lt;KVNR&gt;:&lt;Ableitungsschlüsselbezeichner&gt;".<br>Bei den drei Varianten für spätere Aufrufe (<br>"r1:&lt;256-Bit-RND-in-Hexform&gt;:&lt;KVNR&gt;:&lt;Ableitungsschlüsselbezeichner&gt;"<br>"r2:&lt;256-Bit-RND-in-Hexform&gt;:&lt;KVNR-Kontoinhaber&gt;:&lt;KVNR-Vertreter oder Telematik-ID&gt;:&lt;Ableitungsschlüsselbezeichner&gt;"<br>"r3:&lt;256-Bit-RND-in-Hexform&gt;:&lt;KVNR-Kontoinhaber&gt;:&lt;KVNR-Vertreter&gt;:&lt;Telematik-ID&gt;:&lt;Ableitungsschlüsselbezeichner&gt;")<br>erwartet ein Client genau diese Ableitungsregel im Ableitungsvektor in der Antwort des SGD-HSMs. D. h. ein Client führt einfach einen Bitvergleich Gesendete-Ableitungsregel == Empfangene-Ableitungsregel durch.<br>Bei den initialen Varianten (<br>"r1:&lt;KVNR&gt;"<br>"r2:&lt;KVNR-Vertreter oder Telematik-ID&gt;"<br>"r3:&lt;Telematik-ID&gt;:&lt;KVNR-Kontoinhaber&gt;")<br>erwartet der Client die entsprechend mit "&lt;256-Bit-RND-in-Hexform&gt;" und "&lt;aktueller Ableitungsschlüsselbezeichner&gt;" erweiterten Formen. In diesen erweiterten Formen müssen die korrekten Daten aus der initialen Variante -- die der Client initial dem SGD-HSM geschickt hat -- enthalten sein. <b>[&lt;=]</b></p>
   </div>
   <h3 id="6.7">6.7 Fehlermeldungen</h3>
-  <div id="A_18987">
+  <div id="A_18987" severity="MUSS">
    <p><b>A_18987 - SGD, RVE, Fehlermeldungen</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Ein SGD ePA MUSS Folgendes sicherstellen: Die RVE MUSS bei Fehlerfällen die in Tabelle ”Tab_Fehlerfälle_und_Fehlermeldungen” aufgeführten Fehlermeldungen an einen SGD-Client senden. Diese Fehlermeldungen MUSS der SGD wie die anderen Nachrichten des SGD-Protokoll mit dem HTTP-Status-Code 200 (OK) übertragen (vgl. Erläuterung in Abschnitt 6.7.1).</span> <b>[&lt;=]</b></p>
   </div>
@@ -1380,11 +1583,11 @@ ol:first-of-type {
     </tr>
    </tbody>
   </table>
-  <div id="A_18988">
+  <div id="A_18988" severity="MUSS">
    <p><b>A_18988 - SGD-Client, Neustart des Protokolldurchlaufs</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Ein Client eines SGD ePA MUSS wenn er eine Fehlermeldung aus Tabelle [gemSpec_SGD_ePA#Tab_Fehlerfälle_und_Fehlermeldungen] vom SGD erhält, die als "transient" mit "Ja" oder "Vielleicht" in der Tabelle aufgeführt ist, den Protokollablauf neu starten (GetPublicKey etc.).<br> Er MUSS einen Fehler-Zähler führen. Wenn nach 5 Protokoll-Neustarts der Fehler immer noch auftritt, so KANN er abbrechen (Vermeidung von Endlosschleifen).</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_19000">
+  <div id="A_19000" severity="KANN">
    <p><b>A_19000 - SGD, RVE, selbst definierte Fehlermeldungen und erweiterte Statusinformationen</b></p>
    <p>Eine RVE eines SGD ePA KANN weitere Fehlermeldungen analog zu den in Tabelle [gemSpec_SGD_ePA#Tab_Fehlerfälle_und_Fehlermeldungen] aufgeführten Fehlermeldungen für sich definieren und an einen SGD-Client senden. Analog zu <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18987" data-item-id="ML-102143" data-option-id="custom"></span>&nbsp;MÜSSEN diese Fehlermeldungen mit dem HTTP-Status-Code 200 (OK) übertragen werden.<br> Eine RVE KANN jede Fehlermeldungen (<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_18987" data-item-id="ML-102143" data-option-id="custom"></span>&nbsp;und&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_19000" data-item-id="ML-102181" data-option-id="custom"></span>&nbsp;) mit beliebigen JSON-Format-konformen Statusinformationen anreichern. Dabei gilt die Größenbeschränkung aus <span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17893" data-item-id="ML-94690" data-option-id="custom"></span>.<br> Beispiel:<br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;"><span style="font-size: 10pt;line-height: 1.5;">{</span><br> <span style="font-size: 10pt;line-height: 1.5;">&nbsp;"Status": "decryption FAIL",</span><br> <span style="font-size: 10pt;line-height: 1.5;">&nbsp;"Error": {</span><br> <span style="font-size: 10pt;line-height: 1.5;">&nbsp; "Timestamp": "2019-01-15T13:37:42.123Z",</span><br> <span style="font-size: 10pt;line-height: 1.5;">&nbsp; "Trace": {</span><br> <span style="font-size: 10pt;line-height: 1.5;">&nbsp; &nbsp;"LogReference": "550e8400-e29b-11d4-4ffe-446655440000"</span><br> <span style="font-size: 10pt;line-height: 1.5;">&nbsp; }</span><br> <span style="font-size: 10pt;line-height: 1.5;">&nbsp;}</span><br> <span style="font-size: 10pt;line-height: 1.5;">}</span></span> <b>[&lt;=]</b></p>
   </div>
@@ -1397,44 +1600,44 @@ ol:first-of-type {
   <p id="polarion_239"><span style="font-size: 10pt;line-height: 1.5;">gemäß Tabelle Tab_Fehlerfälle_und_Fehlermeldungen&nbsp; und zwar als Teil der HTTP-Response mit HTTP-Status-Code 200 (OK).</span><br><br> <span style="text-decoration: underline;font-size: 10pt;line-height: 1.5;">Beispiel 2, ungültige HTTP-Methode verwendet:&nbsp;</span><br> <span style="font-size: 10pt;line-height: 1.5;">Aus der TI (also ohne Beteiligung des Zugangsgateway des Versicherten) wird ein HTTP-Request an den SGD2 gesendet. Der Client sendet als konstruiertes Beispiel nicht "POST /SGD2 HTTP/1.1" sondern "OST /SGD2 HTTP/1.1" als erste Zeile des HTTP-Requests. Darauf hin antwortet das Webinterface der SGD2 gemäß des HTTP-Protokolls mit HTTP-Status-Code 400 (Bad Request), weil es die Methode „OST“ innerhalb des HTTP-Protokolls nicht gibt.</span></p>
   <h2 id="7">7 Clientspezifische Festlegungen</h2>
   <p id="polarion_75">Ein ePA-FdV, ein FM ePA und ein KTR-Consumer sind Clients eines SGD.</p>
-  <div id="A_17847">
+  <div id="A_17847" severity="MUSS">
    <p><b>A_17847 - Prüfung eines SGD-HSM-Zertifikats (1/2)</b></p>
    <p>Ein Client eines SGD MUSS bei Prüfung eines SGD-HSM-Zertifikats bei bzw. vor der Erzeugung eines Requests an den SGD prüfen, ob das Zertifikat in der TSL innerhalb eines "TSPService"-Eintrags mit dem ServiceTypeIdentifier "http://uri.etsi.org/TrstSvc/Svctype/unspecified" aufgeführt ist und dieses zeitlich aktuell gültig ist.<br> Falls nein, so MUSS das Zertifikat abgelehnt werden und die Verarbeitung des Zertifikats abgebrochen werden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17848">
+  <div id="A_17848" severity="MUSS">
    <p><b>A_17848 - Prüfung eines SGD-HSM-Zertifikats (2/2)</b></p>
    <p>Ein Client eines SGD ePA MUSS, falls bei der Prüfung eines SGD-HSM-Zertifikats ein SGD-1-Zertifikat erwartet wird, prüfen, ob die OID oid_sgd1_hsm [gemSpec_OID] im SGD-HSM-Zertifikat (Kontext Prüfung der Signatur der aktuellen SGD-HSM-ECIES-Schlüssel) aufgeführt ist. <br>Falls nicht, so MUSS das Zertifikat abgelehnt werden.<br>Analog SGD-2-Zertifikat und OID oid_sgd2_hsm. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_130">Verständnishinweis: In&nbsp;<span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_PKI?selection=ML-94225" data-custom-label="[gemSpec_PKI#A_17700]" id="fake" data-type="polarion" class="polarion-rte-link"></span>&nbsp;wird die generelle Auswertbarkeit solcher TSL-Einträge auch thematisiert.</p>
-  <div id="A_17925">
+  <div id="A_17925" severity="MUSS">
    <p><b>A_17925 - SGD-Client, Parallele Anfrage SGD1 und SGD2</b></p>
    <p>Ein Client eines SGD MUSS, um eine höhere Performanz zu erreichen, im Rahmen der Schlüsselableitungsfunktionalität den SGD 1 und den SGD 2 parallel anfragen.<br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_17990">
+  <div id="A_17990" severity="MUSS">
    <p><b>A_17990 - ePA-FdV: Parallele Anfrage SGD1 und SGD2</b></p>
    <p>Ein ePA-FdV MUSS bei der Umsetzung von&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-custom-label="A_17925" data-item-id="ML-94728" data-option-id="custom"></span>&nbsp;die aktuell bestehende TLS-Verbindung zum Zugangsgateway des Versicherten per TLS-Resumption "clonen" (vgl. „third option“ [RFC-5246, S. 40, erster Abschnitt]). Auf einer TLS-Verbindung MUSS das ePA-FdV den SGD 1 anfragen auf der anderen den SGD 2.<br> Sollte das Zugangsgateway eine TLS-Resumption ablehnen, so MUSS der Client, so wie im TLS-Protokoll vorgesehen, einen "full handshake" für den Aufbau der zusätzlichen TLS-Verbindung durchführen. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_194">Hinweis: Für die Vereinfachung der Parallelisierung für ein ePA-FdV gibt es <span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_Zugangsgateway_Vers?selection=ML-93901" data-custom-label="[gemSpec_Zugangsgateway_Vers#A_17495]" id="fake" data-type="polarion" class="polarion-rte-link"></span>&nbsp;.</p>
-  <div id="A_22494">
+  <div id="A_22494" severity="MUSS">
    <p><b>A_22494 - SGD-Client, HTTP-Variable SGD-Userpseudonym</b></p>
    <p>Ein Client eines SGD ePA MUSS bei Erhalt einer SGD-Protokoll-Nachricht prüfen, ob im HTTP-Response-Header eine HTTP-Variable Namens "SGD-Userpseudonym" existiert. Falls ja so MUSS der SGD-Client diese Variable inkl. Wert unverändert im nächsten Request an den SGD im HTTP-Request-Header aufführen.<span style="background-color: #FFFF99;"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_343">Erläuterung: A_22494 wird es in einer zukünftigen Ausbaustufe des SGDs einem SGD erleichtern den DoS-Schutz effizienter umzusetzen (analog zu gemSpec_Krypt#A_20162).</p>
-  <div id="A_18003">
+  <div id="A_18003" severity="MUSS">
    <p><b>A_18003 - SGD-Client, Prüfung der Telematik-ID bei Berechtigungsvergabe</b></p>
    <p>Ein Client eines SGD ePA MUSS folgende Vorgaben umsetzen.<br> Im Rahmen einer Berechtigungsvergabe (vgl. [gemSpec_SGD_ePA#Abschnitt <span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-94494" data-option-id="shortoutline"></span>&nbsp;und <span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-94738" data-option-id="shortoutline"></span>]) kann ein Versicherter oder ein Vertreter eine LEI berechtigen. Dabei muss der Client einen Ableitungsvektor erzeugen, bei dem die Telematik-ID der LEI in den Ableitungsvektor mit einfließen. Dabei MUSS der Client&nbsp;die Telematik-ID der LEI wie folgt prüfen.<br> Falls in der Telematik-ID ein Doppelpunkt (<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">":"</span>, Character 58) enthalten ist, so MUSS der Client die Telematik-ID in Hexadezimalschreibweise (ohne führendes "0x") kodieren und davor ein <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"*"</span>&nbsp;(Character 42) setzen. <br> Beispiel:<br> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"2-20a1201-001:AAB::112"</span>&nbsp;wird zu&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"*<span style="font-size: 10pt;line-height: 1.5;">322d323061313230312d3030313a4141423a3a313132"</span></span><br> Diese Kodierung MUSS der Client bei der Erzeugung der Ableitungsvektoren jeweils bei <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"&lt;TELEMATIK_ID&gt;"</span> verwenden. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_262">Verständnishinweis: Die Vergabe der Telematik-IDs erfolgt durch die LE- und LEI-Organisationen. Nur die ersten drei Zeichen werden durch die Vorgaben aus [gemSpec_PKI#<span data-scope="Mainline_OPB1" data-url="/wiki/Spezifikation/gemSpec_PKI?selection=ML-6894" data-custom-label="Telematik-ID" id="fake" data-type="polarion" class="polarion-rte-link"></span>] festgelegt. Damit kann es theoretisch vorkommen, dass dort nach der 3-ten Stelle der Telematik-ID ein ":" vorkommen könnte, was i. d. R. nicht der Fall ist.</p>
-  <div id="A_18032">
+  <div id="A_18032" severity="MUSS">
    <p><b>A_18032 - SGD-Client, kurzlebigen ECIES-Client-Schlüsselpaar</b></p>
    <p>Ein Client eines SGD MUSS für die parallele Anfrage an beide SGD ein kurzlebiges ECIES-Client-Schlüsselpaar gemäß [gemSpec_Krypt#<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="A_17874" data-url="/wiki/Spezifikation/gemSpec_Krypt?selection=ML-94671"></span>] erzeugen. (Der Client verwendet dasselbe Schlüsselpaar für beide SGD). <b>[&lt;=]</b></p>
   </div>
-  <div id="A_18005">
+  <div id="A_18005" severity="DARF NICHT">
    <p><b>A_18005 - SGD-Client, nur Einmalverwendung des kurzlebigen ECIES-Client-Schlüsselpaars</b></p>
    <p>Ein Client eines SGD DARF sein kurzlebiges ECIES-Client-Schlüsselpaar NICHT für mehr als eine Nutzung der Schlüsselableitungsfunktionalität ePA, also die parallele Anfrage an SGD 1 und SGD 2, nutzen. Für die nächste Nutzung MUSS der Client ein neues ECIES-Client-Schlüsselpaar erzeugen. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_284">Verständnishinweis: sollte der Client keine Antwort (timeout) bspw. vom ZdGV bekommen u. Ä. so darf er die Anfrage mit dem gleichen Schlüsselpaar noch einmal wiederholen. Es geht um die kryptographische Nutzung des Schlüsselpaars, diese darf nur einmal innerhalb eines Protokollablaufs erfolgen. Bei einem folgenden Protokolldurchlauf muss der Client ein neues ECIES-Client-Schlüsselpaar verwenden.</p>
-  <div id="A_18006">
+  <div id="A_18006" severity="MUSS">
    <p><b>A_18006 - SGD-Client, KVNR</b></p>
    <p>Ein Client eines SGD ePA MUSS bei einer Erstellung einer Anfrage für eine Schlüsselableitung (vgl. Abschnitte&nbsp;<span data-option-id="shortoutline" data-item-id="ML-94494" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;und&nbsp;<span data-option-id="shortoutline" data-item-id="ML-94738" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;), im Falle dass dort vom Client initial eine KVNR eingetragen wird (KVNR eines Vertreters, KVNR eines Kontoinhabers im Vertretungsfall), die Variable KVNR bei der Konstruktion der Anfrage gemäß&nbsp;<span data-option-id="custom" data-item-id="ML-94729" data-custom-label="A_17926" id="fake" data-type="crossReference" class="polarion-rte-link"></span>&nbsp;verstehen. <b>[&lt;=]</b></p>
   </div>
@@ -1448,13 +1651,13 @@ ol:first-of-type {
   </ul>
   <p id="polarion_347">Die Anforderung "A_18005, SGD-Client, nur Einmalverwendung des kurzlebigen ECIES-Client-Schlüsselpaars" hat die fachliche Motivation die Frage nach dem Lebenszyklus von sicherheitskritischen Datenobjekten (private kurzlebiger ECIES-Client-Schlüssel und damit verbundenen AuthenticationToken) zu klären und die Implementierung im SGD-Client zu vereinfachen. Das ECIES-Client-Schlüsselpaar wird einmal verwendet und anschließend sofort gelöscht.</p>
   <p id="polarion_348">In den o. g. Anwendungsfällen ist es jedoch aus Performanz-Sicht wünschenswert die Mehrfachverwendung zuzulassen und damit die Kosten des erhöhten Aufwands bezüglich der Überwachung des Lebenszyklus der sicherheitskritischen Datenobjekte im Client zu tragen (wann wurden sie erzeugt, wie lange sind sie noch gültig, wann müssen neue Schlüssel erzeugt werden ...).</p>
-  <div id="A_22497">
+  <div id="A_22497" severity="MUSS">
    <p><b>A_22497 - SGD-Client, Mehrfachableitung (kurzlebiges ECIES-Client-Schlüsselpaar)</b></p>
    <p>Ein Client eines SGD ePA KANN auf die Umsetzung von A_18005-* verzichten, wenn er die sicherheitskritischen Datenobjekte (private kurzlebiger ECIES-Client-Schlüssel und damit verbundenen AuthenticationToken) innerhalb seiner Applikation schützt (sie dürfen in der Applikation nicht zwischen einzelnen Bestandteilen der Applikation transportiert werden) und diese Objekte vor Ablauf deren Gültigkeit (15 Minuten) im Client löscht.<span style="background-color: #FFFF99;"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_349">Durch die Mehrfachableitung sind für einen SGD-Client nach A_22497-* nicht mehr 6 * (Anzahl der abzuleitenden Schlüssel) SGD-Nachrichten notwendig, sondern nur noch 4 + 2*(Anzahl der abzuleitenden Schlüssel) SGD-Nachrichten.</p>
   <p id="polarion_350">Für die Verbesserung der UX in einem ePA-FdV wird die Mehrfachableitung dort vorgeschrieben.</p>
-  <div id="A_23617">
+  <div id="A_23617" severity="MUSS">
    <p><b>A_23617 - ePA-FdV, SGD-Client, Mehrfachableitung</b></p>
    <p>Das ePA-Frontend des Versicherten (ePA-FdV) MUSS<br> 
     <ol> 
@@ -1493,7 +1696,7 @@ ol:first-of-type {
   <p id="polarion_138">Beispiel für ein&nbsp;AssociatedData einer zweiten Verschlüsselungsschicht:</p>
   <p id="polarion_269"><span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">&lt;epa:AssociatedData&gt;</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">cjI6N2Y4Zjc3MDAzZGJhYjQ5YzNhNGUzMmY0NDcyNmY5MjMyNGQyOTJmYTY2OGZkZTVlYmMzNDI0Mzk3OTg2YmU5OTpBMTIzNDU2Nzg5OjItMjBhMTIwMS0wMDE6QWt0ZW5zeXN0ZW0gYSwgU0dEMSwgQmV6ZWljaG5lciAyMDIwLTE=&nbsp;</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">cjI6NWQ2MWQyZTExNTJiNjcxMWJlOTg0OTZjZDZmMGM5YWJkZTRjYzNiMzIwYjRiYWYxMjc2ZTU1MmFhZGU4MDkxMzpBMTIzNDU2Nzg5OjItMjBhMTIwMS0wMDE6U0dEMiBNYXN0ZXJrZXkgMjAyMC0x</span><br> <span style="font-size: 9pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">&lt;/epa:AssociatedData&gt;</span></p>
   <p id="polarion_270">Damit kann ein Client die Ableitungsinformationen von SGD 1 (erster Teil) und von SGD 2 (zweiter Teil) unterscheiden.</p>
-  <div id="A_17930">
+  <div id="A_17930" severity="MUSS">
    <p><b>A_17930 - interoperables Austauschformat Schlüsselableitungsfunktionalität ePA</b></p>
    <p>Ein Client eines SGD ePA MUSS bei einer Kodierung von Akten- und Kontextschlüssel bzw. der Ver-und Entschlüsselung dieses im Kontext der Schlüsselableitungsfunktionalität ePA die in [gemSpec_SGD_ePA#<span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-94583" data-option-id="longoutline"></span>&nbsp;] spezifizierten Formate epa:PHRKey [PHR_Common.xsd] und epa:EncryptedKeyContainer [AuthorizationService.xsd] verwenden. <br> Der Client MUSS bei der zweiten Verschlüsselungsschicht die AD der ersten Schicht (AD 1) im AD der zweiten Schicht (AD 2) mit aufnehmen. Der Client MUSS zunächst AD 1 und dann AD 2 aufführen und beide durch mindestens ein Leerzeichen trennen. Die GMAC-Berechnung MUSS bei der zweiten Verschlüsselung über beide AD (AD1 und AD2) erfolgen (AD1 + AD2 bilden die AD für den AES-GCM). <b>[&lt;=]</b></p>
   </div>
@@ -1796,32 +1999,36 @@ ol:first-of-type {
   <div id="polarion_wiki macro name=tof;params=uid=1" data-sequence="Abbildung"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_27">Abbildung 1: Überblick Zwiebelschalenprinzip bei der Ver- und Entschlüsselung</a></li>
-   <li><a href="#polarion_64">Abbildung 2: beteiligte Komponenten und Dienste im Kontext der Schlüsselableitungsfunktionalität ePA</a></li>
-   <li><a href="#polarion_80">Abbildung 3:&nbsp;Initiale Schlüsselableitung für den Kontoinhaber</a></li>
-   <li><a href="#polarion_87">Abbildung 4:&nbsp;Schlüsselableitung durch den Kontoinhaber</a></li>
-   <li><a href="#polarion_90">Abbildung 5:&nbsp;Schlüsselableitung für einen Berechtigungsempfänger</a></li>
-   <li><a href="#polarion_91">Abbildung 6: Schlüsselableitung durch einen Berechtigten</a></li>
-   <li><a href="#polarion_92">Abbildung 7: Schlüsselableitung für einen Berechtigungsempfänger durch einen Vertreter</a></li>
-   <li><a href="#polarion_96">Abbildung 8: Schlüsselableitung für einen durch einen Vertreter berechtigten Berechtigten</a></li>
-   <li><a href="#polarion_123">Abbildung 9: Strukturelemente eines SGD</a></li>
+   <ul>
+    <li><a href="#polarion_27">Abbildung 1: Überblick Zwiebelschalenprinzip bei der Ver- und Entschlüsselung</a></li>
+    <li><a href="#polarion_64">Abbildung 2: beteiligte Komponenten und Dienste im Kontext der Schlüsselableitungsfunktionalität ePA</a></li>
+    <li><a href="#polarion_80">Abbildung 3:&nbsp;Initiale Schlüsselableitung für den Kontoinhaber</a></li>
+    <li><a href="#polarion_87">Abbildung 4:&nbsp;Schlüsselableitung durch den Kontoinhaber</a></li>
+    <li><a href="#polarion_90">Abbildung 5:&nbsp;Schlüsselableitung für einen Berechtigungsempfänger</a></li>
+    <li><a href="#polarion_91">Abbildung 6: Schlüsselableitung durch einen Berechtigten</a></li>
+    <li><a href="#polarion_92">Abbildung 7: Schlüsselableitung für einen Berechtigungsempfänger durch einen Vertreter</a></li>
+    <li><a href="#polarion_96">Abbildung 8: Schlüsselableitung für einen durch einen Vertreter berechtigten Berechtigten</a></li>
+    <li><a href="#polarion_123">Abbildung 9: Strukturelemente eines SGD</a></li>
+   </ul>
   </div>
   <h3 id="10.4">10.4 Tabellenverzeichnis</h3>
   <div id="polarion_wiki macro name=tof;params=uid=2" data-sequence="Tabelle"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_51">Tabelle&nbsp;1: beteiligte Akteure im Kontext Schlüsselableitungsfunktionalität</a></li>
-   <li><a href="#polarion_258">Tabelle&nbsp;2: beteiligte Komponenten und Dienste&nbsp;im Kontext Schlüsselableitungsfunktionalität</a></li>
-   <li><a href="#polarion_71">Tabelle&nbsp;3: Tab_Übersicht_der_Kommunikationsschritte_eines_SGD-Clients</a></li>
-   <li><a href="#polarion_132">Tabelle&nbsp;4: Tab_Kommandoabarbeitung_im_SGD-HSM</a></li>
-   <li><a href="#polarion_133">Tabelle&nbsp;5: Beispiel zu A_17894</a></li>
-   <li><a href="#polarion_143">Tabelle&nbsp;6: Beispiel zu A_17900</a></li>
-   <li><a href="#polarion_145">Tabelle&nbsp;7: Tab_GetPublicKey-Request</a></li>
-   <li><a href="#polarion_150">Tabelle&nbsp;8: Tab_GetAuthenticationToken-Request</a></li>
-   <li><a href="#polarion_153">Tabelle&nbsp;9: Tab_KeyDerivation-Request</a></li>
-   <li><a href="#polarion_161">Tabelle&nbsp;10: Tab_Fehlerfälle_und_Fehlermeldungen</a></li>
-   <li><a href="#polarion_165">Tabelle&nbsp;11: Tab_Austauschformat_Akten-_und_Kontextschlüssel</a></li>
-   <li><a href="#polarion_168">Tabelle&nbsp;12: Tab_erste_Verschlüsselungsschicht</a></li>
+   <ul>
+    <li><a href="#polarion_51">Tabelle&nbsp;1: beteiligte Akteure im Kontext Schlüsselableitungsfunktionalität</a></li>
+    <li><a href="#polarion_258">Tabelle&nbsp;2: beteiligte Komponenten und Dienste&nbsp;im Kontext Schlüsselableitungsfunktionalität</a></li>
+    <li><a href="#polarion_71">Tabelle&nbsp;3: Tab_Übersicht_der_Kommunikationsschritte_eines_SGD-Clients</a></li>
+    <li><a href="#polarion_132">Tabelle&nbsp;4: Tab_Kommandoabarbeitung_im_SGD-HSM</a></li>
+    <li><a href="#polarion_133">Tabelle&nbsp;5: Beispiel zu A_17894</a></li>
+    <li><a href="#polarion_143">Tabelle&nbsp;6: Beispiel zu A_17900</a></li>
+    <li><a href="#polarion_145">Tabelle&nbsp;7: Tab_GetPublicKey-Request</a></li>
+    <li><a href="#polarion_150">Tabelle&nbsp;8: Tab_GetAuthenticationToken-Request</a></li>
+    <li><a href="#polarion_153">Tabelle&nbsp;9: Tab_KeyDerivation-Request</a></li>
+    <li><a href="#polarion_161">Tabelle&nbsp;10: Tab_Fehlerfälle_und_Fehlermeldungen</a></li>
+    <li><a href="#polarion_165">Tabelle&nbsp;11: Tab_Austauschformat_Akten-_und_Kontextschlüssel</a></li>
+    <li><a href="#polarion_168">Tabelle&nbsp;12: Tab_erste_Verschlüsselungsschicht</a></li>
+   </ul>
   </div>
   <h3 id="10.5">10.5 Referenzierte Dokumente</h3>
   <h4 id="10.5.1">10.5.1 – Dokumente der gematik</h4>

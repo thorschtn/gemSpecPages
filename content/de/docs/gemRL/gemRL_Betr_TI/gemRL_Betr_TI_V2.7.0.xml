@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="GS-A_4090" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97433" revision="564669">
+    <title><![CDATA[Kommunikationssprache]]></title>
+    <description><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN sowohl schriftlich als auch mündlich in 
+deutscher Sprache kommunizieren. Dies gilt insbesondere für die gemäß GS-A_4085 
+festgelegten Kommunikationsschnittstellen und für alle Dokumentationen.]]></description>
+    <description_html><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN sowohl schriftlich als auch mündlich in deutscher Sprache kommunizieren. Dies gilt insbesondere für die gemäß GS-A_4085 festgelegten Kommunikationsschnittstellen und für alle Dokumentationen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3886-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-103306" revision="564669">
+    <title><![CDATA[Nutzung des TI-ITSM-Systems bei der Übermittlung eines übergreifenden Vorgangs]]></title>
+    <description><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN alle übergreifenden Vorgänge, zwecks 
+Informationsübermittlung, im TI-ITSM-System erfassen.]]></description>
+    <description_html><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN alle übergreifenden Vorgänge, zwecks Informationsübermittlung, im TI-ITSM-System erfassen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4085" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97435" revision="564669">
+    <title><![CDATA[Etablierung von Kommunikationsschnittstellen durch die TI-ITSM-Teilnehmer]]></title>
+    <description><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN im Rahmen der übergreifenden Betriebsprozesse 
+mindestens die nachfolgenden Kommunikationsschnittstellen etablieren:
+
+ * Telefon (z.B. zur Rücksprache zu einem TI-ITSM-Vorgang);
+
+ * E-Mail (z.B. zur Übermittlung von Ad-hoc-Reports);
+
+ * TI-ITSM-System zur Informationsübermittlung eines übergreifenden Vorgangs 
+entsprechend GS-A_3886-*.]]></description>
+    <description_html><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN im Rahmen der übergreifenden Betriebsprozesse mindestens die nachfolgenden Kommunikationsschnittstellen etablieren:<br/> <ul><li>Telefon (z.B. zur Rücksprache zu einem TI-ITSM-Vorgang);<br/></li><li>E-Mail (z.B. zur Übermittlung von Ad-hoc-Reports);<br/></li><li>TI-ITSM-System zur Informationsübermittlung eines übergreifenden Vorgangs entsprechend GS-A_3886-*.<span id="polarion-comment:160"></span></li></ul><br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4086" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97436" revision="564669">
+    <title><![CDATA[Erreichbarkeit der Kommunikationsschnittstellen]]></title>
+    <description><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN die Kommunikationsschnittstellen während der 
+festgelegten Servicezeiten erreichbar halten und einer regelmäßigen 
+Eingangsprüfung und Bearbeitung unterziehen.]]></description>
+    <description_html><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN die Kommunikationsschnittstellen während der festgelegten Servicezeiten erreichbar halten und einer regelmäßigen Eingangsprüfung und Bearbeitung unterziehen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4088-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-123864" revision="564669">
+    <title><![CDATA[Benennung von Ansprechpartnern]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN Kontaktdaten von Ansprechpartnern im TI-ITSM-System 
+eintragen und aktuell halten für
+
+ * die Rolle Service Delivery Manager (agiert auch als 1. Eskalationsstufe),
+ * die 2. Eskalationsstufe,
+ * für alle für den TI-ITSM-Teilnehmer relevanten Prozesse gemäß 
+Tabelle gemKPT_Betr#Tab_KPT_Betr_TI_003 Mitwirkungsverpflichtung im TI-ITSM
+ * das Notfall-Management,
+ * die Unternehmenskommunikation (u.a. Krisenkommunikation).
+ * die Informationssicherheit,
+ * den Datenschutz, 
+ * vertragliche und kaufmännische Fragestellungen.Die benannten 
+Ansprechpartner MÜSSEN mit der entsprechenden Fach- und Entscheidungskompetenz 
+ausgestattet sein.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer <span style="color: #172B4D;">MÜSSEN Kontaktdaten von Ansprechpartnern im TI-ITSM-System eintragen und aktuell halten für<span id="polarion-comment:159"></span><br/></span> <ul style="color: #172B4D;"><li>die Rolle Service Delivery Manager (agiert auch als 1. Eskalationsstufe),</li><li>die 2. Eskalationsstufe,</li><li>für alle für den TI-ITSM-Teilnehmer relevanten Prozesse gemäß Tabelle gemKPT_Betr#Tab_KPT_Betr_TI_003 Mitwirkungsverpflichtung im TI-ITSM</li><li>das Notfall-Management,</li><li>die Unternehmenskommunikation (u.a. Krisenkommunikation).</li><li>die Informationssicherheit,</li><li>den Datenschutz, </li><li>vertragliche und kaufmännische Fragestellungen.</li></ul><span style="color: #172B4D;">Die benannten Ansprechpartner MÜSSEN mit der entsprechenden Fach- und Entscheidungskompetenz ausgestattet sein.</span> <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5402" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97439" revision="564669">
+    <title><![CDATA[Eigenverantwortliches Handeln bei Ausfall von Kommunikationsschnittstellen]]></title>
+    <description><![CDATA[Bei Ausfall des TI-ITSM-Systems oder anderer Kommunikationsschnittstellen MUSS 
+die Kommunikation durch die TI-ITSM-Teilnehmer eigenverantwortlich 
+untereinander sichergestellt werden. Vorgänge müssen im TI-ITSM-System 
+nachdokumentiert werden.]]></description>
+    <description_html><![CDATA[Bei Ausfall des TI-ITSM-Systems oder anderer Kommunikationsschnittstellen MUSS die Kommunikation durch die TI-ITSM-Teilnehmer eigenverantwortlich untereinander sichergestellt werden. Vorgänge müssen im TI-ITSM-System nachdokumentiert werden. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5401" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97440" revision="564669">
+    <title><![CDATA[Verschlüsselte E-Mail-Kommunikation]]></title>
+    <description><![CDATA[Der Informationsaustausch per E-Mail zwischen allen TI-ITSM-Teilnehmern MUSS 
+verschlüsselt mittels Secure/Multipurpose Internet Mail Extensions (S/MIME) 
+erfolgen. Das für diese Kommunikation notwendige Zertifikat MUSS vom Eigentümer 
+der E-Mail-Adressen selbst beschafft und allen TI-ITSM-Teilnehmern zur 
+Verfügung gestellt werden.]]></description>
+    <description_html><![CDATA[Der Informationsaustausch per E-Mail zwischen allen TI-ITSM-Teilnehmern MUSS verschlüsselt mittels Secure/Multipurpose Internet Mail Extensions (S/MIME) erfolgen. Das für diese Kommunikation notwendige Zertifikat MUSS vom Eigentümer der E-Mail-Adressen selbst beschafft und allen TI-ITSM-Teilnehmern zur Verfügung gestellt werden. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4095" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97443" revision="564669">
+    <title><![CDATA[Übermittlung von Ad-hoc-Reports]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN den vom Gesamtverantwortlichen TI angeforderten 
+Ad-hoc-Report über die benannte Kommunikationsschnittstelle (entsprechend 
+GS-A_4085) im geforderten Format (entsprechend GS-A_5248, GS-A_5249, GS-A_5608) 
+und Zeitfenster übermitteln.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN den vom Gesamtverantwortlichen TI angeforderten Ad-hoc-Report über die benannte Kommunikationsschnittstelle (entsprechend GS-A_4085) im geforderten Format (entsprechend GS-A_5248, GS-A_5249, GS-A_5608) und Zeitfenster übermitteln. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5343" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97446" revision="564669">
+    <title><![CDATA[Definition inhaltlicher Auszüge aus dem Betriebshandbuch]]></title>
+    <description><![CDATA[Die Auszüge aus dem Betriebshandbuch des TI-ITSM-Teilnehmers MÜSSEN 
+nachfolgende Themen beinhalten:
+
+ * Einführung
+
+ * Betriebliche Rolle und Identifikation
+
+ * Version
+
+ * Freigabe- und Prüfungsverantwortung
+
+ * Ergänzende Dokumente soweit vorhanden
+
+ * Dokumentenstand-Basis
+
+ * Systemüberblick
+
+ * Architektur
+
+ * System
+
+ * Komponenten
+
+ * Aufnahme, Unterbrechung und Beendigung des Betriebes
+
+ * Initiale Aufnahme des Betriebs (insbesondere Reihenfolge, Rahmenbedingungen)
+
+ * (kontrollierte) Unterbrechung des Betriebs (Übergang in den Notbetrieb)
+
+ * Wiederaufnahme des Normalbetriebs (Wiederherstellung des Normalbetriebs)
+
+ * Beendigung des Betriebs (insbesondere Reihenfolge der Abschaltung, 
+Aufräumarbeiten) 
+ * Darstellung des lokalen ITSM (vor- und nachgelagerte Prozesse im Verhältnis 
+zu den übergreifenden ITSM-Prozessen) 
+ * Insbesondere sind hier die in diesen Richtlinien beschriebenen 
+ITSM-Prozesse in den internen Prozessabläufen des Anbieters kompakt 
+darzustellen.
+
+ * Alle weiteren internen ITSM-Prozesse des Anbieters sind aufzulisten und 
+kurz zu beschreiben soweit diese für die Prozesse gemäß diesen Richtlinien 
+begleitend erforderlich sind.
+
+ * Das Ziel der Darstellung ist die korrekte Verzahnung zwischen dem lokalen 
+ITSM und den übergreifenden ITSM-Prozessen.
+
+ * Integration des lokalen ITSM in das übergreifende ITSM der TI 
+(übergreifende Prozesse) 
+ * Die Bedienung der in diesen Richtlinien beschriebenen TI-ITSM-Prozesse 
+durch den Anbieter ist ausführlich zu beschreiben.
+
+ * Schnittstellen und Interaktionen zwischen den internen ITSM-Prozessen des 
+Anbieters und übergreifenden TI-ITSM-Prozessen sind zu dokumentieren.
+
+ * Relevanter Teil des Servicekataloges
+
+ * Nachweis zur Umsetzung der Anforderungen.]]></description>
+    <description_html><![CDATA[Die Auszüge aus dem Betriebshandbuch des TI-ITSM-Teilnehmers MÜSSEN nachfolgende Themen beinhalten: <br/>
+ 
+<ol>
+  <li>Einführung<br/>
+    </li>
+</ol>
+ 
+<ul>
+  <li>Betriebliche Rolle und Identifikation<br/>
+    </li>
+  <li>Version<br/>
+    </li>
+  <li>Freigabe- und Prüfungsverantwortung<br/>
+    </li>
+  <li>Ergänzende Dokumente soweit vorhanden<br/>
+    </li>
+  <li>Dokumentenstand-Basis<br/>
+    </li>
+</ul>
+ 
+<ol class="continue">
+  <li>Systemüberblick<br/>
+    </li>
+</ol>
+ 
+<ul>
+  <li>Architektur<br/>
+    </li>
+  <li>System<br/>
+    </li>
+  <li>Komponenten<br/>
+    </li>
+</ul>
+ 
+<ol class="continue">
+  <li>Aufnahme, Unterbrechung und Beendigung des Betriebes<br/>
+    </li>
+</ol>
+ 
+<ul>
+  <li>Initiale Aufnahme des Betriebs (insbesondere Reihenfolge, Rahmenbedingungen)<br/>
+    </li>
+  <li>(kontrollierte) Unterbrechung des Betriebs (Übergang in den Notbetrieb)<br/>
+    </li>
+  <li>Wiederaufnahme des Normalbetriebs (Wiederherstellung des Normalbetriebs)<br/>
+    </li>
+  <li>Beendigung des Betriebs (insbesondere Reihenfolge der Abschaltung, Aufräumarbeiten) </li>
+</ul>
+<ol class="continue">
+  <li>Darstellung des lokalen ITSM (vor- und nachgelagerte Prozesse im Verhältnis zu den übergreifenden ITSM-Prozessen)</li>
+</ol>
+<ul>
+  <li>Insbesondere sind hier die in diesen Richtlinien beschriebenen ITSM-Prozesse in den internen Prozessabläufen des Anbieters kompakt darzustellen.<br/>
+    </li>
+  <li>Alle weiteren internen ITSM-Prozesse des Anbieters sind aufzulisten und kurz zu beschreiben soweit diese für die Prozesse gemäß diesen Richtlinien begleitend erforderlich sind.<br/>
+    </li>
+  <li>Das Ziel der Darstellung ist die korrekte Verzahnung zwischen dem lokalen ITSM und den übergreifenden ITSM-Prozessen. <br/>
+    </li>
+</ul>
+<ol class="continue">
+  <li>Integration des lokalen ITSM in das übergreifende ITSM der TI (übergreifende Prozesse)</li>
+</ol>
+<ul>
+  <li>Die Bedienung der in diesen Richtlinien beschriebenen TI-ITSM-Prozesse durch den Anbieter ist ausführlich zu beschreiben.<br/>
+    </li>
+  <li>Schnittstellen und Interaktionen zwischen den internen ITSM-Prozessen des Anbieters und übergreifenden TI-ITSM-Prozessen sind zu dokumentieren. <br/>
+    </li>
+</ul>
+<ol class="continue">
+  <li>Relevanter Teil des Servicekataloges<br/>
+    </li>
+  <li>Nachweis zur Umsetzung der Anforderungen. <br/>
+    </li>
+</ol>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4855-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-114340" revision="564669">
+    <title><![CDATA[Auditierung von TI-ITSM-Teilnehmern]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN Auditierungen durch Gesamtverantwortlichen TI zur 
+Überprüfung der Einhaltung von Betriebs- und Produktvorgaben ermöglichen und 
+angemessen unterstützen.
+ Sofern ein TI-ITSM-Teilnehmer bereits gesetzlichen Vorgaben einer Auditierung 
+unterliegt, ihm also eine Prüfung durch eine in der gesetzlichen Vorgabe 
+benannte Instanz vorgeschrieben ist, unterliegt er nicht der Auditierung gemäß 
+dieser Anforderung. Der TI-ITSM-Teilnehmer MUSS die gesetzliche Vorgabe 
+gegenüber dem Gesamtverantwortlichen TI benennen. Fachdienste VSDM, KTR-AdV und 
+KTR-Consumer sind von dieser Anforderung ausgeschlossen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN Auditierungen durch Gesamtverantwortlichen TI zur Überprüfung der Einhaltung von Betriebs- und Produktvorgaben ermöglichen und angemessen unterstützen.<br/>
+ Sofern ein TI-ITSM-Teilnehmer bereits gesetzlichen Vorgaben einer Auditierung unterliegt, ihm also eine Prüfung durch eine in der gesetzlichen Vorgabe benannte Instanz vorgeschrieben ist, unterliegt er nicht der Auditierung gemäß dieser Anforderung. Der TI-ITSM-Teilnehmer MUSS die gesetzliche Vorgabe gegenüber dem Gesamtverantwortlichen TI benennen. Fachdienste VSDM, KTR-AdV und KTR-Consumer sind von dieser Anforderung ausgeschlossen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3917" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97449" revision="564669">
+    <title><![CDATA[Bereitstellung der ITSM-Dokumentation bei Audits]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei der Durchführung von Audits auf Verlangen alle 
+relevanten Informationen (z.B. TI-ITSM relevante Tickets im ITSM-System) im 
+Rahmen der Umsetzung bzw. Erfüllung der betrieblichen Anforderungen 
+bereitstellen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei der Durchführung von Audits auf Verlangen alle relevanten Informationen (z.B. TI-ITSM relevante Tickets im ITSM-System) im Rahmen der Umsetzung bzw. Erfüllung der betrieblichen Anforderungen bereitstellen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3920" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97452" revision="564669">
+    <title><![CDATA[Eskalationseinleitung durch den TI-ITSM-Teilnehmer]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei übergreifenden Vorgängen eine hierarchische 
+Eskalation an den Gesamtverantwortlichen TI einleiten, wenn einer der 
+nachfolgenden Aspekte zutrifft:
+
+ * es kann kein serviceverantwortlicher TI-ITSM-Teilnehmer (entsprechend 
+[gemKPT_Betr#Tab_KPT_Betr_TI_002]) ermittelt werden
+ ODER 
+
+ * es kann keine Einigung über die Serviceverantwortung für den übergreifenden 
+Vorgang mit anderen TI-ITSM-Teilnehmern erzielt werden
+ ODER 
+
+ * es kann keine Einigung über die Lösungsunterstützung für den übergreifenden 
+Vorgang mit anderen TI-ITSM-Teilnehmern erzielt werden
+ ODER 
+
+ * es treten bei der Bewertung oder Durchführung eines Produkt-Changes 
+schwerwiegende Konflikte auf
+ ODER 
+
+ * es ist zur Gewährleistung der Performance, Sicherheit und Stabilität der 
+zentralen und dezentralen Produkte eine übergeordnete Koordination notwendig.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei übergreifenden Vorgängen eine hierarchische Eskalation an den Gesamtverantwortlichen TI einleiten, wenn einer der nachfolgenden Aspekte zutrifft:<br/>
+ 
+<ul>
+  <li>es kann kein serviceverantwortlicher TI-ITSM-Teilnehmer (entsprechend [gemKPT_Betr#Tab_KPT_Betr_TI_002]) ermittelt werden<br/>
+    </li>
+</ul>
+ ODER <br/>
+ 
+<ul>
+  <li>es kann keine Einigung über die Serviceverantwortung für den übergreifenden Vorgang mit anderen TI-ITSM-Teilnehmern erzielt werden <br/>
+    </li>
+</ul>
+ ODER <br/>
+ 
+<ul>
+  <li>es kann keine Einigung über die Lösungsunterstützung für den übergreifenden Vorgang mit anderen TI-ITSM-Teilnehmern erzielt werden <br/>
+    </li>
+</ul>
+ ODER <br/>
+ 
+<ul>
+  <li>es treten bei der Bewertung oder Durchführung eines Produkt-Changes schwerwiegende Konflikte auf <br/>
+    </li>
+</ul>
+ ODER <br/>
+ 
+<ul>
+  <li>es ist zur Gewährleistung der Performance, Sicherheit und Stabilität der zentralen und dezentralen Produkte eine übergeordnete Koordination notwendig. </li>
+</ul>
+<div style="margin-left: 40px;">
+  <span style="text-decoration: line-through;background-color: #FFFF00;"> </span> 
+</div>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3922" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97454" revision="564669">
+    <title><![CDATA[Mitwirkung bei Taskforces]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei Aufforderung durch den Gesamtverantwortlichen TI 
+an einer Taskforce zur Behebung von übergreifenden Vorgängen mit der Priorität 
+1 oder 2 teilnehmen, der Taskforce gemäß der zeitlichen Vorgabe der 
+Aufforderung beitreten, die Lösungsfindung und die Erstellung des 
+Abschlussberichtes unterstützen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei Aufforderung durch den Gesamtverantwortlichen TI an einer Taskforce zur Behebung von übergreifenden Vorgängen mit der Priorität 1 oder 2 teilnehmen, der Taskforce gemäß der zeitlichen Vorgabe der Aufforderung beitreten, die Lösungsfindung und die Erstellung des Abschlussberichtes unterstützen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3876" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97461" revision="564669">
+    <title><![CDATA[Prüfung auf übergreifenden Incident]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jeden gemeldeten Incident dahingehend prüfen, ob es 
+sich um einen übergreifenden Incident handelt, für den zur Incident-Lösung die 
+serviceverantwortlichen und/oder lösungsunterstützenden TI-ITSM-Teilnehmer 
+und/oder der Gesamtverantwortliche TI herangezogen werden sollen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jeden gemeldeten Incident dahingehend prüfen, ob es sich um einen übergreifenden Incident handelt, für den zur Incident-Lösung die serviceverantwortlichen und/oder lösungsunterstützenden TI-ITSM-Teilnehmer und/oder der Gesamtverantwortliche TI herangezogen werden sollen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5449" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97463" revision="564669">
+    <title><![CDATA[Typisierung eines übergreifenden Incidents als „sicherheitsrelevant“]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN einen Vorgang als „sicherheitsrelevant“ markieren, 
+wenn die Vertraulichkeit bzw. Integrität eines schutzbedürftigen 
+Informationsobjektes gefährdet ist.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN einen Vorgang als „sicherheitsrelevant“ markieren, wenn die Vertraulichkeit bzw. Integrität eines schutzbedürftigen Informationsobjektes gefährdet ist. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5450" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97464" revision="564669">
+    <title><![CDATA[Typisierung eines übergreifenden Incidents als „datenschutzrelevant“]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN eine Störung als „datenschutzrelevant“ markieren, 
+wenn personenbezogene Daten gemäß Art. 4 Nr. 1 DSGVO betroffen sind.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN eine Störung als „datenschutzrelevant“ markieren, wenn personenbezogene Daten gemäß Art. 4 Nr. 1 DSGVO betroffen sind. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4125" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97465" revision="564669">
+    <title><![CDATA[TI-Notfallerkennung]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN potenzielle TI-Notfälle im operativen Betrieb im 
+Rahmen des Incident Managements feststellen. Potenzielle TI-Notfälle werden als 
+Incidents der Priorität 1 mit Kennzeichnung „TI-Notfall“ klassifiziert.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN potenzielle TI-Notfälle im operativen Betrieb im Rahmen des Incident Managements feststellen. Potenzielle TI-Notfälle werden als Incidents der Priorität 1 mit Kennzeichnung „TI-Notfall“ klassifiziert. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3884" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97466" revision="564669">
+    <title><![CDATA[Festlegung von Dringlichkeit und Auswirkung von übergreifenden Incidents]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN zur Ermittlung der Priorität eines übergreifenden 
+Incidents die beiden Faktoren „Dringlichkeit“ und „Auswirkung“ festlegen.
+
+Tabelle #: Tab_Betr_TIP_026 INC – Festlegung der Dringlichkeit
+
+Dringlichkeit
+Beschreibung
+
+Hoch
+
+ * Durch die Störung stehen die bereitgestellten Leistungen (und/oder 
+Funktionen) nicht zur Verfügung bzw. nur so eingeschränkt, dass die Nutzung des 
+Services nicht zumutbar ist.
+
+ * Die Sicherheit der TI ist nicht mehr gewährleistet.
+
+ * Die Störung der bereitgestellten Leistungen (und/oder Funktionen) lässt 
+sich nicht durch eine Umgehungslösung unmittelbar beseitigen.
+
+Mittel
+
+ * Durch die Störung stehen bereitgestellte Leistungen (und/oder Funktionen) 
+erheblich eingeschränkt zur Verfügung. Die Nutzung des Services ist jedoch mit 
+Einschränkungen möglich.
+
+ * Es ist absehbar, dass sich die Störung ausweitet, wenn keine Gegenmaßnahmen 
+ergriffen werden.
+
+Niedrig
+
+ * Durch die Störung stehen die bereitgestellten Leistungen (und/oder 
+Funktionen) mit leichten Einschränkungen zur Verfügung.
+
+ * Der von dem Incident verursachte Schaden nimmt im Verlauf der Zeit nicht 
+oder nur unwesentlich zu.
+
+
+Tabelle #: Tab_Betr_TIP_027 INC – Festlegung von Auswirkung
+
+Auswirkung
+Beschreibung
+
+Hoch
+
+ * Es liegt ein Ausfall gemäß [gemSpec_Perf#2.3] vor.
+
+ * Der durch die Störung verursachte Schaden weitet sich schnell aus, falls 
+nicht unmittelbar eine Lösung bereitgestellt werden kann.
+
+ * Die Störung führt zu Verletzung gesetzlicher Vorschriften, wie z.B. aus 
+Datenschutz und Informationssicherheit.
+
+ * Die Störung hat eine hohe Auswirkung in der öffentlichen Wahrnehmung und 
+führt zu einem erheblichen Imageverlust der TI.
+
+Mittel
+
+ * Der vom TI-ITSM-Teilnehmer verantwortete Service ist nur mit sehr starken 
+Einschränkungen nutzbar.
+
+ * Die Störung kann zu Verletzung gesetzlicher Vorschriften führen, wie z.B. 
+aus Datenschutz und Informationssicherheit.
+
+Niedrig
+
+ * Der vom TI-ITSM-Teilnehmer verantwortete Service ist nur mit 
+Einschränkungen nutzbar.
+
+ * Eine Verletzung gesetzlicher Vorschriften ist nicht gegeben.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN zur Ermittlung der Priorität eines übergreifenden Incidents die beiden Faktoren „Dringlichkeit“ und „Auswirkung“ festlegen. <br/> <p class="polarion-rte-caption-paragraph" data-keep-next="true">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: Tab_Betr_TIP_026 INC – Festlegung der Dringlichkeit</p><table style="width: 445pt;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"><tbody><tr><td style="background-color: #E0E0E0;vertical-align: bottom;width: 129pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Dringlichkeit</span><br/></td><td style="background-color: #E0E0E0;vertical-align: bottom;width: 315pt;height: 13pt;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Beschreibung</span><br/></td></tr><tr><td style="vertical-align: top;width: 129pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Hoch</span><br/></td><td style="vertical-align: bottom;width: 315pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><ul><li><span style="font-size: 10pt;line-height: 1.5;">Durch die Störung stehen die bereitgestellten Leistungen (und/oder Funktionen) nicht zur Verfügung bzw. nur so eingeschränkt, dass die Nutzung des Services nicht zumutbar ist.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Die Sicherheit der TI ist nicht mehr gewährleistet.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Die Störung der bereitgestellten Leistungen (und/oder Funktionen) lässt sich nicht durch eine Umgehungslösung unmittelbar beseitigen.</span><br/></li></ul></td></tr><tr><td style="vertical-align: top;width: 129pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Mittel</span><br/></td><td style="vertical-align: bottom;width: 315pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><ul><li><span style="font-size: 10pt;line-height: 1.5;">Durch die Störung stehen bereitgestellte Leistungen (und/oder Funktionen) erheblich eingeschränkt zur Verfügung. Die Nutzung des Services ist jedoch mit Einschränkungen möglich.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Es ist absehbar, dass sich die Störung ausweitet, wenn keine Gegenmaßnahmen ergriffen werden.</span><br/></li></ul></td></tr><tr><td style="vertical-align: top;width: 129pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Niedrig</span><br/></td><td style="vertical-align: bottom;width: 315pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><ul><li><span style="font-size: 10pt;line-height: 1.5;">Durch die Störung stehen die bereitgestellten Leistungen (und/oder Funktionen) mit leichten Einschränkungen zur Verfügung.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Der von dem Incident verursachte Schaden nimmt im Verlauf der Zeit nicht oder nur unwesentlich zu.</span><br/></li></ul></td></tr></tbody></table><br/> <p class="polarion-rte-caption-paragraph" data-keep-next="true">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: Tab_Betr_TIP_027 INC – Festlegung von Auswirkung</p><table style="width: 445pt;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;"><tbody><tr><td style="background-color: #E0E0E0;vertical-align: bottom;width: 129pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Auswirkung</span><br/></td><td style="background-color: #E0E0E0;vertical-align: bottom;width: 315pt;height: 13pt;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Beschreibung</span><br/></td></tr><tr><td style="vertical-align: top;width: 129pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Hoch</span><br/></td><td style="vertical-align: bottom;width: 315pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><ul><li><span style="font-size: 10pt;line-height: 1.5;">Es liegt ein Ausfall gemäß [gemSpec_Perf#2.3] vor.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Der durch die Störung verursachte Schaden weitet sich schnell aus, falls nicht unmittelbar eine Lösung bereitgestellt werden kann.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Die Störung führt zu Verletzung gesetzlicher Vorschriften, wie z.B. aus Datenschutz und Informationssicherheit.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Die Störung hat eine hohe Auswirkung in der öffentlichen Wahrnehmung und führt zu einem erheblichen Imageverlust der TI.</span><br/></li></ul></td></tr><tr><td style="vertical-align: top;width: 129pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Mittel</span><br/></td><td style="vertical-align: bottom;width: 315pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><ul><li><span style="font-size: 10pt;line-height: 1.5;">Der vom TI-ITSM-Teilnehmer verantwortete Service ist nur mit sehr starken Einschränkungen nutzbar.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Die Störung kann zu Verletzung gesetzlicher Vorschriften führen, wie z.B. aus Datenschutz und Informationssicherheit.</span><br/></li></ul></td></tr><tr><td style="vertical-align: top;width: 129pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Niedrig</span><br/></td><td style="vertical-align: bottom;width: 315pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><ul><li><span style="font-size: 10pt;line-height: 1.5;">Der vom TI-ITSM-Teilnehmer verantwortete Service ist nur mit Einschränkungen nutzbar.</span><br/></li><li><span style="font-size: 10pt;line-height: 1.5;">Eine Verletzung gesetzlicher Vorschriften ist nicht gegeben.</span><br/></li></ul></td></tr></tbody></table><br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3902" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97469" revision="564669">
+    <title><![CDATA[Prüfung auf Serviceverantwortung]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jeden an sie gerichteten übergreifenden Incident 
+dahingehend prüfen, ob der Incident in der eigenen Serviceverantwortung liegt.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jeden an sie gerichteten übergreifenden Incident dahingehend prüfen, ob der Incident in der eigenen Serviceverantwortung liegt.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3904" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97470" revision="564669">
+    <title><![CDATA[Annahme eines übergreifenden Incidents]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN einen übergreifenden Incident annehmen, wenn sie die 
+Serviceverantwortung haben.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN einen übergreifenden Incident annehmen, wenn sie die Serviceverantwortung haben. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3905" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97471" revision="564669">
+    <title><![CDATA[Ablehnung eines übergreifenden Incidents]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Ablehnung eines übergreifenden Incidents mit 
+einer qualifizierten Rückmeldung an den meldenden TI-ITSM-Teilnehmer versehen, 
+aus der nachvollziehbar zu entnehmen ist, warum keine Bearbeitung erfolgen kann.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Ablehnung eines übergreifenden Incidents mit einer qualifizierten Rückmeldung an den meldenden TI-ITSM-Teilnehmer versehen, aus der nachvollziehbar zu entnehmen ist, warum keine Bearbeitung erfolgen kann.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3907" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97473" revision="564669">
+    <title><![CDATA[Lösung von übergreifenden Incidents]]></title>
+    <description><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer MUSS nach erfolgter Erstellung 
+bzw. Annahme eines übergreifenden Incidents unverzüglich mit der 
+Incident-Bearbeitung beginnen und – innerhalb der vereinbarten Lösungszeiten – 
+eine Lösung für den Incident herbeiführen und diesen beheben.]]></description>
+    <description_html><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer MUSS nach erfolgter Erstellung bzw. Annahme eines übergreifenden Incidents unverzüglich mit der Incident-Bearbeitung beginnen und – innerhalb der vereinbarten Lösungszeiten – eine Lösung für den Incident herbeiführen und diesen beheben. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_18403" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-100045" revision="564669">
+    <title><![CDATA[Erstellung einer Root Cause Analysis im Incident - Prio 1]]></title>
+    <description><![CDATA[Lösungsverantwortliche TI-ITSM-Teilnehmer MÜSSEN spätestens mit der Lösung 
+einer Incidents der Priorität 1 mit einer Root Cause Analysis beginnen, dafür 
+das vom Gesamtverantwortlichen der TI bereitgestellte Formular nutzen und 
+anschließend ausgefüllt an ihn übermitteln. ]]></description>
+    <description_html><![CDATA[Lösungsverantwortliche TI-ITSM-Teilnehmer MÜSSEN spätestens mit der Lösung einer Incidents der Priorität 1 mit einer Root Cause Analysis beginnen, dafür das vom Gesamtverantwortlichen der TI bereitgestellte Formular nutzen und anschließend ausgefüllt an ihn übermitteln. ]]></description_html>
+  </requirement>
+  <requirement id="A_18404" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-100046" revision="564669">
+    <title><![CDATA[Erstellung einer Root Cause Analysis im Incident - Prio 2 bis 4]]></title>
+    <description><![CDATA[Lösungsverantwortliche MÜSSEN bei Incidents der Priorität 2, 3 oder 4 auf 
+Anfrage des Gesamtverantwortlichen der TI mit einer Root Cause Analysis 
+beginnen, dafür das von ihm bereitgestellte Formular nutzen und anschließend 
+ausgefüllt an ihn übermitteln.]]></description>
+    <description_html><![CDATA[Lösungsverantwortliche MÜSSEN bei Incidents der Priorität 2, 3 oder 4 auf Anfrage des Gesamtverantwortlichen der TI mit einer Root Cause Analysis beginnen, dafür das von ihm bereitgestellte Formular nutzen und anschließend ausgefüllt an ihn übermitteln.]]></description_html>
+  </requirement>
+  <requirement id="A_18405" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-100047" revision="564669">
+    <title><![CDATA[Erstellung einer Root Cause Analysis durch am Incident beteiligte TI-ITSM-Teilnehmer]]></title>
+    <description><![CDATA[Am Incident beteiligte TI-ITSM-Teilnehmer MÜSSEN auf Anfrage des 
+Gesamtverantwortlichen der TI mit der Erstellung einer Root Cause Analysis 
+beginnen, dafür das vom Gesamtverantwortlichen der TI bereitgestellte Formular 
+nutzen und anschließend ausgefüllt an ihn übermitteln.]]></description>
+    <description_html><![CDATA[Am Incident beteiligte TI-ITSM-Teilnehmer MÜSSEN auf Anfrage des Gesamtverantwortlichen der TI mit der Erstellung einer Root Cause Analysis beginnen, dafür das vom Gesamtverantwortlichen der TI bereitgestellte Formular nutzen und anschließend ausgefüllt an ihn übermitteln.]]></description_html>
+  </requirement>
+  <requirement id="A_18406" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-100048" revision="564669">
+    <title><![CDATA[Nachlieferung zu einer Root Cause Analysis]]></title>
+    <description><![CDATA[Lösungsverantwortliche TI-ITSM-Teilnehmer MÜSSEN auf Rückfrage des 
+Gesamtverantwortlichen der TI Informationen zur Root Cause Analysis nachreichen.]]></description>
+    <description_html><![CDATA[Lösungsverantwortliche TI-ITSM-Teilnehmer MÜSSEN auf Rückfrage des Gesamtverantwortlichen der TI Informationen zur Root Cause Analysis nachreichen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5587" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97475" revision="564669">
+    <title><![CDATA[Ablehnung der Lösungsunterstützung bei einem übergreifenden Incident]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer, die die Lösungsunterstützung eines übergreifenden Incidents 
+ablehnen, MÜSSEN dies mit einer qualifizierten Rückmeldung an den anfragenden 
+TI-ITSM-Teilnehmer durchführen, aus der nachvollziehbar zu entnehmen ist, warum 
+keine Lösungsunterstützung möglich ist.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer, die die Lösungsunterstützung eines übergreifenden Incidents ablehnen, MÜSSEN dies mit einer qualifizierten Rückmeldung an den anfragenden TI-ITSM-Teilnehmer durchführen, aus der nachvollziehbar zu entnehmen ist, warum keine Lösungsunterstützung möglich ist. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5400" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97477" revision="564669">
+    <title><![CDATA[Prüfung der Lösung durch den Melder eines übergreifenden Incidents]]></title>
+    <description><![CDATA[Der meldende TI-ITSM-Teilnehmer MUSS die ihm vorgelegte Lösung des 
+übergreifenden Incidents prüfen und sein Ergebnis dem serviceverantwortlichen 
+TI-ITSM-Teilnehmer innerhalb der Verifikationsfrist (entsprechend 
+[gemKPT_Betr#TIP1-A_7265-03]) über das TI-ITSM-System mitteilen.]]></description>
+    <description_html><![CDATA[Der meldende TI-ITSM-Teilnehmer MUSS die ihm vorgelegte Lösung des übergreifenden Incidents prüfen und sein Ergebnis dem serviceverantwortlichen TI-ITSM-Teilnehmer innerhalb der Verifikationsfrist (entsprechend [gemKPT_Betr#TIP1-A_7265-03])<span id="polarion-comment:167"></span> über das TI-ITSM-System mitteilen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5250" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97478" revision="564669">
+    <title><![CDATA[Ablehnung der Lösung eines übergreifenden Incidents]]></title>
+    <description><![CDATA[Wird die Lösung eines Incidents durch den meldenden TI-ITSM-Teilnehmer 
+abgelehnt MUSS der serviceverantwortliche TI-ITSM-Teilnehmer den übergreifenden 
+Incident erneut bearbeiten, die Messung der Lösungszeit wird dann fortgesetzt.]]></description>
+    <description_html><![CDATA[Wird die Lösung eines Incidents durch den meldenden TI-ITSM-Teilnehmer abgelehnt MUSS der serviceverantwortliche TI-ITSM-Teilnehmer den übergreifenden Incident erneut bearbeiten, die Messung der Lösungszeit wird dann fortgesetzt. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3888" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97480" revision="564669">
+    <title><![CDATA[Verifikation vor Schließung eines übergreifenden Incident]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN vor der Schließung einer übergreifenden 
+Incident-Dokumentation sicherstellen, dass der Incident behoben ist.
+ Ist der Incident nicht behoben, dann ist der bestehende Incident 
+weiterzubearbeiten. Es beginnt keine erneute Lösungszeit.
+ Liegt nach Ablauf der Verifikationsfrist (entsprechend 
+[gemKPT_Betr#TIP1-A_7265-03]) keine Rückmeldung durch den meldenden 
+TI-ITSM-Teilnehmer vor, KANN der übergreifende Incident geschlossen werden.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN vor der Schließung einer übergreifenden Incident-Dokumentation sicherstellen, dass der Incident behoben ist. <br/>
+ Ist der Incident nicht behoben, dann ist der bestehende Incident weiterzubearbeiten. Es beginnt keine erneute Lösungszeit.<br/>
+ Liegt nach Ablauf der Verifikationsfrist (entsprechend [gemKPT_Betr#TIP1-A_7265-03])<span id="polarion-comment:168"></span> keine Rückmeldung durch den meldenden TI-ITSM-Teilnehmer vor, KANN der übergreifende Incident geschlossen werden. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3889" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97481" revision="564669">
+    <title><![CDATA[Schließung eines übergreifenden Incidents]]></title>
+    <description><![CDATA[Serviceverantwortliche TI-ITSM-Teilnehmer MÜSSEN nach verifizierter Behebung 
+der Störung die Dokumentation eines übergreifenden Incidents abschließend 
+bearbeiten und diesen Incident schließen.]]></description>
+    <description_html><![CDATA[Serviceverantwortliche TI-ITSM-Teilnehmer MÜSSEN nach verifizierter Behebung der Störung die Dokumentation eines übergreifenden Incidents abschließend bearbeiten und diesen Incident schließen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3958" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97496" revision="564669">
+    <title><![CDATA[Problemerkennung durch TI-ITSM-Teilnehmer]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN geeignete Maßnahmen implementieren, um proaktiv und 
+reaktiv eine Problemerkennung zu ermöglichen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN geeignete Maßnahmen implementieren, um proaktiv und reaktiv eine Problemerkennung zu ermöglichen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3959" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97497" revision="564669">
+    <title><![CDATA[Prüfung auf übergreifendes Problem]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jedes erkannte Problem dahingehend prüfen, ob es sich 
+um ein übergreifendes Problem handelt, für das zur Problem-Lösung die 
+serviceverantwortlichen und/oder lösungsunterstützenden TI-ITSM-Teilnehmer 
+sowie der Gesamtverantwortliche TI herangezogen werden sollen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jedes erkannte Problem dahingehend prüfen, ob es sich um ein übergreifendes Problem handelt, für das zur Problem-Lösung die serviceverantwortlichen und/oder lösungsunterstützenden TI-ITSM-Teilnehmer sowie der Gesamtverantwortliche TI herangezogen werden sollen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3964" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97499" revision="564669">
+    <title><![CDATA[Festlegung von Dringlichkeit und Auswirkung von übergreifenden Problems]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN zur Ermittlung der Priorität eines übergreifenden 
+Problems die beiden Faktoren „Dringlichkeit“ und „Auswirkung“ festlegen.
+
+
+
+
+ Tabelle #: Tab_Betr_TIP_102 PRO – Festlegung von Dringlichkeit 
+
+Dringlichkeit Beschreibung 
+Hoch Das Problem muss schnellstmöglich gelöst werden, eine maximale negative 
+Auswirkung liegt vor; ein Workaround ist nicht oder nur nach viel Aufwand 
+vorhanden 
+Mittel Das Problem sollte so schnell wie möglich gelöst werden; eine 
+Ausweitung ist absehbar 
+Niedrig Das Problem besteht, ist aber durch geeignete Maßnahmen unter 
+Kontrolle. Es sollte in absehbarer Zeit gelöst werden.
+
+
+ Tabelle #: Tab_Betr_TIP_103 PRO – Festlegung von Auswirkung 
+
+Auswirkung Beschreibung 
+Hoch 
+ * Es liegt ein Ausfall gemäß [gemSpec_Perf#2.3] vor.
+
+ * Das Incident Management konnte keinen Workaround zur Verfügung stellen 
+Mittel 
+ * Der TI-Service ist durch das Problem negativ beeinflusst und wird nicht wie 
+vereinbart zur Verfügung gestellt.
+
+ * Es existiert ein Workaround, der aufwändig und nur schwer umzusetzen ist 
+Niedrig 
+ * Der TI-Service wird durch das Problem negativ beeinflusst
+
+ * Es existiert ein Workaround, der einfach und ohne viel Aufwand umzusetzen 
+ist   ]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN zur Ermittlung der Priorität eines übergreifenden Problems die beiden Faktoren „Dringlichkeit“ und „Auswirkung“ festlegen. <br/>
+ <p data-keep-next="true" class="polarion-rte-caption-paragraph"></p><br/>
+ 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Tab_Betr_TIP_102 PRO – Festlegung von Dringlichkeit 
+</p>
+ 
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 170px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Dringlichkeit</span></th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 416px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beschreibung</span></th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 170px;height: 57px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Hoch </span></td>
+      <td style="text-align: left;vertical-align: top;width: 416px;height: 57px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Das Problem muss schnellstmöglich gelöst werden, eine maximale negative Auswirkung liegt vor; ein Workaround ist nicht oder nur nach viel Aufwand vorhanden </span></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 170px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Mittel </span></td>
+      <td style="text-align: left;vertical-align: top;width: 416px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Das Problem sollte so schnell wie möglich gelöst werden; eine Ausweitung ist absehbar </span></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 170px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Niedrig </span></td>
+      <td style="text-align: left;vertical-align: top;width: 416px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Das Problem besteht, ist aber durch geeignete Maßnahmen unter Kontrolle. Es sollte in absehbarer Zeit gelöst werden.</span><br/>
+        </td>
+    </tr>
+  </tbody>
+</table>
+ <br/>
+ 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Tab_Betr_TIP_103 PRO – Festlegung von Auswirkung 
+</p>
+ 
+<table id="polarion_wiki macro name=table" class="polarion-Document-table" style="width: 80%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 168px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Auswirkung</span></th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 412px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beschreibung</span></th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 168px;height: 52px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Hoch </span></td>
+      <td style="text-align: left;vertical-align: top;width: 412px;height: 52px;border: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Es liegt ein Ausfall gemäß [gemSpec_Perf#2.3] vor.<br/>
+              </span></li>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Das Incident Management konnte keinen Workaround zur Verfügung stellen </span></li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 168px;height: 100px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Mittel </span></td>
+      <td style="text-align: left;vertical-align: top;width: 412px;height: 100px;border: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Der TI-Service ist durch das Problem negativ beeinflusst und wird nicht wie vereinbart zur Verfügung gestellt.<br/>
+              </span></li>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Es existiert ein Workaround, der aufwändig und nur schwer umzusetzen ist </span></li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 168px;height: 80px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Niedrig </span></td>
+      <td style="text-align: left;vertical-align: top;width: 412px;height: 80px;border: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Der TI-Service wird durch das Problem negativ beeinflusst<br/>
+              </span></li>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Es existiert ein Workaround, der einfach und ohne viel Aufwand umzusetzen ist</span> </li>
+        </ul>
+        </td>
+    </tr>
+  </tbody>
+</table>
+  <div style="margin-left: 40px;"></div>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3975" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97502" revision="564669">
+    <title><![CDATA[Prüfung auf Serviceverantwortung zum übergreifenden Problem]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jedes an sie gerichtete übergreifende Problem 
+dahingehend prüfen, ob das Problem in der eigenen Serviceverantwortung liegt.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jedes an sie gerichtete übergreifende Problem dahingehend prüfen, ob das Problem in der eigenen Serviceverantwortung liegt.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3981" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97503" revision="564669">
+    <title><![CDATA[Annahme eines übergreifenden Problems]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN das übergreifende Problem annehmen, wenn sie die 
+Serviceverantwortung haben.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN das übergreifende Problem annehmen, wenn sie die Serviceverantwortung haben. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3982" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97504" revision="564669">
+    <title><![CDATA[Ablehnung eines übergreifenden Problems]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN das abgelehnte übergreifende Problem mit einer 
+qualifizierten Rückmeldung an den meldenden TI-ITSM-Teilnehmer versehen, aus 
+der nachvollziehbar zu entnehmen ist, warum keine Bearbeitung erfolgen kann.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN das abgelehnte übergreifende Problem mit einer qualifizierten Rückmeldung an den meldenden TI-ITSM-Teilnehmer versehen, aus der nachvollziehbar zu entnehmen ist, warum keine Bearbeitung erfolgen kann. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3983" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97507" revision="564669">
+    <title><![CDATA[Ursachenanalyse eines übergreifenden Problems durch Serviceverantwortlichen]]></title>
+    <description><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer MUSS nach erfolgter Erstellung 
+bzw. Annahme eines übergreifenden Problems unverzüglich mit der 
+Problem-Bearbeitung beginnen und – innerhalb der vereinbarten Lösungszeiten – 
+eine Lösung für das Problem herbeiführen und dieses beheben.]]></description>
+    <description_html><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer MUSS nach erfolgter Erstellung bzw. Annahme eines übergreifenden Problems unverzüglich mit der Problem-Bearbeitung beginnen und – innerhalb der vereinbarten Lösungszeiten – eine Lösung für das Problem herbeiführen und dieses beheben. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3984" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97508" revision="564669">
+    <title><![CDATA[Service Request zur Bereitstellung der TI-Testumgebung (RU/TU)]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN für die Nutzung (d.h. zur Anbindung) der 
+TI-Testumgebung (RU/TU) einen Service Request im TI-ITSM-System stellen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN für die Nutzung (d.h. zur Anbindung) der TI-Testumgebung (RU/TU) einen Service Request im TI-ITSM-System stellen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3986" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97510" revision="564669">
+    <title><![CDATA[Koordination bei übergreifenden Problems]]></title>
+    <description><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer MUSS die Koordination zwischen 
+allen erforderlichen Lösungs- bzw. Unterstützungsbeteiligten im Rahmen der 
+Problemlösungsentwicklung übernehmen.]]></description>
+    <description_html><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer MUSS die Koordination zwischen allen erforderlichen Lösungs- bzw. Unterstützungsbeteiligten im Rahmen der Problemlösungsentwicklung übernehmen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3987" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97511" revision="564669">
+    <title><![CDATA[Initiierung eines Change Request]]></title>
+    <description><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer MUSS während der 
+Problemlösungsentwicklung einen Change Request über das TI-ITSM-System mit 
+Verweis auf das zugrundeliegende Problem initiieren, in dem die Durchführung 
+von Autorisierung, Entwicklung, Test und Implementierung der Lösung 
+dokumentiert wird.]]></description>
+    <description_html><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer MUSS während der Problemlösungsentwicklung einen Change Request über das TI-ITSM-System mit Verweis auf das zugrundeliegende Problem initiieren, in dem die Durchführung von Autorisierung, Entwicklung, Test und Implementierung der Lösung dokumentiert wird. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5377" type="leafRequirement" severity="KANN" lastUpdate="2022-12-29" technicalID="ML-97513" revision="564669">
+    <title><![CDATA[Durchführung einer Problemstornierung]]></title>
+    <description><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer KANN ein Problem stornieren, 
+falls einer der folgenden Aspekte zutrifft:
+
+ * die ursächliche Störung, der bekannte Fehler oder die bekannte Ursache hat 
+sich nachvollziehbar und dokumentiert erledigt;  ODER
+
+ * das Ticket wurde irrtümlich angelegt.]]></description>
+    <description_html><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer KANN ein Problem stornieren, falls einer der folgenden Aspekte zutrifft:<br/>
+<ul>
+  <li>die ursächliche Störung, der bekannte Fehler oder die bekannte Ursache hat sich nachvollziehbar und dokumentiert erledigt;</li>
+</ul>
+ODER<br/>
+<ul>
+  <li>das Ticket wurde irrtümlich angelegt.</li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5588" type="leafRequirement" severity="KANN" lastUpdate="2022-12-29" technicalID="ML-97514" revision="564669">
+    <title><![CDATA[Abbruch der Problembearbeitung]]></title>
+    <description><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer KANN die Problembearbeitung mit 
+Zustimmung des Gesamtverantwortlichen TI abbrechen, falls die Auswirkungen des 
+Problems und der Aufwand zu deren Behebung in keinem wirtschaftlichen oder 
+sicherheitsrelevanten Verhältnis zueinander stehen.]]></description>
+    <description_html><![CDATA[Der serviceverantwortliche TI-ITSM-Teilnehmer KANN die Problembearbeitung mit Zustimmung des Gesamtverantwortlichen TI abbrechen, falls die Auswirkungen des Problems und der Aufwand zu deren Behebung in keinem wirtschaftlichen oder sicherheitsrelevanten Verhältnis zueinander stehen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5589" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97516" revision="564669">
+    <title><![CDATA[Prüfung auf Verantwortung zur Lösungsunterstützung]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jede an sie gerichtete Anfrage zur 
+Lösungsunterstützung eines übergreifenden Problems dahingehend prüfen, ob sie 
+zur Lösungsunterstützung gemäß Betriebskonzept verpflichtet sind.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN jede an sie gerichtete Anfrage zur Lösungsunterstützung eines übergreifenden Problems dahingehend prüfen, ob sie zur Lösungsunterstützung gemäß Betriebskonzept verpflichtet sind. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3977" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97517" revision="564669">
+    <title><![CDATA[Annahme der Verantwortung zur Lösungsunterstützung]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Anfrage zur Lösungsunterstützung eines 
+übergreifenden Problems annehmen, wenn sie die gemäß TIP1-A_7266 [gemKPT_Betr] 
+für die Servicekomponenten mitverantwortlich sind.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Anfrage zur Lösungsunterstützung eines übergreifenden Problems annehmen, wenn sie die gemäß TIP1-A_7266 [gemKPT_Betr] für die Servicekomponenten mitverantwortlich sind. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3976" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97518" revision="564669">
+    <title><![CDATA[Ablehnung der Lösungsunterstützung]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Ablehnung der Lösungsunterstützung des 
+übergreifenden Problems mit einer qualifizierten Rückmeldung an den 
+serviceverantwortlichen TI-ITSM-Teilnehmer versehen, aus der nachvollziehbar zu 
+entnehmen ist, warum keine Lösungsunterstützung erfolgen kann.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Ablehnung der Lösungsunterstützung des übergreifenden Problems mit einer qualifizierten Rückmeldung an den serviceverantwortlichen TI-ITSM-Teilnehmer versehen, aus der nachvollziehbar zu entnehmen ist, warum keine Lösungsunterstützung erfolgen kann.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3988" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97520" revision="564669">
+    <title><![CDATA[Prüfung der Lösung durch den Melder eines übergreifenden Problems]]></title>
+    <description><![CDATA[Der meldende TI-ITSM-Teilnehmer MUSS die ihm vorgelegte Lösung des 
+übergreifenden Problems prüfen und sein Ergebnis dem serviceverantwortlichen 
+TI-ITSM-Teilnehmer innerhalb der Verifikationsfrist (entsprechend 
+[gemKPT_Betr#TIP1-A_7265-03]) über das TI-ITSM-System mitteilen.]]></description>
+    <description_html><![CDATA[Der meldende TI-ITSM-Teilnehmer MUSS die ihm vorgelegte Lösung des übergreifenden Problems prüfen und sein Ergebnis dem serviceverantwortlichen TI-ITSM-Teilnehmer innerhalb der Verifikationsfrist (entsprechend [gemKPT_Betr#TIP1-A_7265-03])<span id="polarion-comment:169"></span> über das TI-ITSM-System mitteilen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3989" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97521" revision="564669">
+    <title><![CDATA[Ablehnung der Lösung eines übergreifenden Problems]]></title>
+    <description><![CDATA[Wird die Lösung eines übergreifenden Problems durch den meldenden 
+TI-ITSM-Teilnehmer abgelehnt, MUSS der serviceverantwortliche 
+TI-ITSM-Teilnehmer das übergreifende Problem erneut bearbeiten, die Messung der 
+Lösungszeit wird dann fortgesetzt.]]></description>
+    <description_html><![CDATA[Wird die Lösung eines übergreifenden Problems durch den meldenden TI-ITSM-Teilnehmer abgelehnt, MUSS der serviceverantwortliche TI-ITSM-Teilnehmer das übergreifende Problem erneut bearbeiten, die Messung der Lösungszeit wird dann fortgesetzt. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3971" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97523" revision="564669">
+    <title><![CDATA[Verifikation vor Schließung eines übergreifenden Problems]]></title>
+    <description><![CDATA[Serviceverantwortliche TI-ITSM-Teilnehmer MÜSSEN vor der Schließung einer 
+übergreifenden Problem-Dokumentation sicherstellen, dass das Problem gelöst ist.
+ Ist das Problem nicht gelöst, dann ist das bestehende Problem 
+weiterzubearbeiten. Es beginnt keine erneute Lösungszeit.
+ Liegt nach Ablauf der Verifikationsfrist (entsprechend 
+[gemKPT_Betr#TIP1-A_7265-03]) keine Rückmeldung durch den problemerkennenden 
+TI-ITSM-Teilnehmer vor, KANN das übergreifende Problem geschlossen werden.]]></description>
+    <description_html><![CDATA[Serviceverantwortliche TI-ITSM-Teilnehmer MÜSSEN vor der Schließung einer übergreifenden Problem-Dokumentation sicherstellen, dass das Problem gelöst ist. <br/>
+ Ist das Problem nicht gelöst, dann ist das bestehende Problem weiterzubearbeiten. Es beginnt keine erneute Lösungszeit.<br/>
+ Liegt nach Ablauf der Verifikationsfrist (entsprechend [gemKPT_Betr#TIP1-A_7265-03])<span id="polarion-comment:170"></span> keine Rückmeldung durch den problemerkennenden TI-ITSM-Teilnehmer vor, KANN das übergreifende Problem geschlossen werden. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3990" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97524" revision="564669">
+    <title><![CDATA[Schließung eines übergreifenden Problems]]></title>
+    <description><![CDATA[Serviceverantwortliche TI-ITSM-Teilnehmer MÜSSEN nach verifizierter Lösung des 
+Problems die Dokumentation des übergreifenden Problems abschließend bearbeiten 
+und das Problem schließen.]]></description>
+    <description_html><![CDATA[Serviceverantwortliche TI-ITSM-Teilnehmer MÜSSEN nach verifizierter Lösung des Problems die Dokumentation des übergreifenden Problems abschließend bearbeiten und das Problem schließen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3991" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97525" revision="564669">
+    <title><![CDATA[WDB-Aktualisierung nach Schließung eines übergreifenden Problems]]></title>
+    <description><![CDATA[Serviceverantwortliche TI-ITSM-Teilnehmer MÜSSEN nach der Behebung eines 
+übergreifenden Problems die Wissensdatenbank der TI um die relevanten 
+Problemlösungsinformationen aktualisieren.]]></description>
+    <description_html><![CDATA[Serviceverantwortliche TI-ITSM-Teilnehmer MÜSSEN nach der Behebung eines übergreifenden Problems die Wissensdatenbank der TI um die relevanten Problemlösungsinformationen aktualisieren. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5590" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97537" revision="564669">
+    <title><![CDATA[Nutzung Business-Servicekatalog bei der Erfassung von Service Requests]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN den im TI-ITSM-System veröffentlichten 
+Business-Servicekatalog bei der Erfassung von Service Requests nutzen und alle 
+geforderten Informationen laut der dort genannten Servicebeschreibung dem 
+Service Request beifügen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN den im TI-ITSM-System veröffentlichten Business-Servicekatalog bei der Erfassung von Service Requests nutzen und alle geforderten Informationen laut der dort genannten Servicebeschreibung dem Service Request beifügen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5351" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97539" revision="564669">
+    <title><![CDATA[Prüfung von Service Requests]]></title>
+    <description><![CDATA[Der Serviceverantwortliche MUSS den Service Request eines TI-ITSM-Teilnehmers 
+auf Vollständigkeit und Plausibilität prüfen.]]></description>
+    <description_html><![CDATA[Der Serviceverantwortliche MUSS den Service Request eines TI-ITSM-Teilnehmers auf Vollständigkeit und Plausibilität prüfen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5352" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97541" revision="564669">
+    <title><![CDATA[Lösung bzw. Bearbeitung des Service Requests]]></title>
+    <description><![CDATA[Der Serviceverantwortliche MUSS sicherstellen, dass jeder Service Request gemäß 
+Bedingungen des Servicekataloges (SLA) bearbeitet und abgeschlossen wird.]]></description>
+    <description_html><![CDATA[Der Serviceverantwortliche MUSS sicherstellen, dass jeder Service Request gemäß Bedingungen des Servicekataloges (SLA) bearbeitet und abgeschlossen wird. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5591" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97543" revision="564669">
+    <title><![CDATA[Verifikation des Service Requests]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Verifikation eines ausgeführten Services gemäß 
+der im Servicekatalog beschriebenen Angaben durchführen und das Ergebnis im 
+TI-ITSM-System dokumentieren.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Verifikation eines ausgeführten Services gemäß der im Servicekatalog beschriebenen Angaben durchführen und das Ergebnis im TI-ITSM-System dokumentieren. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5592" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97544" revision="564669">
+    <title><![CDATA[Schließung des Service Requests]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN vor Schließung eines Service Requests die fehlerfreie 
+Lieferung des Services durch den Servicenehmer verifizieren lassen. Bei 
+negativer Verifikation ist für diesen Service kein neuer Request zu stellen. 
+Stattdessen ist der bestehende Service Request weiterzubearbeiten.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN vor Schließung eines Service Requests die fehlerfreie Lieferung des Services durch den Servicenehmer verifizieren lassen. Bei negativer Verifikation ist für diesen Service kein neuer Request zu stellen. Stattdessen ist der bestehende Service Request weiterzubearbeiten. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5593" type="leafRequirement" severity="KANN" lastUpdate="2022-12-29" technicalID="ML-97545" revision="564669">
+    <title><![CDATA[Schließung des Service Requests ohne Verifikation]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer DÜRFEN Service Requests schließen, wenn die 
+Verifikationsfrist (entsprechend [gemKPT_Betr#TIP1-A_7265-03]) ohne Rückmeldung 
+überschritten ist.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer DÜRFEN Service Requests schließen, wenn die Verifikationsfrist (entsprechend [gemKPT_Betr#TIP1-A_7265-03])<span id="polarion-comment:171"></span> ohne Rückmeldung überschritten ist. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_17764" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97549" revision="564669">
+    <title><![CDATA[Verwendung CI-ID]]></title>
+    <description><![CDATA[Der TI-ITSM-Teilnehmer MUSS die von dem Gesamtverantwortlichen TI vorgegebene 
+CI-ID für jede von ihm betriebene Produktinstanz verwenden.]]></description>
+    <description_html><![CDATA[Der TI-ITSM-Teilnehmer MUSS die von dem Gesamtverantwortlichen TI vorgegebene CI-ID für jede von ihm betriebene Produktinstanz verwenden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4114" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97557" revision="564669">
+    <title><![CDATA[Bereitstellung von TI-Konfigurationsdaten]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN entsprechend ihrer Rolle (vgl. 
+[gemKPT_Betr#Tab_KPT_Betr_TI_002]) TI-Konfigurationsdaten mit dem 
+Gesamtverantwortlichen TI zu Beginn der Serviceerbringung initial abstimmen und 
+im TI-ITSM-System hinterlegen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN entsprechend ihrer Rolle (vgl. [gemKPT_Betr#Tab_KPT_Betr_TI_002]) TI-Konfigurationsdaten mit dem Gesamtverantwortlichen TI zu Beginn der Serviceerbringung initial abstimmen und im TI-ITSM-System hinterlegen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5594" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97558" revision="564669">
+    <title><![CDATA[Identifikation von TI-Konfigurationsdaten]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN TI-Konfigurationsdaten gemäß Konfigurationsschema im 
+TI-ITSM-System ermitteln und definieren.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN TI-Konfigurationsdaten gemäß Konfigurationsschema im TI-ITSM-System ermitteln und definieren. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4115" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97559" revision="564669">
+    <title><![CDATA[Datenänderung für TI-Konfigurationsdaten]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN TI-Konfigurationsdaten über den gesamten Zeitraum der 
+Serviceerbringung aktuell halten und im TI-ITSM-System hinterlegen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN TI-Konfigurationsdaten über den gesamten Zeitraum der Serviceerbringung aktuell halten und im TI-ITSM-System hinterlegen. 
+<div style="margin-left: 40px;">
+  <span style="text-decoration: line-through;"> </span> 
+</div>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4399" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97561" revision="564669">
+    <title><![CDATA[Übermittlung von Produktdaten nach Abschluss von lokal autorisierten Produkt-Changes]]></title>
+    <description><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN nach dem Abschluss (nach der Produktivsetzung 
+des Produkt-Changes) von lokal autorisierten Produkt-Changes die geänderten 
+Produktdaten an das TI-ITSM-System übermitteln.]]></description>
+    <description_html><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN nach dem Abschluss (nach der Produktivsetzung des Produkt-Changes) von lokal autorisierten Produkt-Changes die geänderten Produktdaten an das TI-ITSM-System übermitteln. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_13575" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97577" revision="564669">
+    <title><![CDATA[Qualität von RfCs]]></title>
+    <description><![CDATA[Der RfC-stellende TI-ITSM-Teilnehmer MUSS die RfCs so formulieren, dass der 
+Umfang und der Bedarf in sich vollständig ist, so dass der 
+Gesamtverantwortliche TI den RfC ohne Hinzuziehung weiterer Dokumente bewerten 
+kann.]]></description>
+    <description_html><![CDATA[Der RfC-stellende TI-ITSM-Teilnehmer MUSS die RfCs so formulieren, dass der Umfang und der Bedarf in sich vollständig ist, so dass der Gesamtverantwortliche TI den RfC ohne Hinzuziehung weiterer Dokumente bewerten kann.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4400" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97578" revision="564669">
+    <title><![CDATA[Produkt-RfC (Master-Change) erstellen]]></title>
+    <description><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN für genehmigungspflichtige Produktänderungen 
+einen Produkt-RfC (Master-Change) im TI-ITSM-System erstellen.]]></description>
+    <description_html><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN für genehmigungspflichtige Produktänderungen einen Produkt-RfC (Master-Change) im TI-ITSM-System erstellen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4398" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97579" revision="564669">
+    <title><![CDATA[Prüfung auf genehmigungspflichtige Produktänderung]]></title>
+    <description><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN jeden festgestellten Produktänderungsbedarf 
+einer Prüfung gemäß der unten abgebildeten Tab_Betr_TIP_024 CHG – Vorprüfung 
+Produktänderungsbedarf unterziehen. Dabei ist - durch Feststellung der 
+Wechselwirkungen mit anderen Produkten sowie der Abweichung von 
+Produkttypvorgaben - zu prüfen, ob es sich um eine genehmigungspflichtige 
+Produktänderung handelt.
+
+ Tabelle #: Tab_Betr_TIP_024 CHG – Vorprüfung. Produktänderungsbedarf 
+
+Change Typ
+Wechselwirkungen mit anderen Produkten (an den Schnittstellen)
+Abweichung von Produkttypvorgaben
+
+lokal autorisiert
+Nein
+Nein
+
+genehmigungspflichtig
+Nein
+Ja
+
+genehmigungspflichtig
+Ja
+Nein
+
+genehmigungspflichtig
+Ja
+Ja]]></description>
+    <description_html><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN jeden festgestellten Produktänderungsbedarf einer Prüfung gemäß der unten abgebildeten Tab_Betr_TIP_024 CHG – Vorprüfung Produktänderungsbedarf unterziehen. Dabei ist - durch Feststellung der Wechselwirkungen mit anderen Produkten sowie der Abweichung von Produkttypvorgaben - zu prüfen, ob es sich um eine genehmigungspflichtige Produktänderung handelt. <br/>
+<p class="polarion-rte-caption-paragraph">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Tab_Betr_TIP_024 CHG – Vorprüfung. Produktänderungsbedarf
+</p>
+<table style="width: 432pt;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Change Typ</span><br/>
+      </th>
+      <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Wechselwirkungen mit anderen Produkten (an den Schnittstellen)</span><br/>
+      </th>
+      <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 134pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Abweichung von Produkttypvorgaben</span><br/>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">lokal autorisiert</span><br/>
+      </td>
+      <td style="vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Nein</span><br/>
+      </td>
+      <td style="vertical-align: top;width: 134pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Nein</span><br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">genehmigungspflichtig</span><br/>
+      </td>
+      <td style="vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Nein</span><br/>
+      </td>
+      <td style="vertical-align: top;width: 134pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Ja</span><br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">genehmigungspflichtig</span><br/>
+      </td>
+      <td style="vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Ja</span><br/>
+      </td>
+      <td style="vertical-align: top;width: 134pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Nein</span><br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">genehmigungspflichtig</span><br/>
+      </td>
+      <td style="vertical-align: top;width: 149pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Ja</span><br/>
+      </td>
+      <td style="vertical-align: top;width: 134pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Ja</span><br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5597" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97580" revision="564669">
+    <title><![CDATA[Produkt-RfC (Sub-Changes) erstellen]]></title>
+    <description><![CDATA[Der TI-ITSM-Teilnehmer MUSS zur Umsetzung der Änderungen des Master-Changes in 
+den konkreten Betriebsumgebungen die abgeleiteten Sub-Changes auf Basis des 
+autorisierten Master-Changes und der abgestimmten Rahmenbedingungen stellen.]]></description>
+    <description_html><![CDATA[Der TI-ITSM-Teilnehmer MUSS zur Umsetzung der Änderungen des Master-Changes in den konkreten Betriebsumgebungen die abgeleiteten Sub-Changes auf Basis des autorisierten Master-Changes und der abgestimmten Rahmenbedingungen stellen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5599" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97581" revision="564669">
+    <title><![CDATA[Beschreibung der Verifikation des Produkt-Changes im RfC]]></title>
+    <description><![CDATA[Jeder TI-ITSM-Teilnehmer, der einen Produkt-RfC stellt, MUSS für diesen eine 
+Verifikation beschreiben, welche die Wirksamkeit des Changes nachweist.]]></description>
+    <description_html><![CDATA[Jeder TI-ITSM-Teilnehmer, der einen Produkt-RfC stellt, MUSS für diesen eine Verifikation beschreiben, welche die Wirksamkeit des Changes nachweist. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5600" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97582" revision="564669">
+    <title><![CDATA[Beschreibung der Verifikation des Produkt-Changes in Auswirkung auf andere TI-Fachanwendungen im RfC]]></title>
+    <description><![CDATA[Jeder TI-ITSM-Teilnehmer, der einen Produkt-RfC stellt, MUSS eine Verifikation 
+beschreiben, welche die Ende-zu-Ende-Verfügbarkeit und -Funktionalität der 
+entsprechenden Anwendungsfälle nach der vollständigen Implementierung des 
+Changes in Auswirkung auf andere TI-Fachanwendungen nachweist.]]></description>
+    <description_html><![CDATA[Jeder TI-ITSM-Teilnehmer, der einen Produkt-RfC stellt, MUSS eine Verifikation beschreiben, welche die Ende-zu-Ende-Verfügbarkeit und -Funktionalität der entsprechenden Anwendungsfälle nach der vollständigen Implementierung des Changes in Auswirkung auf andere TI-Fachanwendungen nachweist. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5370" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97583" revision="564669">
+    <title><![CDATA[Prüfung auf Emergency Change]]></title>
+    <description><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN auf Grundlage der in Tabelle 12: 
+Tab_Betr_TIP_048 CHG – Kriterien für Emergency Changes genannten Kriterien 
+prüfen, ob die Notwendigkeit zur Durchführung eines Emergency Change besteht.
+
+ Tabelle #: Tab_Betr_TIP_048 CHG – Kriterien für Emergency Changes 
+
+Definition Kriterien 
+EMERGENCY 
+ CHANGE
+
+
+ * kritische Situation, Incident klassifiziert mit „Priorität 1“, gemäß 
+Tab_Betr_TIP_009 INC – Prioritätenmatrix und eingeschränkte Testmöglichkeiten 
+für die hier einsetzbare Lösung
+
+ * Incident, kategorisiert als „TI-Notfall“ 
+
+ * vom Gesamtverantwortlichen TI und/oder EMC bestätigter TI-Notfall
+
+ * Fehlgeschlagener Produkt-Change; der nicht mit üblichen Mitteln 
+zurückgenommen werden kann, d. h. unzureichende Fallback-Möglichkeiten und/oder 
+mögliche Auswirkungen auf andere TI-Services
+
+ * Unmittelbare Notwendigkeit, einen kritischen Sicherheitsvorfall durch 
+Einsatz eines „Emergency Security Patches“ zu beseitigen]]></description>
+    <description_html><![CDATA[Alle TI-ITSM-Teilnehmer MÜSSEN auf Grundlage der in Tabelle 12: Tab_Betr_TIP_048 CHG – Kriterien für Emergency Changes genannten Kriterien prüfen, ob die Notwendigkeit zur Durchführung eines Emergency Change besteht. <br/>
+ 
+<p class="polarion-rte-caption-paragraph">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Tab_Betr_TIP_048 CHG – Kriterien für Emergency Changes 
+</p>
+ 
+<table style="width: 404pt;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <td style="background-color: #E0E0E0;vertical-align: bottom;width: 113pt;height: 13pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Definition </span></td>
+      <td style="background-color: #E0E0E0;vertical-align: bottom;width: 291pt;height: 13pt;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">Kriterien</span> </span></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 113pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">EMERGENCY <br/>
+          CHANGE<br/>
+          <br/>
+          </span></td>
+      <td style="vertical-align: bottom;width: 291pt;height: 13pt;border-top: 1px none #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px none #000000;"><span style="font-size: 10pt;line-height: 1.5;"> </span> 
+        <ul>
+          <li><span style="font-size: 10pt;line-height: 1.5;">kritische Situation, Incident klassifiziert mit „Priorität 1“, gemäß Tab_Betr_TIP_009 INC – Prioritätenmatrix und eingeschränkte Testmöglichkeiten für die hier einsetzbare Lösung<br/>
+              </span></li>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Incident, kategorisiert als „TI-Notfall“ <br/>
+              </span></li>
+          <li><span style="font-size: 10pt;line-height: 1.5;">vom Gesamtverantwortlichen TI und/oder EMC bestätigter TI-Notfall<br/>
+              </span></li>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Fehlgeschlagener Produkt-Change; der nicht mit üblichen Mitteln zurückgenommen werden kann, d. h. unzureichende Fallback-Möglichkeiten und/oder mögliche Auswirkungen auf andere TI-Services<br/>
+              </span></li>
+          <li><span style="font-size: 10pt;line-height: 1.5;">Unmittelbare Notwendigkeit, einen kritischen Sicherheitsvorfall durch Einsatz eines „Emergency Security Patches“ zu beseitigen </span></li>
+        </ul>
+        <span style="font-size: 10pt;line-height: 1.5;"> </span></td>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4402" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-25" technicalID="ML-97585" revision="564669">
+    <title><![CDATA[Mitwirkungspflicht bei der Bewertung vom Produkt-RfC]]></title>
+    <description><![CDATA[Alle betroffenen TI-ITSM-Teilnehmer MÜSSEN bei der Bewertung eines Produkt-RfC 
+mitwirken. Die Mitwirkung erfolgt innerhalb der Bewertungsphase im BCB oder 
+bilateral zwischen TI-ITSM-Teilnehmer und Gesamtverantwortlichen TI.]]></description>
+    <description_html><![CDATA[Alle betroffenen TI-ITSM-Teilnehmer MÜSSEN bei der Bewertung eines Produkt-RfC mitwirken. Die Mitwirkung erfolgt innerhalb der Bewertungsphase im BCB oder bilateral zwischen TI-ITSM-Teilnehmer und Gesamtverantwortlichen TI. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5610-02" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-03" technicalID="ML-136731" revision="564669">
+    <title><![CDATA[Bearbeitungsfristen in der Bewertung von Produkt-Changes]]></title>
+    <description><![CDATA[Alle betroffenen TI-ITSM-Teilnehmer MÜSSEN mindestens folgende 
+Change-Bewertungszeiten des GTI bei der Erstellung und Umsetzungsplanung (im 
+Sinne Vorlaufzeiten vor Implementierungsbeginn) eines RfCs berücksichtigen:
+
+ * Produkt-Change (Master): mindestens 5 Werktage (zwischen Beantragung und 
+Umsetzung)
+
+ * Produkt-Change (Sub): mindestens 3 Werktage (zwischen Beantragung und 
+Umsetzung)]]></description>
+    <description_html><![CDATA[Alle betroffenen TI-ITSM-Teilnehmer MÜSSEN mindestens folgende Change-Bewertungszeiten des GTI bei der Erstellung und Umsetzungsplanung (im Sinne Vorlaufzeiten vor Implementierungsbeginn) eines RfCs berücksichtigen:<br/> <ul><li>Produkt-Change (Master): mindestens 5 Werktage (zwischen Beantragung und Umsetzung)<br/></li><li>Produkt-Change (Sub): mindestens 3 Werktage (zwischen Beantragung und Umsetzung)<br/></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5611" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97588" revision="564669">
+    <title><![CDATA[Umsetzung von autorisierten RFC]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN vor der Umsetzung eines RfCs die Autorisierung des 
+Gesamtverantwortlichen TI einholen. Ausnahmenregelungen beziehen sich einzig 
+auf Emergency Changes.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN vor der Umsetzung eines RfCs die Autorisierung des Gesamtverantwortlichen TI einholen. Ausnahmenregelungen beziehen sich einzig auf Emergency Changes. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4419" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97590" revision="564669">
+    <title><![CDATA[Nutzung der Testumgebung (RU/TU)]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Anforderungen und die geplante Belegung an die 
+Nutzung der Referenzumgebung (RU) und der Testumgebung (TU) für ihre 
+Produkttests mit dem Gesamtverantwortlichen TI abstimmen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Anforderungen und die geplante Belegung an die Nutzung der Referenzumgebung (RU) und der Testumgebung (TU) für ihre Produkttests mit dem Gesamtverantwortlichen TI abstimmen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4417" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97591" revision="564669">
+    <title><![CDATA[Stetige Aktualisierung des Change-Datensatzes im TI-ITSM-System]]></title>
+    <description><![CDATA[Realisierende TI-ITSM-Teilnehmer MÜSSEN die interne Dokumentation der Planungs- 
+und Realisierungsdaten von autorisierten Produkt-Changes stetig im 
+TI-ITSM-System aktuell halten.]]></description>
+    <description_html><![CDATA[Realisierende TI-ITSM-Teilnehmer MÜSSEN die interne Dokumentation der Planungs- und Realisierungsdaten von autorisierten Produkt-Changes stetig im TI-ITSM-System aktuell halten. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5601" type="leafRequirement" severity="SOLL" lastUpdate="2022-12-29" technicalID="ML-97593" revision="564669">
+    <title><![CDATA[Nachweis der Wirksamkeit eines Changes]]></title>
+    <description><![CDATA[Jeder TI-ITSM-Teilnehmer, der einen Produkt-RfC stellt, SOLL eine Verifikation 
+durchführen, welche die Wirksamkeit des Changes nachweist. Der 
+TI-ITSM-Teilnehmer SOLL dem Gesamtverantwortlichen TI die entsprechenden 
+Nachweise vorlegen.]]></description>
+    <description_html><![CDATA[Jeder TI-ITSM-Teilnehmer, der einen Produkt-RfC stellt, SOLL eine Verifikation durchführen, welche die Wirksamkeit des Changes nachweist. Der TI-ITSM-Teilnehmer SOLL dem Gesamtverantwortlichen TI die entsprechenden Nachweise vorlegen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5602" type="leafRequirement" severity="SOLL" lastUpdate="2022-12-29" technicalID="ML-97594" revision="564669">
+    <title><![CDATA[Nachweis der Wirksamkeit eines Changes in Auswirkung auf andere TI-Fachanwendungen]]></title>
+    <description><![CDATA[Jeder TI-ITSM-Teilnehmer, der einen Produkt-RfC stellt, SOLL auf Anfrage des 
+Gesamtverantwortlichen TI eine Verifikation durchführen, welche die 
+Ende-zu-Ende-Verfügbarkeit und -Funktionalität eines entsprechenden 
+Anwendungsfalls der veränderten Produktinstanz nachweist. Der 
+TI-ITSM-Teilnehmer SOLL dem Gesamtverantwortlichen TI die entsprechenden 
+Nachweise vorlegen.]]></description>
+    <description_html><![CDATA[Jeder TI-ITSM-Teilnehmer, der einen Produkt-RfC stellt, SOLL auf Anfrage des Gesamtverantwortlichen TI eine Verifikation durchführen, welche die Ende-zu-Ende-Verfügbarkeit und -Funktionalität eines entsprechenden Anwendungsfalls der veränderten Produktinstanz nachweist. Der TI-ITSM-Teilnehmer SOLL dem Gesamtverantwortlichen TI die entsprechenden Nachweise vorlegen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_18407" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-100049" revision="564669">
+    <title><![CDATA[Unterstützung bei Change-Verifikation]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer, deren Service von einem Produkt-Change betroffen ist, 
+MÜSSEN nach der Change-Implementierung bei der Ende-zu-Ende-Verifikation 
+unterstützen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer, deren Service von einem Produkt-Change betroffen ist, MÜSSEN nach der Change-Implementierung bei der Ende-zu-Ende-Verifikation unterstützen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4407" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97596" revision="564669">
+    <title><![CDATA[Bereitstellung der Dokumentation des Change Managements für genehmigungspflichtige Produkt-Changes]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN für jeden genehmigungspflichtigen Produkt-Change eine 
+Dokumentation der Aktivitäten und Nachweise im TI-ITSM-System ablegen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN für jeden genehmigungspflichtigen Produkt-Change eine Dokumentation der Aktivitäten und Nachweise im TI-ITSM-System ablegen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4425" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97597" revision="564669">
+    <title><![CDATA[Übermittlung von Optimierungsmöglichkeiten zur Umsetzung von genehmigten Produkt-Changes]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN mit erfolgtem Abschluss oder Abbruch des 
+Produkt-Changes eine Bewertung des Master-Changes durchführen und dabei 
+gegebenenfalls erkannte Potenziale für mögliche Optimierungen zukünftiger 
+Durchführungen von Produkt-Changes dem Gesamtverantwortlichen TI mitteilen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN mit erfolgtem Abschluss oder Abbruch des Produkt-Changes eine Bewertung des Master-Changes durchführen und dabei gegebenenfalls erkannte Potenziale für mögliche Optimierungen zukünftiger Durchführungen von Produkt-Changes dem Gesamtverantwortlichen TI mitteilen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4418" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97599" revision="564669">
+    <title><![CDATA[Übermittlung von Abweichungen vom Produkt-RfC]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer, die während der Umsetzung des autorisierten Produkt-Changes 
+Abweichungen zur Planung in Bezug auf zeitliche, inhaltliche und in der 
+Auswirkung im Produkt-RfC feststellen, MÜSSEN diese unverzüglich dem 
+Gesamtverantwortlichen TI melden.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer, die während der Umsetzung des autorisierten Produkt-Changes Abweichungen zur Planung in Bezug auf zeitliche, inhaltliche und in der Auswirkung im Produkt-RfC feststellen, MÜSSEN diese unverzüglich dem Gesamtverantwortlichen TI melden. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4424" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97600" revision="564669">
+    <title><![CDATA[Umsetzung des Fallbackplans]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN einen Fallbackplan nach den Vorgaben des 
+Gesamtverantwortlichen TI erstellen und – bei erkannter Notwendigkeit während 
+des Change Deployments – umsetzen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN einen Fallbackplan nach den Vorgaben des Gesamtverantwortlichen TI erstellen und – bei erkannter Notwendigkeit während des Change Deployments – umsetzen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5366" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97602" revision="564669">
+    <title><![CDATA[Mitwirkungspflicht der TI-ITSM-Teilnehmer bei der Festsetzung von Standard-Produkt-Changes]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN zur abschließenden Kategorisierung von 
+Produkt-Changes als „Standard-Change“ den Gesamtverantwortlichen TI 
+unterstützen, indem sie die zur Prüfung erforderlichen Inhalte auf Anforderung 
+an den Gesamtverantwortlichen TI liefern.
+ TI-ITSM-Teilnehmer MÜSSEN für die zukünftige Umsetzung des Produkt-Changes 
+als „Standard-Change“ die zum jeweiligen Produkt-Change dazugehörigen 
+Umsetzungsaktivitäten dokumentieren und diese dem Gesamtverantwortlichen TI 
+übergeben.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN zur abschließenden Kategorisierung von Produkt-Changes als „Standard-Change“ den Gesamtverantwortlichen TI unterstützen, indem sie die zur Prüfung erforderlichen Inhalte auf Anforderung an den Gesamtverantwortlichen TI liefern. <br/>
+TI-ITSM-Teilnehmer MÜSSEN für die zukünftige Umsetzung des Produkt-Changes als „Standard-Change“ die zum jeweiligen Produkt-Change dazugehörigen Umsetzungsaktivitäten dokumentieren und diese dem Gesamtverantwortlichen TI übergeben. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5378" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97604" revision="564669">
+    <title><![CDATA[Durchführung von Emergency-Changes durch TI-ITSM-Teilnehmer]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei der Umsetzung eines Emergency-Changes die 
+zeitliche Kritikalität beachten, d. h., die eingetretene Notsituation 
+schnellstmöglich beseitigen und bei der Umsetzung den Anweisungen (Freigabe, 
+Ablehnung, Testanforderungen, Dokumentation) des Gesamtverantwortlichen TI 
+folgen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei der Umsetzung eines Emergency-Changes die zeitliche Kritikalität beachten, d. h., die eingetretene Notsituation schnellstmöglich beseitigen und bei der Umsetzung den Anweisungen (Freigabe, Ablehnung, Testanforderungen, Dokumentation) des Gesamtverantwortlichen TI folgen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5361" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97605" revision="564669">
+    <title><![CDATA[Durchführung von Emergency-Changes durch TI-ITSM-Teilnehmer bei Nichterreichbarkeit des Gesamtverantwortlichen TI]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei Nichterreichbarkeit des Gesamtverantwortlichen TI 
+außerhalb der Servicezeit - und daraus resultierenden fehlenden Freigabe – 
+einen Emergency Change in eigenem Ermessen durchführen.
+ TI-ITSM-Teilnehmer MÜSSEN dabei das Zutreffen aller drei folgenden 
+Bedingungen beachten: 
+ * Es handelt sich nach fachlich-fundierter Bewertung des TI-ITSM-Teilnehmers 
+um eine Notsituation, die nur durch einen Emergency-Change gelöst werden kann.
+
+ * Der TI-ITSM-Teilnehmer wird nach erfolgter Umsetzung des Emergency-Changes 
+unverzüglich die Dokumentation im TI-ITSM-System erstellen und an den 
+Gesamtverantwortlichen TI übermitteln.
+
+ * Es entstehen – soweit durch den TI-ITSM-Teilnehmer in dieser Situation 
+erkennbar – durch die Umsetzung des Emergency Changes keine finanziellen 
+Auswirkungen für den Gesamtverantwortlichen TI.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei Nichterreichbarkeit des Gesamtverantwortlichen TI außerhalb der Servicezeit - und daraus resultierenden fehlenden Freigabe – einen Emergency Change in eigenem Ermessen durchführen.<br/>
+TI-ITSM-Teilnehmer MÜSSEN dabei das Zutreffen aller drei folgenden Bedingungen beachten:
+<ol>
+  <li>Es handelt sich nach fachlich-fundierter Bewertung des TI-ITSM-Teilnehmers um eine Notsituation, die nur durch einen Emergency-Change gelöst werden kann.<br/>
+  </li>
+  <li>Der TI-ITSM-Teilnehmer wird nach erfolgter Umsetzung des Emergency-Changes unverzüglich die Dokumentation im TI-ITSM-System erstellen und an den Gesamtverantwortlichen TI übermitteln.<br/>
+  </li>
+  <li>Es entstehen – soweit durch den TI-ITSM-Teilnehmer in dieser Situation erkennbar – durch die Umsetzung des Emergency Changes keine finanziellen Auswirkungen für den Gesamtverantwortlichen TI. <br/>
+  </li>
+</ol>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4117" type="leafRequirement" severity="KANN" lastUpdate="2022-12-29" technicalID="ML-97613" revision="564669">
+    <title><![CDATA[Informationsbereitstellung durch TI-ITSM-Teilnehmer]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer KÖNNEN Produkt- bzw. Serviceinformationen, mögliche 
+Störungsursachen und Hinweise zu deren Behebung elektronisch an den 
+Gesamtverantwortlichen TI übermitteln und stets aktuell halten.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer KÖNNEN Produkt- bzw. Serviceinformationen, mögliche Störungsursachen und Hinweise zu deren Behebung elektronisch an den Gesamtverantwortlichen TI übermitteln und stets aktuell halten.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5603" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97614" revision="564669">
+    <title><![CDATA[Eingangskanal für Informationen von TI-ITSM-Teilnehmern]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN den vom Gesamtverantwortlichen TI bereitgestellten 
+Eingangskanal für die Einlieferung von Informationen nutzen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN den vom Gesamtverantwortlichen TI bereitgestellten Eingangskanal für die Einlieferung von Informationen nutzen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4100" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97621" revision="564669">
+    <title><![CDATA[Messung der Service Level]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN alle nicht durch das TI-ITSM-System gemessenen 
+Service Level gemäß [gemKPT_Betr] bzw. [gemSpec_Perf] messen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN alle nicht durch das TI-ITSM-System gemessenen Service Level gemäß [gemKPT_Betr] bzw. [gemSpec_Perf] messen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5604" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97623" revision="564669">
+    <title><![CDATA[Bewertung der Messergebnisse]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN in allen Fällen einer Untererfüllung der gemessenen 
+Werte von den Zielwerten eine Begründung für die Untererfüllung sowie eine 
+Information zu getroffenen und geplanten Maßnahmen angeben.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN in allen Fällen einer Untererfüllung der gemessenen Werte von den Zielwerten eine Begründung für die Untererfüllung sowie eine Information zu getroffenen und geplanten Maßnahmen angeben. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4101" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97624" revision="564669">
+    <title><![CDATA[Übermittlung der Service Level Messergebnisse]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Service Level Messergebnisse an die durch den 
+Gesamtverantwortlichen TI benannte Kommunikationsschnittstelle übermitteln.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Service Level Messergebnisse an die durch den Gesamtverantwortlichen TI benannte Kommunikationsschnittstelle übermitteln. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4397" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97626" revision="564669">
+    <title><![CDATA[Teilnahme am Service Review]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN am Service Review teilnehmen und die bilateral ver
+einbarten Optimierungsaktivitäten umsetzen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>TI-ITSM-Teilnehmer</span><span> M&Uuml;SSEN am Service Review teilnehmen und die bilateral ve</span><span>r</span><span>einbarten Optimierungsaktivit&auml;ten umsetzen.</span><span> </span></p>]]></description_html>
+  </requirement>
+  <requirement id="A_18363" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-03" technicalID="ML-99960" revision="564669">
+    <title><![CDATA[Berechnung von Performance-Kenngrößen aus Rohdaten]]></title>
+    <description><![CDATA[Zur Berechnung der in [gemKPT_Betr] definierten Performance-Kenngrößen aus den 
+Performance-Rohdaten auf Service-Ebene MUSS der TI-ITSM-Teilnehmer den 
+Gesamtverantwortlichen TI  bei der Festlegung der Bildungsregeln unterstützen 
+und mit dem Gesamtverantwortlichen TI vereinbaren.]]></description>
+    <description_html><![CDATA[Zur Berechnung der in [gemKPT_Betr] definierten Performance-Kenngrößen aus den Performance-Rohdaten auf Service-Ebene MUSS der TI-ITSM-Teilnehmer den Gesamtverantwortlichen TI  bei der Festlegung der Bildungsregeln unterstützen und mit dem Gesamtverantwortlichen TI vereinbaren.]]></description_html>
+  </requirement>
+  <requirement id="A_18236-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-30" technicalID="ML-101978" revision="564669">
+    <title><![CDATA[Übermittlung von Performance-Reports]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer, die gemäß Tab_gemKPT_Betr_Performance-Kenngroessen] 
+technische Performance-Kenngrößen in Performance-Reports liefern, MÜSSEN den 
+Performance-Report einmal im Monat an den vom Gesamtverantwortlichen der TI 
+angegebenen Endpunkt übermitteln und dabei die GS-A_5248 beachten. Der 
+Berichtszeitraum umfasst einen vollen Kalendermonat.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer, die gemäß Tab_gemKPT_Betr_Performance-Kenngroessen] technische Performance-Kenngrößen in Performance-Reports liefern, MÜSSEN den Performance-Report einmal im Monat an den vom Gesamtverantwortlichen der TI angegebenen Endpunkt übermitteln und dabei die GS-A_5248 beachten. Der Berichtszeitraum umfasst einen vollen Kalendermonat.]]></description_html>
+  </requirement>
+  <requirement id="A_18237" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-30" technicalID="ML-98127" revision="564669">
+    <title><![CDATA[Lieferung von Performance-Rohdaten-Reports]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer, die gemäß [gemSpec_Perf#2.5] technische 
+Performance-Kenngrößen in Rohdaten-Performance-Berichten (Performance-Protokoll 
+und Datei zur Selbstauskunft) liefern, MÜSSEN die für den Berichtszeitraum zu 
+liefernden Berichte an den in [gemSpec_Perf] angegebenen Endpunkt liefern. Der 
+Berichtszeitraum umfasst einen vollen Kalendermonat.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer, die gemäß [gemSpec_Perf#2.5] technische Performance-Kenngrößen in Rohdaten-Performance-Berichten (Performance-Protokoll und Datei zur Selbstauskunft) liefern, MÜSSEN die für den Berichtszeitraum zu liefernden Berichte an den in [gemSpec_Perf] angegebenen Endpunkt liefern. Der Berichtszeitraum umfasst einen vollen Kalendermonat. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_19869" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-30" technicalID="ML-107921" revision="564669">
+    <title><![CDATA[Performance - Rohdaten-Performance-Berichte - zu liefernde Berichte der TI-ITSM-Teilnehmer]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer, die Rohdaten-Performance-Berichte übermitteln, MÜSSEN 
+jeweils zu jedem separat konfigurierbaren Berichtsintervall zwei Dateien senden:
+ - einen "Rohdaten-Performance-Bericht" mit den zu liefernden Rohdaten 
+[gemSpec_Perf#A_17755, A_17671, A_17668-*, A_19733-*]
+ und 
+ - eine Datei zur "Selbstauskunft" gemäß [gemSpec_OM#GS-A_4543] im XML-Format 
+[ProductInformation.xsd].
+
+ Beide Dateien MÜSSEN separat an die Betriebsdatenerfassung gemäß 
+gemSpec_SST_LD_BD an die Schnittstelle I_OpsData_Update gesandt werden.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer, die Rohdaten-Performance-Berichte übermitteln, MÜSSEN jeweils zu jedem separat konfigurierbaren Berichtsintervall zwei Dateien senden: <br/>
+- einen &quot;Rohdaten-Performance-Bericht&quot; mit den zu liefernden Rohdaten <span style="font-weight: normal;font-style: normal;font-size: 10pt;font-family: Arial, Helvetica;color: #000000;background-color: #FFFFFF;line-height: 1.5;">[gemSpec_Perf#A_17755, A_17671, A_17668-*, A_19733-*]<span id="polarion-comment:165"></span></span><br/>
+und <br/>
+- eine Datei zur &quot;Selbstauskunft&quot; gemäß [gemSpec_OM#GS-A_4543] im XML-Format [ProductInformation.xsd].<br/>
+ <br/>
+Beide Dateien MÜSSEN separat an die Betriebsdatenerfassung gemäß gemSpec_SST_LD_BD an die Schnittstelle I_OpsData_Update gesandt werden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4106-02" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-30" technicalID="ML-108636" revision="564669">
+    <title><![CDATA[Reportinhalte des Performance-Reports]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Ergebnisse ihrer Performance-Messungen nach 
+folgendem Schema (die Reihenfolge ist verbindlich) an den 
+Gesamtverantwortlichen TI übermitteln.
+
+ Tabelle #: Tab_Betr_TIP_003 PERF – Reportinhalte von Performance Messungen 
+
+# Spaltenname Beschreibung Typ Beispiel 
+1 Teilnehmer ID ID des TI-ITSM-Teilnehmers bzw. weitere Beteiligte im Betrieb 
+der TI [String]/ 
+
+2 Produktkürzel Produktkürzel gemäß [gemSpec_OM] [String]/ 
+
+3 Betriebsumgebung Gibt die Betriebsumgebung an, in welcher das Produkt im 
+Messintervall gemessen wurde. Werden Messwerte für Produkte bzw. 
+Produktbestandteile (z.B. SZZP) geliefert, so ist die Betriebsumgebung „Alle“ 
+zu verwenden [Auswahlfeld], (RU), (TU), (PU), (Alle) Alle 
+4 Performance Kenngroesse Ausgeprägter Bezeichner der Performance-Kenngröße 
+gemäß Tab_gemKPT_Betr_Performance-Kenngroessen [String]
+PDT03-S06-D1-G01-Z06 
+5 Messwert ermittelter Wert aus der Performance-Messung für das angegebene 
+Messintervall [Auswertungsstart / -ende] bzw. Zeitstempel [Integer] oder
+ [Date] 
+
+6 Messgroesse Messgröße des Performance-Wertes gemäß Tab_ 
+gemKPT_Betr_Performance-Groessen [String] 
+
+7 Auswertungsstart Zeitpunkt, ab dem die Messung für den Wert gestartet ist 
+[Date]/ 
+
+8 Auswertungsende Zeitpunkt, an dem die Messung für den Wert beendet wurde 
+[Date]/]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Ergebnisse ihrer Performance-Messungen nach folgendem Schema (die Reihenfolge ist verbindlich) an den Gesamtverantwortlichen TI übermitteln. <br/>
+ 
+<p class="polarion-rte-caption-paragraph">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Tab_Betr_TIP_003 PERF – Reportinhalte von Performance Messungen
+</p>
+<table style="margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">#</span></th>
+      <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Spaltenname</span></th>
+      <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Beschreibung</span></th>
+      <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Typ</span></th>
+      <th style="background-color: #E0E0E0;text-align: left;vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Beispiel</span></th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">1</span></td>
+      <td style="vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Teilnehmer ID</span></td>
+      <td style="vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">ID des TI-ITSM-Teilnehmers bzw. weitere Beteiligte im Betrieb der TI</span></td>
+      <td style="vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[String]/</span></td>
+      <td style="vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">2</span></td>
+      <td style="vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Produktkürzel</span></td>
+      <td style="vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Produktkürzel gemäß [gemSpec_OM]</span></td>
+      <td style="vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[String]/</span></td>
+      <td style="vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">3</span></td>
+      <td style="vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Betriebsumgebung</span></td>
+      <td style="vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Gibt die Betriebsumgebung an, in welcher das Produkt im Messintervall gemessen wurde. Werden Messwerte für Produkte bzw. Produktbestandteile (z.B. SZZP) geliefert, so ist die Betriebsumgebung „Alle“ zu verwenden</span></td>
+      <td style="vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[Auswahlfeld], (RU), (TU), (PU), (Alle)</span></td>
+      <td style="vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Alle</span></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">4</span></td>
+      <td style="vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Performance Kenngroesse</span></td>
+      <td style="vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Ausgeprägter Bezeichner der Performance-Kenngröße gemäß Tab_gemKPT_Betr_Performance-Kenngroessen</span></td>
+      <td style="vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[String]<br/>
+        </span></td>
+      <td style="vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">PDT03-S06-D1-G01-Z06</span></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">5</span></td>
+      <td style="vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Messwert</span></td>
+      <td style="vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">ermittelter Wert aus der Performance-Messung für das angegebene Messintervall [Auswertungsstart / -ende] bzw. Zeitstempel</span></td>
+      <td style="vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[Integer] oder<br/>
+          [Date]</span></td>
+      <td style="vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">6</span></td>
+      <td style="vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Messgroesse</span></td>
+      <td style="vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Messgröße des Performance-Wertes gemäß Tab_ gemKPT_Betr_Performance-Groessen</span></td>
+      <td style="vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[String]</span></td>
+      <td style="vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">7</span></td>
+      <td style="vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Auswertungsstart</span></td>
+      <td style="vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Zeitpunkt, ab dem die Messung für den Wert gestartet ist</span></td>
+      <td style="vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[Date]/</span></td>
+      <td style="vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 19pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">8</span></td>
+      <td style="vertical-align: top;width: 100pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Auswertungsende</span></td>
+      <td style="vertical-align: top;width: 183pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">Zeitpunkt, an dem die Messung für den Wert beendet wurde</span></td>
+      <td style="vertical-align: top;width: 94pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-size: 10pt;line-height: 1.5;">[Date]/</span></td>
+      <td style="vertical-align: top;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><br/>
+      </td>
+    </tr>
+  </tbody>
+</table>]]></description_html>
+  </requirement>
+  <requirement id="A_17735" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-30" technicalID="ML-97634" revision="564669">
+    <title><![CDATA[Rohdatenreporting]]></title>
+    <description><![CDATA[Anbieter des ePA-Aktensystems (inkl. Schlüsselgenerierungsdienst), 
+Schlüsselgenerierungsdienstes der zentralen Zone, Signaturdienstes, 
+Verzeichnisdienstes, VPN-Zugangsdienstes, KOM-LE, X.509-TSP (HBA, SMC-B, eGK) 
+sowie Fachdienstbetreiber VSDM MÜSSEN Rohdaten der Performancemessungen 
+entsprechend [gemSpec_Perf] an die von dem Gesamtverantwortlichen TI benannte 
+Schnittstelle (gemäß gemSpec_SST_LD_BD) senden. Damit entfällt für sie das 
+konsolidierte Performance-Reporting.]]></description>
+    <description_html><![CDATA[Anbieter des ePA-Aktensystems (inkl. Schlüsselgenerierungsdienst), Schlüsselgenerierungsdienstes der zentralen Zone, Signaturdienstes, Verzeichnisdienstes, VPN-Zugangsdienstes, KOM-LE, X.509-TSP (HBA, SMC-B, eGK) sowie Fachdienstbetreiber VSDM MÜSSEN Rohdaten der Performancemessungen entsprechend [gemSpec_Perf] an die von dem Gesamtverantwortlichen TI benannte Schnittstelle (gemäß gemSpec_SST_LD_BD) senden. Damit entfällt für sie das konsolidierte Performance-Reporting.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5606" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97636" revision="564669">
+    <title><![CDATA[Unterstützung bei Definition von Kapazitätsanforderungen]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN auf Anforderung des Gesamtverantwortlichen TI an 
+Gesprächen zur Bewertung der aktuellen Kapazitätssituation teilnehmen. Sie 
+MÜSSEN den Gesamtverantwortlichen TI bei der Entwicklung und Definition von 
+zukünftigen Kapazitätsanforderungen unterstützen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN auf Anforderung des Gesamtverantwortlichen TI an Gesprächen zur Bewertung der aktuellen Kapazitätssituation teilnehmen. Sie MÜSSEN den Gesamtverantwortlichen TI bei der Entwicklung und Definition von zukünftigen Kapazitätsanforderungen unterstützen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5607" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97644" revision="564669">
+    <title><![CDATA[Inhalte eines Servicekataloges der angebotenen TI-Services]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN alle von ihnen angebotenen TI-Services und 
+-qualitäten gegenüber anderen TI-ITSM-Teilnehmern in einem Servicekatalog im 
+TI-ITSM-System dokumentieren und dabei mindestens folgende Angaben beifügen:
+
+ * Vertraglich zugesicherte Leistung:
+
+ * Prozess des Abrufs und der Freigabe des Services
+
+ * Kosten des Serviceabrufs
+
+ * Reaktions-, Lösungs- und Verifikationsfrist
+
+ * Prozess der Verifikation der Servicelieferung
+
+ * Notwendige Daten zum Abruf des Service Requests: 
+
+ * Benötigte Input Informationen 
+
+ * Betriebsumgebung]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN alle von ihnen angebotenen TI-Services und -qualitäten gegenüber anderen TI-ITSM-Teilnehmern in einem Servicekatalog im TI-ITSM-System dokumentieren und dabei mindestens folgende Angaben beifügen:<br/>
+<ol>
+  <li>Vertraglich zugesicherte Leistung:<br/>
+  </li>
+  <ul>
+    <li>Prozess des Abrufs und der Freigabe des Services<br/>
+    </li>
+    <li>Kosten des Serviceabrufs<br/>
+    </li>
+    <li>Reaktions-, Lösungs- und Verifikationsfrist<br/>
+    </li>
+    <li>Prozess der Verifikation der Servicelieferung<br/>
+    </li>
+  </ul>
+  <li>Notwendige Daten zum Abruf des Service Requests: <br/>
+  </li>
+  <ul>
+    <li>Benötigte Input Informationen <br/>
+    </li>
+    <li>Betriebsumgebung <br/>
+    </li>
+  </ul>
+</ol>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5609" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97646" revision="564669">
+    <title><![CDATA[Abnahme des Servicekataloges]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN alle von ihnen angebotenen Services in einem 
+Business-Servicekatalog mit dem Gesamtverantwortlichen TI vereinbaren.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN alle von ihnen angebotenen Services in einem Business-Servicekatalog mit dem Gesamtverantwortlichen TI vereinbaren. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4121" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97660" revision="564669">
+    <title><![CDATA[Analyse Auswirkungen möglicher Schadensereignisse auf Sicherheit und Funktion der TI-Services]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Auswirkungen möglicher Schadensereignisse auf von 
+ihnen verantworteten TI-Services analysieren und bewerten. Die 
+Auswirkungsanalyse MUSS mit mindestens folgenden Vorgaben erstellt werden:
+
+ * angenommener Ausfall einer tatsächlichen Funktionalität bzw. Eigenschaft 
+des Produkts (Notfallszenario),
+
+ * Beschreibung der Auswirkung möglicher Wechselwirkung mit anderen Produkten 
+bzw. auf den TI-Service,
+
+ * Risikobewertung des Notfallszenarios.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die Auswirkungen möglicher Schadensereignisse auf von ihnen verantworteten TI-Services analysieren und bewerten. Die Auswirkungsanalyse MUSS mit mindestens folgenden Vorgaben erstellt werden:<br/>
+<ul>
+  <li>angenommener Ausfall einer tatsächlichen Funktionalität bzw. Eigenschaft des Produkts (Notfallszenario),<br/>
+  </li>
+  <li>Beschreibung der Auswirkung möglicher Wechselwirkung mit anderen Produkten bzw. auf den TI-Service, <br/>
+  </li>
+  <li>Risikobewertung des Notfallszenarios. </li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4123" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97662" revision="564669">
+    <title><![CDATA[Entwicklung und Pflege der TI-Notfallvorsorgedokumentation]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN eine TI-Notfallvorsorgedokumentation, welche die 
+Ergebnisse der Auswirkungsanalyse sowie Vorkehrungen zur TI-Notfallvorsorge des 
+Serviceverantwortlichen enthält, entwickeln und pflegen. In der 
+TI-Notfallvorsorgedokumentation sind die Aktivitäten festgelegt, die bei 
+Eintritt eines TI-Notfalls durchzuführen sind.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN eine TI-Notfallvorsorgedokumentation, welche die Ergebnisse der Auswirkungsanalyse sowie Vorkehrungen zur TI-Notfallvorsorge des Serviceverantwortlichen enthält, entwickeln und pflegen. In der TI-Notfallvorsorgedokumentation sind die Aktivitäten festgelegt, die bei Eintritt eines TI-Notfalls durchzuführen sind. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4124" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97664" revision="564669">
+    <title><![CDATA[Umsetzung Vorkehrungen zur TI-Notfallvorsorge]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die erarbeiteten Vorkehrungen zur TI-Notfallvorsorge 
+umsetzen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>TI-ITSM-Teilnehmer</span><span> M&Uuml;SSEN die erarbeiteten Vorkehrungen zur TI-Notfallvorsorge umsetzen. </span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4126" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97668" revision="564669">
+    <title><![CDATA[Eskalation TI-Notfälle]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN erkannte TI-Notfälle unverzüglich an den 
+Gesamtverantwortlichen TI eskalieren. Eine Meldung an den 
+Gesamtverantwortlichen TI MUSS im Sinne einer umgehenden und persönlichen 
+Benachrichtigung erfolgen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN erkannte TI-Notfälle unverzüglich an den Gesamtverantwortlichen TI eskalieren. Eine Meldung an den Gesamtverantwortlichen TI MUSS im Sinne einer umgehenden und persönlichen Benachrichtigung erfolgen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4127" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97670" revision="564669">
+    <title><![CDATA[Sofortmaßnahmen TI-Notfälle]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer, deren Dienste von einem TI-Notfall betroffen sind, MÜSSEN 
+entsprechende Maßnahmen einleiten, mit dem Ziel die Auswirkungen der 
+TI-Notfälle eigenständig zu reduzieren oder einzuschränken.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer, deren Dienste von einem TI-Notfall betroffen sind, MÜSSEN entsprechende Maßnahmen einleiten, mit dem Ziel die Auswirkungen der TI-Notfälle eigenständig zu reduzieren oder einzuschränken. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4128" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97672" revision="564669">
+    <title><![CDATA[Bewältigung der TI-Notfälle]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN vom EMC autorisierte TI-Notfallmaßnahmen zur Be
+wältigung von TI-Notfällen im eigenen Verantwortungsbereich umsetzen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>TI-ITSM-Teilnehmer</span><span> M&Uuml;SSEN vom EMC autorisierte TI-Notfallma&szlig;nahmen zur B</span><span>e</span><span>w&auml;ltigung von TI-Notf&auml;llen im eigenen Verantwortungsbereich umsetzen. </span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4129" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97673" revision="564669">
+    <title><![CDATA[Unterstützung bei TI-Notfällen]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei der Bewältigung sowie Koordination der 
+TI-Notfälle den Gesamtverantwortlichen TI oder andere TI-ITSM-Teilnehmer im 
+erforderlichen Umfang unterstützen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN bei der Bewältigung sowie Koordination der TI-Notfälle den Gesamtverantwortlichen TI oder andere TI-ITSM-Teilnehmer im erforderlichen Umfang unterstützen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4130" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97678" revision="564669">
+    <title><![CDATA[Festlegung der Schnittstellen des EMC]]></title>
+    <description><![CDATA[Prozessbeteiligte TI-ITSM-Teilnehmer MÜSSEN die vom Gesamtverantwortlichen TI 
+bereitgestellten Schnittstellen im Rahmen der Einberufung des EMC nutzen.]]></description>
+    <description_html><![CDATA[Prozessbeteiligte TI-ITSM-Teilnehmer MÜSSEN die vom Gesamtverantwortlichen TI bereitgestellten Schnittstellen im Rahmen der Einberufung des EMC nutzen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4132" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97683" revision="564669">
+    <title><![CDATA[Durchführung der Wiederherstellung und TI-Notfällen]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN alle Aktivitäten, welche der Wiedererreichung und 
+Stabilisierung des Leistungsumfangs im eigenen Verantwortungsbereich dienen, 
+durchführen und dokumentieren.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN alle Aktivitäten, welche der Wiedererreichung und Stabilisierung des Leistungsumfangs im eigenen Verantwortungsbereich dienen, durchführen und dokumentieren. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4134" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97685" revision="564669">
+    <title><![CDATA[Auswertungen von TI-Notfällen]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN nach Abschluss der TI-Notfallbewältigung den 
+TI-Notfall hinsichtlich seiner Ursache, Auswirkung, Dauer, Wahrscheinlichkeit 
+eines erneuten Eintritts und der Angemessenheit der ergriffenen Maßnahmen zur 
+TI-Notfallbewältigung auswerten.Die Auswertungsergebnisse sind zusammen mit 
+TI-Notfall-Logbuch und Wiederherstellungsbericht,an den Gesamtverantwortlichen 
+TI zu übergeben.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN nach Abschluss der TI-Notfallbewältigung den TI-Notfall hinsichtlich seiner Ursache, Auswirkung, Dauer, Wahrscheinlichkeit eines erneuten Eintritts und der Angemessenheit der ergriffenen Maßnahmen zur TI-Notfallbewältigung auswerten. <span style="color: #000000;">Die Auswertungsergebnisse sind zusammen mit TI-Notfall-Logbuch und Wiederherstellungsbericht, </span>an den Gesamtverantwortlichen TI zu über<span style="color: #000000;">geben. </span><br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4136" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97687" revision="564669">
+    <title><![CDATA[Statusinformation bei TI-Notfällen]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer, die von einem TI-Notfall betroffen sind, MÜSSEN im Rahmen 
+der TI-Notfallbewältigung den Gesamtverantwortlichen TI ständig über den 
+aktuellen Status der Durchführung der TI-Notfallmaßnahmen informieren.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer, die von einem TI-Notfall betroffen sind, MÜSSEN im Rahmen der TI-Notfallbewältigung den Gesamtverantwortlichen TI ständig über den aktuellen Status der Durchführung der TI-Notfallmaßnahmen informieren. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4137" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97690" revision="564669">
+    <title><![CDATA[Dokumentation im TI-Notfall-Logbuch]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN zu jedem TI-Notfall ein TI-Notfall-Logbuch erstellen.
+
+TI-ITSM-Teilnehmer MÜSSEN im Rahmen der TI-Notfallbewältigung im eigenen 
+Verantwortungsbereich folgende Angaben im TI-Notfall-Logbuch dokumentieren:
+
+ * 
+Zeit (Wann?) 
+
+ * 
+Verantwortung (Wer?)
+
+ * 
+Durchführung (Was, Wie?)
+
+ * 
+Ergebnis einer Maßnahme
+
+TI-ITSM-Teilnehmer MÜSSEN dabei das TI-Notfall-Logbuch in den Phasen vom 
+Bekanntwerden des Notfalls bis zur Notfalldeeskalation ständig aktualisieren.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>TI-</span><span>ITSM-Teilnehmer M&Uuml;SSEN zu jedem TI-Notfall ein TI-Notfall-Logbuch erstellen. </span></p><p style="margin-left: 0px;"><span>TI-</span><span>ITSM-Teilnehmer M&Uuml;SSEN im Rahmen der TI-Notfallbew&auml;ltigung im eigenen Verantwortungsbereich folgende Angaben im TI-Notfall-Logbuch dokumentieren:</span></p><ul><li><p><span>Zeit (Wann?) </span></p></li><li><p><span>Verantwortung (Wer?)</span></p></li><li><p><span>Durchf&uuml;hrung (Was, Wie?)</span></p></li><li><p><span>Ergebnis einer Ma&szlig;nahme</span></p></li></ul><p style="margin-left: 0px;"><span>TI-</span><span>ITSM-Teilnehmer M&Uuml;SSEN dabei das TI-Notfall-Logbuch in den Phasen vom Bekanntwerden des Notfalls bis zur Notfalldeeskalation st&auml;ndig aktualisieren. </span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4138" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97692" revision="564669">
+    <title><![CDATA[Erstellung des Wiederherstellungsberichts nach TI-Notfällen]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN zu jeder Wiederherstellung in der 
+TI-Notfallbewältigung einen Wiederherstellungsbericht erstellen.
+
+TI-ITSM-Teilnehmer MÜSSEN einen Wiederherstellungsbericht mit allen durchge
+führten Aktionen und Änderungen sowie Angaben zu Erfolg und Misserfolg jeder 
+einzelnen Aktivität im eigenen Verantwortungsbereich, welche im Rahmen der Wie
+derherstellung durchgeführt wurden, erstellen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>TI-</span><span>ITSM-Teilnehmer M&Uuml;SSEN zu jeder Wiederherstellung in der TI-Notfallbew&auml;ltigung einen Wiederherstellungsbericht erstellen. </span></p><p style="margin-left: 0px;"><span>TI-</span><span>ITSM-Teilnehmer M&Uuml;SSEN einen Wiederherstellungsbericht mit allen durchg</span><span>e</span><span>f&uuml;hrten Aktionen und &Auml;nderungen sowie Angaben zu Erfolg und Misserfolg jeder einzelnen Aktivit&auml;t im eigenen Verantwortungsbereich, welche im Rahmen der Wi</span><span>e</span><span>derherstellung durchgef&uuml;hrt wurden, erstellen. </span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5608" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97694" revision="564669">
+    <title><![CDATA[Übermittlung von CSV-Dateien]]></title>
+    <description><![CDATA[Bei der Übermittlung von CSV-Dateien an den Gesamtverantwortlichen TI sind 
+folgende Regelungen zu beachten:
+
+ * Der Betreff einer E-Mail ist immer der Dateiname der in der E-Mail 
+angehängten CSV-Datei. (Ausnahme: konsolidiertes Reporting entsprechend 
+A_18236-01)
+
+ * Bei der Anwendung von E-Mail-Komprimierung gelten folgende Vorgaben:
+
+ * 
+ * CSV-Dateien sind von Komprimierungsmaßnahmen ausgeschlossen
+
+ * Komprimierung der Dateianhänge im zip-Datei-Format
+
+ * mit „normaler“ Kompression/Kompressionsstärke
+
+ * mit Kompressionsmethode/-verfahren „Deflate“ (#4.4.5 - compression method 8)
+
+ * unverschlüsselt, d. h. ohne Passwort
+
+ * nicht selbst-entpackend (d. h. zip als exe)]]></description>
+    <description_html><![CDATA[Bei der Übermittlung von CSV-Dateien an den Gesamtverantwortlichen TI sind folgende Regelungen zu beachten: <br/> <ul><li>Der Betreff einer E-Mail ist immer der Dateiname der in der E-Mail angehängten CSV-Datei. (Ausnahme: konsolidiertes Reporting entsprechend A_18236-01)<span id="polarion-comment:166"></span><br/></li><li>Bei der Anwendung von E-Mail-Komprimierung gelten folgende Vorgaben:<br/></li><li style="list-style: none"><ul><li>CSV-Dateien sind von Komprimierungsmaßnahmen ausgeschlossen<br/></li><li>Komprimierung der Dateianhänge im zip-Datei-Format<br/></li><li>mit „normaler“ Kompression/Kompressionsstärke<br/></li><li>mit Kompressionsmethode/-verfahren „Deflate“ (#4.4.5 - compression method 8)<br/></li><li>unverschlüsselt, d. h. ohne Passwort<br/></li><li>nicht selbst-entpackend (d. h. zip als exe)</li></ul></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5248" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97695" revision="564669">
+    <title><![CDATA[Konventionen zur Struktur von Prozessdaten]]></title>
+    <description><![CDATA[* Für CSV-Dateien gilt :
+ TI-ITSM-Teilnehmer MÜSSEN die Struktur der CSV-Dateien für 
+Statusinformationen und Eskalationen sowie der Prozesskommunikation nach den 
+Vorgaben aus [RFC4180] und den nachfolgenden Konkretisierungen bauen:
+
+ * In der ersten Zeile sind die Feldnamen (Header) und ab der zweiten Zeile 
+sind die zu übermittelnden Werte enthalten (Datensatz). Diese sind durch 
+Semikolon (ASCII-59) zu trennen.
+
+ * Zeichensatzkodierung UTF-8 ohne ByteOrderMark liefern.
+
+ * Sämtliche Feldinhalte innerhalb der CSV-Datei (d.h. die Inhalte der 
+Datensätze UND die Inhalte des Headers) sind in ASCII-34-Zeichen zu setzen 
+(Quoting).
+
+ * Leere Felder müssen quotiert werden. 
+
+ * Innerhalb der Feldinhalte ist jedes ASCII-34-Zeichen durch ASCII-39-Zeichen 
+zu ersetzen.
+
+ * Zeilendelimiter ist die Zeichenfolge ASCII-13-Zeichen (Carriage return), 
+ASCII-10-Zeichen (Line feed).
+
+ * Comments sind nicht zugelassen.
+
+ * Leere Zeilen sind nicht zugelassen.
+
+ * Leerzeichen am Rand von Feldinhalten werden nicht ignoriert, d. h., sie 
+sind vom Sender zu entfernen, wenn sie nicht intendiert sind.
+
+ * Ist in einem Feldinhalt kein Zeichen enthalten, wird das als NULL-Wert, 
+d. h. nicht gefüllter Feldwert interpretiert.
+
+ * Tausendertrennzeichen DÜRFEN NICHT verwendet werden.
+
+ * Der auf Grundlage von Basisfeldtypen (Tabelle 16: Tab_Betr_TIP_030 
+Basisfeldtypen von CSV-Dateien) festgelegte Wertebereich in Spalte „Typ“ muss 
+erfüllt werden.
+
+ * Als Basis für Datums- und Zeitformate dient die ISO-Norm 8601. 
+
+ * Folgende Formate sind zu benutzen:
+
+ * für Werte innerhalb der CSV-Datei: YYYY-MM-DDThh:mm:ss±hh
+
+ * als Bestandteil eines Dateinamens: YYYYMMDDThhmmss±hh
+
+ * Jede Datei darf im Rahmen der Prozesskommunikation nur einen Datensatz 
+enthalten. Reports dürfen mehrere Datensätze enthalten.
+
+ * Für die Erfassung der Prozessdaten im Webportal werden die Konventionen im 
+entsprechenden Formular dargestellt.]]></description>
+    <description_html><![CDATA[<ol>
+  <li>Für CSV-Dateien gilt :<br/>
+  </li>
+</ol>
+TI-ITSM-Teilnehmer MÜSSEN die Struktur der CSV-Dateien für Statusinformationen und Eskalationen sowie der Prozesskommunikation nach den Vorgaben aus [RFC4180] und den nachfolgenden Konkretisierungen bauen: <br/>
+<ul>
+  <li>In der ersten Zeile sind die Feldnamen (Header) und ab der zweiten Zeile sind die zu übermittelnden Werte enthalten (Datensatz). Diese sind durch Semikolon (ASCII-59) zu trennen.<br/>
+  </li>
+  <li>Zeichensatzkodierung UTF-8 ohne ByteOrderMark liefern.<br/>
+  </li>
+  <li>Sämtliche Feldinhalte innerhalb der CSV-Datei (d.h. die Inhalte der Datensätze UND die Inhalte des Headers) sind in ASCII-34-Zeichen zu setzen (Quoting).<br/>
+  </li>
+  <li>Leere Felder müssen quotiert werden. <br/>
+  </li>
+  <li>Innerhalb der Feldinhalte ist jedes ASCII-34-Zeichen durch ASCII-39-Zeichen zu ersetzen.<br/>
+  </li>
+  <li>Zeilendelimiter ist die Zeichenfolge ASCII-13-Zeichen (Carriage return), ASCII-10-Zeichen (Line feed).<br/>
+  </li>
+  <li>Comments sind nicht zugelassen.<br/>
+  </li>
+  <li>Leere Zeilen sind nicht zugelassen.<br/>
+  </li>
+  <li>Leerzeichen am Rand von Feldinhalten werden nicht ignoriert, d. h., sie sind vom Sender zu entfernen, wenn sie nicht intendiert sind.<br/>
+  </li>
+  <li>Ist in einem Feldinhalt kein Zeichen enthalten, wird das als NULL-Wert, d. h. nicht gefüllter Feldwert interpretiert. <br/>
+  </li>
+  <li>Tausendertrennzeichen DÜRFEN NICHT verwendet werden.<br/>
+  </li>
+  <li>Der auf Grundlage von Basisfeldtypen (Tabelle 16: Tab_Betr_TIP_030 Basisfeldtypen von CSV-Dateien) festgelegte Wertebereich in Spalte „Typ“ muss erfüllt werden.<br/>
+  </li>
+  <li>Als Basis für Datums- und Zeitformate dient die ISO-Norm 8601. <br/>
+  </li>
+  <li>Folgende Formate sind zu benutzen:<br/>
+  </li>
+  <ul>
+    <li>für Werte innerhalb der CSV-Datei: YYYY-MM-DDThh:mm:ss±hh<br/>
+    </li>
+    <li>als Bestandteil eines Dateinamens: YYYYMMDDThhmmss±hh<br/>
+    </li>
+  </ul>
+  <li>Jede Datei darf im Rahmen der Prozesskommunikation nur einen Datensatz enthalten. Reports dürfen mehrere Datensätze enthalten.<br/>
+  </li>
+</ul>
+<ol class="continue">
+  <li>Für die Erfassung der Prozessdaten im Webportal werden die Konventionen im entsprechenden Formular dargestellt. <br/>
+  </li>
+</ol>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5249" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-97696" revision="564669">
+    <title><![CDATA[Reservierte Zeichen in den Prozessdaten]]></title>
+    <description><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die in Tab_Betr_TIP_049 reservierte Zeichen 
+Ersetzungstabelle benannten Zeichenketten in den [String] Basisfeldtypen der zu 
+übermittelnden Prozessdaten der Incident- und Problemdokumentationen vermeiden 
+und entsprechend ersetzen.]]></description>
+    <description_html><![CDATA[TI-ITSM-Teilnehmer MÜSSEN die in Tab_Betr_TIP_049 reservierte Zeichen Ersetzungstabelle benannten Zeichenketten in den [String] Basisfeldtypen der zu übermittelnden Prozessdaten der Incident- und Problemdokumentationen vermeiden und entsprechend ersetzen. <br/>]]></description_html>
+  </requirement>
+</requirements>

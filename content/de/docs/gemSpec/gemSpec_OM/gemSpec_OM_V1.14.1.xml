@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="GS-A_3695" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-7405" revision="540903">
+    <title><![CDATA[Grundlegender Aufbau Versionsnummern]]></title>
+    <description><![CDATA[Versionsnummern der TI MÜSSEN folgenden grundlegenden Aufbau haben:
+ Hauptversionsnummer.Nebenversionsnummer.Revisionsnummer<Trenner>Suffix
+ Die Bestandteile „Trenner“ und Suffix sind optional. Details hierzu werden 
+pro Artefakttyp (vgl. 2.1.1) festgelegt.
+ Die kleinste Versionsnummer ist 0.0.1<Trenner>0. Die Bestandteile der 
+Nummerierung sind numerisch.]]></description>
+    <description_html><![CDATA[Versionsnummern der TI MÜSSEN folgenden grundlegenden Aufbau haben:<br/>
+Hauptversionsnummer.Nebenversionsnummer.Revisionsnummer&lt;Trenner&gt;Suffix<br/>
+Die Bestandteile „Trenner“ und Suffix sind optional. Details hierzu werden pro Artefakttyp (vgl. 2.1.1) festgelegt.<br/>
+Die kleinste Versionsnummer ist 0.0.1&lt;Trenner&gt;0. Die Bestandteile der Nummerierung sind numerisch.<br/>
+<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3696" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-7406" revision="540903">
+    <title><![CDATA[Zeitpunkt der Erzeugung neuer Versionsnummern]]></title>
+    <description><![CDATA[Neue Versionsnummern für zu versionierende Artefakte der TI MÜSSEN mindestens 
+dann erzeugt werden, wenn die Artefakte zur Nutzung freigegeben werden, 
+unabhängig vom Grund ihrer Erstellung im Entwicklungsprozess.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Neue Versionsnummern </span><span>f&uuml;r </span><span>zu </span><span>versionierende</span><span> </span><span>Artefakte </span><span>der TI </span><span>M&Uuml;SSEN</span><span> </span><span>mindestens </span><span>dann erzeugt werden, wenn die Artefakte zur Nutzung freigegeben werden, unabh&auml;ngig vom Grund ihrer Erstellung im Entwicklungsprozess.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3697" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-7407" revision="540903">
+    <title><![CDATA[Anlass der Erhöhung von Versionsnummern]]></title>
+    <description><![CDATA[Bei der Erhöhung von Versionsnummern MUSS nach folgenden Regeln verfahren 
+werden:
+
+ * 
+Die Hauptversionsnummer eines Artefakts MUSS sich erhöhen, falls daran 
+signifikante Änderungen durchgeführt werden.
+
+ * 
+Die Nebenversionsnummer MUSS sich erhöhen, falls moderate Änderungen 
+durchgeführt werden.
+
+ * 
+Die Revisionsnummer MUSS sich erhöhen, falls Änderungen notwendig werden, die d
+as Artefakt bezüglich seiner Außensicht nicht beeinflussen.
+
+ * 
+Das optionale Suffix MUSS sich erhöhen, falls Änderungen notwendig werden, die 
+das Artefakt bezüglich seiner Außensicht nicht beeinflussen und nicht bereits 
+durch die Revisionsnummer abgebildet wurden. 
+
+ * 
+Bei einer Erhöhung eines Versionsnummernteils (Haupt-, Neben-, Revisionsnummer)
+MÜSSEN alle rechts davon angegebenen Versionsnummernanteile auf null gesetzt 
+werden.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Bei der Erh&ouml;hung von Versionsnummern MUSS nach folgenden Regeln verfahren werden:</span></p><ul><li><p><span>Die </span><span style="font-weight: bolder;">Hauptversionsnummer</span><span> eines Artefakts MUSS sich erh&ouml;hen, falls daran signifikante &Auml;nderungen durchgef&uuml;hrt werden.</span></p></li><li><p><span>Die </span><span style="font-weight: bolder;">Nebenversionsnummer</span><span> MUSS sich erh&ouml;hen, falls </span><span>moderate &Auml;n</span><span></span><span>derungen</span><span> durchgef&uuml;hrt werden.</span></p></li><li><p><span>Die </span><span style="font-weight: bolder;">Revisionsnummer</span><span> MUSS sich erh&ouml;hen, falls &Auml;nderungen notwendig </span><span>wer</span><span></span><span>den, die d</span><span>as</span><span> Artefakt</span><span> bez&uuml;glich seine</span><span>r Au&szlig;ensicht nicht beeinflussen</span><span>.</span></p></li><li><p><span>Das optionale </span><span style="font-weight: bolder;">Suffix</span><span> MUSS </span><span>sich erh&ouml;hen, falls &Auml;nderungen notwendig wer</span><span>den, die das Artefakt bez&uuml;glich seiner Au&szlig;ensicht nicht beeinflussen</span><span> und nicht bereits durch die Revisionsnummer abgebildet wurden</span><span>.</span><span> </span></p></li><li><p><span>Bei einer Erh&ouml;hung </span><span>eines</span><span> </span><span>Versionsnummer</span><span>nteils (Haupt-, Neben-, Revisionsnummer)</span><span> </span><span>M&Uuml;SSEN</span><span> </span><span>alle rechts davon angegebenen </span><span>Versions</span><span>num</span><span>mern</span><span>anteile</span><span> auf null gesetzt werden.</span><span style="font-weight: bolder;"> </span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4541" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-07-05" technicalID="ML-7409" revision="540903">
+    <title><![CDATA[Nutzung der Produkttypversion zur Kompatibilitätsprüfung]]></title>
+    <description><![CDATA[Produkte der TI DÜRFEN im Rahmen von Kompatibilitätsprüfungen die 
+Produkttypversion anderer genutzter Produkte technisch NICHT heranziehen, 
+sofern dies nicht ausdrücklich durch die gematik in konkreten Einzelfällen 
+festgelegt wird.]]></description>
+    <description_html><![CDATA[Produkte der TI DÜRFEN im Rahmen von Kompatibilitätsprüfungen die Produkttypversion anderer genutzter Produkte technisch NICHT heranziehen, sofern dies nicht ausdrücklich durch die gematik in konkreten Einzelfällen festgelegt wird.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4542" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-7412" revision="540903">
+    <title><![CDATA[Spezifikationsgrundlage für Produkte]]></title>
+    <description><![CDATA[Alle Produkte der TI MÜSSEN auf einer durch die gematik definierten Spezifika
+tionsgrundlage (Produkttyp und Produkttypversion) basieren.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkte der TI M&Uuml;SSEN auf einer durch die gematik definierten </span><span>Spezifika</span><span></span><span>tions</span><span></span><span>grundlage</span><span> (Produkttyp und Produkttypversion) basieren.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3700" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7414" revision="540903">
+    <title><![CDATA[Versionierung von Produkten auf Basis von dezentralen Produkttypen der TI-Plattform durch die Produktidentifikation]]></title>
+    <description><![CDATA[Alle Produkte der TI, die auf einem dezentralen Produkttyp der TI-Plattform 
+beruhen, MÜSSEN eine eindeutige Produktidentifikation entsprechend den Vorgaben 
+inTab_ProdIdentD besitzen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkte der TI</span><span>,</span><span> die auf einem dezentralen Produkttyp </span><span>der TI-Plattform </span><span>beruhen, M&Uuml;SSEN eine eindeutige Produktidentifikation entsprechend den Vorgaben in </span><span>Tab_ProdIdentD</span><span> besitzen</span><span>.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5025" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-18" technicalID="ML-7415" revision="540903">
+    <title><![CDATA[Versionierung von Produkten auf Basis von zentralen Produkttypen der TI-Plattform und fachanwendungsspezifischen Diensten durch die Produktidentifikation]]></title>
+    <description><![CDATA[Alle Produkte der TI, die auf zentralen Produkttypen der TI-Plattform oder 
+einem fachspezifischen Dienst beruhen, MÜSSEN eine eindeutige 
+Produktidentifikation entsprechend den Vorgaben in Tab_ProdIdentZ besitzen.
+ Das Produktkürzel der Produktidentifikation MUSS für alle Umgebungen 
+(RU/TU/PU) gleich sein und dem Zulassungsantrag entsprechen.]]></description>
+    <description_html><![CDATA[Alle Produkte der TI, die auf zentralen Produkttypen der TI-Plattform oder einem fachspezifischen Dienst beruhen, MÜSSEN eine eindeutige Produktidentifikation entsprechend den Vorgaben in Tab_ProdIdentZ besitzen.<br/>
+Das Produktkürzel der Produktidentifikation MUSS für alle Umgebungen (RU/TU/PU) gleich sein und dem Zulassungsantrag entsprechen. <br/>
+<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5026" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-29" technicalID="ML-7416" revision="540903">
+    <title><![CDATA[Versionierung von Karten durch die Produktidentifikation]]></title>
+    <description><![CDATA[Alle personalisierten Karten und kartenbasierte Sicherheitsmodule der TI (eGK, 
+HBA, SMC-B, gSMC-K, gSMC-KT) MÜSSEN folgende eindeutige Produktidentifikationen 
+entsprechend den Vorgaben in Tab_ProdIdentZ (ohne Patchlevel) besitzen.
+
+ * Chip
+
+ * COS
+
+ * Objektsystem
+
+ * Kartenkörper
+
+ * Personalisierung
+ Das Produktkürzel der Produktidentifikation MUSS für alle Umgebungen 
+(RU/TU/PU) gleich sein und dem Zulassungsantrag entsprechen.]]></description>
+    <description_html><![CDATA[Alle personalisierten Karten und kartenbasierte Sicherheitsmodule der TI (eGK, HBA, SMC-B, gSMC-K, gSMC-KT) MÜSSEN folgende eindeutige Produktidentifikationen entsprechend den Vorgaben in Tab_ProdIdentZ (ohne Patchlevel) besitzen.<br/>
+<ul>
+  <li>Chip<br/>
+  </li>
+  <li>COS<br/>
+  </li>
+  <li>Objektsystem<br/>
+  </li>
+  <li>Kartenkörper<br/>
+  </li>
+  <li>Personalisierung<br/>
+  </li>
+</ul>
+Das Produktkürzel der Produktidentifikation MUSS für alle Umgebungen (RU/TU/PU) gleich sein und dem Zulassungsantrag entsprechen. <br/>
+<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_17235" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-18" technicalID="ML-92965" revision="540903">
+    <title><![CDATA[Versionierung von Software Modulen durch die Produktidentifikation]]></title>
+    <description><![CDATA[Alle Software-Module  der TI, die zur Nutzung auf eigenen Geräten der 
+Versicherten, Kostenträger oder Leistungserbringer  bereitgestellt werden, 
+MÜSSEN eine eindeutige Produktidentifikation entsprechend den Vorgaben in 
+Tab_ProdIdentZ besitzen.
+ Für die Versionierung dieser Software-Module MUSS beachtet werden:
+
+ * Die spezifizierte TI-Funktionalität des Software-Moduls – inklusive 
+genutzter Frameworks und Bibliotheken – unterliegt der Versionierung.
+
+ * Folgende Anteile unterliegen nicht der hier beschriebenen Versionierung:
+
+ * Branding (z.B. kassenspezifische Farben und Logos). 
+
+ * Frameworks (bspw. Java), solange sie keinen Einfluss auf die Funktionalität 
+und Sicherheitsaspekte der TI haben.
+
+ * Zusatzfunktionalitäten, die keine spezifizierten TI-Funktionalitäten oder 
+Sicherheitsaspekte der TI betreffen. ]]></description>
+    <description_html><![CDATA[Alle Software-Module  der TI, die zur Nutzung auf eigenen Geräten der Versicherten, Kostenträger oder Leistungserbringer  bereitgestellt werden, MÜSSEN eine eindeutige Produktidentifikation entsprechend den Vorgaben in Tab_ProdIdentZ besitzen.<br/>
+Für die Versionierung dieser Software-Module MUSS beachtet werden:<br/>
+<ul>
+  <li>Die spezifizierte TI-Funktionalität des Software-Moduls – inklusive genutzter Frameworks und Bibliotheken – unterliegt der Versionierung.<br/>
+  </li>
+  <li>Folgende Anteile unterliegen nicht der hier beschriebenen Versionierung:<br/>
+  </li>
+  <ul>
+    <li>Branding (z.B. kassenspezifische Farben und Logos). <br/>
+    </li>
+    <li>Frameworks (bspw. Java), solange sie keinen Einfluss auf die Funktionalität und Sicherheitsaspekte der TI haben.<br/>
+    </li>
+    <li>Zusatzfunktionalitäten, die keine spezifizierten TI-Funktionalitäten oder Sicherheitsaspekte der TI betreffen.  <br/>
+    </li>
+  </ul>
+</ul>
+<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5054" type="leafRequirement" severity="KANN" lastUpdate="2022-07-05" technicalID="ML-7417" revision="540903">
+    <title><![CDATA[Versionierung von Produkten durch die Produktidentifikation erweitert um Klartextnamen]]></title>
+    <description><![CDATA[Alle Produkte der TI, die auf Produkttypen beruhen, KÖNNEN zusätzlich zu ihrer 
+eindeutigen Produktidentifikation sowohl Herstellernamen, als auch den 
+Produktnamen als Klartext, entsprechend den Vorgaben inTab_ZusAttr, besitzen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkte </span><span>der TI</span><span>,</span><span> die auf Produkttypen beruhen, K&Ouml;NNEN zus&auml;tzlich zu ihrer eindeutigen Produktidentifikation sowohl Herstellernamen, als auch den Produktnamen als Klartext, entsprechend den Vorgaben in </span><span>Tab_ZusAttr</span><span>, besitzen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5038" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-7420" revision="540903">
+    <title><![CDATA[Festlegungen zur Vergabe einer Produktversion]]></title>
+    <description><![CDATA[Hersteller bzw. Anbieter von Produkten MÜSSEN folgende Festlegungen bei der 
+Vergabe einer Produktversion berücksichtigen:
+
+ * 
+Jede Produktänderung MUSS durch eine Änderung an den Produktversionsanteilen 
+Hauptversionsnummer, Nebenversionsnummer, Revisionsnummer bzw., wenn vorhanden, 
+Patchlevel(Suffix) gekennzeichnet werden.
+
+ * 
+Jede Produktänderung MUSS eine höhere Produktversion aufweisen, als die 
+zugrundeliegende Vorgängerversion.
+
+ * 
+Wenn ein von der Stelligkeit höherer Versionsanteil geändert wird, MÜSSEN die 
+Versionsanteile mit niedrigerer Stelligkeit auf „0“ gesetzt werden. 
+
+ * 
+Für die Versionsanteile MÜSSEN ausschließlich Dezimalzahlen verwendet werden. 
+Führende Nullen in einzelnen Anteilen DÜRFEN NICHT bei der Anzeige in einer 
+textuellen Darstellungsform verwendet werden.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Hersteller </span><span>bzw. Anbieter </span><span>von Produkten </span><span>M&Uuml;SSEN folgende Festlegungen bei der </span><span>Vergabe einer Produ</span><span>ktversion </span><span>ber&uuml;cksichtigen</span><span>:</span></p><ul><li><p><span>Jede Produkt&auml;nderung MUSS durch eine &Auml;nderung an den Produktversionsanteilen Hauptversionsn</span><span>ummer, Nebenversionsnummer, </span><span>Rev</span><span>isionsnummer </span><span>bzw.</span><span>,</span><span> wenn vorhanden</span><span>,</span><span> </span><span>Patchlevel</span><span>(Suffix)</span><span> </span><span>gekennzeichnet werden.</span></p></li><li><p><span>Jede Produkt&auml;nderung MUSS eine h&ouml;here Produktversion </span><span>aufw</span><span>eisen</span><span>,</span><span> als die zugrundeliegende Vorg&auml;ngerversion.</span></p></li><li><p><span>Wenn ein von der </span><span>Stelligkeit</span><span> h&ouml;herer Versionsanteil ge&auml;ndert wird, </span><span>M&Uuml;SSEN</span><span> die Versionsanteile mit niedriger</span><span>er</span><span> </span><span>Stelligkeit</span><span> auf &bdquo;0&ldquo; gesetzt</span><span> werden</span><span>. </span></p></li><li><p><span>F&uuml;r die Versionsanteile M&Uuml;SSEN ausschlie&szlig;lich Dezimalzahlen verwendet werden. F&uuml;hrende Nullen in einzelnen Anteilen D&Uuml;RFEN NICHT</span><span> bei der Anzeige in einer textuellen Darstellungsform</span><span> verwendet werden</span><span>.</span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5039" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-7421" revision="540903">
+    <title><![CDATA[Änderung der Produktversion bei Änderungen der Produkttypversion]]></title>
+    <description><![CDATA[Hersteller bzw. Anbieter von Produkten MÜSSEN folgende Festlegungen bei der 
+Vergabe einer Produktversionbei Produktänderungen berücksichtigen, falls sich 
+die zugrundeliegende Produkttypversion durch die gematik ändert:
+
+ * 
+Die Hauptversionsnummer MUSS geändert werden, wenn für den Produkttyp durch 
+die gematik ein geänderter (eventuell erweiterter) Funktionsumfang gefordert 
+wird.
+
+ * 
+Ansonsten MUSS die Nebenversionsnummer geändert werden.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Hersteller </span><span>bzw. Anbieter </span><span>von Produkten M&Uuml;SSEN </span><span>folgende Festlegungen bei der Vergabe einer Produktversion </span><span>bei Produkt&auml;nderungen ber&uuml;cksichtigen</span><span>, falls sich die zugrundeliegende Produkttypv</span><span>ersion durch die gematik &auml;ndert:</span></p><ul><li><p><span>Die Hauptversionsnummer MUSS ge&auml;ndert werden, wenn f&uuml;r den Produkttyp durch die gematik ein ge&auml;nderter (eventuell erweiterter) Fun</span><span>ktionsumfang gefordert </span><span>wird</span><span>.</span></p></li><li><p><span>Ansonsten </span><span>MUSS </span><span>die Nebenversionsnummer </span><span>ge&auml;ndert we</span><span>rden</span><span>.</span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5040" type="leafRequirement" severity="KANN" lastUpdate="2022-07-05" technicalID="ML-7422" revision="540903">
+    <title><![CDATA[Änderung der Produktversion bei Produktänderungen außerhalb von Produkttypänderungen]]></title>
+    <description><![CDATA[Hersteller bzw. Anbieter von Produkten KÖNNEN folgende Festlegungen bei der 
+Vergabe einer Produktversion bei Produktänderungen berücksichtigen, falls die 
+zugrundeliegende Produkttypversion durch die gematik unverändert bleibt oder 
+die Produktänderung neben Änderungen aufgrund einer neuen Produkttypversion 
+weitere Anteile enthält:
+
+ * 
+Die Hauptversionsnummer KANN geändert werden, wenn die Produktänderung größere 
+Features oder Feature-Änderungen enthält.
+
+ * 
+Die Nebenversionsnummer KANN geändert werden, wenn die Produktänderung 
+kleinere Features oder Feature-Änderungen enthält.
+
+ * 
+Die Revisionsnummer KANN geändert werden, wenn die Produktänderung 
+Fehlerkorrekturen oder Regeländerung (z. B. OS-, Middleware-Patch) enthält.
+
+ * 
+Ein für zentrale Produkte der TI-Plattform optional vorhandener Patchlevel 
+KANN geändert werden, wenn die Produktänderung unterhalb der Revisionsnummer 
+erfolgt.]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Hersteller bzw. Anbieter von Produkten K&Ouml;NNEN folgende Festlegungen bei der Vergabe einer Produktversion bei Produkt&auml;nderungen ber&uuml;cksichtigen, falls die zugrundeliegende Produkttypversion durch die gematik unver&auml;ndert bleibt oder die Produkt&auml;nderung neben &Auml;nderungen aufgrund einer neuen Produkttypversion weitere Anteile enth&auml;lt:</span></p><ul><li><p><span>Die Hauptversionsnummer KANN ge&auml;ndert werden, wenn die Produkt&auml;nderung gr&ouml;&szlig;ere Features oder Feature</span><span>-&Auml;</span><span>nderungen enth&auml;lt.</span></p></li><li><p><span>Die Nebenversionsnummer KANN ge&auml;ndert werden, wenn die Produkt&auml;nderung kleinere Features oder Feature</span><span>-&Auml;</span><span>nderungen enth&auml;lt.</span></p></li><li><p><span>Die Revisionsnummer KANN ge&auml;ndert werden, wenn die Produkt&auml;nderung Fehlerkorrekturen oder Regel&auml;nderung (z. B. OS-, Middleware-Patch) enth&auml;lt.</span></p></li><li><p><span>Ein f&uuml;r zentrale Produkte der TI-Plattform optional vorhandener Patchlevel KANN ge&auml;ndert werden, wenn die Produkt&auml;nderung unterhalb der Revisionsnummer erfolgt.</span></p></li></ul><p><br></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3702" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-25" technicalID="ML-7424" revision="540903">
+    <title><![CDATA[Inhalt der Selbstauskunft von Produkten außer Karten]]></title>
+    <description><![CDATA[Alle Produkte der TI (mit Ausnahme der Karten) MÜSSEN eine Selbstauskunft mit 
+folgenden Inhalten besitzen:
+
+ * 
+Die Selbstauskunft MUSS die vollständige Produktidentifikation (siehe 
+[GS-A_3700] bzw. [GS-A_5025]) beinhalten.
+
+ * 
+Die Selbstauskunft MUSS den Produkttyp und die kompatibilitätsrelevante Produkt
+typversion beinhalten.
+
+ * 
+Sofern der Produkttyp eine Systemuhr besitzt, MUSS die Selbstauskunft das 
+Abfragedatum (einschl. Uhrzeit) beinhalten.
+
+ * 
+Die Selbstauskunft KANN weitere Versionsinformationen für Komponenten 
+enthalten, aus denen sich das Produkt zusammensetzt (z. B. Betriebssystem, 
+Datenbanksystem, Patches, Service Packs). Hierbei KANN die Anordnung der Knoten 
+gemäß ihrer Abhängigkeits- bzw. Teilerelation (d. h. inBaumdarstellung) 
+erfolgen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkte der TI </span><span>(mit Ausnahme der Karten) </span><span>M&Uuml;SSEN eine Selbstauskunft mit folgenden Inhalten besitzen:</span></p><ul><li><p><span>Die Selbstauskunft MUSS die vollst&auml;ndige Produktidentifikation </span><span>(siehe [GS-A_3700]</span><span> </span><span>bzw. [GS-A_5025]</span><span>) beinhalten.</span></p></li><li><p><span>Die Selbstauskunft MUSS </span><span>den </span><span>Produkttyp und </span><span>die </span><span>kompatibilit&auml;tsrelevante </span><span>Pro</span><span></span><span>dukt</span><span></span><span>typversion</span><span> beinhalten.</span></p></li><li><p><span>Sofern der Produkttyp eine Systemuhr besitzt, MUSS die Selbstauskunft das Abfragedatum (einschl. Uhrzeit) beinhalten.</span></p></li><li><p><span>Die Selbstauskunft KANN weitere Versionsinformationen f&uuml;r Komponenten enthalten, aus denen sich das Produkt zusammensetzt (z.</span><span> </span><span>B. Betriebssystem, Datenbanksystem, Patches, Service Packs). Hierbei KANN die Anordnung der Knoten gem&auml;&szlig; ihrer Abh&auml;ngigkeits- bzw. Teilerelation (d. h. in </span><span>Baum</span><span></span><span>darstellung</span><span>) erfolgen. </span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5140" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-29" technicalID="ML-7425" revision="540903">
+    <title><![CDATA[Inhalt der Selbstauskunft von Karten]]></title>
+    <description><![CDATA[Alle Karten der TI MÜSSEN eine Selbstauskunft mit folgenden Inhalten besitzen:
+
+ * 
+Die Selbstauskunft MUSS die vollständige Produktidentifikation (siehe 
+[GS-A_5026]) beinhalten.
+
+ * 
+Die Selbstauskunft MUSS den Produkttyp und die kompatibilitätsrelevante Produkt
+typversion für die Zulassungsobjekte COS, Objektsystem (inkl. Kartenkörper) und 
+Personalisierung beinhalten.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Karten der TI M&Uuml;SSEN eine Selbstauskunft mit folgenden Inhalten besitzen:</span></p><ul><li><p><span>Die Selbstauskunft MUSS die vollst&auml;ndige Produkt</span><span>identifikation (siehe [GS-A_5026</span><span>]) beinhalten.</span></p></li><li><p><span>Die Selbstauskunft MUSS </span><span>den </span><span>Produkttyp und </span><span>die </span><span>kompatibilit&auml;tsrelevante</span><span> </span><span>Pro</span><span>dukt</span><span>typversion</span><span> f&uuml;r die Zulassungsobjekte COS, Objekt</span><span></span><span>system (inkl. Kartenk&ouml;rper) und Personalisierung beinhalten.</span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4543" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-28" technicalID="ML-7426" revision="540903">
+    <title><![CDATA[Rückgabe der Selbstauskunft von zentralen Produkttypen der TI-Plattform und fachanwendungsspezifischen Diensten]]></title>
+    <description><![CDATA[Alle zentralen Produkte der TI-Plattform und fachanwendungsspezifischen Dienste
+MÜSSEN folgende Festlegungen bei der Rückgabe der Selbstauskunft 
+berücksichtigen:
+
+ * 
+Die Rückgabe der Selbstauskunft SOLL über eine technische Schnittstelle 
+erfolgen.
+
+ * 
+Sofern der Produkttyp eine Systemuhr besitzt, MUSS die Selbstauskunft das 
+Abfragedatum (einschl. Uhrzeit) beinhalten.
+
+ * 
+Falls eine technische Schnittstelle zur Rückgabe verwendet wird, MUSS die 
+Rückgabe mittelsdes XML-Formats [ProductInformation.xsd] erfolgen.
+
+ * 
+Falls keine technische Schnittstelle zu Einsatz kommt, MUSS die Rückgabe der 
+Selbstauskunft auf Anfrage des Gesamtbetriebsverantwortlichen der TI (GBV TI) 
+organisatorisch erfolgen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle zentralen Produkte der TI</span><span>-Plattform</span><span> </span><span>und fachanwendungsspezi</span><span>fischen Dienste </span><span>M&Uuml;SSEN folgende Festlegungen bei der R&uuml;ckgabe der Selbstauskunft ber&uuml;cksichtigen:</span></p><ul><li><p><span>Die R&uuml;ckgabe der Selbstauskunft </span><span>SOLL </span><span>&uuml;ber eine technische Schnittstelle erfolgen.</span></p></li><li><p><span>Sofern der Produkttyp eine Systemuhr besitzt, MUSS die Selbstauskunft das Abfragedatum (einschl. Uhrzeit) beinhalten.</span></p></li><li><p><span>Falls eine technische Schnittstelle zur R&uuml;ckgabe verwendet wird, MUSS die R&uuml;ckgabe mittels </span><span>des </span><span>XML-Formats</span><span> </span><span>[</span><span>ProductInfor</span><span></span><span>mation</span><span>.xsd] </span><span>erfolgen.</span></p></li><li><p><span>Falls keine technische Schnittstelle zu Einsatz kommt, MUSS die R&uuml;ckgabe der Selbstauskunft auf Anfrage des Gesamtbetriebsverantwortlichen der TI (GBV TI) organisatorisch erfolgen.</span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4544" type="implementationRequirement" severity="MUSS" lastUpdate="2019-02-25" technicalID="ML-7427" revision="540903">
+    <title><![CDATA[Rückgabe der Selbstauskunft von dezentralen Produkttypen der TI-Plattform ohne Karten]]></title>
+    <description><![CDATA[Alle dezentralen Produkte der TI-Plattform (ohne Karten) MÜSSEN folgende 
+Festlegungen bei der Rückgabe der Selbstauskunft berücksichtigen:
+
+ * 
+Die Rückgabe der Selbstauskunft MUSS über die Administrationsschnittstelle 
+mittels Benutzerschnittstelle (z. B. GUI) möglich sein. 
+
+ * 
+Zusätzlich KANN die Rückgabe auf Dateibasis über die Administrationsschnitt
+stelle erfolgen. Hierbei muss das XML-Format [ProductInformation.xsd] verwendet 
+werden.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>A</span><span>lle dezentralen Produkte der TI</span><span>-</span><span>Plattform</span><span> </span><span>(ohne Karten) M&Uuml;SSEN folgende Festlegungen bei der R&uuml;ckgabe der Selbstauskunft ber&uuml;cksichtigen:</span></p><ul><li><p><span>Die R&uuml;ckgabe der Selbstauskunft MUSS &uuml;ber die </span><span>Administrations</span><span></span><span>schnitt</span><span></span><span>stelle</span><span> mittels Benutzerschnittstelle (z.</span><span> </span><span>B. GUI) m&ouml;glich sein.</span><span> </span></p></li><li><p><span>Zus&auml;tzlich </span><span>KANN die R&uuml;ckgabe</span><span> auf Dateibasis &uuml;ber die </span><span>Administrations</span><span></span><span>schnitt</span><span></span><span>stelle</span><span> erfolgen. Hierbei </span><span>muss das </span><span>XML-Format </span><span>[</span><span>ProductInformation</span><span>.xsd] </span><span>verwendet werden.</span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_17237" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-18" technicalID="ML-93299" revision="540903">
+    <title><![CDATA[Rückgabe der Selbstauskunft von Software Modulen über Benutzerschnittstelle]]></title>
+    <description><![CDATA[Alle Software-Module der TI, die zur Nutzung auf eigenen Geräten der 
+Versicherten oder Leistungserbringer bereitgestellt werden, MÜSSEN die Rückgabe 
+der Selbstauskunft über die Benutzerschnittstelle (z. B. GUI) ermöglichen.]]></description>
+    <description_html><![CDATA[Alle Software-Module der TI, die zur Nutzung auf eigenen Geräten der Versicherten oder Leistungserbringer bereitgestellt werden, MÜSSEN die Rückgabe der Selbstauskunft über die Benutzerschnittstelle (z. B. GUI) ermöglichen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_17792" type="leafRequirement" severity="KANN" lastUpdate="2022-05-18" technicalID="ML-94339" revision="540903">
+    <title><![CDATA[Rückgabe der Selbstauskunft von Software Modulen auf Dateibasis]]></title>
+    <description><![CDATA[Für alle Software-Module der TI, die zur Nutzung auf eigenen Geräten der 
+Versicherten oder Leistungserbringer bereitgestellt werden, KANN die Rückgabe 
+der Selbstauskunft (zusätzlich zur Benutzerschnittstelle) auf Dateibasis 
+erfolgen.]]></description>
+    <description_html><![CDATA[Für alle Software-Module der TI, die zur Nutzung auf eigenen Geräten der Versicherten oder Leistungserbringer bereitgestellt werden, KANN die Rückgabe der Selbstauskunft (zusätzlich zur Benutzerschnittstelle) auf Dateibasis erfolgen. <br/>
+<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4545" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-14" technicalID="ML-7428" revision="540903">
+    <title><![CDATA[Kurzform der Selbstauskunft für zentrale Produkttypen der TI-Plattform und fachanwendungsspezifische Dienste an die Störungsampel]]></title>
+    <description><![CDATA[Anbieter zentraler Produkte der TI-Plattform oder einem fachspezifischen Dienst
+MÜSSEN die Produktidentifikation, den Produkttyp und die 
+kompatibilitätsrelevanteProdukttypversion in allen Meldungen für ihre Produk
+tinstanzen an die Störungsampel übermitteln.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Anbieter</span><span> zentrale</span><span>r</span><span> Produkte der TI</span><span>-Plattform</span><span> </span><span>oder einem fachspezifischen Dienst </span><span>M&Uuml;SSEN die Produktidentifikation</span><span>, den</span><span> Produkttyp und </span><span>die </span><span>kompatibilit&auml;tsrelevante </span><span>Produkttypversion in </span><span>allen </span><span>Meldungen</span><span> f&uuml;r ihre </span><span>Produk</span><span></span><span>tinstanzen</span><span> </span><span>an die </span><span>St&ouml;rungsampel </span><span>&uuml;bermitteln.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4546" type="leafRequirement" severity="MUSS" lastUpdate="2019-02-25" technicalID="ML-7429" revision="540903">
+    <title><![CDATA[Anzeige der Kurzform der Selbstauskunft von Produktinstanzen in der Störungsampel]]></title>
+    <description><![CDATA[Die Störungsampel MUSS im Rahmen der Anzeige von Informationen zu einzelnen 
+Produktinstanzen auch die durch die Produktinstanzen gemeldeten Anteile der 
+Kurzform der Selbstauskunft (Produkttyp,kompatibilitätsrelevante Produkttyp
+version, Produktidentifikation) anzeigen bzw. zugänglich machen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Die St&ouml;rungsampel MUSS i</span><span>m</span><span> Rahmen der Anzeige von Informationen zu einzelnen Produktinstanzen auch die durch die Produktinstanzen gemeldeten Anteile der Kurzform der Selbstauskunft (Produkttyp, </span><span>kompatibilit&auml;tsrelevante</span><span> </span><span>Produkttyp</span><span></span><span>version</span><span>, Produktidentifikation) anzeigen bzw. zug&auml;nglich machen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4975" type="implementationRequirement" severity="KANN" lastUpdate="2019-02-25" technicalID="ML-7430" revision="540903">
+    <title><![CDATA[Erweiterter Inhalt der Selbstauskunft von Produkten]]></title>
+    <description><![CDATA[Produkttypen der TI-Plattform KÖNNEN eine erweiterte Selbstauskunft technisch 
+ermöglichen, die aus Interoperabilitätsgründen produktspezifische Besonderheiten
+berücksichtigt]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen der TI</span><span>-Plattform</span><span> K&Ouml;NNEN eine erweiterte Selbstauskunft technisch erm&ouml;glichen, die aus Interoperabilit&auml;tsgr&uuml;nden produktspezifische Besonderheiten </span><span>ber&uuml;cksichtigt</span><span> </span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4865" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7432" revision="540903">
+    <title><![CDATA[Versionierte Liste zulässiger Firmware-Versionen]]></title>
+    <description><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, MÜSSEN in jede 
+Firmware eine Firmware-Gruppe als versionierte Liste zulässiger 
+Firmware-Versionen integrieren, zwischen denen ein Wechsel erlaubt ist.]]></description>
+    <description_html><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, MÜSSEN in jede Firmware eine Firmware-Gruppe als versionierte Liste zulässiger Firmware-Versionen integrieren, zwischen denen ein Wechsel erlaubt ist. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4866" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7433" revision="540903">
+    <title><![CDATA[Integritäts- und Authentizitätsschutz der Firmware-Versionsinformationen]]></title>
+    <description><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, MÜSSEN die 
+Firmware-Versionsinformationen kryptographisch, integritäts- und 
+authentizitätsschützen, z. B. durch eine Einbeziehung in die Codesignatur des 
+Firmware-Images.]]></description>
+    <description_html><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, MÜSSEN die Firmware-Versionsinformationen kryptographisch, integritäts- und authentizitätsschützen, z. B. durch eine Einbeziehung in die Codesignatur des Firmware-Images. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4867" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7434" revision="540903">
+    <title><![CDATA[Übernahme Firmware-Gruppe]]></title>
+    <description><![CDATA[Die Komponenten, die Firmware-Gruppen nutzen, MÜSSEN das Update auf eine 
+Firmware-Version, die eine Firmware-Gruppe mit höherer Versionsnummer enthält 
+als die der aktuell vorliegenden Firmware-Gruppe, im Rahmen des hier 
+beschriebenen Update-Prozesses ohne weitere Einschränkungen manuell wie auch 
+automatisiert ermöglichen, was immer dazu führt, dass die neue Firmware-Gruppe 
+übernommen werden MUSS. Dies gilt selbst dann, wenn der Update-Vorgang nach 
+erfolgreicher Prüfung der Integrität des Update-Pakets abgebrochen wird.]]></description>
+    <description_html><![CDATA[Die Komponenten, die Firmware-Gruppen nutzen, MÜSSEN das Update auf eine Firmware-Version, die eine Firmware-Gruppe mit höherer Versionsnummer enthält als die der aktuell vorliegenden Firmware-Gruppe, im Rahmen des hier beschriebenen Update-Prozesses ohne weitere Einschränkungen manuell wie auch automatisiert ermöglichen, was immer dazu führt, dass die neue Firmware-Gruppe übernommen werden MUSS. Dies gilt selbst dann, wenn der Update-Vorgang nach erfolgreicher Prüfung der Integrität des Update-Pakets abgebrochen wird. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4868" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7435" revision="540903">
+    <title><![CDATA[Aufsteigende Nummerierung der Firmware-Gruppen]]></title>
+    <description><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, MÜSSEN die 
+Firmware-Gruppe mit aufsteigenden Nummern versionieren.]]></description>
+    <description_html><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, MÜSSEN die Firmware-Gruppe mit aufsteigenden Nummern versionieren. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4869" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7436" revision="540903">
+    <title><![CDATA[Firmware-Gruppe mindestens eine Firmware-Version]]></title>
+    <description><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, MÜSSEN in eine 
+Firmware-Gruppe mindestens die Firmware-Version aufnehmen, mit der die 
+Firmware-Gruppe verteilt wird. Für den Sonderfall, dass eine Firmware-Gruppe 
+nur eine einzige Firmware-Version enthält, ist ein Downgrade unzulässig.]]></description>
+    <description_html><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, MÜSSEN in eine Firmware-Gruppe mindestens die Firmware-Version aufnehmen, mit der die Firmware-Gruppe verteilt wird. Für den Sonderfall, dass eine Firmware-Gruppe nur eine einzige Firmware-Version enthält, ist ein Downgrade unzulässig.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4870" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7437" revision="540903">
+    <title><![CDATA[Wechsel zu jeder Firmware-Version der aktuellen Firmware-Gruppe]]></title>
+    <description><![CDATA[Komponenten, die Firmware-Gruppen nutzen, MÜSSEN den Wechsel zu jeder in der 
+aktuellen Firmware-Gruppe enthaltenen Firmware-Version ermöglichen. Ein solcher 
+Wechsel ist somit auch auf zugelassene Vorversionen der aktuellen Firmware 
+möglich.]]></description>
+    <description_html><![CDATA[Komponenten, die Firmware-Gruppen nutzen, MÜSSEN den Wechsel zu jeder in der aktuellen Firmware-Gruppe enthaltenen Firmware-Version ermöglichen. Ein solcher Wechsel ist somit auch auf zugelassene Vorversionen der aktuellen Firmware möglich. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4871" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7438" revision="540903">
+    <title><![CDATA[Upgrade nur auf höhere Firmware-Gruppen-Version]]></title>
+    <description><![CDATA[Ein Update zu einer Firmware, deren Version nicht in der aktuellen 
+Firmware-Gruppe enthalten ist, MUSS von Komponenten, die Firmware-Gruppen 
+nutzen, unterbunden werden, soweit die zu installierende Firmware keine 
+Firmware-Gruppe enthält, deren Firmware-Gruppenversion größer ist, als die der 
+aktuell vorliegenden Firmware-Gruppe.]]></description>
+    <description_html><![CDATA[Ein Update zu einer Firmware, deren Version nicht in der aktuellen Firmware-Gruppe enthalten ist, MUSS von Komponenten, die Firmware-Gruppen nutzen, unterbunden werden, soweit die zu installierende Firmware keine Firmware-Gruppe enthält, deren Firmware-Gruppenversion größer ist, als die der aktuell vorliegenden Firmware-Gruppe. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4872" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-03-28" technicalID="ML-7439" revision="540903">
+    <title><![CDATA[Kein Downgrade der Firmware-Gruppe]]></title>
+    <description><![CDATA[Komponenten, die Firmware-Gruppen nutzen, DÜRFEN einen Wechsel auf eine 
+Vorversion der vorliegenden Firmware-Gruppe NICHT ermöglichen.]]></description>
+    <description_html><![CDATA[Komponenten, die Firmware-Gruppen nutzen, DÜRFEN einen Wechsel auf eine Vorversion der vorliegenden Firmware-Gruppe NICHT ermöglichen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4873" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7440" revision="540903">
+    <title><![CDATA[Speicherung der Firmware-Gruppe]]></title>
+    <description><![CDATA[Komponenten, die Firmware-Gruppen nutzen, MÜSSEN den Inhalt der Firmware-Gruppe 
+unabhängig vom Firmware-Image integritätsgesichert persistent speichern.]]></description>
+    <description_html><![CDATA[Komponenten, die Firmware-Gruppen nutzen, MÜSSEN den Inhalt der Firmware-Gruppe unabhängig vom Firmware-Image integritätsgesichert persistent speichern.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4874" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-03-28" technicalID="ML-7441" revision="540903">
+    <title><![CDATA[Firmware-Gruppen-Updates nur über herstellereigenen Update-Mechanismus]]></title>
+    <description><![CDATA[Komponenten, die Firmware-Gruppen nutzen, DÜRFEN den Austausch des Inhalts der 
+Firmware-Gruppe NICHT über andere Wege als ihren Update-Mechanismus 
+ermöglichen. Das Update darf zusammen mit einem Update der Firmware erfolgen. 
+Das Update darf auch ohne Update der Firmware erfolgen.]]></description>
+    <description_html><![CDATA[Komponenten, die Firmware-Gruppen nutzen, DÜRFEN den Austausch des Inhalts der Firmware-Gruppe NICHT über andere Wege als ihren Update-Mechanismus ermöglichen. Das Update darf zusammen mit einem Update der Firmware erfolgen. Das Update darf auch ohne Update der Firmware erfolgen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4875" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-03-28" technicalID="ML-7442" revision="540903">
+    <title><![CDATA[Einschränkung der Firmware-Gruppe bei Verlust Zulassung]]></title>
+    <description><![CDATA[Bei der Veröffentlichung neuer Firmware-Gruppen DÜRFEN Hersteller von 
+Komponenten, die Firmware-Gruppen nutzen, alte Firmware-Versionen, bei denen 
+Sicherheitsmängel bekannt sind oder die die Zulassung der gematik verloren 
+haben, NICHT in neue Firmware-Gruppen aufnehmen.]]></description>
+    <description_html><![CDATA[Bei der Veröffentlichung neuer Firmware-Gruppen DÜRFEN Hersteller von Komponenten, die Firmware-Gruppen nutzen, alte Firmware-Versionen, bei denen Sicherheitsmängel bekannt sind oder die die Zulassung der gematik verloren haben, NICHT in neue Firmware-Gruppen aufnehmen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4876" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-03-28" technicalID="ML-7443" revision="540903">
+    <title><![CDATA[Einschränkung der Firmware-Gruppe bei Verlust SigG-Bestätigung oder CC-Sicherheitszertifikat]]></title>
+    <description><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, DÜRFEN 
+Firmware-Versionen NICHT in neue Firmware-Gruppen aufnehmen, wenn die 
+SigG-Bestätigung der zugehörigen SAK der Komponente zurückgenommen wurde oder 
+wenn die Firmware-Version das CC-Sicherheitszertifikat verliert.]]></description>
+    <description_html><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, DÜRFEN Firmware-Versionen NICHT in neue Firmware-Gruppen aufnehmen, wenn die SigG-Bestätigung der zugehörigen SAK der Komponente zurückgenommen wurde oder wenn die Firmware-Version das CC-Sicherheitszertifikat verliert.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4877" type="leafRequirement" severity="KANN" lastUpdate="2018-11-09" technicalID="ML-7444" revision="540903">
+    <title><![CDATA[Einschränkung der Firmware-Gruppe - Herstelleraspekte]]></title>
+    <description><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, KÖNNEN die in einer 
+Firmware-Gruppe enthaltenen Firmware-Versionen nach eigenem Ermessen 
+einschränken.]]></description>
+    <description_html><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, KÖNNEN die in einer Firmware-Gruppe enthaltenen Firmware-Versionen nach eigenem Ermessen einschränken. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4878" type="leafRequirement" severity="KANN" lastUpdate="2018-11-09" technicalID="ML-7445" revision="540903">
+    <title><![CDATA[Umfang der Firmware-Gruppe]]></title>
+    <description><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, KÖNNEN in eine neue 
+Firmware-Gruppe alle durch die gematik zugelassenen Firmware-Versionen 
+aufnehmen, die vom ihm noch aktiv unterstützt werden. Eine weitergehende 
+Einschränkung der enthaltenen Firmware-Versionen durch den Hersteller KANN 
+ebenso erfolgen.]]></description>
+    <description_html><![CDATA[Hersteller von Komponenten, die Firmware-Gruppen nutzen, KÖNNEN in eine neue Firmware-Gruppe alle durch die gematik zugelassenen Firmware-Versionen aufnehmen, die vom ihm noch aktiv unterstützt werden. Eine weitergehende Einschränkung der enthaltenen Firmware-Versionen durch den Hersteller KANN ebenso erfolgen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4559" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-29" technicalID="ML-7447" revision="540903">
+    <title><![CDATA[Versionierung der Karten der TI]]></title>
+    <description><![CDATA[Alle Karten der TI MÜSSEN eine oder mehrere Dateien besitzen, die eine 
+getrennteVersionierung des Chips, des Kartenbetriebssystems, der Dateistruktur 
+des Objektsystems, des Kartenkörperssowie (optional) der Personalisierung 
+ermöglicht.
+
+Die drei Versionsnummern MÜSSEN hierbei den Vorgaben aus [GS-A_3695] genügen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Karten der TI </span><span>M&Uuml;SSEN eine </span><span>oder mehrere </span><span>Datei</span><span>en </span><span>besitzen, die eine getrennte </span><span>Versionierung</span><span> des </span><span>Chips, des </span><span>Kartenbetriebssystems, der Dateistruktur </span><span>des Objektsystems, des Kartenk&ouml;rpers </span><span>sowie </span><span>(optional) </span><span>der Personalisierung </span><span>erm&ouml;glicht.</span></p><p style="margin-left: 0px;"><span>Die drei Versionsnummern M&Uuml;SSEN hierbei den Vorgaben aus [GS-A_3695] gen&uuml;gen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4560" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-29" technicalID="ML-7448" revision="540903">
+    <title><![CDATA[Versionierung von Datenstrukturen der Karten der TI]]></title>
+    <description><![CDATA[Alle Karten der TI MÜSSEN, sofern sie in ihren Dateien in Bezug auf die 
+Datenstruktur veränderliche Inhalte ablegen, für diese Datenstrukturen eine 
+zusätzliche Versionierung vorsehen. 
+
+Die Versionsinformation MUSS hierbei entweder Bestandteil der Datei sein oder 
+in getrennten Versionsinformationsdateien vorgehalten werdenund den Vorgaben 
+aus [GS-A_3695] genügen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Karten der TI</span><span> M&Uuml;SSEN,</span><span> sofern sie in ihren Dateien in Bezug auf die Datenstruktur ver&auml;nderliche Inhalte ablegen, f&uuml;r diese Datenstrukturen eine zus&auml;tz</span><span></span><span>liche </span><span>Versionierung</span><span> vorsehen. </span></p><p style="margin-left: 0px;"><span>Die Versionsinformation</span><span> MUSS</span><span> hierbei </span><span>entweder </span><span>Bestandteil der Datei</span><span> sein </span><span>oder in getrennten Versionsinformationsdateien vorgehalten werden </span><span>und </span><span>den Vorgaben aus [GS-A_3695] gen&uuml;gen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3701" type="implementationRequirement" severity="MUSS" lastUpdate="2019-02-25" technicalID="ML-7449" revision="540903">
+    <title><![CDATA[Berücksichtigung verschiedener Versionsstände von Karten der TI]]></title>
+    <description><![CDATA[Da sich die Gültigkeitszeiträume der Kartenversionen von eGK, SMC_B und HBA 
+überschneiden können, MÜSSEN zugreifende Produkttypen (Konnektoren etc.) in der 
+Lage sein, verschiedene Versionsstände zu verarbeiten.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Da sich die G&uuml;ltigkeitszeitr&auml;ume der Kartenversionen von </span><span>eGK</span><span>, SMC_B und HBA &uuml;berschneiden k&ouml;nnen, M&Uuml;SSEN zugreifende Produkttypen (Konnektoren etc.) in der Lage sein, verschiedene Versionsst&auml;nde zu verarbeiten.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3785" type="implementationRequirement" severity="MUSS" lastUpdate="2020-01-16" technicalID="ML-7452" revision="540903">
+    <title><![CDATA[Lokale Fehlerbehandlung]]></title>
+    <description><![CDATA[Alle Produkttypen der TI MÜSSEN folgende allgemeine Vorgaben zur lokalen 
+Fehlerbehandlung berücksichtigen:
+
+ * 
+Fehler, die während der lokalen Verarbeitung auftreten, MÜSSEN erkannt, 
+verarbeitet und im Rahmen einer Fehlermeldung an den aufrufenden Produkttyp 
+gemeldet werden.
+
+ * 
+Für Fehler, die eine für den Anwender sichtbare Auswirkung haben, MÜSSEN 
+folgende Vorgaben berücksichtigt werden:
+
+ * 
+Bei direkter Meldung an den Anwender MUSS die Fehlermeldung für den Anwender 
+direkt verständlich sein und es SOLL die Ursache bzw. die Bezeichnung für den 
+Ausnahmefall ersichtlich sein.
+
+ * 
+Bei Meldung der Fehlermeldung an verarbeitende Systeme, MUSS die Fehlermeldung 
+geeignet dafür sein, dass das verarbeitende System eine Fehlermeldung erzeugen 
+kann, die für den Anwender verständlich ist, und bei der die Ursache bzw. die 
+Bezeichnung für den Ausnahmefall ersichtlich ist.]]></description>
+    <description_html><![CDATA[Alle Produkttypen der TI MÜSSEN folgende allgemeine Vorgaben zur lokalen Fehlerbehandlung berücksichtigen:<br/><ul><li><p>Fehler, die während der lokalen Verarbeitung auftreten, MÜSSEN erkannt, verarbeitet und im Rahmen einer Fehlermeldung an den aufrufenden Produkttyp gemeldet werden.</p></li><li><p>Für Fehler, die eine für den Anwender sichtbare Auswirkung haben, MÜSSEN folgende Vorgaben berücksichtigt werden:</p><ul><li><p>Bei direkter Meldung an den Anwender MUSS die Fehlermeldung für den Anwender direkt verständlich sein und es SOLL die Ursache bzw. die Bezeichnung für den Ausnahmefall ersichtlich sein.</p></li><li><p>Bei Meldung der Fehlermeldung an verarbeitende Systeme, MUSS die Fehlermeldung geeignet dafür sein, dass das verarbeitende System eine Fehlermeldung erzeugen kann, die für den Anwender verständlich ist, und bei der die Ursache bzw. die Bezeichnung für den Ausnahmefall ersichtlich ist.</p></li></ul></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3794" type="implementationRequirement" severity="MUSS" lastUpdate="2019-02-25" technicalID="ML-7453" revision="540903">
+    <title><![CDATA[Remote-Fehlerbehandlung]]></title>
+    <description><![CDATA[Alle Produkttypen der TI MÜSSEN bei der Verarbeitung von (durch sie empfangenen
+) Fehlermeldungen folgende allgemeine Vorgaben berücksichtigen:
+
+ * 
+Empfangene Fehlermeldungen KÖNNEN als Remote-Fehler protokolliert werden.
+
+ * 
+Durch empfangene Fehlermeldungen resultierende Folgefehler KÖNNEN an die 
+Fehlermeldung angefügt werden.
+
+ * 
+Für weitergeleitete bzw. bearbeitete Fehlermeldungen, die eine für den 
+Anwender sichtbare Auswirkung haben, MÜSSEN folgende Vorgaben berücksichtigt 
+werden:
+
+ * 
+Bei direkter Meldung an den Anwender MUSS die weitergeleitete bzw. bearbeitete 
+Fehlermeldung für den Anwender direkt verständlich sein und es MUSS die Ursache 
+bzw. die Bezeichnung für den Ausnahmefall ersichtlich sein.
+
+ * 
+Bei Meldung der weitergeleiteten bzw. bearbeiteten Fehlermeldung an 
+verarbeitende Systeme, MUSS die Fehlermeldung geeignet dafür sein, dass das 
+weiter verarbeitende System eine Fehlermeldung erzeugen kann, die für den 
+Anwender verständlich ist, und bei der die Ursache bzw. die Bezeichnung für den 
+Ausnahmefall ersichtlich ist.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkttypen der TI M&Uuml;SSEN bei der Verarbeitung von </span><span>(</span><span>durch sie empfangenen</span><span>)</span><span> Fehl</span><span>ermeldungen folgende allgemeine</span><span> Vorgaben ber&uuml;cksichtigen:</span></p><ul><li><p><span>Empfangene Fehlermeldungen K&Ouml;NNEN als Remote-Fehler protokolliert werden.</span></p></li><li><p><span>Durch empfangene Fehlermeldungen resultierende Folgefehler K&Ouml;NNEN an die Fehlermeldung angef&uuml;gt werden. </span></p></li><li><p><span>F&uuml;r weitergeleitete bzw. bearbeitete Fehlermeldungen, die eine f&uuml;r den Anwender sichtbare Auswirkung haben, M&Uuml;SSEN folgende Vorgaben ber&uuml;cksichtigt werden:</span></p><ul><li><p><span>Bei direkter Meldung an den Anwender MUSS die weitergeleitete bzw. bearbeitete Fehlermeldung f&uuml;r den Anwender direkt verst&auml;nd</span><span></span><span>lich sein und es MUSS die Ursache bzw. die Bezeichnung f&uuml;r den Aus</span><span></span><span>nahmefall ersichtlich sein.</span></p></li><li><p><span>Bei Meldung der weitergeleiteten bzw. bearbeiteten Fehlermeldung an verarbeitende Systeme, MUSS die Fehlermeldung geeignet daf&uuml;r sein, dass das weiter verarbeitende System eine Fehlermeldung erzeugen kann, die f&uuml;r den Anwender verst&auml;ndlich ist, und bei der die Ursache bzw. die Bezeichnung f&uuml;r den Ausnahmefall ersichtlich ist.</span></p></li></ul></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3856-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-102041" revision="540903">
+    <title><![CDATA[Struktur der Fehlermeldungen]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die Webservices nutzen und keine abweichenden 
+Vorgaben von der gematik für diesen Webservice haben, MÜSSEN bei Struktur und 
+Inhalt von Fehlermeldungen folgende Vorgaben berücksichtigen:
+
+ * Fehlermeldungen müssen auf dem XML-Schema [TelematikError.xsd] basieren 
+(siehe auch Abbildung Abb_XML_Struktur_Fehler zur Darstellung).
+
+ * Das Element Trace muss eine Liste von Fehlern beinhalten die im Kontext der 
+Fehlermeldung stehen. Der erste Eintrag in der Liste muss den ursprünglichen 
+Fehler beschreiben. Weitere Einträge können durch verarbeitende Produkttypen 
+hinzugefügt werden, um einen Trace des Fehlers zu erhalten.
+
+ * Die Elemente der Fehlermeldungen müssen allen Vorgaben aus Tabelle 
+Tab_Attribute_Fehler genügen.
+
+ * Das Element Detail kann weiterführenden Details enthalten.
+
+ * Das Element ErrorType muss dem Wertebereich entsprechend Tab_ErrorType 
+genügen.
+
+ * Das Element Severity muss dem Wertebereich entsprechend Tab_Severity_Codes 
+genügen.]]></description>
+    <description_html><![CDATA[Alle<span id="polarion-comment:48"></span> Produkttypen der TI, die Webservices nutzen und keine abweichenden Vorgaben von der gematik für diesen Webservice haben, MÜSSEN bei Struktur und Inhalt von Fehlermeldungen folgende Vorgaben berücksichtigen:<br/><ul><li>Fehlermeldungen müssen auf dem XML-Schema [TelematikError.xsd] basieren (siehe auch Abbildung Abb_XML_Struktur_Fehler zur Darstellung).<br/></li><li>Das Element Trace muss eine Liste von Fehlern beinhalten die im Kontext der Fehlermeldung stehen. Der erste Eintrag in der Liste muss den ursprünglichen Fehler beschreiben. Weitere Einträge können durch verarbeitende Produkttypen hinzugefügt werden, um einen Trace des Fehlers zu erhalten.<br/></li><li>Die Elemente der Fehlermeldungen müssen allen Vorgaben aus Tabelle Tab_Attribute_Fehler genügen.<br/></li><li>Das Element Detail kann weiterführenden Details enthalten.<br/></li><li>Das Element ErrorType muss dem Wertebereich entsprechend Tab_ErrorType genügen.<br/></li><li>Das Element Severity muss dem Wertebereich entsprechend Tab_Severity_Codes genügen.<br/></li></ul><br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4547" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7458" revision="540903">
+    <title><![CDATA[Generische Fehlermeldungen]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die Webservices nutzen, MÜSSEN für Fehlermeldungen, 
+die durch generische Fehlermeldungen entsprechendTab_Gen_Fehler abbildbar sind, 
+die generischen Fehlermeldungen verwenden.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkttypen der TI, die Webservices nutzen, M&Uuml;SSEN f&uuml;r Fehlermeldungen, die durch generische Fehlermeldungen entsprechend </span><span>Tab_Gen_Fehler</span><span> abbildbar sind, die generischen Fehlermeldungen verwenden.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5252" type="leafRequirement" severity="MUSS" lastUpdate="2021-11-09" technicalID="ML-7459" revision="540903">
+    <title><![CDATA[Generische Fehlermeldungen außerhalb von WebServices]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die nicht Webservices nutzen, MÜSSEN für 
+Fehlermeldungen ein Format nutzen, dessen Informationsgehalt dem der 
+vorgegebenen Fehlermeldungen aus „Tabelle 7: Tab_Gen_Fehler – Generische 
+Fehlermeldungen“ entspricht.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkttypen der TI, die nicht Webservices nutzen, M&Uuml;SSEN f&uuml;r Fehlermeldungen ein Format nutzen, dessen Informationsgehalt dem der vorgegebenen Fehlermeldungen aus &bdquo;</span><span></span><span></span><span></span><span>Tabelle </span><span>7</span><span>: </span><span>Tab_Gen_Fehler</span><span> &ndash; Generische Fehlermeldungen</span><span></span><span>&ldquo; entspricht.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4548" type="implementationRequirement" severity="MUSS" lastUpdate="2019-02-25" technicalID="ML-7460" revision="540903">
+    <title><![CDATA[Spezifische Fehlermeldungen]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die Webservices nutzen, MÜSSEN, sofern sie neben den 
+generischen Fehlermeldungen spezifische Fehlermeldungen verwenden, folgende 
+Vorgaben berücksichtigen:
+
+ * 
+Die Elemente der Fehlermeldungen MÜSSEN allen Vorgaben aus den Tabellen 
+Tab_Attribute_Fehler, Tab_ErrorType und Tab_Severity_Codes genügen.
+
+ * 
+Es MUSS eine auslösende Bedingung definiert sein.
+
+ * 
+Es MUSS ein geeigneter und in der TI eindeutiger CompType verwendet werden (in 
+der Regel der Produkttyp).
+
+ * 
+Für alle spezifischen Fehlermeldungen MÜSSEN entsprechende Codes definiert 
+werden, die größer oder gleich 1000 sind (Der Wertebereich 0-999 ist für die 
+generischen Fehlermeldungen definiert).]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkttypen der TI, die Webservices nutzen, M&Uuml;SSEN, sofern sie neben den generischen Fehlermeldungen spezifische Fehlermeldungen verwenden, folgende Vorgaben ber&uuml;cksichtigen:</span></p><ul><li><p><span>Die Elemente der Fehlermeldungen M&Uuml;SSEN allen Vorgaben aus den Tabellen </span><span>Tab_Attribute_Fehler</span><span>, </span><span>Tab_ErrorType</span><span> und </span><span>Tab_Severity_Codes</span><span> gen&uuml;gen.</span></p></li><li><p><span>Es MUSS eine ausl&ouml;sende Bedingung definiert sein.</span></p></li><li><p><span>Es MUSS ein geeigneter und in der TI eindeutiger </span><span>CompType</span><span> verwendet werden (in der Regel der Produkttyp).</span></p></li><li><p><span>F&uuml;r alle spezifischen Fehlermeldungen M&Uuml;SSEN entsprechende Codes definiert werden, die gr&ouml;&szlig;er oder gleich 1000 sind (Der Wertebereich 0-999 ist f&uuml;r die generischen Fehlermeldungen definiert).</span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3801" type="leafRequirement" severity="SOLL" lastUpdate="2022-03-28" technicalID="ML-7461" revision="540903">
+    <title><![CDATA[Abbildung von Fehlern auf Transportprotokollebene]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die Webservices nutzen, SOLLEN, sofern sie Fehler 
+auf Transportprotokollebene erkennen bzw. Fehlermeldungen hierzu verarbeiten, 
+eine Abbildung auf geeignete gematik SOAP Faults durchführen. 
+​​]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Alle Produkttypen der TI, die Webservices nutzen, SOLLEN, sofern sie Fehler auf Transportprotokollebene erkennen bzw. Fehlermeldungen hierzu verarbeiten, eine Abbildung auf geeignete gematik SOAP</span> <span>Faults</span> <span>durchf&uuml;hren.</span> <span><br>​​</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4857" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7462" revision="540903">
+    <title><![CDATA[Herstellerspezifische Errorcodes (Konnektor)]]></title>
+    <description><![CDATA[Bei der Verwendung von herstellerspezifischen Errorcodes für den Konnektor MUSS 
+jeder Hersteller den ihm von der gematik zugewiesenen Geltungsbereich („Range“) 
+für individuelle Errorcodes nutzen.]]></description>
+    <description_html><![CDATA[Bei der Verwendung von herstellerspezifischen Errorcodes für den Konnektor MUSS jeder Hersteller den ihm von der gematik zugewiesenen Geltungsbereich („Range“) für individuelle Errorcodes nutzen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4858" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7463" revision="540903">
+    <title><![CDATA[Nutzung von Herstellerspezifischen Errorcodes (Konnektor)]]></title>
+    <description><![CDATA[Wenn ein Hersteller herstellerspezifische Errorcodes für den Konnektor nutzt, 
+MUSS er diese gemäß den Vorgaben aus [gemSpec_OM] dokumentieren und der gematik 
+mit Beschreibung (ErrorText) zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Wenn ein Hersteller herstellerspezifische Errorcodes für den Konnektor nutzt, MUSS er diese gemäß den Vorgaben aus [gemSpec_OM] dokumentieren und der gematik mit Beschreibung (ErrorText) zur Verfügung stellen. <br/>
+<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3796" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7465" revision="540903">
+    <title><![CDATA[Transport Fehlermeldungen als gematik-SOAP-Fault - SOAP 1.1]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die Webservices auf Basis von SOAP 1.1 und keine 
+abweichenden Vorgaben von der gematik für diesen Webservice haben, MÜSSEN bei 
+der Übermittlung von Fehlermeldungen gematik-SOAP-Faults verwenden.
+Hierbei gelten folgende Vorgaben:
+
+ * 
+gematik-SOAP-Fault MÜSSEN auf SOAP-Faults gemäß [SOAP1.1] und 
+[BasicProfile1.2] basieren.
+
+ * 
+Für die Attribute des SOAP-Fault MÜSSEN die Vorgaben aus Tab_SOAP_Attr 
+eingehalten werden.
+
+Tabelle #: Tab_SOAP_Attr – Befüllung der Datenelemente eines SOAP-Faults 1.1 
+für einen gematik-SOAP-Fault
+
+
+Datenelement
+
+Beschreibung
+
+
+faultcode
+
+Das Element MUSS die Werte entsprechend [SOAP1.1] enthalten.
+(VersionMismatch, MustUnderstand, Client, Server)
+Aufgrund des Bestandsschutzes KANN in Ausnahmen als Wert „gematikFault“ mit 
+dem Namespace http://ws.gematik.de/tel/error/v2.0 zu verwenden. Als Prefix für 
+diesen faultcode SOLL „GERROR“ eingesetzt werden.
+
+
+faultstring
+
+Das Element KANN beliebig gefüllt werden, da keine automatische Auswertung des 
+Textes durch das Clientsystem erfolgt.
+
+
+faultactor
+
+Das Element DARF NICHT verwendet werden.
+
+
+detail
+
+Das Element MUSS ein Error-Element entsprechend des Schemas
+[TelematikError.xsd] enthalten.]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Alle Produkttypen der TI, die Webservices&nbsp;auf Basis von SOAP 1.1 und keine abweichenden Vorgaben von der gematik f&uuml;r diesen Webservice haben, M&Uuml;SSEN bei der &Uuml;bermittlung von Fehlermeldungen gematik-SOAP-</span><span>Faults</span> <span>verwenden.</span><span><br>Hierbei gelten folgende Vorgaben:</span></p><ul><li><p><span>gematik-SOAP-Fault M&Uuml;SSEN auf SOAP-</span><span>Faults</span> <span>gem&auml;&szlig; [SOAP1.1] und [BasicProfile1.2] basieren.</span></p></li><li><p><span>F&uuml;r die Attribute des SOAP-Fault M&Uuml;SSEN die Vorgaben aus</span> <span>Tab_SOAP_Attr</span> <span>eingehalten werden.</span></p></li></ul><p data-keep-next="true" class="polarion-rte-caption-paragraph"><span>Tabelle</span> <span></span><span><span data-sequence="Tabelle" class="polarion-rte-caption">#</span></span><span></span><span></span><span></span><span>:</span> <span>Tab_SOAP_Attr</span> <span>&ndash; Bef&uuml;llung der Datenelemente eines SOAP-</span><span>Faults</span> <span>1.1 f&uuml;r einen gematik-SOAP-Fault</span></p><table style="empty-cells: show;border-collapse: collapse;margin: auto auto auto 0px;width: 100%;"><tr><th style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;background-color: rgb(240, 240, 240);height: 9pt;text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Datenelement</span></p></th><th style="vertical-align: top;width: 357pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;background-color: rgb(240, 240, 240);height: 9pt;text-align: left;"><p><span style="font-weight: bolder;font-size: 10pt;">Beschreibung</span></p></th></tr><tr><td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;height: 9pt;"><p><span style="font-size: 10pt;">faultcode</span></p></td><td style="vertical-align: top;width: 357pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;height: 9pt;"><p><span style="font-size: 10pt;">Das Element MUSS die Werte entsprechend [SOAP1.1] enthalten.</span><span><br></span><span style="font-size: 10pt;">(</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;font-size: 10pt;">VersionMismatch</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;font-size: 10pt;">,</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;font-size: 10pt;">MustUnderstand</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;font-size: 10pt;">, Client, Server)</span><span><br></span><span style="font-size: 10pt;">Aufgrund des Bestandsschutzes KANN in Ausnahmen als Wert &bdquo;</span><span style="font-size: 10pt;">gematikFault</span><span style="font-size: 10pt;">&ldquo; mit dem Namespace http://ws.gematik.de/tel/error/v2.0 zu verwenden. Als</span> <span style="font-size: 10pt;">Prefix</span> <span style="font-size: 10pt;">f&uuml;r diesen</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;font-size: 10pt;">faultcode</span> <span style="font-size: 10pt;">SOLL &bdquo;GERROR&ldquo; eingesetzt werden.</span></p></td></tr><tr><td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;height: 9pt;"><p><span style="font-size: 10pt;">faultstring</span></p></td><td style="vertical-align: top;width: 357pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;height: 9pt;"><p><span style="font-size: 10pt;">Das Element KANN beliebig gef&uuml;llt werden, da keine automatische Auswertung des Textes durch das Clientsystem erfolgt.</span></p></td></tr><tr><td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;height: 9pt;"><p><span style="font-size: 10pt;">faultactor</span></p></td><td style="vertical-align: top;width: 357pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;height: 9pt;"><p><span style="font-size: 10pt;">Das Element DARF NICHT verwendet werden.</span></p></td></tr><tr><td style="vertical-align: top;width: 77pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;height: 9pt;"><p><span style="font-size: 10pt;">detail</span></p></td><td style="vertical-align: top;width: 357pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 4pt;padding-bottom: 4pt;padding-left: 4pt;padding-right: 4pt;height: 9pt;"><p><span style="font-size: 10pt;">Das Element MUSS ein Error-Element entsprechend des Schemas</span><span><br></span><span style="font-size: 10pt;">[TelematikError.xsd] enthalten.</span></p></td></tr></table><p><br></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="A_15237" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-90172" revision="540903">
+    <title><![CDATA[Transport Fehlermeldungen als gematik-SOAP-Fault- SOAP 1.2]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die Webservices auf Basis von SOAP 1.2 und keine 
+abweichenden Vorgaben von der gematik für diesen Webservice haben, MÜSSEN bei 
+der Übermittlung von Fehlermeldungen gematik-SOAP-Faults verwenden.
+Hierbei gelten folgende Vorgaben:
+
+ * 
+gematik-SOAP-Faults MÜSSEN auf SOAP-Faults gemäß [SOAP1.2] und 
+[BasicProfile2.0] basieren.
+
+ * 
+Für die Attribute des SOAP-Faults MÜSSEN die Vorgaben aus Tab_SOAP_Attr_12 
+eingehalten werden.
+
+
+
+
+Tabelle #: Tab_SOAP_Attr_12 – Befüllung der Datenelemente eines SOAP-Faults 
+1.2 für einen gematik-SOAP-Fault
+
+
+Datenelement
+
+Beschreibung
+
+
+Code
+
+Das Value-Element MUSS die Werte entsprechend [SOAP1.2] enthalten.
+(VersionMismatch, MustUnderstand, DataEncodingUnknown, Sender, Receiver)
+Das optionale Subcode-Unterelement DARF NICHT verwendet werden.
+
+
+Reason
+
+Das Reason-Element MUSS entsprechend [SOAP1.2] vorhanden sein und sein(e) 
+Unterelement(e) kann/können beliebig gefüllt werden, da keine automatische 
+Auswertung des Textes durch das Clientsystem erfolgt.
+
+
+Node
+
+Das Node-Element DARF NICHT verwendet werden.
+
+
+Role
+
+Das Role Element DARF NICHT verwendet werden.
+
+
+Detail
+
+Das Element MUSS ein Error-Element entsprechend des Schemas 
+[TelematikError.xsd] enthalten.
+
+
+​​]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Alle Produkttypen der TI, die Webservices auf Basis von SOAP 1.2 und keine abweichenden Vorgaben von der gematik f&uuml;r diesen Webservice haben, M&Uuml;SSEN bei der &Uuml;bermittlung von Fehlermeldungen gematik-SOAP-Faults verwenden.</span><span><br>Hierbei gelten folgende Vorgaben:</span></p><ul><li><p><span>gematik-SOAP-Faults M&Uuml;SSEN auf SOAP-Faults gem&auml;&szlig; [SOAP1.2] und [BasicProfile2.0] basieren.</span></p></li><li><p><span>F&uuml;r die Attribute des SOAP-Faults M&Uuml;SSEN die Vorgaben aus Tab_SOAP_Attr_12 eingehalten werden.</span></p></li></ul><p><br></p><p data-keep-next="true" class="polarion-rte-caption-paragraph"><span>Tabelle</span> <span data-sequence="Tabelle" class="polarion-rte-caption">#</span><span>: Tab_SOAP_Attr_12 &ndash; Bef&uuml;llung der Datenelemente eines SOAP-Faults 1.2 f&uuml;r einen gematik-SOAP-Fault</span></p><table style="empty-cells: show;border-collapse: collapse;margin: auto;width: 100%;"><tr><th style="vertical-align: top;width: 75pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;background-color: rgb(240, 240, 240);height: 14pt;text-align: left;"><p data-keep-next="true"><span style="font-weight: bolder;font-size: 10pt;">Datenelement</span></p></th><th style="vertical-align: top;width: 360pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;background-color: rgb(240, 240, 240);height: 14pt;text-align: left;"><p data-keep-next="true"><span style="font-weight: bolder;font-size: 10pt;">Beschreibung</span></p></th></tr><tr><td style="vertical-align: top;width: 75pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 43pt;"><p><span style="font-size: 10pt;">Code</span></p></td><td style="vertical-align: top;width: 360pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 43pt;"><p><span style="font-size: 10pt;">Das Value-Element MUSS die Werte entsprechend [SOAP1.2] enthalten.</span><span><br></span><span style="font-size: 10pt;">(VersionMismatch, MustUnderstand, DataEncodingUnknown, Sender, Receiver)</span><span><br></span><span style="font-size: 10pt;">Das optionale&nbsp;Subcode-Unterelement DARF NICHT verwendet werden.</span></p></td></tr><tr><td style="vertical-align: top;width: 75pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 43pt;"><p><span style="font-size: 10pt;">Reason</span></p></td><td style="vertical-align: top;width: 360pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 43pt;"><p><span style="font-size: 10pt;">Das</span> <span style="font-style: italic;font-size: 10pt;">Reason</span><span style="font-size: 10pt;">-Element&nbsp;MUSS entsprechend [SOAP1.2]&nbsp;vorhanden sein und sein(e) Unterelement(e) kann/k&ouml;nnen beliebig gef&uuml;llt werden, da keine automatische Auswertung des Textes durch das Clientsystem erfolgt.</span></p></td></tr><tr><td style="vertical-align: top;width: 75pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 14pt;"><p><span style="font-size: 10pt;">Node</span></p></td><td style="vertical-align: top;width: 360pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 14pt;"><p><span style="font-size: 10pt;">Das</span> <span style="font-style: italic;font-size: 10pt;">Node</span><span style="font-size: 10pt;">-Element DARF NICHT verwendet werden.</span></p></td></tr><tr><td style="vertical-align: top;width: 75pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 14pt;"><p><span style="font-size: 10pt;">Role</span></p></td><td style="vertical-align: top;width: 360pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 14pt;"><p><span style="font-size: 10pt;">Das</span> <span style="font-style: italic;font-size: 10pt;">Role</span> <span style="font-size: 10pt;">Element DARF NICHT verwendet werden.</span></p></td></tr><tr><td style="vertical-align: top;width: 75pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 29pt;"><p><span style="font-size: 10pt;">Detail</span></p></td><td style="vertical-align: top;width: 360pt;border-top: 1px solid rgb(204, 204, 204);border-bottom: 1px solid rgb(204, 204, 204);border-left: 1px solid rgb(204, 204, 204);border-right: 1px solid rgb(204, 204, 204);padding-top: 2pt;padding-bottom: 2pt;padding-left: 2pt;padding-right: 2pt;height: 29pt;"><p><span style="font-size: 10pt;">Das Element MUSS ein Error-Element entsprechend des Schemas [TelematikError.xsd] enthalten.</span></p></td></tr></table><p><span><br>​​</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3813" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-7468" revision="540903">
+    <title><![CDATA[Datenschutzvorgaben Fehlermeldungen]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die Fehlermeldungen übermitteln, MÜSSEN bei der Er
+zeugung von Fehlermeldungen folgende Vorgaben einhalten:
+
+ * 
+Es dürfen keine personenbezogenen Daten verwendet werden.
+
+ * 
+Es dürfen keine medizinischen Daten verwendet werden.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkttypen der TI, die Fehlermeldungen &uuml;bermitteln, M&Uuml;SSEN bei der Er</span><span></span><span>zeugung von Fehlermeldungen folgende Vorgaben einhalten:</span></p><ul><li><p><span>Es d&uuml;rfen keine personenbezogenen Daten verwendet werden.</span></p></li><li><p><span>Es d&uuml;rfen keine medizinischen Daten verwendet werden.</span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3816" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7470" revision="540903">
+    <title><![CDATA[Festlegung sicherheitsrelevanter Fehler]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die Webservices nutzen, MÜSSEN bei der Übermittlung 
+von Fehlermeldungen für sicherheitsrelevante Fehler folgende Festlegungen einge
+halten:
+
+ * 
+Es MUSS ein Fehler definiert werden, der dem aufrufenden System zu übermitteln 
+ist (Allgemeiner Fehler).
+
+ * 
+Es MUSS ein Fehler definiert werden, der in dem lokalen FehlerLog abgelegt 
+wird. Dieser Fehler muss mit dem ErrorType „Security" markiert werden 
+(Sicherheitsfehler).
+
+ * 
+Die EventID des allgemeinen Fehlers SOLL der des Sicherheitsfehlers 
+entsprechen.
+
+ * 
+Mehrere Sicherheitsfehler KÖNNEN auf einen allgemeinen Fehler verweisen.
+
+ * 
+Für sicherheitsrelevante Fehler SOLLEN keine detaillierten Informationen über
+mittelt werden (Element Detail ausTab_Attribute_Fehler).]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkttypen der TI, die Webservices nutzen, M&Uuml;SSEN bei der &Uuml;bermittlung von Fehlermeldungen f&uuml;r sicherheitsrelevante Fehler folgende Festlegungen einge</span><span></span><span>halten:</span></p><ul><li><p><span>Es MUSS ein Fehler definiert werden, der dem aufrufenden System zu &uuml;ber</span><span></span><span>mitteln ist (Allgemeiner Fehler).</span></p></li><li><p><span>Es MUSS ein Fehler definiert werden, der in dem lokalen </span><span>FehlerLog</span><span> abge</span><span></span><span>legt wird. D</span><span>ieser Fehler muss mit </span><span>dem </span><span>Error</span><span>Type</span><span> &bdquo;</span><span>Security</span><span>" markiert werden (Sicherheitsfehler).</span></p></li><li><p><span>Die </span><span>EventID</span><span> des allgemeinen Fehlers SOLL der des Sicherheitsfehlers entsprechen.</span></p></li><li><p><span>Mehrere Sicherheitsfehler K&Ouml;NNEN auf einen allgemeinen Fehler ver</span><span></span><span>weisen.</span></p></li><li><p><span>F&uuml;r sicherheitsrelevante Fehler SOLLEN keine detaillierten Informationen &uuml;ber</span><span></span><span>mittelt werden (Element Detail aus </span><span>Tab_Attribute_Fehler</span><span>).</span></p></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5018" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7471" revision="540903">
+    <title><![CDATA[Sicherheitsrelevanter Fehler an organisatorischen Schnittstellen]]></title>
+    <description><![CDATA[Alle Produkttypen der TI, die über organisatorische Schnittstellen verfügen, 
+an denen sicherheitsrelevante Fehlermeldungen auftreten können, MÜSSEN diese 
+entsprechend der Vorgabe fürWebServices (siehe [GS-A_3816]) kenntlich machen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle Produkttypen der TI, die &uuml;ber organisatorische Schnittstellen verf&uuml;gen</span><span>,</span><span> an denen sicherheitsrelevante Fehlermeldungen auftreten k&ouml;nnen, M&Uuml;SSEN diese entsprechend der Vorgabe f&uuml;r </span><span>WebServices</span><span> (siehe [GS-A_3816]) kenntlich machen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4979" type="implementationRequirement" severity="MUSS" lastUpdate="2019-02-25" technicalID="ML-7472" revision="540903">
+    <title><![CDATA[Erweiterte Festlegung sicherheitsrelevanter Fehler]]></title>
+    <description><![CDATA[Produkttypen der TI MÜSSEN ein Sicherheitsprotokoll anbieten.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen der TI M&Uuml;SSEN ein Sicherheitsprotokoll anbieten.</span><span style="font-weight: bolder;"> </span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4561" type="implementationRequirement" severity="MUSS" lastUpdate="2019-07-03" technicalID="ML-7477" revision="540903">
+    <title><![CDATA[Erzeugung von FehlerLog-Einträgen]]></title>
+    <description><![CDATA[Alle Produkttypen der TI MÜSSEN, falls ein lokaler Protokollspeicher (FehlerLog
+) technisch möglich ist, lokal erkannte Fehler und Remote-Fehler imFehlerLog 
+protokollieren.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Alle</span><span> Produkttypen der TI M&Uuml;SSEN, falls ein lokaler Protokollspeicher (</span><span>FehlerLog</span><span>) technisch m&ouml;glich ist, lokal erkannte Fehler und Remote-Fehler im </span><span>FehlerLog</span><span> protokollieren.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3804" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-18" technicalID="ML-7478" revision="540903">
+    <title><![CDATA[Eigenschaften eines FehlerLog-Eintrags]]></title>
+    <description><![CDATA[Produkttypen, die aufgrund eines aufgetretenen Fehlers einen FehlerLog-Eintrag 
+erstellen, MÜSSEN für den FehlerLog-Eintrag folgende Vorgaben einhalten:
+
+ * Die Ablage der Fehlerdetails MUSS so erfolgen, dass sie anhand der 
+Fehlermeldung eindeutig referenzierbar sind.
+
+ * Die Ablage MUSS persistent erfolgen.
+
+ * Das FehlerLog MUSS einen, auf die Instanz des Betreibers bezogen 
+eindeutigen logischen Bezeichner, die LogReferenz besitzen.
+
+ * Die Einträge im FehlerLog-Eintrag MÜSSEN einen eindeutigen Rückschluss auf 
+die Applikation, in welcher der Fehler aufgetreten ist, enthalten.
+
+ * Die Kombination „Instance“ und „LogReferenz“ MUSS TI-weit eindeutig sein.]]></description>
+    <description_html><![CDATA[Produkttypen, die aufgrund eines aufgetretenen Fehlers einen FehlerLog-Eintrag erstellen, MÜSSEN für den FehlerLog-Eintrag folgende Vorgaben einhalten:<br/>
+ 
+<ul>
+  <li>Die Ablage der Fehlerdetails MUSS so erfolgen, dass sie anhand der Fehlermeldung eindeutig referenzierbar sind.<br/>
+    </li>
+  <li>Die Ablage MUSS persistent erfolgen.<br/>
+    </li>
+  <li>Das FehlerLog MUSS einen, auf die Instanz des Betreibers bezogen eindeutigen logischen Bezeichner, die LogReferenz besitzen. <br/>
+    </li>
+  <li>Die Einträge im FehlerLog-Eintrag MÜSSEN einen eindeutigen Rückschluss auf die Applikation, in welcher der Fehler aufgetreten ist, enthalten.<br/>
+    </li>
+  <li>Die Kombination „Instance“ und „LogReferenz“ MUSS TI-weit eindeutig sein.<br/>
+    </li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4976" type="implementationRequirement" severity="KANN" lastUpdate="2019-07-03" technicalID="ML-7479" revision="540903">
+    <title><![CDATA[Erweiterte Eigenschaften eines FehlerLog-Eintrags]]></title>
+    <description><![CDATA[Produkttypen der TI KÖNNEN eine erweiterte Protokollierung der aufgetretenen 
+Fehlerfälle sicherstellen, die mindestens den Anforderungen an die 
+Eigenschaften einesFehlerLog genügt [GS-A_3804].]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen der TI K&Ouml;NNEN eine erweiterte Protokollierung der aufgetretenen Fehlerf&auml;lle sicherstellen, die mindestens den Anforderungen an die Eigenschaften eines </span><span>FehlerLog</span><span> gen&uuml;gt [GS-A_3804].</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3807" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7480" revision="540903">
+    <title><![CDATA[Fehlerspeicherung ereignisgesteuerter Nachrichtenverarbeitung]]></title>
+    <description><![CDATA[Produkttypen MÜSSEN, falls sie einen persistenten Fehlerspeicher (FehlerLog) 
+besitzen, FehlerLog-Einträge für Fehler erzeugen, die im Rahmen einer 
+ereignisgesteuerten Verarbeitung im Produkttyp auftreten. 
+​​]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Produkttypen M&Uuml;SSEN, falls sie einen persistenten Fehlerspeicher (</span><span>FehlerLog</span><span>) besitzen,</span> <span>FehlerLog</span><span>-Eintr&auml;ge f&uuml;r Fehler erzeugen, die im Rahmen einer ereignisgesteuerten Verarbeitung im Produkttyp auftreten.</span> <span><br>​​</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4978" type="implementationRequirement" severity="MUSS" lastUpdate="2020-10-30" technicalID="ML-7481" revision="540903">
+    <title><![CDATA[Erweiterte Fehlerspeicherung ereignisgesteuerter Nachrichtenverarbeitung]]></title>
+    <description><![CDATA[Produkttypen der TI, die über einen persistenten Fehlerspeicher verfügen, 
+MÜSSEN die Erstellung von Fehler-Traces ermöglichen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen der TI, die &uuml;ber einen persistenten Fehlerspeicher verf&uuml;gen, M&Uuml;SSEN die Erstellung von Fehler-Traces erm&ouml;glichen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3805" type="leafRequirement" severity="SOLL" lastUpdate="2022-05-18" technicalID="ML-7482" revision="540903">
+    <title><![CDATA[Loglevel zur Bezeichnung der Granularität FehlerLog]]></title>
+    <description><![CDATA[Produkttypen SOLLEN für ihren FehlerLog die Möglichkeit bieten, Fehlerdetails 
+mit unterschiedlicher Granularität (kurz:Loglevel) abzulegen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen SOLLEN f&uuml;r ihren </span><span>FehlerLog</span><span> die M&ouml;glichkeit bieten, Fehlerdetails mit unterschiedlicher Granularit&auml;t (kurz: </span><span>Loglevel</span><span>) abzulegen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4977" type="implementationRequirement" severity="SOLL" lastUpdate="2019-07-03" technicalID="ML-7483" revision="540903">
+    <title><![CDATA[Erweiterte Loglevel zur Bezeichnung der Granularität des FehlerLog]]></title>
+    <description><![CDATA[Produkttypen der TI SOLLEN eine Fehleranalyse durch konfigurierbare 
+Speicherung unterstützen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen der TI SOLLEN eine Fehleranalyse durch konfigurierbare Speicherung unterst&uuml;tzen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3806" type="leafRequirement" severity="KANN" lastUpdate="2022-05-18" technicalID="ML-7484" revision="540903">
+    <title><![CDATA[Loglevel in der Referenz- und Testumgebung]]></title>
+    <description><![CDATA[Produkttypen KÖNNEN in der Referenz- und Testumgebung zusätzliche Loglevel 
+unterstützen, bei denen Fehlerdetails enthalten sind, die nicht den 
+Datenschutzvorgaben der gematik für den Wirkbetrieb genügen.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen </span><span>K&Ouml;NNEN</span><span> in der Referenz- und Testumgebung zus&auml;tzliche </span><span>Loglevel</span><span> unterst&uuml;tzen, bei denen Fehlerdetails enthalten sind, die nicht den Datenschutzvorgaben der gematik f&uuml;r den Wirkbetrieb gen&uuml;gen.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4562" type="implementationRequirement" severity="KANN" lastUpdate="2019-07-03" technicalID="ML-7486" revision="540903">
+    <title><![CDATA[SecurityLog]]></title>
+    <description><![CDATA[Produkttypen KÖNNEN ein SecurityLog für sicherheitsrelevante Ereignisse 
+implementieren.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen K&Ouml;NNEN ein </span><span>SecurityLog</span><span> f&uuml;r sicherheitsrelevante Ereignisse implementieren.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4549" type="implementationRequirement" severity="KANN" lastUpdate="2019-07-03" technicalID="ML-7488" revision="540903">
+    <title><![CDATA[Ablaufprotokoll]]></title>
+    <description><![CDATA[Produkttypen KÖNNEN ein Ablaufprotokoll für durchlaufende Anwendungsfälle und 
+Nachrichten implementieren unter Verwendung des Severity Code "Info".]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen K&Ouml;NNEN ein Ablaufprotokoll f&uuml;r durchlaufende Anwendungsf&auml;lle und Nachrichten implementi</span><span>eren</span><span> unter Verwendung des </span><span>Severity</span><span> Code "Info"</span><span style="font-weight: bolder;">.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4550" type="implementationRequirement" severity="KANN" lastUpdate="2019-07-03" technicalID="ML-7490" revision="540903">
+    <title><![CDATA[PerformanceLog]]></title>
+    <description><![CDATA[Produkttypen KÖNNEN ein PerformanceLog implementieren.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen K&Ouml;NNEN ein </span><span>PerformanceLog</span><span> implementieren.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4551" type="implementationRequirement" severity="KANN" lastUpdate="2019-07-03" technicalID="ML-7492" revision="540903">
+    <title><![CDATA[DebugLog]]></title>
+    <description><![CDATA[Produkttypen KÖNNEN im Testbetrieb einen DebugLog implementieren, der eine 
+erweiterte Protokollierung für Testzwecke ermöglicht unter Verwendung des 
+Severity Code "Debug".]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Produkttypen K&Ouml;NNEN im Testbetrieb einen </span><span>DebugLog</span><span> implementieren</span><span>,</span><span> der eine erweiterte Protokollieru</span><span>ng f&uuml;r Testzwecke erm&ouml;glicht unter Verwendung des </span><span>Severity</span><span> Code "</span><span>Debug</span><span>".</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4861" type="implementationRequirement" severity="SOLL" lastUpdate="2019-02-25" technicalID="ML-7495" revision="540903">
+    <title><![CDATA[Logging von Vorgangsinformationen in Fachanwendungen]]></title>
+    <description><![CDATA[In der Testumgebung und in der Referenzumgebung SOLLEN Fachanwendungen die 
+folgende Informationen in einem Ablaufprotokoll für jeden Vorgang erfassen, der 
+ausgeführt wurde: Vorgangsbezeichner, Datum mit Uhrzeit von Beginn und Ende, 
+vollständiger Name des Vorgangs, Beschreibung des Vorgangs inkl. des 
+Ergebnisses: Erfolg oder Fehlermeldung (Returnwert/Fehlercode).]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>In der Testumgebung und in der Referenzumgebung SOLLEN </span><span>Fachanwendungen die folgende Informationen in einem Ablaufprotokoll f&uuml;r jeden V</span><span>organg erfassen, der ausgef&uuml;hrt wurde: Vorgangsbezeichner, Datum mit Uhrzeit von Beginn und Ende, vollst&auml;ndiger Name des Vorgangs, Beschreibung des Vorgangs inkl. des Ergebnisses: Erfolg oder Fehlermeldung (</span><span>Return</span><span>wert</span><span>/</span><span>Fe</span><span>hler</span><span>code</span><span>).</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4859" type="implementationRequirement" severity="MUSS" lastUpdate="2018-06-05" technicalID="ML-7496" revision="540903">
+    <title><![CDATA[Verfügbarkeit interner Logdaten]]></title>
+    <description><![CDATA[Die Hersteller und Anbieter von Produkten MÜSSEN im Rahmen von Testmaßnahmen 
+intern in Produkten anfallende Logdaten zeitnah extern verfügbar machen.]]></description>
+    <description_html><![CDATA[Die Hersteller und Anbieter von Produkten MÜSSEN im Rahmen von Testmaßnahmen intern in Produkten anfallende Logdaten zeitnah extern verfügbar machen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4860" type="implementationRequirement" severity="MUSS" lastUpdate="2018-06-05" technicalID="ML-7497" revision="540903">
+    <title><![CDATA[Zugriffsbeschränkung auf Logdaten durch autorisierte Personen]]></title>
+    <description><![CDATA[Hersteller und Anbieter von Produkten MÜSSEN sicherstellen, dass der Zugriff 
+auf gesammelte Logdaten im Rahmen von Testmaßnahmen nur autorisierten Personen 
+gestattet wird.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Hersteller und Anbieter von Produkten MÜSSEN sicherstellen, dass der Zugriff auf gesammelte Logdaten im Rahmen von Testmaßnahmen nur autorisierten Personen gestattet wird.<br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4864" type="leafRequirement" severity="MUSS" lastUpdate="2022-05-18" technicalID="ML-7498" revision="540903">
+    <title><![CDATA[Logging-Vorgaben nach dem Übergang zum Produktivbetrieb]]></title>
+    <description><![CDATA[Betreiber und Anbieter MÜSSEN technisch sicherstellen, dass die für die 
+Testumgebung erweiterten Vorgaben zum Eintritt in den Produktivbetrieb gesperrt 
+werden.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Betreiber und Anbieter M&Uuml;</span><span>SS</span><span>EN technisch sicherstellen</span><span>, dass die f&uuml;r die Testumgebung erweiter</span><span>ten Vorgaben zum Eintritt in den </span><span>Produktiv</span><span>betrieb</span><span> gesperrt werden. </span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4941" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-7500" revision="540903">
+    <title><![CDATA[Betriebsdokumentation der dezentralen Produkte der TI-Plattform]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI-Plattform mit Ausnahme der Karten 
+MÜSSEN für Nutzer (d.h. Betreiber, Anbieter und Anwender) des von ihnen 
+hergestellten bzw. angebotenen Produkts eine Dokumentation zur Verfügung 
+stellen, welche die Nutzung durch den Anwender sowie den operativen Betrieb und 
+die Administration aus einer Nutzersicht beschreibt.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Hersteller von dezentralen Produkten</span><span> der TI-Plattform</span><span> mit Ausnahme der Karten M&Uuml;SSEN f&uuml;r Nutzer (d.h. Betreiber, Anbieter und Anwender) des von ihnen hergestellten bzw. angebotenen Produkts eine Dokumentation zur Verf&uuml;gung stellen, welche die Nutzung durch den Anwender sowie den operativen Betrieb und die Administration aus einer Nutzersicht beschreibt.</span><span style="font-size: 10pt;color: #0000FF;"> </span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5033" type="leafRequirement" severity="SOLL" lastUpdate="2022-05-18" technicalID="ML-7501" revision="540903">
+    <title><![CDATA[Betriebsdokumentation der zentralen Produkte der TI-Plattform und anwendungsspezifischen Diensten]]></title>
+    <description><![CDATA[Anbieter von zentralen Produkten der TI-Plattform oder anwendungsspezifischen 
+DienstenSOLLEN für Nutzer (d.h. Betreiber, Anbieter und Anwender) des von ihnen 
+hergestellten bzw. angebotenen Produkts eine Dokumentation zur Verfügung 
+stellen, welche die Nutzung durch den Anwender sowie den operativen Betrieb und 
+die Administration aus einer Nutzersicht beschreibt.]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Anbieter von zentralen Produkten </span><span>der TI-Plattform oder</span><span> anwendungsspezifischen Diensten </span><span>SOLLEN f&uuml;r Nutzer (d.h. Betreiber, Anbieter und Anwender) des von ihnen hergestellten bzw. angebotenen Produkts eine Dokumentation zur Verf&uuml;gung stellen, welche die Nutzung durch den Anwender sowie den operativen Betrieb und die Administration aus einer Nutzersicht beschreibt.</span></p>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5034" type="leafRequirement" severity="SOLL" lastUpdate="2022-05-18" technicalID="ML-7502" revision="540903">
+    <title><![CDATA[Inhalte der Betriebsdokumentation der dezentralen Produkte der TI-Plattform]]></title>
+    <description><![CDATA[Hersteller und Anbieter von Produkten SOLLEN in ihrer Betriebsdokumentation, 
+für Nutzer (d.h. Betreiber, Anbieter und Anwender) des von ihnen hergestellten 
+bzw. angebotenen Produkts, mindestens die folgenden Aspekte berücksichtigen:
+
+ * 
+Identifikation des Produktes  einschließlich der Version von Produkt, 
+Firmware, Konfiguration
+
+ * 
+Inbetriebnahme des Produktes (Voraussetzungen und Durchführung, z.B. 
+Abhängigkeiten, Schlüssel/Zertifikate, Anbindung an andere Produkttypen, 
+Besonderheiten bei initialer bzw. wiederholter Inbetriebnahme)
+
+ * 
+Außerbetriebnahme des Produktes (Voraussetzungen und Durchführung)
+
+ * 
+Fehlererkennung, Verhalten im Fehlerfall und Fehlerbehandlung
+
+ * 
+Überwachung und Visualisierung des Betriebszustandes
+
+ * 
+Änderungsprotokollierung und Logging
+
+ * 
+Konfigurationen (optionale Einstellungen, Parameter, Standardwerte)
+
+ * 
+Produktadministration (Wartung, Pflege, Backup/Restore)
+
+ * 
+Update-Verfahren]]></description>
+    <description_html><![CDATA[<p style="margin-left: 0px;"><span>Hersteller und Anbieter von Produkten SOLLEN in ihrer Betriebsdokumentation, f&uuml;r Nutzer (d.h. Betreiber, Anbieter und Anwender) des von ihnen hergestellten bzw. angebotenen Produkts, mindestens die folgenden Aspekte ber&uuml;cksichtigen:</span></p><ul><li><p><span>Identifikation des Produktes&nbsp;&nbsp;einschlie&szlig;lich der Version von Produkt, Firmware, Konfiguration</span></p></li><li><p><span>Inbetriebnahme des Produktes (Voraussetzungen und Durchf&uuml;hrung, z.B. Abh&auml;ngigkeiten, Schl&uuml;ssel/Zertifikate, Anbindung an andere Produkttypen, Besonderheiten bei initialer bzw. wiederholter Inbetriebnahme)</span></p></li><li><p><span>Au&szlig;erbetriebnahme des Produktes (Voraussetzungen und Durchf&uuml;hrung)</span></p></li><li><p><span>Fehlererkennung, Verhalten im Fehlerfall und Fehlerbehandlung</span></p></li><li><p><span>&Uuml;berwachung und Visualisierung des Betriebszustandes</span></p></li><li><p><span>&Auml;nderungsprotokollierung und </span><span>Logging</span></p></li><li><p><span>Konfigurationen (optionale Einstellungen, Parameter, Standardwerte)</span></p></li><li><p><span>Produktadministration (Wartung, Pflege, Backup/</span><span>Restore</span><span>)</span></p></li><li><p><span>Update-Verfahren</span></p></li></ul>]]></description_html>
+  </requirement>
+</requirements>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="A_19033" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102680" revision="567410">
+    <title><![CDATA[Schützenswerte Objekte]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS die folgenden kryptographischen Objekte als 
+schützenswerte Objekte in seinem Sicherheitskonzept berücksichtigen: (a) 
+Private Schlüssel, (b) Öffentlicher Schlüssel, (c) Öffentlicher Schlüssel von 
+Antragstellern, (d) Anträge zur Ausstellung von X.509-Zertifikaten, (e) 
+Authentisierungsinformationen von Sperrberechtigten, (f) Dokumentation über 
+beauftragte und durchgeführte Sperrungen, (g) Statusinformationen, (h) 
+Zulassungsdokumente, (i) Registrierungsdokumente, (j) 
+Authentisierungsinformationen zur Authentisierung von internen Akteuren bzw. 
+Rollen, (k) Protokolldaten, (l) Konfigurationsdaten.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS die folgenden kryptographischen Objekte als schützenswerte Objekte in seinem Sicherheitskonzept berücksichtigen: (a) Private Schlüssel, (b) Öffentlicher Schlüssel, (c) Öffentlicher Schlüssel von Antragstellern, (d) Anträge zur Ausstellung von X.509-Zertifikaten, (e) Authentisierungsinformationen von Sperrberechtigten, (f) Dokumentation über beauftragte und durchgeführte Sperrungen, (g) Statusinformationen, (h) Zulassungsdokumente, (i) Registrierungsdokumente, (j) Authentisierungsinformationen zur Authentisierung von internen Akteuren bzw. Rollen, (k) Protokolldaten, (l) Konfigurationsdaten.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_19037" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102684" revision="567410">
+    <title><![CDATA[Gesicherte interne Schnittstellen des Anbieters Signaturdienst]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS für den internen Datenaustausch einen 
+Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur 
+Vertraulichkeit der Daten zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS für den internen Datenaustausch einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="A_19038" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102685" revision="567410">
+    <title><![CDATA[Datenaustausch zwischen gematik und  Anbieter Signaturdienst]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS für den Datenaustausch zur gematik einen 
+Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur 
+Vertraulichkeit der Daten zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS für den Datenaustausch zur gematik einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="A_19039" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102686" revision="567410">
+    <title><![CDATA[Gesicherte externe Schnittstellen des Anbieters Signaturdienst]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS für den Datenaustausch mit anderen Rollen und 
+Diensten einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität 
+und zur Vertraulichkeit der Daten zur Verfügung stellen. Hierzu gehören die 
+Schnittstellen von
+ a) Anbieter Signaturdienst zum berechtigten Zertifikatsantragsteller zur 
+Beantragung und Ausstellung von Zertifikaten,    
+ b) Anbieter Signaturdienst zum Sperrantragsteller für die Sperrung von 
+Zertifikaten.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS für den Datenaustausch mit anderen Rollen und Diensten einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen. Hierzu gehören die Schnittstellen von <br/>
+a) Anbieter Signaturdienst zum berechtigten Zertifikatsantragsteller zur Beantragung und Ausstellung von Zertifikaten,    <br/>
+b) Anbieter Signaturdienst zum Sperrantragsteller für die Sperrung von Zertifikaten.]]></description_html>
+  </requirement>
+  <requirement id="A_19040" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102687" revision="567410">
+    <title><![CDATA[Eindeutige Verbindung Zertifikatsnehmer und privater Schlüssel]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS sicherstellen, dass der öffentliche Schlüssel, 
+dem die Attribute des Zertifikatsnehmers in einem Zertifikat zugeordnet werden, 
+und der private Schlüssel des Zertifikatsnehmers zusammengehören.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS sicherstellen, dass der öffentliche Schlüssel, dem die Attribute des Zertifikatsnehmers in einem Zertifikat zugeordnet werden, und der private Schlüssel des Zertifikatsnehmers zusammengehören.]]></description_html>
+  </requirement>
+  <requirement id="A_19041-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132987" revision="567410">
+    <title><![CDATA[Umsetzung Signaturdienst für Zertifikate]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS nach erfolgreicher erster Authentifizierung 
+des Antragstellers die erforderlichen Angaben zur Zertifikatserstellung an den 
+Erstellungsdienst des TSP X.509 nonQES - eGK weiterleiten.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS nach erfolgreicher erster Authentifizierung des Antragstellers die erforderlichen Angaben zur Zertifikatserstellung an den Erstellungsdienst des TSP X.509 nonQES - eGK weiterleiten.]]></description_html>
+  </requirement>
+  <requirement id="A_19042" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102689" revision="567410">
+    <title><![CDATA[Trennung der Signaturdienst-Betriebsumgebungen]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS sicherstellen, dass das Testsystem von dem 
+Produktivsystem technisch, organisatorisch und betrieblich so getrennt werden, 
+dass keine gegenseitige Beeinflussung und keine Verwechslung möglich sind.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS sicherstellen, dass das Testsystem von dem Produktivsystem technisch, organisatorisch und betrieblich so getrennt werden, dass keine gegenseitige Beeinflussung und keine Verwechslung möglich sind.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_19043" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102690" revision="567410">
+    <title><![CDATA[Datenschutzgerechte Antrags- und Sperrprozesse]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS die Antrags- und Sperrprozesse 
+datenschutzgerecht ausgestalten, d.h. insbesondere sind für die Verarbeitung 
+der Antrags- und Sperrauftragsdaten die Datenschutzgrundsätze gemäß Art. 5 
+DSGVO zu berücksichtigen sowie die technischen und organisatorischen Maßnahmen 
+nach Art. 25 und Art. 32 DSGVO zu treffen.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS die Antrags- und Sperrprozesse datenschutzgerecht ausgestalten, d.h. insbesondere sind für die Verarbeitung der Antrags- und Sperrauftragsdaten die Datenschutzgrundsätze gemäß Art. 5 DSGVO zu berücksichtigen sowie die technischen und organisatorischen Maßnahmen nach Art. 25 und Art. 32 DSGVO zu treffen.]]></description_html>
+  </requirement>
+  <requirement id="A_19044" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102691" revision="567410">
+    <title><![CDATA[Löschung von Signaturdienst-Zertifikatstatusinformationen, Zertifikats- und Sperranträgen]]></title>
+    <description><![CDATA[Der Anbieter Signaturdienst MUSS die Zertifikatsanträge und die Sperraufträge 
+zu einem X.509-Zertifikat unverzüglich löschen, sobald die gesetzlichen oder 
+vertraglichen Aufbewahrungsfristen erreicht sind.]]></description>
+    <description_html><![CDATA[Der Anbieter Signaturdienst MUSS die Zertifikatsanträge und die Sperraufträge zu einem X.509-Zertifikat unverzüglich löschen, sobald die gesetzlichen oder vertraglichen Aufbewahrungsfristen erreicht sind.]]></description_html>
+  </requirement>
+  <requirement id="A_19045" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102692" revision="567410">
+    <title><![CDATA[Fehlerprotokollierung]]></title>
+    <description><![CDATA[Falls es erforderlich sein sollte, dass der Anbieter Signaturdienst eine 
+Protokollierung zum Zwecke der Fehler- bzw. Störungsbehebung durchführt, MÜSSEN 
+die Protokolldaten entsprechend des Datenschutzgrundsatzes der Datenminimierung 
+gemäß Art. 5 Abs. 1 Satz 1 lit.c) DSGVO unter Berücksichtigung der Art. 25, 32 
+DSGVO derart gestaltet sein, dass nur personenbezogene Daten in der Art und dem 
+Umfang enthalten sind, wie sie zur Behebung erforderlich sind.]]></description>
+    <description_html><![CDATA[Falls es erforderlich sein sollte, dass der Anbieter Signaturdienst eine Protokollierung zum Zwecke der Fehler- bzw. Störungsbehebung durchführt, MÜSSEN die Protokolldaten entsprechend des Datenschutzgrundsatzes der Datenminimierung gemäß Art. 5 Abs. 1 Satz 1 lit.c) DSGVO unter Berücksichtigung der Art. 25, 32 DSGVO derart gestaltet sein, dass nur personenbezogene Daten in der Art und dem Umfang enthalten sind, wie sie zur Behebung erforderlich sind.]]></description_html>
+  </requirement>
+  <requirement id="A_17373-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132985" revision="567410">
+    <title><![CDATA[Signaturdienst - Produkt erfordert Authentisierung auf dem Vertrauensniveau "hoch"]]></title>
+    <description><![CDATA[Der Hersteller des Signaturdienstes MUSS sein Produkt so implementieren, dass 
+dieses die Freischaltung nach einer Authentisierung des Nutzers über einen s
+ektoralen Identity Provider auf dem Vertrauensniveau "gematik-ehealth-loa-high" 
+vorsieht. ]]></description>
+    <description_html><![CDATA[Der Hersteller des Signaturdienstes MUSS sein Produkt so implementieren, dass dieses die Freischaltung nach einer Authentisierung des Nutzers über einen s<span style="font-size: 10pt;line-height: 1.5;">ektoralen Identity Provider </span>auf dem Vertrauensniveau &quot;gematik-ehealth-loa-high&quot; vorsieht. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_17336-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132986" revision="567410">
+    <title><![CDATA[Signaturdienst - Sicherheitsniveau der Authentisierung auf dem Vertrauensniveau "hoch"]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS für den angebotenen Signaturdienst 
+sicherstellen, dass die Nutzung nur nach Authentisierung des Nutzers über einen
+zugelassenen sektoralen Identity Provider auf dem Vertrauensniveau 
+"gematik-ehealth-loa-high" erfolgt.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS für den angebotenen Signaturdienst sicherstellen, dass die Nutzung nur nach Authentisierung des Nutzers über einen <span style="font-size: 10pt;line-height: 1.5;">zugelassenen sektoralen Identity Provider </span>auf dem Vertrauensniveau &quot;gematik-ehealth-loa-high&quot; erfolgt.]]></description_html>
+  </requirement>
+  <requirement id="A_17369" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-93584" revision="567410">
+    <title><![CDATA[Signaturdienst - Elektronische Identifizierungsmittel sind kryptographische Identitäten der TI]]></title>
+    <description><![CDATA[Der Signaturdienst MUSS als elektronische Identifizierungsmittel 
+kryptographische Identitäten ausstellen, die aus einem privaten und einem 
+öffentlichen Schlüssel mit dazugehörigem Zertifikat des TypsC.CH.AUT_ALT aus 
+dem Vertrauensraum der TI bestehen. ]]></description>
+    <description_html><![CDATA[Der Signaturdienst MUSS als elektronische Identifizierungsmittel kryptographische Identitäten ausstellen, die aus einem privaten und einem öffentlichen Schlüssel mit dazugehörigem Zertifikat des Typs <span style="background-color: #FFFFFF;">C.CH.AUT_ALT </span>aus dem Vertrauensraum der TI bestehen. ]]></description_html>
+  </requirement>
+  <requirement id="A_17370" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-93585" revision="567410">
+    <title><![CDATA[Signaturdienst - ECC-Verfahren für elektronische Identifizierungsmittel]]></title>
+    <description><![CDATA[Der Signaturdienst MUSS elektronische Identifizierungsmittel auf der Grundlage 
+von ECC-Verfahren erstellen.]]></description>
+    <description_html><![CDATA[Der Signaturdienst MUSS elektronische Identifizierungsmittel auf der Grundlage von ECC-Verfahren erstellen.]]></description_html>
+  </requirement>
+  <requirement id="A_17371" type="leafRequirement" severity="DARF NICHT" lastUpdate="2019-10-15" technicalID="ML-93586" revision="567410">
+    <title><![CDATA[Signaturdienst - Keine RSA-Verfahren für elektronische Identifizierungsmittel]]></title>
+    <description><![CDATA[Der Signaturdienst DARF elektronische Identifizierungsmittel NICHT auf der 
+Grundlage von RSA-Verfahren erstellen.]]></description>
+    <description_html><![CDATA[Der Signaturdienst DARF elektronische Identifizierungsmittel NICHT auf der Grundlage von RSA-Verfahren erstellen.]]></description_html>
+  </requirement>
+  <requirement id="A_17339" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-93526" revision="567410">
+    <title><![CDATA[Signaturdienst - Speicherung privater Schlüssel mit einem HSM]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS die privaten Schlüssel der 
+elektronischen Identifizierungsmittel mit einem HSM  speichern und 
+sicherstellen, dass die Eignung des HSM durch eine erfolgreiche Evaluierung 
+nachgewiesen wurde. Als Evaluierungsschemata kommen dabei Federal Information 
+Processing Standard (FIPS) oder Common Criteria mit mindestens folgender 
+Prüftiefe in Frage:   
+ * FIPS 140-2 Level 3 oder   
+
+ * Common Criteria EAL 4.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS die privaten Schlüssel der elektronischen Identifizierungsmittel mit einem HSM  speichern und sicherstellen, dass die Eignung des HSM durch eine erfolgreiche Evaluierung nachgewiesen wurde. Als Evaluierungsschemata kommen dabei Federal Information Processing Standard (FIPS) oder Common Criteria mit mindestens folgender Prüftiefe in Frage:   
+<ol>
+  <li>FIPS 140-2 Level 3 oder   <br/>
+    </li>
+  <li>Common Criteria EAL 4.</li>
+</ol>]]></description_html>
+  </requirement>
+  <requirement id="A_17853-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133149" revision="567410">
+    <title><![CDATA[Signaturdienst - Auskunft an  Versicherten]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS dem Versicherten auf dessen Verlangen 
+Auskunft geben über erfolgte Zugriffe auf das elektronische 
+Identifizierungsmittel des Versicherten.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS dem Versicherten auf dessen Verlangen Auskunft geben über <span style="font-size: 10pt;line-height: 1.5;">erfolgte Zugriffe auf das elektronische Identifizierungsmittel des Versicherten.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_17864" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-94654" revision="567410">
+    <title><![CDATA[Signaturdienst - Anbieter des Signaturdienstes ist kein Anbieter eines ePA-Aktensystems]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS unabhängig von Anbietern von 
+ePA-Aktensystemen sein, d.h. es sind mindestens jeweils eigenständige 
+Rechtspersönlichkeiten mit eigenständigen operativen Geschäfts- und 
+Betriebsführungen und es ist eine strikte Vermeidung von 
+Personenidentitäten bzw. Doppelrollen in den Funktionen Geschäftsführung, 
+leitende Mitarbeiter und Zugangsberechtigte zum Betriebsort des 
+Signaturdienstes bzw. ePA-Aktensystems gewährleistet.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS unabhängig von Anbietern von ePA-Aktensystemen sein, d.h. es sind mindestens jeweils eigenständige Rechtspersönlichkeiten mit eigenständigen operativen Geschäfts- und Betriebsführungen und es ist eine strikte Vermeidung von Personenidentitäten bzw. Doppelrollen in den Funktionen Geschäftsführung, leitende Mitarbeiter und Zugangsberechtigte zum Betriebsort des Signaturdienstes bzw. ePA-Aktensystems gewährleistet.]]></description_html>
+  </requirement>
+  <requirement id="A_18957" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102059" revision="567410">
+    <title><![CDATA[Darstellen der Voraussetzungen für sicheren Betrieb des Produkts im Handbuch]]></title>
+    <description><![CDATA[Der Hersteller des Signaturdienstes MUSS für sein Produkt im dazugehörigen 
+Handbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber 
+und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des 
+Produktes gewährleistet werden kann.]]></description>
+    <description_html><![CDATA[Der Hersteller des Signaturdienstes MUSS für sein Produkt im dazugehörigen Handbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des Produktes gewährleistet werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_18958" type="leafRequirement" severity="MUSS" lastUpdate="2020-10-06" technicalID="ML-102060" revision="567410">
+    <title><![CDATA[Sicherer Betrieb des Produkts nach Handbuch]]></title>
+    <description><![CDATA[Der Anbieter eines Signaturdienstes MUSS die im Handbuch des eingesetzten 
+Signaturdienstes beschriebenen Voraussetzungen für den sicheren Betrieb des 
+Produktes gewährleisten.]]></description>
+    <description_html><![CDATA[Der Anbieter eines Signaturdienstes MUSS die im Handbuch des eingesetzten Signaturdienstes beschriebenen Voraussetzungen für den sicheren Betrieb des Produktes gewährleisten.]]></description_html>
+  </requirement>
+  <requirement id="A_17383" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-93601" revision="567410">
+    <title><![CDATA[Signaturdienst - I_Remote_Sign_Operations im Internet]]></title>
+    <description><![CDATA[Der Signaturdienst MUSS die Schnittstelle I_Remote_Sign_Operations im Internet 
+anbieten.]]></description>
+    <description_html><![CDATA[Der Signaturdienst MUSS die Schnittstelle <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations</span> im Internet anbieten.]]></description_html>
+  </requirement>
+  <requirement id="A_17382" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-93600" revision="567410">
+    <title><![CDATA[Signaturdienst - Schutz gegen OWASP Top 10-Risiken]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die 
+Internet-Schnittstelle I_Remote_Sign_Operations resistent bezüglich der im 
+aktuellen und den beiden vorherigen OWASP Top 10 Report(s) ausgewiesenen 
+Risiken ist.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die Internet-Schnittstelle I<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">_Remote_Sign_Operations</span> resistent bezüglich der im aktuellen und den beiden vorherigen OWASP Top 10 Report(s) ausgewiesenen Risiken ist.]]></description_html>
+  </requirement>
+  <requirement id="A_17528" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-93963" revision="567410">
+    <title><![CDATA[Signaturdienst - Schutz der Verbindung zum Signaturdienst]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die Schnittstelle 
+I_Remote_Sign_Operations von Klienten nur über eine gegen Abhören, Manipulation 
+und Replay-Angriffe geschützte Verbindung genutzt werden kann.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die Schnittstelle <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations</span> <span style="font-family: Arial, Helvetica;">von Klienten nur über eine </span>gegen Abhören, Manipulation und Replay-Angriffe geschützte Verbindung genutzt werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_17238-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133112" revision="567410">
+    <title><![CDATA[Signaturdienst - Logische Schnittstelle I_Remote_Sign_Operations]]></title>
+    <description><![CDATA[Der Signaturdienst MUSS die Schnittstelle I_Remote_Sign_Operations::sign_Data 
+gemäß dem folgenden logischen Ablauf implementieren:
+
+
+ Tabelle #: Tab_SigD_01 -  I_Remote_Sign_Operations::sign_Data - Definition 
+
+Operation I_Remote_Sign_Operations::sign_Data 
+Beschreibung Die Operation erzeugt eine ECDSA-Signatur unter Einhaltung der 
+Vorgaben in [gemSpec_Krypt] des übergebenen Datum(Data) mittels des privaten 
+Schlüssels des elektronischen Identifizierungsmittels ID.CH.AUT_ALT des 
+aufrufenden Nutzers(Identifier).
+ Das signierte Datum (SignedData) und das Zertifikat des elektronischen 
+Identifizierungsmittels C.CH.AUT_ALT der Identität, für die signiert wurde, 
+werden als Ergebnis der Operation zurückgeliefert. 
+Eingangsparameter 
+Name Beschreibung Typ 
+Data Die zu signierenden Daten. Binary 
+Identifier Identifiziert, welches elektronisches Identifizierungsmittel 
+ID.CH.AUT_ALT zur Signatur des Datums genutzt werden soll.
+
+ Der Identifier ergibt sich aus den Attributen nach Authentisierung des 
+Nutzers an einem sektoralen Identity Provider. String 
+Ausgangsparameter 
+Name Beschreibung Typ 
+SignedData Das mit dem privaten Schlüssel des elektronischen 
+Identifizierungsmittels ID.CH.AUT_ALT signierte Datum. Binary 
+Certificate Zertifikat C.CH.AUT_ALT des elektronischen Identifizierungsmittels,
+ mit dessen zugehörigem privaten Schlüssel signiert wurde. Certificate X.509]]></description>
+    <description_html><![CDATA[Der Signaturdienst MUSS die Schnittstelle <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations::sign_Data</span> gemäß dem folgenden logischen Ablauf implementieren:<br/>
+ <br/>
+ 
+<p class="polarion-rte-caption-paragraph" style="text-align: left;">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Tab_SigD_01 -  I_Remote_Sign_Operations::sign_Data - Definition 
+</p>
+ 
+<table id="polarion_wiki macro name=table;params=bold=1|width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th colspan="2" style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 101.151px;height: 20.4057px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Operation</span></th>
+      <th colspan="3" style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 629.901px;height: 20.4057px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">I_Remote_Sign_Operations::sign_Data</span></th>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 101.151px;height: 102.014px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beschreibung</span></td>
+      <td colspan="3" style="text-align: left;vertical-align: top;width: 629.901px;height: 102.014px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Die Operation erzeugt eine ECDSA-Signatur unter Einhaltung der Vorgaben in [gemSpec_Krypt] des übergebenen Datum <span style="font-style: italic;">(Data</span>) mittels des privaten Schlüssels des elektronischen Identifizierungsmittels ID.CH.AUT_ALT des aufrufenden Nutzers <span style="font-style: italic;">(Identifier)</span>.<br/>
+          Das signierte Datum (<span style="font-style: italic;">SignedData</span>) und das Zertifikat des elektronischen Identifizierungsmittels C.CH.AUT_ALT der Identität, für die signiert wurde, werden als Ergebnis der Operation zurückgeliefert.</span></td>
+    </tr>
+    <tr>
+      <td colspan="5" style="font-weight: bold;text-align: left;vertical-align: top;width: 742.033px;height: 24px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Eingangsparameter</span></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 101.151px;height: 20.4057px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Name</span></td>
+      <td colspan="2" style="text-align: left;vertical-align: top;width: 521.929px;height: 20.4057px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Beschreibung</span></td>
+      <td style="text-align: left;vertical-align: top;width: 96.9906px;height: 20.4057px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Typ</span></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 101.151px;height: 22.9953px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;line-height: 1.5;">Data</span></td>
+      <td colspan="2" style="text-align: left;vertical-align: top;width: 521.929px;height: 22.9953px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Die zu signierenden Daten.</span></td>
+      <td style="text-align: left;vertical-align: top;width: 96.9906px;height: 22.9953px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Binary</span></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 101.151px;height: 102.014px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;line-height: 1.5;">Identifier</span></td>
+      <td colspan="2" style="text-align: left;vertical-align: top;width: 521.929px;height: 102.014px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Identifiziert, welches elektronisches Identifizierungsmittel ID.CH.AUT_ALT zur Signatur des Datums genutzt werden soll.<br/>
+          <br/>
+          Der Identifier ergibt sich aus den Attributen nach Authentisierung des Nutzers an einem sektoralen Identity Provider.</span></td>
+      <td style="text-align: left;vertical-align: top;width: 96.9906px;height: 102.014px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">String</span></td>
+    </tr>
+    <tr>
+      <td colspan="5" style="font-weight: bold;text-align: left;vertical-align: top;width: 742.033px;height: 20.4057px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Ausgangsparameter</span></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 101.151px;height: 22.9953px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Name</span></td>
+      <td colspan="2" style="text-align: left;vertical-align: top;width: 521.929px;height: 22.9953px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Beschreibung</span></td>
+      <td style="text-align: left;vertical-align: top;width: 96.9906px;height: 22.9953px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: bold;font-size: 10pt;line-height: 1.5;">Typ</span></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 101.151px;height: 42px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;line-height: 1.5;">SignedData</span></td>
+      <td colspan="2" style="text-align: left;vertical-align: top;width: 521.929px;height: 42px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Das mit dem privaten Schlüssel des elektronischen Identifizierungsmittels ID.CH.AUT_ALT signierte Datum.</span></td>
+      <td style="text-align: left;vertical-align: top;width: 96.9906px;height: 42px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Binary</span></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-weight: bold;text-align: left;vertical-align: top;width: 101.151px;height: 39.9057px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;line-height: 1.5;">Certificate</span></td>
+      <td colspan="2" style="text-align: left;vertical-align: top;width: 521.929px;height: 39.9057px;border: 1px solid #CCCCCC;padding: 5px;">Zertifikat C.CH.AUT_ALT des elektronischen <span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Identifizierungsmittels,</span> mit dessen zugehörigem privaten Schlüssel signiert wurde.</td>
+      <td style="text-align: left;vertical-align: top;width: 96.9906px;height: 39.9057px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Certificate X.509<br/>
+          </span></td>
+    </tr>
+  </tbody>
+</table>]]></description_html>
+  </requirement>
+  <requirement id="A_17527" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-93962" revision="567410">
+    <title><![CDATA[Signaturdienst - Aufruf der Operation nur über geschützte Verbindung]]></title>
+    <description><![CDATA[Der Signaturdienst MUSS sicherstellen, dass die Operation 
+I_Remote_Sign_Operations::sign_Data von Klienten nur über eine gegen Abhören, 
+Manipulation und Replay-Angriffe geschützte Verbindung aufgerufen werden kann.]]></description>
+    <description_html><![CDATA[Der Signaturdienst MUSS sicherstellen, dass die Operation I_Remote_Sign_Operations::sign_Data von Klienten nur über eine gegen Abhören, Manipulation und Replay-Angriffe geschützte Verbindung aufgerufen werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_17741" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-94280" revision="567410">
+    <title><![CDATA[Signaturdienst - Freischaltung vorzeitig beenden]]></title>
+    <description><![CDATA[Der Signaturdienst MUSS sicherstellen, dass der Client die Freischaltung der 
+OperationI_Remote_Sign_Operations::sign_Data  bzgl. eines Nutzers explizit 
+beenden kann und somit beim nächsten Aufruf der Operation durch diesen Nutzer 
+eine erneute Authentifizierung erforderlich ist.]]></description>
+    <description_html><![CDATA[Der Signaturdienst MUSS sicherstellen, dass der Client die Freischaltung der Operation <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">I_Remote_Sign_Operations::sign_Data</span><span style="font-family: Arial, Helvetica;">  bzgl. eines Nutzers explizit beenden kann und somit beim nächsten Aufruf der Operation durch diesen Nutzer eine</span> erneute Authentifizierung erforderlich ist.]]></description_html>
+  </requirement>
+  <requirement id="A_18710" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-11" technicalID="ML-100635" revision="567410">
+    <title><![CDATA[Maximale Gültigkeit einer Authentifizierung]]></title>
+    <description><![CDATA[Der Signaturdienst und der Anbieter des Signaturdienstes MÜSSEN sicherstellen, 
+dass eine erfolgreiche Authentifizierung des Nutzers für maximal 1 Stunde 
+gültig ist, um die Operation I_Remote_Sign_Operations::sign_Data von dem 
+Client, von dem sich der Nutzer authentisiert hat, aufzurufen.]]></description>
+    <description_html><![CDATA[Der Signaturdienst und der Anbieter des Signaturdienstes MÜSSEN sicherstellen, dass eine erfolgreiche Authentifizierung des Nutzers für maximal 1 Stunde gültig ist, um die Operation I_Remote_Sign_Operations::sign_Data von dem Client, von dem sich der Nutzer authentisiert hat, aufzurufen.]]></description_html>
+  </requirement>
+  <requirement id="A_18711" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-11" technicalID="ML-100636" revision="567410">
+    <title><![CDATA[Signaturdienst – Nutzung einer erfolgreichen Authentifizierung]]></title>
+    <description><![CDATA[Der Signaturdienst und der Anbieter des Signaturdienstes MÜSSEN sicherstellen, 
+dass eine erfolgreiche Authentifizierung des Nutzers maximal einmal genutzt 
+werden kann, um die Operation I_Remote_Sign_Operations::sign_Data für maximal 5 
+Minuten ohne erneute Authentifizierung des Nutzers von dem Client (auch 
+mehrmals) aufzurufen, von dem sich der Nutzer authentisiert hat, und nach 
+Ablauf der 5 Minuten die Operation I_Remote_Sign_Operations::sign_Data nur nach 
+erneuter erfolgreicher Authentifizierung des Nutzers wieder genutzt werden kann.]]></description>
+    <description_html><![CDATA[Der Signaturdienst und der Anbieter des Signaturdienstes MÜSSEN sicherstellen, dass eine erfolgreiche Authentifizierung des Nutzers maximal einmal genutzt werden kann, um die Operation I_Remote_Sign_Operations::sign_Data für maximal 5 Minuten ohne erneute Authentifizierung des Nutzers von dem Client (auch mehrmals) aufzurufen, von dem sich der Nutzer authentisiert hat, und nach Ablauf der 5 Minuten die Operation I_Remote_Sign_Operations::sign_Data nur nach erneuter erfolgreicher Authentifizierung des Nutzers wieder genutzt werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_17375-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133151" revision="567410">
+    <title><![CDATA[Signaturdienst - P_Create_Identity]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS eine Prozess-Schnittstelle umsetzen, 
+mittels derer Kartenherausgeber dem Signaturdienst einen Auftrag zur 
+Ausstellung eines elektronischen Identifizierungsmittels für einen Versicherten 
+erteilen können. Der Auftrag MUSS die für das 
+elektronische Identifizierungsmittel notwendigen Personenidentifikationsdaten 
+für das ZertifikatC.CH.AUT_ALT enthalten.
+ Die Zuordnung des elektronischen Identifizierungsmittels zu einem Nutzer 
+erfolgt über die Identifikationsdaten des sektoralen Identity Provider.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS eine Prozess-Schnittstelle umsetzen, mittels derer Kartenherausgeber dem Signaturdienst einen Auftrag zur Ausstellung eines elektronischen Identifizierungsmittels für einen Versicherten erteilen können. Der Auftrag MUSS die für das elektronische Identifizierungsmittel notwendigen Personenidentifikationsdaten für das Zertifikat <span style="background-color: #FFFFFF;">C.CH.AUT_ALT</span> enthalten.<br/>
+Die Zuordnung des elektronischen Identifizierungsmittels zu einem Nutzer erfolgt über die Identifikationsdaten des sektoralen Identity Provider.]]></description_html>
+  </requirement>
+  <requirement id="A_17372" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-93587" revision="567410">
+    <title><![CDATA[Signaturdienst - Schutz des Auftrags der Krankenkasse während des Transports]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die im Auftrag der 
+Krankenkasse enthaltenen personenbezogenen oder sensiblen Daten während des 
+Transports von der Krankenkasse zum Signaturdienst gegen Abhören, Manipulation 
+und Replay-Angriffe geschützt werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS sicherstellen, dass die im Auftrag der Krankenkasse enthaltenen personenbezogenen oder sensiblen Daten während des Transports von der Krankenkasse zum Signaturdienst gegen Abhören, Manipulation und Replay-Angriffe geschützt werden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_17379" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-93596" revision="567410">
+    <title><![CDATA[Signaturdienst - Zertifikatsabruf beim TSP X.509 nonQES eGK]]></title>
+    <description><![CDATA[Der Signaturdienst MUSS das Zertifikat des Typs C.CH.AUT_ALT über die 
+Schnittstelle I_Cert_Provisioning zum Zertifikatabruf beim TSP X.509 nonQES eGK 
+mit den vom Kartenherausgeber übermittelten Personenidentifikationsdaten aus 
+dem Auftrag anfordern.]]></description>
+    <description_html><![CDATA[Der Signaturdienst MUSS das Zertifikat des Typs <span style="background-color: #FFFFFF;">C.CH.AUT_ALT</span> über die Schnittstelle I_Cert_Provisioning zum Zertifikatabruf beim TSP X.509 nonQES eGK mit den vom Kartenherausgeber übermittelten Personenidentifikationsdaten aus dem Auftrag anfordern.]]></description_html>
+  </requirement>
+  <requirement id="A_17808" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-94357" revision="567410">
+    <title><![CDATA[Signaturdienst - P_Delete_Identity]]></title>
+    <description><![CDATA[Der Anbieter des Signaturdienstes MUSS eine Prozess-Schnittstelle umsetzen, 
+mittels derer Kartenherausgeber die Löschung genau derjenigen elektronischen 
+Identifizierungsmittel beim Signaturdienst veranlassen können, deren 
+Ausstellung sie zuvor beauftragt haben.]]></description>
+    <description_html><![CDATA[Der Anbieter des Signaturdienstes MUSS eine Prozess-Schnittstelle umsetzen, mittels derer Kartenherausgeber die Löschung genau derjenigen elektronischen Identifizierungsmittel beim Signaturdienst veranlassen können, deren Ausstellung sie zuvor beauftragt haben.]]></description_html>
+  </requirement>
+</requirements>

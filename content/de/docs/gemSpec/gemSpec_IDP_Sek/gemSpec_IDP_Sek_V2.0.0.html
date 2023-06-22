@@ -128,94 +128,360 @@ ol:first-of-type {
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-17312">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-17313">Inhaltsverzeichnis</a></li>
-   <li> : <a href="#1">1 Einordnung des Dokumentes</a></li>
-   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
-   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
-   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
-   <li> : : <a href="#1.4">1.4 Abgrenzungen</a></li>
-   <li> : : <a href="#1.5">1.5 Methodik</a></li>
-   <li> : <a href="#2">2 Systemkontext</a></li>
-   <li> : : <a href="#2.1">2.1 Allgemeiner Überblick</a></li>
-   <li> : : <a href="#2.2">2.2 Detaillierter Überblick</a></li>
-   <li> : : <a href="#2.3">2.3 Zerlegung des Produkttyps</a></li>
-   <li> : : <a href="#2.4">2.4 Schnittstellen, Akteure und Rollen</a></li>
-   <li> : : : <a href="#2.4.1">2.4.1 Schnittstellen</a></li>
-   <li> : : : <a href="#2.4.2">2.4.2 Akteure und Rollen</a></li>
-   <li> : : <a href="#2.5">2.5 Nachbarsysteme und Interaktion</a></li>
-   <li> : : <a href="#2.6">2.6 Ausblick auf die weitere Entwicklung der sektoralen IDPs</a></li>
-   <li> : <a href="#3">3 Übergreifende Festlegungen</a></li>
-   <li> : : <a href="#3.1">3.1 Sicherheitsanforderungen für den operativen Betrieb</a></li>
-   <li> : : <a href="#3.2">3.2 Vertrauenswürdige Ausführungsumgebung</a></li>
-   <li> : : : <a href="#3.2.1">3.2.1 Verarbeitungskontext</a></li>
-   <li> : : : <a href="#3.2.2">3.2.2 Ausschluss von nicht autorisierten Zugriffen aus dem Betriebsumfeld</a></li>
-   <li> : : : <a href="#3.2.3">3.2.3 Konsistenz des Systemzustands, Logging und Monitoring</a></li>
-   <li> : : <a href="#3.3">3.3 Betriebliche Unterstützung des Probings</a></li>
-   <li> : : <a href="#3.4">3.4 Testseitige Vorgaben an den sektoralen IDP</a></li>
-   <li> : : : <a href="#3.4.1">3.4.1 Testinstanzen</a></li>
-   <li> : : : : <a href="#3.4.1.1">3.4.1.1 zentrale Komponente</a></li>
-   <li> : : : : <a href="#3.4.1.2">3.4.1.2 Authenticator-Modul</a></li>
-   <li> : : : <a href="#3.4.2">3.4.2 Testidentitäten</a></li>
-   <li> : <a href="#4">4 Funktionsmerkmale</a></li>
-   <li> : : <a href="#4.1">4.1 Entity Statement des sektoralen IDP</a></li>
-   <li> : : <a href="#4.2">4.2 API-Endpunkte des sektoralen IDP</a></li>
-   <li> : : : <a href="#4.2.1">4.2.1 Anforderung an die Schnittstelle zum Authorization-Server des Fachdienstes</a></li>
-   <li> : : : <a href="#4.2.2">4.2.2 PAR - Endpunkt</a></li>
-   <li> : : : : <a href="#4.2.2.1">4.2.2.1 PAR-Endpunkt Eingangsdaten</a></li>
-   <li> : : : : <a href="#4.2.2.2">4.2.2.2 PAR-Endpunkt Ausgangsdaten</a></li>
-   <li> : : : <a href="#4.2.3">4.2.3 Authorization-Endpunkt</a></li>
-   <li> : : : : <a href="#4.2.3.1">4.2.3.1 Schnittstelle Authorization-Endpunkt</a></li>
-   <li> : : : : <a href="#4.2.3.2">4.2.3.2 Authorization-Endpunkt Ausgangsdaten</a></li>
-   <li> : : : <a href="#4.2.4">4.2.4 Token-Endpunkt</a></li>
-   <li> : : : : <a href="#4.2.4.1">4.2.4.1 Token-Endpunkt Eingangsdaten</a></li>
-   <li> : : : : <a href="#4.2.4.2">4.2.4.2 Token-Endpunkt Ausgangsdaten</a></li>
-   <li> : : <a href="#4.3">4.3 Identifizierung und Authentifizierung des Nutzers</a></li>
-   <li> : : : <a href="#4.3.1">4.3.1 Identifikation des Nutzers</a></li>
-   <li> : : : <a href="#4.3.2">4.3.2 Authentifizierungsverfahren</a></li>
-   <li> : : : : <a href="#4.3.2.1">4.3.2.1 Gerätenutzung</a></li>
-   <li> : <a href="#5">5 Anforderungen an Authenticator-Module sektoraler IDPs</a></li>
-   <li> : : <a href="#5.1">5.1 Schnittstellen des Authenticator-Moduls</a></li>
-   <li> : : <a href="#5.2">5.2 Funktionsmerkmale Authenticator-Modul</a></li>
-   <li> : <a href="#6">6 Anhang A – Verzeichnisse</a></li>
-   <li> : : <a href="#6.1">6.1 Abkürzungen</a></li>
-   <li> : : <a href="#6.2">6.2 Glossar</a></li>
-   <li> : : <a href="#6.3">6.3 Abbildungsverzeichnis</a></li>
-   <li> : : <a href="#6.4">6.4 Tabellenverzeichnis</a></li>
-   <li> : : <a href="#6.5">6.5 Referenzierte Dokumente</a></li>
-   <li> : : : <a href="#6.5.1">6.5.1 Dokumente der gematik</a></li>
-   <li> : : : <a href="#6.5.2">6.5.2 Weitere Dokumente</a></li>
-   <li> : <a href="#7">7 Anhang B - Abläufe</a></li>
-   <li> : : <a href="#7.1">7.1 App-App-Flow</a></li>
-   <li> : : : <a href="#7.1.1">7.1.1 Vorbedingungen App-App-Flow</a></li>
-   <li> : : : <a href="#7.1.2">7.1.2 Flow-Diagramm App-App-Flow</a></li>
-   <li> : : : <a href="#7.1.3">7.1.3 Ablaufbeschreibung App-App-Flow</a></li>
-   <li> : : : <a href="#7.1.4">7.1.4 Detailinformationen zum App-App-Flow</a></li>
-   <li> : : <a href="#7.2">7.2 Web-App-Flow</a></li>
-   <li> : : : <a href="#7.2.1">7.2.1 Vorbedingungen Web-App-Flow</a></li>
-   <li> : : : <a href="#7.2.2">7.2.2 Flow-Diagramm Web-App-Flow</a></li>
-   <li> : : : <a href="#7.2.3">7.2.3 Ablaufbeschreibung Web-App-Flow</a></li>
-   <li> : : : <a href="#7.2.4">7.2.4 Detailinformationen zum Web-App-Flow</a></li>
-   <li> : : <a href="#7.3">7.3 Zwei-Geräte-Flow</a></li>
-   <li> : : : <a href="#7.3.1">7.3.1 Vorbedingungen Zwei-Geräte-Flow</a></li>
-   <li> : : : <a href="#7.3.2">7.3.2 Flow-Diagramm Zwei-Geräte-Flow</a></li>
-   <li> : : : <a href="#7.3.3">7.3.3 Ablaufbeschreibung Zwei-Geräte-Flow</a></li>
-   <li> : : : <a href="#7.3.4">7.3.4 Detailinformationen zum Zwei-Geräte-Flow</a></li>
-   <li> : <a href="#8">8 Anhang C - Möglicher Aufbau einer VAU (informativ)</a></li>
-   <li> : : <a href="#8.1">8.1 Standalone</a></li>
-   <li> : : : <a href="#8.1.1">8.1.1 Load Balancer</a></li>
-   <li> : : : <a href="#8.1.2">8.1.2 Anwendungsserver und zugehörige Infrastruktur</a></li>
-   <li> : : : <a href="#8.1.3">8.1.3 Vernetzung Load-Balancer/VAU-Server</a></li>
-   <li> : : : <a href="#8.1.4">8.1.4 Vernetzung VAU-Server/HSM</a></li>
-   <li> : : : <a href="#8.1.5">8.1.5 Vernetzung VAU-Server/Datenbankserver</a></li>
-   <li> : : : <a href="#8.1.6">8.1.6 Vernetzung des Management Interface mit dem internen Netz des Anbieters des sektoralen IDP</a></li>
-   <li> : : : <a href="#8.1.7">8.1.7 VAU-Server</a></li>
-   <li> : : : <a href="#8.1.8">8.1.8 VAU-Server Software Stack</a></li>
-   <li> : : : <a href="#8.1.9">8.1.9 Open Source Software Stack</a></li>
-   <li> : : : <a href="#8.1.10">8.1.10 Attestation und Integritätsschutz für VAU-Server</a></li>
-   <li> : : : <a href="#8.1.11">8.1.11 HSM</a></li>
-   <li> : : : <a href="#8.1.12">8.1.12 Datenbank</a></li>
-   <li> : : : <a href="#8.1.13">8.1.13 Repository</a></li>
+   <ul>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-17312">Dokumentinformationen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-17313">Inhaltsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#1">1 Einordnung des Dokumentes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.1">1.1 Zielsetzung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.2">1.2 Zielgruppe</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.3">1.3 Geltungsbereich</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.4">1.4 Abgrenzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.5">1.5 Methodik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#2">2 Systemkontext</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.1">2.1 Allgemeiner Überblick</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.2">2.2 Detaillierter Überblick</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.3">2.3 Zerlegung des Produkttyps</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.4">2.4 Schnittstellen, Akteure und Rollen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.1">2.4.1 Schnittstellen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#2.4.2">2.4.2 Akteure und Rollen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.5">2.5 Nachbarsysteme und Interaktion</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.6">2.6 Ausblick auf die weitere Entwicklung der sektoralen IDPs</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#3">3 Übergreifende Festlegungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.1">3.1 Sicherheitsanforderungen für den operativen Betrieb</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.2">3.2 Vertrauenswürdige Ausführungsumgebung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.2.1">3.2.1 Verarbeitungskontext</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.2.2">3.2.2 Ausschluss von nicht autorisierten Zugriffen aus dem Betriebsumfeld</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.2.3">3.2.3 Konsistenz des Systemzustands, Logging und Monitoring</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.3">3.3 Betriebliche Unterstützung des Probings</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.4">3.4 Testseitige Vorgaben an den sektoralen IDP</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.4.1">3.4.1 Testinstanzen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#3.4.1.1">3.4.1.1 zentrale Komponente</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#3.4.1.2">3.4.1.2 Authenticator-Modul</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.4.2">3.4.2 Testidentitäten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#4">4 Funktionsmerkmale</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.1">4.1 Entity Statement des sektoralen IDP</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.2">4.2 API-Endpunkte des sektoralen IDP</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.2.1">4.2.1 Anforderung an die Schnittstelle zum Authorization-Server des Fachdienstes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.2.2">4.2.2 PAR - Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#4.2.2.1">4.2.2.1 PAR-Endpunkt Eingangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#4.2.2.2">4.2.2.2 PAR-Endpunkt Ausgangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.2.3">4.2.3 Authorization-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#4.2.3.1">4.2.3.1 Schnittstelle Authorization-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#4.2.3.2">4.2.3.2 Authorization-Endpunkt Ausgangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.2.4">4.2.4 Token-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#4.2.4.1">4.2.4.1 Token-Endpunkt Eingangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#4.2.4.2">4.2.4.2 Token-Endpunkt Ausgangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.3">4.3 Identifizierung und Authentifizierung des Nutzers</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.3.1">4.3.1 Identifikation des Nutzers</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.3.2">4.3.2 Authentifizierungsverfahren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#4.3.2.1">4.3.2.1 Gerätenutzung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#5">5 Anforderungen an Authenticator-Module sektoraler IDPs</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.1">5.1 Schnittstellen des Authenticator-Moduls</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.2">5.2 Funktionsmerkmale Authenticator-Modul</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#6">6 Anhang A – Verzeichnisse</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.1">6.1 Abkürzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.2">6.2 Glossar</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.3">6.3 Abbildungsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.4">6.4 Tabellenverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.5">6.5 Referenzierte Dokumente</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#6.5.1">6.5.1 Dokumente der gematik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#6.5.2">6.5.2 Weitere Dokumente</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#7">7 Anhang B - Abläufe</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.1">7.1 App-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.1.1">7.1.1 Vorbedingungen App-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.1.2">7.1.2 Flow-Diagramm App-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.1.3">7.1.3 Ablaufbeschreibung App-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.1.4">7.1.4 Detailinformationen zum App-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.2">7.2 Web-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.2.1">7.2.1 Vorbedingungen Web-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.2.2">7.2.2 Flow-Diagramm Web-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.2.3">7.2.3 Ablaufbeschreibung Web-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.2.4">7.2.4 Detailinformationen zum Web-App-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.3">7.3 Zwei-Geräte-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.3.1">7.3.1 Vorbedingungen Zwei-Geräte-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.3.2">7.3.2 Flow-Diagramm Zwei-Geräte-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.3.3">7.3.3 Ablaufbeschreibung Zwei-Geräte-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.3.4">7.3.4 Detailinformationen zum Zwei-Geräte-Flow</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#8">8 Anhang C - Möglicher Aufbau einer VAU (informativ)</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.1">8.1 Standalone</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.1">8.1.1 Load Balancer</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.2">8.1.2 Anwendungsserver und zugehörige Infrastruktur</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.3">8.1.3 Vernetzung Load-Balancer/VAU-Server</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.4">8.1.4 Vernetzung VAU-Server/HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.5">8.1.5 Vernetzung VAU-Server/Datenbankserver</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.6">8.1.6 Vernetzung des Management Interface mit dem internen Netz des Anbieters des sektoralen IDP</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.7">8.1.7 VAU-Server</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.8">8.1.8 VAU-Server Software Stack</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.9">8.1.9 Open Source Software Stack</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.10">8.1.10 Attestation und Integritätsschutz für VAU-Server</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.11">8.1.11 HSM</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.12">8.1.12 Datenbank</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.13">8.1.13 Repository</a>
+     </div></li>
+   </ul>
   </div>
   <h2 id="1">1 Einordnung des Dokumentes</h2>
   <h3 id="1.1">1.1 Zielsetzung</h3>
@@ -612,31 +878,31 @@ ol:first-of-type {
   <p id="polarion_446"></p>
   <h2 id="3">3 Übergreifende Festlegungen</h2>
   <p id="polarion_96"><span style="font-style: normal;color: #000000;">Der sektorale IDP muss die folgenden übergreifenden Anforderungen erfüllen.</span></p>
-  <div id="A_22838">
+  <div id="A_22838" severity="MUSS">
    <p><b>A_22838 - Entgegennahme von Sperrmeldungen</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS Sperrmeldungen von Sperrberechtigten, zu von ihm verantworteten Authentisierungsmitteln, jederzeit entgegennehmen und das betroffene Authentisierungsmittel oder auch den gesamten Zugang des Nutzers daraufhin unverzüglich sperren. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_100"><span style="font-style: italic;">Hinweis: Dies bezieht sich nicht auf für eine Authentisierung verwendete eGK oder den&nbsp;<span style="font-size: 10pt;line-height: 1.5;">elektronischen Identitätsnachweis&nbsp;</span>(<span style="font-size: 10pt;line-height: 1.5;">online-Ausweisfunktion).</span></span></p>
   <p id="polarion_187"><span style="font-style: italic;font-size: 10pt;line-height: 1.5;">Hinweis: Grundsätzlich sollte eine effektive Sperrung so schnell wie möglich erfolgen (siehe auch&nbsp;TR 03107-1 Kap. 3.4.1).</span></p>
   <p id="polarion_271"></p>
-  <div id="A_22690">
+  <div id="A_22690" severity="MUSS">
    <p><b>A_22690 - Darstellen der Voraussetzungen für sicheren Betrieb des Produkts im Betriebshandbuch</b></p>
    <p>Der Hersteller des sektoralen IDP MUSS für sein Produkt im dazugehörigen Betriebshandbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des Produktes gewährleistet werden kann. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22691">
+  <div id="A_22691" severity="MUSS">
    <p><b>A_22691 - Sicherer Betrieb des Produkts nach Betriebshandbuch</b></p>
    <p>Der Anbieter eines sektoralen IDP MUSS die im Betriebshandbuch des eingesetzten sektoralen IDP beschriebenen Voraussetzungen für den sicheren Betrieb des Produktes gewährleisten. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_154"></p>
-  <div id="A_23201">
+  <div id="A_23201" severity="MUSS">
    <p><b>A_23201 - Betriebliche Konstellation des sektoralen IDP</b></p>
    <p>Der Anbieter sektoraler IDP MUSS die „Konstellation I“ gemäß [gemPKT_Betr #„Anbieterkonstellationen“] einnehmen und somit den Betrieb selbst durchführen.<br> Der Anbieter sektoraler IDP MUSS keinen Versichertenhelpdesk (VHD) zur Verfügung stellen.<br> Der Anbieter sektoraler IDP MUSS keinen User Helpdesk (UHD) zur Verfügung stellen.<br> <br> <span style="font-style: italic;">Hinweis:<br> Der Betreiber eines sektoralen IDP stellt den Anbieterzulassungsantrag bei der gematik und nimmt somit die Rolle "Anbieter sektoraler IDP" ein.&nbsp;<br> Ansprechpartner der Versicherten ist die Krankenkasse. <br> In allen Konstellation [gemPKT_Betr #„Anbieterkonstellationen“] wird der Betrieb nicht zerteilt. Das heißt, es gibt immer genau einen Verantwortlichen für den Betrieb. <br> Dieser Verantwortliche muss bezüglich des Betriebs ein uneingeschränktes Direktions- und Weisungsrecht haben, welches auch auf mögliche Unterauftragnehmer wirkt.<br> Dieser Verantwortliche ist im hier vorliegenden Fall der Anbieter des sektoraler IDP.<br> Eine Situation, in welcher die Betriebsleistung <span style="font-weight: bold;">ausschließlich </span>durch Unterauftragnehmer erbracht wird, ist in "Konstellation I" [gemKPT_Betr #„Anbieterkonstellationen“] ausgeschlossen.<br> Für alle ITIL-Prozesse (z.B. INC, PRO, CHG, ... ) und für zu erbringende Leistungen (RCA, Service Level, Audits, ...) ist aus gematik-Sicht der Verantwortliche alleiniger single point of contact (SPOC).<br> Das Verbot der Auslagerung des Betriebs hat auch zum Hintergrund, dass der Zulassungsnehmer grundsätzlich über dieses Direktions- und Weisungsrecht verfügen muss.<br> Mögliche Verzögerungen im Störungsfall durch Kommunikationsübergänge zu Unterauftragnehmern fallen zulasten des Anbieters.<br> Der Antragsteller informiert die gematik über die Unterauftragnehmer gemäß gemSpec_IDP_Sek#A_23411.</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23411">
+  <div id="A_23411" severity="MUSS">
    <p><b>A_23411 - Nennung der Unterauftragnehmer des Anbieters</b></p>
    <p>Der Anbieter MUSS der gematik seine Unterauftragnehmer zum Zeitpunkt der Antragsstellung auf Anbieterzulassung mitteilen.<br> Bei Änderungen (Hinzukommen / Wegfall) der Unterauftragnehmer&nbsp;MUSS der Anbieter&nbsp;die gematik informieren.<br> Die gematik behält sich in begründeten Einzelfällen das Recht vor, einzelne Unterauftragnehmer vom Betrieb auszuschließen.<span id="polarion-comment:1842"></span><br> <span style="font-style: italic;">Hinweis:<br> Dieses Widerspruchsrecht ist begründet aus Verstößen gegen Anforderungen oder gesetzlichen Regelungen (z.B. Verstoß gegen gemSpec_IDP_Sek#A_23099).<br> Um Problemen vorzubeugen, ist eine rechtzeitige Information sinnvoll.</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23337">
+  <div id="A_23337" severity="MUSS">
    <p><b>A_23337 - Mindestvorgaben für Schlüssel von sektoralen IDPs als Teilnehmer der TI-Föderation</b></p>
    <p>Ein sektoraler IDP als Teilnehmer der TI-Föderation MUSS bei dem eingesetzten Schlüsselmaterial (Signatur,&nbsp; Authorisierungstoken, Entity Statement, etc.), folgende Vorgaben umsetzen:<br> 
     <ol>
@@ -649,140 +915,140 @@ ol:first-of-type {
     </ol> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_160"></p>
-  <div id="A_23044">
+  <div id="A_23044" severity="KANN">
    <p><b>A_23044 - Unterstützung von Diensten außerhalb der TI</b></p>
    <p><span style="color: #000000;">Der Anbieter des sektoralen IDP KANN die Anmeldung an weiteren Diensten außerhalb der Föderation <span style="font-size: 10pt;line-height: 1.5;">unterstützen</span>&nbsp;und diesen die Authentisierung von Nutzern auf Basis der bestehenden digitalen Identitäten&nbsp;anbieten.</span> <b>[&lt;=]</b></p>
   </div>
   <h3 id="3.1">3.1 Sicherheitsanforderungen für den operativen Betrieb</h3>
   <p id="polarion_203"><span style="color: #FF0000;"></span></p>
-  <div id="A_22239">
+  <div id="A_22239" severity="MUSS">
    <p><b>A_22239 - Schützenswerte Objekte</b></p>
    <p>Der Anbieter eines sektoralen Identity Provider&nbsp;MUSS die folgenden kryptographischen Objekte als schützenswerte Objekte in seinem Sicherheitskonzept berücksichtigen: (a) Private Schlüssel, (b) Öffentlicher Schlüssel, (c) Öffentliche Schlüssel von registrierten Clients, (d) Datensätze zu den einzelnen Nutzern, (e) Authentisierungsinformationen von Sperrberechtigten, (f) Dokumentation über beauftragte und durchgeführte Sperrungen, (g) Statusinformationen, (h) Authentisierungsinformationen zur Authentisierung von internen Akteuren bzw. Rollen, (i) Protokolldaten, (j) Konfigurationsdaten.<span id="polarion-comment:1527"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22240">
+  <div id="A_22240" severity="MUSS">
    <p><b>A_22240 - Berücksichtigung OWASP-Top-10-Risiken</b></p>
    <p>Der Anbieter des sektoralen Identity Provider MUSS Maßnahmen zum Schutz vor den zum Zulassungszeitpunkt aktuellen OWASP-Top-10-Risiken umsetzen und dokumentieren, wie es vorgesehen ist, ebenfalls auf die nach dem Zulassungszeitpunkt aktuellen OWASP-Top-10-Risiken zu reagieren. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_459"><span style="font-style: italic;">Hinweis: Die Nichtanwendbarkeit eines OWASP-Top-10-Risikos ist zu begründen. Für Informationen zum Umgang mit den OWASP-Top-10-Risiken wird auf den aktuellen [OWASP Top 10 Report] und die darin enthaltenen Vorgehensweisen für z. B. Entwickler und Tester verwiesen.</span></p>
-  <div id="A_22241">
+  <div id="A_22241" severity="MUSS">
    <p><b>A_22241 - Interner Datenaustausch der Komponenten des sektoralen Identity Provider</b></p>
    <p>Der Anbieter eines sektoralen Identity Provider MUSS beim internen Datenaustausch die Integrität, Authentizität und Vertraulichkeit der Daten sichern. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_233"><span style="color: #FF0000;"></span></p>
-  <div id="A_22242-01">
+  <div id="A_22242-01" severity="MUSS">
    <p><b>A_22242-01 - Gesicherte externe Schnittstellen des sektoralen Identity Provider</b></p>
    <p>Der Anbieter eines sektoralen Identity Provider&nbsp;MUSS für den Datenaustausch mit anderen Rollen und Diensten Mechanismen zur Sicherung der Datenintegrität, der Authentizität und der Vertraulichkeit der Daten zur Verfügung stellen. Hierzu gehören z. B.&nbsp;die Schnittstellen vom Anbieter eines sektoralen Identity Provider&nbsp;zur Attributbestätigenden Stelle für die&nbsp;Übermittlung der Attribute bei der Einrichtung eines Nutzers sowie von Supportfälle.<br> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_251"><span style="font-style: italic;">Hinweis: Eine Übersicht zu den externen Schnittstellen findet sich in der Tabelle "Schnittstellenübersicht".</span></p>
   <p id="polarion_376"><span style="font-style: italic;">Hinweis: Die Attributbestätigende Stelle (z. B. der Kostenträger für Versicherte) verantwortet die Korrektheit dieser Daten.</span></p>
-  <div id="A_22243-02">
+  <div id="A_22243-02" severity="SOLL">
    <p><b>A_22243-02 - Nutzung bestehender Datensätze bei Registrierung für Endanwender (Versicherte)</b></p>
    <p>Der Anbieter des sektorale Identity Provider SOLL für die Registrierung der Endanwender die bestehenden Datensätze der Endanwender (Versicherte) beim Kostenträger verwenden, so wie sie für eine Identifikation nach [GKV-SV Richtlinie "Kontakt mit Versicherten] beschrieben wurden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22244">
+  <div id="A_22244" severity="MUSS">
    <p><b>A_22244 - Trennung der Betriebsumgebungen</b></p>
    <p>Der Anbieter eines sektoralen Identity Provider&nbsp;MUSS sicherstellen, dass das Testsystem von dem Produktivsystem technisch, organisatorisch und betrieblich so getrennt wird, dass keine gegenseitige Beeinflussung und keine Verwechslung möglich sind.&nbsp; <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_327"><span style="color: #000000;"></span></p>
-  <div id="A_22245">
+  <div id="A_22245" severity="MUSS">
    <p><b>A_22245 - Datenschutzgerechte Einrichtungs- und Sperrprozesse</b></p>
    <p><span style="color: #000000;">Der Anbieter eines sektoralen Identity Provider&nbsp;MUSS die Einrichtungs- und Sperrprozesse datenschutzgerecht ausgestalten, d.h. insbesondere sind für die Verarbeitung der Antrags- und Sperrauftragsdaten die Datenschutzgrundsätze gemäß Art. 5 DSGVO zu berücksichtigen, sowie die technischen und organisatorischen Maßnahmen nach Art. 25 und Art. 32 DSGVO zu treffen.</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22246">
+  <div id="A_22246" severity="MUSS">
    <p><b>A_22246 - Löschung von Nutzerinformationen</b></p>
    <p><span style="color: #000000;">Der Anbieter eines sektoralen Identity Provider&nbsp;MUSS die Attributsdaten&nbsp;und Sperraufträge zu einem Nutzer unverzüglich löschen, sobald die gesetzlichen oder vertraglichen Aufbewahrungsfristen erreicht sind.</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22839">
+  <div id="A_22839" severity="MUSS">
    <p><b>A_22839 - Fehlerprotokollierung</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Falls der Anbieter eines sektoralen IDP eine Protokollierung zum Zwecke der Fehler- bzw. Störungsbehebung durchführen muss, MÜSSEN die Protokolldaten entsprechend dem Datenschutzgrundsatz der Datenminimierung (gemäß Art. 5 Abs. 1 Satz 1 lit.c DSGVO unter Berücksichtigung der Art. 25, 32 DSGVO) derart gestaltet sein, dass nur personenbezogene Daten in der Art und dem Umfang enthalten sind, wie sie zur Behebung erforderlich sind.</span> Insbesondere MUSS der Anbieter eines sektoralen IDP sicherstellen, dass ein Bezug zwischen Nutzer und Fachdienst aus den Protokollen nicht ersichtlich sein.<span id="polarion-comment:1505"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_185"><span style="font-style: italic;">Hinweis: Eine Protokollierungspflicht besteht nicht.</span></p>
   <p id="polarion_113"><span style="font-style: italic;">Hinweis: Sollte es zur Störungsbehebung notwendig sein, eine Fachdienstanfrage und Nutzerauthentisierung zu korrelieren, kann der sektorale IDP zu diesem Zweck die durch den Fachdienst für diesen Fall auf organisatorischem Weg zu liefernde "nonce" der Anfrage nutzen.</span></p>
-  <div id="A_23021">
+  <div id="A_23021" severity="MUSS">
    <p><b>A_23021 - Trennung von Diensten der Föderation und weiteren unterstützten Anwendungen</b></p>
    <p>Wenn der Anbieter eines sektoralen Identity Providers die Anmeldung an weiteren Dienste außerhalb der Föderation unterstützt MUSS sichergestellt sein, dass die Anforderungen an Verfügbarkeit, Performance und Sicherheit der Schnittstellen für Fachdienste der Föderation erfüllt werden.<span id="polarion-comment:1596"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23023">
+  <div id="A_23023" severity="MUSS">
    <p><b>A_23023 - Sicherung externen Schnittstellen gegen bösartige Eingaben</b></p>
    <p>Der sektorale IDP MUSS sicherstellen, dass alle Eingabewerte, welche vom sektoralen IDP über externe Schnittstellen (siehe Tabelle "<span style="font-style: italic;">Schnittstellenübersicht</span>") entgegengenommen und verarbeitet werden,<span id="polarion-comment:1506"></span> auf schadhafte Werte geprüft werden.<span id="polarion-comment:1597"></span><br> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_669"><span style="font-style: italic;">Hinweis: Eine Prüfung der Eingabewerte muss produktseitig bereitgestellt werden und sollte mindestens Prüfungen auf Länge, Character Set, Schlüsselwörter und Steuerzeichen enthalten. Ein Fuzzing im Rahmen des Produkttests bzw. der Inbetriebnahme ist durchzuführen.</span></p>
-  <div id="A_23022">
+  <div id="A_23022" severity="MUSS">
    <p><b>A_23022 - Prozesse zum Ändern oder Löschen von Daten der Authentisierungsprozesse</b></p>
    <p><span style="font-size: 10pt;color: #172B4D;line-height: 1.5;">Werden Daten der Authentisierungsprozesse im sektoralen IDP geändert oder gelöscht, ohne dass der Nutzer direkt involviert ist, so MUSS der Anbieter des sektoralen IDP sicherstellen, dass die operativen Prozesse dazu ausschließlich im 4-Augen-Prinzip ausgeführt werden. Der Nutzer ist über die Änderungen zu informieren und die Änderung MUSS erkennbar sein.<span id="polarion-comment:1798"></span><span id="polarion-comment:1817"></span><span id="polarion-comment:1838"></span><span id="polarion-comment:1663"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_321"><span style="font-style: italic;font-size: 10pt;color: #172B4D;line-height: 1.5;">Hinweis: Serviceprozesse welche der Nutzer über den Support in Anspruch nimmt (z. B. Passwort ändern/rücksetzen) sind von dieser Anforderung nicht betroffen.</span><span style="font-style: italic;font-size: 11pt;color: #172B4D;line-height: 1.5;"></span></p>
-  <div id="A_23499">
+  <div id="A_23499" severity="MUSS">
    <p><b>A_23499 - Prozesse zum Ändern oder Löschen von personenbezogene Daten</b></p>
    <p>Werden personenbezogene Daten im sektoralen IDP geändert oder gelöscht, ohne dass der Betroffene direkt involviert ist, so MUSS der Anbieter des sektoralen IDP sicherstellen, dass die operativen Prozesse dazu ausschließlich im 4-Augen-Prinzip ausgeführt werden. Der Nutzer ist über die Änderungen zu informieren. Personenbezogene Daten, die über den Synchronisationsprozess mit den Kassensystemen geändert oder gelöscht werden, sind von diesem operativen Prozess nicht betroffen.<span id="polarion-comment:1839"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_35"><span style="font-style: italic;">Hinweis: Im Regelfall erfolgen solche Datenänderungen in den Bestandsystemen der Krankenkassen, die über Synchronisationsprozesse den Datenbestand des sektoralen IDP aktualisieren. Hier erfolgt die Information an die Versicherten allein über die kassenüblichen Prozesse.</span></p>
-  <div id="A_22824">
+  <div id="A_22824" severity="MUSS">
    <p><b>A_22824 - Verhalten bei Vollauslastung</b></p>
    <p>Der Anbieter eines sektoralen Identity Provider&nbsp;MUSS den Dienst so konfigurieren, dass bei Vollauslastung der Systemressourcen im sektoralen Identity Provider keine weiteren Verbindungen angenommen werden und dieser stattdessen mit&nbsp;dem HTTP-Statuscode "429 -&nbsp;Too Many Requests" antwortet. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_111"><span style="font-style: italic;">Hinweis: Durch die Zurückweisung von Verbindungen wird sichergestellt, dass Clients einen Verbindungsaufbau mit einer anderen Instanz des Dienstes versuchen, bei der die erforderlichen Systemressourcen zur Verfügung stehen.</span></p>
-  <div id="A_22692">
+  <div id="A_22692" severity="MUSS">
    <p><b>A_22692 - Kriterien für die Standortwahl von Rechenzentren</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS nachweisen, dass er die aktuellen Empfehlungen des BSI bei der Standortwahl seiner Rechenzentren vollumfänglich umsetzt. Der Anbieter des sektoralen IDP MUSS Unterschreitungen der Empfehlungen des BSI begründen und die Abmilderung der Risiken begründet nachweisen.&nbsp;Der Anbieter des sektoralen IDP MUSS einen Prozess für die Umsetzung zukünftige Empfehlungen des BSI bei der Standortwahl seiner Rechenzentren&nbsp;nachweisen. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_92"><span style="font-style: italic;">Hinweis: Weitere Informationen finden Sie unter: <a class="descriptionLink" target="_top" href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/RZ-Sicherheit/Standort-Kriterien_Rechenzentren.pdf">https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/RZ-Sicherheit/Standort-Kriterien_Rechenzentren.pdf</a></span></p>
-  <div id="A_22250">
+  <div id="A_22250" severity="MUSS">
    <p><b>A_22250 - Schutz der Verbindung zum sektoralen Identity Provider</b></p>
    <p>Der Anbieter eines sektoralen Identity Provider MUSS sicherstellen, dass die Schnittstellen des sektoralen Identity Provider nur über eine gegen Abhören, Manipulation und Replay-Angriffe geschützte Verbindung genutzt werden können. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_39"><span style="font-style: italic;">Hinweis: Eine Übersicht zu den Schnittstellen findet sich in der Tabelle "Schnittstellenübersicht".</span></p>
   <p id="polarion_85"></p>
-  <div id="A_22512">
+  <div id="A_22512" severity="MUSS">
    <p><b>A_22512 - Schutz der Schnittstellen des sektoralen Identity Provider ins Internet</b></p>
    <p>Der Anbieter eines sektoralen IDP MUSS sicherstellen, dass seine Schnittstellen ins Internet an allen Standorten durch einen DDoS-mitigierenden Dienstleister geschützt werden. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_288"><span style="font-style: italic;">Hinweis: Die Informationen zu den Empfehlungen des BSI sind zu&nbsp;berücksichtigen:<br> <a class="descriptionLink" target="_top" href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/Themen/Dienstleister-DDos-Mitigation.html">https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/Themen/Dienstleister-DDos-Mitigation.html</a><br> <a class="descriptionLink" target="_top" href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/Themen/Dienstleister-DDos-Mitigation-Liste.pdf;">https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/Themen/Dienstleister-DDos-Mitigation-Liste.pdf;</a>&nbsp;</span></p>
-  <div id="A_23099">
+  <div id="A_23099" severity="MUSS">
    <p><b>A_23099 - Datenverarbeitung innerhalb der Europäischen Union</b></p>
    <p><span style="color: #000000;">Der Anbieter eines sektoralen IDP MUSS im Sinne der vollständigen DSGVO-Konformität sicherstellen, dass die Datenverarbeitung innerhalb der Europäischen Union erfolgt und dieses auch nachweisen.<span id="polarion-comment:1631"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_109"></p>
-  <div id="A_22694">
+  <div id="A_22694" severity="MUSS">
    <p><b>A_22694 - Georedundanz des sektoralen Identity Provider</b></p>
    <p>Der Anbieter des sektoralen Identity Provider MUSS diesen an mindestens zwei Standorten betreiben. <br>Jeder Standort MUSS dabei die Performancevorgaben allein erfüllen. <br>Eine getrennte Adressierung durch zugreifende Anwendungsfrontends und Fachdiensten MUSS hierdurch möglich sein - alternativ ist diese Adressierung auch durch den DDoS-mitigierenden Dienstleister erlaubt.<br><span id="polarion-comment:1509"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_182"><span style="font-style: italic;">Hinweis: <span style="font-size: 10pt;color: #172B4D;line-height: 1.5;">Ein Aktiv-Aktiv Betrieb der beiden Standorte ist nicht gefordert, entscheidend ist die Sicherstellung der Verfügbarkeit.</span></span></p>
-  <div id="A_22695">
+  <div id="A_22695" severity="MUSS">
    <p><b>A_22695 - Mindestabstand für Georedundanz des sektoralen Identity Provider</b></p>
    <p>Ab dem 31.12.2023 MUSS der&nbsp;Anbieter des sektoralen Identity Provider seinen Dienst an zwei Standorten gemäß A_22692 betreiben, wobei eine Unterschreitung des Abstandes von 100 km gemäß A_22692 nicht zulässig ist. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22506-01">
+  <div id="A_22506-01" severity="MUSS">
    <p><b>A_22506-01 - Unabhängiges Bedienpersonal pro Standort des sektoralen Identity Provider</b></p>
    <p>Der Anbieter des sektoralen Identity Provider MUSS pro Standort ein unabhängiges Bedienpersonal vorhalten, um die Risiken der Standortvorgaben des BSI tragen zu können. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22508">
+  <div id="A_22508" severity="MUSS">
    <p><b>A_22508 - Ausschluss von nicht erlaubten Authenticator-Modul Versionen (Rohdatenerfassung v.02)</b></p>
    <p>Der sektorale Identity Provider MUSS von ihm nicht erlaubte Authenticator-Module (anhand der Versionsnummern) ablehnen, von einer Kommunikation mit dem sektoralen Identity Provider ausschließen und diesen Verbindungsversuch mit dem Status-Code 79105 in den Rohdaten protokollieren. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_51"></p>
-  <div id="A_22509">
+  <div id="A_22509" severity="MUSS">
    <p><b>A_22509 - Ausschluss bei fehlenden Authenticator-Modul Versionsnummern (Rohdatenerfassung v.02)</b></p>
    <p>Der sektorale Identity Provider MUSS Authenticator-Module mit fehlenden Versionsnummern ablehnen, von einer Kommunikation mit dem sektoralen Identity Provider ausschließen und diesen Verbindungsversuch in den Rohdaten&nbsp;mit dem Error-Code 403 protokollieren. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_198"></p>
   <p id="polarion_153"></p>
-  <div id="A_22931">
+  <div id="A_22931" severity="MUSS">
    ML-132222
    <p><b>A_22931 - Zu verwendende Produktversion in der Kommunikation zum IDP</b></p>
    <p>Das Authenticator-Modul MUSS in Requests an den IDP seine Produktversion&nbsp;übermitteln. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22253">
+  <div id="A_22253" severity="MUSS">
    <p><b>A_22253 - Ausschluss bestimmter Authenticator-Modul Versionen von der Kommunikation</b></p>
    <p>Der sektorale Identity Provider MUSS die vom Authenticator-Modul mitgeteilte Versionsnummer erkennen und festgelegte Versionsnummern über eine blockinglist von einer Kommunikation ausschließen können.<span id="polarion-comment:1523"></span><span id="polarion-comment:1599"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22254-01">
+  <div id="A_22254-01" severity="MUSS">
    <p><b>A_22254-01 - Ausschluss von Authenticator-Modul Versionen (Rohdatenerfassung v.02)</b></p>
    <p>Der sektorale Identity Provider MUSS auf Anweisung der gematik Authenticator-Module mit bestimmten Versionsnummern von einer Kommunikation mit dem sektoralen Identity Provider ausschließen und diesen Verbindungsversuch in den Rohdaten protokollieren. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_283"><span style="font-style: italic;">Hinweis: Im Regelprozess sichert der Betreiber in Eigenverantwortung zu, dass nur unterstützte und sichere Versionen des Authenticator-Moduls mit den Serverkomponenten des Sektoralen IDP kommunizieren dürfen.<br> Bei dieser Anforderung handelt es sich um eine betriebliche Eskalation im Notfall und nicht um einen Regelprozess.</span>&nbsp;</p>
   <p id="polarion_234"></p>
-  <div id="A_23192">
+  <div id="A_23192" severity="MUSS">
    <p><b>A_23192 - Maximale Verwendungsdauer für Schlüssel</b></p>
    <p>Der Anbieter des sektoralen Identity Provider MUSS Schlüsselpaare welche zur Signatur von Entity Statements bzw. <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> oder zur TLS-Authentisierung verwendet werden, nach maximal&nbsp;<span style="font-size: 10pt;line-height: 1.5;">398 Tagen austauschen.<span id="polarion-comment:1692"></span></span> <b>[&lt;=]</b></p>
   </div>
@@ -866,15 +1132,15 @@ ol:first-of-type {
   </table>
   <p id="polarion_515"></p>
   <p id="polarion_313"><span style="font-size: 10pt;color: #000000;line-height: 1.5;"></span><span style="color: #FF0000;"></span></p>
-  <div id="A_22864">
+  <div id="A_22864" severity="MUSS">
    <p><b>A_22864 - Umsetzung von Operationen in einer Vertrauenswürdigen Ausführungsumgebung (VAU)</b></p>
    <p>Der sektorale IDP MUSS die Verarbeitung aller Operationen welche die Ziele gemäß <span style="font-size: 10pt;line-height: 1.5;">A_23018,&nbsp;A_23019 und&nbsp;A_22959 gewährleisten&nbsp;</span>in einer Vertrauenswürdigen Ausführungsumgebung umsetzen.&nbsp;Die HTTP-Verbindungen zwischen Fachdiensten und sektoralem IDP MÜSSEN als mTLS-Verbindungen<span id="polarion-comment:1646"></span> ausgelegt werden,&nbsp;welche innerhalb der VAU terminieren. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23002">
+  <div id="A_23002" severity="DARF NICHT">
    <p><b>A_23002 - sicherer Betrieb der Vertrauenswürdigen Ausführungsumgebung (VAU)</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS sicherstellen, dass alle Operationen, welche die Ziele gemäß&nbsp;A_23018,&nbsp;A_23019 und&nbsp;A_22959 gewährleisten, in einer vertrauenswürdigen Ausführungsumgebung umgesetzt werden.<span id="polarion-comment:1602"></span></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23018">
+  <div id="A_23018" severity="DARF NICHT">
    <p><b>A_23018 - Anforderungen an den Schutz vor Profilbildung</b></p>
    <p>
     <div style="margin-left: 2em">
@@ -884,7 +1150,7 @@ ol:first-of-type {
      </ul>
     </div> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23019">
+  <div id="A_23019" severity="DARF NICHT">
    <p><b>A_23019 - Anforderungen an den Schutz der Operationen in einer Vertrauenswürdigen Ausführungsumgebung (VAU)</b></p>
    <p>
     <ul>
@@ -896,7 +1162,7 @@ ol:first-of-type {
   <p id="polarion_19"><span style="font-style: italic;">Hinweis 1: Siehe in diesem Zusammenhang auch A_23031 - TLS-Verbindung&nbsp;Authenticator-Modul - Vertrauenswürdige Ausführungsumgebung.</span></p>
   <p id="polarion_731"><span style="font-style: italic;">Hinweis 2: Ein Logging zur Betriebsüberwachung und Fehleranalyse ist zulässig, darf jedoch keine Identifikation des genutzten Fachdienstes zulassen.</span></p>
   <p id="polarion_47"><span style="font-style: italic;"></span></p>
-  <div id="A_22959">
+  <div id="A_22959" severity="MUSS">
    <p><b>A_22959 - Prozess zur Consent-Freigabe durch den Nutzer</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS dafür sorgen, dass der Prozess zur Freigabe des Consent durch den Nutzer verschlüsselt und nicht einsehbar für Dritte oder den Betreiber selbst erfolgt.<span id="polarion-comment:1011"></span><span id="polarion-comment:1055"></span><span id="polarion-comment:1573"></span> <b>[&lt;=]</b></p>
   </div>
@@ -904,7 +1170,7 @@ ol:first-of-type {
   <p id="polarion_207"><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Schutzbedarf der in der VAU verarbeiteten Klartextdaten erfordert den technischen Ausschluss von Zugriffen des Anbieters. Dies umfasst insbesondere Zugriffe durch Personen aus dem betrieblichen Umfeld des Anbieters.</span></p>
   <p id="polarion_202"></p>
   <p id="polarion_73"><span style="font-size: 10pt;color: #FF0000;line-height: 1.5;"></span></p>
-  <div id="A_22829">
+  <div id="A_22829" severity="MUSS">
    <p><b>A_22829 - Anbieter sektoraler IDP Speicherung Schlüsselmaterial in HSM</b></p>
    <p><span style="color: #000000;">Der&nbsp;Anbieter des sektoralen IDP MUSS das private Schlüsselmaterial für kryptografische Verfahren in einem HSM speichern, dessen Eignung durch eine erfolgreiche Evaluierung nachgewiesen wurde. Als Evaluierungsschemata kommen dabei Common Criteria oder Federal Information Processing Standard (FIPS) in Frage.<br> Die Prüftiefe MUSS mindestens:&nbsp;<br></span> 
     <ol style="color: #172B4D;">
@@ -912,42 +1178,42 @@ ol:first-of-type {
      <li><span style="color: #000000;">Common Criteria EAL 4+ erweitert um AVA_VAN.5 entsprechen</span></li>
     </ol><span id="polarion-comment:1632"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23205">
+  <div id="A_23205" severity="MUSS">
    <p><b>A_23205 - Prozesse für die Verwaltung des HSM</b></p>
    <p><span style="color: #172B4D;">Der Anbieter des sektoralen IDP MUSS Prozesse für die Verwaltung der Systeme der VAU etablieren, welche die Authentizität und Integrität der Verarbeitungskontexte systematisch von einem kryptographischen Root-of-Trust ableiten,&nbsp;<span style="font-weight: normal;">der in einem HSM gemäß A_22829 verwaltet wird.</span><br> Der Anbieter des sektoralen IDP MUSS bei der Ableitung ein Vertrauensniveau erreichen, welches für den Schutzbedarf der in der VAU verarbeiteten Daten angemessenen ist und das auf Attestation der genutzten Systeme sowie ggf. auf der Prüfung von Signaturen der geladenen Software inklusive ihrer Konfiguration basiert.<br> Der Anbieter des sektoralen IDP MUSS für die Verwaltung des Root-of-Trust ein Mehraugenprinzip umsetzen und - soweit für systematischen Ausschluss einseitig durch den Anbieter durchführbarer Manipulationen erforderlich - eine Einbeziehung der gematik vorsehen.<br> Der Anbieter des sektoralen IDP MUSS der gematik dabei eine Remote-Teilnahme an den erforderlichen Zeremonien ermöglichen.</span>&nbsp;<span id="polarion-comment:1702"></span><span id="polarion-comment:1792"></span><span id="polarion-comment:1820"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22830">
+  <div id="A_22830" severity="MUSS">
    <p><b>A_22830 - sektoraler IDP – Verarbeitungskontext der VAU</b></p>
    <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der<span id="polarion-comment:1118"></span> Verarbeitungskontext des sektoralen IDP<span id="polarion-comment:1383"></span> MUSS sämtliche physikalischen Systemkomponenten sowie sämtliche Softwarekomponenten umfassen, deren Sicherheitseigenschaften sich auf den Schutz der personenbezogenen Daten vor Zugriff durch Unbefugte bei ihrer<span id="polarion-comment:975"></span> Verarbeitung&nbsp;im Klartext auswirken können.</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22840">
+  <div id="A_22840" severity="MUSS">
    <p><b>A_22840 - Verschlüsselung von außerhalb des Verarbeitungskontextes der VAU gespeicherten Daten</b></p>
    <p>Der<span id="polarion-comment:1119"></span> Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass sämtliche schützenswerten Daten vor einer Speicherung außerhalb der VAU verschlüsselt werden. Dies betrifft auch Daten zu Logging und Protokollierung. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_328"><span style="font-style: italic;">Hinweis: Schützenswerten Daten im Kontext der sektoralen IDP sind die Daten, welche innerhalb der VAU zum laufenden Authentifizierungsprozess erzeugt bzw. gespeichert werden <span style="font-size: 10pt;line-height: 1.5;">(<span style="color: #242424;">client_id, state, redirect_uri, code_challenge, <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>, <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID-TOKEN</span>)</span></span>, sowie die Daten für das Nutzerprotokoll.</span><span style="font-style: italic;font-size: 11pt;color: #172B4D;line-height: 1.5;"></span></p>
-  <div id="A_22841">
+  <div id="A_22841" severity="MUSS">
    <p><b>A_22841 - Schutz der Persistenzschlüssel durch ein HSM</b></p>
    <p>Schlüsselmaterial, dass zur Verschlüsselung von außerhalb des Verarbeitungskontextes der VAU gespeicherten Daten genutzt wird, MUSS entweder durch ein HSM geschützt in den Verarbeitungskontext der VAU eingebracht werden, oder in einem HSM verbleiben.<span id="polarion-comment:1681"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22842">
+  <div id="A_22842" severity="MUSS">
    <p><b>A_22842 - Bereitstellung Persistenzschlüssel</b></p>
    <p>Das HSM der VAU des sektoralen IDP MUSS eine Schnittstelle zum Abruf symmetrischer Persistenzschlüssel bereitstellen. Erzeugte Schlüssel für die Persistierung der Daten MÜSSEN eineindeutig einem Nutzer zugeordnet sein.<span id="polarion-comment:1682"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22843">
+  <div id="A_22843" severity="MUSS">
    <p><b>A_22843 - Geschützte Weitergabe von Daten an autorisierte Nutzer durch die VAU</b></p>
    <p>Der<span id="polarion-comment:1123"></span> Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass sämtliche schützenswerten Daten ausschließlich über TLS-gesicherte Verbindungen weitergegeben werden.<span id="polarion-comment:1840"></span><span id="polarion-comment:1633"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_332"><span style="font-style: italic;">Hinweis: Schützenswerten Daten im Kontext der sektoralen IDP sind die Daten, welche innerhalb der VAU zum laufenden Authentifizierungsprozess erzeugt bzw. gespeichert werden (client_id, state, redirect_uri, code_challenge, <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>, <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID-TOKEN</span>), sowie die Daten für das Nutzerprotokoll.</span><span style="font-style: italic;font-size: 11pt;color: #172B4D;line-height: 1.5;"></span></p>
-  <div id="A_22844">
+  <div id="A_22844" severity="MUSS">
    <p><b>A_22844 - Transportverschlüsselte Übertragung von Daten mit Fachdiensten</b></p>
    <p>Der<span id="polarion-comment:1124"></span> Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass er nur mTLS-gesichert<span id="polarion-comment:1647"></span>&nbsp;mit Fachdiensten kommuniziert.<span id="polarion-comment:977"></span><span id="polarion-comment:1634"></span><span id="polarion-comment:1699"></span><span id="polarion-comment:1816"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22847">
+  <div id="A_22847" severity="MUSS">
    <p><b>A_22847 - Authentisierung gegenüber Clients</b></p>
    <p>Der<span id="polarion-comment:1125"></span> Verarbeitungskontext des sektoralen IDP MUSS sich gegenüber Clients, welche mit ihm kommunizieren, mit einem TLS-Zertifikat ausweisen, auf dessen privaten Schlüssel der Betreiber des sektoralen IDP keinen Zugriff hat. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_59"></p>
-  <div id="A_23006">
+  <div id="A_23006" severity="MUSS">
    <p><b>A_23006 - Subdomäne für Webservice-Endpunkte in der VAU</b></p>
    <p>Der Verarbeitungskontext des sektoralen IDP MUSS diese Endpunkte anbieten:<br> 
     <ul> 
@@ -958,58 +1224,58 @@ ol:first-of-type {
   </div>
   <p id="polarion_63"><span style="font-style: italic;">Hinweis: Die Erstellung einer eigenen Subdomäne für die VAU eines sektoralen IDP ist notwendig um die Certificate Transparency&nbsp;TLS-Zertifikate im Federation Master effektiv prüfen zu können.</span></p>
   <p id="polarion_75"></p>
-  <div id="A_22943">
+  <div id="A_22943" severity="MUSS">
    <p><b>A_22943 - Richtlinien zum TLS-Verbindungsaufbau</b></p>
    <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS dafür sorgen, dass der Verarbeitungskontext&nbsp;des sektoralen IDP sich beim TLS-Verbindungsaufbau über das Transportnetz gegenüber dem Client mit einem TLS-Zertifikat eines Herausgebers gemäß [CAB-Forum] authentisiert. Der Anbieter MUSS dafür sorgen, dass Clientsysteme beim TLS-Verbindungsaufbau eine vereinfachte Zertifikatsprüfung mit TLS-Standardbibliotheken durchführen können.&nbsp;<span id="polarion-comment:1585"></span><span id="polarion-comment:1751"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_78"></p>
-  <div id="A_22980">
+  <div id="A_22980" severity="MUSS">
    <p><b>A_22980 - Grundlage zur Prüfung der TLS-Zertifikate mittels Certificate Transparency</b></p>
    <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS die TLS-Zertifikate, welche in seinem Verarbeitungskontext&nbsp;terminieren, aus einer CA beziehen, welche&nbsp;Certificate Transparency gemäß&nbsp;RFC 6962 / RFC 9162<span id="polarion-comment:1015"></span> unterstützt&nbsp;und täglich prüfen und sicherstellen, dass für die zur<span id="polarion-comment:1148"></span> Verbindungen<span id="polarion-comment:1752"></span> in den&nbsp;Verarbeitungskontext der VAU vorgesehen Domänen keine unbekannten Zertifikate im Certificate Transparency Log gelistet werden. Im Fehlerfall MUSS ein "Security Incident" (gemäß 3.4 gemRL_Betr_TI) erstellt werden.&nbsp;</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22981">
+  <div id="A_22981" severity="MUSS">
    <p><b>A_22981 - Grundlage zur Prüfung der TLS-Zertifikate mittels Certification Authority Authorization (CAA) Records</b></p>
    <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS für die TLS-Zertifikate welche in seinem Verarbeitungskontext&nbsp;terminieren Certification Authority Authorization (CAA) DNS Resource Records nach RFC 6844 bereitstellen, welche die Validität der ausstellenden CA verifizieren.&nbsp;</span><span style="font-size: 10pt;color: #FF6666;line-height: 1.5;"><span id="polarion-comment:1017"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_486"><span style="color: #000000;"></span></p>
   <p id="polarion_145"></p>
-  <div id="A_22982">
+  <div id="A_22982" severity="MUSS">
    <p><b>A_22982 - Bereitstellung der öffentlichen Schlüssel der TLS-Zertifikate</b></p>
    <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS die öffentlichen Schlüssel der TLS-Zertifikate,<span id="polarion-comment:1373"></span> welche in seinem Verarbeitungskontext&nbsp;terminieren, dem Federation Master bereitstellen. Der organisatorische Prozess zur Schlüsselübergabe ist in [<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="gemSpec_IDP_FedMaster" data-url="/wiki/Spezifikation/gemSpec_IDP_FedMaster?selection=ML-132570"></span>] beschrieben.</span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_482"><span style="font-style: italic;font-size: 10pt;color: #000000;line-height: 1.5;">Hinweis: Auf diesem Weg kann der Federation Master verifizieren, dass keine TLS-Zertifikate für diese Adressen erstellt werden deren privater Schlüssel nicht nachgewiesenermaßen im Verarbeitungskontext der VAU liegt. Der&nbsp;Federation Master bietet hierzu einen organisatorischen Prozess an.</span></p>
-  <div id="A_22848">
+  <div id="A_22848" severity="MUSS">
    <p><b>A_22848 - Isolation zwischen Datenverarbeitungsprozessen mehrerer Verarbeitungskontexte der VAU</b></p>
    <p><span style="color: #242424;">Die VAU des sektoralen IDP MUSS die in ihr ablaufenden Verarbeitungen für die Daten eines Verarbeitungskontextes von den Verarbeitungen für die Daten anderer Verarbeitungskontexte in solcher Weise trennen, dass mit technischen Mitteln ausgeschlossen wird, dass die Verarbeitungen eines Verarbeitungskontextes schadhaft auf die Verarbeitung eines anderen Verarbeitungskontextes einwirken können. Die VAU des sektoralen IDP MUSS dabei insbesondere verhindern, dass die Verarbeitungen von Daten innerhalb eines Verarbeitungskontextes zur fehlerhaften Ausstellungen von Identitätsbestätigungen bei einem Authentifizierungsvorgang in einem anderen Verarbeitungskontext führen könnte.<span id="polarion-comment:1771"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_263"><span style="font-style: italic;">Hinweis: Da der Verarbeitungskontext der VAU des sektoralen IDP für jede fachliche Operation neu aufgebaut werden muss, ist ein Low-Level-Mechanismus zur Kontextseparation aus Gründen der Performance bzw. Skalierung nicht zwingend vorgeschrieben. Der hier geforderte Separationsmechanismus kann daher auch als Server-Thread, Worker, o. Ä. ausgeführt sein, solange für den dadurch gebildeten Verarbeitungskontext die geforderte Separation nachgewiesen werden kann. Dies setzt voraus, dass die Umsetzung der Verarbeitungskontexte und der in ihnen ablaufenden Verarbeitungsvorgänge technisch möglichst einfach und nachvollziehbar gestaltet ist.</span></p>
-  <div id="A_22849">
+  <div id="A_22849" severity="MUSS">
    <p><b>A_22849 - Isolation der VAU von Datenverarbeitungsprozessen des Anbieters</b></p>
    <p>Die<span id="polarion-comment:1127"></span> VAU des sektoralen IDP MUSS die in ihren Verarbeitungskontexten ablaufenden Datenverarbeitungsprozesse von allen sonstigen Datenverarbeitungsprozessen des Anbieters trennen und damit gewährleisten, dass&nbsp;sowohl Dritte als auch der Betreiber des sektoralen IDP selbst vom Zugriff auf die in der VAU verarbeiteten schützenswerten Daten ausgeschlossen ist.<br> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_266"><span style="font-style: italic;">Hinweis: Schützenswerten Daten im Kontext der sektoralen IDP sind die Daten, welche innerhalb der VAU zum laufenden Authentifizierungsprozess erzeugt bzw. gespeichert werden (client_id, state, redirect_uri, code_challenge, AUTHORIZATION_CODE, ID-Token), sowie die Daten für das Nutzerprotokoll.</span></p>
   <p id="polarion_403"><span style="font-style: italic;">Hinweis: Für die Separation zwischen Verarbeitungskontexten und Verarbeitungsprozessen des Anbieters, die der betrieblichen Steuerung des Systems dienen, ist eine Low-Level Separation anzustreben, da - im Unterschied zur Separation zwischen Verarbeitungskontexten - hier technisch sehr verschiedene Aspekte getrennt werden müssen.</span></p>
-  <div id="A_22850">
+  <div id="A_22850" severity="MUSS">
    <p><b>A_22850 - Ausschluss von Manipulationen an der Software der VAU</b></p>
    <p>Die<span id="polarion-comment:1128"></span> VAU des sektoralen IDP MUSS eine Manipulation der eingesetzten Software erkennen und eine Ausführung der manipulierten Software verhindern. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22851">
+  <div id="A_22851" severity="MUSS">
    <p><b>A_22851 - Ausschluss von Manipulationen an der Hardware der VAU</b></p>
    <p>Die<span id="polarion-comment:1129"></span> VAU des sektoralen IDP MUSS die Integrität der eingesetzten Hardware schützen und damit insbesondere Manipulationen an der Hardware sowohl durch Dritte als auch der Betreiber des sektoralen IDP ausschließen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22852">
+  <div id="A_22852" severity="MUSS">
    <p><b>A_22852 - Kontinuierliche Wirksamkeit des Manipulationsschutzes der VAU</b></p>
    <p>Die<span id="polarion-comment:1130"></span> VAU des sektoralen IDP MUSS den Ausschluss von Manipulationen an der Hardware und der Software sowohl durch Dritte als auch der Betreiber des sektoralen IDP mit Mitteln umsetzen, deren dauerhafte und kontinuierliche Wirksamkeit gewährleistet werden kann. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22853">
+  <div id="A_22853" severity="MUSS">
    <p><b>A_22853 - Ausschluss von Manipulationen über physische Angriffe</b></p>
    <p>Die VAU des sektoralen IDP MUSS mit technischen und/oder organisatorischen Mitteln ausschließen, dass ein Angreifer aus dem betrieblichen Umfeld des IDP physische Angriffsmittel zur Kompromittierung der VAU zum Einsatz bringen kann.<span id="polarion-comment:978"></span><span id="polarion-comment:1604"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22854">
+  <div id="A_22854" severity="MUSS">
    <p><b>A_22854 - Nutzdatenbereinigung vor physischem Zugang zu Systemen der VAU</b></p>
    <p>Die<span id="polarion-comment:1132"></span> VAU des sektoralen IDP MUSS mit technischen und/oder organisatorischen Mitteln sicherstellen, dass physischer Zugang zu Hardware-Komponenten der Verarbeitungskontexte nur erfolgen kann, nachdem gewährleistet ist, dass aus ihnen keine Nutzdaten extrahiert werden können. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22868">
+  <div id="A_22868" severity="MUSS">
    <p><b>A_22868 - Private Schlüssel im HSM</b></p>
    <p><span style="color: #000000;">Der&nbsp;<span id="polarion-comment:1133"></span>sektorale IDP MUSS folgende private Schlüssel in einem Hardware Security Module (HSM) erzeugen und anwenden:&nbsp;<br> </span> 
     <ul> 
@@ -1017,14 +1283,14 @@ ol:first-of-type {
      <li><span style="color: #000000;">die Schlüssel der TLS-Zertifikate für die sichere Verbindung zum Verarbeitungskontext<br> </span></li> 
     </ul> <span style="color: #000000;">Die Prüftiefe des HSM MUSS dabei den in [A_22829] angegebenen Standards entsprechen.</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22855">
+  <div id="A_22855" severity="MUSS">
    <p><b>A_22855 - HSM-Kryptographieschnittstelle verfügbar nur für Instanzen der VAU</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;"><span style="color: #172B4D;">Die VAU des sektoralen IDP MUSS mit technischen Mitteln die Manipulationen sowohl durch Dritte als auch den Betreiber des sektoralen IDP ausschließen und gewährleisten, dass nur Instanzen der VAU Zugriff auf die Kryptographieschnittstelle des HSM zur Nutzung des privaten Schlüsselmaterials für ihre TLS-Zertifikate und die Signaturschlüssel für die Token und Entity Statements erhalten können</span>.</span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_307"><span style="font-style: italic;">Hinweis: Falls die Verarbeitungskontexte als Threads, Workers, o. ä. umgesetzt sind und daher gemeinsam in einem übergreifenden Anwendungsprozess ausgeführt werden, kann dieser Anwendungsprozess eine authentisierte Verbindung zur Kryptographieschnittstelle des HSM herstellen und aufrechterhalten, um darüber die Kryptographieschnittstelle des HSM den Verarbeitungskontexten (und nur diesen) lokal zur Verfügung zu stellen. Das bedeutet auch, dass die Hardware für mehrere Mandanten nutzbar ist. Dabei muss allerdings sichergestellt werden, dass der Schlüsselzugriff nur im Verarbeitungskontext des jeweiligen Mandanten möglich ist.</span></p>
   <p id="polarion_309"></p>
   <h4 id="3.2.3">3.2.3 Konsistenz des Systemzustands, Logging und Monitoring</h4>
-  <div id="A_22856">
+  <div id="A_22856" severity="MUSS">
    <p><b>A_22856 - Konsistenter Systemzustand des Verarbeitungskontextes der VAU</b></p>
    <p>Die<span id="polarion-comment:1135"></span> VAU des sektoralen IDP MUSS sicherstellen, dass ein konsistenter Zustand des Verarbeitungskontextes auch bei Bedienfehlern oder technischen Problemen immer erhalten bleibt bzw. wiederhergestellt werden kann. <b>[&lt;=]</b></p>
   </div>
@@ -1039,7 +1305,7 @@ ol:first-of-type {
   </ul>
   <p id="polarion_224">Als Ergebnis der Request wird ein Fehlercode gemäß [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.7.5">OpenID Connect Federation 1.0#rfc.section.7.5</a>] erwartet.&nbsp;Testidentitäten müssen demnach in der produktiven Umgebung nicht bereitgestellt werden.</p>
   <p id="polarion_230"></p>
-  <div id="A_22567">
+  <div id="A_22567" severity="MUSS">
    <p><b>A_22567 - Informationsverpflichtung über Mandanten des Anbieters sektoraler IDP</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS der gematik initial zur Zulassung und danach jeweils bei Änderungen tagesaktuell die Liste der Mandanten (Versicherungen) mitteilen, für deren Versicherte er den Dienst anbietet. <br> Dabei MUSS der Anbieter des sektoralen IDP die IK-Nummer der Kasse und die Telematik-ID der Kasse aus dem "Verfahren zur Herausg<span style="font-style: normal;">abe der SMC-B für Kostenträger</span>" nennen, in welchem der GKV-SV die Echtheit der Kasse bereits bestätigt hat. <br> Der Meldung ist die Beauftragung durch die Kasse als Erklärung schriftlich beizufügen. <b>[&lt;=]</b></p>
   </div>
@@ -1050,71 +1316,71 @@ ol:first-of-type {
   <p id="polarion_79">Damit die gematik Zulassungstests durchführen kann und andere Hersteller frühzeitig mit den sektoralen IDP integrieren können, werden neben der produktiven Instanz auch Testinstanzen benötigt. Auch wenn diese eigentlich nicht mehr Teil der geschlossenen Netze RU und TU der TI 1.0 sind, werden sie zur besseren Verständlichkeit mit den bestehenden Strukturen in Verbindung gebracht. Daher bezeichnen wir die&nbsp;Instanz für entwicklungsbegleitende Integrationstest im Folgenden als RU-Instanz und die&nbsp;sehr produktionsnahe Instanz für Abnahmen und Zulassungstests im Folgenden als TU-Instanz.</p>
   <p id="polarion_114"></p>
   <h5 id="3.4.1.1">3.4.1.1 zentrale Komponente</h5>
-  <div id="A_23053">
+  <div id="A_23053" severity="MUSS">
    <p><b>A_23053 - Bereitstellung von Testinstanzen</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS nach der Zulassung neben der produktiven Instanz weitere Testinstanzen des sektoralen IDPs bereitstellen. Das sind zunächst eine RU-Instanz und eine TU-Instanz. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23054">
+  <div id="A_23054" severity="MUSS">
    <p><b>A_23054 - Skalierung von Testinstanzen</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS&nbsp;zusätzliche Testinstanzen über einen Business-Service Katalog anbieten.&nbsp;Diese KÖNNEN unterschiedliche Performance und Lastanforderungen ausweisen.<span id="polarion-comment:1607"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23055">
+  <div id="A_23055" severity="MUSS">
    <p><b>A_23055 - Aufbau RU-Instanz</b></p>
    <p>Der Hersteller des sektoralen IDPs MUSS die RU-Instanz iterativ aufbauen und der gematik frühzeitig einen Zugriff auf Zwischenstände ermöglichen.<span id="polarion-comment:1608"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23056">
+  <div id="A_23056" severity="MUSS">
    <p><b>A_23056 - Bereitstellung der TU-Instanz</b></p>
    <p>Der Hersteller des sektoralen IDPs MUSS die TU-Instanz zur Zulassung bereitstellen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23057">
+  <div id="A_23057" severity="SOLL">
    <p><b>A_23057 - Version der TU-Instanz</b></p>
    <p>Der Anbieter des sektoralen IDP SOLL<span id="polarion-comment:1489"></span> dafür sorgen, dass die Version der TU-Instanz - außer für die Abnahme einer neuen Version - der der produktiven Instanz entspricht.<span id="polarion-comment:1609"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23058">
+  <div id="A_23058" severity="KANN">
    <p><b>A_23058 - Änderung der Version der RU-Instanz</b></p>
    <p>Der Hersteller des sektoralen IDPs KANN die Version der RU-Instanz während der Entwicklung<span id="polarion-comment:1490"></span> nach Absprache mit der gematik ohne Change-Prozess ändern. Downtimes MÜSSEN dabei der gematik ankündigt werden. Dadurch sollen schnelle Feedbackschleifen während der Entwicklung ermöglicht werden. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_128"></p>
-  <div id="A_23163">
+  <div id="A_23163" severity="MUSS">
    <p><b>A_23163 - Anpassung RU-Instanz</b></p>
    <p>Möchte ein Hersteller oder Anbieter&nbsp;des sektoralen IDP seine RU-Instanz anpassen, so MUSS dies in Abstimmung mit dem Testmanager der gematik geschehen. <b>[&lt;=]</b></p>
   </div>
   <h5 id="3.4.1.2">3.4.1.2 Authenticator-Modul</h5>
-  <div id="A_23060">
+  <div id="A_23060" severity="MUSS">
    <p><b>A_23060 - Testversion des Authenticator-Moduls für Testinstanzen</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS&nbsp;eine Testversion seines Authenticator-Moduls in einer App bereitstellen, die mit allen Testinstanzen des sektoralen IDPs genutzt werden kann. Das können verschiedene Apps oder eine konfigurierbare sein. Die Testversion MUSS kurzfristig<span id="polarion-comment:1492"></span> und auf Anfrage an die gematik, aber auch an Dritte - z. B. DIGA-Hersteller - bereitgestellt werden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23061">
+  <div id="A_23061" severity="MUSS">
    <p><b>A_23061 - Betriebssysteme der Testversion des Authenticator-Moduls</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS eine Testversion seines Authenticator-Moduls in einer App für alle von ihm produktiv unterstützten Betriebssysteme bereitstellen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23062">
+  <div id="A_23062" severity="MUSS">
    <p><b>A_23062 - Funktionsumfang der Testversion des Authenticator-Moduls</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS eine Testversion des Authenticator-Moduls bereitstellen, die funktional der Produktivversion entspricht. <b>[&lt;=]</b></p>
   </div>
   <h4 id="3.4.2">3.4.2 Testidentitäten</h4>
   <p id="polarion_355"><span style="font-size: 10pt;line-height: 1.5;">Um eine Nutzung der Testinstanzen eines sektoralen IDPs in produktübergreifenden Integrationstests anderer Hersteller und bei Zulassungstests durch die gematik zu ermöglichen, werden Testidentitäten benötigt. Abhängig von der genauen Verwendung ergeben sich unterschiedliche Anforderungen an diese Testidentitäten. Im Folgenden werden wir zwischen "einfachen" und "komplexen" Testidentitäten unterscheiden. "Einfache" Testidentitäten sollen z. B. in automatisierten e2e-Tests, in Zulassungstests des sektoralen IDPs oder zum Nachweis der Interoperabilität mit dem Authenticator-Modul verwendet werden. Sie müssen nicht den gesamten Life Cycle einer Identität abbilden. Im Gegensatz dazu sind "komplexe" Testidentitäten für den Einsatz in komplexen e2e-Tests und in speziellen Tests zur Authentisierung und zum Life Cycle vorgesehen. Dafür benötigen sie einen Bezug zu den Bestandssystemen der Kassen und müssen sich auch sonst wie die produktiven Identitäten verhalten.</span><br></p>
-  <div id="A_23063">
+  <div id="A_23063" severity="MUSS">
    <p><b>A_23063 - Bereitstellung einfacher Testidentitäten</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS&nbsp; einfache Testidentitäten für alle seine Testinstanzen bereitstellen. Diese MÜSSEN mindestens ein Authentisierungsverfahren anbieten, so dass sie in Tests verwendet werden können.&nbsp;&nbsp;<br>Der Anbieter des sektoralen IDPs MUSS zunächst 50 einfache Testidentitäten je Testinstanz bereitstellen. Auf Anfrage der gematik MÜSSEN bei Bedarf weitere einfache Testidentitäten angelegt werden.<span id="polarion-comment:1635"></span><span id="polarion-comment:1783"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23300">
+  <div id="A_23300" severity="SOLL">
    <p><b>A_23300 - Authentisierungsverfahren für Testautomatisierung</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Mindestens eines der Authentisierungsverfahren der vom Anbieter des sektoralen IDP bereitgestellten Testidentitäten SOLL automatisierbar sein.<span id="polarion-comment:1784"></span></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23065">
+  <div id="A_23065" severity="MUSS">
    <p><b>A_23065 - Bereitstellung Authentisierungsmöglichkeiten für einfache Testidentitäten</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des sektoralen IDPs KANN zusätzlich zu einem automatisierbaren Authentisierungsverfahren auch die produktiv verwendeten Authentisierungsverfahren für die Testidentitäten im Zusammenspiel mit seinem Authenticator-Modul bereitstellen.<span id="polarion-comment:1711"></span></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23154">
+  <div id="A_23154" severity="MUSS">
    <p><b>A_23154 - KVNRs für einfache Testidentitäten</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS die KVNRs für seine einfachen Testidentitäten nach Absprache mit der gematik wählen, damit Kollisionen vermieden werden.<span id="polarion-comment:1712"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23155">
+  <div id="A_23155" severity="MUSS">
    <p><b>A_23155 - Bereitstellung komplexer Testidentitäten</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS bei der Bereitstellung komplexer Testidentitäten für alle seinen Testinstanzen unterstützen. Diese Unterstützung kann z. B. in der Einbindung kartenbasierter Testidentitäten einer Kasse oder der gematik oder Test-nPAs bestehen.<span id="polarion-comment:1713"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23156">
+  <div id="A_23156" severity="MUSS">
    <p><b>A_23156 - Bereitstellung Authentisierungsmöglichkeiten für komplexe Testidentitäten</b></p>
    <p>Der Anbieter des sektoralen IDPs MUSS die produktiv verwendeten Authentisierungsverfahren für die komplexen Testidentitäten im Zusammenspiel mit seinem Authenticator-Modul bereitstellen.<span id="polarion-comment:1714"></span> <b>[&lt;=]</b></p>
   </div>
@@ -1122,44 +1388,44 @@ ol:first-of-type {
   <h3 id="4.1">4.1 Entity Statement des sektoralen IDP</h3>
   <p id="polarion_162">Das Entity Statement enthält die Metadaten und Adressen des <span style="font-size: 10pt;line-height: 1.5;">sektoralen IDP, sowie seine verwendeten kryptographischen Identitäten.</span></p>
   <p id="polarion_31"></p>
-  <div id="A_23413">
+  <div id="A_23413" severity="MUSS">
    <p><b>A_23413 - Entity Statement vom Federation Master abrufen</b></p>
    <p>Der sektorale IDP MUSS zur Teilnehmerbestätigung anfragender Fachdienste deren Entity Statements vom Federation Master entsprechend [<span style="font-size: 10pt;line-height: 1.5;">gemSpec_IDP_FedMaster]#</span>AF_10101 einholen.<span id="polarion-comment:1821"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22662">
+  <div id="A_22662" severity="MUSS">
    <p><b>A_22662 - Registrierung beim Federation Master durch organisatorischen Prozess</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS seine öffentlichen Schlüssel für die Signatur des selbst signierten Entity Statement über einen vom&nbsp;Federation Master angebotenen organisatorischen Prozess bei diesem bekannt machen. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_228"><span style="font-style: italic;">Hinweis: Die öffentlichen Schlüssel für Signatur von Entity Statement müssen nicht in der VAU liegen. Hier kann der Anbieter einen nicht weiter vorgegebenen Prozess etablieren.</span></p>
   <p id="polarion_320"><span style="font-style: italic;">Hinweis: Der organisatorische Prozess zur Teilnehmerregistrierung wird vom Anbieter des Federation Master [<span style="font-size: 10pt;line-height: 1.5;">gemSpec_IDP_FedMaster</span>] bereitgestellt.</span></p>
-  <div id="A_22643">
+  <div id="A_22643" severity="MUSS">
    <p><b>A_22643 - Entity Statement des sektoralen IDP</b></p>
    <p><span style="color: #000000;">Der sektorale IDP MUSS ein selbst signiertes Entity Statement gemäß [<a href="https://openid.net/specs/openid-connect-federation-1_0.html#entity-statement" target="_top" class="descriptionLink">OpenID Connect Federation 1.0#entity-statement</a>] bereitstellen und&nbsp;im Internet verfügbar machen.&nbsp;<span id="polarion-comment:991"></span>&nbsp;Mindestens die in den Tabellen&nbsp;<span style="font-size: 10pt;background-color: #FFFFFF;line-height: 1.5;"><span style="font-style: italic;">Header Entity Statement des sektoralen IDP</span>&nbsp;und <span style="font-style: italic;">Body Entity Statement des sektoralen IDP</span> in</span>&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-132850" data-option-id="longoutline"></span> genannten Daten und Werte MÜSSEN im Entity Statement enthalten sein.</span><p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;"></p><p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;"></p> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22710">
+  <div id="A_22710" severity="MUSS">
    <p><b>A_22710 - Vorlaufzeit bei geplantem Schlüsselwechsel</b></p>
    <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS Signaturschlüssel im Rahmen eines geplanten Schlüsselwechsels mindestens 24 Stunden vor Verwendung in seinem jwks-Schlüsselsatz veröffentlichen und beim Federation Master über einen organisatorischen Prozess hinterlegen.</span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_155"><span style="font-style: italic;">Hinweis: Nicht betroffen von dieser Anforderung sind kurzfristig notwendige Schlüsselwechsel, z. B. aufgrund von Sicherheitsvorfällen. Diese Maßnahmen sind beispielsweise über security incidents abzuwickeln. Die Bearbeitung solcher kurzfristigen Schlüsselwechsel muss die Aktualisierung beim Federation Master mitberücksichtigen, da es ansonsten zu Verarbeitungsfehlern wegen ungültiger Schlüssel kommen kann.</span></p>
-  <div id="A_22711">
+  <div id="A_22711" severity="MUSS">
    <p><b>A_22711 - Regelmäßige Erneuerung des Entity Statement des sektoralen IDP</b></p>
    <p>Das Entity Statement des sektoralen IDP MUSS täglich neu ausgestellt werden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23010">
+  <div id="A_23010" severity="DARF NICHT">
    <p><b>A_23010 - Maximale Gültigkeitsdauer eines Entity Statement des sektoralen IDP</b></p>
    <p>Die maximale&nbsp;Gültigkeitsdauer eines&nbsp;Entity Statement des sektoralen IDP (Attributwerte <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">iat</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">exp </span>im Entity Statement) DARF 24 Stunden NICHT überschreiten. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22644">
+  <div id="A_22644" severity="MUSS">
    <p><b>A_22644 - Entity Statement - Prüfung angebotener URLs</b></p>
    <p><span style="color: #000000;">Der sektorale IDP MUSS alle von ihm im Entity Statement&nbsp;angebotenen URLs stündlich auf bloße Erreichbarkeit prüfen.</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23132">
+  <div id="A_23132" severity="SOLL">
    <p><b>A_23132 - Regelmäßige Aktualisierung der Entity Statements bekannter Fachdienste</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der sektorale Identity Provider SOLL die Entity Statements für bekannte Fachdienste nach 2 Stunden erneut herunterladen.<span id="polarion-comment:1576"></span><span id="polarion-comment:1746"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_317"><span style="font-style: italic;font-size: 10pt;color: #242424;line-height: 1.5;">Hinweis:&nbsp;Die Anforderung gilt sowohl für die Entity Statements der Fachdienste als auch für die Entity Statements des Federation Master über diese Fachdienste. Ist der Federation Master oder der Fachdienst ggf. temporär nicht erreichbar, so sollte das Herunterladen der Entity Statements&nbsp;über die Fachdienste&nbsp;weiter (z.B. stündlich) versucht werden.</span><span style="font-style: italic;font-size: 11pt;color: #242424;line-height: 1.5;"></span></p>
   <p id="polarion_378"></p>
-  <div id="A_23133">
+  <div id="A_23133" severity="MUSS">
    <p><b>A_23133 - Maximale Gültigkeitsdauer der Entity Statements bekannter Fachdienste</b></p>
    <p>Der sektorale Identity Provider MUSS die<span style="font-size: 10pt;line-height: 1.5;">&nbsp;Entity Statements für bekannte Fachdienste nach maximal 24 Stunden verwerfen.</span> <b>[&lt;=]</b></p>
   </div>
@@ -1167,16 +1433,16 @@ ol:first-of-type {
   <h3 id="4.2">4.2 API-Endpunkte des sektoralen IDP</h3>
   <h4 id="4.2.1">4.2.1 Anforderung an die Schnittstelle zum Authorization-Server des Fachdienstes</h4>
   <p id="polarion_144"></p>
-  <div id="A_22649">
+  <div id="A_22649" severity="MUSS">
    <p><b>A_22649 - Anfragen unbekannter Clients</b></p>
    <p>Der Produkttyp sektoraler IDP MUSS Pushed Authorization Request von Clients mit dem http-Statuscode 401 (Unauthorized) ablehnen, wenn diese nicht in der Föderation oder direkt beim sektoralen IDP registriert sind.&nbsp;<span style="color: #172B4D;">Ist der Fachdienst dem sektorale IDP nicht bekannt, so stößt dieser intern die automatische Registrierung (<a target="_blank" href="https://openid.net/specs/openid-connect-federation-1_0.html#section-10.1.1.1.1)">https://openid.net/specs/openid-connect-federation-1_0.html#section-10.1.1.1.1)</a>&nbsp;an damit nachfolgende Anfragen angenommen werden können.<span id="polarion-comment:1841"></span></span><span id="polarion-comment:1541"></span><span id="polarion-comment:1591"></span><span id="polarion-comment:1665"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_94"></p>
-  <div id="A_22922">
+  <div id="A_22922" severity="MUSS">
    <p><b>A_22922 - Anfragen veralteter Authenticator Versionen</b></p>
    <p>Der Produkttyp sektoraler IDP MUSS Authorization Request von veralteten Authenticator Versionen ablehnen, wenn diese aus Kompatibilitätsgründen durch die gematik gesperrt wurden.<span id="polarion-comment:1396"></span><span id="polarion-comment:1613"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22650">
+  <div id="A_22650" severity="MUSS">
    <p><b>A_22650 - automatische Registration von Fachdiensten</b></p>
    <p>Der sektorale IDP<span id="polarion-comment:1237"></span> MUSS eine automatische Registrierung eines Fachdienstes bei Übermittlung eines Authorization Request mit<span style="font-size: 10pt;line-height: 1.5;">&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #222222;">self_signed_tls_client_auth<span id="polarion-comment:1638"></span></span> gemäß [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.10.1">OpenID Connect Federation 1.0 (section-10.1)</a>] <span style="color: #172B4D;">durchführen</span>,</span> sofern dieser Dienst nicht bereits am IDP registriert wurde. Nach Abruf des Entity Statement des Fachdienstes beim Fachdienst selbst MUSS der sektorale IDP beim Federation Master dessen Entity Statement zum Fachdienst gemäß [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.7.1">OpenID Connect Federation 1.0 (section-7.1)</a>] abrufen und so dessen Zugehörigkeit zur Föderation bestätigen zu lassen.<span id="polarion-comment:1398"></span>&nbsp;Anschließend registriert der sektorale IDP den Fachdienst und importiert dessen Schlüssel für die Authentisierung und Verschlüsselung von Token. <b>[&lt;=]</b></p>
   </div>
@@ -1197,17 +1463,17 @@ ol:first-of-type {
   <p id="polarion_208">Ist der&nbsp;Pushed Authorization Request&nbsp;geprüft und valide, erstellt der PAR-Endpunkt des sektoralen IDP eine Request-URI. Diese wird&nbsp;im weiten Ablauf&nbsp;für die Nutzerauthentifizierung benötigt. Die Request-URI und deren Gültigkeitsdauer sind Parameter der Antwort des sektorale IDP auf den eingegangenen&nbsp;Request.</p>
   <p id="polarion_209"></p>
   <h5 id="4.2.2.1">4.2.2.1 PAR-Endpunkt Eingangsdaten</h5>
-  <div id="A_22651">
+  <div id="A_22651" severity="MUSS">
    <p><b>A_22651 - Parameter des Pushed Authorization Request durch den sektoralen IDP</b></p>
    <p>Der sektorale IDP MUSS die Annahme von Pushed Authorization Request&nbsp;gemäß [<a href="https://datatracker.ietf.org/doc/html/rfc9126" target="_top" class="descriptionLink">OAuth 2.0 Pushed Authorization Requests#section-2</a>]&nbsp;unterstützen&nbsp;und den Endpoint für Pushed Authorization Request im Entity Statement&nbsp;des sektoralen IDP&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">pushed_authorization_request_endpoint</span> bekanntgeben.<br> Der sektorale IDP MUSS mindestens die in der&nbsp;<span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-132850" data-option-id="longoutline"></span>&nbsp;<span style="font-style: italic;">Tabelle Parameter Pushed Authorization Request</span>&nbsp;dargestellten Parameter im Pushed Authorization Request des Authorization-Server eines Fachdienstes annehmen.&nbsp;<span id="polarion-comment:917"></span> <p data-keep-next="true" class="polarion-rte-caption-paragraph"> <span id="polarion-comment:1253"></span> </p> <p class="polarion-rte-caption-paragraph" style="text-align: center;"></p> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22966">
+  <div id="A_22966" severity="MUSS">
    <p><b>A_22966 - Prüfung eingehender Pushed Authorization Request durch den sektoralen IDP</b></p>
    <p>Der sektorale IDP MUSS die eingehende Pushed Authorization Request validieren und invalide Request gemäß [<a href="https://datatracker.ietf.org/doc/html/rfc9126#section-2.3" target="_top" class="descriptionLink">OAuth 2.0 Pushed Authorization Requests#section-2.3</a>&nbsp;] mit einer Fehlernmeldung quittieren. Die Validierung des&nbsp;eingegangenen Pushed Authorization Request schließt die Prüfung der im Request enthaltenen Werte für r<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">edirect_uri</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scope </span>gegen die für den Fachdienst zulässigen (d.h. bei der Registrierung gemeldeten) Werte ein.<span id="polarion-comment:1226"></span><br> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_60"></p>
   <p id="polarion_102"><span style="font-style: italic;">Hinweis: Nach [OpenID Connect Core 1.0# AuthRequest] ist es zulässig, dass ein Client mehrere <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">redirect_uri</span> bei der Registrierung hinterlegt. Der sektorale IDP muss laut der OIDC-Spezifikation prüfen, ob die im Request gelieferte <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">redirect_uri</span> mit exakt einer der hinterlegten <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">redirect_uri</span> übereinstimmt. Die Prüfung muss über eine 'Simple String Comparison' nach [Uniform Resource Identifier (URI)#section-6.2.1] erfolgen.</span></p>
-  <div id="A_22991">
+  <div id="A_22991" severity="MUSS">
    <p><b>A_22991 - Prüfung des TLS Clientzertifikates am PAR-Endpunkt des sektoralen IDP</b></p>
    <p>Der PAR-Endpunkt des sektoralen IDP MUSS das im Rahmen der&nbsp;<span style="font-size: 11pt;color: #222222;line-height: 1.5;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">self_signed_tls_client_auth</span>&nbsp;</span>übertragene Zertifikat des Fachdienstes&nbsp;wie folgt überprüfen:<br> 
     <ul>
@@ -1218,12 +1484,12 @@ ol:first-of-type {
   <p id="polarion_134"><span style="font-style: italic;">Hinweis: Der Fachdienst gegen dessen Entity Statement geprüft werden muss&nbsp;wird durch die client-id im Request identifiziert.</span></p>
   <p id="polarion_98"><span style="font-style: italic;"></span></p>
   <h5 id="4.2.2.2">4.2.2.2 PAR-Endpunkt Ausgangsdaten</h5>
-  <div id="A_22992">
+  <div id="A_22992" severity="MUSS">
    <p><b>A_22992 - Antwort auf einen eingehenden Pushed Authorization Request durch den sektoralen IDP</b></p>
    <p>Der sektorale IDP MUSS auf einen validen Pushed Authorization Request mit einem http-Statuscode 201 gemäß&nbsp;<a href="https://datatracker.ietf.org/doc/html/rfc9126#section-2.2" target="_top" class="descriptionLink">OAuth 2.0 Pushed Authorization Requests (section-2.2)</a>&nbsp;antworten. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_178"></p>
-  <div id="A_22993">
+  <div id="A_22993" severity="DARF NICHT">
    <p><b>A_22993 - Gültigkeit der vom sektoralen IDP erstellten Request-URI</b></p>
    <p>Die Gültigkeit der vom sektoralen IDP erstellten Request-URI DARF NICHT <span style="color: #000000;">90 Sekunden</span> <span id="polarion-comment:1251"></span>überschreiten. <b>[&lt;=]</b></p>
   </div>
@@ -1231,7 +1497,7 @@ ol:first-of-type {
   <h4 id="4.2.3">4.2.3 Authorization-Endpunkt</h4>
   <p id="polarion_167"><span style="font-size: 10pt;line-height: 1.5;">Am Authorization-Endpunkt&nbsp;des sektoralen IDP&nbsp;wird in Kommunikation mit dem Authenticator-Modul die Authentisierung des Nutzers durchgeführt.</span></p>
   <h5 id="4.2.3.1">4.2.3.1 Schnittstelle Authorization-Endpunkt</h5>
-  <div id="A_22312-01">
+  <div id="A_22312-01" severity="MUSS">
    <p><b>A_22312-01 - Einhaltung der Standards bei der Realisierung des Authorization-Endpunkts</b></p>
    <p>Der sektorale Identity Provider MUSS die Schnittstelle Authorization-Endpunkt gemäß [RFC6749 -&nbsp;<a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc6749#section-3.1">The OAuth 2.0 Authorization Framework (section-3.1)</a>], [RFC8252 -&nbsp;<a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc8252">OAuth 2.0 for Native Apps</a>] und [RFC9126 -&nbsp;&nbsp;<span style="font-size: 10pt;line-height: 1.5;"><a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc9126#section-4">OAuth 2.0 Pushed Authorization Requests (section-4)</a>&nbsp;</span>] sowie weitere darin festgelegte Standards implementieren. Hierbei MÜSSEN nur im Rahmen der gemSpec_IDP_Sek relevante Aspekte (Authorization Code Flow ohne User Info Endpoint) berücksichtigt werden.<br> <b>[&lt;=]</b></p>
   </div>
@@ -1242,12 +1508,12 @@ ol:first-of-type {
   <p id="polarion_37"><span style="color: #FF0000;"></span></p>
   <h5 id="4.2.3.2">4.2.3.2 Authorization-Endpunkt Ausgangsdaten</h5>
   <p id="polarion_262">Sind alle im <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scope&nbsp;</span>geforderten Attribute vorhanden und die Gültigkeit&nbsp;der Attribute geprüft sowie eine erfolgreiche Authentifizierung des Nutzers erfolgt, erstellt der Authorization-Endpunkt des sektoralen IDP einen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> und sendet diesen an das Authorization-Server eines Fachdienstes.</p>
-  <div id="A_22324">
+  <div id="A_22324" severity="MUSS">
    <p><b>A_22324 - Verwendung des Attributes "state" durch sektoralen IDP</b></p>
    <p>Der Authorization-Endpunkt des sektoralen Identity Provider MUSS den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">state</span>-Parameter [RFC6749 # section-10.12] der Anfrage in allen darauf basierenden Responses verwenden. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_239"><span style="font-weight: bold;"></span></p>
-  <div id="A_22325-01">
+  <div id="A_22325-01" severity="MUSS">
    <p><b>A_22325-01 - Übermitteln des "AUTHORIZATION_CODE" an den Sender des Requests</b></p>
    <p>Der sektorale Identity Provider MUSS den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> und den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">state</span> auf demselben Kanal beantworten, auf dem er den Authorization Request empfangen hat.<br> <b>[&lt;=]</b></p>
   </div>
@@ -1255,24 +1521,24 @@ ol:first-of-type {
   <h4 id="4.2.4">4.2.4 Token-Endpunkt</h4>
   <p id="polarion_133">Der Token-Endpunkt des sektoralen IDP nimmt die Anfrage des Authorization-Server eines Fachdienstes&nbsp;entgegen und prüft neben deren Integrität, ob der eingereichte <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CODE_VERIFIER&nbsp;</span>bei Nutzung des Hash-Verfahrens S256 (nach [<a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc7636#section-4.2">Proof Key for Code Exchange by OAuth Public Clients (section-4.2)</a>]) zum bitgleichen Hash-Wert führt. Stimmt der Hash-Wert aus dem initialen Aufruf über das Authenticator-Modul - die Code-Challenge -&nbsp;mit dem gebildeten Hash-Wert überein, ist sichergestellt, dass Aufrufer und Initiator identisch sind. Der Token-Endpunkt gibt daraufhin das <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN&nbsp;</span>an den&nbsp;Authorization-Server des Fachdienstes&nbsp;heraus.</p>
   <h5 id="4.2.4.1">4.2.4.1 Token-Endpunkt Eingangsdaten</h5>
-  <div id="A_22653">
+  <div id="A_22653" severity="MUSS">
    <p><b>A_22653 - Annahme von "AUTHORIZATION_CODE" und "CODE_VERIFIER"</b></p>
    <p><span style="color: #000000;">Der Token-Endpunkt des sektoralen IDP MUSS die vom Authorization-Server eines Fachdienstes übertragenen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CODE_VERIFIER</span> annehmen. <span id="polarion-comment:1393"></span><span id="polarion-comment:949"></span></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23007">
+  <div id="A_23007" severity="MUSS">
    <p><b>A_23007 - Gültigkeit des "AUTHORIZATION_CODE"</b></p>
    <p>Die Gültigkeitsdauer eines&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> DARF 90 Sekunden NICHT überschreiten. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23162">
+  <div id="A_23162" severity="MUSS">
    <p><b>A_23162 - Invalidisierung des "AUTHORIZATION_CODE"</b></p>
    <p>Der&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> MUSS nach einmaliger Verwendung invalidiert werden.<span id="polarion-comment:1587"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22321">
+  <div id="A_22321" severity="MUSS">
    <p><b>A_22321 - Prüfung des "CODE_VERIFIER"</b></p>
    <p>Der Token-Endpunkt des sektoralen Identity Provider MUSS die Überprüfung des&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CODE_VERIFIER</span> gegen die <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CODE_CHALLENGE</span> mit S256 (Algorithmus nach [RFC7636 # section-4.2]) durchführen. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_188"><span style="color: #FF0000;"></span></p>
-  <div id="A_22654">
+  <div id="A_22654" severity="MUSS">
    <p><b>A_22654 - Prüfung des TLS Clientzertifikates am Token-Endpunkt des sektoralen IDP</b></p>
    <p><span style="color: #000000;">Der Token-Endpunkt des sektoralen IDP MUSS das im Rahmen der&nbsp;<span style="font-size: 11pt;color: #222222;line-height: 1.5;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">self_signed_tls_client_auth</span>&nbsp;</span>übertragene Zertifikat des Fachdienstes&nbsp;wie folgt überprüfen:<br></span>
     <ul>
@@ -1281,36 +1547,36 @@ ol:first-of-type {
     </ul> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_248"><span style="font-style: italic;">Hinweis: Der Fachdienst gegen dessen Entity Statement geprüft werden muss&nbsp;wird durch die client-id im Request identifiziert.</span></p>
-  <div id="A_22323">
+  <div id="A_22323" severity="MUSS">
    <p><b>A_22323 - Protokollierung der Token-Ausgabe in allen Fällen</b></p>
    <p>Der Token-Endpunkt des sektoralen Identity Provider&nbsp;MUSS im Positivfall die Herausgabe der Token und im Negativfall die Token-Anfrage protokollieren.<span id="polarion-comment:1255"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_431">Das Protokoll wird intern und ggf. für Audits verwendet.</p>
   <h5 id="4.2.4.2">4.2.4.2 Token-Endpunkt Ausgangsdaten</h5>
-  <div id="A_22316">
+  <div id="A_22316" severity="DARF NICHT">
    <p><b>A_22316 - Maximale Gültigkeitsdauer von "ID_TOKEN"</b></p>
    <p>Der sektorale Identity Provider&nbsp;DARF <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> mit einer Gültigkeitsdauer von mehr als 300 Sekunden (5 Minuten) NICHT ausstellen. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_189"><span style="color: #FF0000;"></span></p>
-  <div id="A_22706">
+  <div id="A_22706" severity="MUSS">
    <p><b>A_22706 - "ID_TOKEN" des sektoralen IDP</b></p>
    <p><span style="color: #000000;">Der sektorale IDP MUSS nach erfolgreicher Prüfung des erhaltenen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>&nbsp;dem aufrufenden Authorization-Server des Fachdienstes ein <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> gemäß OIDC Standard&nbsp;<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-core-1_0.html#IDToken">OpenID Connect Core 1.0 (section-2)</a>&nbsp;mit den angefragten</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> <span style="color: #000000;">zurückgeben.<span id="polarion-comment:1256"></span> <span id="polarion-comment:1086"></span><span id="polarion-comment:1614"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p style="margin-left: 0px;" id="polarion_108"><span style="font-style: italic;">Hinweis: Für nicht vorhandene <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> und für <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes,&nbsp;</span>deren Weitergabe der Nutzer nicht zugestimmt hat, wird im <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span>&nbsp;für den Inhalt ein Leerstring gesetzt.</span></p>
-  <div id="A_22983">
+  <div id="A_22983" severity="MUSS">
    <p><b>A_22983 - Signaturverfahren für Signatur des "ID_TOKEN" des sektoralen IDP</b></p>
    <p>Das für die Signatur der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> zu verwendende Verfahren MUSS ECDSA auf Basis der NIST-Kurve P-256 sein. (vergleiche&nbsp;<a class="descriptionLink" target="_top" href="https://openid.net/specs/draft-jones-json-web-signature-04.html#DefiningECDSA">JSON Web Signature (section-3)</a>). <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22655">
+  <div id="A_22655" severity="MUSS">
    <p><b>A_22655 - Signatur des "ID_TOKEN" des sektoralen IDP</b></p>
    <p><span style="color: #000000;">Der&nbsp;sektorale IDP MUSS die <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> unter Verwendung eines <span id="polarion-comment:1404"></span>privaten Schlüssels der in seinem Entity Statement unter <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">signed_jwks_uri</span> referenzierten öffentlichen Schlüssel signieren [<a href="https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.4.2" target="_top" class="descriptionLink">OpenID Connect Federation 1.0 (section-4.2)</a>]. <span id="polarion-comment:1087"></span></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23193">
+  <div id="A_23193" severity="MUSS">
    <p><b>A_23193 - Verschlüsseln der "ID_TOKEN"</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der sektorale IDP MUSS einen&nbsp; Verschlüsselungsschlüssel des Fachdienstes über den use Parameter ("use = enc") aus dessen jwks wählen und mit diesem das <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> verschlüsseln. Im JWE-Header des Token referenziert der sektorale IDP über den Parameter <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">kid</span> einen Hinweis auf den verwendeten Verschlüsselungsschlüssel. Als Verschlüsselungsverfahren MUSS hierbei ECDH-ES+A256KW verwendet werden.<span id="polarion-comment:1683"></span> <span id="polarion-comment:1776"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_17"></p>
-  <div id="A_22989">
+  <div id="A_22989" severity="MUSS">
    <p><b>A_22989 - "scopes" und "claims" des sektoralen IDP für Versicherte</b></p>
    <p>Ein sektoraler IDP, welcher den Identitäten für Versicherte verwaltet MUSS mindestens die folgenden <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claims</span> unterstützen:<br> <p class="polarion-rte-caption-paragraph" data-keep-next="true" id="polarion___1">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">5</span>: <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claims<span id="polarion-comment:1696"></span></span></p><p class="polarion-rte-caption-paragraph" data-keep-next="true"></p><p class="polarion-rte-caption-paragraph" data-keep-next="true"></p>
     <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=205">
@@ -1384,7 +1650,7 @@ ol:first-of-type {
   <p id="polarion_104"><span style="font-style: italic;font-size: 10pt;color: #242424;line-height: 1.5;">Hinweise:&nbsp; Die Regel zur Festlegung des Geburtsdatums bei unbekanntem Tag bzw. Monat basiert auf den&nbsp;<a class="descriptionLink" target="_top" href="https://www.gkv-datenaustausch.de/media/dokumente/arbeitgeber/deuev/rundschreiben_anlagen/04_Gem_RS_Anlage_9.4_Vers_8.00.pdf">Gemeinsamen Grundsätzen für die Datenerfassung und Datenübermittlung (DEÜV)</a>&nbsp;(https://www.gkv-datenaustausch.de/media/dokumente/arbeitgeber/deuev/rundschreiben_anlagen/04_Gem_RS_Anlage_9.4_Vers_8.00.pdf)</span><span style="font-style: italic;font-size: 9pt;color: #242424;line-height: 1.5;"></span></p>
   <p id="polarion_106"><span style="font-style: italic;font-size: 10pt;color: #242424;line-height: 1.5;">Hinweis: Die über den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scope</span>&nbsp;urn:telematik:email angefragte Adresse ist vor der Verwendung durch den Fachdienst zu verifizieren. Eine Verifikation durch den IDP ist nicht vorgesehen, da diese ohnehin nur eine begrenzte zeitliche Gültigkeit haben kann.</span></p>
   <p id="polarion_89"></p>
-  <div id="A_23197">
+  <div id="A_23197" severity="MUSS">
    <p><b>A_23197 - Nutzung eines pairwise Subject als Pseudonym des Versicherten</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der sektorale IDP MUSS das Attribut "sub" gemäß [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg">OpenID Connect Core 1.0 (sektion-8.1)</a>&nbsp;]&nbsp;als pairwise Subject Identifiers bilden. Dieses&nbsp;wird als pseudonyme ID des Versicherten verwendet:</span><br> 
     <ul>
@@ -1392,7 +1658,7 @@ ol:first-of-type {
      <li><span style="font-size: 10pt;line-height: 1.5;">Der Subject Identifier MUSS sich für einen Versicherten gegenüber jedem Fachdienst unterscheiden.<span id="polarion-comment:1802"></span></span></li>
     </ul> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22990">
+  <div id="A_22990" severity="DARF NICHT">
    <p><b>A_22990 - Umgang mit fehlenden oder verwehrten Informationen</b></p>
    <p>Ein sektoraler IDP MUSS, wenn ihm der Wert eines <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claims</span> nicht vorliegt und es keine Regel für eine Alternativbelegung gibt (siehe z. B. Belegungsregel "<span style="font-style: italic;">birthday</span>" in A_22989) oder ein <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scope</span> vom Nutzer verwehrt wurde, diesen <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claim</span> im <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> mit einem Leerstring belegen.<span id="polarion-comment:1782"></span> <b>[&lt;=]</b></p>
   </div>
@@ -1403,24 +1669,24 @@ ol:first-of-type {
   <p id="polarion_115">Im Rahmen der Anbieterzulassung prüft der unabhängige Sicherheitsgutachter, dass die vom Anbieter verwendeten Mechanismen die Mindestanforderungen A_23024 bzw. A_23025 des jeweiligen Vertrauensniveaus erfüllen.</p>
   <p id="polarion_196"></p>
   <p id="polarion_211"></p>
-  <div id="A_23024">
+  <div id="A_23024" severity="MUSS">
    <p><b>A_23024 - Definition "gematik-ehealth-loa-substantial"</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-substantial</span> wie folgt interpretieren:&nbsp;<br>Der Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-substantial</span> entspricht der Widerstandsfähigkeit des Authentisierungsmittels und Protokolls gegen das Angriffspotential "moderate" nach [ISO18045].<br>Zertifizierungen, Notifizierung&nbsp; oder Bestätigungen von Prozessen oder Prozessbestandteilen vergleichbarer Normen und Richtlinien, z. B. nach Verordnung (EU) Nr. 910/2014 in Verbindung mit (EU) 2015/1502 an elektronische Identifizierungsmittel, BSI TR-03107-1 oder vergleichbar, können nachgenutzt werden.<span id="polarion-comment:1620"></span><span id="polarion-comment:1747"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_173"><span style="font-style: italic;">Hinweis: Beim Vorliegen von Zertifizierungen, welche kein Vertrauensniveau ausweisen oder keine unterschiedlichen Angriffspotentiale berücksichtigen, ist eine Nachnutzung möglich, soweit eine Eignung zum Widerstand gegen das Angriffspotential im Sicherheitsgutachten nachgewiesen wird.</span></p>
-  <div id="A_23025">
+  <div id="A_23025" severity="MUSS">
    <p><b>A_23025 - Definition "gematik-ehealth-loa-high"</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high</span> wie folgt interpretieren:&nbsp;<br>Der Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high</span> entspricht der Widerstandsfähigkeit des Authentisierungsmittels und Protokolls gegen das Angriffspotential "high" nach [ISO18045].<br>Zertifizierungen, Notifizierung&nbsp; oder Bestätigungen von Prozessen oder Prozessbestandteilen vergleichbarer Normen und Richtlinien, z. B. nach Verordnung (EU) Nr. 910/2014 in Verbindung mit (EU) 2015/1502 an elektronische Identifizierungsmittel, BSI TR-03107-1 oder vergleichbar, können nachgenutzt werden.<span id="polarion-comment:1621"></span><span id="polarion-comment:1748"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_70"><span style="font-style: italic;">Hinweis: Beim Vorliegen von Zertifizierungen, welche kein Vertrauensniveau ausweisen oder keine unterschiedlichen Angriffspotentiale berücksichtigen, ist eine Nachnutzung möglich, soweit eine Eignung zum Widerstand gegen das Angriffspotential im Sicherheitsgutachten nachgewiesen wird.</span></p>
   <p id="polarion_323"><span style="font-style: italic;">Hinweis: Im Folgenden wird an den relevanten Stellen ausschließlich&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high&nbsp;</span>oder/und&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-<span style="font-size: 10pt;line-height: 1.5;">substantial&nbsp;</span></span>verwendet.</span></p>
   <p id="polarion_298"></p>
-  <div id="A_22987">
+  <div id="A_22987" severity="MUSS">
    <p><b>A_22987 - Claim "acr" für eine "gematik-ehealth-loa-substantial" Authentisierungsstärke</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS sicherstellen das der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claim&nbsp;acr</span> nur auf den Wert&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-<span style="font-size: 10pt;line-height: 1.5;">substantial</span></span> gesetzt wird wenn der Nutzer mindestens auf dem Niveau "substanziell" authentisiert wurde (siehe A_23024 -&nbsp;Definition "gematik-ehealth-loa-substantial").<span id="polarion-comment:1742"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_338"></p>
-  <div id="A_22988">
+  <div id="A_22988" severity="MUSS">
    <p><b>A_22988 - Claim "acr" für eine "gematik-ehealth-loa-high" Authentisierungsstärke</b></p>
    <p>Der Anbieter des sektoralen IDP MUSS sicherstellen das der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claim&nbsp;acr</span> nur auf den Wert&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high</span> gesetzt wird wenn der Nutzer auf dem Niveau "hoch" authentisiert wurde (siehe A_23025 -&nbsp;Definition "gematik-ehealth-loa-high").<span id="polarion-comment:1743"></span><span id="polarion-comment:1284"></span> <b>[&lt;=]</b></p>
   </div>
@@ -1429,7 +1695,7 @@ ol:first-of-type {
   <h4 id="4.3.1">4.3.1 Identifikation des Nutzers</h4>
   <p id="polarion_120">Eine Notifizierung des elektronischen Identifizierungssystems, welches die elektronischen Identifizierungsmittel ausstellt, ist nicht gefordert. Ebenso ist nicht gefordert, dass der Anbieter ein qualifizierter oder nicht-qualifizierter Vertrauensdiensteanbieter gemäß Verordnung (EU) Nr. 910/2014 ist.</p>
   <p id="polarion_143"></p>
-  <div id="A_22865">
+  <div id="A_22865" severity="MUSS">
    <p><b>A_22865 - Verpflichtende Verfahren zur Identifikation von Nutzern</b></p>
    <p><span style="color: #000000;">Der Anbieter des sektoralen IDP MUSS einen Prozess zur Identifikation von Nutzern&nbsp;mit mindestens diesen Identifikationsverfahren zur Nutzeridentifikation anbieten:<br></span> 
     <ul>
@@ -1439,12 +1705,12 @@ ol:first-of-type {
   </div>
   <p id="polarion_492"><span style="font-style: italic;color: #000000;">Hinweis: Ist bei einer Identifikation des Nutzers mittels online Ausweisfunktion keine eindeutige Zuordnung zu einer natürlichen Person im Bestandssystem (z. B. auf Basis der dort für eine Identifikation nach [GKV-SV Richtlinie "Kontakt mit Versicherten] hinterlegten Daten) möglich, so kann die Aufklärung der <span style="font-size: 10pt;line-height: 1.5;">Diskrepanzen&nbsp;</span>bis zum Erreichen einer klaren Zuordnung, außerhalb des Kontextes des sektoralen IDP erfolgen</span><span style="font-style: italic;">.</span></p>
   <p id="polarion_218"><span style="color: #FF0000;"></span></p>
-  <div id="A_22334-01">
+  <div id="A_22334-01" severity="MUSS">
    ML-133040
    <p><b>A_22334-01 - Verifikation des Versicherten vor erster Nutzung</b></p>
    <p><span style="font-style: normal;color: #000000;">Der Anbieter des sektoralen IDP MUSS sicherstellen, dass der Zuordnungsprozess zwischen einer natürlichen Person und den Daten der Attributbestätigenden Stelle eindeutig ist.</span><br> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23102">
+  <div id="A_23102" severity="MUSS">
    <p><b>A_23102 - Weitere Verfahren zur Identifikation von Nutzern</b></p>
    <p><span style="color: #000000;">Alle Verfahren zur Identifikation des Nutzers müssen dem Angriffspotential high nach ISO 18045 standhalten. Die Bewertung der Zulässigkeit der Identifikationsverfahren erfolgt in Einzelprüfung durch die gematik.</span><span style="font-size: 10pt;color: #000000;line-height: 1.5;">&nbsp;<span id="polarion-comment:1623"></span><span id="polarion-comment:1806"></span></span> <b>[&lt;=]</b></p>
   </div>
@@ -1453,21 +1719,21 @@ ol:first-of-type {
   <h4 id="4.3.2">4.3.2 Authentifizierungsverfahren</h4>
   <p id="polarion_91"><span style="font-size: 10pt;color: #FF0000;line-height: 1.5;"></span>Nach [TR-03107-1] <span style="font-style: italic;">"Elektronische Identitäten und Vertrauensdienste im E-Government Teil 1#Tabelle 2: Grundlegende Kriterien für die Vertrauensniveaus"</span>&nbsp;werden je nach Vertrauensniveau unterschiedliche Anforderungen an die Authentisierung von Nutzern gestellt.&nbsp;Diese&nbsp; bilden für die gematik die Grundlage für die folgenden Anforderungen.</p>
   <p id="polarion_510"></p>
-  <div id="A_22712">
+  <div id="A_22712" severity="MUSS">
    <p><b>A_22712 - Unterstützung von NFC eGK und PIN</b></p>
    <p>Der Hersteller eines sektoralen IDP MUSS ein Authentifizierungsverfahren über NFC mittels eGK und PIN unterstützen.<span id="polarion-comment:1624"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_667"></p>
-  <div id="A_22713">
+  <div id="A_22713" severity="MUSS">
    <p><b>A_22713 - Unterstützung des elektronischen Identitätsnachweis (online-Ausweisfunktion)</b></p>
    <p>Der Hersteller eines sektoralen IDP MUSS ein Authentifizierungsverfahren mittels <span style="font-size: 10pt;color: #242424;line-height: 1.5;">elektronischem Identitätsnachweis (online-Ausweisfunktion)</span> unterstützen. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23026">
+  <div id="A_23026" severity="MUSS">
    <p><b>A_23026 - Entfernen von Authentifizierungsverfahren, welche die Vorgaben nicht mehr erfüllen</b></p>
    <p>Der Anbieter eines sektoralen IDP MUSS sicherstellen, dass&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Authentifikations</span>verfahren entfernt/ausgeschlossen werden, wenn sie das entsprechende Sicherheitsniveau&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high</span> bzw.&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-<span style="font-size: 10pt;line-height: 1.5;">substantial</span></span> nicht mehr erfüllen. <span id="polarion-comment:1449"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_180"></p>
-  <div id="A_23129">
+  <div id="A_23129" severity="MUSS">
    <p><b>A_23129 - Identifikation des Authentifizierungsverfahren</b></p>
    <p><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der sektorale Identity Provider MUSS den claim&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">amr</span> im <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> entsprechend dem durchgeführten Authentisierungsverfahren nach folgender Tabelle belegen.</span> <p style="text-align: left;" class="polarion-rte-caption-paragraph" data-keep-next="true" id="polarion___2">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">6</span> Codierung der Authentisierungsverfahren<span id="polarion-comment:1766"></span></p>
     <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%">
@@ -1496,29 +1762,29 @@ ol:first-of-type {
     </table><span id="polarion-comment:1543"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_121"><span style="color: #FF0000;"></span></p>
-  <div id="A_22744">
+  <div id="A_22744" severity="MUSS">
    <p><b>A_22744 - Authenticator auf Zweitgerät</b></p>
    <p>Der Hersteller eines sektoralen IDP MUSS ein technisches Verfahren für den Fall etablieren, dass ein Nutzer das Authenticator-Modul auf einem anderen Gerät betreibt als die Frontend Komponente des&nbsp; Fachdienstes, welcher eine Authentifizierung beim sektoralen IDP angefragt hat. In diesem Fall MUSS der sektorale IDP für den Auth-Endpunkt ein WebFrontend bieten, welches die weitere Authentisierung über einen Authenticator auf einem anderen Gerät ermöglicht.<span id="polarion-comment:1777"></span> <span id="polarion-comment:1460"></span><span style="font-size: 10pt;background-color: #FFFFFF;line-height: 1.5;"><span id="polarion-comment:1098"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_247"><span style="font-style: italic;">Hinweis: Für das Veranlassen zum Öffnen des Authenticator-Moduls durch den Nutzer gibt es unterschiedliche technische Möglichkeiten (z. B. scannen QR-Code von Web-Seite und Codeeingabe im Authenticator, 1-Faktor Login auf Web-Seite und push an Authenticator, u. a.). Diesbezüglich werden keine Anforderungen formuliert, es können auch mehrere Verfahren angeboten werden.</span></p>
-  <div id="A_22306">
+  <div id="A_22306" severity="MUSS">
    <p><b>A_22306 - Information des Nutzers bei fehlender Installation des gewählten Authenticator-Moduls</b></p>
    <p>Der Anbieter des sektoralen Identity Provider MUSS auf der unter <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">redirect_uri</span> des Authenticator-Moduls erreichbaren Webseite&nbsp;darstellen, aus welcher Quelle das jeweilige Authenticator-Modul des sektoralen Identity Provider zu beziehen ist, auf welchen Geräten/Plattformen es installiert werden kann und welche Voraussetzungen für die Verwendung zur Authentifizierung zu erfüllen sind (z. B. erforderliche Registrierungsprozeduren beim Anbieter des sektoralen Identity Provider).<span id="polarion-comment:1780"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_293"></p>
   <p id="polarion_306"><span style="font-size: 10pt;color: #FF0000;line-height: 1.5;"></span></p>
   <p id="polarion_315"></p>
-  <div id="A_22257">
+  <div id="A_22257" severity="MUSS">
    <p><b>A_22257 - Operationsaufruf erfordert erfolgreiche Authentifizierung</b></p>
    <p>Der sektorale Identity Provider MUSS sicherstellen, dass Authorization Request nur nach vorheriger erfolgreicher <span style="font-size: 10pt;line-height: 1.5;">Authentifikation&nbsp;</span>des Nutzers mit einem <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> beantwortet werden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22235">
+  <div id="A_22235" severity="MUSS">
    <p><b>A_22235 - Information des Versicherten über Änderungen an Authentifizierungsfaktoren</b></p>
    <p><span style="font-style: normal;color: #000000;">Der Anbieter des sektoralen Identity Provider&nbsp;MUSS den Versicherten über Änderungen an Authentifizierungsfaktoren informieren.<br> Die Information des Versicherten kann dabei auch über die Attributbestätigende Stelle&nbsp;erfolgen, welche den Anbieter des sektoralen Identity Provider&nbsp;mit der Erstellung des elektronischen Identifizierungsmittels beauftragt hat.</span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_322"><span style="font-style: italic;">Hinweis: <span style="font-size: 10pt;line-height: 1.5;">Dies könnten z. B. Änderungen von E-Mail-Adressen, Mobilfunknummern, registrierten Geräten oder Kennwörtern sein.&nbsp;</span>Die Informationen sollen&nbsp;über entsprechende Anzeige im Authenticator-Modul erfolgen.</span></p>
   <p id="polarion_329"><span style="font-style: italic;"></span></p>
-  <div id="A_22236">
+  <div id="A_22236" severity="MUSS">
    <p><b>A_22236 - Auskunft an Versicherten</b></p>
    <p><span style="font-style: normal;color: #000000;">Der Anbieter des sektoralen Identity Provider&nbsp;MUSS dem Versicherten auf dessen Verlangen Auskunft geben über<br></span> 
     <ul>
@@ -1541,7 +1807,7 @@ ol:first-of-type {
    <li><span style="font-size: 10pt;line-height: 1.5;">Apple - Entscheidend ist das Vorhandensein eines "Secure Enclave" [<a class="descriptionLink" target="_top" href="https://support.apple.com/de-de/guide/security/sec59b0b31ff/web">support.apple.com/guide/security</a>]. Diese ist Bestandteil der A7 und neueren Chips von Apple. Die A7 Serie wurde erstmals 2013 mit dem iPhone 5s eingeführt.</span></li>
    <li><span style="font-size: 10pt;line-height: 1.5;">Android - Ab Android 9 gibt es den Systemaufruf [<a class="descriptionLink" target="_top" href="https://developer.android.com/reference/android/security/keystore/KeyInfo#getSecurityLevel()">KeyInfo#getSecurityLevel()</a>], um die Speicherung eines Schlüssels im Hardware Keystore&nbsp;abzufragen. Die Rückgabewerte <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">KeyProperties.SECURITY_LEVEL_TRUSTED_ENVIRONMENT</span>&nbsp;,&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">KeyProperties.SECURITY_LEVEL_UNKNOWN_SECURE&nbsp;</span>oder <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">KeyProperties.SECURITY_LEVEL_STRONGBOX</span> sind zulässig. Ältere Systeme bieten die Schnittstelle [<a class="descriptionLink" target="_top" href="https://developer.android.com/reference/android/security/keystore/KeyInfo#isInsideSecureHardware()">KeyInfo#isInsideSecureHardware()</a>]&nbsp;an. Hier ist der Rückgabewert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">true</span> zulässig.</span></li>
   </ul>
-  <div id="A_22750">
+  <div id="A_22750" severity="MUSS">
    <p><b>A_22750 - Gerätebindung und Authentisierung für gematik-ehealth-loa-high</b></p>
    <p><p style="text-align: left;" class="polarion-rte-caption-paragraph" data-keep-next="true" id="polarion___3"><span style="font-style: normal;font-size: 10pt;line-height: 1.5;">Abhängig von der Geräteausstattung des Nutzers ist eine Gerätebindung für einen festgelegten Zeitraum ohne Erneuerung gültig. Der Anbieter des sektoralen IDP MUSS, wenn er eine Gerätebindung im Rahmen eines Authentisierungsverfahren nutzt, die Zeitrahmen&nbsp;der Gültigkeit für die Gerätebindung gemäß Tabelle "<span style="font-style: italic;">Übersicht Gerätebindung</span>" berücksichtigen. Die Gerätebindung MUSS durch den Nutzer nach Ablauf dieser Frist dementsprechend erneuert werden.<br> Der Anbieter des sektoralen IDP MUSS, mit den zur Verfügung stehende Plattformmechanismen, einen kryptographischen Nachweis der Gerätebindung auf dem Endgerät erzeugen und auf Serverseite prüfen (z.B. Android: Key &amp; ID Attestation; iOS: DCAppAttestService).<br> Das Vertrauensniveau einer Gerätebindung als Authentisierungsfaktor entspricht dem für die Einrichtung verwendeten Verfahren.</span><br><br> Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">7</span>: Übersicht Gerätebindung&nbsp;für gematik-ehealth-loa-high<span id="polarion-comment:1767"></span></p>
     <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%">
@@ -1608,28 +1874,28 @@ ol:first-of-type {
   <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion_318">Abbildung <span class="polarion-rte-caption" data-sequence="Abbildung">6</span> Systemkontext Authenticator-Modul</p>
   <p id="polarion_319"></p>
   <p id="polarion_654"></p>
-  <div id="A_22939">
+  <div id="A_22939" severity="MUSS">
    <p><b>A_22939 - Widerspruch zur Weitergabe einzelner Scopes</b></p>
    <p>Authenticator-Module des sektoralen IDP MÜSSEN&nbsp;dem Nutzer die Möglichkeit geben einem Dienst einzelne <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> nicht zu übermitteln. Auch auf das Risiko hin das dieser Dienst dann nicht verwendet werden kann. <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_518"><span style="font-style: italic;"></span></p>
-  <div id="A_22832">
+  <div id="A_22832" severity="MUSS">
    <p><b>A_22832 - Authenticator-Modul: Anzeige des "user_consent"</b></p>
    <p>Authenticator-Module des sektoralen IDP MUSS die&nbsp;Willenserklärung des Nutzers zur Übermittlung seiner in den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claims</span> angeforderten Daten zum anfragenden Fachdienst über ein für den Betreiber des sektoralen IDP nicht einsehbares Verfahren einholen.&nbsp;<span id="polarion-comment:1094"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_50"><span style="font-style: italic;">Hinweis: Die erfolgte Zustimmung des Nutzers darf gespeichert werden und weitere Abfragen können entfallen.</span></p>
   <p id="polarion_140"><span style="font-style: italic;">Hinweis: Stellt der Anbieter des sektoralen Identity Provider das&nbsp;Authenticator-Modul nicht als eigene Anwendung, sondern z. B. über ein SDK für die Integration in andere Anwendungen zur Verfügung, so muss er lediglich die Schnittstellen zur Anzeige des "user_consent" bereitstellen.</span></p>
   <p id="polarion_241"></p>
-  <div id="A_23051">
+  <div id="A_23051" severity="MUSS">
    <p><b>A_23051 - Authenticator-Module für Android und iOS</b></p>
    <p>Der Anbieter des sektoralen Identity Provider MUSS den Nutzern Authenticator-Module für Android (im <span style="font-size: 10pt;line-height: 1.5;">Google Play Store</span>) und iOS (im&nbsp;<span style="font-size: 10pt;line-height: 1.5;">App Store)</span> bereitstellen. Weitere Verbreitungswege sind zulässig aber nicht verpflichtend.<span id="polarion-comment:1689"></span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22277-01">
+  <div id="A_22277-01" severity="MUSS">
    <p><b>A_22277-01 - Authenticator-Modul: Schutz vor überalterter Software</b></p>
    <p>Der Anbieter des sektoralen Identity Provider MUSS dafür Sorge tragen, dass die in App Stores veröffentlichten Authenticator-Module schnellstmöglich aktualisiert und die Nutzer über Updates informiert werden.<span id="polarion-comment:1688"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_110"><span style="font-style: italic;">Hinweis: Stellt der Anbieter des sektoralen IDP das Authenticator-Modul als SDK zur Verfügung (z.B. für die Integration in die kasseneigenen Apps) so sind&nbsp;A_23051 und A_22277-01 unwirksam. Das sollte dann in der Anbietererklärung zum Ausdruck kommen.&nbsp;Eine Notwendigkeit zur Prüfung der integrierenden Apps ist nicht gegeben.</span></p>
-  <div id="A_23389">
+  <div id="A_23389" severity="MUSS">
    <p><b>A_23389 - Authenticator-Modul: Schutz vor Missbrauch</b></p>
    <p>Das Authenticator-Modul des sektoralen IDP MUSS<br> 
     <ul> 
@@ -1641,20 +1907,20 @@ ol:first-of-type {
   </div>
   <p id="polarion_179"><span style="font-style: italic;">Hinweis: <span style="font-size: 10pt;color: #242424;line-height: 1.5;">Die Anforderung orientiert sich an Prüfaspekt 11 (Resilienz) der TR-03161 des BSI.&nbsp;</span></span></p>
   <p id="polarion_32"></p>
-  <div id="A_22659">
+  <div id="A_22659" severity="MUSS">
    <p><b>A_22659 - Realisierung der App2App-Kommunikation im Fall Android</b></p>
    <p><span style="color: #000000;">Im Kontext von Android-Anwendungen MÜSSEN Authenticator-Module zu sektoralen IDP für die wechselseitige Verlinkung&nbsp;den unter&nbsp;[ANDROIDAPPLINKS] beschriebenen App-Link-Mechanismus verwenden und damit Aufrufe an die Adresse des Authorization-EP ermöglichen.</span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_665"><span style="font-weight: bold;color: #FF0000;"></span></p>
-  <div id="A_22660">
+  <div id="A_22660" severity="MUSS">
    <p><b>A_22660 - Realisierung der App2App-Kommunikation im Fall Apple/iOS</b></p>
    <p><span style="color: #000000;">Im Kontext von iOS-Anwendungen MÜSSEN Authenticator-Module zu sektoralen IDP für die wechselseitige Verlinkung den unter [APPLEUNIVERSAL] beschriebenen Universal-Link-Mechanismus verwenden und damit Aufrufe an die Adresse des Authorization-EP ermöglichen.</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22661">
+  <div id="A_22661" severity="MUSS">
    <p><b>A_22661 - Serverseitige Registrierungsdaten</b></p>
    <p><span style="color: #000000;">Anbieter von sektoralen IDP MÜSSEN sicherstellen, dass die durch das Betriebssystem notwendigen Voraussetzungen für die Funktionsfähigkeit ihres Authenticator-Moduls erfüllt sind (z. B. <span style="font-size: 10pt;line-height: 1.5;">Registrierung der Anwendung zur App2App-Kommunikation entsprechend der Mechanismen unter&nbsp;[ANDROIDAPPLINKS] bzw. [APPLEUNIVERSAL] zur Verknüpfung der Anwendung mit einer Webseite</span>).</span> <b>[&lt;=]</b></p>
   </div>
-  <div id="A_23203">
+  <div id="A_23203" severity="MUSS">
    <p><b>A_23203 - Zu unterstützende Betriebssystemversionen</b></p>
    <p>Der Anbieter des sektoralen Identity Provider MUSS dafür Sorge tragen, dass seine Authenticator-Module jederzeit:<br> 
     <ul>
@@ -1663,17 +1929,17 @@ ol:first-of-type {
     </ul><span id="polarion-comment:1805"></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_204"><span style="font-style: italic;">Hinweise: Der Anbieter des IDP kann bei Sicherheitsbedenken von A_23203 abweichend Betriebssystemversionen ausschließen.</span></p>
-  <div id="A_22308-01">
+  <div id="A_22308-01" severity="DARF NICHT">
    <p><b>A_22308-01 - Beschränkung des Authenticator-Moduls eines sektoralen IDP auf die Authentifizierung</b></p>
    <p><span style="font-size: 10pt;background-color: #FFFFFF;line-height: 1.5;">Das Authenticator-Modul beim Aufruf durch das Anwendungsfrontend DARF NICHT weitere/andere Funktionalitäten anbieten als solche, die direkt oder indirekt zur Authentifizierung des Nutzers dienen (z. B. Einrichtung, Registrierung, dafür relevante Informationen). Insbesondere Werbung für andere Leistungen oder Funktionen DARF NICHT angezeigt werden.<span id="polarion-comment:1627"></span></span> <b>[&lt;=]</b></p>
   </div>
   <p id="polarion_704"><span style="font-weight: bold;"></span></p>
   <p id="polarion_721"><span style="font-weight: bold;"></span></p>
-  <div id="A_22311">
+  <div id="A_22311" severity="MUSS">
    <p><b>A_22311 - Verwendung der ursprünglichen Adresse zur Übergabe des "AUTHORIZATION_CODE"</b></p>
    <p>Authenticator-Module<span id="polarion-comment:1090"></span> von sektoralen Identity Provider MÜSSEN die bei der Übergabe des Authorization Request erhaltene&nbsp;<span style="font-size: 10pt;color: #172B4D;line-height: 1.5;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">redirect_uri</span>&nbsp;</span>für die Übergabe des <span style="font-size: 10pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">AUTHORIZATION_CODE</span> verwenden. Außer für diesen Aufruf DARF er NICHT an andere Anwendungen übergeben werden. <b>[&lt;=]</b></p>
   </div>
-  <div id="A_22978">
+  <div id="A_22978" severity="MUSS">
    <p><b>A_22978 - Aufbereiten von Geräteinformationen</b></p>
    <p>Authenticator-Module von sektoralen IDP SOLLEN Informationen zum verwendeten&nbsp;Endgerät des Nutzers erheben können welche die Inhalte des&nbsp;Datentyps "Device_Type" abbilden.<br> Um die Authentizität des Datensatzes zu gewährleisten, muss die Vertrauenswürdigkeit zum Zeitpunkt der Erhebung des Datensatzes geprüft und nachgewiesen werden. <br> Hierfür müssen geeignete und zur Verfügung stehende Plattformmechanismen genutzt werden (z. B. Android: SafetyNet Attestation / Integrity API, Key &amp; ID Attestation; iOS: DCAppAttestService).<span id="polarion-comment:1715"></span><span id="polarion-comment:1829"></span> <b>[&lt;=]</b></p>
   </div>
@@ -1730,7 +1996,7 @@ ol:first-of-type {
    </tbody>
   </table>
   <p id="polarion_20"><span style="font-size: 10pt;color: #172B4D;line-height: 1.5;"><span style="font-style: italic;">Hinweis: Die in Tabelle Schema Datentyp "Device_Type" aufgeführten Parameter sind nach aktuellem Kenntnisstand für eine Geräteprüfung notwendig. Die Tabelleninhalte können sich in späteren Releases aufgrund neuer Erkenntnisse oder geänderter sicherheitstechnischer Anforderungen ändern.</span>&nbsp;</span><span style="font-size: 11pt;color: #172B4D;line-height: 1.5;"></span></p>
-  <div id="A_23031">
+  <div id="A_23031" severity="MUSS">
    <p><b>A_23031 - Authenticator-Modul: OAuth 2.0 Pushed Authorization Request (PAR)</b></p>
    <p>Das Authenticator-Modul MUSS mittels App2App-Kommunikation übertragene Anfragen<span id="polarion-comment:1513"></span> entsprechend [<a href="https://datatracker.ietf.org/doc/html/rfc9126#section-4" target="_top" class="descriptionLink">OAuth 2.0 Pushed Authorization Requests (section-4)</a>]&nbsp;annehmen und gewährleisten, dass der Request TLS-gesichert in die vertrauenswürdige Ausführungsumgebung des sektoralen IDP übermittelt wird. <b>[&lt;=]</b></p>
   </div>
@@ -1926,63 +2192,67 @@ ol:first-of-type {
   <div id="polarion_wiki macro name=tof;params=uid=1" data-sequence="Abbildung"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_132">Abbildung 1 : Überblick TI-Föderation</a></li>
-   <li><a href="#polarion_34">Abbildung 2: Systemkontext</a></li>
-   <li><a href="#polarion_61">Abbildung 3 : OAuth- und OIDC-Flow</a></li>
-   <li><a href="#polarion_404">Abbildung 4: Schnittstellen der in der VAU laufenden Komponente des sektoralen IDP</a></li>
-   <li><a href="#polarion_341">Abbildung 5: Systemkontext Authenticator-Modul</a></li>
-   <li><a href="#polarion_318">Abbildung 6 Systemkontext Authenticator-Modul</a></li>
-   <li><a href="#polarion_256">Abbildung 7 : App-App-Flow</a></li>
-   <li><a href="#polarion_258">Abbildung 8 : Web-App-Flow</a></li>
-   <li><a href="#polarion_260">Abbildung 9 : Zwei-Geräte-Flow</a></li>
-   <li><a href="#polarion_240">Abbildung 10 : 3.2.6&nbsp;Umsetzungsempfehlungen für die Vertrauenswürdige Ausführungsumgebung</a></li>
+   <ul>
+    <li><a href="#polarion_132">Abbildung 1 : Überblick TI-Föderation</a></li>
+    <li><a href="#polarion_34">Abbildung 2: Systemkontext</a></li>
+    <li><a href="#polarion_61">Abbildung 3 : OAuth- und OIDC-Flow</a></li>
+    <li><a href="#polarion_404">Abbildung 4: Schnittstellen der in der VAU laufenden Komponente des sektoralen IDP</a></li>
+    <li><a href="#polarion_341">Abbildung 5: Systemkontext Authenticator-Modul</a></li>
+    <li><a href="#polarion_318">Abbildung 6 Systemkontext Authenticator-Modul</a></li>
+    <li><a href="#polarion_256">Abbildung 7 : App-App-Flow</a></li>
+    <li><a href="#polarion_258">Abbildung 8 : Web-App-Flow</a></li>
+    <li><a href="#polarion_260">Abbildung 9 : Zwei-Geräte-Flow</a></li>
+    <li><a href="#polarion_240">Abbildung 10 : 3.2.6&nbsp;Umsetzungsempfehlungen für die Vertrauenswürdige Ausführungsumgebung</a></li>
+   </ul>
   </div>
   <h3 id="6.4">6.4 Tabellenverzeichnis</h3>
   <div id="polarion_wiki macro name=tof;params=uid=2" data-sequence="Tabelle"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_33">Tabelle 1 :&nbsp;Schnittstellenübersicht</a></li>
-   <li><a href="#polarion_72">Tabelle 2 : Akteure und Rollen</a></li>
-   <li><a href="#polarion_489">Tabelle 3 : Schritte OAuth- und OIDC-Flow</a></li>
-   <li><a href="#polarion_52">Tabelle 4: Vorgaben für die im sektoralen IDP befindlichen Endpunkte zur Ausführung in einer VAU&nbsp;</a></li>
-   <li><a href="#polarion___1">Tabelle 5: scopes und claims</a></li>
-   <li><a href="#polarion___2">Tabelle 6 Codierung der Authentisierungsverfahren</a></li>
-   <li><a href="#polarion___3">Abhängig von der Geräteausstattung des Nutzers ist eine Gerätebindung für einen festgelegten Zeitraum ohne Erneuerung gültig. Der Anbieter des sektoralen IDP MUSS, wenn er eine Gerätebindung im Rahmen eines Authentisierungsverfahren nutzt, die Zeitrahmen&nbsp;der Gültigkeit für die Gerätebindung gemäß Tabelle "Übersicht Gerätebindung" berücksichtigen. Die Gerätebindung MUSS durch den Nutzer nach Ablauf dieser Frist dementsprechend erneuert werden. Der Anbieter des sektoralen IDP MUSS, mit den zur Verfügung stehende Plattformmechanismen, einen kryptographischen Nachweis der Gerätebindung auf dem Endgerät erzeugen und auf Serverseite prüfen (z.B. Android: Key &amp; ID Attestation; iOS: DCAppAttestService). Das Vertrauensniveau einer Gerätebindung als Authentisierungsfaktor entspricht dem für die Einrichtung verwendeten Verfahren. Tabelle 7: Übersicht Gerätebindung&nbsp;für gematik-ehealth-loa-high</a></li>
-   <li><a href="#polarion_151">Tabelle 8 : Schema Datentyp "Device_Type"</a></li>
-   <li><a href="#polarion_257">Tabelle 9 : Ablaufbeschreibung App-App-Flow</a></li>
-   <li><a href="#polarion_130">Tabelle 10 : Header Entity Statement des Federation Master</a></li>
-   <li><a href="#polarion_131">Tabelle 11 : Body Entity Statement des Federation Master</a></li>
-   <li><a href="#polarion_194">Tabelle 12 : Beispiel vorliegender Identitätsdaten</a></li>
-   <li><a href="#polarion_231">Tabelle 13 : Attribute der IDP-Liste</a></li>
-   <li><a href="#polarion_90">Tabelle 14: Authorization Request von Anwendungsfrontend zum Authorization-Server</a></li>
-   <li><a href="#polarion_236">Tabelle 15 : Header Entity Statement des sektoralen IDP</a></li>
-   <li><a href="#polarion_286">Tabelle 16 : Body Entity Statement des sektoralen IDP</a></li>
-   <li><a href="#polarion_496">Tabelle 17 : Header des KeySet des sektoralen IDP</a></li>
-   <li><a href="#polarion_498">Tabelle 18 : Body des KeySet des sektoralen IDP</a></li>
-   <li><a href="#polarion_287">Tabelle 19 : Parameter HTTPS GET Request an den Federation Master API</a></li>
-   <li><a href="#polarion_493">Tabelle 20 : Header HTTP-Response zum Entity Statement des Fachdienstes</a></li>
-   <li><a href="#polarion_494">Tabelle 21 : Body HTTP-Response zum Entity Statement des Fachdienstes</a></li>
-   <li><a href="#polarion_495">Tabelle 22 : Parameter Pushed Authorization Request&nbsp;</a></li>
-   <li><a href="#polarion_512">Tabelle 23 : Header des Entity Statement des Fachdienstes</a></li>
-   <li><a href="#polarion_514">Tabelle 24 : Body des Entity Statement des Fachdienstes</a></li>
-   <li><a href="#polarion_517">Tabelle 25 : Header des KeySet des Fachdienstes</a></li>
-   <li><a href="#polarion_527">Tabelle 26 : Body des KeySet des Fachdienstes</a></li>
-   <li><a href="#polarion_529">Tabelle 27 : Parameter HTTPS GET Request an Federation Master API</a></li>
-   <li><a href="#polarion_534">Tabelle 28 : Header zum Entity Statement des Federation Master über den Fachdienst</a></li>
-   <li><a href="#polarion_536">Tabelle 29 : Body zum Entity Statement des Federation Master über den Fachdienst</a></li>
-   <li><a href="#polarion_541">Tabelle 30 : Parameter der HTTP-Response</a></li>
-   <li><a href="#polarion_545">Tabelle 31 : Request Parameter&nbsp;des Fachdienstes zum sektoralen IDP</a></li>
-   <li><a href="#polarion_547">Tabelle 32 : Parameter des Redirect-Request</a></li>
-   <li><a href="#polarion_163">Tabelle 33 :&nbsp;Parameter des POST-Request</a></li>
-   <li><a href="#polarion_560">Tabelle 34 : HTTP-POST Parameter für AUTHORIZATION_CODE und den CODE_VERIFIER</a></li>
-   <li><a href="#polarion_499">Tabelle 35 : Header-claims des ID_TOKEN&nbsp;des sektoralen IDP</a></li>
-   <li><a href="#polarion_501">Tabelle 36 : Signature Header-claims&nbsp;des ID_TOKEN&nbsp;des sektoralen IDP</a></li>
-   <li><a href="#polarion_571">Tabelle 37 : Body-claims für den ID_TOKEN des sektoralen IDP</a></li>
-   <li><a href="#polarion_576">Tabelle 38 : Parameter des Redirect-Request</a></li>
-   <li><a href="#polarion_578">Tabelle 39 : Parameter HTTP-POST</a></li>
-   <li><a href="#polarion_259">Tabelle 40 : Ablaufbeschreibung Web-App-Flow</a></li>
-   <li><a href="#polarion_580">Tabelle 41 : Parameter des GET-Requests</a></li>
-   <li><a href="#polarion_281">Tabelle 42 : Ablaufbeschreibung Zwei-Geräte-Flow</a></li>
+   <ul>
+    <li><a href="#polarion_33">Tabelle 1 :&nbsp;Schnittstellenübersicht</a></li>
+    <li><a href="#polarion_72">Tabelle 2 : Akteure und Rollen</a></li>
+    <li><a href="#polarion_489">Tabelle 3 : Schritte OAuth- und OIDC-Flow</a></li>
+    <li><a href="#polarion_52">Tabelle 4: Vorgaben für die im sektoralen IDP befindlichen Endpunkte zur Ausführung in einer VAU&nbsp;</a></li>
+    <li><a href="#polarion___1">Tabelle 5: scopes und claims</a></li>
+    <li><a href="#polarion___2">Tabelle 6 Codierung der Authentisierungsverfahren</a></li>
+    <li><a href="#polarion___3">Abhängig von der Geräteausstattung des Nutzers ist eine Gerätebindung für einen festgelegten Zeitraum ohne Erneuerung gültig. Der Anbieter des sektoralen IDP MUSS, wenn er eine Gerätebindung im Rahmen eines Authentisierungsverfahren nutzt, die Zeitrahmen&nbsp;der Gültigkeit für die Gerätebindung gemäß Tabelle "Übersicht Gerätebindung" berücksichtigen. Die Gerätebindung MUSS durch den Nutzer nach Ablauf dieser Frist dementsprechend erneuert werden. Der Anbieter des sektoralen IDP MUSS, mit den zur Verfügung stehende Plattformmechanismen, einen kryptographischen Nachweis der Gerätebindung auf dem Endgerät erzeugen und auf Serverseite prüfen (z.B. Android: Key &amp; ID Attestation; iOS: DCAppAttestService). Das Vertrauensniveau einer Gerätebindung als Authentisierungsfaktor entspricht dem für die Einrichtung verwendeten Verfahren. Tabelle 7: Übersicht Gerätebindung&nbsp;für gematik-ehealth-loa-high</a></li>
+    <li><a href="#polarion_151">Tabelle 8 : Schema Datentyp "Device_Type"</a></li>
+    <li><a href="#polarion_257">Tabelle 9 : Ablaufbeschreibung App-App-Flow</a></li>
+    <li><a href="#polarion_130">Tabelle 10 : Header Entity Statement des Federation Master</a></li>
+    <li><a href="#polarion_131">Tabelle 11 : Body Entity Statement des Federation Master</a></li>
+    <li><a href="#polarion_194">Tabelle 12 : Beispiel vorliegender Identitätsdaten</a></li>
+    <li><a href="#polarion_231">Tabelle 13 : Attribute der IDP-Liste</a></li>
+    <li><a href="#polarion_90">Tabelle 14: Authorization Request von Anwendungsfrontend zum Authorization-Server</a></li>
+    <li><a href="#polarion_236">Tabelle 15 : Header Entity Statement des sektoralen IDP</a></li>
+    <li><a href="#polarion_286">Tabelle 16 : Body Entity Statement des sektoralen IDP</a></li>
+    <li><a href="#polarion_496">Tabelle 17 : Header des KeySet des sektoralen IDP</a></li>
+    <li><a href="#polarion_498">Tabelle 18 : Body des KeySet des sektoralen IDP</a></li>
+    <li><a href="#polarion_287">Tabelle 19 : Parameter HTTPS GET Request an den Federation Master API</a></li>
+    <li><a href="#polarion_493">Tabelle 20 : Header HTTP-Response zum Entity Statement des Fachdienstes</a></li>
+    <li><a href="#polarion_494">Tabelle 21 : Body HTTP-Response zum Entity Statement des Fachdienstes</a></li>
+    <li><a href="#polarion_495">Tabelle 22 : Parameter Pushed Authorization Request&nbsp;</a></li>
+    <li><a href="#polarion_512">Tabelle 23 : Header des Entity Statement des Fachdienstes</a></li>
+    <li><a href="#polarion_514">Tabelle 24 : Body des Entity Statement des Fachdienstes</a></li>
+    <li><a href="#polarion_517">Tabelle 25 : Header des KeySet des Fachdienstes</a></li>
+    <li><a href="#polarion_527">Tabelle 26 : Body des KeySet des Fachdienstes</a></li>
+    <li><a href="#polarion_529">Tabelle 27 : Parameter HTTPS GET Request an Federation Master API</a></li>
+    <li><a href="#polarion_534">Tabelle 28 : Header zum Entity Statement des Federation Master über den Fachdienst</a></li>
+    <li><a href="#polarion_536">Tabelle 29 : Body zum Entity Statement des Federation Master über den Fachdienst</a></li>
+    <li><a href="#polarion_541">Tabelle 30 : Parameter der HTTP-Response</a></li>
+    <li><a href="#polarion_545">Tabelle 31 : Request Parameter&nbsp;des Fachdienstes zum sektoralen IDP</a></li>
+    <li><a href="#polarion_547">Tabelle 32 : Parameter des Redirect-Request</a></li>
+    <li><a href="#polarion_163">Tabelle 33 :&nbsp;Parameter des POST-Request</a></li>
+    <li><a href="#polarion_560">Tabelle 34 : HTTP-POST Parameter für AUTHORIZATION_CODE und den CODE_VERIFIER</a></li>
+    <li><a href="#polarion_499">Tabelle 35 : Header-claims des ID_TOKEN&nbsp;des sektoralen IDP</a></li>
+    <li><a href="#polarion_501">Tabelle 36 : Signature Header-claims&nbsp;des ID_TOKEN&nbsp;des sektoralen IDP</a></li>
+    <li><a href="#polarion_571">Tabelle 37 : Body-claims für den ID_TOKEN des sektoralen IDP</a></li>
+    <li><a href="#polarion_576">Tabelle 38 : Parameter des Redirect-Request</a></li>
+    <li><a href="#polarion_578">Tabelle 39 : Parameter HTTP-POST</a></li>
+    <li><a href="#polarion_259">Tabelle 40 : Ablaufbeschreibung Web-App-Flow</a></li>
+    <li><a href="#polarion_580">Tabelle 41 : Parameter des GET-Requests</a></li>
+    <li><a href="#polarion_281">Tabelle 42 : Ablaufbeschreibung Zwei-Geräte-Flow</a></li>
+   </ul>
   </div>
   <h3 id="6.5">6.5 Referenzierte Dokumente</h3>
   <h4 id="6.5.1">6.5.1 Dokumente der gematik</h4>

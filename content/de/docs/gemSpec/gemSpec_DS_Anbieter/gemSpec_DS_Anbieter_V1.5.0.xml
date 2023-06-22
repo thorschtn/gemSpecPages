@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="GS-A_5551" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21223" revision="566168">
+    <title><![CDATA[Betriebsumgebung in einem Mitgliedstaat der EU bzw. des EWR]]></title>
+    <description><![CDATA[Der Anbieter MUSS sicherstellen, dass sich die Betriebsumgebung/en der mittels 
+der TI erreichbaren Dienste auf dem Gebiet eines Mitgliedstaates der EU bzw. 
+des EWR befindet/befinden.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS sicherstellen, dass sich die Betriebsumgebung/en der mittels der TI erreichbaren Dienste auf dem Gebiet eines Mitgliedstaates der EU bzw. des EWR befindet/befinden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5552" type="leafRequirement" severity="MUSS" lastUpdate="2020-07-27" technicalID="ML-21224" revision="566168">
+    <title><![CDATA[Angemessene Sicherheitsmaßnahmen]]></title>
+    <description><![CDATA[Der Anbieter MUSS die erforderlichen technischen Maßnahmen treffen, um die 
+Anforderungen an die Sicherheit des Dienstes der TI, des RZ-Consumers, der 
+Fachdienste VSDM bzw. der weiteren Anwendung im Hinblick auf die 
+Schutzbedürftigkeit der dort verarbeiteten Daten zu gewährleisten.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Der Anbieter MUSS die erforderlichen technischen Maßnahmen treffen, um die Anforderungen an die Sicherheit des Dienstes der TI, des RZ-Consumers, der Fachdienste VSDM bzw. der weiteren Anwendung im Hinblick auf die Schutzbedürftigkeit der dort verarbeiteten Daten zu gewährleisten.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5553" type="leafRequirement" severity="MUSS" lastUpdate="2020-07-27" technicalID="ML-21225" revision="566168">
+    <title><![CDATA[Sicherheitskonzept]]></title>
+    <description><![CDATA[Der Anbieter MUSS eine aktuelle und nachvollziehbare Dokumentation besitzen, in 
+der der Schutzbedarf der Daten und die technischen Maßnahmen beschrieben 
+werden, die getroffen wurden, um die Anforderungen an die Sicherheit des 
+Dienstes der TI, des RZ-Consumers, der Fachdienste VSDM bzw. der weiteren 
+Anwendung im Hinblick auf die Schutzbedürftigkeit der dort verarbeiteten Daten 
+zu gewährleisten. Es sind zudem die Wirksamkeit der Sicherheitsmaßnahmen 
+hinsichtlich des Schutzbedarfs der verarbeiteten Daten, die Restrisiken, ein 
+Netzstrukturplan und die Maßnahmen zum Notfallmanagement zu dokumentierten.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Der Anbieter MUSS eine aktuelle und nachvollziehbare Dokumentation besitzen, in der der Schutzbedarf der Daten und die technischen Maßnahmen beschrieben werden, die getroffen wurden, um die Anforderungen an die Sicherheit des Dienstes der TI, des RZ-Consumers, der Fachdienste VSDM bzw. der weiteren Anwendung im Hinblick auf die Schutzbedürftigkeit der dort verarbeiteten Daten zu gewährleisten. Es sind zudem die Wirksamkeit der Sicherheitsmaßnahmen hinsichtlich des Schutzbedarfs der verarbeiteten Daten, die Restrisiken, ein Netzstrukturplan und die Maßnahmen zum Notfallmanagement zu dokumentierten.<span style="font-size: 11pt;font-family: Arial, Helvetica, sans-serif;line-height: 1.5;"></span>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5554" type="leafRequirement" severity="MUSS" lastUpdate="2020-07-27" technicalID="ML-21226" revision="566168">
+    <title><![CDATA[Aufrechterhaltung der Informationssicherheit]]></title>
+    <description><![CDATA[Der Anbieter MUSS Prozesse zur Gewährleistung der Informationssicherheit 
+aufbauen und kontinuierlich verbessern.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS Prozesse zur Gewährleistung der Informationssicherheit aufbauen und kontinuierlich verbessern.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4523-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21227" revision="566168">
+    <title><![CDATA[Bereitstellung Kontaktinformationen für Informationssicherheit]]></title>
+    <description><![CDATA[Der Anbieter MUSS im Rahmen des Informationssicherheitsmanagements eine 
+Kommunikationsschnittstelle direkt der gematik mitteilen (übliche 
+Kontaktinformationen wie Name eines Ansprechpartners, Stellvertreter, 
+E-Mailadresse, Telefon, Fax, Anschrift, …).]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS im Rahmen des Informationssicherheitsmanagements eine Kommunikationsschnittstelle direkt der gematik mitteilen (übliche Kontaktinformationen wie Name eines Ansprechpartners, Stellvertreter, E-Mailadresse, Telefon, Fax, Anschrift, …).]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4524-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21228" revision="566168">
+    <title><![CDATA[Meldung von Änderungen der Kontaktinformationen für Informationssicherheit]]></title>
+    <description><![CDATA[Der Anbieter MUSS Änderungen an der Kommunikationsschnittstelle seines 
+Informations­sicherheits­managements der gematik unverzüglich direkt melden.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Der Anbieter MUSS Änderungen an der Kommunikationsschnittstelle seines Informations­sicherheits­managements der gematik unverzüglich direkt melden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5555" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21229" revision="566168">
+    <title><![CDATA[Unverzügliche Meldung von  erheblichen  Sicherheitsvorfällen und -notfällen]]></title>
+    <description><![CDATA[Der Anbieter MUSS erhebliche Störungen der Verfügbarkeit, Integrität, 
+Authentizität und Vertraulichkeit, die zum Ausfall oder zur Beeinträchtigung 
+der Sicherheit oder Funktionsfähigkeit des Dienstes der TI, des RZ-Consumers, 
+der Fachdienste VSDM bzw. der weiteren Anwendung oder zum Ausfall oder zur 
+Beeinträchtigung der Sicherheit oder Funktionsfähigkeit der 
+Telematikinfrastruktur führen können oder bereits geführt haben, unverzüglich 
+nach bekannt werden direkt der gematik melden.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS erhebliche Störungen der Verfügbarkeit, Integrität, Authentizität und Vertraulichkeit, die zum Ausfall oder zur Beeinträchtigung der Sicherheit oder Funktionsfähigkeit des Dienstes der TI, des RZ-Consumers, der Fachdienste VSDM bzw. der weiteren Anwendung oder zum Ausfall oder zur Beeinträchtigung der Sicherheit oder Funktionsfähigkeit der Telematikinfrastruktur führen können oder bereits geführt haben, unverzüglich nach bekannt werden direkt der gematik melden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5556" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21230" revision="566168">
+    <title><![CDATA[Unverzügliche Behebung von erheblichen Sicherheitsvorfällen und -notfällen]]></title>
+    <description><![CDATA[Der Anbieter MUSS bei erheblichen Sicherheitsvorfällen oder 
+Sicherheitsnotfällen, die Dienste der TI, RZ-Consumer, Fachdienste VSDM bzw. 
+weitere Anwendungen betreffen, unverzüglich Maßnahmen zur Behebung des Vorfalls 
+bzw. Notfalls umsetzen und den erfolgreichen Abschluss direkt an die gematik 
+melden.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS bei erheblichen Sicherheitsvorfällen oder Sicherheitsnotfällen, die Dienste der TI, RZ-Consumer, Fachdienste VSDM bzw. weitere Anwendungen betreffen, unverzüglich Maßnahmen zur Behebung des Vorfalls bzw. Notfalls umsetzen und den erfolgreichen Abschluss direkt an die gematik melden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4980-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21232" revision="566168">
+    <title><![CDATA[Umsetzung der Norm ISO/IEC 27001]]></title>
+    <description><![CDATA[Der Anbieter MUSS für mindestens genau die Umgebungen, in denen die Dienste der 
+TI, RZ-Consumer, der Fachdienste VSDM bzw. die weiteren Anwendungen betrieben 
+werden, die internationale Norm ISO/IEC 27001 umsetzen.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Der Anbieter MUSS für mindestens genau die Umgebungen, in denen die Dienste der TI, RZ-Consumer, der Fachdienste VSDM bzw. die weiteren Anwendungen betrieben werden, die internationale Norm ISO/IEC 27001 umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4981-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21233" revision="566168">
+    <title><![CDATA[Erreichen der Ziele der Norm ISO/IEC 27001 Annex A]]></title>
+    <description><![CDATA[Der Anbieter MUSS für mindestens genau die Umgebungen, in denen die Dienste der 
+TI, RZ-Consumer, der Fachdienste VSDM bzw. die weiteren Anwendungen betrieben 
+werden, zu allen gemäß der Erklärung der An­wend­barkeit (engl. „Statement of 
+Applicability“) anwendbaren Maßnahmen (engl. „controls“) der internationalen 
+Norm ISO/IEC 27001 ergreifen und die dort angegebenen Ziele (engl. 
+„objectives“) erreichen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS für mindestens genau die Umgebungen, in denen die Dienste der TI, RZ-Consumer, der Fachdienste VSDM bzw. die weiteren Anwendungen betrieben werden, zu allen gemäß der Erklärung der An­wend­barkeit (engl. „Statement of Applicability“) anwendbaren Maßnahmen (engl. „controls“) der internationalen Norm ISO/IEC 27001 ergreifen und die dort angegebenen Ziele (engl. „objectives“) erreichen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4982-01" type="leafRequirement" severity="SOLL" lastUpdate="2023-01-04" technicalID="ML-21234" revision="566168">
+    <title><![CDATA[Umsetzung der Maßnahmen der Norm ISO/IEC 27002]]></title>
+    <description><![CDATA[Der Anbieter SOLL für mindestens genau die Umgebungen, in denen die Dienste der 
+TI, RZ-Consumer, der Fachdienste VSDM bzw. die weiteren Anwendungen betrieben 
+werden, beim Ergreifen der Maßnahmen (engl. „controls“) aus der internationalen 
+Norm ISO/IEC 27002 die dort angegebene „Anleitung zur Umsetzung“ (engl. 
+„implementation guidance“) und die dort angegebenen „Weiteren Informationen“ 
+(engl. „other information“) befolgen.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Der Anbieter SOLL für mindestens genau die Umgebungen, in denen die Dienste der TI, RZ-Consumer, der Fachdienste VSDM bzw. die weiteren Anwendungen betrieben werden, beim Ergreifen der Maßnahmen (engl. „controls“) aus der internationalen Norm ISO/IEC 27002 die dort angegebene „Anleitung zur Umsetzung“ (engl. „implementation guidance“) und die dort angegebenen „Weiteren Informationen“ (engl. „other information“) befolgen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4983-01" type="leafRequirement" severity="SOLL" lastUpdate="2023-01-04" technicalID="ML-21235" revision="566168">
+    <title><![CDATA[Umsetzung der Maßnahmen aus dem BSI-Grundschutz]]></title>
+    <description><![CDATA[Der Anbieter SOLL für mindestens genau die Umgebungen, in denen die Dienste der 
+TI, der RZ-Consumer, die Fachdienste VSDM bzw. die weiteren Anwendungen 
+betrieben werden, bei der Umsetzung der inter­nationalen Normen ISO/IEC 27001 
+und ISO/IEC 27002 die anwendbaren Anforderungen des BSI-Grundschutzkompendiums 
+oder entsprechende Maßnahmen, die ein vergleichbares Sicherheitsniveau 
+gewährleisten, umsetzen.]]></description>
+    <description_html><![CDATA[Der Anbieter SOLL für mindestens genau die Umgebungen, in denen die Dienste der TI, der RZ-Consumer, die Fachdienste VSDM bzw. die weiteren Anwendungen betrieben werden, bei der Umsetzung der inter­nationalen Normen ISO/IEC 27001 und ISO/IEC 27002 die anwendbaren Anforderungen des BSI-Grundschutzkompendiums oder entsprechende Maßnahmen, die ein vergleichbares Sicherheitsniveau gewährleisten, umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3737-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21236" revision="566168">
+    <title><![CDATA[Sicherheitskonzept]]></title>
+    <description><![CDATA[Der Anbieter MUSS die von ihm betriebenen Dienste der TI, RZ-Consumer, die 
+Fachdienste VSDM bzw. weiteren Anwendungen in seine bestehende 
+Sicherheitskonzeption einbinden oder ein betreiberspezifisches 
+Sicherheitskonzept erstellen. Folgende Inhalte MÜSSEN vom Anbieter mindestens 
+dokumentiert werden:
+
+ * Beschreibung des Dienstes der TI, RZ-Consumers, der Fachdienste VSDM bzw. 
+der weiteren Anwendung bzgl. der Informationssicherheitsaspekte,
+ * Schutzbedarf der Daten,
+ * Bedrohungsanalyse,
+ * Dokumentation der Erfüllung der Sicherheitsanforderungen der gematik,
+ * Sicherheitsanalyse (Verifikation der Wirksamkeit der Sicherheitsmaßnahmen),
+ * Erstellung einer Restrisikoabschätzung.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS die von ihm betriebenen Dienste der TI, RZ-Consumer, die Fachdienste VSDM bzw. weiteren Anwendungen in seine bestehende Sicherheitskonzeption einbinden oder ein betreiberspezifisches Sicherheitskonzept erstellen. Folgende Inhalte MÜSSEN vom Anbieter mindestens dokumentiert werden:<br/> <ul><li>Beschreibung des Dienstes der TI, RZ-Consumers, der Fachdienste VSDM bzw. der weiteren Anwendung bzgl. der Informationssicherheitsaspekte,</li><li>Schutzbedarf der Daten,</li><li>Bedrohungsanalyse,</li><li>Dokumentation der Erfüllung der Sicherheitsanforderungen der gematik,</li><li>Sicherheitsanalyse (Verifikation der Wirksamkeit der Sicherheitsmaßnahmen),</li><li>Erstellung einer Restrisikoabschätzung.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3753-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21237" revision="566168">
+    <title><![CDATA[Notfallkonzept]]></title>
+    <description><![CDATA[Der Anbieter MUSS die von ihm betriebenen Dienste der TI, RZ-Consumer, 
+Fachdienste VSDM bzw. weiteren Anwendungen in seine bestehende 
+Notfallkonzeption einbinden oder ein betreiberspezifisches Notfallkonzept 
+erstellen. Folgende Inhalte MÜSSEN mindestens dokumentiert werden: 
+ * übergeordnete Notfallstrategie und Einordnung der Dienste der TI, 
+RZ-Consumer, der Fachdienste VSDM bzw. weiteren Anwendungen,
+
+ * gesetzliche und vertragliche Anforderungen,
+
+ * Rollen und Verantwortliche in Bezug auf das Notfall-Management,
+
+ * Dokumentation zur Notfallvorsorge inkl. durchgeführter Auswirkungsanalyse 
+(BIA oder vergleichbar),
+
+ * szenariounabhängige Notfallbewältigungsstrategie (Hierbei ist insbesondere 
+auch die TI-spezifische Eskalation zu weiteren Anbietern und zur gematik zu 
+beschreiben.),
+
+ * Dokumentation der szenariospezifischen Notfallpläne (Hierbei sind neben 
+allgemeinen Notfallplänen für Brand und Wassereinbruch etc. insbesondere auch 
+TI-spezifische Notfallszenarien wie der Ausfall verfügbarkeitskritischer 
+TI-Produkte, Schwächung oder Kompromittierung von kryptographischen 
+Schlüsselmaterial etc. zu dokumentieren.)
+
+ * Nachbereitung von Notfällen,
+
+ * Prävention und Vorbeugung von Notfällen, inklusive Fachkunde und Schulungen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS die von ihm betriebenen Dienste der TI, RZ-Consumer, Fachdienste VSDM bzw. weiteren Anwendungen in seine bestehende Notfallkonzeption einbinden oder ein betreiberspezifisches Notfallkonzept erstellen. Folgende Inhalte MÜSSEN mindestens dokumentiert werden:<div style="margin-left: 40px;"></div> 
+<ul>
+  <li>übergeordnete Notfallstrategie und Einordnung der Dienste der TI, RZ-Consumer, der Fachdienste VSDM bzw. weiteren Anwendungen,<br/>
+    </li>
+  <li>gesetzliche und vertragliche Anforderungen,<br/>
+    </li>
+  <li>Rollen und Verantwortliche in Bezug auf das Notfall-Management,<br/>
+    </li>
+  <li>Dokumentation zur Notfallvorsorge inkl. durchgeführter Auswirkungsanalyse (BIA oder vergleichbar), <br/>
+    </li>
+  <li>szenariounabhängige Notfallbewältigungsstrategie (Hierbei ist insbesondere auch die TI-spezifische Eskalation zu weiteren Anbietern und zur gematik zu beschreiben.),<br/>
+    </li>
+  <li>Dokumentation der szenariospezifischen Notfallpläne (Hierbei sind neben allgemeinen Notfallplänen für Brand und Wassereinbruch etc. insbesondere auch TI-spezifische Notfallszenarien wie der Ausfall verfügbarkeitskritischer TI-Produkte, Schwächung oder Kompromittierung von kryptographischen Schlüsselmaterial etc. zu dokumentieren.)<br/>
+    </li>
+  <li>Nachbereitung von Notfällen,<br/>
+    </li>
+  <li>Prävention und Vorbeugung von Notfällen, inklusive Fachkunde und Schulungen. </li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3772-01" type="leafRequirement" severity="SOLL" lastUpdate="2023-01-04" technicalID="ML-21238" revision="566168">
+    <title><![CDATA[Notfallkonzept: Der Dienstanbieter soll dem BSI-Standard 100-4 folgen]]></title>
+    <description><![CDATA[Der Anbieter SOLL bei der Erstellung seines Notfallkonzeptes den inhaltlichen 
+Vorgaben des Dokuments BSI-Standard 100-4 „Notfallmanagement" [BSI 100-4] 
+folgen.]]></description>
+    <description_html><![CDATA[Der Anbieter SOLL bei der Erstellung seines Notfallkonzeptes den inhaltlichen Vorgaben des Dokuments BSI-Standard 100-4 „Notfallmanagement&quot; [BSI 100-4] folgen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2328-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21239" revision="566168">
+    <title><![CDATA[Pflege und Fortschreibung des Sicherheitskonzeptes und Notfallkonzeptes]]></title>
+    <description><![CDATA[Der Anbieter MUSS die Pflege und Fortschreibung der Sicherheits- und 
+Notfallkonzepte für die von ihm betriebenen Dienste der TI, RZ-Consumer, 
+Fachdienste VSDM bzw. weiteren Anwendungen durchführen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS die Pflege und Fortschreibung der Sicherheits- und Notfallkonzepte für die von ihm betriebenen Dienste der TI, RZ-Consumer, Fachdienste VSDM bzw. weiteren Anwendungen durchführen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2329-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21240" revision="566168">
+    <title><![CDATA[Umsetzung der Sicherheitskonzepte]]></title>
+    <description><![CDATA[Der Anbieter MUSS die Maßnahmen zur Sicherheit des Personals, der Organisation, 
+der Infrastruktur und der eingesetzten Technologien ent­sprechend der 
+erstellten Sicherheitskonzepte umsetzen und dokumentieren; wozu insbesondere 
+die Implementierung und Einhaltung von organisatorischen und technischen 
+Sicherheitsmaßnahmen und die Kommunikation sowie Durchführung von 
+Sensibilisierungen für den Themenbereich „Informationssicherheit“ und 
+Schu­lungen gehören.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS die Maßnahmen zur Sicherheit des Personals, der Organisation, der Infrastruktur und der eingesetzten Technologien ent­sprechend der erstellten Sicherheitskonzepte umsetzen und dokumentieren; wozu insbesondere die Implementierung und Einhaltung von organisatorischen und technischen Sicherheitsmaßnahmen und die Kommunikation sowie Durchführung von Sensibilisierungen für den Themenbereich „Informationssicherheit“ und Schu­lungen gehören.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2345-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21241" revision="566168">
+    <title><![CDATA[regelmäßige Reviews]]></title>
+    <description><![CDATA[Der Anbieter MUSS regelmäßige Reviews seiner bestehenden Sicherheitskonzepte 
+inkl. der organisatorischen und technischen Sicherheitsmaßnahmen durchführen 
+und die sich daraus ergebenen Verbesserungspotenziale umsetzen.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Der Anbieter MUSS regelmäßige Reviews seiner bestehenden Sicherheitskonzepte inkl. der organisatorischen und technischen Sicherheitsmaßnahmen durchführen und die sich daraus ergebenen Verbesserungspotenziale umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2158-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21242" revision="566168">
+    <title><![CDATA[Trennung von kryptographischen Identitäten und Schlüsseln in Produktiv- und Testumgebungen]]></title>
+    <description><![CDATA[Der Anbieter MUSS sicherstellen, dass kryptographische Identitäten bzw. 
+Schlüssel der Produktivumgebung der TI des Anbieters (Umgebungen mit Echtdaten) 
+nicht in Testumgebungen und dass keine kryptographischen Identitäten bzw. 
+Schlüssel aus Testumgebungen in der Produktivumgebung der TI genutzt werden.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS sicherstellen, dass kryptographische Identitäten bzw. Schlüssel der Produktivumgebung der TI des Anbieters (Umgebungen mit Echtdaten) nicht in Testumgebungen und dass keine kryptographischen Identitäten bzw. Schlüssel aus Testumgebungen in der Produktivumgebung der TI genutzt werden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4984-01" type="leafRequirement" severity="SOLL" lastUpdate="2023-01-04" technicalID="ML-21244" revision="566168">
+    <title><![CDATA[Befolgen von herstellerspezifischen Vorgaben]]></title>
+    <description><![CDATA[Der Anbieter SOLL für die von ihm betriebenen Dienste der TI, RZ-Consumer, 
+Fachdienste VSDM bzw. weiteren Anwendungen herstellerspezifische 
+Sicherheitsvorgaben und -empfehlungen befolgen.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Der Anbieter SOLL für die von ihm betriebenen Dienste der TI, RZ-Consumer, Fachdienste VSDM bzw. weiteren Anwendungen herstellerspezifische Sicherheitsvorgaben und -empfehlungen befolgen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2331-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21245" revision="566168">
+    <title><![CDATA[Sicherheitsvorfalls-Management]]></title>
+    <description><![CDATA[Der Anbieter MUSS Sicherheitsvorfälle („security incidents“) wirksam vorbeugen, 
+diese aufdecken und unterbinden.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div>Der Anbieter MUSS Sicherheitsvorfälle („security incidents“) wirksam vorbeugen, diese aufdecken und unterbinden.]]></description_html>
+  </requirement>
+  <requirement id="A_21716" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-119247" revision="566168">
+    <title><![CDATA[Unverzügliche Bewertung von Schwachstellen]]></title>
+    <description><![CDATA[Anbieter der TI MÜSSEN erkannte Software-Schwachstellen in den von Ihnen 
+betriebenen Umgebungen der TI unverzüglich nach dem international etablierten 
+Standard Common Vulnerability Scoring System (CVSS) in der jeweils aktuellen 
+Fassung bewerten. Hierbei MUSS eine Reaktionszeit von <24h zur Bewertung der 
+Schwachstellen an Werktagen sowie Bewertung der Schwachstellen an Wochenenden 
+und Feiertagen von <72 h gewährleistet werden.]]></description>
+    <description_html><![CDATA[<span id="polarion-comment:111"></span>Anbieter der TI MÜSSEN erkannte Software-Schwachstellen in den von Ihnen betriebenen Umgebungen der TI unverzüglich nach dem international etablierten Standard Common Vulnerability Scoring System (CVSS) in der jeweils aktuellen Fassung bewerten. Hierbei MUSS eine Reaktionszeit von &lt;24h zur Bewertung der Schwachstellen an Werktagen sowie Bewertung der Schwachstellen an Wochenenden und Feiertagen von &lt;72 h gewährleistet werden.]]></description_html>
+  </requirement>
+  <requirement id="A_21717" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-119249" revision="566168">
+    <title><![CDATA[Bereitstellung der Bewertung von Schwachstellen gegenüber der gematik]]></title>
+    <description><![CDATA[Anbieter der TI müssen der gematik gegenüber den CVS-Score sowie den 
+Bewertungsvektor bei Bedarf und auf Nachfrage zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[<span id="polarion-comment:113"></span>Anbieter der TI müssen der gematik gegenüber den CVS-Score sowie den Bewertungsvektor bei Bedarf und auf Nachfrage zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="A_21718" type="leafRequirement" severity="SOLL" lastUpdate="2023-01-04" technicalID="ML-119250" revision="566168">
+    <title><![CDATA[Umsetzen von Gegenmaßnahmen in Abhängigkeit der Kritikalität]]></title>
+    <description><![CDATA[Anbieter der TI SOLLEN bewertete Software-Schwachstellen innerhalb der 
+folgenden maximalen Behebungszeit schließen.
+
+
+CVSS (bewertet)
+Behebungszeit 
+10-9 Schnellstmöglich, Individualvereinbarung 
+8,9-7 1 Monat 
+6,9-5 quartalsweise 
+<5 Regelpatchzyklus]]></description>
+    <description_html><![CDATA[<span id="polarion-comment:114"></span>Anbieter der TI SOLLEN bewertete Software-Schwachstellen innerhalb der folgenden maximalen Behebungszeit schließen.<br/>
+ 
+<table>
+  <thead>
+    <tr>
+      <td></td>
+    </tr>
+  </thead><tbody></tbody>
+</table>
+ 
+<table id="polarion_wiki macro name=table;params=width=37.4%" class="polarion-Document-table" style="width: 37.4%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 81px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">CVSS (bewertet)<br/>
+        </th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 179px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Behebungszeit</th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 81px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">10-9</td>
+      <td style="text-align: left;vertical-align: top;width: 179px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Schnellstmöglich, Individualvereinbarung</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 81px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">8,9-7</td>
+      <td style="text-align: left;vertical-align: top;width: 179px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">1 Monat</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 81px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">6,9-5</td>
+      <td style="text-align: left;vertical-align: top;width: 179px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">quartalsweise</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 81px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">&lt;5</td>
+      <td style="text-align: left;vertical-align: top;width: 179px;height: 18px;border: 1px solid #CCCCCC;padding: 5px;">Regelpatchzyklus</td>
+    </tr>
+  </tbody>
+</table>]]></description_html>
+  </requirement>
+  <requirement id="A_21720" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-119252" revision="566168">
+    <title><![CDATA[Beteiligung an Coordinated Vulnerability Disclosure]]></title>
+    <description><![CDATA[Anbieter der TI MÜSSEN das Coordinated Vulnerability Disclosure Programm der 
+gematik aktiv durch ihre Beteiligung unterstützen.]]></description>
+    <description_html><![CDATA[<span id="polarion-comment:116"></span>Anbieter der TI MÜSSEN das Coordinated Vulnerability Disclosure Programm der gematik aktiv durch ihre Beteiligung unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2355-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-22" technicalID="ML-125710" revision="566168">
+    <title><![CDATA[Meldung von erheblichen Schwachstellen und Bedrohungen]]></title>
+    <description><![CDATA[Der TI Anbieter MUSS kritische und hochbewertete Schwachstellen (CVSS ab 7) und 
+erhebliche Bedrohungen unverzüglich nach Abschluss der Bewertung direkt an die 
+gematik melden.]]></description>
+    <description_html><![CDATA[Der<span id="polarion-comment:119"></span> TI Anbieter MUSS kritische und hochbewertete Schwachstellen (CVSS ab 7) und erhebliche Bedrohungen unverzüglich nach Abschluss der Bewertung direkt an die gematik melden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2332-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21247" revision="566168">
+    <title><![CDATA[Notfallmanagement]]></title>
+    <description><![CDATA[Der Anbieter MUSS die durch Notfälle aufgetretenen Schäden zeitnah durch 
+entsprechende Maßnahmen seines Notfallmanagements korrigieren.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS die durch Notfälle aufgetretenen Schäden zeitnah durch entsprechende Maßnahmen seines Notfallmanagements korrigieren.]]></description_html>
+  </requirement>
+  <requirement id="A_19174" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-22" technicalID="ML-103084" revision="566168">
+    <title><![CDATA[Bereitstellung Übersicht Internet-Schnittstellen der TI]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik halbjährlich und bei Änderungen eine Übersicht 
+über die Außenschnittstellen der Telematikinfrastruktur (IP Adresse bzw. FQDN), 
+die aus dem Internet erreichbar sind, zur Verfügung zu stellen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik halbjährlich und bei Änderungen eine Übersicht über die Außenschnittstellen der Telematikinfrastruktur (IP Adresse bzw. FQDN), die aus dem Internet erreichbar sind, zur Verfügung zu stellen.]]></description_html>
+  </requirement>
+  <requirement id="A_19175" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-103085" revision="566168">
+    <title><![CDATA[Zustimmung zu regelmäßigen Schwachstellenscans durch die gematik]]></title>
+    <description><![CDATA[Der Anbieter MUSS zustimmen, dass die gematik monatliche nicht-invasive 
+Schwachstellenscans auf die Außenschnittstellen ihrer TI-Produkte durchführen 
+darf.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS zustimmen, dass die gematik monatliche nicht-invasive Schwachstellenscans auf die Außenschnittstellen ihrer TI-Produkte durchführen darf.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5557" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21250" revision="566168">
+    <title><![CDATA[Security Monitoring]]></title>
+    <description><![CDATA[Der Anbieter MUSS im Rahmen eines Security Monitoring präventive Maßnahmen zur 
+Erkennung und Analyse von Bedrohungen (z. B. über Korrelation und Auswertung 
+von Log-Daten) durchführen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS im Rahmen eines Security Monitoring präventive Maßnahmen zur Erkennung und Analyse von Bedrohungen (z. B. über Korrelation und Auswertung von Log-Daten) durchführen.]]></description_html>
+  </requirement>
+  <requirement id="A_20714" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-22" technicalID="ML-111949" revision="566168">
+    <title><![CDATA[Abstimmung der Maßnahmen im Security Monitoring mit gematik]]></title>
+    <description><![CDATA[Der Anbieter MUSS vor der Inbetriebnahme seines Produkts die technische 
+Umsetzung des Security Monitorings, die zu überwachenden Systeme, die zu 
+detektierenden Ereignisse auf den jeweiligen Systemen sowie die begleitenden 
+organisatorischen Maßnahmen (z.B. Vorhaltefristen der detektierten Ereignisse) 
+mit der gematik abstimmen, in einem Security Monitoring Konzept dokumentieren 
+und umsetzen. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS vor der Inbetriebnahme seines Produkts die technische Umsetzung des Security Monitorings, die zu überwachenden Systeme, die zu detektierenden Ereignisse auf den jeweiligen Systemen sowie die begleitenden organisatorischen Maßnahmen (z.B. Vorhaltefristen der detektierten Ereignisse) mit der gematik abstimmen, in einem Security Monitoring Konzept dokumentieren und umsetzen. ]]></description_html>
+  </requirement>
+  <requirement id="A_20715" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-22" technicalID="ML-111950" revision="566168">
+    <title><![CDATA[kontinuierliche Verbesserung und Dokumentation des Security Monitorings]]></title>
+    <description><![CDATA[Der Anbieter MUSS regelmäßig und in Abstimmung mit der gematik (mindestens 
+jährlich) die Umsetzung des Security Monitorings überprüfen, erkannte 
+Verbesserungspotenziale etablieren und alle fachlichen Änderungen im Security 
+Monitoring Konzept dokumentieren.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS regelmäßig und in Abstimmung mit der gematik (mindestens jährlich) die Umsetzung des Security Monitorings überprüfen, erkannte Verbesserungspotenziale etablieren und alle fachlichen Änderungen im Security Monitoring Konzept dokumentieren.]]></description_html>
+  </requirement>
+  <requirement id="A_20716" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-111951" revision="566168">
+    <title><![CDATA[Überwachung von Systemen]]></title>
+    <description><![CDATA[Der Anbieter MUSS die in seinem Security Monitoring Konzept festgelegten 
+Systeme hinsichtlich sicherheitsrelevanter Ereignisse kontinuierlich und 
+echtzeitnah überwachen. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS die in seinem Security Monitoring Konzept festgelegten Systeme hinsichtlich sicherheitsrelevanter Ereignisse kontinuierlich und echtzeitnah überwachen. ]]></description_html>
+  </requirement>
+  <requirement id="A_20717" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-111952" revision="566168">
+    <title><![CDATA[Zentrale Auswertung sicherheitsrelevanter Ereignisse]]></title>
+    <description><![CDATA[Der Anbieter MUSS die Ergebnisse der Überwachung der in seinem Security 
+Monitoring Konzept festgelegten Systeme an zentraler Stelle aggregieren, 
+korrelieren und analysieren. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS die Ergebnisse der Überwachung der in seinem Security Monitoring Konzept festgelegten Systeme an zentraler Stelle aggregieren, korrelieren und analysieren. ]]></description_html>
+  </requirement>
+  <requirement id="A_20718" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-111953" revision="566168">
+    <title><![CDATA[Reaktion auf detektierte Ereignisse]]></title>
+    <description><![CDATA[Der Anbieter MUSS auf detektierte Ereignisse (Alarme) unverzüglich reagieren 
+und verifizieren, ob das Ereignis einen Sicherheitsvorfall darstellt. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS auf detektierte Ereignisse (Alarme) unverzüglich reagieren und verifizieren, ob das Ereignis einen Sicherheitsvorfall darstellt. ]]></description_html>
+  </requirement>
+  <requirement id="A_20719" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-22" technicalID="ML-111954" revision="566168">
+    <title><![CDATA[Weiterleitung erkannter Alarme an TI SIEM]]></title>
+    <description><![CDATA[Der Anbieter MUSS für in seinem Security Monitoring Konzept festgelegten 
+Systeme erkannte Anomalien technisch automatisiert über die von der gematik 
+angebotene Schnittstelle an das TI SIEM System übermitteln. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS für in seinem Security Monitoring Konzept festgelegten Systeme erkannte Anomalien technisch automatisiert über die von der gematik angebotene Schnittstelle an das TI SIEM System übermitteln. ]]></description_html>
+  </requirement>
+  <requirement id="A_20720" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-22" technicalID="ML-111955" revision="566168">
+    <title><![CDATA[Weiterleitung von Logdaten (Rohdaten) an TI SIEM]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik auf Nachfrage Stichproben der Rohdaten für die in 
+seinem Security Monitoring Konzept festgelegten Systeme automatisiert über die 
+von der gematik angebotene Schnittstelle an das TI SIEM System übermitteln. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik auf Nachfrage Stichproben der Rohdaten für die in seinem Security Monitoring Konzept festgelegten Systeme automatisiert über die von der gematik angebotene Schnittstelle an das TI SIEM System übermitteln. ]]></description_html>
+  </requirement>
+  <requirement id="A_21719" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-22" technicalID="ML-119251" revision="566168">
+    <title><![CDATA[Weiterleitung von Reports TI SIEM]]></title>
+    <description><![CDATA[Der Anbieter MUSS für die in seinem Security Monitoring Konzept festgelegten 
+Systeme aggregierte Informationen (Reports) technisch automatisiert über die 
+von der gematik angebotene Schnittstelle an das TI SIEM System übermitteln.]]></description>
+    <description_html><![CDATA[<span id="polarion-comment:118"></span>Der Anbieter MUSS für die in seinem Security Monitoring Konzept festgelegten Systeme aggregierte Informationen (Reports) technisch automatisiert über die von der gematik angebotene Schnittstelle an das TI SIEM System übermitteln.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5558" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21251" revision="566168">
+    <title><![CDATA[Aktive Schwachstellenscans]]></title>
+    <description><![CDATA[Der Anbieter MUSS im Rahmen seines Schwachstellenmanagements mindestens 
+monatliche Schwachstellenscans oder vergleichbare Maßnahmen zur Erkennung und 
+Analyse von tech­nischen Schwachstellen („vulnerabilities“) in den vom ihm 
+betriebenen Dienst der TI bzw. RZ-Consumer durchführen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS im Rahmen seines Schwachstellenmanagements mindestens monatliche Schwachstellenscans oder vergleichbare Maßnahmen zur Erkennung und Analyse von tech­nischen Schwachstellen („vulnerabilities“) in den vom ihm betriebenen Dienst der TI bzw. RZ-Consumer durchführen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5559-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-22" technicalID="ML-119255" revision="566168">
+    <title><![CDATA[Bereitstellung Ergebnisse von Schwachstellenscans]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik die Ergebnisse von durchgeführten 
+Schwachstellenscans oder der vergleichbaren Maßnahmen zur Erkennung und Analyse 
+von technischen Schwachstellen monatlich in maschinenlesbarer Form zur 
+Verfügung stellen. Dabei MÜSSEN mindestens die folgenden Inhalte enthalten 
+sein: Scandatum, betroffene Umgebung (PU/RU/TU), betroffenes System 
+(interner/externer Name), betroffenes System (IP-Adresse), betroffene Software, 
+eindeutige  Bezeichnung der Schwachstelle als CVE, Schweregrad der 
+Schwachstelle als CVSS, Information zum Umgang mit der Schwachstelle.]]></description>
+    <description_html><![CDATA[<span id="polarion-comment:121"></span>Der Anbieter MUSS der gematik die Ergebnisse von durchgeführten Schwachstellenscans oder der vergleichbaren Maßnahmen zur Erkennung und Analyse von technischen Schwachstellen monatlich in maschinenlesbarer Form zur Verfügung stellen. Dabei MÜSSEN mindestens die folgenden Inhalte enthalten sein: Scandatum, betroffene Umgebung (PU/RU/TU), betroffenes System (interner/externer Name), betroffenes System (IP-Adresse), betroffene Software, eindeutige  Bezeichnung der Schwachstelle als CVE, Schweregrad der Schwachstelle als CVSS, Information zum Umgang mit der Schwachstelle.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5560" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21254" revision="566168">
+    <title><![CDATA[Entgegennahme und Prüfung von Meldungen der gematik]]></title>
+    <description><![CDATA[Der Anbieter MUSS von der gematik übermittelte Meldungen zu Schwachstellen, 
+Bedrohungen und Sicherheitsvorfällen annehmen, bewerten und die erforderlichen 
+Maßnahmen mit der gematik abstimmen und umsetzen. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS von der gematik übermittelte Meldungen zu Schwachstellen, Bedrohungen und Sicherheitsvorfällen annehmen, bewerten und die erforderlichen Maßnahmen mit der gematik abstimmen und umsetzen. ]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5561" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21255" revision="566168">
+    <title><![CDATA[Bereitstellung 24/7-Kontaktpunkt]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik einen Kontaktpunkt benennen, über den der 
+Anbieter jederzeit sicherheitsrelevante Meldungen der gematik entgegennehmen 
+kann, um eine unverzügliche Bearbeitung und Reaktion zu gewährleisten.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik einen Kontaktpunkt benennen, über den der Anbieter jederzeit sicherheitsrelevante Meldungen der gematik entgegennehmen kann, um eine unverzügliche Bearbeitung und Reaktion zu gewährleisten.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5562" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21256" revision="566168">
+    <title><![CDATA[Bereitstellung Produktinformationen]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik halbjährlich eine aktuelle Liste der zur 
+Leistungserbringung von Diensten der TI bzw. RZ-Consumern verwendeten Hard- und 
+Softwareprodukte sowie dem zugehörigen TI-Produkttyp übermitteln. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik halbjährlich eine aktuelle Liste der zur Leistungserbringung von Diensten der TI bzw. RZ-Consumern verwendeten Hard- und Softwareprodukte sowie dem zugehörigen TI-Produkttyp übermitteln. ]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5563" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21258" revision="566168">
+    <title><![CDATA[Jahressicherheitsbericht]]></title>
+    <description><![CDATA[Der Anbieter MUSS sicherstellen, dass der gematik jährlich ein 
+Sicherheitsbericht vorliegt (spätestens bis Ende März des Folgejahres), der 
+mindestens folgende Inhalte hat:
+
+ * allgemeiner Überblick des Sicherheitsstatus der vom Anbieter betriebenen 
+Dienste der TI, RZ-Consumer bzw. weiteren Anwendungen (einschl. 
+sicherheitsrelevanter Erkenntnisse aufgrund gesetzlicher Änderungen, des 
+technischen Fortschritts oder veränderter Bedrohungslage)
+ * Übersicht der im Jahreszeitraum eigenverantwortlich durchgeführten Audits 
+(Management Summary)
+ * Handlungsempfehlungen und Entscheidungsbedarf auf Seiten der gematik.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS sicherstellen, dass der gematik jährlich ein Sicherheitsbericht vorliegt (spätestens bis Ende März des Folgejahres), der mindestens folgende Inhalte hat: <br/> <ul><li>allgemeiner Überblick des Sicherheitsstatus der vom Anbieter betriebenen Dienste der TI, RZ-Consumer bzw. weiteren Anwendungen (einschl. sicherheitsrelevanter Erkenntnisse aufgrund gesetzlicher Änderungen, des technischen Fortschritts oder veränderter Bedrohungslage)</li><li>Übersicht der im Jahreszeitraum eigenverantwortlich durchgeführten Audits (Management Summary)</li><li>Handlungsempfehlungen und Entscheidungsbedarf auf Seiten der gematik.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4530-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21259" revision="566168">
+    <title><![CDATA[Maßnahmen zur Behebung von erheblichen Sicherheitsvorfällen und Notfällen]]></title>
+    <description><![CDATA[Der Anbieter MUSS sich bei erheblichen Sicherheitsvorfällen und Notfällen mit 
+der gematik hinsichtlich der Maßnahmen und deren Umsetzung abstimmen sowie 
+deren erfolgreichen Abschluss direkt der gematik melden.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS sich bei erheblichen Sicherheitsvorfällen und Notfällen mit der gematik hinsichtlich der Maßnahmen und deren Umsetzung abstimmen sowie deren erfolgreichen Abschluss direkt der gematik melden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4532-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21260" revision="566168">
+    <title><![CDATA[Nachweis der Umsetzung von Maßnahmen in Folge eines erheblichen Sicherheitsvorfalls oder Notfalls]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik auf Anfrage die Umsetzung der Maßnahmen zur 
+Behebung eines  erheblichen Sicherheitsvorfalls oder Notfalls, z. B. in Form 
+von zur Verfügung gestellten Dokumentationen, neuen Regelungen oder Prozessen 
+sowie anhand von Auszügen aus der Konfiguration oder Logdaten, nachweisen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik auf Anfrage die Umsetzung der Maßnahmen zur Behebung eines  erheblichen Sicherheitsvorfalls oder Notfalls, z. B. in Form von zur Verfügung gestellten Dokumentationen, neuen Regelungen oder Prozessen sowie anhand von Auszügen aus der Konfiguration oder Logdaten, nachweisen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5324-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21261" revision="566168">
+    <title><![CDATA[Teilnahme des Anbieters an Sitzungen des kISMS]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik zusichern, dass der Anbieter das koordinierende 
+Informationssicherheitsmanagementsystem (kISMS) der gematik unterstützt, indem 
+auf Einladung der gematik ein Sicherheitsbeauftragter des Anbieters am 
+Arbeitskreis Datenschutz und Informationssicherheit (AK DIS) teilnimmt, der 
+sich im Rahmen seiner beruflichen Tätigkeit mit dem operativen Betrieb der vom 
+Anbieter betriebenen Dienste befasst. ]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik zusichern, dass der Anbieter das koordinierende Informationssicherheitsmanagementsystem (kISMS) der gematik unterstützt, indem auf Einladung der gematik ein Sicherheitsbeauftragter des Anbieters am Arbeitskreis Datenschutz und Informationssicherheit (AK DIS) teilnimmt, der sich im Rahmen seiner beruflichen Tätigkeit mit dem operativen Betrieb der vom Anbieter betriebenen Dienste befasst. ]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5624-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-121231" revision="566168">
+    <title><![CDATA[Auditrechte der gematik zur Informationssicherheit]]></title>
+    <description><![CDATA[Der Anbieter MUSS zusichern, dass die gematik oder ein von ihr zur 
+Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind,
+
+ * pro Kalenderjahr maximal ein Regelaudit durchzuführen. Hiervon unbenommen 
+ist das Recht der gematik, anlassbezogene Audits durchzuführen,
+ * im Rahmen eines Audits beim Anbieter die konkrete Umsetzung der an den 
+Anbieter gestellten Anforderungen der TI zur Informationssicherheit zu 
+überprüfen,
+ * im Rahmen eines Audits während der üblichen Geschäftszeiten die 
+Geschäftsräume des Anbieters zu betreten,
+ * im Rahmen eines Audits alle für das Audit benötigten Informationen zur 
+Verfügung gestellt zu bekommen und insbesondere die erforderlichen Zugangs-, 
+Auskunfts- und Einsichtsrechte zu erhalten.Die Durchführung von Audits kann 
+neben einer Begutachtung vor Ort und Dokumentenprüfungen auch die Durchführung 
+von technischen Sicherheitsanalysen (z.B. Penetrationstests, Logfileanalyse 
+oder Source-Code-Analysen) beinhalten. Dies hat der Anbieter im gleichen Maße 
+für Unterauftragnehmer zuzusichern. Die Kosten, die dem Anbieter durch diese 
+Mitwirkungspflichten entstehen, trägt der Anbieter selbst.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS zusichern, dass die gematik oder ein von ihr zur Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind, <br/><ul><li>pro Kalenderjahr maximal ein Regelaudit durchzuführen. Hiervon unbenommen ist das Recht der gematik, anlassbezogene Audits durchzuführen,</li><li>im Rahmen eines Audits beim Anbieter die konkrete Umsetzung der an den Anbieter gestellten Anforderungen der TI zur Informationssicherheit zu überprüfen,</li><li>im Rahmen eines Audits während der üblichen Geschäftszeiten die Geschäftsräume des Anbieters zu betreten,</li><li>im Rahmen eines Audits alle für das Audit benötigten Informationen zur Verfügung gestellt zu bekommen und insbesondere die erforderlichen Zugangs-, Auskunfts- und Einsichtsrechte zu erhalten.</li></ul><span id="polarion-comment:123"></span>Die Durchführung von Audits kann neben einer Begutachtung vor Ort und Dokumentenprüfungen auch die Durchführung von technischen Sicherheitsanalysen (z.B. Penetrationstests, Logfileanalyse oder Source-Code-Analysen) beinhalten. Dies hat der Anbieter im gleichen Maße für Unterauftragnehmer zuzusichern. Die Kosten, die dem Anbieter durch diese Mitwirkungspflichten entstehen, trägt der Anbieter selbst.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4526-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21265" revision="566168">
+    <title><![CDATA[Aufbewahrungsvorgaben an die Nachweise zu Sicherheitsmeldungen]]></title>
+    <description><![CDATA[Der Anbieter MUSS geeignete Nachweise zu den an die gematik übermittelten 
+Sicherheitsmeldungen mindestens ein Jahr, nachdem diese bei der gematik 
+eingegangen sind, vorhalten, um bei einem Informationssicherheitsaudit die 
+Nachvollziehbarkeit der gemachten Meldungen zu ermöglichen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS geeignete Nachweise zu den an die gematik übermittelten Sicherheitsmeldungen mindestens ein Jahr, nachdem diese bei der gematik eingegangen sind, vorhalten, um bei einem Informationssicherheitsaudit die Nachvollziehbarkeit der gemachten Meldungen zu ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2076-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21268" revision="566168">
+    <title><![CDATA[kDSM: Datenschutzmanagement nach BSI]]></title>
+    <description><![CDATA[Der Anbieter MUSS ein Datenschutzmanagement nach Baustein CON.2 des 
+IT-Grundschutzkompendiums umsetzen]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS ein Datenschutzmanagement nach Baustein CON.2 des IT-Grundschutzkompendiums umsetzen]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5564" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21269" revision="566168">
+    <title><![CDATA[kDSM: Ansprechpartner für Datenschutz]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik eine Kommunikationsschnittstelle für Datenschutz 
+(übliche Kontaktinformationen, wie Name eines Ansprechpartners, Stellvertreter, 
+E-Mail-Adresse, Telefon, Fax, Anschrift, …) sowie die für den Anbieter 
+zuständige datenschutzrechtliche Aufsichtsbehörde mitteilen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik eine Kommunikationsschnittstelle für Datenschutz (übliche Kontaktinformationen, wie Name eines Ansprechpartners, Stellvertreter, E-Mail-Adresse, Telefon, Fax, Anschrift, …) sowie die für den Anbieter zuständige datenschutzrechtliche Aufsichtsbehörde mitteilen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4479-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21270" revision="566168">
+    <title><![CDATA[kDSM: Meldung von Änderungen der Kontaktinformationen zum Datenschutzmanagement]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik Änderungen der Kontaktinformationen seines 
+Datenschutzmanagements unverzüglich mitteilen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik Änderungen der Kontaktinformationen seines Datenschutzmanagements unverzüglich mitteilen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4473-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21271" revision="566168">
+    <title><![CDATA[kDSM: Unverzügliche Benachrichtigung bei Verstößen gemäß Art. 34 DSGVO]]></title>
+    <description><![CDATA[Der Anbieter MUSS jeden Datenschutzverstoß, der die Voraussetzungen für eine 
+Benachrichtigung der Betroffenen nach Art. 34 DSGVO erfüllt und der sich auf 
+die vom Anbieter betriebenen Dienste der TI, RZ-Consumer, Fachdienste VSDM bzw. 
+die weiteren Anwendungen bezieht, unverzüglich nach bekannt werden der gematik 
+zusammen mit folgenden Informationen melden:
+
+ * Die nach Art. 33 Abs. 3 DSGVO geforderten Informationen. 
+ * Eine Information darüber, ob der Verstoß bei einem Auftragsverarbeiter 
+erfolgte.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS jeden Datenschutzverstoß, der die Voraussetzungen für eine Benachrichtigung der Betroffenen nach Art. 34 DSGVO erfüllt und der sich auf die vom Anbieter betriebenen Dienste der TI, RZ-Consumer, Fachdienste VSDM bzw. die weiteren Anwendungen bezieht, unverzüglich nach bekannt werden der gematik zusammen mit folgenden Informationen melden: <br/>
+ 
+<ul>
+  <li>Die nach Art. 33 Abs. 3 DSGVO geforderten Informationen. </li>
+  <li>Eine Information darüber, ob der Verstoß bei einem Auftragsverarbeiter erfolgte.</li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5565" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21272" revision="566168">
+    <title><![CDATA[kDSM: Unverzügliche Behebung von Verstößen gemäß Art. 34 DSGVO]]></title>
+    <description><![CDATA[Der Anbieter MUSS im Fall von Datenschutzverstößen, die die Voraussetzungen für 
+eine Benachrichtigung der Betroffenen nach Art. 34 DSGVO erfüllen und die sich 
+auf die vom Anbieter betriebenen Dienste der TI, RZ-Consumer, Fachdienste VSDM 
+bzw. die weiteren Anwendungen beziehen, unverzüglich Maßnahmen zur Behebung des 
+Verstoßes umsetzen und den erfolgreichen Abschluss unverzüglich an die gematik 
+melden.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS im Fall von Datenschutzverstößen, die die Voraussetzungen für eine Benachrichtigung der Betroffenen nach Art. 34 DSGVO erfüllen und die sich auf die vom Anbieter betriebenen Dienste der TI, RZ-Consumer, Fachdienste VSDM bzw. die weiteren Anwendungen beziehen, unverzüglich Maßnahmen zur Behebung des Verstoßes umsetzen und den erfolgreichen Abschluss unverzüglich an die gematik melden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5626" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74913" revision="566168">
+    <title><![CDATA[kDSM: Auftragsverarbeitung]]></title>
+    <description><![CDATA[Falls ein Anbieter als Auftragsverarbeiter i. S. des Art. 4 Nr. 8 DSGVO tätig 
+ist, MUSS dieser mit dem Auftraggeber als Verantwortlichen i. S. des Art. 4 Nr. 
+7 DSGVO verbindlich regeln, wie die Pflichten des Anbieters gegenüber der 
+gematik, die sich aus den Sicherheits- und Datenschutzanforderungen der gematik 
+ergeben, erfüllt werden.]]></description>
+    <description_html><![CDATA[Falls ein Anbieter als Auftragsverarbeiter i. S. des Art. 4 Nr. 8 DSGVO tätig ist, MUSS dieser mit dem Auftraggeber als Verantwortlichen i. S. des Art. 4 Nr. 7 DSGVO verbindlich regeln, wie die Pflichten des Anbieters gegenüber der gematik, die sich aus den Sicherheits- und Datenschutzanforderungen der gematik ergeben, erfüllt werden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4468-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-01-24" technicalID="ML-21274" revision="566168">
+    <title><![CDATA[kDSM: Jährlicher Datenschutzbericht (kurz)]]></title>
+    <description><![CDATA[Der Anbieter MUSS gewährleisten, dass der gematik jährlich (spätestens bis Ende 
+März des Folgejahres) ein Jahresdatenschutzreport bzgl. der vom Anbieter 
+angebotenen Dienste der TI, RZ-Consumer bzw. die weiteren Anwendungen vorliegt, 
+der mindestens folgende Inhalte enthält:
+
+ * eine Übersicht über die Anzahl der aufgetretenen Datenschutzverstöße, die 
+die Voraussetzungen nach Art. 83 Abs. 4, 5 und 6 DSGVO erfüllen, bei denen 
+Dienste der TI, RZ-Consumer bzw. weitere Anwendungen betroffen waren; hierbei 
+ist jeweils anzugeben, gegen welche Bestimmung verstoßen wurde,
+ * eine Übersicht über die Anzahl der aufgetretenen Verletzungen des Schutzes 
+personenbezogener Daten, die die Voraussetzungen gemäß Art. 33 und 34 DSGVO 
+erfüllen, bei denen Dienste der TI, RZ-Consumer bzw. weitere Anwendungen 
+betroffen waren,
+ * eine Übersicht über die Anzahl der von Betroffenen gestellten Anfragen zur 
+Wahrnehmung der Betroffenenrechte aufgeschlüsselt nach Art. 15 (Auskunft), Art. 
+16 (Berichtigung), Art. 17 (Löschung), Art. 18 (Einschränkung), Art. 20 
+(Datenübertragbarkeit) und Art. 21 (Widerspruch) DSGVO, bezogen auf Dienste der 
+TI, RZ-Consumer bzw. weitere Anwendungen. Sofern die DSGVO nicht anwendbar ist, 
+sind die vorstehenden Angaben entsprechend bereitzustellen,
+ * eine Übersicht über die Anzahl der von Betroffenen bei der Aufsichtsbehörde 
+eingereichten Beschwerden gem. Art. 77 DSGVO, die den Anbieter als Betreiber 
+eines Dienstes der TI, RZ-Consumers bzw. einer weiteren Anwendung betreffen.Bei 
+der KTR-AdV sind Angaben im Bericht nur insoweit zu machen, sofern sie nicht 
+die Versichertenstammdaten nach § 291 SGB V betreffen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS gewährleisten, dass der gematik jährlich (spätestens bis Ende März des Folgejahres) ein Jahresdatenschutzreport bzgl. der vom Anbieter angebotenen Dienste der TI, RZ-Consumer bzw. die weiteren Anwendungen vorliegt, der mindestens folgende Inhalte enthält:<br/> <ul><li>eine Übersicht über die Anzahl der aufgetretenen Datenschutzverstöße, die die Voraussetzungen nach Art. 83 Abs. 4, 5 und 6 DSGVO erfüllen, bei denen Dienste der TI, RZ-Consumer bzw. weitere Anwendungen betroffen waren; hierbei ist jeweils anzugeben, gegen welche Bestimmung verstoßen wurde,</li><li>eine Übersicht über die Anzahl der aufgetretenen Verletzungen des Schutzes personenbezogener Daten, die die Voraussetzungen gemäß Art. 33 und 34 DSGVO erfüllen, bei denen Dienste der TI, RZ-Consumer bzw. weitere Anwendungen betroffen waren,</li><li>eine Übersicht über die Anzahl der von Betroffenen gestellten Anfragen zur Wahrnehmung der Betroffenenrechte aufgeschlüsselt nach Art. 15 (Auskunft), Art. 16 (Berichtigung), Art. 17 (Löschung), Art. 18 (Einschränkung), Art. 20 (Datenübertragbarkeit) und Art. 21 (Widerspruch) DSGVO, bezogen auf Dienste der TI, RZ-Consumer bzw. weitere Anwendungen. Sofern die DSGVO nicht anwendbar ist, sind die vorstehenden Angaben entsprechend bereitzustellen,</li><li>eine Übersicht über die Anzahl der von Betroffenen bei der Aufsichtsbehörde eingereichten Beschwerden gem. Art. 77 DSGVO, die den Anbieter als Betreiber eines Dienstes der TI, RZ-Consumers bzw. einer weiteren Anwendung betreffen.</li></ul>Bei der KTR-AdV sind Angaben im Bericht nur insoweit zu machen, sofern sie nicht die Versichertenstammdaten nach § 291 SGB V betreffen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4478-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21275" revision="566168">
+    <title><![CDATA[kDSM: Nachweis der Umsetzung von Maßnahmen in Folge eines gravierenden Datenschutzverstoßes]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik auf Anfrage die Umsetzung der Maßnahmen zur 
+Behebung eines Datenschutzverstoßes, der die Voraussetzungen für eine 
+Benachrichtigung der Betroffenen nach Art. 34 DSGVO erfüllt und der sich auf 
+die vom Anbieter betriebenen Dienste der TI, RZ-Consumer bzw. weitere 
+Anwendungen bezieht, unter zur Verfügungsstellung einer Dokumentation mit den 
+in Art. 33 Abs. 5 DSGVO geforderten Inhalten nachweisen.
+ Bei der KTR-AdV sind Nachweise zur Umsetzung von Maßnahmen nur insoweit zu 
+machen, sofern sie nicht die Versichertenstammdaten nach § 291 SGB V betreffen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik auf Anfrage die Umsetzung der Maßnahmen zur Behebung eines Datenschutzverstoßes, der die Voraussetzungen für eine Benachrichtigung der Betroffenen nach Art. 34 DSGVO erfüllt und der sich auf die vom Anbieter betriebenen Dienste der TI, RZ-Consumer bzw. weitere Anwendungen bezieht, unter zur Verfügungsstellung einer Dokumentation mit den in Art. 33 Abs. 5 DSGVO geforderten Inhalten nachweisen. <br/>
+Bei der KTR-AdV sind Nachweise zur Umsetzung von Maßnahmen nur insoweit zu machen, sofern sie nicht die Versichertenstammdaten nach § 291 SGB V betreffen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5324-02" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21276" revision="566168">
+    <title><![CDATA[kDSM: Teilnahme des Anbieters an Sitzungen des kDSM]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik zusichern, dass der Anbieter das koordinierende 
+Datenschutzmanagementsystem der gematik unterstützt, indem auf Einladung der 
+gematik ein sachkundiger Ansprechpartner für Datenschutz des Anbieters am 
+Arbeitskreis Datenschutz und Informationssicherheit (AK DIS) teilnimmt, der 
+sich im Rahmen seiner beruflichen Tätigkeit mit dem operativen Betrieb der vom 
+Anbieter betriebenen Dienste befasst.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik zusichern, dass der Anbieter das koordinierende Datenschutzmanagementsystem der gematik unterstützt, indem auf Einladung der gematik ein sachkundiger Ansprechpartner für Datenschutz des Anbieters am Arbeitskreis Datenschutz und Informationssicherheit (AK DIS) teilnimmt, der sich im Rahmen seiner beruflichen Tätigkeit mit dem operativen Betrieb der vom Anbieter betriebenen Dienste befasst.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4468-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-29" technicalID="ML-21278" revision="566168">
+    <title><![CDATA[kDSM: Jährlicher Datenschutzbericht der TI]]></title>
+    <description><![CDATA[Der Anbieter MUSS gewährleisten, dass der gematik jährlich (spätestens bis Ende 
+März des Folgejahres) ein Jahresdatenschutzreport bzgl. der vom Anbieter 
+angebotenen Dienste der TI bzw. RZ-Consumer vorliegt, der mindestens folgende 
+Inhalte enthält:
+
+ *  eine Liste der Verarbeitungsvorgänge nach Art. 35 Abs. 4 DSGVO mit Bezug 
+zu Diensten der TI bzw. RZ-Consumern, für die eine 
+Datenschutz-Folgenabschätzung durchgeführt wurde inkl. der Bewertung der 
+Risiken gemäß Art. 35 Abs. 7 Buchstabe c) DSGVO, 
+ *  eine Übersicht über die getroffenen technischen und organisatorischen 
+Maßnahmen zur Umsetzung der Grundsätze für die Verarbeitung personenbezogener 
+Daten entsprechend Art. 5 DSGVO, 
+ *  eine Übersicht über die Umsetzung der technischen und organisatorischen 
+Maßnahmen entsprechend Art. 32 DSGVO zum Schutz der personenbezogenen Daten in 
+den Diensten der TI bzw. RZ-Consumern, 
+ *  eine Übersicht der durchgeführten Audits mit thematischem Inhalt, bei 
+denen Dienste der TI bzw. RZ-Consumer betroffen waren, 
+ *  eine Übersicht über die Anzahl der aufgetretenen Datenschutzverstöße, die 
+die Voraussetzungen nach Art. 83 Abs. 4, 5 und 6 DSGVO erfüllen, bei denen 
+Dienste der TI bzw. RZ-Consumer betroffen waren; hierbei ist jeweils anzugeben, 
+gegen welche Bestimmung verstoßen wurde, 
+ *  eine Übersicht über die Anzahl der aufgetretenen Verletzungen des Schutzes 
+personenbezogener Daten, die die Voraussetzungen gemäß Art. 33 und 34 DSGVO 
+erfüllen, bei denen Dienste der TI bzw. RZ-Consumer betroffen waren, 
+ *  eine Übersicht über die Anzahl der von Betroffenen gestellten Anfragen zur 
+Wahrnehmung der Betroffenenrechte aufgeschlüsselt nach Art. 15 (Auskunft), Art. 
+16 (Berichtigung), Art. 17 (Löschung), Art. 18 (Einschränkung), Art. 20 
+(Datenübertragbarkeit) und Art. 21 (Widerspruch) DSGVO, bezogen auf Dienste der 
+TI bzw. RZ-Consumer. Sofern die DSGVO nicht anwendbar ist, sind die 
+vorstehenden Angaben entsprechend bereitzustellen, 
+ *  den Anteil der fehlerhaft adressierten Datenschutz-Anfragen (d. h. 
+Anfragen, für die der Anbieter nicht Verantwortlicher ist) im Verhältnis zur 
+Gesamtzahl der Datenschutz-Anfragen bzgl. der im Verantwortungsbereich des 
+Anbieters liegenden Dienste der TI bzw. RZ-Consumer, 
+ *  eine Übersicht über die durchschnittliche Bearbeitungszeit von korrekt an 
+den Anbieter im Berichtszeitraum adressierten Datenschutz-Anfragen bzgl. der 
+Dienste der TI bzw. RZ-Consumer (Zeitspanne vom Eingang der Anfrage beim 
+Anbieter bis zum Abschluss des Vorgangs beim Anbieter), 
+ *  eine Übersicht über die Anzahl der gemäß Art. 14 und Art. 19 DSGVO 
+erteilten Auskünfte ggü. Betroffenen bezogen auf Dienste der TI bzw. 
+RZ-Consumer. Sofern die DSGVO nicht anwendbar ist, sind die vorstehenden 
+Angaben entsprechend bereitzustellen, 
+ *  eine Übersicht über die Anzahl der von Betroffenen eingereichten 
+Beschwerden gem. Art. 77 DSGVO, die den Anbieter als Betreiber eines Dienstes 
+der TI bzw. RZ-Consumers betreffen, 
+ *  eine Liste der Auftragsverarbeiter, die Dienste der TI bzw. 
+RZ-Consumerbetreiben; zusätzlich ggf. für jeden Auftragsverarbeiter die von ihm 
+beauftragten weiteren Auftragsverarbeiter, 
+ *  eine Übersicht der durchgeführten Schulungen der Mitarbeiter zum 
+Datenschutz (Dauer, thematische Inhalte), 
+ *  eine Selbsteinschätzung, ob es Umsetzungsprobleme mit den Anforderungen 
+des Datenschutzes der TI bzgl. der vom Anbieter betriebenen Dienste der TI bzw. 
+RZ-Consumer gibt.  Bei der KTR-AdV sind Angaben im Bericht nur insoweit zu 
+machen, sofern sie nicht die Versichertenstammdaten nach § 291 SGB V betreffen.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS gewährleisten, dass der gematik jährlich (spätestens bis Ende März des Folgejahres) ein Jahresdatenschutzreport bzgl. der vom Anbieter angebotenen Dienste der TI bzw. RZ-Consumer vorliegt, der mindestens folgende Inhalte enthält:<br/>
+ 
+<ul>
+  <li> eine Liste der Verarbeitungsvorgänge nach Art. 35 Abs. 4 DSGVO mit Bezug zu Diensten der TI bzw. RZ-Consumern, für die eine Datenschutz-Folgenabschätzung durchgeführt wurde inkl. der Bewertung der Risiken gemäß Art. 35 Abs. 7 Buchstabe c) DSGVO,</li>
+  <li> eine Übersicht über die getroffenen technischen und organisatorischen Maßnahmen zur Umsetzung der Grundsätze für die Verarbeitung personenbezogener Daten entsprechend Art. 5 DSGVO,</li>
+  <li> eine Übersicht über die Umsetzung der technischen und organisatorischen Maßnahmen entsprechend Art. 32 DSGVO zum Schutz der personenbezogenen Daten in den Diensten der TI bzw. RZ-Consumern,</li>
+  <li> eine Übersicht der durchgeführten Audits mit thematischem Inhalt, bei denen Dienste der TI bzw. RZ-Consumer betroffen waren,</li>
+  <li> eine Übersicht über die Anzahl der aufgetretenen Datenschutzverstöße, die die Voraussetzungen nach Art. 83 Abs. 4, 5 und 6 DSGVO erfüllen, bei denen Dienste der TI bzw. RZ-Consumer betroffen waren; hierbei ist jeweils anzugeben, gegen welche Bestimmung verstoßen wurde,</li>
+  <li> eine Übersicht über die Anzahl der aufgetretenen Verletzungen des Schutzes personenbezogener Daten, die die Voraussetzungen gemäß Art. 33 und 34 DSGVO erfüllen, bei denen Dienste der TI bzw. RZ-Consumer betroffen waren, </li>
+  <li> eine Übersicht über die Anzahl der von Betroffenen gestellten Anfragen zur Wahrnehmung der Betroffenenrechte aufgeschlüsselt nach Art. 15 (Auskunft), Art. 16 (Berichtigung), Art. 17 (Löschung), Art. 18 (Einschränkung), Art. 20 (Datenübertragbarkeit) und Art. 21 (Widerspruch) DSGVO, bezogen auf Dienste der TI bzw. RZ-Consumer. Sofern die DSGVO nicht anwendbar ist, sind die vorstehenden Angaben entsprechend bereitzustellen,</li>
+  <li> den Anteil der fehlerhaft adressierten Datenschutz-Anfragen (d. h. Anfragen, für die der Anbieter nicht Verantwortlicher ist) im Verhältnis zur Gesamtzahl der Datenschutz-Anfragen bzgl. der im Verantwortungsbereich des Anbieters liegenden Dienste der TI bzw. RZ-Consumer, </li>
+  <li> eine Übersicht über die durchschnittliche Bearbeitungszeit von korrekt an den Anbieter im Berichtszeitraum adressierten Datenschutz-Anfragen bzgl. der Dienste der TI bzw. RZ-Consumer (Zeitspanne vom Eingang der Anfrage beim Anbieter bis zum Abschluss des Vorgangs beim Anbieter), </li>
+  <li> eine Übersicht über die Anzahl der gemäß Art. 14 und Art. 19 DSGVO erteilten Auskünfte ggü. Betroffenen bezogen auf Dienste der TI bzw. RZ-Consumer. Sofern die DSGVO nicht anwendbar ist, sind die vorstehenden Angaben entsprechend bereitzustellen,</li>
+  <li> eine Übersicht über die Anzahl der von Betroffenen eingereichten Beschwerden gem. Art. 77 DSGVO, die den Anbieter als Betreiber eines Dienstes der TI bzw. RZ-Consumers betreffen, </li>
+  <li> eine Liste der Auftragsverarbeiter, die Dienste der TI bzw. RZ-Consumerbetreiben; zusätzlich ggf. für jeden Auftragsverarbeiter die von ihm beauftragten weiteren Auftragsverarbeiter,</li>
+  <li> eine Übersicht der durchgeführten Schulungen der Mitarbeiter zum Datenschutz (Dauer, thematische Inhalte),</li>
+  <li> eine Selbsteinschätzung, ob es Umsetzungsprobleme mit den Anforderungen des Datenschutzes der TI bzgl. der vom Anbieter betriebenen Dienste der TI bzw. RZ-Consumer gibt.</li>
+</ul>
+ Bei der KTR-AdV sind Angaben im Bericht nur insoweit zu machen, sofern sie nicht die Versichertenstammdaten nach § 291 SGB V betreffen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2214-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21279" revision="566168">
+    <title><![CDATA[kDSM: Anbieter müssen jährlich die Auftragsverarbeiter kontrollieren]]></title>
+    <description><![CDATA[Falls der Anbieter Auftragsverarbeiter i.S. des Art. 4 Nr. 8 DSGVO beauftragt 
+hat, MUSS er sich jährlich bei den beauftragten Auftragsverarbeitern von der 
+Einhaltung der von den Auftragsverarbeitern getroffenen Maßnahmen überzeugen.]]></description>
+    <description_html><![CDATA[Falls der Anbieter Auftragsverarbeiter i.S. des Art. 4 Nr. 8 DSGVO beauftragt hat, MUSS er sich jährlich bei den beauftragten Auftragsverarbeitern von der Einhaltung der von den Auftragsverarbeitern getroffenen Maßnahmen überzeugen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5566" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-21280" revision="566168">
+    <title><![CDATA[kDSM: Sicherstellung der Datenschutzanforderungen in Unterbeauftragungsverhältnissen]]></title>
+    <description><![CDATA[Der Anbieter MUSS im Falle von Unterbeauftragungen einzelner oder mehrerer 
+Leistungen an Auftragsverarbeiter im Sinne des Art. 4 Nr. 8 DSGVO in den 
+Unterbeauftragungsverträgen sicherstellen, dass die datenschutzrechtlichen 
+Pflichten, die er zu beachten hat, im gleichen Maße von den Unterauftragnehmern 
+erfüllt werden. Dies gilt gleichermaßen für weitere 
+Unterbeauftragungsverhältnisse.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS im Falle von Unterbeauftragungen einzelner oder mehrerer Leistungen an Auftragsverarbeiter im Sinne des Art. 4 Nr. 8 DSGVO in den Unterbeauftragungsverträgen sicherstellen, dass die datenschutzrechtlichen Pflichten, die er zu beachten hat, im gleichen Maße von den Unterauftragnehmern erfüllt werden. Dies gilt gleichermaßen für weitere Unterbeauftragungsverhältnisse.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5625" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74914" revision="566168">
+    <title><![CDATA[kDSM: Auditrechte der gematik zum Datenschutz]]></title>
+    <description><![CDATA[Der Anbieter MUSS zusichern, dass die gematik oder ein von ihr zur 
+Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind,
+
+ * pro Kalenderjahr maximal ein Regelaudit durchzuführen. Hiervon unbenommen 
+ist das Recht der gematik, anlassbezogene Audits durchzuführen,
+ * im Rahmen eines Audits beim Anbieter die konkrete Umsetzung der an den 
+Anbieter gestellten Anforderungen der TI zum Datenschutz zu überprüfen,
+ * im Rahmen eines Audits während der üblichen Geschäftszeiten die 
+Geschäftsräume des Anbieters zu betreten,
+ * im Rahmen eines Audits alle für das Audit benötigten Informationen zur 
+Verfügung gestellt zu bekommen und insbesondere die erforderlichen Zugangs-, 
+Auskunfts- und Einsichtsrechte zu erhalten.Dies hat der Anbieter im gleichen 
+Maße für Unterauftragnehmer zuzusichern. Die Kosten, die dem Anbieter durch 
+diese Mitwirkungspflichten entstehen, trägt der Anbieter selbst.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS zusichern, dass die gematik oder ein von ihr zur Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind, <br/><ul><li>pro Kalenderjahr maximal ein Regelaudit durchzuführen. Hiervon unbenommen ist das Recht der gematik, anlassbezogene Audits durchzuführen,</li><li>im Rahmen eines Audits beim Anbieter die konkrete Umsetzung der an den Anbieter gestellten Anforderungen der TI zum Datenschutz zu überprüfen,</li><li>im Rahmen eines Audits während der üblichen Geschäftszeiten die Geschäftsräume des Anbieters zu betreten,</li><li>im Rahmen eines Audits alle für das Audit benötigten Informationen zur Verfügung gestellt zu bekommen und insbesondere die erforderlichen Zugangs-, Auskunfts- und Einsichtsrechte zu erhalten.</li></ul>Dies hat der Anbieter im gleichen Maße für Unterauftragnehmer zuzusichern. Die Kosten, die dem Anbieter durch diese Mitwirkungspflichten entstehen, trägt der Anbieter selbst.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5567" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-21284" revision="566168">
+    <title><![CDATA[Nutzung Zentraler Dienste der TI nur durch bestätigte Anwendungen]]></title>
+    <description><![CDATA[Ein Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS durch 
+technisch-organisatorische Maßnahmen gewährleisten, dass ausschließlich die 
+bestätigten Anwendungen bestimmte, festgelegte Zentrale Dienste der TI nutzen 
+können.]]></description>
+    <description_html><![CDATA[Ein Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS durch technisch-organisatorische Maßnahmen gewährleisten, dass ausschließlich die bestätigten Anwendungen bestimmte, festgelegte Zentrale Dienste der TI nutzen können.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5568" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-21285" revision="566168">
+    <title><![CDATA[Keine Weitergabe von Daten Zentraler Dienste der TI an nicht bestätigte oder zugelassene Anwendungen]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS durch 
+technisch-organisatorische Maßnahmen gewährleisten, dass von Zentralen Diensten 
+der TI zur Verfügung gestellte personenbezogene Daten weder unverändert noch 
+geändert an nicht bestätigte oder nicht zugelassene Anwendungen weitergegeben 
+werden.]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS durch technisch-organisatorische Maßnahmen gewährleisten, dass von Zentralen Diensten der TI zur Verfügung gestellte personenbezogene Daten weder unverändert noch geändert an nicht bestätigte oder nicht zugelassene Anwendungen weitergegeben werden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5569" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-21286" revision="566168">
+    <title><![CDATA[Sicherung der Netzgrenzen]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS ggf. 
+vorhandene Netzgrenzen derart sichern, dass außerhalb der Netzgrenzen nicht auf 
+die TI zugegriffen werden kann.]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS ggf. vorhandene Netzgrenzen derart sichern, dass außerhalb der Netzgrenzen nicht auf die TI zugegriffen werden kann.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5570" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-21287" revision="566168">
+    <title><![CDATA[Kein Zugriff auf gekoppelte Netze]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS durch 
+technisch-organisatorische Maßnahmen gewährleisten, dass ggf. an die 
+Netzgrenzen des Bestätigungsumfangs gekoppelte Netze nicht von Nutzern der TI 
+erreichbar sind.]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS durch technisch-organisatorische Maßnahmen gewährleisten, dass ggf. an die Netzgrenzen des Bestätigungsumfangs gekoppelte Netze nicht von Nutzern der TI erreichbar sind.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5571" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-21288" revision="566168">
+    <title><![CDATA[keine Fälschung von IP-Adressen]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS 
+sicherstellen, dass in allen Netzsegmenten, die zur Verbindung der bestätigten 
+oder zugelassenen Dienste mit dem Netzübergang zur Telematikinfrastruktur 
+genutzt werden, Adressinformationen in IP-Paketen unverändert bleiben und es 
+nicht möglich ist, IP-Pakete mit falschen Adressinformationen einzuschleusen. ]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS sicherstellen, dass in allen Netzsegmenten, die zur Verbindung der bestätigten oder zugelassenen Dienste mit dem Netzübergang zur Telematikinfrastruktur genutzt werden, Adressinformationen in IP-Paketen unverändert bleiben und es nicht möglich ist, IP-Pakete mit falschen Adressinformationen einzuschleusen. ]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5572" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-21289" revision="566168">
+    <title><![CDATA[Sichere Speicherung privater Schlüssel für TI-Identitäten]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS die ihm 
+zugeordneten privaten asymmetrischen Schlüssel von Identitäten der 
+Telematikinfrastruktur sicher speichern, so dass der Schlüssel während der 
+Speicherung insbesondere nicht unautorisiert ausgelesen, unautorisiert 
+verändert, unautorisiert ersetzt oder in anderer Weise unautorisiert benutzt 
+werden kann.]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS die ihm zugeordneten privaten asymmetrischen Schlüssel von Identitäten der Telematikinfrastruktur sicher speichern, so dass der Schlüssel während der Speicherung insbesondere nicht unautorisiert ausgelesen, unautorisiert verändert, unautorisiert ersetzt oder in anderer Weise unautorisiert benutzt werden kann.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5573" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-21290" revision="566168">
+    <title><![CDATA[Qualität der X.509-Identität des Dienstes der Anwendung]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS 
+sicherstellen, dass die zum Komponentenzertifikat gehörende X.509-Identität des 
+Dienstes der weiteren Anwendung die Vorgaben für X.509-Identitäten aus 
+[gemSpec_Krypt] erfüllt.]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS sicherstellen, dass die zum Komponentenzertifikat gehörende X.509-Identität des Dienstes der weiteren Anwendung die Vorgaben für X.509-Identitäten aus [gemSpec_Krypt] erfüllt.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5574" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-21291" revision="566168">
+    <title><![CDATA[Kryptographische Verfahren bei Anbietern mit Beeinträchtigung der TI]]></title>
+    <description><![CDATA[Falls der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI 
+kryptographische Verfahren zum Schutz personenbezogener medizinischer Daten 
+verwendet, MÜSSEN die Vorgaben aus [gemSpec_Krypt] eingehalten werden.]]></description>
+    <description_html><![CDATA[Falls der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI kryptographische Verfahren zum Schutz personenbezogener medizinischer Daten verwendet, MÜSSEN die Vorgaben aus [gemSpec_Krypt] eingehalten werden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5575" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-07" technicalID="ML-21292" revision="566168">
+    <title><![CDATA[Auditrechte der gematik bei weiteren Anwendungen]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS zusichern, 
+dass die gematik oder ein von ihr zur Geheimhaltung verpflichteter 
+Bevollmächtigter berechtigt sind,
+
+ *  pro Kalenderjahr maximal ein Regelaudit durchzuführen. Hiervon unbenommen 
+ist das Recht der gematik, anlassbezogene Audits durchzuführen, 
+ *  im Rahmen eines Audits beim Anbieter die konkrete Umsetzung der an den 
+Anbieter gestellten Anforderungen der TI zum Datenschutz und der 
+Informationssicherheit zu überprüfen, 
+ *  im Rahmen eines Audits während der üblichen Geschäftszeiten die 
+Geschäftsräume des Anbieters zu betreten, 
+ *  im Rahmen eines Audits alle für das Audit benötigten Informationen zur 
+Verfügung gestellt zu bekommen und insbesondere die erforderlichen Zugangs-, 
+Auskunfts- und Einsichtsrechte zu erhalten.  Dies hat der Anbieter im gleichen 
+Maße für Unterauftragnehmer zuzusichern. Die Kosten, die dem Anbieter durch 
+diese Mitwirkungspflichten entstehen, trägt der Anbieter selbst.]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen mit Beeinträchtigung der TI MUSS zusichern, dass die gematik oder ein von ihr zur Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind, <br/>
+<ul>
+  <li> pro Kalenderjahr maximal ein Regelaudit durchzuführen. Hiervon unbenommen ist das Recht der gematik, anlassbezogene Audits durchzuführen,</li>
+  <li> im Rahmen eines Audits beim Anbieter die konkrete Umsetzung der an den Anbieter gestellten Anforderungen der TI zum Datenschutz und der Informationssicherheit zu überprüfen, </li>
+  <li> im Rahmen eines Audits während der üblichen Geschäftszeiten die Geschäftsräume des Anbieters zu betreten,</li>
+  <li> im Rahmen eines Audits alle für das Audit benötigten Informationen zur Verfügung gestellt zu bekommen und insbesondere die erforderlichen Zugangs-, Auskunfts- und Einsichtsrechte zu erhalten.</li>
+</ul>
+ Dies hat der Anbieter im gleichen Maße für Unterauftragnehmer zuzusichern. Die Kosten, die dem Anbieter durch diese Mitwirkungspflichten entstehen, trägt der Anbieter selbst. <br/>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5576" type="leafRequirement" severity="MUSS" lastUpdate="2018-11-09" technicalID="ML-21294" revision="566168">
+    <title><![CDATA[Regelmäßiger Nachweis von Datenschutz- und Sicherheit]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen ohne Beeinträchtigung der TI MUSS der 
+Zulassungsstelle der gematik alle drei Jahre schriftlich mitteilen, dass in 
+allen Anwendungen des Anbieters, die mittels der TI nutzbar sind, die 
+Datenschutz- und Sicherheitsanforderungen des für die Anwendungen geltenden 
+Produktsteckbriefes umgesetzt sind, die Vorschriften zum Datenschutz 
+eingehalten werden und die Anforderungen an die Sicherheit der Anwendungen 
+gewährleistet ist.]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen ohne Beeinträchtigung der TI MUSS der Zulassungsstelle der gematik alle drei Jahre schriftlich mitteilen, dass in allen Anwendungen des Anbieters, die mittels der TI nutzbar sind, die Datenschutz- und Sicherheitsanforderungen des für die Anwendungen geltenden Produktsteckbriefes umgesetzt sind, die Vorschriften zum Datenschutz eingehalten werden und die Anforderungen an die Sicherheit der Anwendungen gewährleistet ist.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5577" type="leafRequirement" severity="MUSS" lastUpdate="2018-11-09" technicalID="ML-21295" revision="566168">
+    <title><![CDATA[Erklärung bei Änderungen am Bestätigungsobjekt]]></title>
+    <description><![CDATA[Der Anbieter weiterer Anwendungen ohne Beeinträchtigung der TI MUSS bei 
+Änderungen am Objekt der Bestätigung, die der Zulassungsstelle der gematik 
+angezeigt werden müssen, schriftlich mitteilen, dass durch die Änderungen 
+weiterhin die Vorschriften zum Datenschutz eingehalten werden und die 
+Anforderungen an die Sicherheit gewährleistet sind.]]></description>
+    <description_html><![CDATA[Der Anbieter weiterer Anwendungen ohne Beeinträchtigung der TI MUSS bei Änderungen am Objekt der Bestätigung, die der Zulassungsstelle der gematik angezeigt werden müssen, schriftlich mitteilen, dass durch die Änderungen weiterhin die Vorschriften zum Datenschutz eingehalten werden und die Anforderungen an die Sicherheit gewährleistet sind.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_5578" type="leafRequirement" severity="MUSS" lastUpdate="2018-11-09" technicalID="ML-21296" revision="566168">
+    <title><![CDATA[Kryptographische Verfahren bei Anbietern ohne Beeinträchtigung der TI]]></title>
+    <description><![CDATA[Falls der Anbieter weiterer Anwendungen ohne Beeinträchtigung der TI 
+kryptographische Verfahren zum Schutz personenbezogener medizinischer Daten 
+verwendet, MÜSSEN die Vorgaben aus [gemSpec_Krypt] eingehalten werden]]></description>
+    <description_html><![CDATA[Falls der Anbieter weiterer Anwendungen ohne Beeinträchtigung der TI kryptographische Verfahren zum Schutz personenbezogener medizinischer Daten verwendet, MÜSSEN die Vorgaben aus [gemSpec_Krypt] eingehalten werden]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3078" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-6602" revision="566168">
+    <title><![CDATA[Anbieter einer Schlüsselverwaltung: verpflichtende Migrationsstrategie bei Schwächung kryptographischer Primitive]]></title>
+    <description><![CDATA[Der Anbieter einer Schlüsselverwaltung innerhalb der TI MUSS in seinem 
+Sicherheitskonzept notwendige Umstellungsprozesse bei Schwächung von 
+kryptographischen Primitiven beschreiben und die Wirksamkeit der getroffenen 
+Maßnahmen ist nachzuweisen (z.B. durch dokumentierte Notfallübungen, 
+Ablaufprotokolle von abgewickelten Vorfällen).]]></description>
+    <description_html><![CDATA[Der Anbieter einer Schlüsselverwaltung innerhalb der TI MUSS in seinem Sicherheitskonzept notwendige Umstellungsprozesse bei Schwächung von kryptographischen Primitiven beschreiben und die Wirksamkeit der getroffenen Maßnahmen ist nachzuweisen (z.B. durch dokumentierte Notfallübungen, Ablaufprotokolle von abgewickelten Vorfällen).]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3125" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-6603" revision="566168">
+    <title><![CDATA[Schlüsselinstallation und Verteilung: Dokumentation gemäß Minimalitätsprinzip]]></title>
+    <description><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS in seinem Sicherheitskonzept 
+dokumentieren, welcher Schlüssel in welcher Phase seines Lebenszyklus in 
+welcher Systemkomponente transportiert wird. Es MUSS dabei sichergestellt 
+werden, dass die Schlüssel nur an diejenigen Systemkomponenten verteilt werden, 
+in denen ihr Aufenthalt vorgesehen ist und wo sie hinreichend geschützt sind.]]></description>
+    <description_html><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS in seinem Sicherheitskonzept dokumentieren, welcher Schlüssel in welcher Phase seines Lebenszyklus in welcher Systemkomponente transportiert wird. Es MUSS dabei sichergestellt werden, dass die Schlüssel nur an diejenigen Systemkomponenten verteilt werden, in denen ihr Aufenthalt vorgesehen ist und wo sie hinreichend geschützt sind.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3130" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-6604" revision="566168">
+    <title><![CDATA[Krypto_Schlüssel_Installation: Dokumentation der Schlüsselinstallation gemäß Minimalitätsprinzip]]></title>
+    <description><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS in seinem Sicherheitskonzept 
+dokumentieren, welcher Schlüssel in welcher Systemkomponente installiert wird. 
+Es MUSS dabei sichergestellt werden, dass die Schlüssel in Systemkomponenten 
+installiert werden, in denen ihr Aufenthalt vorgesehen ist und wo sie 
+hinreichend geschützt sind.]]></description>
+    <description_html><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS in seinem Sicherheitskonzept dokumentieren, welcher Schlüssel in welcher Systemkomponente installiert wird. Es MUSS dabei sichergestellt werden, dass die Schlüssel in Systemkomponenten installiert werden, in denen ihr Aufenthalt vorgesehen ist und wo sie hinreichend geschützt sind.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3139" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-6605" revision="566168">
+    <title><![CDATA[Krypto_Schlüssel: Dienst Schlüsselableitung]]></title>
+    <description><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS sicherstellen, dass der 
+Ableitungsprozess unumkehrbar und nicht vorhersehbar ist (die Kompromittierung 
+eines abgeleiteten Schlüssels darf nicht den Ableitungsschlüssel oder andere 
+abgeleitete Schlüssel kompromittieren).]]></description>
+    <description_html><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS sicherstellen, dass der Ableitungsprozess unumkehrbar und nicht vorhersehbar ist (die Kompromittierung eines abgeleiteten Schlüssels darf nicht den Ableitungsschlüssel oder andere abgeleitete Schlüssel kompromittieren).]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3141" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-6606" revision="566168">
+    <title><![CDATA[Krypto_Schlüssel_Ableitung: Maßnahmen bei Bekanntwerden von Schwächen in der Schlüsselableitungsfunktion]]></title>
+    <description><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS im Falle des Einsatzes einer 
+Schlüsselableitung (nach [ISO11770]) in seinem Sicherheitskonzept Maßnahmen für 
+das Bekanntwerden von Schwächen des kryptographischen Verfahrens, welche die 
+Grundlage der Schlüsselableitung ist, darlegen.]]></description>
+    <description_html><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS im Falle des Einsatzes einer Schlüsselableitung (nach [ISO11770]) in seinem Sicherheitskonzept Maßnahmen für das Bekanntwerden von Schwächen des kryptographischen Verfahrens, welche die Grundlage der Schlüsselableitung ist, darlegen.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_3149" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-6607" revision="566168">
+    <title><![CDATA[Krypto_Schlüssel_Archivierung: Dokumentation der Schlüsselarchivierung gemäß Minimalitätsprinzip]]></title>
+    <description><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS, falls er kryptographische 
+Schlüssel archiviert, in seinem spezifischen Sicherheitskonzept beschreiben, 
+welcher Schlüssel in welcher Phase in welcher Systemkomponente archiviert wird. 
+Er MUSS sicherstellen, dass die Schlüssel nur an diejenigen Systemkomponenten 
+verteilt werden, in denen ihr Aufenthalt vorgesehen ist und wo sie hinreichend 
+geschützt sind.]]></description>
+    <description_html><![CDATA[Der Anbieter einer Schlüsselverwaltung MUSS, falls er kryptographische Schlüssel archiviert, in seinem spezifischen Sicherheitskonzept beschreiben, welcher Schlüssel in welcher Phase in welcher Systemkomponente archiviert wird. Er MUSS sicherstellen, dass die Schlüssel nur an diejenigen Systemkomponenten verteilt werden, in denen ihr Aufenthalt vorgesehen ist und wo sie hinreichend geschützt sind.]]></description_html>
+  </requirement>
+</requirements>

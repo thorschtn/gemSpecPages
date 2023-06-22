@@ -63,7 +63,7 @@ anchor = "smart"
 
 [languages]
 [languages.de]
-title = "gematik"
+title = ""
 description = "gemSpecPages"
 languageName ="Deutsch"
 # Weight used for sorting.

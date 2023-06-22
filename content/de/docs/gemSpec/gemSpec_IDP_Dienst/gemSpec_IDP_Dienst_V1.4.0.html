@@ -156,124 +156,480 @@ ol:first-of-type {
   <div id="polarion_wiki macro name=toc"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16610">Dokumentinformationen</a></li>
-   <li><a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16611">Inhaltsverzeichnis</a></li>
-   <li> : <a href="#1">1 Einordnung des Dokumentes</a></li>
-   <li> : : <a href="#1.1">1.1 Zielsetzung</a></li>
-   <li> : : <a href="#1.2">1.2 Zielgruppe</a></li>
-   <li> : : <a href="#1.3">1.3 Geltungsbereich</a></li>
-   <li> : : <a href="#1.4">1.4 Abgrenzungen</a></li>
-   <li> : : <a href="#1.5">1.5 Methodik</a></li>
-   <li> : <a href="#2">2 Systemüberblick</a></li>
-   <li> : : <a href="#2.1">2.1 Allgemeiner Überblick</a></li>
-   <li> : : <a href="#2.2">2.2 Detaillierter Überblick</a></li>
-   <li> : <a href="#3">3 Systemkontext</a></li>
-   <li> : : <a href="#3.1">3.1 Akteure und Rollen</a></li>
-   <li> : : <a href="#3.2">3.2 Begriffsdefinition</a></li>
-   <li> : : <a href="#3.3">3.3 Verfahrensbeschreibung</a></li>
-   <li> : : <a href="#3.4">3.4 Abweichende Verfahrensbeschreibung für Primärsysteme</a></li>
-   <li> : : <a href="#3.5">3.5 Registrierung Anwendungsfrontend und Fachdienst</a></li>
-   <li> : : <a href="#3.6">3.6 Anwendungsfrontend vorbereitende Maßnahmen</a></li>
-   <li> : : <a href="#3.7">3.7 Anfrage eines ACCESS_TOKEN</a></li>
-   <li> : : <a href="#3.8">3.8 Aufgaben des Authorization-Endpunktes</a></li>
-   <li> : : : <a href="#3.8.1">3.8.1 Unzureichende Attribute für das Claim</a></li>
-   <li> : : : <a href="#3.8.2">3.8.2 Erstellung des AUTHORIZATION_CODE</a></li>
-   <li> : : <a href="#3.9">3.9 Einreichen des AUTHORIZATION_CODE</a></li>
-   <li> : : <a href="#3.10">3.10 Aufgabe des Token-Endpunktes</a></li>
-   <li> : : <a href="#3.11">3.11 Einreichen des "ACCESS_TOKEN" beim Fachdienst</a></li>
-   <li> : : <a href="#3.12">3.12 Aufgabe des Fachdienstes</a></li>
-   <li> : <a href="#4">4 Zerlegung des Produkttyps</a></li>
-   <li> : : : <a href="#4.1.1">4.1.1 Allgemeine Sicherheitsanforderungen</a></li>
-   <li> : : : <a href="#4.1.2">4.1.2 Sicherheit der Netzübergänge</a></li>
-   <li> : : <a href="#4.2">4.2 Fehlermeldungen</a></li>
-   <li> : : <a href="#4.3">4.3 Schnittstellenbeschreibung des IdP-Dienstes</a></li>
-   <li> : : <a href="#4.4">4.4 Identifikation des Clientsystems</a></li>
-   <li> : : <a href="#4.5">4.5 Unterstützung der Anmeldung mittels sektoraler Identity Provider</a></li>
-   <li> : <a href="#5">5 Funktionsmerkmale</a></li>
-   <li> : : <a href="#5.1">5.1 Authorization Server Metadata (Discovery Document)</a></li>
-   <li> : : : <a href="#5.1.1">5.1.1 Aufbau des Discovery Documents</a></li>
-   <li> : : : <a href="#5.1.2">5.1.2 Erneuerung des Discovery Documents</a></li>
-   <li> : : : <a href="#5.1.3">5.1.3 Schutz des Discovery Document</a></li>
-   <li> : : : <a href="#5.1.4">5.1.4 Liste der registrierten Authenticator Module sektoraler Identity Provider</a></li>
-   <li> : : <a href="#5.2">5.2 Authorization-Endpunkt</a></li>
-   <li> : : : <a href="#5.2.1">5.2.1 Authorization Server Eingangsdaten</a></li>
-   <li> : : : <a href="#5.2.2">5.2.2 Authorization-Endpunkt Ausgangsdaten</a></li>
-   <li> : : <a href="#5.3">5.3 Token-Endpunkt</a></li>
-   <li> : : : <a href="#5.3.1">5.3.1 Token-Endpunkt Eingangsdaten</a></li>
-   <li> : : : <a href="#5.3.2">5.3.2 Token-Endpunkt Ausgangsdaten</a></li>
-   <li> : : <a href="#5.4">5.4 Pairing-Endpunkt</a></li>
-   <li> : : : <a href="#5.4.1">5.4.1 Zielsetzung</a></li>
-   <li> : : : <a href="#5.4.2">5.4.2 Technisches Konzept</a></li>
-   <li> : : : : <a href="#5.4.2.1">5.4.2.1 Bewertung von Gerätetypen</a></li>
-   <li> : : : : : <a href="#5.4.2.1.1">5.4.2.1.1 Spezifikation</a></li>
-   <li> : : : : <a href="#5.4.2.2">5.4.2.2 Erweiterung des IdP-Dienstes um einen Pairing-Endpunkt</a></li>
-   <li> : : : : : <a href="#5.4.2.2.1">5.4.2.2.1 Spezifikation</a></li>
-   <li> : : : : <a href="#5.4.2.3">5.4.2.3 Daten und Kommunikationsstrukturen</a></li>
-   <li> : : : : <a href="#5.4.2.4">5.4.2.4 Nomenklatur Schlüsselmaterial</a></li>
-   <li> : : : : <a href="#5.4.2.5">5.4.2.5 Registrierung von alternativen Authentisierungsmitteln</a></li>
-   <li> : : : : : <a href="#5.4.2.5.1">5.4.2.5.1 Erläuterungen zum Registrierungsprozess</a></li>
-   <li> : : : : : <a href="#5.4.2.5.2">5.4.2.5.2 Spezifikation</a></li>
-   <li> : : : : <a href="#5.4.2.6">5.4.2.6 Verwendung von alternativen Authentisierungsmitteln</a></li>
-   <li> : : : : : <a href="#5.4.2.6.1">5.4.2.6.1 Erweiterung des Authorization-Endpunkts</a></li>
-   <li> : : : : : <a href="#5.4.2.6.2">5.4.2.6.2 Erläuterungen zur Verwendung von alternativen Authentisierungsmitteln</a></li>
-   <li> : : : : : <a href="#5.4.2.6.3">5.4.2.6.3 Spezifikation</a></li>
-   <li> : : : : <a href="#5.4.2.7">5.4.2.7 Inspektion und De-Registrierung der am Pairing-Endpunkt gespeicherten Daten</a></li>
-   <li> : : : : : <a href="#5.4.2.7.1">5.4.2.7.1 Inspektion am Pairing-Endpunkt</a></li>
-   <li> : : : : : <a href="#5.4.2.7.2">5.4.2.7.2 Deregistrierung von alternativen Authentisierungsmitteln</a></li>
-   <li> : : : : : <a href="#5.4.2.7.3">5.4.2.7.3 Spezifikation</a></li>
-   <li> : : <a href="#5.5">5.5 Third-Party Authorization Endpoint</a></li>
-   <li> : : : : <a href="#5.5.1.1">5.5.1.1 Third-Party Authorization-Endpunkt Eingangsdaten</a></li>
-   <li> : : : : <a href="#5.5.1.2">5.5.1.2 Third-Party Authorization-Endpunkt Ausgangsdaten</a></li>
-   <li> : <a href="#6">6 Anhang A – Verzeichnisse</a></li>
-   <li> : : <a href="#6.1">6.1 Abkürzungen</a></li>
-   <li> : : <a href="#6.2">6.2 Glossar</a></li>
-   <li> : : <a href="#6.3">6.3 Abbildungsverzeichnis</a></li>
-   <li> : : <a href="#6.4">6.4 Tabellenverzeichnis</a></li>
-   <li> : : <a href="#6.5">6.5 Referenzierte Dokumente</a></li>
-   <li> : : : <a href="#6.5.1">6.5.1 Dokumente der gematik</a></li>
-   <li> : : : <a href="#6.5.2">6.5.2 Weitere Dokumente</a></li>
-   <li> : <a href="#7">7 Anhang B - Beispiele der Objekte und Aufrufe</a></li>
-   <li> : : <a href="#7.1">7.1 Authorization Request</a></li>
-   <li> : : <a href="#7.2">7.2 Authorization Response</a></li>
-   <li> : : <a href="#7.3">7.3 Authentication Request</a></li>
-   <li> : : : <a href="#7.3.1">7.3.1 Authentication Request (SSO)</a></li>
-   <li> : : <a href="#7.4">7.4 Authentication Response</a></li>
-   <li> : : : <a href="#7.4.1">7.4.1 Authentication Response (SSO Flow)</a></li>
-   <li> : : <a href="#7.5">7.5 Token Request</a></li>
-   <li> : : <a href="#7.6">7.6 Token Response</a></li>
-   <li> : : <a href="#7.7">7.7 Aufbau des Discovery Document</a></li>
-   <li> : <a href="#8">8 Anhang C - Datenformate und Kommunikationsprotokolle im Zusammenhang mit alternativen Authentisierungsverfahren</a></li>
-   <li> : : <a href="#8.1">8.1 Datentypen</a></li>
-   <li> : : : <a href="#8.1.1">8.1.1 Übergeordnete Anforderungen</a></li>
-   <li> : : : : <a href="#8.1.1.1">8.1.1.1 Kodierung</a></li>
-   <li> : : : : <a href="#8.1.1.2">8.1.1.2 Versionierung</a></li>
-   <li> : : : : <a href="#8.1.1.3">8.1.1.3 Namen und Claims</a></li>
-   <li> : : : <a href="#8.1.2">8.1.2 Datentyp "Device_Type"</a></li>
-   <li> : : : <a href="#8.1.3">8.1.3 Datentyp "Device_Information"</a></li>
-   <li> : : : <a href="#8.1.4">8.1.4 Datentyp "Pairing_Data"</a></li>
-   <li> : : : <a href="#8.1.5">8.1.5 Datentyp "Signed_Pairing_Data"</a></li>
-   <li> : : : <a href="#8.1.6">8.1.6 Datentyp "Registration_Data"</a></li>
-   <li> : : : <a href="#8.1.7">8.1.7 Datentyp "Encrypted_Registration_Data"</a></li>
-   <li> : : : <a href="#8.1.8">8.1.8 Datentyp "Authentication_Data"</a></li>
-   <li> : : : <a href="#8.1.9">8.1.9 Datentyp "Signed_Authentication_Data"</a></li>
-   <li> : : : <a href="#8.1.10">8.1.10 Datentyp "Encrypted_Signed_Authentication_Data"</a></li>
-   <li> : : : <a href="#8.1.11">8.1.11 Datentyp "Pairing_Entry"</a></li>
-   <li> : : : <a href="#8.1.12">8.1.12 Datentyp "Pairing_Entries"</a></li>
-   <li> : : <a href="#8.2">8.2 Ausgestaltung der Kommunikation mit dem IdP-Dienst</a></li>
-   <li> : : : <a href="#8.2.1">8.2.1 Registrierung von alternativen Authentisierungsmitteln</a></li>
-   <li> : : : : <a href="#8.2.1.1">8.2.1.1 Request des Authenticator-Moduls bei Registrierung</a></li>
-   <li> : : : : <a href="#8.2.1.2">8.2.1.2 Response des Pairing-Endpunkts bei Registrierung</a></li>
-   <li> : : : <a href="#8.2.2">8.2.2 Verwendung von alternativen Authentisierungsmitteln</a></li>
-   <li> : : : : <a href="#8.2.2.1">8.2.2.1 Request des Authenticator-Moduls bei Verwendung von alternativen Authentisierungsmitteln</a></li>
-   <li> : : : : <a href="#8.2.2.2">8.2.2.2 Response des Authorization-Endpunkts bei Verwendung von alternativen Authentisierungsmitteln</a></li>
-   <li> : : : <a href="#8.2.3">8.2.3 Inspektion von Pairing-Daten am Pairing-Endpunkt</a></li>
-   <li> : : : : <a href="#8.2.3.1">8.2.3.1 Request des Authenticator-Moduls zur Inspektion</a></li>
-   <li> : : : : <a href="#8.2.3.2">8.2.3.2 Response des Pairing-Endpunkts bei Inspektion</a></li>
-   <li> : : : <a href="#8.2.4">8.2.4 Deregistrierung von Pairing-Daten am Pairing-Endpunkt</a></li>
-   <li> : : : : <a href="#8.2.4.1">8.2.4.1 Request des Authenticator-Moduls zur Deregistrierung</a></li>
-   <li> : : : : <a href="#8.2.4.2">8.2.4.2 Response des Pairing-Endpunkts bei Deregistrierung</a></li>
-   <li> : : <a href="#8.3">8.3 Vergleichsoperationen</a></li>
-   <li> : : : <a href="#8.3.1">8.3.1 Registrierung</a></li>
+   <ul>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16610">Dokumentinformationen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:10px;">
+      <a href="#polarion_wiki macro name=module-workitem;params=id=releaseIDPFoederation-16611">Inhaltsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#1">1 Einordnung des Dokumentes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.1">1.1 Zielsetzung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.2">1.2 Zielgruppe</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.3">1.3 Geltungsbereich</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.4">1.4 Abgrenzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#1.5">1.5 Methodik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#2">2 Systemüberblick</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.1">2.1 Allgemeiner Überblick</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#2.2">2.2 Detaillierter Überblick</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#3">3 Systemkontext</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.1">3.1 Akteure und Rollen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.2">3.2 Begriffsdefinition</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.3">3.3 Verfahrensbeschreibung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.4">3.4 Abweichende Verfahrensbeschreibung für Primärsysteme</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.5">3.5 Registrierung Anwendungsfrontend und Fachdienst</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.6">3.6 Anwendungsfrontend vorbereitende Maßnahmen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.7">3.7 Anfrage eines ACCESS_TOKEN</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.8">3.8 Aufgaben des Authorization-Endpunktes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.8.1">3.8.1 Unzureichende Attribute für das Claim</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#3.8.2">3.8.2 Erstellung des AUTHORIZATION_CODE</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.9">3.9 Einreichen des AUTHORIZATION_CODE</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.10">3.10 Aufgabe des Token-Endpunktes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.11">3.11 Einreichen des "ACCESS_TOKEN" beim Fachdienst</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#3.12">3.12 Aufgabe des Fachdienstes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#4">4 Zerlegung des Produkttyps</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.1.1">4.1.1 Allgemeine Sicherheitsanforderungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#4.1.2">4.1.2 Sicherheit der Netzübergänge</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.2">4.2 Fehlermeldungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.3">4.3 Schnittstellenbeschreibung des IdP-Dienstes</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.4">4.4 Identifikation des Clientsystems</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#4.5">4.5 Unterstützung der Anmeldung mittels sektoraler Identity Provider</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#5">5 Funktionsmerkmale</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.1">5.1 Authorization Server Metadata (Discovery Document)</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.1">5.1.1 Aufbau des Discovery Documents</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.2">5.1.2 Erneuerung des Discovery Documents</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.3">5.1.3 Schutz des Discovery Document</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.1.4">5.1.4 Liste der registrierten Authenticator Module sektoraler Identity Provider</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.2">5.2 Authorization-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.2.1">5.2.1 Authorization Server Eingangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.2.2">5.2.2 Authorization-Endpunkt Ausgangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.3">5.3 Token-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.3.1">5.3.1 Token-Endpunkt Eingangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.3.2">5.3.2 Token-Endpunkt Ausgangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.4">5.4 Pairing-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.4.1">5.4.1 Zielsetzung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#5.4.2">5.4.2 Technisches Konzept</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.4.2.1">5.4.2.1 Bewertung von Gerätetypen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.1.1">5.4.2.1.1 Spezifikation</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.4.2.2">5.4.2.2 Erweiterung des IdP-Dienstes um einen Pairing-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.2.1">5.4.2.2.1 Spezifikation</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.4.2.3">5.4.2.3 Daten und Kommunikationsstrukturen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.4.2.4">5.4.2.4 Nomenklatur Schlüsselmaterial</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.4.2.5">5.4.2.5 Registrierung von alternativen Authentisierungsmitteln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.5.1">5.4.2.5.1 Erläuterungen zum Registrierungsprozess</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.5.2">5.4.2.5.2 Spezifikation</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.4.2.6">5.4.2.6 Verwendung von alternativen Authentisierungsmitteln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.6.1">5.4.2.6.1 Erweiterung des Authorization-Endpunkts</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.6.2">5.4.2.6.2 Erläuterungen zur Verwendung von alternativen Authentisierungsmitteln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.6.3">5.4.2.6.3 Spezifikation</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.4.2.7">5.4.2.7 Inspektion und De-Registrierung der am Pairing-Endpunkt gespeicherten Daten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.7.1">5.4.2.7.1 Inspektion am Pairing-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.7.2">5.4.2.7.2 Deregistrierung von alternativen Authentisierungsmitteln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:60px;">
+      <a href="#5.4.2.7.3">5.4.2.7.3 Spezifikation</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#5.5">5.5 Third-Party Authorization Endpoint</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.5.1.1">5.5.1.1 Third-Party Authorization-Endpunkt Eingangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#5.5.1.2">5.5.1.2 Third-Party Authorization-Endpunkt Ausgangsdaten</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#6">6 Anhang A – Verzeichnisse</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.1">6.1 Abkürzungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.2">6.2 Glossar</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.3">6.3 Abbildungsverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.4">6.4 Tabellenverzeichnis</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#6.5">6.5 Referenzierte Dokumente</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#6.5.1">6.5.1 Dokumente der gematik</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#6.5.2">6.5.2 Weitere Dokumente</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#7">7 Anhang B - Beispiele der Objekte und Aufrufe</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.1">7.1 Authorization Request</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.2">7.2 Authorization Response</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.3">7.3 Authentication Request</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.3.1">7.3.1 Authentication Request (SSO)</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.4">7.4 Authentication Response</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#7.4.1">7.4.1 Authentication Response (SSO Flow)</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.5">7.5 Token Request</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.6">7.6 Token Response</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#7.7">7.7 Aufbau des Discovery Document</a>
+     </div></li>
+    <li>
+     <div style="text-indent:20px;">
+      <a href="#8">8 Anhang C - Datenformate und Kommunikationsprotokolle im Zusammenhang mit alternativen Authentisierungsverfahren</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.1">8.1 Datentypen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.1">8.1.1 Übergeordnete Anforderungen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.1.1.1">8.1.1.1 Kodierung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.1.1.2">8.1.1.2 Versionierung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.1.1.3">8.1.1.3 Namen und Claims</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.2">8.1.2 Datentyp "Device_Type"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.3">8.1.3 Datentyp "Device_Information"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.4">8.1.4 Datentyp "Pairing_Data"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.5">8.1.5 Datentyp "Signed_Pairing_Data"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.6">8.1.6 Datentyp "Registration_Data"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.7">8.1.7 Datentyp "Encrypted_Registration_Data"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.8">8.1.8 Datentyp "Authentication_Data"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.9">8.1.9 Datentyp "Signed_Authentication_Data"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.10">8.1.10 Datentyp "Encrypted_Signed_Authentication_Data"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.11">8.1.11 Datentyp "Pairing_Entry"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.1.12">8.1.12 Datentyp "Pairing_Entries"</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.2">8.2 Ausgestaltung der Kommunikation mit dem IdP-Dienst</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.2.1">8.2.1 Registrierung von alternativen Authentisierungsmitteln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.2.1.1">8.2.1.1 Request des Authenticator-Moduls bei Registrierung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.2.1.2">8.2.1.2 Response des Pairing-Endpunkts bei Registrierung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.2.2">8.2.2 Verwendung von alternativen Authentisierungsmitteln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.2.2.1">8.2.2.1 Request des Authenticator-Moduls bei Verwendung von alternativen Authentisierungsmitteln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.2.2.2">8.2.2.2 Response des Authorization-Endpunkts bei Verwendung von alternativen Authentisierungsmitteln</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.2.3">8.2.3 Inspektion von Pairing-Daten am Pairing-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.2.3.1">8.2.3.1 Request des Authenticator-Moduls zur Inspektion</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.2.3.2">8.2.3.2 Response des Pairing-Endpunkts bei Inspektion</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.2.4">8.2.4 Deregistrierung von Pairing-Daten am Pairing-Endpunkt</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.2.4.1">8.2.4.1 Request des Authenticator-Moduls zur Deregistrierung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:50px;">
+      <a href="#8.2.4.2">8.2.4.2 Response des Pairing-Endpunkts bei Deregistrierung</a>
+     </div></li>
+    <li>
+     <div style="text-indent:30px;">
+      <a href="#8.3">8.3 Vergleichsoperationen</a>
+     </div></li>
+    <li>
+     <div style="text-indent:40px;">
+      <a href="#8.3.1">8.3.1 Registrierung</a>
+     </div></li>
+   </ul>
   </div> 
   <p id="polarion_219"></p> 
   <h2 id="1">1 Einordnung des Dokumentes</h2> 
@@ -531,7 +887,7 @@ ol:first-of-type {
   <h3 id="3.5">3.5 Registrierung Anwendungsfrontend und Fachdienst</h3> 
   <p class="MsoNormal" id="polarion_26">Um ein Anwendungsfrontend nutzen zu können, muss dieses gemeinsam mit einem Authenticator-Modul&nbsp;in einer Applikation kombiniert und am IdP-Dienst registriert sein.&nbsp;Die Registrierung des Anwendungsfrontends ist im Dokument [gemSpec_IDP_Frontend] beschrieben.</p> 
   <p id="polarion_70">Anbieter von Fachdiensten müssen Ihre Fachdienste über einen organisatorischen Prozess am IdP-Dienst durchführen.</p> 
-  <div id="A_20737">
+  <div id="A_20737" severity="MUSS">
    <p><b>A_20737 - Ermöglichung einer organisatorischen Registrierung für Anwendungsfrontends und Fachdienste</b></p>
    <p>Der Anbieter des IdP-Dienstes MUSS eine organisatorische Registrierung von Anwendungsfrontends und Fachdiensten ermöglichen. <b>[&lt;=]</b></p>
   </div> 
@@ -567,77 +923,77 @@ ol:first-of-type {
   <h2 id="4">4 Zerlegung des Produkttyps</h2> 
   <p id="polarion_25">Der Produkttyp besteht aus einer zentralen Komponente (IdP-Dienst). Diese wird bei der Durchführung des Authentifizierungsprozesses vom Authenticator-Modul unterstützt. Das Authenticator-Modul übernimmt die Ausführung der Nutzerauthentisierung. Bei Verwendung eines stationären Endgerätes mit installiertem Primärsystem, realisiert das Primärsystem die Funktionalität des Authenticator-Moduls. Das Anwendungsfrontend ist ebenso als Teil des Primärsystems realisiert. Bei Verwendung eines mobilen Endgeräts, ist dort sowohl das Authenticator-Modul, als auch das Anwendungsfrontend gemeinsam in einer Applikation installiert.&nbsp;</p> 
   <p id="polarion_86">Der IdP-Dienst stellt die zentralisierte Identitätsprüfung der auf die Fachdienste zugreifenden Nutzer bereit. Als weitere Teile der Gesamtlösung sind neben dem IdP-Dienst die Clients (Anwendungsfrontend/Primärsystem) und die Fachdienste zu nennen, auf denen Fachdaten für den Zugriff durch die Nutzer (z. B. Versicherte oder Bediener eines AVS, PVS oder KVS) bereitgestellt werden. Ein IdP-Dienst bietet Fachdiensten seine Dienste an, auf welche Millionen Nutzer zeitgleich zugreifen. <span style="font-size: 10pt;line-height: 1.5;">Eine wesentliche Ergänzung des IdP-Dienstes ist&nbsp;</span>das Authenticator-Modul, welches auf den dezentralen Komponenten in den Praxen, Kliniken, Apotheken und bei den Versicherten betrieben wird.</p> 
-  <div id="A_20687-01">
+  <div id="A_20687-01" severity="MUSS">
    <p><b>A_20687-01 - Bereitstellung der öffentlichen Schlüsselteile</b></p>
    <p>Der Authorization Server MUSS zu allen verwendeten privaten Schlüsseln "PrK_IDP_SIG", "PrK_IDP_ENC" und "PrK_DISC_SIG" das öffentliche Pendant&nbsp;"PuK_IDP_SIG", "PuK_IDP_ENC" und "PuK_DISC_SIG"&nbsp;zum Download bereitstellen. Dies ermöglicht die Prüfung der von den einzelnen Schnittstellen vorgenommenen Signaturen ebenso wie die zielgerichtete Verschlüsselung des Payload für den bestimmten Empfänger. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_756"></p> 
-  <div id="A_20732">
+  <div id="A_20732" severity="MUSS">
    <p><b>A_20732 - Aufnahme der öffentlichen Schlüssel in das Discovery Document</b></p>
    <p>Der Authorization Server MUSS zu jedem privaten Schlüssel dessen öffentlichen Teil mit einer eigenen absoluten URI in das Discovery Document aufnehmen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_87">Hinweis: Die Bereitstellung von öffentlichem Schlüsselmaterial bezieht sich auf die Schlüssel zum Signieren und ggf. Verschlüsseln der JSON Web Token. Hiermit sind nicht die öffentlichen Schlüssel der TLS-Verschlüsselung gemeint.</p> 
-  <div id="A_20686">
+  <div id="A_20686" severity="MUSS">
    <p><b>A_20686 - Erweiterte Nutzung von Schlüsseln</b></p>
    <p>Der Authorization Server <span style="font-weight: normal;">MUSS d</span>ie einzelnen Schnittstellen (AUTH, DISC, TOKEN) mit getrennten Interfaces bedienen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_84"></p> 
   <h4 id="4.1.1">4.1.1 Allgemeine Sicherheitsanforderungen</h4> 
-  <div id="A_20582-01">
+  <div id="A_20582-01" severity="MUSS">
    <p><b>A_20582-01 - IdP-Dienst - Berücksichtigung OWASP-Top-10-Risiken</b></p>
    <p>Der IdP-Dienst MUSS Maßnahmen zum Schutz sowohl vor den&nbsp;zum Zulassungszeitpunkt aktuellen OWASP-Top-10-Risiken umsetzen, als auch nach den zum Zulassungszeitpunkt aktuellen OWASP-Top-10-Risiken. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21302">
+  <div id="A_21302" severity="MUSS">
    <p><b>A_21302 - Interner Datenaustausch der Komponenten des IdP-Dienstes</b></p>
    <p>Der Anbieter des IdP-Dienstes MUSS für den internen Datenaustausch einen Mechanismus zur Sicherung der Datenintegrität, der Authentizität und zur Vertraulichkeit der Daten zur Verfügung stellen.&nbsp; <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_135"></p> 
   <h4 id="4.1.2">4.1.2 Sicherheit der Netzübergänge</h4> 
   <p id="polarion_101"><span style="font-size: 10pt;line-height: 1.5;">Der IdP-Dienst wird für Versicherte über das Internet erreichbar gemacht und für Leistungserbringer über das Netz der TI. Die folgenden Anforderungen beschreiben die für diese Netzübergänge erforderlichen Sicherheitsmechanismen. Für den Netzübergang aus dem Internet als Transportnetz zum IdP-Dienst ist ein Paketfilter erforderlich.</span></p> 
-  <div id="A_20583">
+  <div id="A_20583" severity="MUSS">
    <p><b>A_20583 - IdP-Dienst – Sicherung zum Transportnetz Internet durch Paketfilter</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des IdP-Dienstes MUSS dafür sorgen, dass das Transportnetz Internet durch einen Paketfilter (ACL) gesichert wird und ausschließlich die erforderlichen Protokolle weiterleitet. Der Anbieter des IdP-Dienstes MUSS dafür sorgen, dass&nbsp; der Paketfilter des IdP-Dienstes frei konfigurierbar auf der Grundlage von Informationen aus OSI-Layer 3 und 4 ist, das heißt Quell- und Zieladresse, IP-Protokoll sowie Quell- und Zielport.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20584">
+  <div id="A_20584" severity="DARF NICHT">
    <p><b>A_20584 - IdP-Dienst – Platzierung des Paketfilters Internet</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des IdP-Dienstes DARF den Paketfilter des IdP-Dienstes zum Schutz in Richtung Transportnetz Internet&nbsp; NICHT physisch auf dem vorgeschalteten TLS-terminierenden Load Balancer implementieren.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20585-01">
+  <div id="A_20585-01" severity="MUSS">
    <p><b>A_20585-01 - IdP-Dienst-Anbieter – Richtlinien für den Paketfilter zum Internet</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des IdP-Dienstes MUSS beim Paketfilter die Weiterleitung von IP-Paketen an der Schnittstelle zum Internet auf das HTTPS- Protokoll beschränken.&nbsp;</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20586-01">
+  <div id="A_20586-01" severity="MUSS">
    <p><b>A_20586-01 - IdP-Dienst – Verhalten bei Vollauslastung</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des IdP-Dienstes MUSS den Paketfilter des IdP-Dienstes so konfigurieren, dass bei Vollauslastung der Systemressourcen im IdP-Dienst keine weiteren Verbindungen angenommen werden.</span> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_114"><span style="font-style: italic;">Hinweis</span>: Durch die Zurückweisung von Verbindungen wird sichergestellt, dass Clients einen Verbindungsaufbau mit einer anderen Instanz des Fachdienstes versuchen, bei dem die erforderlichen Ressourcen zur Verfügung stehen.</p> 
   <p id="polarion_146"></p> 
-  <div id="A_20587">
+  <div id="A_20587" severity="MUSS">
    <p><b>A_20587 - IdP-Dienst – Richtlinien zum TLS-Verbindungsaufbau</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des IdP-Dienstes MUSS dafür sorgen, dass der Eingangspunkt des IdP-Dienstes sich beim TLS-Verbindungsaufbau über das Transportnetz gegenüber dem Client mit einem Extended Validation TLS-Zertifikat eines Herausgebers gemäß [CAB-Forum] authentisiert. Der Anbieter MUSS dafür sorgen, dass das Zertifikat sich an die jeweilige Schnittstelle des Eingangspunkts für Primärsysteme, Authenticator-Module und Frontends der Versicherten des IdP-Dienstes bindet, damit Clientsysteme beim TLS-Verbindungsaufbau eine vereinfachte Zertifikatsprüfung mit TLS-Standardbibliotheken durchführen können.</span> <b>[&lt;=]</b></p>
   </div> 
   <h3 id="4.2">4.2 Fehlermeldungen</h3> 
-  <div id="A_20680">
+  <div id="A_20680" severity="MUSS">
    <p><b>A_20680 - Format der Fehlermeldungen</b></p>
    <p>Der IdP-Dienst <span style="font-weight: normal;">MUSS</span><span style="font-weight: bold;">&nbsp;</span>für die verschiedenen Teilfunktionen geeignete Fehlermeldungen erzeugen und diese an den jeweiligen Aufrufer übergeben. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20681">
+  <div id="A_20681" severity="MUSS">
    <p><b>A_20681 - Nutzung von eindeutigen Error-Codes bei der Erstellung von Fehlermeldungen</b></p>
    <p>Der IdP-Dienst MUSS Fehler durch eine eindeutige Nummer erkennbar machen und der gematik eine Liste der Error-Codes zur Verfügung stellen, damit die Ursachenklärung vereinfacht möglich wird. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20682-01">
+  <div id="A_20682-01" severity="MUSS">
    <p><b>A_20682-01 - Verwendung eines einheitlichen Schemas für die Aufbereitung von Fehlermeldungen</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der IdP-Dienst MUSS alle ausgeworfenen Fehlermeldungen zur Weiterverarbeitung in einem einheitlichen Schema aufbereiten und bereitstellen. Zeitstempel MÜSSEN auf der UTC basieren.&nbsp;</span><p data-keep-next="true" class="polarion-rte-caption-paragraph"></p> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20683">
+  <div id="A_20683" severity="MUSS">
    <p><b>A_20683 - Formulierung der Fehlermeldungen</b></p>
    <p>Der IdP-Dienst MUSS Fehlermeldungen, welche dem Nutzer angezeigt werden, in der Art ausformulieren, dass es dem Nutzer möglich ist, eigenes Fehlverhalten anhand der Fehlermeldung abzustellen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20684">
+  <div id="A_20684" severity="MUSS">
    <p><b>A_20684 - Nutzung einer eindeutigen Beschreibung beim Aufbau von Fehlermeldungen</b></p>
    <p>Der IdP-Dienst MUSS jedem Fehler eine eindeutige eigene Beschreibung zukommen lassen, sodass eine Fehlermeldung nicht für unterschiedliche Fehlerursachen zur Anwendung kommt. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20685">
+  <div id="A_20685" severity="MUSS">
    <p><b>A_20685 - Ausgabe der Fehlermeldungen in umgekehrter Reihenfolge des Auftretens</b></p>
    <p>Der IdP-Dienst MUSS aufeinander aufbauende Fehlermeldungen in der umgekehrten Reihenfolge ihres Auftretens "Traceback (most recent call last)" ausgeben. <b>[&lt;=]</b></p>
   </div> 
@@ -654,23 +1010,23 @@ ol:first-of-type {
   <p id="polarion_97"></p> 
   <h3 id="4.4">4.4 Identifikation des Clientsystems</h3> 
   <p id="polarion_93">Der IdP-Dienst verwaltet und steuert den Authentisierungsprozess für das E-Rezept und perspektivisch auch weitere Anwendungen. Damit kommt ihm eine Relevanz in der Gesundheitsversorgung zu, die sich zum einen in einer hohen Verfügbarkeit und zum anderen in einem hohen Angriffspotential widerspiegelt. Zur Unterstützung der betrieblichen Überwachung des IdP-Dienstes wird die Nutzung der im Feld befindlichen Clientsysteme protokolliert. Dabei ist der Zugriff auf die Schnittstellen des IdP-Dienstes nur durch Primärsysteme der Leistungserbringer, sein eigenes Authenticator-Modul und zugelassene E-Rezept-FdVs zulässig. Der E-Rezept-Fachdienst erkennt die Clientsysteme anhand des User-Agent-Header eingehender HTTP-Requests und protokolliert diesen Wert.&nbsp;<br></p> 
-  <div id="A_20588-01">
+  <div id="A_20588-01" severity="MUSS">
    <p><b>A_20588-01 - IdP-Dienst - Erkennung Clientsystem User-Agent</b></p>
    <p>Der IdP-Dienst MUSS das vom aufrufenden Nutzer verwendete Clientsystem (Authenticator-Modul, E-Rezept-FdV oder Primärsystem) anhand des im HTTP-Request enthaltenen Header-Feld "User-Agent" gemäß [RFC7231] erkennen und in den Einträgen zur Performance-Rohdatenerfassung gemäß [gemSpec_Perf] protokollieren. Der IdP-Dienst MUSS bei fehlendem User-Agent-Header den Request mit dem HTTP-Status-Code 403 beantworten, damit in der Betriebsüberwachung des IdP-Dienstes die Nutzung unzulässiger Clientsysteme erkannt werden kann. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20589">
+  <div id="A_20589" severity="MUSS">
    <p><b>A_20589 - IdP-Dienst – Ausschluss bestimmter Clientsystem-Versionsnummern von der Kommunikation</b></p>
    <p>Der IdP-Dienst MUSS die aus dem Internet vom Clientsystem mitgeteilte Versionsnummer aus dem HTTP-Header User-Agent, erkennen und festgelegte Versionsnummern über ein Blacklisting von einer Kommunikation mit dem IdP-Dienst ausschließen können. Der IdP-Dienst MUSS in diesen Fällen eine entsprechende Fehlermeldung an das Clientsystem geben. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20590">
+  <div id="A_20590" severity="MUSS">
    <p><b>A_20590 - IdP-Dienst – Ausschluss von Clientsystem-Versionen</b></p>
    <p>Der Anbieter des IdP-Dienstes MUSS ausschließlich auf Anweisung der gematik Clientsysteme mit bestimmten Versionsnummern von einer Kommunikation mit dem IdP-Dienst ausschließen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20742-01">
+  <div id="A_20742-01" severity="MUSS">
    <p><b>A_20742-01 - Vergabe der "client_id" durch den Anbieter des IdP-Dienstes</b></p>
    <p>Der Anbieter des IdP-Dienstes MUSS bei der organisatorischen Registrierung des Anwendungsfrontends diesem eine eindeutige "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">client_id</span>" zur Nutzung des IdP-Dienstes zuweisen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21472">
+  <div id="A_21472" severity="MUSS">
    <p><b>A_21472 - SSO_TOKEN nur für Mobile Endgeräte und nicht für Primärsysteme</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der IdP-Dienst MUSS bei der organisatorischen Registrierung eines Clients anhand seiner "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">client_id</span>" - beispielsweise des Anwendungsfrontends oder eines Primärsystems - festlegen, ob im Authorization Code Flow bei der Ausgabe eines "AUTHORIZATION_CODE" auch ein "SSO_TOKEN" vom IDP-Dienst ausgegeben werden muss.</span> <b>[&lt;=]</b></p>
   </div> 
@@ -678,7 +1034,7 @@ ol:first-of-type {
   <p id="polarion_772">Im Rahmen der Zugänglichmachung des E-Rezepts für Versicherte ohne NFC-fähige eGK sollen ab dem 01.01.2022 Kassen-eigene Authentifizierungssysteme an&nbsp;das E-Rezept angebunden werden. Diese werden im Folgenden als sektorale Identity Provider bezeichnet, um sie vom zentralen IDP-Dienst abzugrenzen, welcher die Authentisierung der Nutzer direkt oder indirekt über die eGK realisiert und die bereitgestellten Attribute von dieser ableitet.&nbsp;</p> 
   <p id="polarion_773">Zur Einbindung eines sektoralen Identity Provider wird im ersten Schritt der zentrale IDP-Dienst als Mittler zwischen dem Anwendungsfrontend, den sektoralen Identity Providern und dem E-Rezept&nbsp;Fachdient eingesetzt. Die Realisierung der ersten Stufe der sektoralen Identity Provider auf dem Vertrauensniveau "substanziell"&nbsp;wird auf den 31.12.2022 befristet.</p> 
   <p id="polarion_774">Dies wird später mit der Etablierung einer Föderation von Identity Providern abgelöst.</p> 
-  <div id="A_22280">
+  <div id="A_22280" severity="MUSS">
    <p><b>A_22280 - Registrierung des IDP-Dienstes als Client bei sektoralen Identity Providern</b></p>
    <p>Der Anbieter des IDP-Dienstes MUSS diesen bei allen sektoralen Identity Providern als C<span style="font-style: normal;">onfidential</span> Client (gemäß [RFC6749#section-2.1]) registrieren. Hierbei müssen die folgenden Metadaten verwendet werden: 
     <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
@@ -707,7 +1063,7 @@ ol:first-of-type {
     </table> <span id="polarion-comment:1631"></span> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_109">Hinweis: <span style="font-size: 10pt;line-height: 1.5;">Der sektorale Identity Provider&nbsp;wird bei Zulassung vermerkt und der zentrale IDP-Dienst geht dann im Auftrag der gematik auf diesen zwecks Registrierung zu.</span></p> 
-  <div id="A_22282">
+  <div id="A_22282" severity="MUSS">
    <p><b>A_22282 - Periodisches Einlesen der Discovery Documents und Schlüssel der sektoralen Identity Provider</b></p>
    <p>Der IDP-Dienst MUSS die Discovery Documents und JWKS-Schlüsselsätze der sektoralen Identity Provider, bei denen er registriert ist, mindestens einmal stündlich aktualisieren.<br> <br> Erfolgreich eingelesene&nbsp;Discovery Documents und Schlüssel dürfen im Fall einer Nicht-Erreichbarkeit des Downloadpunktes für<span id="polarion-comment:1630"></span> maximal 24 Stunden verwendet werden. <b>[&lt;=]</b></p>
   </div> 
@@ -717,32 +1073,32 @@ ol:first-of-type {
   <p id="polarion_154">Der Authorization Server dient dazu bestehende Identitäten zu prüfen und das Prüfungsergebnis in einer einheitlichen Form abgestimmt und durch zusätzliche Mechanismen gesichert bereitzustellen. Basis dieser Dienstleistung ist ein vertrauenswürdiges Verzeichnis, aus welchem hervorgeht, an welchen Schnittstellen dieser Dienst oder seine Teildienste erreichbar sind, wie diese Schnittstellen abgesichert sind und woher man die zur Etablierung der gewünschten Sicherheit erforderlichen Materialien beziehen kann. Gemäß dem verwendeten Standard OpenID Connect mit OAuth 2.0 kommen JSON Web Token (JWT), JSON Web Encryption (JWE), JSON Web Signature (JWS) und JSON Web Key (JWK) zum Einsatz.</p> 
   <p id="polarion_189">Um nutzenden Anwendungen eine einheitliche Bezugsquelle für die Adressierung von Schnittstellen zu schaffen, werden die für alle Akteure grundlegenden Schnittstellen im sogenannten Discovery Document zusammengefasst und dort <span style="font-family: Arial, Helvetica;">unter der</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"URI_DISC"</span> gemäß [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc8414">RFC8414 "OAuth 2.0 Authorization Server Metadata"</a>] veröffentlicht.</p> 
   <p id="polarion_190">Alle Akteure, welche den IdP-Dienst nutzen wollen, sind angehalten, dieses Discovery Document zu lokalisieren, herunterzuladen, zu prüfen und den Inhalt in den geplanten Betrieb einzubeziehen.</p> 
-  <div id="A_20457">
+  <div id="A_20457" severity="MUSS">
    <p><b>A_20457 - Verwendung eindeutiger URI</b></p>
    <p>Der IdP-Dienst <span style="font-weight: normal;">MUSS&nbsp;</span>alle verwendeten Adressen in Form von URL gemäß [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc1738">RFC1738</a>&nbsp;] angeben und in einem Discovery Document gemäß [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc8414#section-2">RFC8414 # section-2</a>] innerhalb der TI und im Internet veröffentlichen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20688">
+  <div id="A_20688" severity="MUSS">
    <p><b>A_20688 - Discovery Document interne und externe Adressierung</b></p>
    <p>Der Discovery-Endpunkt MUSS <span style="font-size: 10pt;line-height: 1.5;">die Discovery Documents für interne und externe Adressierung</span> sowohl innerhalb der TI als auch im Internet veröffentlichen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_132"><span style="font-style: italic;">Hinweis 1:</span> Das Discovery Document innerhalb der TI adressiert hierbei die URI der Schnittstellen des IdP-Dienstes innerhalb der TI. Das im Internet bereitgestellte Discovery Document stellt die URI der angebotenen Fachdienste im Internet mit dort auflösbaren Adressen bereit.&nbsp;</p> 
   <p id="polarion_133"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-style: italic;">Hinweis 2:</span> Es gibt je ein internes und externes (public) "Discovery Document". Diese unterscheiden sich in den darin angebotenen URI, welche gleichlautend im Host-Anteil auf unterschiedliche Domänen bzw. Top-Level-Domain (TLD) verweisen.</span></p> 
-  <div id="A_20689-01">
+  <div id="A_20689-01" severity="MUSS">
    <p><b>A_20689-01 - Internes Discovery Document - Prüfung der angebotenen URL</b></p>
    <p>Der IdP-Dienst MUSS alle von ihm im internen Discovery Document angebotenen URL ständig auf bloße Erreichbarkeit prüfen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20690-01">
+  <div id="A_20690-01" severity="MUSS">
    <p><b>A_20690-01 - Externes Discovery Document - Prüfung der angebotenen URL</b></p>
    <p>Der IdP-Dienst MUSS alle von ihm im externen Discovery Document angebotenen URL ständig auf bloße Erreichbarkeit prüfen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_77"></p> 
   <h4 id="5.1.1">5.1.1 Aufbau des Discovery Documents</h4> 
   <p id="polarion_191">Der Authorization Server muss das Discovery Document&nbsp;gemäß [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc8414">RFC8414</a>] bereitstellen.</p> 
-  <div id="A_20439">
+  <div id="A_20439" severity="MUSS">
    <p><b>A_20439 - Das Discovery Document enthält statische Adressen</b></p>
    <p>Der Discovery-Endpunkt MUSS sowohl im internen, als auch im externen Discovery Document die Akteure mit&nbsp; ihrer URI veröffentlichen. <br> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20458-02">
+  <div id="A_20458-02" severity="MUSS">
    <p><b>A_20458-02 - Inhalte des Discovery Document</b></p>
    <p>Der Discovery-Endpunkt MUSS sowohl im internen, als auch im externen Discovery Document gemäß [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc8414#section-2">RFC8414 # section-2</a>] mindestens die folgenden Attribute als URI angeben:<br> 
     <ul>
@@ -757,19 +1113,19 @@ ol:first-of-type {
     </ul> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_147"><span style="font-style: italic;">Hinweis</span>: Der genaue Aufbau entspricht [gemSpec_IDP_Dienst#Kapitel 7.7 <span style="font-size: 10pt;line-height: 1.5;">Aufbau des Discovery Document</span>].</p> 
-  <div id="A_22286">
+  <div id="A_22286" severity="MUSS">
    <p><b>A_22286 - Erweiterung des Discovery Document des IDP-Dienstes</b></p>
    <p>Der IDP-Dienst MUSS im Discovery Document unter dem Schlüssel "kk_app_list_uri" die URL der Liste der registrierten Authenticator-Module der sektoralen Identity Provider publizieren. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_777"><span style="font-weight: bold;"></span></p> 
-  <div id="A_22287">
+  <div id="A_22287" severity="MUSS">
    <p><b>A_22287 - Veröffentlichung des Third-Party Authorization Endpoint</b></p>
    <p><span style="font-weight: normal;">Der IDP-Dienst MUSS die URL des angebotenen Third-Party Authorization Endpoint im Discovery Document unter dem Schlüssel "third_party_authorization_endpoint" publizieren.</span> <br> <b>[&lt;=]</b></p>
   </div> 
   <h4 id="5.1.2">5.1.2 Erneuerung des Discovery Documents</h4> 
   <p id="polarion_192">Der Authorization Server muss das Discovery Document mit den Metainformationen zu den Teildiensten mindestens einmal täglich und immer nach Änderungen mit dem <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"PrK_DISC"</span> signieren und am mit der gematik vereinbarten Downloadpunkt <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"URI_DISC"</span> bereitstellen.</p> 
   <p id="polarion_173"></p> 
-  <div id="A_20691-01">
+  <div id="A_20691-01" severity="MUSS">
    <p><b>A_20691-01 - Das Discovery Document ist maximal 24 Stunden alt</b></p>
    <p>Der Discovery-Endpunkt MUSS das Discovery Document regelmäßig alle 24 Stunden oder nach durchgeführten Änderungen umgehend neu erstellen, mit dem <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"PrK_DISC_SIG"&nbsp;</span>signieren&nbsp;und am mit der gematik vereinbarten Downloadpunkt <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"URI_DISC"&nbsp;</span>bereitstellen. <b>[&lt;=]</b></p>
   </div> 
@@ -777,23 +1133,23 @@ ol:first-of-type {
   <p id="polarion_193"><span style="color: #000000;">Der Authorization Server schützt die Integrität des&nbsp; Discovery Document auf Dateiebene durch eine&nbsp;Signatur und während des Transportes zusätzlich mittels TLS.</span></p> 
   <p id="polarion_124"><span style="font-weight: bold;"></span></p> 
   <p id="polarion_110"></p> 
-  <div id="A_19874-05">
+  <div id="A_19874-05" severity="MUSS">
    <p><b>A_19874-05 - Bereitstellung des internen Discovery Documents innerhalb der TI</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der IdP-Dienst MUSS das interne Discovery Document mit einem Zertifikat des Typs FD.SIG und der technischen Rolle „oid_idpd“ gemäß [<span style="font-size: 11pt;color: #172B4D;line-height: 1.5;">gemSpec_OID # Abschnitt 3.5.4</span>] signiert, an einem spezifischen Downloadpunkt TLS-gesichert innerhalb der TI bereitstellen.<br> Die URL des Downloadpunktes lautet: "<span style="font-weight: bold;">https://idp.zentral.idp.splitdns.ti-dienste.de/.wellknown/openid-configuration</span>".&nbsp;</span> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_144"><span style="font-weight: bold;"></span></p> 
-  <div id="A_19877-04">
+  <div id="A_19877-04" severity="MUSS">
    <p><b>A_19877-04 - Bereitstellung des externen Discovery Documents im Internet</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der IdP-Dienst MUSS das externe Discovery Document mit einem Zertifikat des Typs FD.SIG und der technischen Rolle „oid_idpd“ gemäß [<span style="font-size: 11pt;color: #172B4D;line-height: 1.5;">gemSpec_OID # Abschnitt 3.5.4</span>] signiert und TLS-gesichert im Internet zum Download bereitstellen.<br> Die URL des Downloadpunktes lautet: "<span style="font-weight: bold;"><a class="descriptionLink" target="_top" href="https://idp.app.ti-dienste.de/.well-known/openid-configuration">https://idp.app.ti-dienste.de/.well-known/openid-configuration</a></span>"&nbsp;<span id="polarion-comment:1609"></span></span><br> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_166"><span style="font-style: italic;">Hinweis</span>: Die für die Rolle des IdP-Dienstes vorgesehene professionOID ist in [<span style="font-size: 10pt;line-height: 1.5;">gemSpec_OID</span>] beschrieben.</p> 
-  <div id="A_20591-01">
+  <div id="A_20591-01" severity="MUSS">
    <p><b>A_20591-01 - Festlegungen zur Signatur der Discovery Documents</b></p>
    <p>Der IdP-Dienst MUSS die Signatur der Discovery Documents dabei durch die Verwendung einer JSON Web Signature (JWS) [RFC7515 # section-3 - Compact Serialization] und des Schüssels PrK_DISC_SIG&nbsp;gewährleisten. Als Algorithmus ist dementsprechend "BP256R1" zu wählen.<br>Der IdP-Dienst MUSS bei der Signaturerstellung das Signaturzertifikat des PUK_DISC_SIG&nbsp;im x5c Claim einbetten. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_129"></p> 
   <h4 id="5.1.4">5.1.4 Liste der registrierten Authenticator Module sektoraler Identity Provider</h4> 
-  <div id="A_22283">
+  <div id="A_22283" severity="MUSS">
    <p><b>A_22283 - Bereitstellung einer Liste der registrierten Authenticator-Module von sektoralen Identity Providern</b></p>
    <p><span style="font-weight: normal;">Der IDP-Dienst MUSS unter einer dedizierten URL eine Liste der registrierten Authenticator-Module von sektoralen Identity Providern bereitstellen, die eine Vielzahl von Einträgen des folgenden Typs enthält:<br> </span> 
     <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
@@ -816,7 +1172,7 @@ ol:first-of-type {
      </tbody> 
     </table> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_22288">
+  <div id="A_22288" severity="MUSS">
    <p><b>A_22288 - Weitere Informationen zu registrierten sektoralen Authenticator-Modulen</b></p>
    <p><span style="font-weight: normal;">Neben den gemäß [A_22283] bereitgestellten Informationen MUSS der IDP-Dienst für jedes&nbsp;registrierte Authenticator-Modul eines sektoralen Identity Provider die folgenden Werte erfassen:<br> </span> 
     <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
@@ -839,59 +1195,59 @@ ol:first-of-type {
      </tbody> 
     </table> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_22284">
+  <div id="A_22284" severity="MUSS">
    <p><b>A_22284 - Festlegungen zur Signatur der Liste der registrierten Authenticator-Module von sektoralen Identity Providern</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der IDP-Dienst MUSS die Signatur der Liste der registrierten Authenticator-Module von sektoralen Identity Providern&nbsp;durch die Verwendung einer JSON Web Signature (JWS) [RFC7515 # section-3 - Compact Serialization] und des Schüssels "PrK_DISC_SIG" gewährleisten. Als Algorithmus ist dementsprechend "BP256R1" zu wählen. Der IDP-Dienst MUSS bei der Signaturerstellung das Signaturzertifikat des "PUK_DISC_SIG" im x5c-Claim einbetten.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_22285">
+  <div id="A_22285" severity="MUSS">
    <p><b>A_22285 - Vergabe einer eindeutigen ID je Authenticator-Modul der sektoralen Identity Provider</b></p>
    <p>Der Anbieter des IDP-Dienstes MUSS für alle registrierten Authenticator-Module der sektoralen Identity Provider eine eindeutige "kk_app_id" vergeben. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_780"></p> 
   <h3 id="5.2">5.2 Authorization-Endpunkt</h3> 
   <p class="MsoNormal" id="polarion_78">Vorbedingung ist, dass das Authenticator-Modul bereits eine <span style="font-weight: normal;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"SUBJECT_SESSION"</span> mit dem Authorization Server etabliert, sich das Discovery Document heruntergeladen und dieses erfolgreich ausgewertet hat.</span></p> 
-  <div id="A_20434">
+  <div id="A_20434" severity="MUSS">
    <p><b>A_20434 - Einhaltung der Standards bei der Realisierung des Authorization-Endpunkts</b></p>
    <p><span style="font-weight: normal;">Der IdP-Dienst MUSS die Schnittstelle „Authorization-Endpunkt“ gemäß [RFC6749 "The OAuth 2.0 Authorization Framework"] und [RFC8252 „OAuth 2.0 for Native Apps“] und weiteren darin festgelegten Standards implementieren.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_19863">
+  <div id="A_19863" severity="MUSS">
    <p><b>A_19863 - Schutz vor überalterter Software (Apple)</b></p>
    <p>Der Anbieter IdP-Dienst <span style="font-weight: normal;">MUSS</span> dafür Sorge tragen, dass die im Apple App Store veröffentlichte Software bei Änderungen automatisiert aktualisiert wird, sodass jederzeit die dauerhafte Verwendung fehlerhafter Software ausgeschlossen werden kann. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_19865">
+  <div id="A_19865" severity="MUSS">
    <p><b>A_19865 - Schutz vor überalterter Software (Android)</b></p>
    <p>Der Anbieter des IdP-Dienstes <span style="font-weight: normal;">MUSS </span>dafür Sorge tragen, dass die im Google Play Store veröffentlichte Software bei Änderungen automatisiert aktualisiert wird, sodass jederzeit die dauerhafte Verwendung fehlerhafter Software ausgeschlossen werden kann. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21315-01">
+  <div id="A_21315-01" severity="MUSS">
    <p><b>A_21315-01 - Bereitstellung einer URI zum Einreichen von SSO_TOKEN</b></p>
    <p>Der IdP-Dienst MUSS für den Authorization-Endpunkt eine zusätzliche Adresse mit der URI-Bezeichnung "sso_endpoint" anbieten, über den im Authorization Code Flow (<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowAuth">openid-connect-core-1_0 # CodeFlowAuth</a>) ein Client einen "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" einliefern kann, um einen "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>" zu erhalten. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_162"><span style="font-style: italic;">Hinweis:</span>&nbsp;Der angebotene SSO-Endpunkt bzw. die angebotene URI namens "sso_endpoint" ist nur für die konkrete Übergabe des SSO_TOKEN nutzbar. Alle vorhergehenden Requests, inklusive des Authentication Requests, sind an den Authorization Server zu richten.</p> 
   <h4 id="5.2.1">5.2.1 Authorization Server Eingangsdaten</h4> 
-  <div id="A_20698">
+  <div id="A_20698" severity="MUSS">
    <p><b>A_20698 - Annahme des Authorization Request</b></p>
    <p>Der Authorization-Endpunkt MUSS die im Authorization Request des Authenticator-Moduls mitgelieferten "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CODE_CHALLENGE</span>" und den "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SCOPE</span>" annehmen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_201"><span style="font-style: italic;">Hinweis:</span> Der Aufbau der Anfrage entspricht [gemSpec_IDP_Dienst#Kapitel 7.1 Authorization Request].</p> 
   <p id="polarion_203"></p> 
-  <div id="A_20376">
+  <div id="A_20376" severity="MUSS">
    <p><b>A_20376 - Verwendung des Attributes "state"</b></p>
    <p>Der Authorization-Endpunkt MUSS den vom Anwendungsfrontend initierten "state"-Parameter gemäß [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc6749#section-10.12">RFC6749 # section-10.12</a>] bei einer Redirection an den Client in seiner Antwort verwenden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20731">
+  <div id="A_20731" severity="MUSS">
    <p><b>A_20731 - Verwendung des Attributes "auth_time"</b></p>
    <p>Der Authorization-Endpunkt <span style="font-weight: normal;">MUSS</span> den Parameter <span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"auth_time"</span> mit dem Zeitpunkt der letzten Authentisierung gegen das zugelassene Authentifizierungsmittel (z.B. <span style="font-size: 10pt;line-height: 1.5;">Auslösen der Signatur durch Smartcard in freigeschaltetem Zustand</span>) setzen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20440-01">
+  <div id="A_20440-01" severity="MUSS">
    <p><b>A_20440-01 - Schematische Prüfung des Consent</b></p>
    <p>Der IdP-Dienst MUSS die bei der organisatorischen Registrierung der App hinterlegten redirect_uri mit der redirect_uri aus dem Claim des "CHALLENGE_TOKEN" prüfen. Stimmen diese nicht überein, werden keine Token ausgestellt und die weitere Verarbeitung mit einem Fehler Response abgebrochen (vgl. https://openid.net/specs/openid-connect-core-1_0.html#AuthError). <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_149"><span style="font-style: italic;">Hinweis:</span> Nach [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-core-1_0.html#AuthRequest">openid-connect-core-1_0.html # AuthRequest</a>]&nbsp;ist es zulässig, dass ein Client mehrere redirect_uri bei der Registrierung hinterlegt. Der IdP-Dienst muss laut der OIDC-Spezifikation prüfen, ob die im Request gelieferte redirect_uri mit exakt einer der hinterlegten redirect_uri übereinstimmt. Die Prüfung muss über eine Simple String Comparison nach [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc3986#section-6.2.1">RFC3986 # section-6.2.1</a>]&nbsp;erfolgen.&nbsp;</p> 
-  <div id="A_20459">
+  <div id="A_20459" severity="DARF NICHT">
    <p><b>A_20459 - Das Attribut AUTH_TIME muss in allen Token unverändert bleiben</b></p>
    <p><span style="font-weight: normal;">Der Authorization-Endpunkt DARF den Zeitpunkt der letzten Authentisierung im Attribut <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"auth_time"</span> NICHT verändern.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20699-03">
+  <div id="A_20699-03" severity="MUSS">
    <p><b>A_20699-03 - Annahme von CHALLENGE_TOKEN: Authentication_Data-Struktur</b></p>
    <p>Der Authorization-Endpunkt MUSS <br> 
     <ul>
@@ -903,136 +1259,136 @@ ol:first-of-type {
   <p id="polarion_204"><span style="font-style: italic;">Hinweis 1</span>: Der Aufbau der Anfrage entspricht [gemSpec_IDP_Dienst#Kapitel 7.3 Authentication Request].</p> 
   <p id="polarion_169"><span style="font-style: italic;">Hinweis 2:</span> Als Verschlüsselungsalgorithmus ist ECDH-ES (Elliptic Curve Diffie-Hellman Ephemeral Static key agreement) vorgesehen.</p> 
   <p id="polarion_683"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-style: italic;">Hinweis 3:</span> Die Prüfung auf zeitliche Gültigkeit des Challenge-Token nach Entschlüsselung ist hiervon unbenommen. Die geschilderte Vorabprüfung gestattet dem IdP-Dienst, bei Empfang von zeitlich ungültigen Token auf eine Entschlüsselung zu verzichten.</span></p> 
-  <div id="A_20951-01">
+  <div id="A_20951-01" severity="MUSS">
    <p><b>A_20951-01 - Validierung der Signatur und des Zertifikats des CHALLENGE_TOKEN</b></p>
    <p><span style="font-family: Arial, Helvetica;">Der Authorization-Endpunkt MUSS die Signatur des vom Authenticator-Modul übertragenen, signierten</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CHALLENGE_TOKEN</span> <span style="font-family: Arial, Helvetica;">anhand des mitgelieferten Authentifizierungs-Zertifikats überprüfen. Die Überprüfung MUSS neben der Signatur auch das Authentifizierungszertifikat anhand von OCSP umfassen.</span> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_757"><span style="font-style: italic;">Hinweis:</span> Der genaue Aufbau des vom Authenticator-Modul übertragenen, signierten CHALLENGE_TOKEN findet sich in [gemSpec_IDP_Dienst#Kapitel 7.3 Authentication Request].</p> 
-  <div id="A_22328">
+  <div id="A_22328" severity="MUSS">
    <p><b>A_22328 - IDP-Dienst: Überprüfung der korrekten keyUsage des AUT-Zertifikats</b></p>
    <p>Der IDP-Dienst MUSS die Werte der Attribute "KeyUsage" und "ExtendedKeyUsage" des AUT-Zertifikats des vom Authenticator-Moduls gelieferten Response der Challenge prüfen und eine weitere Verarbeitung verweigern, wenn nicht die folgenden vorgesehenen Werte - neben möglichen weiteren Werten - enthalten sind:<br> intendedKeyUsage = digitalSignature;<br> intendedExtendedKeyUsage = id-kp-clientAuth.<br> Die Nutzung des Attributs "ExtendedKeyUsage" ist optional, weshalb der IDP-Dienst die Überprüfung des Wertes des Attributs "ExtendedKeyUsage" nur durchführen muss, wenn das Attribut auch vorhanden ist. Ein generelles Fehlen des Attributs "ExtendedKeyUsage" führt nicht zur Ablehnung. <span id="polarion-comment:1604"></span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20946-01">
+  <div id="A_20946-01" severity="MUSS">
    <p><b>A_20946-01 - Annahme eines "SSO_TOKEN"</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Authorization-Endpunkt MUSS einen vom Autenticator-Modul übertragenen "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" annehmen, sofern anhand der übertragenen "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">client_id</span>" festgestellt wird, dass im Registrierungsprozess für diese "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">client_id</span>" die Verwendung eines "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" hinterlegt wurde. Ansonsten MUSS der IdP-Dienst die Verarbeitung mit einer Fehlermeldung abbrechen.</span><br> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20947">
+  <div id="A_20947" severity="MUSS">
    <p><b>A_20947 - Entschlüsselung des "SSO_TOKEN"</b></p>
    <p>Der Authorization-Endpunkt MUSS den angenommenen "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" mit seinem eigenen Schlüsselmaterial, welches zur Verschlüsselung genutzt wurde, entschlüsseln. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20948-01">
+  <div id="A_20948-01" severity="MUSS">
    <p><b>A_20948-01 - Validierung des "SSO_TOKEN"</b></p>
    <p>Der Authorization-Endpunkt MUSS den angenommenen und entschlüsselten "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" validieren. Die Validierung MUSS die Überprüfung der Signatur anhand seines öffentlichen Schlüssels PuK_IDP_SIG und die Überprüfung der zeitlichen Gültigkeit des "SSO_TOKEN" anhand des Attributs "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">auth_time</span>" umfassen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20949">
+  <div id="A_20949" severity="MUSS">
    <p><b>A_20949 - Anforderung einer Authentisierung bei negativer Validierung des "SSO_TOKEN"</b></p>
    <p>Der Authorization-Endpunkt MUSS eine neue Authentisierung vom Authenticator-Modul anfordern, wenn die Validierung des vom Authenticator-Moduls eingereichten "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" fehlschlägt. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20950-01">
+  <div id="A_20950-01" severity="MUSS">
    <p><b>A_20950-01 - Positive Validierung des "SSO_TOKEN"</b></p>
    <p>Der Authorization-Endpunkt MUSS bei der positiven Validierung des vom Authenticator-Moduls eingereichten "SSO_TOKEN" einen "AUTHORIZATION_CODE" für den angefragten Fachdienst ausstellen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_136"><span style="font-style: italic;">Hinweis:</span> Der Authorization-Endpunkt muss damit die im "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" gelieferten Claims überprüfen und einen "AUTHORIZATION_CODE" für den angefragten Fachdienst ausstellen.</p> 
-  <div id="A_20522">
+  <div id="A_20522" severity="MUSS">
    <p><b>A_20522 - Erstellen einer "SESSION_ID"</b></p>
    <p>Der Authorization-Endpunkt MUSS eine neue "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SESSION_ID</span>" anlegen, sobald ein Authorization Request eingeht. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20523">
+  <div id="A_20523" severity="MUSS">
    <p><b>A_20523 - Zusammenstellung der Claims zum "user_consent"</b></p>
    <p>Der Authorization-Endpunkt MUSS die für den vorgetragenen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"SCOPE"</span> vom einfordernden Fachdienst erwarteten Claims zur <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"USER_CONSENT"</span>-Anfrage zusammenstellen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20313-01">
+  <div id="A_20313-01" severity="MUSS">
    <p><b>A_20313-01 - Inhalte des Claims</b></p>
    <p>Der IDP-Dienst MUSS <span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;"></span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;"></span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> für unterschiedliche Fachdienste gemäß den mit dem&nbsp;jeweiligen Fachdienst abgestimmten Claims bereitstellen. <br> <br> Sind Inhalte des Claims teilweise oder das gesamte Claim für einen registrierten Fachdienst nicht gesetzt, befüllt der IDP-Dienst die einzelnen Parameter der Gültigkeitsdauer für&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span>&nbsp;und&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> gemäß der spezifizierten Maximalwerte <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20692-01">
+  <div id="A_20692-01" severity="DARF NICHT">
    <p><b>A_20692-01 - Maximale Gültigkeitsdauer eines SSO_TOKEN</b></p>
    <p>Der Authorization Server DARF die zeitliche Gültigkeit eines SSO_TOKEN&nbsp;NICHT länger als 86400 Sekunden (24 Stunden) einstellen.<br>Der Parameter <span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">auth_time</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"</span> beinhaltet den Zeitpunkt der letzten Authentisierung. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20314-01">
+  <div id="A_20314-01" severity="DARF NICHT">
    <p><b>A_20314-01 - Maximale Gültigkeitsdauer des "AUTHORIZATION_CODE" und des "CHALLENGE_TOKEN"</b></p>
    <p>Der Authorization Server DARF die zeitliche Gültigkeit des <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"CHALLENGE_TOKEN"</span> NICHT länger als 180 Sekunden (Challenge-Response) und die des "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>" NICHT länger als 60 Sekunden einstellen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20315-01">
+  <div id="A_20315-01" severity="DARF NICHT">
    <p><b>A_20315-01 - "AUTHORIZATION_CODE" nach Gültigkeitsende nicht mehr verwenden</b></p>
    <p>Der Token-Endpunkt DARF <span style="font-size: 10pt;line-height: 1.5;">außerhalb der Gültigkeitsdauer&nbsp;</span>eingehenden <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"AUTHORIZATION_CODE"</span> NICHT in <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"ID_TOKEN"</span> oder <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"ACCESS_TOKEN"</span> eintauschen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_130"><span style="font-style: italic;">Hinweis:</span> Die Gültigkeitsdauer des <span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"</span><span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"</span> wird im Claim des angesprochenen Fachdienstes definiert.</p> 
-  <div id="A_20462">
+  <div id="A_20462" severity="DARF NICHT">
    <p><b>A_20462 - Maximale Gültigkeitsdauer des "ID_TOKEN"</b></p>
    <p>Der Token-Endpunkt DARF <span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"</span><span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">ID_TOKEN"</span> mit einer Gültigkeitsdauer <span style="font-weight: normal;">von mehr</span> als 86400 <span style="font-weight: normal;">Sekunden (24 Stunden)</span> NICHT ausstellen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20463">
+  <div id="A_20463" severity="DARF NICHT">
    <p><b>A_20463 - Maximale Gültigkeitsdauer des "ACCESS_TOKEN"</b></p>
    <p>Der Token-Endpunkt DARF <span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"</span><span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">ACCESS_TOKEN</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"</span> <span style="font-weight: normal;">mit einer Gültigkeitsdauer von mehr</span> als 300 <span style="font-weight: normal;">Sekunden (5 Minuten)</span> NICHT ausstellen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_99"><span style="font-style: italic;">Hinweis:</span> Die Gültigkeitsdauer des <span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ACCESS</span><span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">_TOKEN</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"</span> wird im Claim des angesprochenen Fachdienstes definiert.</p> 
-  <div id="A_20464">
+  <div id="A_20464" severity="DARF NICHT">
    <p><b>A_20464 - Token-Endpunkt (Datensparsamkeit)</b></p>
    <p>Der Token-Endpunkt <span style="font-weight: normal;">DARF andere Informationen, als die im Claim geforderten, NICHT&nbsp;</span>herausgeben. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20318">
+  <div id="A_20318" severity="DARF NICHT">
    <p><b>A_20318 - Keine Token für widerrufene Entitäten</b></p>
    <p>Der Authorization-Endpunkt DARF für nicht existente Entitäten NICHT einen&nbsp;<span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"</span><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION</span><span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">_CODE</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">",</span>&nbsp;einen&nbsp;<span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"ID_TOKEN"</span>, einen&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"ACCESS_TOKEN"</span> oder einen&nbsp;<span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"</span><span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"</span> auszustellen.&nbsp; <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20465">
+  <div id="A_20465" severity="MUSS">
    <p><b>A_20465 - Zertifikatsprüfung gegen OCSP-Responder</b></p>
    <p>Der Authorization-Endpunkt MUSS das Zertifikat des Antragstellers immer gegen den zugehörigen&nbsp;OCSP-Responder innerhalb der TI auf Gültigkeit prüfen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_22290">
+  <div id="A_22290" severity="MUSS">
    <p><b>A_22290 - Zwischenspeichern (Caching) von Smartcard-basierten OCSP-Antworten</b></p>
    <p>Der Produkttyp IDP MUSS OCSP-Antworten zu Gültigkeitsanfragen für <span style="font-size: 10pt;line-height: 1.5;">Smartcard-basierte&nbsp;</span>Zertifikate zwischenspeichern und bei einer erneuten Prüfung desselben Zertifikates anstelle einer neuen OCSP-Anfrage diese zwischengespeicherte Information verwenden. <br> Die Informationen MÜSSEN jeweils für einen konfigurierbaren Zeitraum&nbsp;<span style="font-size: 10pt;line-height: 1.5;">(von maximal 60 Minuten)&nbsp;</span>gespeichert werden.<br> Voreingestellt sind 30 Minuten.<br> Der TUC_PKI_006 und der eingebaute Cache des OCSP-Responder sind hierbei zu berücksichtigen. <span id="polarion-comment:1611"></span> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_733"></p> 
   <h4 id="5.2.2">5.2.2 Authorization-Endpunkt Ausgangsdaten</h4> 
   <p class="MsoNormal" id="polarion_392"><span style="font-weight: normal;">Konnten alle Prüfungen des eingereichten Consent erfolgreich abgeschlossen werden, erstellt der Authorization-Endpunkt ein <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"ID_TOKEN", "ACCESS_TOKEN",</span> ergänzt durch ein <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"SSO_TOKEN"</span>. Die Übertragung der</span> Token <span style="font-weight: normal;">erfolgt jedoch nicht direkt über das Authenticator-Modul, sondern in Form eines <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"AUTHORIZATION_CODE"</span>. Die Token werden am Token-Endpunkt zum Download bereitgestellt, wo das jeweilige Anwendungsfrontend diese gegen gleichzeitige Vorlage von <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"authorization_code"</span> und des eigenen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"code_verifier"</span>, auf we</span>lchem der bereits vorliegende Hash-Wert beruht, erhält.</p> 
-  <div id="A_20521-02">
+  <div id="A_20521-02" severity="MUSS">
    <p><b>A_20521-02 - Inhalt des CHALLENGE_TOKEN an das Authenticator-Modul</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der IdP-Dienst MUSS die ihm vorliegenden Session-Informationen (z.B. "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SESSION_ID</span>", "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CODE_CHALLENGE</span>", "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SCOPE</span>" und alle Informationen über Anwendungsfrontend und Authenticator-Modul) mit seinem privaten Schlüssel "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">PrK_IDP_SIG</span>" und der technischen Rolle „oid_idpd“ gemäß [gemSpec_OID # Abschnitt 3.5.4] signieren und als JWT ergänzt um die "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">USER_CONSENT</span>"-Anfrage an das Authenticator-Modul senden. Als Algorithmus ist dementsprechend "BP256R1" zu wählen.</span> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_765"></p> 
   <p id="polarion_151"><span style="font-style: italic;">Hinweis:</span> Der genaue Aufbau der Antwort und des CHALLENGE_TOKEN entspricht [gemSpec_IDP_Dienst#Kapitel 7.2 Authorization Response].</p> 
-  <div id="A_20377">
+  <div id="A_20377" severity="MUSS">
    <p><b>A_20377 - Verwendung des Attributes "state"</b></p>
    <p>Der Authroization-Endpunkt MUSS den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"state"</span>-Parameter [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc6749#section-10.12">RFC6749 # section-10.12</a>] des Anwendungsfrontends in allen darauf basierenden Responses verwenden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20694">
+  <div id="A_20694" severity="MUSS">
    <p><b>A_20694 - Zusammenstellung des "SSO_TOKEN"</b></p>
    <p>Der Authorization-Endpunkt MUSS den "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" so zusammenstellen, dass alle Informationen, welche für die Ausstellung eines neuen "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span>" benötigt werden, im Token vorhanden sind. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20695-01">
+  <div id="A_20695-01" severity="MUSS">
    <p><b>A_20695-01 - Signieren des "SSO_TOKEN"</b></p>
    <p>Der Authorization-Endpunkt MUSS den "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" mit seinem eigenen privaten Schlüssel "PrK_IDP_SIG" signieren.&nbsp;Als Algorithmus ist dementsprechend "BP256R1" zu wählen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_79"></p> 
-  <div id="A_20696">
+  <div id="A_20696" severity="MUSS">
    <p><b>A_20696 - Verschlüsselung des "SSO_TOKEN"</b></p>
    <p>Der Authorization-Endpunkt verschlüsselt den "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">SSO_TOKEN</span>" für sich selbst mit eigenem Schlüsselmaterial, welches die gemSpec_Krypt beachtet. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20697">
+  <div id="A_20697" severity="MUSS">
    <p><b>A_20697 - Zusammenstellung des "AUTHORIZATION_CODE"</b></p>
    <p>Der Authorization-Endpunkt erzeugt den "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>" anhand der vom Authenticator-Modul übergebenen Daten im "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CHALLENGE</span>". <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21317">
+  <div id="A_21317" severity="MUSS">
    <p><b>A_21317 - Verschlüsselung des "AUTHORIZATION_CODE"</b></p>
    <p>Der Authorization-Endpunkt des IdP-Dienstes MUSS den "AUTHORIZATION_CODE" für den Token-Endpunkt mit eigenem Schlüsselmaterial verschlüsseln, welches den Anforderungen aus [gemSpec_Krypt] genügt. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_64"></p> 
-  <div id="A_20319-01">
+  <div id="A_20319-01" severity="MUSS">
    <p><b>A_20319-01 - Signatur des "AUTHORIZATION_CODE"</b></p>
    <p>Der IdP-Dienst MUSS den "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>" für die Authentisierung mit einem Zertifikat des Typs FD.SIG und der technischen Rolle „oid_idpd“ gemäß [gemSpec_OID # Abschnitt 3.5.4] signieren, damit das Authenticator-Modul sicher gewährleisten kann, dass der eingehende <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"AUTHORIZATION_CODE"&nbsp;</span>tatsächlich vom IdP-Dienst stammt [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc7519#section-7.1">RFC7519 # section-7.1</a>]. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21330">
+  <div id="A_21330" severity="MUSS">
    <p><b>A_21330 - Ablaufzeitpunkt von "AUTHORIZATION_CODE" und "SSO_TOKEN"</b></p>
    <p>Der Authorization-Endpunkt des IdP-Dienstes MUSS im "exp"-Claim des jeweiligen JWE Headers den Ablaufzeitpunkt des "AUTHORIZATION_CODE" bzw. "SSO_TOKEN" liefern. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_126"><span style="font-style: italic;">Hinweis:</span> Der Aufbau der Header entspricht [gemSpec_IDP_Dienst#Kapitel 7.4 Authentication Response].</p> 
-  <div id="A_20693-01">
+  <div id="A_20693-01" severity="MUSS">
    <p><b>A_20693-01 - Senden des "AUTHORIZATION_CODE" und "SSO_TOKEN" an die "REDIRECT_URI"</b></p>
    <p>Der IdP-Dienst MUSS den "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>" und die registrierte "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">REDIRECT_URI</span>" an das Authenticator-Modul&nbsp;senden. Der IdP-Dienst MUSS zusätzlich einen "SSO_TOKEN" mitliefern, wenn die "client_id" im Registrierungsprozess des Anwendungsfrontends für die Nutzung eines "SSO_TOKEN" freigeschaltet wurde. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_111"></p> 
-  <div id="A_20320-01">
+  <div id="A_20320-01" severity="MUSS">
    <p><b>A_20320-01 - Sichere Übertragung des "AUTHORIZATION_CODE"</b></p>
    <p>Der Authorization-Endpunkt MUSS den Transport des "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>" über unsichere Netze (z.B. Internet) durch Verwendung von Transport Layer Security (TLS) gemäß den Vorgaben der [gemSpec_Krypt] sichern [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc7523#section-7">RFC7523 # section-7</a>]. <b>[&lt;=]</b></p>
   </div> 
@@ -1040,38 +1396,38 @@ ol:first-of-type {
   <h3 id="5.3">5.3 Token-Endpunkt</h3> 
   <p class="MsoNormal" id="polarion_408">Am Token-Endpunkt nimmt der Authorization Server den<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;"><span style="font-weight: bold;color: #000000;">"</span>AUTHORIZATION_CODE<span style="font-weight: bold;color: #000000;">"</span></span>, welchen er selbst am Authorization-Endpunkt ausgegeben hat, entgegen. Da beide vom Authorization Server selbst erstellt wurden, ist deren Prüfung auf Integrität keine besondere Herausforderung. Allerdings muss der Token-Endpunkt beim Einreichen eines <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;"><span style="font-weight: bold;color: #000000;">"</span>AUTHORIZATION_CODE<span style="font-weight: bold;color: #000000;">"</span></span> das dabei mit übertragene <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;"><span style="font-weight: bold;color: #000000;">"</span>CODE_VERIFIER<span style="font-weight: bold;color: #000000;">"</span></span> verarbeiten, um mittels Vergleich der Hash-Werte die Übereinstimmung des den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;"><span style="font-weight: bold;color: #000000;">"</span>AUTHORIZATION_CODE"</span> einreichenden mit dem ursprünglich authentisierten Client sicherzustellen. Das verwendete Hash-Verfahren ist im Authorization Request anzugeben.</p> 
   <h4 id="5.3.1">5.3.1 Token-Endpunkt Eingangsdaten</h4> 
-  <div id="A_20321-01">
+  <div id="A_20321-01" severity="MUSS">
    <p><b>A_20321-01 - Annahme und Prüfung von "AUTHORIZATION_CODE" und "KEY_VERIFIER"</b></p>
    <p>Der Token-Endpunkt MUSS den vom Anwendungsfrontend übertragenen "AUTHORIZATION_CODE" und den "KEY_VERIFIER" des Anwendungsfrontend annehmen. Der "AUTHORIZATION_CODE" ist dabei mittels eines durch den IdP-Dienst für Authorization-Endpunkt und Token-Endpunkt definierten Verfahren zu entschlüsseln.&nbsp; <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_766"><span style="font-style: italic;">Hinweis 1</span>: Der Aufbau der Anfrage entspricht [gemSpec_IDP_Dienst#Kapitel 7.5 Token Request].</p> 
   <p id="polarion_72"><span style="font-style: italic;">Hinweis 2</span>: Als Verschlüsselungsalgorithmus für den "Key_VERIFIER" ist ECDH-ES (Elliptic Curve Diffie-Hellman Ephemeral Static key agreement) vorgesehen.</p> 
-  <div id="A_21318">
+  <div id="A_21318" severity="MUSS">
    <p><b>A_21318 - Prüfung des "AUTHORIZATION_CODE“</b></p>
    <p>Der Token-Endpunkt MUSS die Signatur des "AUTHORIZATION_CODE“ unter Verwendung des Schlüssels PuK_IDP_SIG prüfen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21319">
+  <div id="A_21319" severity="MUSS">
    <p><b>A_21319 - Prüfung des "CODE_VERIFIER"</b></p>
    <p>Der Token-Endpunkt MUSS den "CODE_VERIFIER" aus dem mittels PuK_IDP_ENC verschlüsselten "KEY_VERIFIER" extrahieren und die Überprüfung gegen die "CODE_CHALLENGE" mit S256 (Algorithmus nach [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc7636#section-4.2">RFC7636 # section-4.2</a>]) durchführen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_17"><span style="font-style: italic;">Hinweis:</span> Der Aufbau des "KEY_VERIFIER" entspricht [gemSpec_IDP_Dienst#Kapitel 7.5 Token Request].</p> 
-  <div id="A_21320">
+  <div id="A_21320" severity="MUSS">
    <p><b>A_21320 - Entschlüsseln des "Token-Key"</b></p>
    <p>Der Token-Endpunkt MUSS den "Token-Key" aus dem mittels PuK_IDP_ENC verschlüsselten "KEY_VERIFIER" extrahieren.<span id="polarion-comment:1531"></span> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_767"><span style="font-style: italic;">Hinweis:</span> Der Aufbau des "KEY_VERIFIER" entspricht [gemSpec_IDP_Dienst#Kapitel 7.5 Token Request].</p> 
-  <div id="A_21309">
+  <div id="A_21309" severity="KANN">
    <p><b>A_21309 - Prüfung der Verwendung des Authorization Codes</b></p>
    <p>Der Anbieter des IdP-Dienstes KANN gegen [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc6749#section-10.5">RFC6749 # section-10.5</a>]&nbsp;verstoßen, indem der IdP-Dienst nicht die einmalige Verwendung eines "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>" überprüft. Die kurze Gültigkeit und die Verschlüsselung der ausgestellten Token wird als ausreichend sicher betrachtet. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_20323">
+  <div id="A_20323" severity="MUSS">
    <p><b>A_20323 - TOKEN-Ausgabe Protokollierung in allen Fällen</b></p>
    <p>Der Token-Endpunkt <span style="font-weight: normal;">MUSS</span> die Herausgabe der <span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"</span><span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">TOKEN</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"</span> im Positiv- wie auch im Negativfall protokollieren. <b>[&lt;=]</b></p>
   </div> 
   <h4 id="5.3.2">5.3.2 Token-Endpunkt Ausgangsdaten</h4> 
   <p class="MsoNormal" id="polarion_419">Alle vom IdP-Dienst herausgegebenen Informationen müssen mit dem privateKey des jeweiligen Teildienstes signiert sein, da die mit TLS abgesicherte Verbindung nicht in allen Anwendungsszenarien die Integrität der übertragenen Daten gewährleistet.</p> 
   <p id="polarion_116"></p> 
-  <div id="A_20524-04">
+  <div id="A_20524-04" severity="MUSS">
    <p><b>A_20524-04 - Befüllen der Claims "given_name", "family_name", "organizationName", "professionOID", "idNummer", "acr" und "amr"</b></p>
    <p>Der Token-Endpunkt MUSS benötigte Attribute in Claims für das auszustellende <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"ACCESS_TOKEN"</span> und das <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"ID_TOKEN"</span> ausschließlich aus dem ihm mit dem&nbsp;<span style="font-family: Arial, Helvetica;">signierten</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">CHALLENGE_TOKEN</span> eingereichten Authentifizierungszertifikat der Smartcard (eGK, HBA oder SMC-B) beziehen. Der Claim "amr" MUSS entsprechend des ursprünglich zur Authentisierung verwendeten Authentisierungsmittels belegt werden.<br> Der Token-Endpunkt MUSS das Attribut <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"given_name"</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"family_name"</span> der juristischen und natürlichen Personen sowie die Attribute&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"organizationName", "professionOID"</span> und&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"idNummer"</span>&nbsp;entsprechend des Datenformates der Informationsquelle (Zertifikat) wie folgt befüllen:<br> <br> <p data-keep-next="true" class="polarion-rte-caption-paragraph" id="polarion___1"> Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">4</span>:&nbsp;TAB_IDP_DIENST_0005 Befüllung der Attribute "given_name", "family_name", "organizationName", "professionOID" und "idNummer"&nbsp; </p> 
     <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;"> 
@@ -1141,7 +1497,7 @@ ol:first-of-type {
     </table> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_226"><span style="font-style: italic;">Hinweis:</span> Der Aufbau von ACCESS_TOKEN und ID_TOKEN entspricht [gemSpec_IDP_Dienst#Kapitel 7.6 Token Response].</p> 
-  <div id="A_22271">
+  <div id="A_22271" severity="MUSS">
    <p><b>A_22271 - Befüllen der Claims "given_name", "family_name", "organizationName", "professionOID", "idNummer", "acr" und "amr" nach Bestätigung durch einen sektoralen Identity Provider</b></p>
    <p>Der Token-Endpunkt MUSS benötigte Attribute in Claims für das auszustellende&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"ACCESS_TOKEN"</span>&nbsp;und das&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"ID_TOKEN"</span>&nbsp;ausschließlich aus den entsprechenden Claims des ID-Token des sektoralen Identity Provider&nbsp;beziehen.<br>Der Claim "amr" MUSS entsprechend des ursprünglich zur Authentisierung verwendeten Authentisierungsmittels belegt werden.<br> <br> <p class="polarion-rte-caption-paragraph" data-keep-next="true" id="polarion___3">Tabelle&nbsp;<span class="polarion-rte-caption" data-sequence="Tabelle">6</span>:&nbsp;TAB_IDP_DIENST_000X Befüllung der Attribute nach Bestätigung durch einen sektoralen Identity Provider</p>
     <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%">
@@ -1183,28 +1539,28 @@ ol:first-of-type {
   </div> 
   <p id="polarion_142">Hinweis: <span style="font-size: 10pt;line-height: 1.5;">Das Vertrauensniveau "gematik-ehealth-loa-high" ist aktuell das einzige LOA das der e-Rezept Fachdienst kennt. Für die zukünftigen föderierten Identity Provider wird es weiter abgestufte Vertrauensniveaus geben.</span></p> 
   <p id="polarion_145"><span style="font-style: italic;">Hinweis2:</span> Der Aufbau von ACCESS_TOKEN und ID_TOKEN entspricht [gemSpec_IDP_Dienst#Kapitel 7.6 Token Response].</p> 
-  <div id="A_20952">
+  <div id="A_20952" severity="MUSS">
    <p><b>A_20952 - Claim "aud" im Token setzen</b></p>
    <p>Der<span id="polarion-comment:1458"></span> IdP-Dienst MUSS den Claim "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">aud</span>" im "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span>" entsprechend des angefragten Scopes des Authenticator-Moduls mit der URL des Fachdienstes füllen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_119"><span style="font-style: italic;">Hinweis:&nbsp;</span>Für den E-Rezept-Fachdienst wird beispielsweise der folgende Wert genutzt: "<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">aud</span>" : "erp.zentral.erp.ti-dienste.de".</p> 
-  <div id="A_22326">
+  <div id="A_22326" severity="MUSS">
    <p><b>A_22326 - IDP-Dienst: Setzen des korrekten Issuer Claims</b></p>
    <p>Der IDP-Dienst MUSS je nach Ursprung (aus der TI oder aus dem Internet) des Aufrufs des Authentication Request den Issuer Claim "iss" in seinen ausgestellten Token analog zum Issuer Claim "issuer" des jeweiligen Discovery Document - intern (TI) oder extern (Internet) - setzen. <span id="polarion-comment:1610"></span> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_770"></p> 
-  <div id="A_20327-02">
+  <div id="A_20327-02" severity="MUSS">
    <p><b>A_20327-02 - Signatur des "ID_TOKEN" und "ACCESS_TOKEN"</b></p>
    <p>Der Token-Endpunkt MUSS alle erstellten "ID_TOKEN" und "ACCESS_TOKEN", um deren Integrität sicherzustellen und eine eineindeutige Erklärung über deren Herkunft abzugeben, mit seinem privaten Schlüssel "PrK_IDP_SIG" signieren. [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc7523#section-3">RFC7523 # section-3</a>&nbsp; Spiegelpunkt 9] ist zu gewährleisten.&nbsp;Als Algorithmus ist dementsprechend "BP256R1" zu wählen. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_161"><span style="font-style: italic;">Hinweis:</span> Zum Aufbau des Signaturheader siehe [gemSpec_IDP_Dienst#Kapitel 7.6 Token Response].</p> 
-  <div id="A_21321">
+  <div id="A_21321" severity="MUSS">
    <p><b>A_21321 - Verschlüsselung von "ACCESS_TOKEN" und "ID_TOKEN"</b></p>
    <p>Der Token-Endpunkt MUSS "ACCESS_TOKEN" und "ID_TOKEN" nach der Signatur mittels JWE [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc7516">RFC7516</a>]) unter Nutzung des "Token-Key" des Anwendungsfrontend verschlüsseln. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_47"></p> 
   <p id="polarion_112"><span style="font-style: italic;">Hinweis:</span> Zum Aufbau des Verschlüsselungs-Header siehe [gemSpec_IDP_Dienst#Kapitel 7.6 Token Response].</p> 
-  <div id="A_20329-01">
+  <div id="A_20329-01" severity="MUSS">
    <p><b>A_20329-01 - Sichere Übertragung von "ID_TOKEN" und "ACCESS_TOKEN"</b></p>
    <p>Der Token-Endpunkt <span style="font-weight: normal;">MUSS</span> <span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"</span><span style="font-weight: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">ID_TOKEN</span><span style="font-weight: bold;font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #000000;">"</span> und&nbsp;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">"ACCESS_TOKEN"</span> beim Transport mit Transport Layer Security (TLS) gemäß [gemSpec_Krypt] schützen.&nbsp;<br> <b>[&lt;=]</b></p>
   </div> 
@@ -1369,7 +1725,7 @@ ol:first-of-type {
   </ul> 
   <p id="polarion_221">beschrieben. Die anhand der Listen&nbsp;vorliegende Bewertung ist nicht als statisch anzunehmen, die Bewertung der Eignung erfolgt kontinuierlich auf Basis des Standes der Technik und der allgemeinen Sicherheitspolitik innerhalb der Telematikinfrastruktur. Die Pflege der Datenbasis obliegt dem Anbieter des IdP-Dienstes nach Vorgaben der gematik.&nbsp;</p> 
   <h6 id="5.4.2.1.1">5.4.2.1.1 Spezifikation</h6> 
-  <div id="A_21404">
+  <div id="A_21404" severity="MUSS">
    <p><b>A_21404 - Bewertung von Typen mobiler Endgeräte durch den IdP-Dienst</b></p>
    <p>Der IdP-Dienst MUSS zu vorgelegten Informationen über einen Gerätetyp innerhalb der Registrierung oder der Authentifizierung die folgende Einstufung vornehmen können: <br> Ein Gerätetyp ist zur Verwendung als Faktor innerhalb eines alternativen Authentisierungsmittels entweder<br> 
     <ul>
@@ -1379,7 +1735,7 @@ ol:first-of-type {
     </ul>Ein Gerätetyp wird durch die folgenden Informationen beschrieben: Hersteller, Produkt, Modell, Betriebssystem, Version des Betriebssystems. Die Zuordnung wird in den folgenden Anforderungen als "Block/Allow"-Liste beschrieben. Gerätetypen, die ohne Einschränkung geeignet sind, befinden sich auf der "Allow"-Liste; Gerätetypen, die nicht geeignet sind, befinden sich auf der "Block"-Liste. <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_768"><span style="font-style: italic;">Hinweis: Unter "vorgelegten Informationen" werden hierbei diejenigen verstanden, die vom Authenticator-Modul im Zuge der Registrierung oder der Authentifizierung über die Datenstruktur "Device_Information" an den IDP-Dienst übermittelt werden.</span></p> 
-  <div id="A_21405">
+  <div id="A_21405" severity="MUSS">
    <p><b>A_21405 - Management der Gerätetypen und ihrer Einstufung</b></p>
    <p>Der Anbieter des IdP-Dienstes MUSS dem CERT der gematik das Management der Datenbasis der Gerätetypen und die Zuordnung in eine der oben genannten Kategorien gestatten: <br> 
     <ul>
@@ -1393,20 +1749,20 @@ ol:first-of-type {
     </ul>
     <div style="margin-left: 40px;"></div> <span style="color: #000000;">Gerätetypen, die keine ausdrückliche Nennung erfahren, sind vom IdP-Dienst in den Protokollabläufen als bedingt geeignet einzustufen.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21406">
+  <div id="A_21406" severity="MUSS">
    <p><b>A_21406 - Anforderungen an Transaktionalität der Freischaltung der Einstufung von Gerätetypen</b></p>
    <p>Innerhalb eines Service-Requests vom CERT der gematik wird der vollständige, ab Freischaltung zur Einstufung zu verwendende Datenbestand der Block/Allow-Liste übermittelt. Der IdP-Dienst MUSS genau diese Daten innerhalb eines festgelegten Zeitraums zum Zweck der Einstufung wirksam werden lassen. Die alte Datenbasis wird hierbei vollständig ersetzt. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21407">
+  <div id="A_21407" severity="MUSS">
    <p><b>A_21407 - Vorhalten von Backup-Daten zur Einstufung von Gerätetypen</b></p>
    <p>Der IdP-Dienst MUSS die Transaktionen der Datenbasis zur Einstufung der Gerätetypen (Block/Allow-Liste)&nbsp;der letzten 6 Monate speichern und in der Lage sein, bei Bedarf auf eine vorherige Version des Bestandes zurückfallen zu können. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21408">
+  <div id="A_21408" severity="MUSS">
    <p><b>A_21408 - Exportierbarkeit der Datenbasis zur Einstufung von Gerätetypen</b></p>
    <p>Der Anbieter des IdP-Dienstes MUSS die aktuell verwendete Datenbasis zur Einstufung der Gerätetypen (Block/Allow-Liste)&nbsp;oder die innerhalb der letzten 6 Monate verwendete Version der Datenbasis der gematik zur Verfügung stellen. &nbsp;<br> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_769"></p> 
-  <div id="A_21409">
+  <div id="A_21409" severity="MUSS">
    <p><b>A_21409 - Anforderung an die Revisionssicherheit des Managements der Datenbasis zur Einstufung von Gerätetypen</b></p>
    <p>Der Anbieter des IdP-Dienstes MUSS die erfolgten Änderungen an der Datenbasis der Block/Allow-Liste revisionssicher protokollieren. Das System MUSS jederzeit Auskunft darüber geben können,<br> 
     <ul>
@@ -1428,14 +1784,14 @@ ol:first-of-type {
   <p id="polarion_670">Im Fall der Registrierungsfunktion muss die Authentifizierung auf Basis der eGK oder eines auf Basis einer eGK-Authentifizierung ausgestellten SSO_TOKEN unter Verwendung eines geeigneten Gerätes erfolgen.&nbsp;Im Fall der Inspektion oder der Deregistrierung sind pauschal alle am IdP-Dienst zugelassenen Authentisierungsmethoden gestattet. Die Verwendung von bereits registrierten alternativen Authentisierungsmitteln und ggf. anderen Geräten ist hier ausdrücklich zugelassen. Alleinige Bedingung ist die Rückführbarkeit auf ein und dieselbe Identität des Nutzers.&nbsp;&nbsp;</p> 
   <p id="polarion_286"></p> 
   <h6 id="5.4.2.2.1">5.4.2.2.1 Spezifikation</h6> 
-  <div id="A_21410">
+  <div id="A_21410" severity="MUSS">
    <p><b>A_21410 - Registrierung des Pairing-Endpunkts und des Authenticator-Moduls am IdP-Dienst</b></p>
    <p>Der Pairing-Endpunkt MUSS beim IdP-Dienst im Sinne von Abschnitt 4 aus [gemSpec_IDP_FD] registriert sein. Der registrierte Scope MUSS „openid&nbsp;pairing“ sein. Der beantragte Claim MUSS der folgende sein:<br>
     <ul>
      <li>idNummer.</li>
     </ul>Weitere Body-Claims DÜRFEN NICHT angefordert werden. Bestehende Header-Claims, die zur Prüfung der Gültigkeit von ACCESS_TOKEN verwendet werden, sind hiervon unberührt. Andere Fachdienste DÜRFEN mit dem genannten Scope NICHT registrierbar sein. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21429-02">
+  <div id="A_21429-02" severity="MUSS">
    <p><b>A_21429-02 - Erweiterung des Authorization-Endpunkts: Realisierung verschiedener Authentifizierungsmethoden</b></p>
    <p>Der Pairing-Endpunkt MUSS über eine dedizierte URL bereitgestellt werden. Die URL MUSS im externen Discovery Document aufgenommen und über das Attribut "uri_pair" im externen Discovery Document hinterlegt werden.<br>Im externen Discovery Document MUSS ebenfalls die Adresse des Endpunkts für die alternative Authentisierung (mit einem registrierten Pairing) über das Attribut "auth_pair_endpoint" hinterlegt werden. <b>[&lt;=]</b></p>
   </div> 
@@ -1622,7 +1978,7 @@ ol:first-of-type {
   </ul> 
   <p id="polarion_704">Die Kombination von idNummer und Key-Identifier dient zur Referenzierung bzw. Dereferenzierung der Kombination von Pairing-Daten, Zeitpunkt der Anlage und den vom Nutzer vergebenen Namen.&nbsp;Das Authentifizierungszertifikat C.CH.AUT wird hierbei nicht gespeichert. Seine Speicherung obliegt dem Authenticator-Modul für die zukünftige Verwendung des mit dem Prozess etablierten alternativen Authentisierungsmittels.</p> 
   <h6 id="5.4.2.5.2">5.4.2.5.2 Spezifikation</h6> 
-  <div id="A_21415">
+  <div id="A_21415" severity="MUSS">
    <p><b>A_21415 - Registrierungsfunktion des IdP-Dienstes: Datenformate und Syntax zur Kommunikation mit dem Authenticator-Modul</b></p>
    <p>Die Registrierungsfunktion des IdP-Dienstes MUSS die folgenden Datentypen zur Kommunikation mit dem Authenticator-Modul verwenden:&nbsp;<br> 
     <ul>
@@ -1636,7 +1992,7 @@ ol:first-of-type {
   </div> 
   <p id="polarion_490"><span style="font-style: italic;">Hinweis: Festlegung zur Ausgestaltung der Datenformate und Kommunikationsprotokolle finden sich im Anhang C dieses Dokuments.<br> Der Authorization-Endpunkt und der Pairing-Endpunkt müssen das zusätzliche Attribut Security-Patchlevel ("security_patchlevel") in der Authentication_Data/Device_Information/Device_Type-Struktur (Version 1.1) annehmen können ohne es zur Bewertung&nbsp;des Gerätetyps auf Basis der Block/Allow-Liste zu nutzen. Des Weiteren müssen der Authorization-Endpunkt und der Pairing-Endpunkt auch zukünftig die vorherige Version der Authentication_Data/Device_Information/Device_Type-Struktur (Version 1.0) ohne das Attribut&nbsp;Security-Patchlevel ("security_patchlevel") annehmen.&nbsp;</span></p> 
   <p id="polarion_736"></p> 
-  <div id="A_21411">
+  <div id="A_21411" severity="MUSS">
    <p><b>A_21411 - Registrierungsfunktion des IdP-Dienstes: Fehlermeldungen</b></p>
    <p>Der Pairing-Endpunkt MUSS im Zusammenhang mit der Registrierungsfunktion die folgenden Fehlermeldungen produzieren:<br> <br> <p style="text-align: left;" class="polarion-rte-caption-paragraph" id="polarion___4">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">9</span>: Fehlermeldungen im Zusammenhang mit der Registrierungsfunktion</p>
     <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%">
@@ -1665,43 +2021,43 @@ ol:first-of-type {
     </table><br> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_163"><span style="font-style: italic;">Hinweis: Festlegung zur Ausgestaltung der Datenformate und Kommunikationsprotokolle finden sich im Anhang C dieses Dokuments.</span></p> 
-  <div id="A_21412">
+  <div id="A_21412" severity="MUSS">
    <p><b>A_21412 - Registrierungsfunktion des IdP-Dienstes: Registrierung</b></p>
    <p>Der Pairing-Endpunkt MUSS zulassen, dass mehrere Geräte pro Nutzer registriert werden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21413">
+  <div id="A_21413" severity="MUSS">
    <p><b>A_21413 - Registrierungsfunktion des IdP-Dienstes: Prüfung des Scope</b></p>
    <p>Der Pairing-Endpunkt MUSS die Nutzung der Registrierungsfunktion ausschließlich auf Basis eines vom IdP-Dienst für das Authenticator-Modul erstellten ACCESS_TOKEN mit dem Scope "openid pairing" ermöglichen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21425">
+  <div id="A_21425" severity="MUSS">
    <p><b>A_21425 - Registrierungsfunktion des IdP-Dienstes: Validierung des übermittelten ACCESS_TOKENS</b></p>
    <p>Der Pairing-Endpunkt MUSS die verschlüsselten Registrierungsdaten und den übermittelten ACCESS_TOKEN annehmen. Die Prüfung des ACCESS_TOKEN erfolgt wie in&nbsp;[gemSpec_IDP_FD], Abschnitt 6 beschrieben. Der Pairing-Endpunkt MUSS das bezogene ACCESS_TOKEN mit dem PrK.IDP.ENC entschlüsseln. Das zur Entschlüsselung des ACCESS_TOKEN zu verwendende Verfahren ist ECDH-ES<span style="font-size: 11pt;font-family: Arial, Helvetica;color: #172B4D;line-height: 1.5;">.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21419">
+  <div id="A_21419" severity="MUSS">
    <p><b>A_21419 - Registrierungsfunktion des IdP-Dienstes: Anforderung an die Authentifizierung des Nutzers</b></p>
    <p>Der Pairing-Endpunkt des IdP-Dienstes MUSS sicherstellen, dass die Registrierung ausschließlich auf Basis von ACCESS_TOKEN durchgeführt wird, die belegen, dass sich der Nutzer auf Basis der eGK authentifiziert hat. Dieser Beleg MUSS aus den Werten für die Claims „amr“ und „acr“ abgeleitet werden. Diese MÜSSEN wie folgt belegt sein: acr=“gematik-ehealth-loa-high“, amr=“["mfa“,“sc“,“pin“]. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21420">
+  <div id="A_21420" severity="MUSS">
    <p><b>A_21420 - Registrierungsfunktion des IdP-Dienstes: Entschlüsselung der Registrierungsdaten</b></p>
    <p>Der Pairing-Endpunkt MUSS die übermittelten Registrierungsdaten mit dem PrK.IDP.ENC entschlüsseln.&nbsp;<br> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21421">
+  <div id="A_21421" severity="MUSS">
    <p><b>A_21421 - Registrierungsfunktion des IdP-Dienstes: Validierung der signierten Pairing-Daten</b></p>
    <p>Der Pairing-Endpunkt MUSS die in den übermittelten Registrierungsdaten enthaltenen Pairing-Daten extrahieren und MUSS die Signatur des Nutzers zu den Pairing-Daten prüfen. Die Prüfung des Authentifizierungszertifikats MUSS hierbei auf Basis der aktuellen Systemzeit des Pairing-Endpunkts als Referenzzeit und gemäß [gemSpec_PKI], Abschnitt 8.3.1.1 „TUC_PKI_018“ erfolgen. <span style="font-size: 10pt;line-height: 1.5;">Der IdP-Dienst MUSS zur Validierung alle Algorithmen unterstützen, die im Zusammenhang mit den Authentisierungsmitteln verwendet werden, die zur Authentisierung am IdP-Dienst zugelassen sind (siehe [gemSpec_IDP_Frontend], Abschnitt 3). Hierbei MÜSSEN die Vorgaben aus Abschnitt 9.3.4 [gemSpec_IDP_Frontend] beachtet werden. Andere Algorithmen DÜRFEN NICHT unterstützt werden.</span> Kann die Authentizität der Pairing-Daten nicht belegt werden oder ist das übermittelte Authentifizierungszertifikat zum aktuellen Zeitpunkt ungültig oder gesperrt, MUSS der Pairing-Endpunkt die Anfrage mit der Fehlermeldung REG.1 beenden.&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Unter "Authentifizierungszertifikat" wird ein Zertifikat des Typs C.CH.AUT verstanden.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21422">
+  <div id="A_21422" severity="MUSS">
    <p><b>A_21422 - Registrierungsfunktion des IdP-Dienstes: Validierung des Zusammenhangs von ACCESS_TOKEN und Pairing-Daten</b></p>
    <p>Der Pairing-Endpunkt MUSS überprüfen, ob sich das übermittelte ACCESS_TOKEN und sich die im Authentifizierungszertifikat eingebetteten Identitätsinformationen auf ein und dieselbe Entität zurückführen lassen: Der Pairing-Endpunkt MUSS dafür prüfen, ob der im ACCESS_TOKEN eingebettete Claim „idNummer“ identisch mit der im Authentifizierungszertifikat vorhandenen „idNummer“ ist. Sind diese nicht identisch, MUSS der Pairing-Endpunkt die Anfrage mit der Fehlermeldung REG.1 beenden. Unter Authentifizierungszertifikat wird hierbei ein Zertifikat vom Typ C.CH.AUT verstanden.&nbsp; <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21470">
+  <div id="A_21470" severity="MUSS">
    <p><b>A_21470 - Registrierungsfunktion des IdP-Dienstes: Prüfung des Zusammenhangs zwischen Pairing-Daten und übermittelten Authentifizierungszertifikat</b></p>
    <p>Der Pairing-Endpunkt des IdP-Dienstes MUSS überprüfen, ob sich die in den Pairing-Daten befindlichen Daten „issuer“, „serialnumber“, „auth_cert_subject_public_key_info“, „not_after“ identisch zu den Zertifikatsfeldern „issuer“, „serialNumber“, „subjectPublicKeyInfo“, „notAfter“ des übermittelten Authentifizierungszertifikats sind. Schlägt einer dieser Vergleiche fehl, MUSS der Pairing-Endpunkt die Anfrage mit der Fehlermeldung REG.1 beenden. Unter "Authentifizierungszertifikat" wird ein Zertifikat des Typs C.CH.AUT verstanden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21423">
+  <div id="A_21423" severity="MUSS">
    <p><b>A_21423 - Registrierungsfunktion des IdP-Dienstes: Bewertung des Gerätetyps</b></p>
    <p>Der Pairing-Endpunkt des IdP-Dienstes MUSS die vom Authenticator-Modul übertragenen Geräteinformationen gegen die Block/Allow-Liste prüfen. Bei Zuordenbarkeit der Geräteinformationen zu einem Gerätetyp auf der Block-Liste MUSS der Pairing-Endpunkt den Registrierungsvorgang mit der Fehlermeldung REG.2 beenden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21424">
+  <div id="A_21424" severity="MUSS">
    <p><b>A_21424 - Registrierungsfunktion des IdP-Dienstes: Speicherung der Pairing-Daten</b></p>
    <p>Der Pairing-Endpunkt MUSS die folgenden Daten und den Zeitpunkt der Speicherung in seiner Pairing-Datenbank speichern:<br> 
     <ul>
@@ -1710,11 +2066,11 @@ ol:first-of-type {
      <li>den aktuellen Zeitpunkt.&nbsp;&nbsp;</li>
     </ul>Die logische Kombination dieser Daten MUSS über die idNummer referenzierbar sein und sie MUSS über die Kombination aus (idNummer, keyIdentifier) eindeutig referenzierbar sein. Unter „keyIdentifier“ wird hierbei das Feld „key_Identifier“ aus den Pairing-Daten verstanden. Eventuelle Kollisionen mit bestehenden Pairing-Daten MÜSSEN mit der Fehlermeldung REG.4 begegnet werden. Der Pairing-Endpunkt DARF die übermittelten Daten in diesem Fall NICHT speichern. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21426">
+  <div id="A_21426" severity="DARF NICHT">
    <p><b>A_21426 - Registrierungsfunktion des IdP-Dienstes: Nicht-Speicherung des übermittelten Authentifizierungszertifikats</b></p>
    <p>Der Pairing-Endpunkt DARF das im Zuge der Registrierung in den Registrierungsdaten übertragene Authentifizierungszertifikat NICHT persistent speichern.&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Unter "Authentifizierungszertifikat" wird ein Zertifikat des Typs C.CH.AUT verstanden.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21427">
+  <div id="A_21427" severity="MUSS">
    <p><b>A_21427 - Registrierungsfunktion des IdP-Dienstes: Rückmeldung an den Nutzer</b></p>
    <p>Der Pairing-Endpunkt MUSS dem Authenticator-Modul eine eindeutige Rückmeldung über den Erfolg oder Misserfolg der Anlage des Pairings übermitteln. <b>[&lt;=]</b></p>
   </div> 
@@ -1777,7 +2133,7 @@ ol:first-of-type {
   <p id="polarion_717">Bei Fehlschlag einer Prüfung wird der Prozess abgebrochen. Bei erfolgreichem Durchlaufen aller Prüfungen gilt der Nutzer als authentifiziert. Alle weiteren Prozesse des Authorization-Endpunkts wie in [gemSpec_IDP_Dienst] unter Abschnitt 5.2 beschrieben werden durchlaufen und münden in der Produktion eines Authorization-Code und eines SSO_TOKEN. Die vom Authenticator-Modul übertragenen Informationen über die Art der vom Nutzer verwendeten lokalen Authentisierungsmethode zur Anwendung des PrK_SE_AUT werden als Claim in SSO_TOKEN und AUTHORIZATION_CODE verankert.</p> 
   <h6 id="5.4.2.6.3">5.4.2.6.3 Spezifikation</h6> 
   <p id="polarion_229"></p> 
-  <div id="A_21449">
+  <div id="A_21449" severity="MUSS">
    <p><b>A_21449 - Erweiterung des Authorization-Endpunkts: Datenmodell und Syntax zur Kommunikation mit dem Authenticator-Modul</b></p>
    <p>Der Authorization-Endpunkt des IdP-Dienstes MUSS bei der Verwendung von alternativen Authentisierungsmitteln die folgenden Datentypen zur Kommunikation mit dem Authenticator-Modul verwenden:<br> 
     <ul>
@@ -1786,7 +2142,7 @@ ol:first-of-type {
      <li><span style="font-size: 10pt;line-height: 1.5;">Encrypted_Signed_Authentication_Data.</span></li>
     </ul> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21428">
+  <div id="A_21428" severity="MUSS">
    <p><b>A_21428 - Erweiterung des Authorization-Endpunkts: Fehlermeldungen</b></p>
    <p>Der Authorization-Endpunkt MUSS bei Authentifizierung von Nutzern auf Basis von alternativen Authentisierungsmitteln die folgenden Fehlermeldungen produzieren:<br> <br> <p style="text-align: left;" class="polarion-rte-caption-paragraph" id="polarion___5">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">10</span>: Fehlermeldungen des Authorization-Endpunkts bei Authentifizierung auf Basis von alternativen Authentisierungsmitteln</p>
     <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%">
@@ -1803,23 +2159,23 @@ ol:first-of-type {
     </table> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_744"><span style="font-style: italic;">Hinweis: Anforderungen an die initiale Verarbeitung der im Zuge der Authentifizierung empfangenen Datenstruktur "Authentication_Data" stellt die Anforderung A_20699-03.</span></p> 
-  <div id="A_21432">
+  <div id="A_21432" severity="MUSS">
    <p><b>A_21432 - Erweiterung des Authorization-Endpunkts: Prüfung der vorliegenden Gerätedaten</b></p>
    <p>Der Authorization-Endpunkt MUSS die in der Authentication_Data/Device_Information-Struktur dargelegten Informationen zum Gerätetyp auf Basis der Block/Allow-Liste bewerten. Sofern das Gerät als nicht geeignet im Sinne der Anforderung A_21404 eingestuft ist, MUSS der Authentifizierungsvorgang mit der Fehlermeldung „access_denied“ und der „error_description“ VAL.1 genannt abgebrochen werden. Die Zuordnung zwischen gelieferten Informationen zum Gerätetyp und der Datenbasis der Block/Allow-Liste MUSS auf Basis des Vergleichs der in den einzelnen Claims enthaltenen Strings erfolgen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21433">
+  <div id="A_21433" severity="MUSS">
    <p><b>A_21433 - Erweiterung des Authorization-Endpunkts: Validierung des Authentifizierungszertifikats</b></p>
    <p>Der Authorization-Endpunkt MUSS die Gültigkeit des in der Signed_Authentication_Data-Struktur gelieferten Authentifizierungszertifikats überprüfen. Die Zertifikatsprüfung des Authentifizierungszertifikats muss hierbei auf Basis der Systemzeit des Pairing-Endpunkts als Referenzzeit erfolgen. Die Prüfung des Zertifikats MUSS gemäß [gemSpec_PKI], Abschnitt 8.3.1.1 „TUC_PKI_018“ erfolgen.&nbsp;Bei ungültigem oder gesperrtem Zertifikat MUSS der Authorization-Endpunkt die Verarbeitung abbrechen. <span style="font-size: 10pt;line-height: 1.5;">Die</span> Fehlermeldungen MUSS „access_denied“ mit „error_description“ VAL.1 sein. Unter "Authentifizierungszertifikat" wird ein Zertifikat des Typs C.CH.AUT verstanden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21434">
+  <div id="A_21434" severity="MUSS">
    <p><b>A_21434 - Erweiterung des Authorization-Endpunkts: Auslesen der gespeicherten Pairing-Daten</b></p>
    <p>Der Authorization-Endpunkt MUSS die idNummer aus dem übermittelten Authentifizierungszertifikat entnehmen (vergleiche A_20524 [gemSpec_IDP_Dienst] und [gemSpec_PKI], Abschnitt 4.2 zur Erläuterung). Der Authorization-Endpunkt MUSS anhand des in den Signed_Authentication_Data übermittelten Key-Identifiers und der extrahierten idNummer die Pairing-Daten aus der Pairing-Datenbank beziehen. Falls kein solcher Datensatz existiert, MUSS der Authorization-Endpunkt den Prozess mit einer Fehlermeldung abbrechen. Die Fehlermeldungen MUSS „access_denied“ mit „error_description“ VAL.1 sein.&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Unter "Authentifizierungszertifikat" wird ein Zertifikat des Typs C.CH.AUT verstanden.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21435">
+  <div id="A_21435" severity="MUSS">
    <p><b>A_21435 - Erweiterung des Authorization-Endpunkts: Validierung der mathematischen Integrität der gespeicherten Pairing-Daten</b></p>
    <p>Der Authorization-Endpunkt MUSS die Integrität der hinterlegten Pairing-Daten mithilfe des öffentlichen Schlüssels des Authentifizierungszertifikats überprüfen. Erweisen sich die (mathematische) Integrität der Daten nicht als gewährleistet, MUSS die Verarbeitung mit einer Fehlermeldung abgebrochen werden. Die Fehlermeldungen MUSS „access_denied“ mit „error_description“ VAL.1 sein.&nbsp;<span style="font-size: 10pt;line-height: 1.5;">Unter "Authentifizierungszertifikat" wird ein Zertifikat des Typs C.CH.AUT verstanden.</span><br> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21437">
+  <div id="A_21437" severity="MUSS">
    <p><b>A_21437 - Erweiterung des Authorization-Endpunkts: Bewertung der Gültigkeit des öffentlichen Schlüssels in den Pairing-Daten</b></p>
    <p>Der Authorization-Endpunkt MUSS die Eignung des in den Pairing-Daten gespeicherten öffentlichen Schlüssels PuK_SE_AUT zur Prüfung der Integrität der Signed_Authentication_Data-Struktur wie folgt bewerten: <br> 
     <ul>
@@ -1828,15 +2184,15 @@ ol:first-of-type {
     </ul> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_707"><span style="font-style: italic;">Hinweis: Die&nbsp;Prüfung auf ein ungeeignetes Gerät durch Abfrage der Block/Allow-Liste erfolgt in Anforderung A_21432.</span></p> 
-  <div id="A_21438">
+  <div id="A_21438" severity="MUSS">
    <p><b>A_21438 - Erweiterung des Authorization-Endpunkts: Validierung der mathematischen Integrität der signierten Authentication_Data-Struktur</b></p>
    <p>Der Authorization-Endpunkt MUSS die Integrität der übermittelten Signed_Authentication_Data mithilfe des öffentlichen Schlüssels aus dem Pairing-Datensatz überprüfen. Sofern sich die Daten als nicht (mathematisch) integer erweisen MUSS der Authorization-Endpunkt den Prozess mit einer Fehlermeldung abbrechen.&nbsp;Die Fehlermeldungen MUSS „access_denied“ mit „error_description“ VAL.1 sein.<br> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21439">
+  <div id="A_21439" severity="MUSS">
    <p><b>A_21439 - Erweiterung des Authorization-Endpunkts: Zu unterstützende Algorithmen zur Prüfung der mathematischen Integrität der signierten Authentication_Data-Struktur</b></p>
    <p>Der Authorization-Endpunkt MUSS im Zuge der Validierung der&nbsp;mathematischen Integrität der Signed_Authentication_Data-Struktur die folgenden Algorithmen unterstützen: ECDSA mit Kurve P-256 und SHA-256.<br> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21440">
+  <div id="A_21440" severity="MUSS">
    <p><b>A_21440 - Erweiterung des Authorization-Endpunkts: Produktion des Authorization Code und eines SSO_TOKEN</b></p>
    <p>Der Authorization-Endpunkt MUSS nach erfolgreicher Prüfung der Signed_Authentication_Data einen Authorization Code und einen SSO_TOKEN produzieren. Basis für die Claims liefert das übertragene Authentifizierungszertifikat und die Claims aus der Datenstruktur Authentication_Data. <span style="font-size: 10pt;line-height: 1.5;">Unter "Authentifizierungszertifikat" wird ein Zertifikat des Typs C.CH.AUT verstanden.&nbsp;</span>In den produzierten SSO_TOKEN und AUTHORIZATION_CODES MUSS der „amr“-Claim identisch zu dem gleichnamigen Claim in der Authentication_Data-Struktur gesetzt werden. <b>[&lt;=]</b></p>
   </div> 
@@ -1860,7 +2216,7 @@ ol:first-of-type {
   <p class="polarion-rte-caption-paragraph" style="text-align: center;" id="polarion_730">Abbildung <span class="polarion-rte-caption" data-sequence="Abbildung">9</span>: Deregistrierung eines Pairings</p> 
   <h6 id="5.4.2.7.3">5.4.2.7.3 Spezifikation</h6> 
   <p id="polarion_677"></p> 
-  <div id="A_21450">
+  <div id="A_21450" severity="MUSS">
    <p><b>A_21450 - Inspektions- und Deregistrierungsfunktion des IdP-Dienstes: Datenmodell und Syntax zur Kommunikation mit dem Authenticator-Modul</b></p>
    <p>Die Inspektions- und Deregistrierungsfunktion des IdP-Dienstes MUSS die folgenden Datentypen zur Kommunikation mit dem Authenticator-Modul verwenden:&nbsp;<br> 
     <ul>
@@ -1869,7 +2225,7 @@ ol:first-of-type {
     </ul> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_734"><span style="font-style: italic;">Hinweis: Die Ausgestaltung der Datenformate und Kommunikationsprotokolle ist im Anhang C dieses Dokuments dargelegt.</span><br></p> 
-  <div id="A_21441">
+  <div id="A_21441" severity="MUSS">
    <p><b>A_21441 - Inspektions- und Deregistrierungsfunktion des IDP-Dienstes: Fehlermeldungen</b></p>
    <p>Der Pairing-Endpunkt des IdP-Dienstes MUSS im Zusammenhang mit der Inspektions- und Deregistrierungsfunktion die folgenden Fehlermeldungen produzieren:<br> <br> <p style="text-align: left;" class="polarion-rte-caption-paragraph" id="polarion___6">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">11</span>: Fehlermeldungen Inspektions- und Deregistrierungsfunktion</p>
     <table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%">
@@ -1894,34 +2250,34 @@ ol:first-of-type {
     </table> <b>[&lt;=]</b></p>
   </div> 
   <p id="polarion_745"><span style="font-style: italic;">Hinweis: Die Ausgestaltung der Fehlermeldungen ist im Anhang C dieses Dokuments dargelegt.</span></p> 
-  <div id="A_21445">
+  <div id="A_21445" severity="MUSS">
    <p><b>A_21445 - Inspektions- und Deregistrierungsfunktion des IdP-Dienstes: Validierung und Verarbeitung des ACCESS_TOKEN</b></p>
    <p>Der Pairing-Endpunkt MUSS das bezogene ACCESS_TOKEN mit dem privaten Schlüssel PrK.IDP.ENC entschlüsseln.&nbsp;Das zur Entschlüsselung des ACCESS_TOKEN zu verwendende Verfahren ist ECDH-ES. Die Prüfung des ACCESS_TOKENS erfolgt wie in [gemSpec_IDP_FD], Abschnitt 6 beschrieben. Sofern das ACCESS_TOKEN ungültig ist, MUSS dem Authenticator-Modul die Fehlermeldung AC.1 übermittelt werden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21452">
+  <div id="A_21452" severity="MUSS">
    <p><b>A_21452 - Inspektions- und Deregistrierungsfunktion des IdP-Dienstes: Rückgabe der Pairing-Daten</b></p>
    <p>Der Pairing-Endpunkt MUSS die idNummer des Benutzers aus den Claims des ACCESS_TOKEN extrahieren und die Pairing-Datenbank anhand der idNummer nach den bestehenden Pairings des Benutzers abfragen. Die bezogenen Pairing-Daten MÜSSEN dem Authenticator-Modul übermittelt werden.&nbsp;Die Antwort MUSS eine Liste von Pairing_Entry-Daten sein. Sofern die Daten nicht bezogen werden konnten, MUSS dem Authenticator-Modul die Fehlermeldung AC.2 übermittelt werden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21447">
+  <div id="A_21447" severity="MUSS">
    <p><b>A_21447 - Inspektions- und Deregistrierungsfunktion des IdP-Dienstes: Annahme des Kommandos zur Deaktivierung des Pairings</b></p>
    <p>Der Pairing-Endpunkt MUSS das Kommando zum Deaktivieren eines Pairing-Eintrags annehmen. Das Kommando umfasst dabei das ACCESS_TOKEN und den Key-Identifier des zu deaktivierenden Pairing-Eintrages.&nbsp;Der Pairing-Eintrag MUSS anhand von Key-Identifier und der im ACCESS_TOKEN enthaltenen idNummer identifiziert und deaktiviert werden. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21448">
+  <div id="A_21448" severity="MUSS">
    <p><b>A_21448 - Inspektions- und Deregistrierungsfunktion des IdP-Dienstes: Deaktivierung des identifizierten Pairing-Datensatzes</b></p>
    <p><span style="font-size: 10pt;line-height: 1.5;">Der Pairing-Endpunkt MUSS den zur Deaktivierung angefragten Pairing-Datensatz anhand der Kombination aus dem übermittelten Key-Identifier und der aus dem ACCESS_TOKEN bezogenen idNummer identifizieren. Das verwendete Pairing MUSS dauerhaft deaktiviert werden. Die zur Authentifizierung verwendeten Authentifizierungsschlüssel dürfen nicht mehr verwendet werden. Sofern der Auftrag zur Deaktivierung nicht angenommen werden konnte, MUSS der Pairing-Endpunkt dem Authenticator-Modul die Fehlermeldung AC.3 übermitteln.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_21454">
+  <div id="A_21454" severity="MUSS">
    <p><b>A_21454 - Performance - IdP-Dienst - Deregistrierung eines Pairings</b></p>
    <p>Der Anbieter des IdP-Dienstes MUSS sicherstellen, dass ein in der Pairing-Datenbank gespeichertes Pairing auf Anfrage des Nutzers innerhalb einer Stunde deaktiviert wird. Dies gilt auch für eine standortübergreifende Realisierung der einzelnen Endpunkte des IdP-Dienstes. <b>[&lt;=]</b></p>
   </div> 
   <h3 id="5.5">5.5 Third-Party Authorization Endpoint</h3> 
   <p id="polarion_781">Der IDP-Dienst muss einen <span style="font-size: 10pt;line-height: 1.5;">Third-Party-Authorization Endpoint bereitstellen, an welchem&nbsp;Authorization Requests eingereicht werden, bei denen die eigentliche Authentisierung anschließend unter Nutzung eines sektoralen Identity Provider durchgeführt werden soll. Nach erfolgter Authentisierung erzeugt der IDP-Dienst aus den Daten des abgerufenen ID-Token die eigenen Token für das Anwendungsfrontend und den Fachdienst.</span></p> 
   <p id="polarion_782"><span style="font-weight: bold;"></span></p> 
-  <div id="A_22262">
+  <div id="A_22262" severity="MUSS">
    <p><b>A_22262 - Bereitstellung eines Third-Party Authorization Endpoint</b></p>
    <p>Der IDP-Dienst MUSS einen Third-Party Authorization Endpoint unter einer dedizierten URL bereitstellen und dort Authorization Requests und&nbsp;Authorization Codes eines sektoralen Identity Provider annehmen. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_22263">
+  <div id="A_22263" severity="MUSS">
    <p><b>A_22263 - Sitzungsmanagement des IDP-Dienstes zu einem sektoralen Identity Provider</b></p>
    <p>Der IDP-Dienst MUSS für Anfragen zur Authentisierung an einem sektoralen Identity Provider die folgenden Daten zur späteren Korrelation der Anfragen in einer Sitzung speichern:<br> 
     <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
@@ -1971,7 +2327,7 @@ ol:first-of-type {
   <p id="polarion_671"></p> 
   <h5 id="5.5.1.1">5.5.1.1 Third-Party Authorization-Endpunkt Eingangsdaten</h5> 
   <p id="polarion_784"><span style="font-weight: bold;"></span></p> 
-  <div id="A_22264">
+  <div id="A_22264" severity="MUSS">
    <p><b>A_22264 - Authorization-Request des IDP-Dienstes an sektorale Identity Provider</b></p>
    <p>Wenn der Authorization Request einen Parameter "kk_app_id" mit dem Identifikator eines sektoralen Authenticator-Moduls enthält, MUSS der IDP-Dienst selbst einen Authorization Request als Client an den zugehörigen sektoralen Identity Provider stellen. Der Request wird in Form eines HTTP-302-redirect als Antwort auf dessen Authorisierungs-Request zurück an das Authenticator-Modul gesendet. Die "target_url" des "redirect" ist dabei&nbsp;die URL des Authenticator-Moduls des sektoralen Identity Provider, welches durch den Parameter "kk_app_id" gewählt wurde. Hierbei sind die folgenden Parameter zu verwenden:<br> 
     <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
@@ -2028,7 +2384,7 @@ ol:first-of-type {
   <p id="polarion_786">Auf einen "claims"-Parameter wird verzichtet.</p> 
   <h5 id="5.5.1.2">5.5.1.2 Third-Party Authorization-Endpunkt Ausgangsdaten</h5> 
   <p id="polarion_787"><span style="font-weight: bold;"></span></p> 
-  <div id="A_22265">
+  <div id="A_22265" severity="MUSS">
    <p><b>A_22265 - Token Request des IDP-Dienstes an sektorale Identity Provider</b></p>
    <p>Bei eingehenden Authorization Requests am <span style="font-size: 10pt;line-height: 1.5;">Third-Party Authorization Endpoint,&nbsp;</span>die anstelle eines Challenge_Token den AUTHORIZATION_CODE_IDP eines sektoralen Identity Provider enthalten, MUSS der IDP-Dienst anhand des state-Parameters die in [<span style="font-size: 10pt;line-height: 1.5;">A_22263]&nbsp;</span>definierten Sitzungsdaten rekonstruieren, selbst einen Token Request an den sektoralen Identity Provider stellen und dabei als 'Confidential Client' agieren. <br> <br> Der entsprechende sektorale Identity Provider ergibt sich dabei aus der gewählten "kk_app_id" der Anfrage. Als "redirect_uri" ist die übermittelte Adresse des Authenticator-Moduls des sektoralen Identity Provider ("<span style="font-size: 10pt;line-height: 1.5;">kk_app_redirect_uri")&nbsp;</span>zu verwenden.<br> <br> Hierbei sind die folgenden Inhalte zu verwenden:<br> <br> 
     <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"> 
@@ -2077,19 +2433,19 @@ ol:first-of-type {
   </div> 
   <p id="polarion_788"><span style="font-style: italic;">Hinweis: Aufgrund der Speicherung und Referenzierung der Sitzungsdaten durch den state-Parameter, reduziert sich die Prüfung auf Gleichheit zwischen übermittelten und gespeicherten "state" auf die Prüfung des Vorhandenseins einer unter dem übermittelten "state" gespeicherten Sitzung.</span> <span style="font-size: 10pt;line-height: 1.5;"></span></p> 
   <p id="polarion_791"><span style="font-weight: bold;"></span></p> 
-  <div id="A_22266">
+  <div id="A_22266" severity="MUSS">
    <p><b>A_22266 - Authentisierung des IDP-Dienstes gegenüber den sektoralen Identity Providern</b></p>
    <p>Der IDP-Dienst MUSS sich gegenüber dem Token-Endpunkt des sektoralen Identity Provider <span style="font-size: 10pt;line-height: 1.5;">entsprechend https://openid.net/specs/openid-connect-core-1_0.html#ClientAuthentication als 'confidential client' mit einem "private_key_jwt" authentisieren.</span><br> <span style="font-size: 10pt;line-height: 1.5;">Dieses "private_key_jwt" hat eine maximale Gültigkeit von 3 Minuten und muss mit dem Schlüssel "PuK_IDP_SIG_Sek" signiert werden.</span> <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_22268">
+  <div id="A_22268" severity="MUSS">
    <p><b>A_22268 - Prüfung des ID-Token eines sektoralen Identity Provider</b></p>
    <p>Der IDP-Dienst MUSS empfangene ID-Token auf Authentizität gemäß [OpenID.Core#3.1.3.7] prüfen.<br>Insbesondere MUSS die Signatur mit einem unter "jwks_uri" referenzierter öffentlichen Schlüssel aus dem Discovery Document des sektoralen Identity Provider prüfbar sein. Dieser ist über die "kid" aus der Signatur des Token auszuwählen. <br>Des Weiteren MUSS der IDP-Dienst prüfen, ob die im ID-Token enthaltene Nonce dem Wert "nonce_idp" aus den Sitzungsdaten der Session entspricht. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_22269">
+  <div id="A_22269" severity="MUSS">
    <p><b>A_22269 - Produktion eines Authorization Code nach Bestätigung des sektoralen Identity Provider</b></p>
    <p>Nach erfolgreicher Prüfung des ID-Token MUSS der IDP-Dienst auf Basis der Sitzungsdaten und der Inhalte der Claims einen Authorization Code wie in [gemSpec_IDP#5.2.2] beschrieben produzieren und diesen zusammen mit dem gespeicherten 'State' und einem SSO_TOKEN an das Anwendungsfrontend übermitteln. <b>[&lt;=]</b></p>
   </div> 
-  <div id="A_22270">
+  <div id="A_22270" severity="MUSS">
    <p><b>A_22270 - Löschung der Sitzungsdaten zum sektoralen Identity Provider</b></p>
    <p>Der IDP-Dienst MUSS nach erfolgter Ausstellung des Authorization Code oder Abbruch des Prozesses die unter dem vom ihm erzeugten 'State' gespeicherten Sitzungsdaten zur Anfrage an einen sektoralen Identity Provider löschen.&nbsp; <b>[&lt;=]</b></p>
   </div> 
@@ -2351,52 +2707,56 @@ ol:first-of-type {
   <div id="polarion_wiki macro name=tof;params=uid=1" data-sequence="Abbildung"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_58">Abbildung 1: Systemüberblick (vereinfacht)</a></li>
-   <li><a href="#polarion_49">Abbildung 2: Übersichtsschaubild OAuth2.0 Smartcard-IdP-Dienst</a></li>
-   <li><a href="#polarion_168">Abbildung 3: Systemkontext aus Sicht des IdP-Dienstes</a></li>
-   <li><a href="#polarion_175">Abbildung 4:&nbsp;Datenfluss-Diagramm IdP-Dienst</a></li>
-   <li><a href="#polarion_20">Abbildung 5: Schnittstellen des IdP-Dienstes</a></li>
-   <li><a href="#polarion_741">Abbildung 6: Ablauf Registrierungsprozess</a></li>
-   <li><a href="#polarion_709">Abbildung 7: Ablauf Verwendung alternativer Authentisierungsmittel</a></li>
-   <li><a href="#polarion_724">Abbildung 8: Inspektion der Pairing-Daten</a></li>
-   <li><a href="#polarion_730">Abbildung 9: Deregistrierung eines Pairings</a></li>
+   <ul>
+    <li><a href="#polarion_58">Abbildung 1: Systemüberblick (vereinfacht)</a></li>
+    <li><a href="#polarion_49">Abbildung 2: Übersichtsschaubild OAuth2.0 Smartcard-IdP-Dienst</a></li>
+    <li><a href="#polarion_168">Abbildung 3: Systemkontext aus Sicht des IdP-Dienstes</a></li>
+    <li><a href="#polarion_175">Abbildung 4:&nbsp;Datenfluss-Diagramm IdP-Dienst</a></li>
+    <li><a href="#polarion_20">Abbildung 5: Schnittstellen des IdP-Dienstes</a></li>
+    <li><a href="#polarion_741">Abbildung 6: Ablauf Registrierungsprozess</a></li>
+    <li><a href="#polarion_709">Abbildung 7: Ablauf Verwendung alternativer Authentisierungsmittel</a></li>
+    <li><a href="#polarion_724">Abbildung 8: Inspektion der Pairing-Daten</a></li>
+    <li><a href="#polarion_730">Abbildung 9: Deregistrierung eines Pairings</a></li>
+   </ul>
   </div> 
   <h3 id="6.4">6.4 Tabellenverzeichnis</h3> 
   <div id="polarion_wiki macro name=tof;params=uid=2" data-sequence="Tabelle"></div>
   <div id="toc_container">
    <p class="toc_title"><h1></h1></p>
-   <li><a href="#polarion_141">Tabelle 1:&nbsp;TAB_IDP_DIENST_0001 Akteure und OAuth2-Rollen</a></li>
-   <li><a href="#polarion_30">Tabelle 2:&nbsp;TAB_IDP_DIENST_0002 Kurzbezeichnung der Schnisttstellen des IdP-Dienstes</a></li>
-   <li><a href="#polarion_42">Tabelle 3:&nbsp;TAB_IDP_DIENST_0003 Bezeichnungen der extern genutzten Schlüssel und Adressen des IDP-Dienstes</a></li>
-   <li><a href="#polarion___1">Tabelle 4:&nbsp;TAB_IDP_DIENST_0005 Befüllung der Attribute "given_name", "family_name", "organizationName", "professionOID" und "idNummer"&nbsp;</a></li>
-   <li><a href="#polarion___2">Tabelle 5:&nbsp;TAB_IDP_DIENST_0006 Befüllung der Attribute "acr" und "amr"</a></li>
-   <li><a href="#polarion___3">Tabelle&nbsp;6:&nbsp;TAB_IDP_DIENST_000X Befüllung der Attribute nach Bestätigung durch einen sektoralen Identity Provider</a></li>
-   <li><a href="#polarion_746">Tabelle 7: Faktoren und abgeleitete Anforderungen an das System</a></li>
-   <li><a href="#polarion_674">Tabelle 8: Nomenklatur Schlüsselmaterial</a></li>
-   <li><a href="#polarion___4">Tabelle 9: Fehlermeldungen im Zusammenhang mit der Registrierungsfunktion</a></li>
-   <li><a href="#polarion___5">Tabelle 10: Fehlermeldungen des Authorization-Endpunkts bei Authentifizierung auf Basis von alternativen Authentisierungsmitteln</a></li>
-   <li><a href="#polarion___6">Tabelle 11: Fehlermeldungen Inspektions- und Deregistrierungsfunktion</a></li>
-   <li><a href="#polarion_176">Tabelle 12: Kodierung von Daten</a></li>
-   <li><a href="#polarion_182">Tabelle 13: Schema Datentyp "Device_Type"</a></li>
-   <li><a href="#polarion_195">Tabelle 14: Schema Datentyp "Device_Information"</a></li>
-   <li><a href="#polarion_228">Tabelle 15: Schema Datentyp "Pairing_Data"</a></li>
-   <li><a href="#polarion_239">Tabelle 16: Schema Datentyp "Signed_Pairing_Data"</a></li>
-   <li><a href="#polarion_244">Tabelle 17: Schema Datentyp "Registration_Data"</a></li>
-   <li><a href="#polarion_248">Tabelle 18: Schema Datentyp "Encrypted_Registration_Data"</a></li>
-   <li><a href="#polarion_252">Tabelle 19: Schema Datentyp "Authentication_Data"</a></li>
-   <li><a href="#polarion_256">Tabelle 20: Schema Datentyp "Signed_Authentication_Data"</a></li>
-   <li><a href="#polarion_260">Tabelle 21:&nbsp;Schema Datentyp "Encrypted_Signed_Authentication_Data"</a></li>
-   <li><a href="#polarion_264">Tabelle 22: Schema Datentyp "Pairing_Entry"</a></li>
-   <li><a href="#polarion_268">Tabelle 23: Schema Datentyp "Pairing_Entries"</a></li>
-   <li><a href="#polarion_270">Tabelle 24: Registrierungsprozess/Anfrage Authenticator-Modul</a></li>
-   <li><a href="#polarion_272">Tabelle 25: Registrierungsprozess/Antwort Pairing-Endpunkt</a></li>
-   <li><a href="#polarion_274">Tabelle 26: Authentifizierung/Anfrage Authenticator-Modul</a></li>
-   <li><a href="#polarion_276">Tabelle 27: Authentifizierung/Antwort Authorization-Endpunkt</a></li>
-   <li><a href="#polarion_278">Tabelle 28: Inspektion/Anfrage Authenticator-Modul</a></li>
-   <li><a href="#polarion_280">Tabelle 29: Inspektion/Antwort Pairing-Endpunkt</a></li>
-   <li><a href="#polarion_282">Tabelle 30: Deregistrierung/Anfrage Authenticator-Modul</a></li>
-   <li><a href="#polarion_284">Tabelle 31: Deregistrierung/Antwort Pairing-Endpunkt</a></li>
-   <li><a href="#polarion_287">Tabelle 32: Vergleichsoperationen im Rahmen der Registrierung</a></li>
+   <ul>
+    <li><a href="#polarion_141">Tabelle 1:&nbsp;TAB_IDP_DIENST_0001 Akteure und OAuth2-Rollen</a></li>
+    <li><a href="#polarion_30">Tabelle 2:&nbsp;TAB_IDP_DIENST_0002 Kurzbezeichnung der Schnisttstellen des IdP-Dienstes</a></li>
+    <li><a href="#polarion_42">Tabelle 3:&nbsp;TAB_IDP_DIENST_0003 Bezeichnungen der extern genutzten Schlüssel und Adressen des IDP-Dienstes</a></li>
+    <li><a href="#polarion___1">Tabelle 4:&nbsp;TAB_IDP_DIENST_0005 Befüllung der Attribute "given_name", "family_name", "organizationName", "professionOID" und "idNummer"&nbsp;</a></li>
+    <li><a href="#polarion___2">Tabelle 5:&nbsp;TAB_IDP_DIENST_0006 Befüllung der Attribute "acr" und "amr"</a></li>
+    <li><a href="#polarion___3">Tabelle&nbsp;6:&nbsp;TAB_IDP_DIENST_000X Befüllung der Attribute nach Bestätigung durch einen sektoralen Identity Provider</a></li>
+    <li><a href="#polarion_746">Tabelle 7: Faktoren und abgeleitete Anforderungen an das System</a></li>
+    <li><a href="#polarion_674">Tabelle 8: Nomenklatur Schlüsselmaterial</a></li>
+    <li><a href="#polarion___4">Tabelle 9: Fehlermeldungen im Zusammenhang mit der Registrierungsfunktion</a></li>
+    <li><a href="#polarion___5">Tabelle 10: Fehlermeldungen des Authorization-Endpunkts bei Authentifizierung auf Basis von alternativen Authentisierungsmitteln</a></li>
+    <li><a href="#polarion___6">Tabelle 11: Fehlermeldungen Inspektions- und Deregistrierungsfunktion</a></li>
+    <li><a href="#polarion_176">Tabelle 12: Kodierung von Daten</a></li>
+    <li><a href="#polarion_182">Tabelle 13: Schema Datentyp "Device_Type"</a></li>
+    <li><a href="#polarion_195">Tabelle 14: Schema Datentyp "Device_Information"</a></li>
+    <li><a href="#polarion_228">Tabelle 15: Schema Datentyp "Pairing_Data"</a></li>
+    <li><a href="#polarion_239">Tabelle 16: Schema Datentyp "Signed_Pairing_Data"</a></li>
+    <li><a href="#polarion_244">Tabelle 17: Schema Datentyp "Registration_Data"</a></li>
+    <li><a href="#polarion_248">Tabelle 18: Schema Datentyp "Encrypted_Registration_Data"</a></li>
+    <li><a href="#polarion_252">Tabelle 19: Schema Datentyp "Authentication_Data"</a></li>
+    <li><a href="#polarion_256">Tabelle 20: Schema Datentyp "Signed_Authentication_Data"</a></li>
+    <li><a href="#polarion_260">Tabelle 21:&nbsp;Schema Datentyp "Encrypted_Signed_Authentication_Data"</a></li>
+    <li><a href="#polarion_264">Tabelle 22: Schema Datentyp "Pairing_Entry"</a></li>
+    <li><a href="#polarion_268">Tabelle 23: Schema Datentyp "Pairing_Entries"</a></li>
+    <li><a href="#polarion_270">Tabelle 24: Registrierungsprozess/Anfrage Authenticator-Modul</a></li>
+    <li><a href="#polarion_272">Tabelle 25: Registrierungsprozess/Antwort Pairing-Endpunkt</a></li>
+    <li><a href="#polarion_274">Tabelle 26: Authentifizierung/Anfrage Authenticator-Modul</a></li>
+    <li><a href="#polarion_276">Tabelle 27: Authentifizierung/Antwort Authorization-Endpunkt</a></li>
+    <li><a href="#polarion_278">Tabelle 28: Inspektion/Anfrage Authenticator-Modul</a></li>
+    <li><a href="#polarion_280">Tabelle 29: Inspektion/Antwort Pairing-Endpunkt</a></li>
+    <li><a href="#polarion_282">Tabelle 30: Deregistrierung/Anfrage Authenticator-Modul</a></li>
+    <li><a href="#polarion_284">Tabelle 31: Deregistrierung/Antwort Pairing-Endpunkt</a></li>
+    <li><a href="#polarion_287">Tabelle 32: Vergleichsoperationen im Rahmen der Registrierung</a></li>
+   </ul>
   </div> 
   <h3 id="6.5">6.5 Referenzierte Dokumente</h3> 
   <h4 id="6.5.1">6.5.1 Dokumente der gematik</h4> 

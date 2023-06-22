@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="A_22483" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-09" technicalID="ML-126430" revision="536211">
+    <title><![CDATA[Version FHIR-Package de.gematik.erezept-workflow]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der verordnenden und 
+abgebenden LEI MÜSSEN das FHIR-Package de.gematik.erezept-workflow in der 
+Version gemäß [FHIR Version] unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der verordnenden und abgebenden LEI MÜSSEN das FHIR-Package <span style="font-size: 10pt;line-height: 1.5;">de.gematik.erezept-workflow</span> in der Version gemäß [FHIR Version] unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_22963" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-132650" revision="536211">
+    <title><![CDATA[Version FHIR-Package de.gematik.erezept-patientenrechnung]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN 
+das FHIR-Package de.gematik.erezept-patientenrechnung in der Version gemäß 
+[FHIR Version] unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN das FHIR-Package <span style="font-size: 10pt;line-height: 1.5;">de.gematik.erezept-patientenrechnung </span>in der Version gemäß [FHIR Version] unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_19295-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133056" revision="536211">
+    <title><![CDATA[FHIR-Ressource Task]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept, das PS der verordnenden LEI und das PS 
+der abgebenden LEI MÜSSEN die FHIR-Ressource Task gemäß der Profilierung 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Task 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Task> unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept, das PS der verordnenden LEI und das PS der abgebenden LEI MÜSSEN die FHIR-Ressource Task gemäß der Profilierung <a href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Task" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Task</a> unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_19297-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133054" revision="536211">
+    <title><![CDATA[FHIR-Ressource MedicationDispense]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN 
+die FHIR-Ressource MedicationDispense gemäß der Profilierung 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_MedicationDispense 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_MedicationDispense> 
+unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN die FHIR-Ressource MedicationDispense gemäß der Profilierung <a href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_MedicationDispense" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_MedicationDispense</a> unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_19298-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133053" revision="536211">
+    <title><![CDATA[FHIR-Ressource AuditEvent]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource AuditEvent 
+gemäß der FHIR-Profilierung 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_AuditEvent 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_AuditEvent> 
+unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource AuditEvent gemäß der FHIR-Profilierung <a href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_AuditEvent" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_AuditEvent</a> unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_19299-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133050" revision="536211">
+    <title><![CDATA[FHIR-Ressource Communication]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN 
+die FHIR-Ressource Communication gemäß der FHIR-Profilierungen 
+
+ * 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_DispReq
+ 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_DispReq>
+ (Einlöseauftrag) 
+ * 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_InfoReq
+ 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_InfoReq>
+  (Anfrage Belieferfähigkeit)  
+ * 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Reply 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Reply>
+ (Antwortnachricht einer Apotheke) 
+ * 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Representative
+ 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Representative>
+ (Vertreterkommunikation) 
+ * 
+https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Communication_ChargChangeReq
+ 
+<https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Communication_ChargChangeReq>
+ (Abrechnungsinformation-Token übermitteln) 
+ * 
+https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Communication_ChargChangeReply
+ 
+<https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Communication_ChargChangeReply>
+ (Antwortnachricht zu Abrechnungsinformation-Token)  unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN die FHIR-Ressource Communication gemäß der FHIR-Profilierungen <br/>
+ 
+<ul>
+  <li><a href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_DispReq" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_DispReq</a> (Einlöseauftrag)</li>
+  <li><a href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_InfoReq" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_InfoReq</a>  (Anfrage Belieferfähigkeit) </li>
+  <li><a href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Reply" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Reply</a> (Antwortnachricht einer Apotheke)</li>
+  <li><a href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Representative" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Communication_Representative</a> (Vertreterkommunikation)</li>
+  <li><a href="https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Communication_ChargChangeReq" target="_top" class="descriptionLink">https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Communication_ChargChangeReq</a> (Abrechnungsinformation-Token übermitteln)</li>
+  <li><a href="https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Communication_ChargChangeReply" target="_top" class="descriptionLink">https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Communication_ChargChangeReply</a> (Antwortnachricht zu Abrechnungsinformation-Token)</li>
+</ul>
+unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_23028" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133064" revision="536211">
+    <title><![CDATA[FHIR-Ressource Quittung]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN 
+die FHIR-Ressource Quittung gemäß der FHIR-Profilierung 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Composition 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Composition> 
+unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN die FHIR-Ressource Quittung gemäß der FHIR-Profilierung <a class="descriptionLink" target="_top" href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Composition">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Composition</a> unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_19300-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133062" revision="536211">
+    <title><![CDATA[FHIR-Ressource Bundle Quittung]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN 
+die FHIR-Ressource Bundle gemäß der FHIR-Profilierung 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Bundle 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Bundle> 
+unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN die FHIR-Ressource Bundle gemäß der FHIR-Profilierung <a href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Bundle" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Bundle</a> unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_23027" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133058" revision="536211">
+    <title><![CDATA[FHIR-Ressource CloseOperationInputBundle]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI 
+MÜSSEN die FHIR-Ressource CloseOprerationInputBundle
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_CloseOperationInputBundle
+ 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_CloseOperationInputBundle>
+ gemäß der Profilierung  unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der abgebenden LEI MÜSSEN die FHIR-Ressource CloseOprerationInputBundle <a class="descriptionLink" target="_top" href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_CloseOperationInputBundle">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_CloseOperationInputBundle</a> gemäß der Profilierung  unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_20213-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133063" revision="536211">
+    <title><![CDATA[FHIR-Ressource Bundle Verordnungsdatensatz]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource Bundle gemäß 
+der FHIR-Profilierung https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Bundle 
+<https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Bundle> unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource Bundle gemäß der FHIR-Profilierung <a href="https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Bundle" target="_top" class="descriptionLink">https://fhir.kbv.de/StructureDefinition/KBV_PR_ERP_Bundle</a> unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_22204" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-124563" revision="536211">
+    <title><![CDATA[FHIR-Ressource PKV-Abgabedatensatz]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource 
+PKV-Abgabedatensatz gemäß der FHIR-Profilierung
+http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-AbgabedatenBundle
+ 
+<http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-AbgabedatenBundle>
+  unterstützen. ]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource PKV-Abgabedatensatz gemäß der FHIR-Profilierung <a class="descriptionLink" target="_top" href="http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-AbgabedatenBundle">http://fhir.abda.de/eRezeptAbgabedaten/StructureDefinition/DAV-PKV-PR-ERP-AbgabedatenBundle</a>  unterstützen. </span>]]></description_html>
+  </requirement>
+  <requirement id="A_22205-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133048" revision="536211">
+    <title><![CDATA[FHIR-Ressource ChargeItem]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource ChargeItem 
+gemäß der FHIR-Profilierung 
+https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_ChargeItem 
+<https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_ChargeItem>
+ unterstützen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource ChargeItem gemäß der FHIR-Profilierung <a href="https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_ChargeItem" target="_top" class="descriptionLink">https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_ChargeItem</a> unterstützen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22206-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133049" revision="536211">
+    <title><![CDATA[FHIR-Ressource Consent]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource Consent gemäß 
+der FHIR-Profilierung 
+https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Consent 
+<https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Consent> 
+unterstützen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Die Produkttypen der Anwendung E-Rezept MÜSSEN die FHIR-Ressource Consent gemäß der FHIR-Profilierung <a href="https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Consent" target="_top" class="descriptionLink">https://gematik.de/fhir/erpchrg/StructureDefinition/GEM_ERPCHRG_PR_Consent</a> unterstützen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20745-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133059" revision="536211">
+    <title><![CDATA[FHIR-Ressource Device]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept, das PS der verordnenden LEI und das PS 
+der abgebenden LEI MÜSSEN die FHIR-Ressource Device gemäß der FHIR-Profilierung 
+https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Device 
+<https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Device> 
+unterstützen.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept, das PS der verordnenden LEI und das PS der abgebenden LEI MÜSSEN die FHIR-Ressource Device gemäß der FHIR-Profilierung <a class="descriptionLink" target="_top" href="https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Device">https://gematik.de/fhir/erp/StructureDefinition/GEM_ERP_PR_Device</a> unterstützen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_22216" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-09" technicalID="ML-124593" revision="536211">
+    <title><![CDATA[FHIR-Ressourcen Versionsangabe]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der verordnenden und 
+abgebenden LEI MÜSSEN alle generierten FHIR-Ressourcen mit der Versionsnummer 
+gemäß https://www.hl7.org/fhir/datatypes.html#canonical 
+<https://www.hl7.org/fhir/datatypes.html#canonical> im Feld 
+Ressource.meta.profile kennzeichnen, zu dessen aktuell gültiger Profilversion 
+sie mutmaßlich validieren.]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der verordnenden und abgebenden LEI MÜSSEN alle generierten FHIR-Ressourcen mit der Versionsnummer gemäß <a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/datatypes.html#canonical">https://www.hl7.org/fhir/datatypes.html#canonical</a> im Feld Ressource.meta.profile kennzeichnen, zu dessen aktuell gültiger Profilversion sie mutmaßlich validieren.]]></description_html>
+  </requirement>
+  <requirement id="A_22920" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-09" technicalID="ML-129973" revision="536211">
+    <title><![CDATA[Kodierung fullURL]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der verordnenden und 
+abgebenden LEI, welche fullURLs in FHIR-Objekten erstellen, MÜSSEN diese URLs 
+gemäß [RFC3986] für FHIR-Datentyp "URI" codieren. ]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept und das PS der verordnenden und abgebenden LEI, welche fullURLs in FHIR-Objekten erstellen, MÜSSEN<span style="font-size: 10pt;line-height: 1.5;"> diese URLs gemäß [RFC3986] für FHIR-Datentyp &quot;URI&quot; codieren. </span>]]></description_html>
+  </requirement>
+  <requirement id="A_19217-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133060" revision="536211">
+    <title><![CDATA[Aufbau E-Rezept-ID]]></title>
+    <description><![CDATA[Der E-Rezept-Fachdienst MUSS E-Rezept-IDs erzeugen und verwalten, welche der 
+Syntax "aaa.bbb.bbb.bbb.bbb.cc" und der folgenden Semantik genügen 
+
+BedeutungDatentyp
+aaaE-Rezept-Typalphanummerisch, mit der Belegung gemäß "flowType" in 
+https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType 
+<https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType>
+bbb.bbb.bbb.bbbfortlaufende Rezeptnummernummerisch, 12-stellig
+ccPrüfnummer
+ Verfahren gemäß [ISO 7064]nummerischdamit Tippfehler in der manuellen 
+Erfassung erkannt werden können und die E-Rezept-ID über 11 Jahre eine 
+eineindeutige Zuordnung zwischen allen Datenobjekten im E-Rezept-Workflow 
+erlaubt.]]></description>
+    <description_html><![CDATA[Der E-Rezept-Fachdienst MUSS E-Rezept-IDs erzeugen und verwalten, welche der Syntax &quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">aaa.bbb.bbb.bbb.bbb.cc&quot;</span> und der folgenden Semantik genügen <br/><table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=36"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"/><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Bedeutung</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Datentyp</th></tr><tr><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">aaa</td><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Rezept-Typ</td><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">alphanummerisch, mit der Belegung gemäß &quot;flowType&quot; in <a class="descriptionLink" target="_top" href="https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType">https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType</a></td></tr><tr><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">bbb.bbb.bbb.bbb</td><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">fortlaufende Rezeptnummer</td><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">nummerisch, 12-stellig</td></tr><tr><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">cc</td><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Prüfnummer<br/> Verfahren gemäß [ISO 7064]</td><td style="text-align: left;vertical-align: top;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">nummerisch</td></tr></tbody></table>damit Tippfehler in der manuellen Erfassung erkannt werden können und die E-Rezept-ID über 11 Jahre eine eineindeutige Zuordnung zwischen allen Datenobjekten im E-Rezept-Workflow erlaubt.]]></description_html>
+  </requirement>
+  <requirement id="A_19218" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-28" technicalID="ML-103379" revision="536211">
+    <title><![CDATA[Prüfung E-Rezept-ID]]></title>
+    <description><![CDATA[Alle Produkttypen, die eine E-Rezept-ID aus externen Systemen einlesen oder von 
+Benutzern entgegen nehmen, MÜSSEN die E-Rezept-ID gegen ihre Prüfziffer nach 
+dem Modulo-97-Verfahren gemäß [ISO 7064] prüfen und bei Ungültigkeit die 
+Weiterverarbeitung verhindern, damit Benutzerfehleingaben vor der Verarbeitung 
+erkannt werden.]]></description>
+    <description_html><![CDATA[Alle Produkttypen, die eine E-Rezept-ID aus externen Systemen einlesen oder von Benutzern entgegen nehmen, MÜSSEN die E-Rezept-ID gegen ihre Prüfziffer nach dem Modulo-97-Verfahren gemäß [ISO 7064] prüfen und bei Ungültigkeit die Weiterverarbeitung verhindern, damit Benutzerfehleingaben vor der Verarbeitung erkannt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_19554" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-28" technicalID="ML-105638" revision="536211">
+    <title><![CDATA[Datenstruktur Einlöseinformationen für E-Rezept]]></title>
+    <description><![CDATA[Das E-Rezept-FdV und das PS der verordnenden LEI MÜSSEN zum Erstellen eines 
+E-Rezept-Token die ID auf einen Task zusammen mit dem AccessCode des Tasks aus 
+den lokal verfügbaren Informationen eines E-Rezepts als URL in der Form:
+
+ * 2D-Code-Daten = "Task/" + Task.id  + "/$accept?ac=" + AccessCode  
+zusammenstellen, damit diese Zeichenkette als Referenz in einer 
+E-Rezept-Nachricht und in einem JSON-Array für die Generierung eines 2D-Codes 
+verwendet werden kann.]]></description>
+    <description_html><![CDATA[Das E-Rezept-FdV und das PS der verordnenden LEI MÜSSEN zum Erstellen eines E-Rezept-Token die ID auf einen Task zusammen mit dem AccessCode des Tasks aus den lokal verfügbaren Informationen eines E-Rezepts als URL in der Form:<br/>
+ 
+<ul>
+  <li><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">2D-Code-Daten = &quot;Task/&quot; + <span style="font-weight: bold;">Task.id</span>  + &quot;/$accept?ac=&quot; + <span style="font-weight: bold;">AccessCode</span></span></li>
+</ul>
+ zusammenstellen, damit diese Zeichenkette als Referenz in einer E-Rezept-Nachricht und in einem JSON-Array für die Generierung eines 2D-Codes verwendet werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_19553-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-28" technicalID="ML-118925" revision="536211">
+    <title><![CDATA[Generierung 2D-Code als Sammlung]]></title>
+    <description><![CDATA[Das E-Rezept-FdV MUSS eine Sammlung von einer und bis zu drei 
+E-Rezept-Referenzen als Array in JSON-Notation gemäß [JSON] der folgenden Form
+
+
+ * 2D-Code-Daten = { "urls": [ "E-Rezept 1", "E-Rezept 2", "E-Rezept 3" ] }
+zusammenfassen, um daraus einen 2D-Code generieren zu können.]]></description>
+    <description_html><![CDATA[Das E-Rezept-FdV MUSS eine Sammlung von einer und bis zu drei E-Rezept-Referenzen als Array in JSON-Notation gemäß [JSON] der folgenden Form <br/> <br/><ul><li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">2D-Code-Daten = { &quot;urls&quot;: [ &quot;E-Rezept 1&quot;, &quot;E-Rezept 2&quot;, &quot;E-Rezept 3&quot; ] }</span></li></ul>zusammenfassen, um daraus einen 2D-Code generieren zu können.]]></description_html>
+  </requirement>
+  <requirement id="A_19543" type="leafRequirement" severity="MUSS" lastUpdate="2022-04-28" technicalID="ML-105625" revision="536211">
+    <title><![CDATA[Generierung DataMatrix-Code]]></title>
+    <description><![CDATA[Das E-Rezept-FdV und das PS der verordnenden LEI MÜSSEN die Datenstruktur 
+für 2D-Code-Daten in eine DataMatrix-Darstellung gemäß ISO/IEC 16022:2006 
+überführen können.]]></description>
+    <description_html><![CDATA[Das E-Rezept-FdV und das PS der verordnenden LEI MÜSSEN die Datenstruktur für 2D-Code-Daten in eine DataMatrix-Darstellung gemäß ISO/IEC 16022:2006 überführen können.]]></description_html>
+  </requirement>
+  <requirement id="A_22729" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-129204" revision="536211">
+    <title><![CDATA[Datenstruktur Zugriffsinformationen für Abrechnungsinformation]]></title>
+    <description><![CDATA[Das E-Rezept-FdV MUSS zum Erstellen eines Token für die Zugriffsinformationen 
+für eine Abrechnungsinformation die ID auf einen ChargeItem zusammen mit dem 
+AccessCode zum Ändern aus den lokal verfügbaren Informationen einer 
+Abrechnungsinformation als URL in der Form: 2D-Code-Daten = "ChargeItem/" + 
+ChargeItem.id  + "?ac=" + AccessCode zusammenstellen, damit diese Zeichenkette 
+als Referenz in einer E-Rezept-Nachricht oder für die Generierung eines 
+2D-Codes verwendet werden kann.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Das E-Rezept-FdV MUSS zum Erstellen eines Token für die Zugriffsinformationen für eine Abrechnungsinformation die ID auf einen ChargeItem zusammen mit dem AccessCode zum Ändern aus den lokal verfügbaren Informationen einer Abrechnungsinformation als URL in der Form: 2D-Code-Daten = &quot;ChargeItem/&quot; + ChargeItem.id  + &quot;?ac=&quot; + AccessCode zusammenstellen, damit diese Zeichenkette als Referenz in einer E-Rezept-Nachricht oder für die Generierung eines 2D-Codes verwendet werden kann.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22730" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-129205" revision="536211">
+    <title><![CDATA[Generierung 2D-Code Abrechnungsinformation-Token]]></title>
+    <description><![CDATA[Das E-Rezept-FdV MUSS einen Abrechnungsinformation-Token in JSON-Notation gemäß 
+[JSON] der folgenden Form
+
+ * 2D-Code-Daten = { "urls": [ "Abrechnungsinformation" ] }darstellen, um 
+daraus einen 2D-Code generieren zu können.]]></description>
+    <description_html><![CDATA[Das E-Rezept-FdV MUSS einen Abrechnungsinformation-Token in JSON-Notation gemäß [JSON] der folgenden Form<br/> <ul><li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">2D-Code-Daten = { &quot;urls&quot;: [ &quot;Abrechnungsinformation&quot; ] }</span></li></ul>darstellen, um daraus einen 2D-Code generieren zu können.]]></description_html>
+  </requirement>
+  <requirement id="A_19324-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-06" technicalID="ML-133061" revision="536211">
+    <title><![CDATA[FHIR CodeSystem FLOWTYPE]]></title>
+    <description><![CDATA[Die Produkttypen der Anwendung E-Rezept, das PS der verordnenden LEI und das PS 
+der abgebenden LEI MÜSSEN das FHIR CodeSystem FLOWTYPE gemäß
+https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType 
+<https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType> unterstützen. ]]></description>
+    <description_html><![CDATA[Die Produkttypen der Anwendung E-Rezept, das PS der verordnenden LEI und das PS der abgebenden LEI MÜSSEN das FHIR CodeSystem FLOWTYPE gemäß <a href="https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType" target="_top" class="descriptionLink">https://gematik.de/fhir/erp/CodeSystem/GEM_ERP_CS_FlowType</a> unterstützen. ]]></description_html>
+  </requirement>
+  <requirement id="A_19445-08" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-09" technicalID="ML-131776" revision="536211">
+    <title><![CDATA[FHIR FLOWTYPE für Prozessparameter]]></title>
+    <description><![CDATA[Der E-Rezept-Fachdienst MUSS in Abhängigkeit des Task-Parameters FLOWTYPE und 
+dem in der http-POST-Operation/Task/<id>/$activate übergebenen, gültig 
+signierte E-Rezept-Bundle die Attribute des zu erzeugenden Tasks wie folgt 
+belegen:  
+
+
+FLOWTYPEAttributierung des zu erzeugenden Tasks
+160Task.performerType = {coding.system="urn:ietf:rfc:3986", 
+coding.code="1.2.276.0.76.4.54", coding.display="Öffentliche Apotheke"}
+ Task.PrescriptionType.valueCoding.display = "Muster 16 (Apothekenpflichtige 
+Arzneimittel)"
+
+ wenn MedicationRequest.extension:Mehrfachverordnung.extension:Kennzeichen = 
+false:
+Task.ExpiryDate = <Datum der QES.Erstellung im Signaturobjekt> + 3 
+Kalendermonate
+ Task.AcceptDate = <Datum der QES.Erstellung im Signaturobjekt> + 28 
+Kalendertage
+sonst
+wenn 
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end 
+angegeben
+Task.ExpiryDate =  
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end
+ Task.AcceptDate =  
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end
+sonst
+Task.ExpiryDate = <Datum der QES.Erstellung im Signaturobjekt> + 365 
+Kalendertage
+ Task.AcceptDate = <Datum der QES.Erstellung im Signaturobjekt> + 365 
+Kalendertage
+169Task.performerType = {coding.system="urn:ietf:rfc:3986", 
+coding.code="1.2.276.0.76.4.54", coding.display="Öffentliche Apotheke"}
+ Task.flowType.valueCoding.display = "Muster 16 (Direkte Zuweisung)"
+
+ wenn MedicationRequest.extension:Mehrfachverordnung.extension:Kennzeichen = 
+false:
+Task.ExpiryDate = <Datum der QES.Erstellung im Signaturobjekt> + 3 
+Kalendermonate
+ Task.AcceptDate = <Datum der QES.Erstellung im Signaturobjekt> + 28 
+Kalendertagesonst
+wenn 
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end 
+angegeben
+Task.ExpiryDate =  
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end
+ Task.AcceptDate =  
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end
+sonst
+Task.ExpiryDate = <Datum der QES.Erstellung im Signaturobjekt> + 365 
+Kalendertage
+ Task.AcceptDate = <Datum der QES.Erstellung im Signaturobjekt> + 365 
+Kalendertage
+200Task.performerType = {coding.system="urn:ietf:rfc:3986", 
+coding.code="1.2.276.0.76.4.54", coding.display="Öffentliche Apotheke"}
+ Task.flowType.valueCoding.display = "PKV (Apothekenpflichtige Arzneimittel)"
+
+ wenn MedicationRequest.extension:Mehrfachverordnung.extension:Kennzeichen = 
+false:
+Task.ExpiryDate = <Datum der QES.Erstellung im Signaturobjekt> + 3 
+Kalendermonate
+ Task.AcceptDate = <Datum der QES.Erstellung im Signaturobjekt> + 3 
+Kalendermonate
+sonst
+wenn 
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end 
+angegeben
+Task.ExpiryDate =  
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end
+ Task.AcceptDate =  
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end
+sonst
+Task.ExpiryDate = <Datum der QES.Erstellung im Signaturobjekt> + 365 
+Kalendertage
+ Task.AcceptDate = <Datum der QES.Erstellung im Signaturobjekt> + 365 
+Kalendertage
+209Task.performerType = {coding.system="urn:ietf:rfc:3986", 
+coding.code="1.2.276.0.76.4.54", coding.display="Öffentliche Apotheke"}
+ Task.flowType.valueCoding.display = "PKV (Direkte Zuweisung)"
+
+ wenn MedicationRequest.extension:Mehrfachverordnung.extension:Kennzeichen = 
+false:
+Task.ExpiryDate = <Datum der QES.Erstellung im Signaturobjekt> + 3 
+Kalendermonate
+ Task.AcceptDate = <Datum der QES.Erstellung im Signaturobjekt> + 3 
+Kalendermonate
+sonst
+wenn 
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end 
+angegeben
+Task.ExpiryDate =  
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end
+ Task.AcceptDate =  
+MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end
+sonst
+Task.ExpiryDate = <Datum der QES.Erstellung im Signaturobjekt> + 365 
+Kalendertage
+ Task.AcceptDate = <Datum der QES.Erstellung im Signaturobjekt> + 365 
+Kalendertagedamit dem Versicherten Informationen über die Gültigkeit 
+(Erstattungsfrist durch die Kostenträger = AcceptDate, Einlösefrist = 
+ExpiryDate) des E-Rezepts angezeigt werden und der Workflow auf Basis der 
+gewählten Parameter gesteuert werden kann.]]></description>
+    <description_html><![CDATA[Der E-Rezept-Fachdienst MUSS in Abhängigkeit des Task-Parameters FLOWTYPE und dem in der http-POST-Operation <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">/Task/&lt;id&gt;/$activate</span> übergebenen, gültig signierte E-Rezept-Bundle die Attribute des zu erzeugenden Tasks wie folgt belegen:   <br/> <br/><table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;"><tbody><tr><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 79px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">FLOWTYPE</th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 651px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Attributierung des zu erzeugenden Tasks</th></tr><tr><td style="width: 79px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">160</td><td style="width: 651px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task.performerType = {coding.system=&quot;urn:ietf:rfc:3986&quot;, coding.code=&quot;1.2.276.0.76.4.54&quot;, coding.display=&quot;Öffentliche Apotheke&quot;}<br/> Task.PrescriptionType.valueCoding.display = &quot;<span style="font-size: 10pt;line-height: 1.5;">Muster 16 (Apothekenpflichtige Arzneimittel)</span>&quot;<br/><br/> wenn MedicationRequest.extension:Mehrfachverordnung.extension:Kennzeichen = false:<br/> <div style="margin-left: 40px;">Task.ExpiryDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 3 Kalendermonate<br/> Task.AcceptDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 28 Kalendertage<br/></div>sonst<br/> <div style="margin-left: 40px;">wenn MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end angegeben<br/> <div style="margin-left: 40px;">Task.ExpiryDate =  MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end<br/> Task.AcceptDate =  MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end<br/></div>sonst<br/></div><div style="margin-left: 80px;">Task.ExpiryDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 365 Kalendertage<br/> Task.AcceptDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 365 Kalendertage</div></td></tr><tr><td style="width: 79px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">169</td><td style="width: 651px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task.performerType = {coding.system=&quot;urn:ietf:rfc:3986&quot;, coding.code=&quot;1.2.276.0.76.4.54&quot;, coding.display=&quot;Öffentliche Apotheke&quot;}<br/> Task.flowType.valueCoding.display = &quot;<span style="font-size: 10pt;line-height: 1.5;">Muster 16 (Direkte Zuweisung)</span>&quot;<br/><br/> wenn MedicationRequest.extension:Mehrfachverordnung.extension:Kennzeichen = false:<br/> <div style="margin-left: 40px;">Task.ExpiryDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 3 Kalendermonate<br/> Task.AcceptDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 28 Kalendertage</div>sonst<br/> <div style="margin-left: 40px;">wenn MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end angegeben<br/> <div style="margin-left: 40px;">Task.ExpiryDate =  MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end<br/> Task.AcceptDate =  MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end<br/></div>sonst<br/></div><div style="margin-left: 80px;">Task.ExpiryDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 365 Kalendertage<br/> Task.AcceptDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 365 Kalendertage</div></td></tr><tr><td style="width: 79px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">200</td><td style="width: 651px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task.performerType = {coding.system=&quot;urn:ietf:rfc:3986&quot;, coding.code=&quot;1.2.276.0.76.4.54&quot;, coding.display=&quot;Öffentliche Apotheke&quot;}<br/> Task.flowType.valueCoding.display = &quot;PKV (Apothekenpflichtige Arzneimittel)&quot;<br/><br/> wenn MedicationRequest.extension:Mehrfachverordnung.extension:Kennzeichen = false:<br/> <div style="margin-left: 40px;">Task.ExpiryDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 3 Kalendermonate<br/> Task.AcceptDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 3 Kalendermonate<br/></div>sonst<br/> <div style="margin-left: 40px;">wenn MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end angegeben<br/> <div style="margin-left: 40px;">Task.ExpiryDate =  MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end<br/> Task.AcceptDate =  MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end<br/></div>sonst<br/></div><div style="margin-left: 80px;">Task.ExpiryDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 365 Kalendertage<br/> Task.AcceptDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 365 Kalendertage</div></td></tr><tr><td style="width: 79px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">209</td><td style="width: 651px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Task.performerType = {coding.system=&quot;urn:ietf:rfc:3986&quot;, coding.code=&quot;1.2.276.0.76.4.54&quot;, coding.display=&quot;Öffentliche Apotheke&quot;}<br/> Task.flowType.valueCoding.display = &quot;<span style="font-size: 10pt;line-height: 1.5;">PKV (Direkte Zuweisung)</span>&quot;<br/><br/> wenn MedicationRequest.extension:Mehrfachverordnung.extension:Kennzeichen = false:<br/> <div style="margin-left: 40px;">Task.ExpiryDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 3 Kalendermonate<br/> Task.AcceptDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 3 Kalendermonate<br/></div>sonst<br/> <div style="margin-left: 40px;">wenn MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end angegeben<br/> <div style="margin-left: 40px;">Task.ExpiryDate =  MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end<br/> Task.AcceptDate =  MedicationRequest.extension:Mehrfachverordnung.extension:Zeitraum.value[x]:valuePeriod.end<br/></div>sonst<br/></div><div style="margin-left: 80px;">Task.ExpiryDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 365 Kalendertage<br/> Task.AcceptDate = &lt;Datum der QES.Erstellung im Signaturobjekt&gt; + 365 Kalendertage</div></td></tr></tbody></table>damit dem Versicherten Informationen über die Gültigkeit (Erstattungsfrist durch die Kostenträger = AcceptDate, Einlösefrist = ExpiryDate) des E-Rezepts angezeigt werden und der Workflow auf Basis der gewählten Parameter gesteuert werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_19517-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-09" technicalID="ML-122904" revision="536211">
+    <title><![CDATA[FHIR FLOWTYPE für Prozessparameter - Abweichende Festlegung für Entlassrezept]]></title>
+    <description><![CDATA[Der E-Rezept-Fachdienst MUSS nach der Feststellung der Prozessparameter gemäß 
+ die folgenden Parameter mit abweichenden Werten belegen:
+
+ * Task.AcceptDate = <Datum der QES.Erstellung Bundle.signature.when> + 2 
+Werktage (Montag bis Samstag, ausgenommen bundeseinheitliche Feiertage) 
+(Abweichende Regelungen durch denGemeinsamen Bundesausschuss (G-BA) sind zu 
+beachten.)wenn das in der http-POST-Operation /Task/<id>/$activate übergebene, 
+gültig signierte E-Rezept-Bundle in der Extension 
+https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_Legal_basis 
+<https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_Legal_basis> in 
+Bundle.Composition dencode="04" oder "14" des Code-Systems 
+https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN 
+<https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN> ("
+Entlassmanagement-Kennzeichen") enthält 
+und die übrigen Prozessparameter unverändert übernehmen, damit der Prozess für 
+das E-Rezept mit den abweichenden Festlegungen für das Entlassrezept gemäß 
+Arzneimittelrichtlinie [AM-RL] umgesetzt wird.]]></description>
+    <description_html><![CDATA[Der E-Rezept-Fachdienst MUSS nach der Feststellung der Prozessparameter gemäß <span data-option-id="custom" data-item-id="ML-104367" data-custom-label="A_19445" id="fake" data-type="workItem" class="polarion-rte-link"></span> die folgenden Parameter mit abweichenden Werten belegen:<br/> <ul><li>Task.AcceptDate = &lt;Datum der QES.Erstellung <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">Bundle.signature.when</span>&gt; + 2 Werktage (Montag bis Samstag, ausgenommen bundeseinheitliche Feiertage) (Abweichende Regelungen durch den <span style="font-size: 10pt;line-height: 1.5;">Gemeinsamen Bundesausschuss (G-BA) sind zu beachten.</span>)</li></ul>wenn das in der http-POST-Operation <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">/Task/&lt;id&gt;/$activate</span> übergebene, gültig signierte E-Rezept-Bundle in der Extension  <a class="descriptionLink" target="_top" href="https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_Legal_basis">https://fhir.kbv.de/StructureDefinition/KBV_EX_FOR_Legal_basis</a> in Bundle.Composition den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">code=&quot;04&quot;</span> oder <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&quot;14&quot;</span> des Code-Systems <a class="descriptionLink" target="_top" href="https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN">https://fhir.kbv.de/CodeSystem/KBV_CS_SFHIR_KBV_STATUSKENNZEICHEN</a> (&quot;<span style="font-size: 10pt;line-height: 1.5;">Entlassmanagement-Kennzeichen&quot;</span>) enthält <br/>und die übrigen Prozessparameter unverändert übernehmen, damit der Prozess für das E-Rezept mit den abweichenden Festlegungen für das Entlassrezept gemäß Arzneimittelrichtlinie [AM-RL] umgesetzt wird.]]></description_html>
+  </requirement>
+  <requirement id="A_19296-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-09" technicalID="ML-133045" revision="536211">
+    <title><![CDATA[E-Rezept-Fachdienst - Inhalt Protokolleintrag]]></title>
+    <description><![CDATA[Der E-Rezept-Fachdienst MUSS einen Protokolleintrag mit den folgenden Werten 
+befüllen:
+
+ * AuditEvent.text: Generierung eines HTML-<div>-Elements mit lesbarer 
+Beschreibung in einfacher Sprache
+
+ * AuditEvent.type: Fester Wert "rest" gemäß 
+http://terminology.hl7.org/CodeSystem/audit-event-type 
+<http://terminology.hl7.org/CodeSystem/audit-event-type> 
+
+ * AuditEvent.subtype: aus dem ValueSet 
+https://www.hl7.org/fhir/valueset-audit-event-sub-type.html 
+<https://www.hl7.org/fhir/valueset-audit-event-sub-type.html>  gemäß 
+http://hl7.org/fhir/restful-interaction 
+<http://hl7.org/fhir/restful-interaction> 
+
+ * 
+ * "create" beim Hinzufügen/Speichern/Anlegen eines Datenobjekts mit 
+Versichertenbezug (mit Ausnahme von AuditEvent- und Communication-Ressource)
+
+ * "read" beim lesenden Zugriff auf ein Datenobjekt mit Versichertenbezug
+
+ * "update", wenn das Datenobjekt mit Versichertenbezug geändert/aktualisiert 
+wird
+
+ * "delete", wenn das Datenobjekt mit Versichertenbezug manuell oder 
+automatisch gelöscht wird
+
+ * AuditEvent.action: analog AuditEvent.subType (C, R, U, D) gemäß 
+https://www.hl7.org/fhir/valueset-audit-event-action.html 
+<https://www.hl7.org/fhir/valueset-audit-event-action.html> 
+ * AuditEvent.recorded: aktuelle Systemzeit des E-Rezept-Fachdienstes
+ * AuditEvent.outcome: Ergebnis der aufgerufenen Operation gemäß 
+https://www.hl7.org/fhir/valueset-audit-event-outcome.html 
+<https://www.hl7.org/fhir/valueset-audit-event-outcome.html> (0 = Erfolg, 4 = 
+Fehler auf Clientseite, 8 = Serverfehler) 
+ * AuditEvent.agent.type: Fester Wert "humanuser" aus  
+http://terminology.hl7.org/CodeSystem/extra-security-role-type 
+<http://terminology.hl7.org/CodeSystem/extra-security-role-type> 
+ * AuditEvent.agent.name: Lesbarer Name aus Identity-Token des Zugreifenden, 
+der die zu protokollierende Aktion getriggert hat, z.B. "Praxis Dr. Müller, 
+Bahnhofstr. 78" oder Versicherter z.B. "Max Mustermann"
+ * AuditEvent.agent.who: KVNR bzw. Telematik-ID des zugreifenden Nutzers aus 
+Identity-Token, der diesen Protokolleintrag ausgelöst hat
+ * AuditEvent.agent.requestor: Fester Wert "false", da keine Protokolleinträge 
+von außen erzeugt werden
+ * AuditEvent.soure.site: Fester Wert "E-Rezept-Fachdienst"
+ * AuditEvent.soure.observer: Device-Informationen des E-Rezept-Fachdienstes 
+(status, serialnumber=gemäß Release)
+ * AuditEvent.entity.what: Referenz auf das betroffene Datenobjekt Task, 
+ChargeItem, MedicationDispense oder Consent zum Abruf
+ * AuditEvent.entity.name: Eintrag der KVNR des betroffenen Versicherten aus 
+dem Identifier des protokollierten Datenobjekts (String)
+ * AuditEvent.entity.description: Rezept-ID als Identifier, wird übernommen 
+aus MedicationDispense, ChargeItem oder Task bzw. Consent.category.coding.code 
+bei Anlegen oder Löschen eines Consent ]]></description>
+    <description_html><![CDATA[Der E-Rezept-Fachdienst MUSS einen Protokolleintrag mit den folgenden Werten befüllen:<br/> <ul><li><span style="font-weight: bold;">AuditEvent.text</span>: Generierung eines HTML-&lt;div&gt;-Elements mit lesbarer Beschreibung in einfacher Sprache<br/></li><li><span style="font-weight: bold;">AuditEvent.type</span>: Fester Wert &quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">rest</span>&quot; gemäß <a class="descriptionLink" target="_top" href="http://terminology.hl7.org/CodeSystem/audit-event-type">http://terminology.hl7.org/CodeSystem/audit-event-type</a> <br/></li><li><span style="font-weight: bold;">AuditEvent.subtype</span>: aus dem ValueSet <a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-sub-type.html">https://www.hl7.org/fhir/valueset-audit-event-sub-type.html</a>  gemäß <a class="descriptionLink" target="_top" href="http://hl7.org/fhir/restful-interaction">http://hl7.org/fhir/restful-interaction</a> <br/></li><li style="list-style: none"><ul><li><span style="font-size: 10pt;line-height: 1.5;">&quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">create</span>&quot; beim Hinzufügen/Speichern/Anlegen eines Datenobjekts mit Versichertenbezug (mit Ausnahme von AuditEvent- und Communication-Ressource)<br/></span></li><li><span style="font-size: 10pt;line-height: 1.5;">&quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">read</span>&quot; beim lesenden Zugriff auf ein Datenobjekt mit Versichertenbezug<br/></span></li><li><span style="font-size: 10pt;line-height: 1.5;">&quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">update</span>&quot;, wenn das Datenobjekt mit Versichertenbezug geändert/aktualisiert wird<br/></span></li><li><span style="font-size: 10pt;line-height: 1.5;">&quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">delete</span>&quot;, wenn das Datenobjekt mit Versichertenbezug manuell oder automatisch gelöscht wird</span><br/></li></ul></li><li><span style="font-weight: bold;">AuditEvent.action</span>: analog AuditEvent.subType (C, R, U, D) gemäß <a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-action.html">https://www.hl7.org/fhir/valueset-audit-event-action.html</a> </li><li><span style="font-weight: bold;">AuditEvent.recorded</span>: aktuelle Systemzeit des E-Rezept-Fachdienstes</li><li><span style="font-weight: bold;">AuditEvent.outcome</span>: Ergebnis der aufgerufenen Operation gemäß <a class="descriptionLink" target="_top" href="https://www.hl7.org/fhir/valueset-audit-event-outcome.html">https://www.hl7.org/fhir/valueset-audit-event-outcome.html</a> (0 = Erfolg, 4 = Fehler auf Clientseite, 8 = Serverfehler) </li><li><span style="font-weight: bold;">AuditEvent.agent.type</span>: Fester Wert &quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">humanuser</span>&quot; aus  <a class="descriptionLink" target="_top" href="http://terminology.hl7.org/CodeSystem/extra-security-role-type">http://terminology.hl7.org/CodeSystem/extra-security-role-type</a> </li><li><span style="font-weight: bold;">AuditEvent.agent.name</span><span style="font-weight: normal;">:</span><span style="font-weight: bold;"> </span>Lesbarer Name aus Identity-Token des Zugreifenden, der die zu protokollierende Aktion getriggert hat, z.B. &quot;Praxis Dr. Müller, Bahnhofstr. 78&quot; oder Versicherter z.B. &quot;Max Mustermann&quot;</li><li><span style="font-weight: bold;">AuditEvent.agent.who</span>: KVNR bzw. Telematik-ID des zugreifenden Nutzers aus Identity-Token, der diesen Protokolleintrag ausgelöst hat</li><li><span style="font-weight: bold;">AuditEvent.agent.requestor</span>: Fester Wert &quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">false</span>&quot;, da keine Protokolleinträge von außen erzeugt werden</li><li><span style="font-weight: bold;">AuditEvent.soure.site</span>: Fester Wert &quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">E-Rezept-Fachdienst</span>&quot;</li><li><span style="font-weight: bold;">AuditEvent.soure.observer</span>: Device-Informationen des E-Rezept-Fachdienstes (status, serialnumber=gemäß Release)</li><li><span style="font-weight: bold;">AuditEvent.entity.what</span>: Referenz auf das betroffene Datenobjekt Task, ChargeItem, MedicationDispense oder Consent zum Abruf</li><li><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">AuditEvent.entity.name</span>: Eintrag der KVNR des betroffenen Versicherten aus dem Identifier des protokollierten Datenobjekts (String)</span></li><li><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: bold;">AuditEvent.entity.description</span><span style="font-weight: normal;">:</span> Rezept-ID als Identifier, wird übernommen aus MedicationDispense, ChargeItem oder Task bzw. Consent.category.coding.code bei Anlegen oder Löschen eines Consent </span></li></ul>]]></description_html>
+  </requirement>
+</requirements>

@@ -1,9 +1,8 @@
 
 ---
 title: "gemKPT"
-linkTitle: "gemKPT"
-weight: 6
-date: 2017-01-05
+linkTitle: "Konzepte"
+weight: 5
 description: >
   &uuml;bergreifende Konzepte
 ---

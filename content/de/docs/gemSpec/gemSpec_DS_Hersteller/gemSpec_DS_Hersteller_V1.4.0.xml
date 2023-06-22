@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="GS-A_2330-02" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-16010" revision="566217">
+    <title><![CDATA[Hersteller: Schwachstellen-Management]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN präventive Maßnahmen zur 
+Erkennung und Analyse von technischen Hard- oder Softwareschwachstellen 
+(„vulnerabilities“) ihres Produktes wie auch zur Bewertung und Implementierung 
+von Sicherheitsupdates durchführen. Hierzu gehört insbesondere auch, dass sich 
+der Hersteller aktiv und kontinuierlich über Schwachstellen in eingesetzten 
+Hard- und Softwarekomponenten von Dritten informiert. Dies ist auch für Anteile 
+des Produktes sicherzustellen, die von Drittherstellern stammen.]]></description>
+    <description_html><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN präventive Maßnahmen zur Erkennung und Analyse von technischen Hard- oder Softwareschwachstellen („vulnerabilities“) ihres Produktes wie auch zur Bewertung und Implementierung von Sicherheitsupdates durchführen. Hierzu gehört insbesondere auch, dass sich der Hersteller aktiv und kontinuierlich über Schwachstellen in eingesetzten Hard- und Softwarekomponenten von Dritten informiert. Dies ist auch für Anteile des Produktes sicherzustellen, die von Drittherstellern stammen.]]></description_html>
+  </requirement>
+  <requirement id="A_22984" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-132858" revision="529658">
+    <title><![CDATA[Unverzügliche Bewertung von Schwachstellen]]></title>
+    <description><![CDATA[Hersteller von Produkten der TI MÜSSEN erkannte Software-Schwachstellen in den 
+von Ihnen entwickelten Produkten der TI unverzüglich nach dem international 
+etablierten Standard Common Vulnerability Scoring System (CVSS) in der jeweils 
+aktuellen Fassung bewerten. Hierbei MUSS eine Reaktionszeit von <24h zur 
+Bewertung der Schwachstellen an Werktagen sowie Bewertung der Schwachstellen an 
+Wochenenden und Feiertagen von <72h gewährleistet werden.]]></description>
+    <description_html><![CDATA[Hersteller von Produkten der TI MÜSSEN erkannte Software-Schwachstellen in den von Ihnen entwickelten Produkten der TI unverzüglich nach dem international etablierten Standard Common Vulnerability Scoring System (CVSS) in der jeweils aktuellen Fassung bewerten. Hierbei MUSS eine Reaktionszeit von &lt;24h zur Bewertung der Schwachstellen an Werktagen sowie Bewertung der Schwachstellen an Wochenenden und Feiertagen von &lt;72h gewährleistet werden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2525-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74880" revision="566217">
+    <title><![CDATA[Hersteller: Schließen von Schwachstellen]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN die gematik direkt und 
+unverzüglich über neu gemeldete Software- oder Hardware-Schwachstellen in ihren 
+Produkten informieren und das weitere Vorgehen mit der gematik abstimmen, um 
+die Auswirkungen unverzüglich auf das mögliche Minimum zu reduzieren und die 
+Schwachstelle schnellstmöglich komplett zu schließen.]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Hersteller von</span> <span>dezentralen Produkten der TI M&Uuml;SSEN die gematik direkt und unverz&uuml;glich &uuml;ber neu ge</span><span>mel</span><span>dete Software- oder Hardware-Schwachstellen in ihren Produkten informieren und das weitere Vorgehen mit der gematik abstimmen, um die Auswirkungen unverz&uuml;glich auf das</span> <span>m&ouml;gliche Minimum zu reduzieren und die Schwachstelle schnellstm&ouml;glich komplett zu schlie&szlig;en.</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="A_22985" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-132859" revision="529658">
+    <title><![CDATA[Bereitstellung der Bewertung von Schwachstellen gegenüber der gematik]]></title>
+    <description><![CDATA[Hersteller von Produkten der TI MÜSSEN der gematik und den einsetzenden 
+Anbietern gegenüber den CVS-Score sowie den Bewertungsvektor bei Bedarf und auf 
+Nachfrage zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Hersteller von Produkten der TI MÜSSEN der gematik und den einsetzenden Anbietern gegenüber den CVS-Score sowie den Bewertungsvektor bei Bedarf und auf Nachfrage zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="A_22986" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-132861" revision="529658">
+    <title><![CDATA[Meldung von erheblichen Schwachstellen und Bedrohungen]]></title>
+    <description><![CDATA[Der Hersteller von TI Produkten MUSS kritische und hochbewertete Schwachstellen 
+(CVSS ab 7) und erhebliche Bedrohungen unverzüglich nach Abschluss der 
+Bewertung direkt an die gematik und die einsetzenden Anbieter melden.]]></description>
+    <description_html><![CDATA[Der Hersteller von TI Produkten MUSS kritische und hochbewertete Schwachstellen (CVSS ab 7) und erhebliche Bedrohungen unverzüglich nach Abschluss der Bewertung direkt an die gematik und die einsetzenden Anbieter melden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2354-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74881" revision="566217">
+    <title><![CDATA[Produktunterstützung mit geeigneten Sicherheitstechnologien]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN eine vom koordinierenden 
+ISM freigegebene Technologie zur Wahrung der Integrität, Authentizität und (wo 
+nötig) Vertraulichkeit der Informationen zur Produktunterstützung und 
+Schwachstellenmeldung einsetzen.]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Hersteller von dezentralen Produkten der TI M&Uuml;S</span><span>SEN eine vom koordinierenden ISM frei</span><span>ge</span><span>gebene Technologie zur Wahrung der Integrit&auml;t, Authentizit&auml;t und (wo n&ouml;tig) Vertraulichkeit der Informationen zur Produktunterst&uuml;tzung und Schwachstellenmeldung einsetzen.</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2350-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74882" revision="566217">
+    <title><![CDATA[Produktunterstützung der Hersteller]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN der gematik 
+Supportinformationen sowie Informationen zu Softwareupdates als Produkt
+unterstützung für von ihnen entwickelte Produkte der TI zur Konsolidierung und 
+Weiterleitung an die ISM der Beteiligten zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[<html><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta content="HTML Tidy for Java (vers. 26 Sep 2004), see www.w3.org" name="generator"><title></title></head><body><p><span>Hersteller von dezentralen Produkten der TI M&Uuml;SSEN der gematik Supportinformationen sowie Informationen zu Softwareupdates als Pro</span><span>dukt</span><span>unterst&uuml;tzung f&uuml;r von ihnen entwickelte Produkte der TI zur Konsolidieru</span><span>ng und Weiterleitung an die ISM der Beteiligten zur Verf&uuml;gung stellen.</span></p></body></html>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4944-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74883" revision="566217">
+    <title><![CDATA[Produktentwicklung: Behebung von Sicherheitsmängeln]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen 
+angebotenen Produkte der TI gewährleisten, dass technisch-organisatorische 
+Verfahren zur Behebung von Sicherheitsmängeln in den Produkten während der Zeit 
+des Einsatzes in der TI vorgehalten werden. Dies beinhaltet das kontinuierliche 
+Aufspüren (bug tracking) und Nachbessern (bug fixing) von Sicherheitsmängeln 
+(security bugs) und das zur Verfügung stellen von Updates (security updates).]]></description>
+    <description_html><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen angebotenen Produkte der TI gewährleisten, dass technisch-organisatorische Verfahren zur Behebung von Sicherheitsmängeln in den Produkten während der Zeit des Einsatzes in der TI vorgehalten werden. Dies beinhaltet das kontinuierliche Aufspüren (bug tracking) und Nachbessern (bug fixing) von Sicherheitsmängeln (security bugs) und das zur Verfügung stellen von Updates (security updates).]]></description_html>
+  </requirement>
+  <requirement id="A_23029" type="leafRequirement" severity="SOLL" lastUpdate="2022-11-30" technicalID="ML-133072" revision="529658">
+    <title><![CDATA[Bereitstellung von Updates abhängig von der Kritikalität der Schwachstellen]]></title>
+    <description><![CDATA[Hersteller von TI Produkten SOLLEN bewertete Software-Schwachstellen innerhalb 
+der folgenden maximalen Behebungszeit schließen.
+
+
+CVSS (bewertet)
+Behebungszeit
+10-9Schnellstmöglich, Individualvereinbarung
+8,9-71 Monat
+6,9-5quartalsweise
+<5Regelpatchzyklus]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: normal;">Hersteller von TI Produkten S</span>OLLEN bewertete Software-Schwachstellen innerhalb der folgenden maximalen Behebungszeit schließen.</span><br/> <br/> <table style="width: 50.79%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=50.79%|uid=client7"><tbody><tr><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 106px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">CVSS (bewertet)<br/></th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 268px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Behebungszeit</th></tr><tr><td style="width: 106px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">10-9</td><td style="width: 268px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Schnellstmöglich, Individualvereinbarung</td></tr><tr><td style="width: 106px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">8,9-7</td><td style="width: 268px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">1 Monat</td></tr><tr><td style="width: 106px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">6,9-5</td><td style="width: 268px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">quartalsweise</td></tr><tr><td style="width: 106px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">&lt;5</td><td style="width: 268px;height: 18px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Regelpatchzyklus</td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4945-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74884" revision="566217">
+    <title><![CDATA[Produktentwicklung: Qualitätssicherung]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen 
+angebotenen Produkte der TI gewährleisten, dass bei der Entwicklung der 
+Produkte technisch-organisatorische Verfahren der Qualitätssicherung angewendet 
+werden (bspw. fuzz (robustness) testing bzw. penetration testing und source 
+code review).]]></description>
+    <description_html><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen angebotenen Produkte der TI gewährleisten, dass bei der Entwicklung der Produkte technisch-organisatorische Verfahren der Qualitätssicherung angewendet werden (bspw. fuzz (robustness) testing bzw. penetration testing und source code review).]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4946-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74885" revision="566217">
+    <title><![CDATA[Produktentwicklung: sichere Programmierung]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen 
+angebotenen Produkte der TI gewährleisten, dass bei der Entwicklung der 
+Produkte Secure Coding Guidelines angewendet werden; d. h., in einschlägigen 
+Fachkreisen anerkannte, erprobte und bewährte Regeln sicherer Programmierung 
+befolgt wurden.]]></description>
+    <description_html><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen angebotenen Produkte der TI gewährleisten, dass bei der Entwicklung der Produkte Secure Coding Guidelines angewendet werden; d. h., in einschlägigen Fachkreisen anerkannte, erprobte und bewährte Regeln sicherer Programmierung befolgt wurden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_4947-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-74886" revision="566217">
+    <title><![CDATA[Produktentwicklung: Schutz der Vertraulichkeit und Integrität]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen 
+angebotenen Produkte der TI gewährleisten, dass sie in einer 
+Entwicklungsumgebung entwickelt werden, für die technische und organisatorische 
+Maßnahmen zum Schutz der Vertraulichkeit und Integrität der Produkte getroffen 
+werden.]]></description>
+    <description_html><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen angebotenen Produkte der TI gewährleisten, dass sie in einer Entwicklungsumgebung entwickelt werden, für die technische und organisatorische Maßnahmen zum Schutz der Vertraulichkeit und Integrität der Produkte getroffen werden.]]></description_html>
+  </requirement>
+  <requirement id="A_17178" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-92818" revision="566217">
+    <title><![CDATA[Produktentwicklung: Basisschutz gegen OWASP Top 10 Risiken]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen 
+angebotenen Produkte der TI gewährleisten, dass das Produkt resistent bezüglich 
+der im aktuellen und den beiden vorherigen OWASP Top 10 Report(s) ausgewiesenen 
+Risiken ist.]]></description>
+    <description_html><![CDATA[Hersteller von dezentralen Produkten der TI MÜSSEN für die von ihnen angebotenen Produkte der TI gewährleisten, dass das Produkt resistent bezüglich der im aktuellen und den beiden vorherigen OWASP Top 10 Report(s) ausgewiesenen Risiken ist.]]></description_html>
+  </requirement>
+  <requirement id="A_17179" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-92817" revision="566217">
+    <title><![CDATA[Auslieferung aktueller zusätzlicher Softwarekomponenten]]></title>
+    <description><![CDATA[Hersteller von dezentralen Produkten der TI, die zu ihrem Produkt ein 
+Installationspaket mit zusätzlichen Softwarekomponenten ausliefern, MÜSSEN im 
+Falle von Sicherheitsaktualisierungen dieser zusätzlichen Softwarekomponenten 
+unverzüglich die gepatchten Softwareversionen als Aktualisierung an die Nutzer 
+des Produktes ausliefern.]]></description>
+    <description_html><![CDATA[Hersteller von dezentralen Produkten der TI, die zu ihrem Produkt ein Installationspaket mit zusätzlichen Softwarekomponenten ausliefern, MÜSSEN im Falle von Sicherheitsaktualisierungen dieser zusätzlichen Softwarekomponenten unverzüglich die gepatchten Softwareversionen als Aktualisierung an die Nutzer des Produktes ausliefern.]]></description_html>
+  </requirement>
+  <requirement id="A_19148" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103050" revision="566217">
+    <title><![CDATA[Sicherheits- und Datenschutzkonzept]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS die Sicherheits- und Datenschutzmaßnahmen 
+für sein Produkt in einem Sicherheits- und Datenschutzkonzept dokumentieren und 
+auf Verlangen der gematik zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS die Sicherheits- und Datenschutzmaßnahmen für sein Produkt in einem Sicherheits- und Datenschutzkonzept dokumentieren und auf Verlangen der gematik zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="A_19147" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103046" revision="566217">
+    <title><![CDATA[Sicherheitstestplan]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS einen Testplan für Sicherheitstests 
+erstellen und auf Verlangen der gematik zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS einen Testplan für Sicherheitstests erstellen und auf Verlangen der gematik zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="A_19150" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103056" revision="566217">
+    <title><![CDATA[Umsetzung Sicherheitstestplan]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS seinen Testplan für Sicherheitstests 
+umsetzen und der gematik bei jeder Veröffentlichung einer neuen Produktversion 
+einen Testbericht zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS seinen Testplan für Sicherheitstests umsetzen und der gematik bei jeder Veröffentlichung einer neuen Produktversion einen Testbericht zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="A_19151" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103057" revision="566217">
+    <title><![CDATA[Implementierungsspezifische Sicherheitsanforderungen]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS während der Entwicklung des Produktes 
+implementierungsspezifische Sicherheitsanforderungen dokumentieren und umsetzen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS während der Entwicklung des Produktes implementierungsspezifische Sicherheitsanforderungen dokumentieren und umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="A_19152" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103058" revision="566217">
+    <title><![CDATA[Verwendung eines sicheren Produktlebenszyklus]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS innerhalb des Produktlebenszyklus 
+(Entwicklung, Betrieb, Außerbetriebnahme) seines Produktes 
+Sicherheitsaktivitäten integrieren und anwenden, d. h. in einschlägigen 
+Fachkreisen anerkannte, erprobte und bewährte Regeln anwenden.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS innerhalb des Produktlebenszyklus (Entwicklung, Betrieb, Außerbetriebnahme) seines Produktes Sicherheitsaktivitäten integrieren und anwenden, d. h. in einschlägigen Fachkreisen anerkannte, erprobte und bewährte Regeln anwenden.]]></description_html>
+  </requirement>
+  <requirement id="A_19153" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103059" revision="566217">
+    <title><![CDATA[Sicherheitsrelevanter Softwarearchitektur-Review]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS einen sicherheitsrelevanten 
+Softwarearchitektur-Review durchführen und identifizierte 
+Architekturschwachstellen beheben.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS einen sicherheitsrelevanten Softwarearchitektur-Review durchführen und identifizierte Architekturschwachstellen beheben.]]></description_html>
+  </requirement>
+  <requirement id="A_19154" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103060" revision="566217">
+    <title><![CDATA[Durchführung einer Bedrohungsanalyse]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS eine Bedrohungsanalyse durchführen und 
+Maßnahmen gegen die identifizierten Bedrohungen implementieren.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS eine Bedrohungsanalyse durchführen und Maßnahmen gegen die identifizierten Bedrohungen implementieren.]]></description_html>
+  </requirement>
+  <requirement id="A_19155" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103061" revision="566217">
+    <title><![CDATA[Durchführung sicherheitsrelevanter Quellcode-Reviews]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS während der Entwicklung des Produktes 
+sicherheitsrelevante Quellcode-Reviews oder automatisierte sicherheitsrelevante 
+Quellcode-Scans durchführen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS während der Entwicklung des Produktes sicherheitsrelevante Quellcode-Reviews oder automatisierte sicherheitsrelevante Quellcode-Scans durchführen.]]></description_html>
+  </requirement>
+  <requirement id="A_19156" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103062" revision="566217">
+    <title><![CDATA[Durchführung automatisierter Sicherheitstests]]></title>
+    <description><![CDATA[Der Hersteller eines Produkts MUSS während der Entwicklung des Produktes 
+automatisierte Sicherheitstests durchführen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produkts MUSS während der Entwicklung des Produktes automatisierte Sicherheitstests durchführen.]]></description_html>
+  </requirement>
+  <requirement id="A_19157" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103063" revision="566217">
+    <title><![CDATA[Dokumentierter Plan zur Sicherheitsschulung für Entwickler]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS einen Schulungsplan zur regelmäßigen 
+Schulung von Entwicklern in sicherer Entwicklung und Secure-Coding-Techniken 
+dokumentieren und umsetzen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS einen Schulungsplan zur regelmäßigen Schulung von Entwicklern in sicherer Entwicklung und Secure-Coding-Techniken dokumentieren und umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="A_19158" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103064" revision="566217">
+    <title><![CDATA[Sicherheitsschulung für Entwickler]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS alle Entwickler des Produktes in sicherer 
+Entwicklung und Secure-Coding-Techniken schulen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS alle Entwickler des Produktes in sicherer Entwicklung und Secure-Coding-Techniken schulen.]]></description_html>
+  </requirement>
+  <requirement id="A_19159" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103065" revision="566217">
+    <title><![CDATA[Dokumentation des sicheren Produktlebenszyklus]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS den verwendeten sicheren 
+Produktlebenszyklus und dessen Teilprozesse dokumentieren und auf Nachfrage der 
+gematik zur Verfügung stellen. Die Dokumentation soll mindestens die folgenden 
+Sicherheitsaktivitäten beschreiben:
+
+ * Erfassen und Umsetzen von implementierungsspezifischen 
+Sicherheitsanforderungen für das Produkt und von 
+Best-Practice-Sicherheitsanforderungen,
+ * Durchführen von sicherheitsrelevanten Architektur- und Design-Reviews,
+ * Durchführen von Bedrohungsanalysen,
+ * Durchführen von sicherheitsrelevanten Quellcode-Reviews,
+ * Durchführen von Sicherheitstests während der Qualitätssicherungsphase,
+ * Etablieren von Quality Gates, die eine Veröffentlichung des Produkts mit 
+'Mittel' oder 'Hoch' bewerteten Sicherheitsfehlern verhindern,
+ * Änderungs- und Konfigurationsmanagement,
+ * Schwachstellen-Management.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS den verwendeten sicheren Produktlebenszyklus und dessen Teilprozesse dokumentieren und auf Nachfrage der gematik zur Verfügung stellen. Die Dokumentation soll mindestens die folgenden Sicherheitsaktivitäten beschreiben:<br/> <ul><li>Erfassen und Umsetzen von implementierungsspezifischen Sicherheitsanforderungen für das Produkt und von Best-Practice-Sicherheitsanforderungen,</li><li>Durchführen von sicherheitsrelevanten Architektur- und Design-Reviews,</li><li>Durchführen von Bedrohungsanalysen,</li><li>Durchführen von sicherheitsrelevanten Quellcode-Reviews,</li><li>Durchführen von Sicherheitstests während der Qualitätssicherungsphase,</li><li>Etablieren von Quality Gates, die eine Veröffentlichung des Produkts mit 'Mittel' oder 'Hoch' bewerteten Sicherheitsfehlern verhindern,</li><li>Änderungs- und Konfigurationsmanagement,</li><li>Schwachstellen-Management.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_19160" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103066" revision="566217">
+    <title><![CDATA[Änderungs- und Konfigurationsmanagementprozess]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS während der Entwicklung des Produktes einen 
+Änderungs- und Konfigurationsmanagementprozess verwenden. Das 
+Änderungsmanagement umfasst mindestens den Entscheidungsprozess über 
+vorgeschlagene Änderungen und die Autorisierung der Änderungen. Das 
+Konfigurationsmanagement liefert mindestens zu jedem Zeitpunkt die eindeutige 
+Zusammensetzung des Produktes bezüglich seiner eindeutigen Komponenten 
+(Dritt-Software wie Bibliotheken, Frameworks) und den vorgenommenen Änderungen 
+an eigenen Komponenten.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS während der Entwicklung des Produktes einen Änderungs- und Konfigurationsmanagementprozess verwenden. Das Änderungsmanagement umfasst mindestens den Entscheidungsprozess über vorgeschlagene Änderungen und die Autorisierung der Änderungen. Das Konfigurationsmanagement liefert mindestens zu jedem Zeitpunkt die eindeutige Zusammensetzung des Produktes bezüglich seiner eindeutigen Komponenten (Dritt-Software wie Bibliotheken, Frameworks) und den vorgenommenen Änderungen an eigenen Komponenten.]]></description_html>
+  </requirement>
+  <requirement id="A_19161" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103067" revision="566217">
+    <title><![CDATA[Verifizierung der Einhaltung sicherheitstechnische Eignung durch Datenschutzbeauftragten]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS bei Veröffentlichung einer neuen 
+Produktversion des Produktes die Einhaltung der Herstellererklärung 
+"sicherheitstechnische Eignung" durch seinen Datenschutzbeauftragten 
+verifizieren lassen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS bei Veröffentlichung einer neuen Produktversion des Produktes die Einhaltung der Herstellererklärung &quot;sicherheitstechnische Eignung&quot; durch seinen Datenschutzbeauftragten verifizieren lassen.]]></description_html>
+  </requirement>
+  <requirement id="A_19162" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-06" technicalID="ML-103068" revision="566217">
+    <title><![CDATA[Informationspflicht bei Veröffentlichung neue Produktversion]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS die gematik bei Veröffentlichung einer 
+neuen Produktversion informieren.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS die gematik bei Veröffentlichung einer neuen Produktversion informieren.]]></description_html>
+  </requirement>
+  <requirement id="A_19163" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-103070" revision="566217">
+    <title><![CDATA[Rechte der gematik zur sicherheitstechnischen Prüfung des Produktes]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS zusichern, dass die gematik oder ein von 
+ihr zur Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind,
+
+ * Sicherheitsprüfungen (z.B. Whitebox oder Blackbox Pentest) seines Produktes 
+durchzuführen (hiervon unbenommen ist das Recht der gematik, eine anlasslose 
+Sicherheitsprüfung durchzuführen),
+ * im Rahmen einer Sicherheitsprüfung die konkrete Umsetzung der an das 
+Produkt gestellten Anforderungen zu überprüfen.Der Hersteller MUSS dies im 
+gleichen Maße für Unterauftragnehmer zusichern. Die Kosten, die dem Hersteller 
+durch diese Mitwirkungspflichten entstehen, trägt der Hersteller selbst.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS zusichern, dass die gematik oder ein von ihr zur Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind,<br/> <ul><li>Sicherheitsprüfungen (z.B. Whitebox oder Blackbox Pentest) seines Produktes durchzuführen (hiervon unbenommen ist das Recht der gematik, eine anlasslose Sicherheitsprüfung durchzuführen),</li><li>im Rahmen einer Sicherheitsprüfung die konkrete Umsetzung der an das Produkt gestellten Anforderungen zu überprüfen.</li></ul><span style="font-size: 10pt;line-height: 1.5;">Der Hersteller MUSS dies im gleichen Maße für Unterauftragnehmer zusichern. Die Kosten, die dem Hersteller durch diese Mitwirkungspflichten entstehen, trägt der Hersteller selbst.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_19164" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-103071" revision="566217">
+    <title><![CDATA[Mitwirkungspflicht bei Sicherheitsprüfung]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS Sicherheitsprüfungen (z.B. Pentest) der 
+gematik unterstützen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS Sicherheitsprüfungen (z.B. Pentest) der gematik unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_19165" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-04" technicalID="ML-103072" revision="566217">
+    <title><![CDATA[Auditrechte der gematik zur Prüfung der Herstellerbestätigung]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS zusichern, dass die gematik oder ein von 
+ihr zur Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind,
+
+ * Audits durchzuführen (hiervon unbenommen ist das Recht der gematik, 
+anlasslose Audits durchzuführen),
+ * im Rahmen eines Audits beim Hersteller die konkrete Umsetzung der an den 
+Hersteller gestellten Anforderungen zu überprüfen,
+ * im Rahmen eines Audits während der üblichen Geschäftszeiten die 
+Geschäftsräume des Herstellers zu betreten,
+ * im Rahmen eines Audits alle für das Audit benötigten Informationen zur 
+Verfügung gestellt zu bekommen und insbesondere die erforderlichen Zugangs-, 
+Auskunfts- und Einsichtsrechte zu erhalten.Der Hersteller MUSS dies im gleichen 
+Maße für Unterauftragnehmer zusichern. Die Kosten, die dem Hersteller durch 
+diese Mitwirkungspflichten entstehen, trägt der Hersteller selbst.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS zusichern, dass die gematik oder ein von ihr zur Geheimhaltung verpflichteter Bevollmächtigter berechtigt sind,<br/> <ul><li>Audits durchzuführen (hiervon unbenommen ist das Recht der gematik, anlasslose Audits durchzuführen),</li><li>im Rahmen eines Audits beim Hersteller die konkrete Umsetzung der an den Hersteller gestellten Anforderungen zu überprüfen,</li><li>im Rahmen eines Audits während der üblichen Geschäftszeiten die Geschäftsräume des Herstellers zu betreten,</li><li>im Rahmen eines Audits alle für das Audit benötigten Informationen zur Verfügung gestellt zu bekommen und insbesondere die erforderlichen Zugangs-, Auskunfts- und Einsichtsrechte zu erhalten.</li></ul><span style="font-size: 10pt;line-height: 1.5;">Der Hersteller MUSS dies im gleichen Maße für Unterauftragnehmer zusichern. Die Kosten, die dem Hersteller durch diese Mitwirkungspflichten entstehen, trägt der Hersteller selbst.</span>]]></description_html>
+  </requirement>
+</requirements>

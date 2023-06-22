@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="A_20606" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-111164" revision="567403">
+    <title><![CDATA[Anwendungsfrontend: Kommunikation über TLS-Verbindung]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS mit dem IDP-Dienst über TLS kommunizieren.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS mit dem IDP-Dienst über TLS kommunizieren.]]></description_html>
+  </requirement>
+  <requirement id="A_20607" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-111162" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Kommunikation über TLS-Verbindung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS mit dem IDP-Dienst der TI über TLS kommunizieren.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS mit dem IDP-Dienst der TI <span style="font-size: 10pt;line-height: 1.5;">über TLS kommunizieren.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20608" type="leafRequirement" severity="MUSS" lastUpdate="2021-05-19" technicalID="ML-111163" revision="567403">
+    <title><![CDATA[Anwendungsfrontend: Unzulässige TLS-Verbindungen ablehnen]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS bei jedem Verbindungsaufbau den IdP-Dienst anhand 
+seines TLS-Zertifikats authentifizieren und MUSS die Verbindung ablehnen, falls 
+die Authentifizierung fehlschlägt.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS bei jedem Verbindungsaufbau den IdP-Dienst anhand seines TLS-Zertifikats authentifizieren und MUSS die Verbindung ablehnen, falls die Authentifizierung fehlschlägt.]]></description_html>
+  </requirement>
+  <requirement id="A_20609" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-111167" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Unzulässige TLS-Verbindungen ablehnen]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS bei jedem Verbindungsaufbau den IDP-Dienst anhand 
+seines TLS-Zertifikats authentifizieren und MUSS die Verbindung ablehnen, falls 
+die Authentifizierung fehlschlägt.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS bei jedem Verbindungsaufbau den IDP-Dienst anhand seines TLS-Zertifikats authentifizieren und MUSS die Verbindung ablehnen, falls die Authentifizierung fehlschlägt.]]></description_html>
+  </requirement>
+  <requirement id="A_20610" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-111168" revision="567403">
+    <title><![CDATA[Authenticator-Modul: HTTP-Header user-agent]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS in allen HTTP-Requests an den IDP-Dienst den 
+HTTP-Header „user-agent“ gemäß [RFC7231] mit<Hersteller-ID> 
+<Produktkürzel>/<Produktversion> gemäß der Produktidentifikation des 
+E-Rezept-FdV befüllen. ]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS in allen HTTP-Requests an den IDP-Dienst den HTTP-Header „user-agent“ gemäß [RFC7231] mit <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">&lt;Hersteller-ID&gt; &lt;Produktkürzel&gt;/&lt;Produktversion&gt;</span> gemäß der Produktidentifikation des E-Rezept-FdV befüllen. ]]></description_html>
+  </requirement>
+  <requirement id="A_20612" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-111166" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Anzeige bei Ablehnung des Authenticator-Moduls]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die Fehlermeldung des IDP-Dienstes an den Benutzer 
+durchreichen, wenn dieser die Durchführung des Authentifizierungsprozesses 
+ablehnt.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Das Authenticator-Modul MUSS die Fehlermeldung des IDP-Dienstes an den Benutzer durchreichen, wenn dieser die Durchführung des Authentifizierungsprozesses ablehnt</span>.]]></description_html>
+  </requirement>
+  <requirement id="A_20613" type="leafRequirement" severity="MUSS" lastUpdate="2021-05-19" technicalID="ML-111169" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Regelmäßiges Einlesen des Discovery Document]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS das Discovery Document [RFC8414] bei 
+eingeschaltetem Gerät regelmäßig alle 24 Stunden einlesen und auswerten, und 
+danach die darin aufgeführten URI zu den benötigten öffentlichen Schlüsseln 
+(Public Keys –PUK) und Diensten verwenden.]]></description>
+    <description_html><![CDATA[D<span style="font-size: 10pt;line-height: 1.5;">as Authenticator-Modul MUSS das Discovery Document [RFC8414] bei eingeschaltetem Gerät regelmäßig alle 24 Stunden einlesen und auswerten, und danach die darin aufgeführten URI zu den benötigten</span> öffentlichen Schlüsseln (Public Keys – <span style="font-size: 10pt;line-height: 1.5;">PUK) und Diensten verwenden.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20614" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-111170" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Prüfung der Signatur des Discovery Document]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die Signatur des Discovery Document mathematisch 
+prüfen und auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID
+oid_idpd zurückführen können, welches von einer ihm bekannten Komponenten-PKI 
+ausgestellt wurde.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Das Authenticator-Modul MUSS die Signatur des Discovery Document mathematisch prüfen und auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID <span style="font-style: italic;">oid_idpd</span> zurückführen können, welches von einer ihm bekannten Komponenten-PKI ausgestellt wurde.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20917" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-112751" revision="567403">
+    <title><![CDATA[Prüfung auf Vorhandensein und Verwenden eines gültigen "SSO_TOKEN"]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS vor der Übertragung des Authorization Request 
+(siehe [A_20601]) überprüfen, ob noch ein gültigesSSO_TOKEN im Dateisystem 
+(siehe [A_20499-*]) vorhanden ist.
+ Ist ein solches SSO_TOKEN im Dateisystem vorhanden, MUSS das 
+Authenticator-Modul diesesSSO_TOKEN an den Authorization-Endpunkt senden.
+ Ist kein solches SSO_TOKEN im Dateisystem vorhanden, MUSS das 
+Authenticator-Modul die Anfrage gemäß [A_20601] fortsetzen und somit einen 
+neuen Authentifizierungsprozess einleiten.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS vor der Übertragung des Authorization Request (siehe [A_20601]) überprüfen, ob noch ein gültiges <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> im Dateisystem (siehe [A_20499-*]) vorhanden ist.<br/>
+Ist ein solches <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> im Dateisystem vorhanden, MUSS das Authenticator-Modul dieses <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> an den Authorization-Endpunkt senden.<br/>
+Ist kein solches <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> im Dateisystem vorhanden, MUSS das Authenticator-Modul die Anfrage gemäß [A_20601] fortsetzen und somit einen neuen Authentifizierungsprozess einleiten.]]></description_html>
+  </requirement>
+  <requirement id="A_20601" type="leafRequirement" severity="MUSS" lastUpdate="2021-05-19" technicalID="ML-111151" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Übergabe des Authorization-Request an den Authorization-Endpunkt]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS den Authorization-Request, welchen dieses vom 
+Anwendungsfrontend erhalten hat, an den Authorization-Server des IdP-Dienstes 
+schicken. Der Authorization-Request MUSS folgende Parameter enthalten:
+ * "response_type"
+ * "scope"
+ * "client_id"
+ * "redirect_uri"
+ * "code_challenge" (Hashwert des "code_verifier") [RFC7636 # section-4.2 
+<https://tools.ietf.org/html/rfc7636#section-4.2>]
+
+ * "code_challenge_method" HASH-Algorithmus (S256) [RFC7636 # section-4.3 
+<https://tools.ietf.org/html/rfc7636#section-4.3>]]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS den Authorization-Request, welchen dieses vom Anwendungsfrontend erhalten hat, an den Authorization-Server des IdP-Dienstes schicken. Der Authorization-Request MUSS folgende Parameter enthalten: <ul><li>&quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">response_type</span>&quot;</li><li>&quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scope</span>&quot;</li><li>&quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">client_id</span>&quot;</li><li>&quot;<span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">redirect_uri</span>&quot;</li><li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&quot;code_challenge&quot;</span> (Hashwert des <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&quot;code_verifier&quot;</span>) [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc7636#section-4.2">RFC7636 # section-4.2</a>]<br/></li><li><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">&quot;code_challenge_method&quot;</span> HASH-Algorithmus (S256) [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc7636#section-4.3">RFC7636 # section-4.3</a>]</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_20600" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-111150" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Annahme des "user_consent" und des "CHALLENGE_TOKEN"]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS den user_consent und den CHALLENGE_TOKEN vom 
+Authorization-Endpunkt des IDP-Dienstes entgegennehmen.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">user_consent</span> und den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CHALLENGE_TOKEN</span> vom Authorization-Endpunkt des IDP-Dienstes entgegennehmen.]]></description_html>
+  </requirement>
+  <requirement id="A_20525" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-110803" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Anzeige des "user_consent" und PIN-Abfrage]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS im Zusammenhang mit der PIN-Abfrage für die 
+Signatur des CHALLENGE_TOKEN durch die Smartcard im selben Dialog die 
+Consent-Freigabe desuser_consent durch den Nutzer einfordern, damit dieser 
+durch die PIN-Eingabe seine Willenserklärung abgibt und der Verwendung seiner 
+Daten in diesen Claims zustimmt.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS im Zusammenhang mit der PIN-Abfrage für die Signatur des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CHALLENGE_TOKEN</span> durch die Smartcard im selben Dialog die Consent-Freigabe des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">user_consent</span> durch den Nutzer einfordern, damit dieser durch die PIN-Eingabe seine Willenserklärung abgibt und der Verwendung seiner Daten in diesen Claims zustimmt.]]></description_html>
+  </requirement>
+  <requirement id="A_19908-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-13" technicalID="ML-111187" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Prüfung der Signatur des "CHALLENGE_TOKEN"]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die Signatur des CHALLENGE_TOKEN gegen den 
+aktuellen öffentlichen Schlüssel des Authorization-Endpunktes PUK_AUTH prüfen. 
+Liegt dem Authenticator-Modul der öffentliche Schlüssel des 
+Authorization-Endpunktes noch nicht vor,MUSS es diesen vom Authorization Server 
+gemäß den Angaben der AdressePUK_URI_AUTH im Discovery Document abrufen.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS die Signatur des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CHALLENGE_TOKEN</span> gegen den aktuellen öffentlichen Schlüssel des Authorization-Endpunktes <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PUK_AUTH</span> prüfen. Liegt dem Authenticator-Modul der öffentliche Schlüssel des Authorization-Endpunktes noch nicht vor, <span style="font-weight: normal;">MUSS</span> es diesen vom Authorization Server gemäß den Angaben der Adresse <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PUK_URI_AUTH</span> im Discovery Document abrufen.]]></description_html>
+  </requirement>
+  <requirement id="A_20700-07" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-118600" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Signatur der "CHALLENGE"]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die vom Authorization-Endpunkt empfangene 
+CHALLENGE_TOKEN mit dem Zertifikat C.CH.AUT aus der Smartcard des Nutzers 
+signieren. Hierbei wird der über die CHALLENGE_TOKEN gebildete HASH-Wert zur 
+Signatur überreicht (siehe Abschnitt  in diesem Dokument).
+ Im Fall der Authentisierung mit einem alternativen Authentisierungsmittel 
+signiert das Authenticator-Modul die folgenden Daten mithilfe des PrK_SE_AUT:
+
+ * das vom Authorization-Endpunkt bezogene CHALLENGE-TOKEN, 
+ * das auf dem Gerät gespeicherte Authentifizierungszertifikat C.CH.AUT, 
+ * den Key-Identifier für das Schlüsselpaar PrK_SE_AUT/PuK_SE_AUT, 
+ * die aktuell erhobenen Geräteinformationen, 
+ * die Art des vom Nutzer verwendeten, lokalen Authentisierungsmittels zur 
+Freischaltung der Anwendung des Schlüssels PrK_SE_AUT.  Es MUSS hierbei eine 
+Datenstruktur vom Typ "Signed_Authentication_Data" produzieren. Der zur 
+Signatur zu verwendende Algorithmus MUSS ECDSA mit SHA-256 sein. Das Feld amr 
+MUSS hierbei wie folgt in Abhängigkeit der vom Nutzer verwendeten Methode 
+belegt werden:
+
+
+ Tabelle #:  Belegung des amr-Claims durch das Authenticator-Modul 
+
+Art  Authentication-Method-Reference ("amr") 
+Biometrisch ["mfa","hwk","generic-biometric"] 
+PIN ["mfa","hwk","kba"] 
+Passwort ["mfa","hwk","kba"]  
+Muster ["mfa","hwk","kba"] ]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Das Authenticator-Modul MUSS die vom Authorization-Endpunkt empfangene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CHALLENGE_TOKEN</span> mit dem Zertifikat C.CH.AUT aus der Smartcard des Nutzers signieren. Hierbei wird der über die <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CHALLENGE_TOKEN</span> gebildete HASH-Wert zur Signatur überreicht (siehe Abschnitt <span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="9.3.7.3 Signiervorgang" data-url="/wiki/Spezifikation/gemSpec_IDP_Frontend?selection=ML-107239"></span> in diesem Dokument).<br/>
+  </span> Im Fall der Authentisierung mit einem alternativen Authentisierungsmittel signiert das Authenticator-Modul die folgenden Daten mithilfe des PrK_SE_AUT: <br/>
+ 
+<ul>
+  <li><span style="font-size: 10pt;line-height: 1.5;">das vom Authorization-Endpunkt bezogene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CHALLENGE-TOKEN</span>,</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">das auf dem Gerät gespeicherte Authentifizierungszertifikat C.CH.AUT,</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">den Key-Identifier für das Schlüsselpaar PrK_SE_AUT/PuK_SE_AUT,</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">die aktuell erhobenen Geräteinformationen,</span></li>
+  <li><span style="font-size: 10pt;line-height: 1.5;">die Art des vom Nutzer verwendeten, lokalen Authentisierungsmittels zur Freischaltung der Anwendung des Schlüssels PrK_SE_AUT.</span></li>
+</ul>
+Es MUSS hierbei eine Datenstruktur vom Typ &quot;Signed_Authentication_Data&quot; produzieren. Der zur Signatur zu verwendende Algorithmus MUSS ECDSA mit SHA-256 sein. Das Feld <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">amr</span> MUSS hierbei wie folgt in Abhängigkeit der vom Nutzer verwendeten Methode belegt werden:<span style="font-size: 10pt;line-height: 1.5;"><span style="background-color: #FFFF33;"><br/>
+    </span><br/>
+  </span> 
+<p class="polarion-rte-caption-paragraph" style="text-align: left;">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>:  Belegung des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">amr</span>-Claims durch das Authenticator-Modul 
+</p>
+ 
+<table id="polarion_wiki macro name=table;params=width=100%|uid=739" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 365px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Art </th>
+      <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 366px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Authentication-Method-Reference (&quot;amr&quot;)</th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 365px;height: 16.3636px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Biometrisch</td>
+      <td style="vertical-align: top;width: 366px;height: 16.3636px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">[&quot;mfa&quot;,&quot;hwk&quot;,&quot;generic-biometric&quot;]</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 365px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">PIN</td>
+      <td style="vertical-align: top;width: 366px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">[&quot;mfa&quot;,&quot;hwk&quot;,&quot;kba&quot;]</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 365px;height: 16.3636px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Passwort</td>
+      <td style="vertical-align: top;width: 366px;height: 16.3636px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">[&quot;mfa&quot;,&quot;hwk&quot;,&quot;kba&quot;] </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 365px;height: 16.3636px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Muster</td>
+      <td style="vertical-align: top;width: 366px;height: 16.3636px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">[&quot;mfa&quot;,&quot;hwk&quot;,&quot;kba&quot;] </td>
+    </tr>
+  </tbody>
+</table>]]></description_html>
+  </requirement>
+  <requirement id="A_20526-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-114491" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Response auf das "CHALLENGE_TOKEN" des Authorization-Endpunktes]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS das eingereichte CHALLENGE_TOKEN mittels JWS (JSON 
+Web Signature) mit der Smartcard signieren, und das 
+Authentifizierungszertifikat der verwendeten Smartcard als x5c Parameter 
+einbetten. Dieses Objekt mittels JWE (JSON Web Encryption) mit dem öffentlichen 
+Schlüssel des Authorization-Endpunktes PuK_IDP_ENC verschlüsseln und in Form 
+eines HTTP-POST-Requests an den Authorization-Endpunkt senden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS das eingereichte <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CHALLENGE_TOKEN</span> mittels JWS (JSON Web Signature) mit der Smartcard signieren, und das Authentifizierungszertifikat der verwendeten Smartcard als x5c Parameter einbetten. Dieses Objekt mittels JWE (JSON Web Encryption) mit dem öffentlichen Schlüssel des Authorization-Endpunktes <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PuK_IDP_ENC</span> verschlüsseln und in Form eines HTTP-POST-Requests an den Authorization-Endpunkt senden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20527" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-10" technicalID="ML-110806" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Übertragung des "AUTHORIZATION_CODE" an das Anwendungsfrontend]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS den vom Authorization-Endpunkt empfangenen 
+AUTHORIZATION_CODE an das Anwendungsfrontend übertragen.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS den vom Authorization-Endpunkt empfangenen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> an das Anwendungsfrontend übertragen.]]></description_html>
+  </requirement>
+  <requirement id="A_20284" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-110324" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Annahme von "SSO_TOKEN"]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS das vom Token-Endpunkt ausgegebene SSO_TOKEN in 
+der HTTP/1.1 Statusmeldung 302 verarbeiten. Das Authenticator-Modul MUSS das
+SSO_TOKEN ablehnen, wenn dieses außerhalb der mit dem 
+Token-Endpunkt etablierten TLS-Verbindung übertragen wird.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul <span style="font-weight: normal;">MUSS </span>das vom Token-Endpunkt ausgegebene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> in der HTTP/1.1 Statusmeldung 302 verarbeiten. Das Authenticator-Modul MUSS das <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> ablehnen, wenn dieses außerhalb der mit dem Token-Endpunkt etablierten TLS-Verbindung übertragen wird.]]></description_html>
+  </requirement>
+  <requirement id="A_21322" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-116341" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Sichere Speicherung des "SSO-TOKEN"]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS empfangene SSO-Token gegen unberechtigten Zugriff 
+schützen.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS empfangene SSO-Token gegen unberechtigten Zugriff schützen.<span id="polarion-comment:797"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_20499-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-114497" revision="567403">
+    <title><![CDATA[Authenticator-Modul: aktives Löschen von "SSO_TOKEN"]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS SSO_TOKEN löschen, wenn der Anwender einen aktiven 
+Logout durchführt. Dazu MUSS das Authenticator-Modul dem Anwender eine 
+auslösende Funktionalität anbieten. ]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN </span>löschen, wenn der Anwender einen aktiven Logout durchführt. Dazu MUSS das Authenticator-Modul dem Anwender eine auslösende Funktionalität anbieten. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20617-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-05-19" technicalID="ML-112746" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Verpflichtende Zertifikatsprüfung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS aktiv verwendete Zertifikate (bspw. für den 
+TLS-Verbindungsaufbau), welche auf Root-Zertifikaten aus der TSL basieren, 
+gemäß "TUC_PKI_018" auf Integrität und Authentizität prüfen. Das 
+Authenticator-Modul MUSS die von dem Zertifikat und den darin enthaltenen 
+Attributen (bspw. öffentliche Schlüssel) abhängenden Arbeitsabläufe ablehnen, 
+wenn die Prüfung kein positives Ergebnis ("gültig") liefert. Das 
+Authenticator-Modul MUSS alle öffentlichen Schlüssel, die es verwenden will, 
+auf eine positiv verlaufene Zertifikatsprüfung zurückführen können.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS aktiv verwendete Zertifikate (bspw. für den TLS-Verbindungsaufbau), welche auf Root-Zertifikaten aus der TSL basieren, gemäß &quot;TUC_PKI_018&quot; auf Integrität und Authentizität prüfen. Das Authenticator-Modul MUSS die von dem Zertifikat und den darin enthaltenen Attributen (bspw. öffentliche Schlüssel) abhängenden Arbeitsabläufe ablehnen, wenn die Prüfung kein positives Ergebnis (&quot;gültig&quot;) liefert. Das Authenticator-Modul MUSS alle öffentlichen Schlüssel, die es verwenden will, auf eine positiv verlaufene Zertifikatsprüfung zurückführen können.]]></description_html>
+  </requirement>
+  <requirement id="A_20068-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-05-19" technicalID="ML-111157" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Prüfung Internet-Zertifikate]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS das Internet-seitige Zertifikat des IdP-Dienstes 
+prüfen. Hierfür MUSS das Authenticator-Modul sowohl eine Signaturprüfung als 
+auch eine Prüfung der zeitlichen Gültigkeit durchführen. Falls diese Prüfung 
+negativ ausfällt, MUSS es das Zertifikat als "ungültig" bewerten. 
+Das Authenticator-Modul MUSS das Zertifikat anhand der Signaturprüfung auf ein 
+CA-Zertifikat einer CA, die die "CA/Browser Forum Baseline Requirements for the 
+Issuance and Management of Publicly-Trusted Certificates" 
+(https://cabforum.org/baseline-requirements-documents/) erfüllt, zurückführen 
+können. Ansonsten MUSS es das Zertifikat als "ungültig" bewerten.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS das Internet-seitige Zertifikat des IdP-Dienstes prüfen. Hierfür MUSS das Authenticator-Modul sowohl eine Signaturprüfung als auch eine Prüfung der zeitlichen Gültigkeit durchführen. Falls diese Prüfung negativ ausfällt, MUSS es das Zertifikat als &quot;ungültig&quot; bewerten. <br/>Das Authenticator-Modul MUSS das Zertifikat anhand der Signaturprüfung auf ein CA-Zertifikat einer CA, die die &quot;CA/Browser Forum Baseline Requirements for the Issuance and Management of Publicly-Trusted Certificates&quot; (https://cabforum.org/baseline-requirements-documents/) erfüllt, zurückführen können. Ansonsten MUSS es das Zertifikat als &quot;ungültig&quot; bewerten.]]></description_html>
+  </requirement>
+  <requirement id="A_20618" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-28" technicalID="ML-111175" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Unzulässige TLS-Verbindungen ablehnen]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS bei jedem Verbindungsaufbau den IdP-Dienst anhand 
+seines TLS-Zertifikats authentifizieren und MUSS die Verbindungen ablehnen, 
+falls die Authentifizierung fehlschlägt.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS bei jedem Verbindungsaufbau den IdP-Dienst anhand seines TLS-Zertifikats authentifizieren und MUSS die Verbindungen ablehnen, falls die Authentifizierung fehlschlägt.]]></description_html>
+  </requirement>
+  <requirement id="A_20743" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-13" technicalID="ML-112015" revision="567403">
+    <title><![CDATA[Prüfung der Aktualität der Komponenten-CA-Zertifikate]]></title>
+    <description><![CDATA[Der Anbieter des Authenticator-Moduls MUSS sicherstellen, dass das aktuell 
+verwendete Authenticator-Modul mit den gültigen Zertifikaten der Komponenten-CA 
+der TI arbeitet. Er MUSS ebenfalls hierzu mindestens einmal monatlich einen 
+Abgleich der im Authenticator-Modul eingebundenen Zertifikate mit den in der 
+TSL hinterlegten durchführen. Der Anbieter des Authenticator-Moduls MUSS ein 
+Update veröffentlichen, wenn der Fingerprint der Zertifikate in der TSL nicht 
+mit denen im Authenticator-Modul übereinstimmen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des Authenticator-Moduls MUSS sicherstellen, dass das aktuell verwendete Authenticator-Modul mit den gültigen Zertifikaten der Komponenten-CA der TI arbeitet. Er MUSS ebenfalls hierzu mindestens einmal monatlich einen Abgleich der im Authenticator-Modul eingebundenen Zertifikate mit den in der TSL hinterlegten durchführen. Der Anbieter des Authenticator-Moduls MUSS ein Update veröffentlichen, wenn der Fingerprint der Zertifikate in der TSL nicht mit denen im Authenticator-Modul übereinstimmen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21515" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-117507" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Registrierung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS im Sinne eines Anwendungsfrontends wie in 
+Abschnitt 7.1 aus [gemSpec_IDP_Frontend] beim IdP-Dienst registriert sein. 
+Sofern das Authenticator-Modul nicht als eigenständige Anwendung auftritt, 
+sondern in ein Frontend integriert ist, erbt das Authenticator-Modul die 
+registrierte client_id des Anwendungsfrontends.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS im Sinne eines Anwendungsfrontends wie in Abschnitt 7.1 aus [gemSpec_IDP_Frontend] beim IdP-Dienst registriert sein. Sofern das Authenticator-Modul nicht als eigenständige Anwendung auftritt, sondern in ein Frontend integriert ist, erbt das Authenticator-Modul die registrierte client_id des Anwendungsfrontends.]]></description_html>
+  </requirement>
+  <requirement id="A_21573" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118710" revision="567403">
+    <title><![CDATA[Anbieten der Option zur Registrierung von alternativen Authentisierungsmitteln]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Option zur Registrierung von 
+alternativen Authentisierungsmitteln anbieten.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Das Authenticator-Modul MUSS dem Nutzer die Option zur Registrierung von alternativen Authentisierungsmitteln anbieten.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21574" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118712" revision="567403">
+    <title><![CDATA[Warnhinweise an den Nutzer]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer Warnhinweise geben, dass die Sicherheit 
+des Verfahrens bei der Verwendung von Folgendem beeinträchtigt werden kann:
+ * Geräten, bei denen ein sog. "Rooten" oder ein "Jailbreak" vollzogen wurde.
+ * Installationen, bei denen es sich um Simulationsumgebungen der eigentlichen 
+Zielplattform handelt.
+ * Geräten, die gemeinschaftlich verwendet werden.
+ * Geräten, die einem Mobile-Device-Management unterliegen, z. B. bei 
+Dienstgeräten im Rahmen von COPE ("Corporate Owned, Personally 
+Enabled")-Lösungen.
+ * Installationen innerhalb von Containerlösungen auf Mobilgeräten zur 
+Abschottung von Unternehmensanwendungen im Rahmen von BYOD 
+("Bring-Your-Own-Device")-Lösungen.Der Nutzer MUSS diese Aussage zur Kenntnis 
+nehmen und diesen Umstand über die Benutzeroberfläche bestätigen. Im Fall der 
+Ablehnung durch den Nutzer DARF das Authenticator-Modul die Verwendung von 
+alternativen Authentisierungsmitteln NICHT anbieten. Das Authenticator-Modul 
+MUSS bei einer technischen Detektion von solchen Umständen auf das Anbieten der 
+Verwendung von alternativen Authentisierungsmitteln verzichten. Es MUSS den 
+Nutzer dann über die Gründe des Wegfallens der Option zur Verwendung von 
+alternativen Authentisierungsmitteln aufklären.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Nutzer Warnhinweise geben, dass die Sicherheit des Verfahrens bei der Verwendung von Folgendem beeinträchtigt werden kann: <ul><li>Geräten, bei denen ein sog. &quot;Rooten&quot; oder ein &quot;Jailbreak&quot; vollzogen wurde.</li><li>Installationen, bei denen es sich um Simulationsumgebungen der eigentlichen Zielplattform handelt.</li><li>Geräten, die gemeinschaftlich verwendet werden.</li><li>Geräten, die einem Mobile-Device-Management unterliegen, z. B. bei Dienstgeräten im Rahmen von COPE (&quot;Corporate Owned, Personally Enabled&quot;)-Lösungen.</li><li>Installationen innerhalb von Containerlösungen auf Mobilgeräten zur Abschottung von Unternehmensanwendungen im Rahmen von BYOD (&quot;Bring-Your-Own-Device&quot;)-Lösungen.</li></ul>Der Nutzer MUSS diese Aussage zur Kenntnis nehmen und diesen Umstand über die Benutzeroberfläche bestätigen. Im Fall der Ablehnung durch den Nutzer DARF das Authenticator-Modul die Verwendung von alternativen Authentisierungsmitteln NICHT anbieten. Das Authenticator-Modul MUSS bei einer technischen Detektion von solchen Umständen auf das Anbieten der Verwendung von alternativen Authentisierungsmitteln verzichten. Es MUSS den Nutzer dann über die Gründe des Wegfallens der Option zur Verwendung von alternativen Authentisierungsmitteln aufklären.]]></description_html>
+  </requirement>
+  <requirement id="A_21575" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-16" technicalID="ML-118711" revision="567403">
+    <title><![CDATA[Bezug eines ACCESS_TOKEN zur Einleitung des Registrierungsprozesses]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS zur Einleitung des Registrierungsprozesses ein 
+ACCESS_TOKEN über den IDP-Dienst beziehen. Das ACCESS_TOKEN MUSS erkennen 
+lassen, dass die Authentifizierung direkt auf Basis der eGK oder auf Basis eines
+SSO_TOKEN erfolgte, das auf Basis einer Authentifizierung mit der eGK 
+ausgestellt wurde.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS zur Einleitung des Registrierungsprozesses ein <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> über den IDP-Dienst beziehen. <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">Das ACCESS_TOKEN</span> MUSS erkennen lassen, dass die Authentifizierung direkt auf Basis der eGK oder auf Basis eines <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> erfolgte, das auf Basis einer Authentifizierung mit der eGK ausgestellt wurde.]]></description_html>
+  </requirement>
+  <requirement id="A_21576" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118713" revision="567403">
+    <title><![CDATA[Löschung bestehender alternativer Authentisierungsmittel]]></title>
+    <description><![CDATA[Sofern für das verwendete Gerät und Nutzer bereits ein alternatives 
+Authentisierungsmittel registriert ist, MUSS das Authenticator-Modul den Nutzer 
+zur Deregistrierung der Pairing-Daten auffordern. Der Nutzer MUSS jederzeit die 
+Möglichkeit haben, ein von ihm registriertes alternatives 
+Authentisierungsmittel zu erneuern.]]></description>
+    <description_html><![CDATA[Sofern für das verwendete Gerät und Nutzer bereits ein alternatives Authentisierungsmittel registriert ist, MUSS das Authenticator-Modul den Nutzer zur Deregistrierung der Pairing-Daten auffordern. Der Nutzer MUSS jederzeit die Möglichkeit haben, ein von ihm registriertes alternatives Authentisierungsmittel zu erneuern.]]></description_html>
+  </requirement>
+  <requirement id="A_21577" type="leafRequirement" severity="DARF NICHT" lastUpdate="2021-06-15" technicalID="ML-118714" revision="567403">
+    <title><![CDATA[Verbot der Erhebung und Speicherung von Referenzmerkmalen zur Authentifizierung des Nutzers durch das Authenticator-Modul]]></title>
+    <description><![CDATA[Das Authenticator-Modul DARF KEINE biometrischen Referenzmerkmale erheben, 
+Templates erstellen, speichern, verarbeiten oder diese zum IdP-Dienst 
+übertragen. Das Authenticator-Modul DARF KEINE anderen vom Nutzer gesetzten 
+wissensbasierten Faktoren (z. B. PINs, Muster, Passwörter) erheben, speichern, 
+verarbeiten oder zum IdP-Dienst übertragen und zur Authentifizierung verwenden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul DARF KEINE biometrischen Referenzmerkmale erheben, Templates erstellen, speichern, verarbeiten oder diese zum IdP-Dienst übertragen. Das Authenticator-Modul DARF KEINE anderen vom Nutzer gesetzten wissensbasierten Faktoren (z. B. PINs, Muster, Passwörter) erheben, speichern, verarbeiten oder zum IdP-Dienst übertragen und zur Authentifizierung verwenden.]]></description_html>
+  </requirement>
+  <requirement id="A_21578" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-17" technicalID="ML-118715" revision="567403">
+    <title><![CDATA[Sicherstellung des Vorliegens einer geeigneten Umgebung zur Speicherung von biometrischen Referenzmerkmalen]]></title>
+    <description><![CDATA[Das Authenticator-Modul SOLL prüfen, ob biometrische Referenzmerkmale oder 
+wissensbasierte Faktoren auf dem Gerät in einer gesicherten Umgebung 
+gespeichert werden. Hierzu MÜSSEN über Betriebssystem-APIs bereitgestellte 
+Informationen ausgewertet werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul SOLL prüfen, ob biometrische Referenzmerkmale oder wissensbasierte Faktoren auf dem Gerät in einer gesicherten Umgebung gespeichert werden. Hierzu MÜSSEN über Betriebssystem-APIs bereitgestellte Informationen ausgewertet werden.]]></description_html>
+  </requirement>
+  <requirement id="A_21579" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118716" revision="567403">
+    <title><![CDATA[Sicherstellung des Vorliegens einer geeigneten Umgebung für Schlüsselerzeugung, Anwendung und Speicherung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS sicherstellen, dass die Erzeugung des 
+Schlüsselpaares PrK_SE_AUT/PuK_SE_AUT, dessen Speicherung, Anwendung und die 
+Löschung des PrK_SE_AUT ausschließlich durch eine gesonderte, vertrauenswürdige 
+Ausführungsumgebung erfolgt, die
+ * den Zugriff auf den PrK_SE_AUT als Datenobjekt pauschal allen Anwendungen 
+entzieht (hierbei eingeschlossen sind Geräte-Backups). 
+ * die die Anwendung des Schlüssels auf Daten zum Zweck der Signaturbildung 
+auf das Authenticator-Modul und denjenigen am Gerät authentifizierten Nutzer 
+beschränkt, der den Schlüssel PrK_SE_AUT erzeugt hat.Das Authenticator-Modul 
+MUSS bei Verfügbarkeit einer auf Hardware-Ebene realisierten Absonderung der 
+oben genannten Ausführungsumgebung diese zwingend nutzen. Eine reine auf 
+Software-basierte Implementierung DARF NICHT verwendet werden. Hierzu MÜSSEN 
+über Betriebssystem-APIs bereitgestellte Informationen ausgewertet werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS sicherstellen, dass die Erzeugung des Schlüsselpaares PrK_SE_AUT/PuK_SE_AUT, dessen Speicherung, Anwendung und die Löschung des PrK_SE_AUT ausschließlich durch eine gesonderte, vertrauenswürdige Ausführungsumgebung erfolgt, die <ul><li><span style="font-weight: normal;">den Zugriff auf den PrK_SE_AUT als Datenobjekt pauschal allen Anwendungen entzieht (hierbei eingeschlossen sind Geräte-Backups). </span></li><li><span style="font-weight: normal;">die die Anwendung des Schlüssels auf Daten zum Zweck der Signaturbildung auf das Authenticator-Modul und denjenigen am Gerät authentifizierten Nutzer beschränkt, der den Schlüssel PrK_SE_AUT erzeugt hat.</span></li></ul><span style="font-weight: normal;">Das Authenticator-Modul MUSS bei Verfügbarkeit einer auf Hardware-Ebene realisierten Absonderung der oben genannten Ausführungsumgebung diese zwingend nutzen. Eine reine auf Software-basierte Implementierung DARF NICHT verwendet werden. Hierzu MÜSSEN über Betriebssystem-APIs bereitgestellte Informationen ausgewertet werden.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21580" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118717" revision="567403">
+    <title><![CDATA[Ausschluss von Eigenimplementierungen zur Schlüsselverwaltung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS für die Schlüsselerzeugung des Schlüsselpaars 
+PuK_SE_AUT/PrK_SE_AUT Mechanismen des Geräts verwenden. Es DARF 
+kryptographische Schlüssel NICHT selbst erzeugen, innerhalb des ihm zur 
+Verfügung stehenden Speicherbereichs speichern oder auf Daten anwenden. ]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS für die Schlüsselerzeugung des Schlüsselpaars PuK_SE_AUT/PrK_SE_AUT Mechanismen des Geräts verwenden. Es DARF kryptographische Schlüssel NICHT selbst erzeugen, innerhalb des ihm zur Verfügung stehenden Speicherbereichs speichern oder auf Daten anwenden. ]]></description_html>
+  </requirement>
+  <requirement id="A_21581" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118718" revision="567403">
+    <title><![CDATA[Verfügbarkeit von kryptographischen Algorithmen]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS sicherstellen, dass die in der folgenden Tabelle 
+genannten Algorithmen zur Anwendung des PrK_SE_AUT zur Verfügung stehen:
+
+Tabelle #: Kryptographische Verfahren
+
+SchemaAlgorithmusSchlüssel
+SignaturECDSA auf Basis der Kurve P-256 und SHA-256PrK_SE_AUT]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS sicherstellen, dass die in der folgenden Tabelle genannten Algorithmen zur Anwendung des PrK_SE_AUT zur Verfügung stehen:<br/> <p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;">Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Kryptographische Verfahren</p><table id="polarion_wiki macro name=table;params=width=100%|uid=676" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 76px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Schema</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 390px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Algorithmus</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 103px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Schlüssel</th></tr><tr><td style="text-align: left;vertical-align: top;width: 76px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Signatur</td><td style="text-align: left;vertical-align: top;width: 390px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ECDSA auf Basis der Kurve P-256 und SHA-256</td><td style="text-align: left;vertical-align: top;width: 103px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">PrK_SE_AUT</td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="A_21582" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118719" revision="567403">
+    <title><![CDATA[Lokale Authentisierung des Nutzers vor Anwendung des PrK_SE_AUT zur Authentisierung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Wahl einer lokal verfügbaren 
+Authentisierungsmethode überlassen, die zur autorisierten Anwendung des 
+PrK_SE_AUT verwendet wird, das Authenticator-Modul 
+ * MUSS hierbei auf dem Gerät bereits unter dem Nutzeraccount registrierte 
+Mittel anbieten. Der Nutzer MUSS hierbei eine Auswahl treffen können,
+ * MUSS dem Benutzer hierbei mindestens eine pauschale Gruppierung in 
+biometrische oder wissensbasierte Faktoren anbieten. Zugelassen sind die in der 
+folgenden Tabelle genannten Mittel,
+ * DARF den Nutzer zur Anlage solcher Mittel auffordern.Das 
+Authenticator-Modul MUSS den Nutzer über spezifische Schwächen seiner Wahl 
+aufklären (z. B. solcher in Verbindung mit der Anwendung von Mustern) und ggf. 
+Hinweise zu einer geeigneten Verwendung geben. Das Authenticator-Modul MUSS in 
+den Parametern, die dem Betriebssystem zur Schlüsselerzeugung gesetzt werden, 
+festlegen,
+
+ * auf Basis welcher der vom Nutzer gewählten Mittel die Anwendung des 
+Schlüssels PrK_SE_AUT auf Daten durch den Nutzer autorisiert wird,
+ * dass die Anwendung des Schlüssels PrK_SE_AUT auf den zum Zeitpunkt der 
+Erzeugung verwendeten Nutzeraccount beschränkt ist.
+Tabelle #: Zugelassene, lokale Authentisierungsmittel
+
+ArtFaktorZugelassen:
+biometrischFingerja
+Stimmeja
+Gesichtja
+Irisja
+wissensbasiertPINja
+Passwortja
+Musterja
+PräsenzWischennein
+Kopplung mit einer Uhrnein
+Knopfdrucknein
+Körpersensorennein]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Wahl einer lokal verfügbaren Authentisierungsmethode überlassen, die zur autorisierten Anwendung des PrK_SE_AUT verwendet wird, das Authenticator-Modul  <ul><li>MUSS hierbei auf dem Gerät bereits unter dem Nutzeraccount registrierte Mittel anbieten. Der Nutzer MUSS hierbei eine Auswahl treffen können,</li><li>MUSS dem Benutzer hierbei mindestens eine pauschale Gruppierung in biometrische oder wissensbasierte Faktoren anbieten. Zugelassen sind die in der folgenden Tabelle genannten Mittel,</li><li>DARF den Nutzer zur Anlage solcher Mittel auffordern.</li></ul>Das Authenticator-Modul MUSS den Nutzer über spezifische Schwächen seiner Wahl aufklären (z. B. solcher in Verbindung mit der Anwendung von Mustern) und ggf. Hinweise zu einer geeigneten Verwendung geben. Das Authenticator-Modul MUSS in den Parametern, die dem Betriebssystem zur Schlüsselerzeugung gesetzt werden, festlegen,<br/> <ul><li>auf Basis welcher der vom Nutzer gewählten Mittel die Anwendung des Schlüssels PrK_SE_AUT auf Daten durch den Nutzer autorisiert wird,</li><li>dass die Anwendung des Schlüssels PrK_SE_AUT auf den zum Zeitpunkt der Erzeugung verwendeten Nutzeraccount beschränkt ist.</li></ul><p style="text-align: left;" class="polarion-rte-caption-paragraph" data-keep-next="true">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: Zugelassene, lokale Authentisierungsmittel</p><table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=681"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 141px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Art</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 391px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Faktor</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 188px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Zugelassen:</th></tr><tr><td style="text-align: left;vertical-align: top;width: 141px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;" rowspan="4" colspan="1">biometrisch</td><td style="text-align: left;vertical-align: top;width: 391px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Finger</td><td style="text-align: left;vertical-align: top;width: 188px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja</td></tr><tr><td style="text-align: left;vertical-align: top;width: 391px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Stimme</td><td style="text-align: left;vertical-align: top;width: 188px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja</td></tr><tr><td style="text-align: left;vertical-align: top;width: 391px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Gesicht</td><td style="text-align: left;vertical-align: top;width: 188px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja</td></tr><tr><td style="text-align: left;vertical-align: top;width: 391px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Iris</td><td style="text-align: left;vertical-align: top;width: 188px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja</td></tr><tr><td style="text-align: left;vertical-align: top;width: 141px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;" rowspan="3" colspan="1">wissensbasiert</td><td style="text-align: left;vertical-align: top;width: 391px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">PIN</td><td style="text-align: left;vertical-align: top;width: 188px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja</td></tr><tr><td style="text-align: left;vertical-align: top;width: 391px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Passwort</td><td style="text-align: left;vertical-align: top;width: 188px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja</td></tr><tr><td style="text-align: left;vertical-align: top;width: 391px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Muster</td><td style="text-align: left;vertical-align: top;width: 188px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ja</td></tr><tr><td style="text-align: left;vertical-align: top;width: 141px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;" rowspan="4" colspan="1">Präsenz</td><td style="text-align: left;vertical-align: top;width: 391px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Wischen</td><td style="text-align: left;vertical-align: top;width: 188px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">nein</td></tr><tr><td style="text-align: left;vertical-align: top;width: 391px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Kopplung mit einer Uhr</td><td style="text-align: left;vertical-align: top;width: 188px;height: 19px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">nein</td></tr><tr><td style="text-align: left;vertical-align: top;width: 391px;height: 26px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Knopfdruck</td><td style="text-align: left;vertical-align: top;width: 188px;height: 26px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">nein</td></tr><tr><td style="text-align: left;vertical-align: top;width: 391px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Körpersensoren</td><td style="text-align: left;vertical-align: top;width: 188px;height: 21px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">nein</td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="A_21583" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118720" revision="567403">
+    <title><![CDATA[Qualitative Anforderungen an lokale Authentisierungsmittel]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS sicherherstellen, dass die von Gerät und Hardware 
+realisierten Mechanismen zur biometrischen Authentisierung bzw. 
+Authentifizierung von ausreichender Qualität sind. ]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS sicherherstellen, dass die von Gerät und Hardware realisierten Mechanismen zur biometrischen Authentisierung bzw. Authentifizierung von ausreichender Qualität sind. ]]></description_html>
+  </requirement>
+  <requirement id="A_21584" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118721" revision="567403">
+    <title><![CDATA[Verwendung von Geräte-eigenen Mechanismen zur Authentisierung des Nutzers]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS sich zur Implementierung der 
+Authentifizierungsverfahren zur autorisierten Anwendung des PrK_SE_AUT auf 
+diejenigen Mechanismen beschränken, die durch die Kombination von 
+Betriebssystem und Hardware zur Verfügung gestellt werden. Das 
+Authenticator-Modul DARF hierbei ausschließlich die vom Betriebssystem zur 
+Verfügung gestellte Information über eine erfolgreiche oder nicht-erfolgreiche 
+Authentifizierung und deren Art verarbeiten.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS sich zur Implementierung der Authentifizierungsverfahren zur autorisierten Anwendung des PrK_SE_AUT auf diejenigen Mechanismen beschränken, die durch die Kombination von Betriebssystem und Hardware zur Verfügung gestellt werden. Das Authenticator-Modul DARF hierbei ausschließlich die vom Betriebssystem zur Verfügung gestellte Information über eine erfolgreiche oder nicht-erfolgreiche Authentifizierung und deren Art verarbeiten.]]></description_html>
+  </requirement>
+  <requirement id="A_21585" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118722" revision="567403">
+    <title><![CDATA[Beschränkung der Nutzung des PrK_SE_AUT auf das Authenticator-Modul]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die Parameter für die Erzeugung des Schlüsselpaars 
+PrK_SE_AUT/PuK_SE_AUT so setzen, dass sichergestellt ist, dass der Schlüssel 
+PrK_SE_AUT ausschließlich über das Authenticator-Modul auf Daten anwendbar ist. 
+Eine App-übergreifende Nutzung MUSS ausgeschlossen werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS die Parameter für die Erzeugung des Schlüsselpaars PrK_SE_AUT/PuK_SE_AUT so setzen, dass sichergestellt ist, dass der Schlüssel PrK_SE_AUT ausschließlich über das Authenticator-Modul auf Daten anwendbar ist. Eine App-übergreifende Nutzung MUSS ausgeschlossen werden.]]></description_html>
+  </requirement>
+  <requirement id="A_21586" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118723" revision="567403">
+    <title><![CDATA[Löschung des PrK_SE_AUT als Reaktion auf Systemereignisse]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS bei der Übergabe des Kommandos zur 
+Schlüsselerzeugung an das Betriebssystem in den Parametern festlegen, dass bei 
+folgenden Systemereignissen der private Schlüssel PrK_SE_AUT nicht mehr 
+verwendbar ist:
+ * Löschung des lokalen Geräte-Accounts, innerhalb dessen der PrK_SE_AUT 
+erzeugt wurde. 
+ * Setzen von schwachen Authentifizierungsmethoden oder entfernen von 
+Authentifizierungsmethoden des Geräte-Accounts.
+ * Reset des Gerätes oder Deinstallation von Betriebssystem-Updates.
+ * Re-Enrolment oder Löschung von biometrischen Referenzmerkmalen.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS bei der Übergabe des Kommandos zur Schlüsselerzeugung an das Betriebssystem in den Parametern festlegen, dass bei folgenden Systemereignissen der private Schlüssel PrK_SE_AUT nicht mehr verwendbar ist: <ul><li>Löschung des lokalen Geräte-Accounts, innerhalb dessen der PrK_SE_AUT erzeugt wurde. </li><li>Setzen von schwachen Authentifizierungsmethoden oder entfernen von Authentifizierungsmethoden des Geräte-Accounts.</li><li>Reset des Gerätes oder Deinstallation von Betriebssystem-Updates.</li><li>Re-Enrolment oder Löschung von biometrischen Referenzmerkmalen.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_21587" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118725" revision="567403">
+    <title><![CDATA[Beschränkung des PrK_SE_AUT auf Signaturbildung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die Parameter für die Erzeugung des Schlüsselpaars 
+PrK_SE_AUT/PuK_SE_AUT so setzen, dass sichergestellt ist, dass der Schlüssel 
+PrK_SE_AUT ausschließlich zum Zweck der Signaturbildung auf Daten angewendet 
+werden kann. ]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS die Parameter für die Erzeugung des Schlüsselpaars PrK_SE_AUT/PuK_SE_AUT so setzen, dass sichergestellt ist, dass der Schlüssel PrK_SE_AUT ausschließlich zum Zweck der Signaturbildung auf Daten angewendet werden kann. ]]></description_html>
+  </requirement>
+  <requirement id="A_21588" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118724" revision="567403">
+    <title><![CDATA[Erzeugung eines Key-Identifiers für das Schlüsselpaar PrK_SE_AUT/PuK_SE_AUT gegenüber dem IdP-Dienst]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS einen Key-Identifier zur Identifikation des 
+Schlüsselpaars PrK_SE_AUT/PuK_SE_AUT gegenüber dem IdP-Dienst erzeugen. Der 
+Key-Identifier MUSS so erzeugt werden, dass die Erzeugung ein und desselben 
+Identifiers über verschiedene Geräte eines Nutzers mit hoher Wahrscheinlichkeit 
+ausgeschlossen ist. Der Key-Identifier MUSS zufällig erzeugt werden. Er DARF 
+NICHT aus Nutzer- oder Gerätedaten abgeleitet werden. Der zum IdP-Dienst 
+übertragene Key-Identifier MUSS eine Länge von 32 Byte besitzen. Der Wert KANN 
+zur Referenzierung des PrK_SE_AUT im lokalen Schlüsselspeicher verwendet 
+werden. Der Key-Identifier selbst oder ein Datenobjekt, aus dem er abgeleitet 
+werden kann, MUSS auf dem Endgerät gespeichert werden. Der Key-Identifier 
+selbst oder das Datenobjekt MUSS gegen Löschung und anwendungsübergreifende 
+Verwendung geschützt sein.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS einen Key-Identifier zur Identifikation des Schlüsselpaars PrK_SE_AUT/PuK_SE_AUT gegenüber dem IdP-Dienst erzeugen. Der Key-Identifier MUSS so erzeugt werden, dass die Erzeugung ein und desselben Identifiers über verschiedene Geräte eines Nutzers mit hoher Wahrscheinlichkeit ausgeschlossen ist. Der Key-Identifier MUSS zufällig erzeugt werden. Er DARF NICHT aus Nutzer- oder Gerätedaten abgeleitet werden. Der zum IdP-Dienst übertragene Key-Identifier MUSS eine Länge von 32 Byte besitzen. Der Wert KANN zur Referenzierung des PrK_SE_AUT im lokalen Schlüsselspeicher verwendet werden. Der Key-Identifier selbst oder ein Datenobjekt, aus dem er abgeleitet werden kann, MUSS auf dem Endgerät gespeichert werden. Der Key-Identifier selbst oder das Datenobjekt MUSS gegen Löschung und anwendungsübergreifende Verwendung geschützt sein.]]></description_html>
+  </requirement>
+  <requirement id="A_21589" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118727" revision="567403">
+    <title><![CDATA[Erzeugung des Schlüsselpaars PrK_SE_AUT/PuK_SE_AUT]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS ein Schlüsselpaar PrK_SE_AUT/PuK_SE_AUT erzeugen. 
+Das Schlüsselpaar MUSS für die Anwendung des Algorithmus ECDSA auf Basis der 
+Kurve P-256 geeignet sein. Das Authenticator-Modul MUSS hierbei über die 
+Betriebssystem-APIs die in Abschnitt [gemSpec_IDP_Frontend#Parameter für die 
+Schlüsselerzeugung und Auswahl eines Schlüsselspeichers]
+ beschriebenen Parameter zur Durchsetzung der dort genannten Anforderungen und 
+die Schlüssel innerhalb des dort identifizierten Schlüsselspeichers setzen.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Das Authenticator-Modul MUSS ein Schlüsselpaar PrK_SE_AUT/PuK_SE_AUT erzeugen. Das Schlüsselpaar MUSS für die Anwendung des Algorithmus ECDSA auf Basis der Kurve P-256 geeignet sein. Das Authenticator-Modul MUSS hierbei über die Betriebssystem-APIs die in Abschnitt [gemSpec_IDP_Frontend#Parameter für die Schlüsselerzeugung und Auswahl eines Schlüsselspeichers]<br/>
+  beschriebenen Parameter zur Durchsetzung der dort genannten Anforderungen und die Schlüssel innerhalb des dort identifizierten Schlüsselspeichers setzen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21590" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118726" revision="567403">
+    <title><![CDATA[Beschränkung der Nutzung des PrK_SE_AUT auf Authentisierung gegenüber dem IdP-Dienst]]></title>
+    <description><![CDATA[Das Authenticator-Modul DARF den Schlüssel PrK_SE_AUT ausschließlich zum Zweck 
+der Authentifizierung gegenüber dem IdP-Dienst verwenden. Es DARF dem Nutzer 
+keine andere Option anbieten oder den Schlüssel anderweitig verwenden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul DARF den Schlüssel PrK_SE_AUT ausschließlich zum Zweck der Authentifizierung gegenüber dem IdP-Dienst verwenden. Es DARF dem Nutzer keine andere Option anbieten oder den Schlüssel anderweitig verwenden.]]></description_html>
+  </requirement>
+  <requirement id="A_21591" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118734" revision="567403">
+    <title><![CDATA[Erhebung von Geräteinformationen]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die folgenden Informationen über das verwendete 
+Gerät über Betriebssystem-APIs erheben:
+ * Name des Herstellers,
+ * Name des Produkts,
+ * Name des Modells,
+ * Name des Betriebssystems und
+ * Version des Betriebssystems.Hierbei MUSS der Datentyp "Device_Type" 
+gebildet werden. Die hier erhobenen Geräteinformationen MÜSSEN zusammen mit 
+einem vom Nutzer für das Gerät vergebenen Namen zur Datenstruktur 
+"Device_Informationen" kombiniert werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS die folgenden Informationen über das verwendete Gerät über Betriebssystem-APIs erheben: <ul><li>Name des Herstellers,</li><li>Name des Produkts,</li><li>Name des Modells,</li><li>Name des Betriebssystems und</li><li>Version des Betriebssystems.</li></ul>Hierbei MUSS der Datentyp &quot;Device_Type&quot; gebildet werden. Die hier erhobenen Geräteinformationen MÜSSEN zusammen mit einem vom Nutzer für das Gerät vergebenen Namen zur Datenstruktur &quot;Device_Informationen&quot; kombiniert werden.]]></description_html>
+  </requirement>
+  <requirement id="A_21592" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118735" revision="567403">
+    <title><![CDATA[Signatur der Pairing-Daten]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS den Nutzer auffordern, die entstandenen 
+Pairing-Daten mit dem Schlüssel PrK_CH_AUT der eGK zu signieren. Die Werte der 
+im Datenmodell "Pairing_Data" genannten Claims MÜSSEN wie folgt belegt werden:
+
+
+ Tabelle #: Pairing-Daten 
+
+Claim Wert 
+issuer IssuerDN aus dem Authentifizierungszertifikat C.CH.AUT 
+not_after Validity/Not_after-Angabe aus dem Authentifizierungszertifikat 
+C.CH.AUT 
+serialnumber Seriennummer des Authentifizierungszertifikats C.CH.AUT 
+auth_cert_subject_public_key_info SubjectPublicKeyInfo-Struktur des 
+Authentifizierungszertifikats C.CH.AUT 
+key_identifier Der erzeugte Identifikator für das Schlüsselpaar 
+PuK_SE_AUT/PrK_SE_AUT 
+product Der Produktname des verwendeten Geräts 
+se_subject_public_key_info SubjectPublicKeyInfo-Struktur, bestehend aus dem 
+auf dem Endgerät erzeugten öffentlichen Schlüssel und den zu verwendenden 
+Algorithmen 
+ Die Kodierung der einzelnen Felder erfolgt wie in Anhang C, gem dargelegt. 
+Der im Claim "product" enthaltene Wert MUSS identisch mit dem gleichnamigen 
+Claim des produzierten Werts in der Device_Type-Datenstruktur sein.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Das Authenticator-Modul MUSS den Nutzer auffordern, die entstandenen Pairing-Daten mit dem Schlüssel PrK_CH_AUT der eGK zu signieren. Die Werte der im Datenmodell &quot;Pairing_Data&quot; genannten Claims MÜSSEN wie folgt belegt werden:<br/>
+  <br/>
+</span> 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Pairing-Daten
+</p>
+<table id="polarion_wiki macro name=table;params=width=100%|uid=710" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 192.727px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Claim</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 387.273px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Wert</th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 192.727px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">issuer</td>
+      <td style="text-align: left;vertical-align: top;width: 387.273px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">IssuerDN aus dem Authentifizierungszertifikat C.CH.AUT</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 192.727px;height: 37.2727px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">not_after</td>
+      <td style="text-align: left;vertical-align: top;width: 387.273px;height: 37.2727px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Validity/Not_after-Angabe aus dem Authentifizierungszertifikat C.CH.AUT</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 192.727px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">serialnumber</td>
+      <td style="text-align: left;vertical-align: top;width: 387.273px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Seriennummer des Authentifizierungszertifikats C.CH.AUT</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 192.727px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">auth_cert_subject_public_key_info</td>
+      <td style="text-align: left;vertical-align: top;width: 387.273px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">SubjectPublicKeyInfo-Struktur des Authentifizierungszertifikats C.CH.AUT</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 192.727px;height: 37.2727px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">key_identifier</td>
+      <td style="text-align: left;vertical-align: top;width: 387.273px;height: 37.2727px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Der erzeugte Identifikator für das Schlüsselpaar PuK_SE_AUT/PrK_SE_AUT</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 192.727px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">product</td>
+      <td style="text-align: left;vertical-align: top;width: 387.273px;height: 18.1818px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Der Produktname des verwendeten Geräts</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 192.727px;height: 37.2727px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">se_subject_public_key_info</td>
+      <td style="text-align: left;vertical-align: top;width: 387.273px;height: 37.2727px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">SubjectPublicKeyInfo-Struktur, bestehend aus dem auf dem Endgerät erzeugten öffentlichen Schlüssel und den zu verwendenden Algorithmen</td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+Die Kodierung der einzelnen Felder erfolgt wie in Anhang C, gem dargelegt. Der im Claim &quot;product&quot; enthaltene Wert MUSS identisch mit dem gleichnamigen Claim des produzierten Werts in der Device_Type-Datenstruktur sein.]]></description_html>
+  </requirement>
+  <requirement id="A_21593" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118731" revision="567403">
+    <title><![CDATA[Produktion der Registrierungsdaten]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die signierten Pairing-Daten, die erhobenen 
+Geräteinformationen und das Authentifizierungszertifikat C.CH.AUT zu einer 
+Instanz der Datenstruktur "Registration_Data" gemäß [gemSpec_IDP_Dienst], 
+Abschnitt C, zusammenführen. ]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS die signierten Pairing-Daten, die erhobenen Geräteinformationen und das Authentifizierungszertifikat C.CH.AUT zu einer Instanz der Datenstruktur &quot;Registration_Data&quot; gemäß [gemSpec_IDP_Dienst], Abschnitt C, zusammenführen. ]]></description_html>
+  </requirement>
+  <requirement id="A_21416" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-25" technicalID="ML-116900" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Einleiten der Registrierung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS Registrierungsdaten in Form eines 
+"Registration_Data"-Objekts produzieren und diese mit dem PuK_IDP_ENC aus dem 
+Discovery Document verschlüsseln.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS Registrierungsdaten in Form eines &quot;Registration_Data&quot;-Objekts produzieren und diese mit dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PuK_IDP_ENC</span> aus dem Discovery Document verschlüsseln.]]></description_html>
+  </requirement>
+  <requirement id="A_21414" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-116898" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Umschlüsselung des "ACCESS_TOKEN" für Pairing-Endpunkt]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS das zur Autorisierung und Authentifizierung des 
+Nutzers verwendeteACCESS_TOKEN mit dem öffentlichen Schlüssel PuK_IDP_ENC aus 
+dem Discovery Document verschlüsseln.
+ Dazu muss es vorher unter Verwendung des "Token-Key", der dem Token-Endpunkt 
+übermittelt wurde, entschlüsselt werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS das zur Autorisierung und Authentifizierung des Nutzers verwendete <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN </span>mit dem öffentlichen Schlüssel <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PuK_IDP_ENC</span> aus dem Discovery Document verschlüsseln.<br/>
+Dazu muss es vorher unter Verwendung des &quot;Token-Key&quot;, der dem Token-Endpunkt übermittelt wurde, entschlüsselt werden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21417" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-25" technicalID="ML-116901" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Übertragung der Registrierungsdaten]]></title>
+    <description><![CDATA[Das Authenticator-Modul überträgt die verschlüsselten Registrierungsdaten 
+zusammen mit dem bezogenenACCESS_TOKEN an den Pairing-Endpunkt.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul überträgt die verschlüsselten Registrierungsdaten zusammen mit dem bezogenen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> an den Pairing-Endpunkt.]]></description_html>
+  </requirement>
+  <requirement id="A_21595" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118728" revision="567403">
+    <title><![CDATA[Lokale Speicherung des C.CH.AUT]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS das Authentifizierungszertifikat C.CH.AUT nach 
+erfolgreicher Registrierung für die Verwendung in weiteren 
+Authentifizierungsvorgängen lokal auf dem Endgerät speichern. Die Speicherung 
+MUSS so erfolgen, dass eine missbräuchliche Verwendung des Zertifikats durch 
+andere Anwendungen in ausreichendem Maß verhindert wird. Das 
+Authenticator-Modul DARF im Fall einer nicht erfolgreichen Registrierung das 
+Authentifizierungszertifikat C.CH.AUT NICHT speichern.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS das Authentifizierungszertifikat C.CH.AUT nach erfolgreicher Registrierung für die Verwendung in weiteren Authentifizierungsvorgängen lokal auf dem Endgerät speichern. Die Speicherung MUSS so erfolgen, dass eine missbräuchliche Verwendung des Zertifikats durch andere Anwendungen in ausreichendem Maß verhindert wird. Das Authenticator-Modul DARF im Fall einer nicht erfolgreichen Registrierung das Authentifizierungszertifikat C.CH.AUT NICHT speichern.]]></description_html>
+  </requirement>
+  <requirement id="A_21596" type="leafRequirement" severity="KANN" lastUpdate="2021-06-15" technicalID="ML-118729" revision="567403">
+    <title><![CDATA[Speicherung des vom Nutzer vergebenen Namen des Geräts]]></title>
+    <description><![CDATA[Das Authenticator-Modul KANN den vom Nutzer vergebenen Namen des Geräts lokal 
+speichern.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul KANN den vom Nutzer vergebenen Namen des Geräts lokal speichern.]]></description_html>
+  </requirement>
+  <requirement id="A_21597" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118732" revision="567403">
+    <title><![CDATA[Information des Nutzers]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer eine eindeutige Rückmeldung über 
+entweder die erfolgreiche Anlage eines Pairing oder die Ablehnung der Anlage 
+eines Pairing geben. Beruht die Ablehnung auf einem als nicht geeignet 
+erkannten Gerätetyps, MUSS dem Nutzer dieser Umstand dargelegt werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Nutzer eine eindeutige Rückmeldung über entweder die erfolgreiche Anlage eines Pairing oder die Ablehnung der Anlage eines Pairing geben. Beruht die Ablehnung auf einem als nicht geeignet erkannten Gerätetyps, MUSS dem Nutzer dieser Umstand dargelegt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_21598" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118730" revision="567403">
+    <title><![CDATA[Löschung von lokalen Daten bei Fehlschlag]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS bei fehlschlagender Registrierung alle lokal 
+erzeugten Daten (einschließlich der erzeugten kryptographischen Schlüssel) über 
+die Betriebssystem-APIs des Geräts löschen.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS bei fehlschlagender Registrierung alle lokal erzeugten Daten (einschließlich der erzeugten kryptographischen Schlüssel) über die Betriebssystem-APIs des Geräts löschen.]]></description_html>
+  </requirement>
+  <requirement id="A_21599" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118737" revision="567403">
+    <title><![CDATA[Anbieten der Option zur Verwendung von alternativen Authentisierungsmitteln]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Option zur Verwendung von 
+alternativen Authentisierungsmitteln anbieten, sofern solche zur Verfügung 
+stehen und am Pairing-Endpunkt registriert wurden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Option zur Verwendung von alternativen Authentisierungsmitteln anbieten, sofern solche zur Verfügung stehen und am Pairing-Endpunkt registriert wurden.]]></description_html>
+  </requirement>
+  <requirement id="A_21430" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-116914" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Authorization-Request bei Verwendung von alternativen Authentisierungsmitteln]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Benutzer die Authentisierung auf Basis der 
+registrierten Informationen anbieten. Die Initiierung MUSS in gleicher Weise 
+wie der in Abschnitt 6.2.1 [gemSpec_IDP_Frontend] dargestellte 
+Authorization-Request erfolgen.
+ Der Authorization-Request MUSS vom Authorization-Endpunkt in der gleichen 
+Weise behandelt werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Benutzer die Authentisierung auf Basis der registrierten Informationen anbieten. Die Initiierung MUSS in gleicher Weise wie der in Abschnitt 6.2.1 [gemSpec_IDP_Frontend] dargestellte Authorization-Request erfolgen. <br/> Der Authorization-Request MUSS vom Authorization-Endpunkt in der gleichen Weise behandelt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_21600" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118736" revision="567403">
+    <title><![CDATA[Einholen von aktuellen Geräteinformationen]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS aktuelle Geräteinformationen über die 
+Betriebssystem-APIs einholen und dabei eine Device-Information-Struktur wie in 
+[gemSpec_IDP_Dienst} Abschnitt C beschrieben konstruieren. ]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS aktuelle Geräteinformationen über die Betriebssystem-APIs einholen und dabei eine Device-Information-Struktur wie in [gemSpec_IDP_Dienst} Abschnitt C beschrieben konstruieren. ]]></description_html>
+  </requirement>
+  <requirement id="A_21431" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-116915" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Übermittelung von Authentifizierungsdaten zur Verwendung von alternativen Authentisierungsmitteln]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die produzierte 
+Signed_Authentication_Data-Struktur mit demPuK_IDP_ENC aus dem Discovery 
+Document verschlüsseln und an den Authorization-Endpunkt als Antwort auf die 
+vom Authorization-Endpunkt empfangene Challenge übermitteln. Der Wert des 
+Header-Claimsexp der hierbei produzierten 
+"Encrypted_Authentication_Data"-Struktur MUSS hierbei identisch mit dem 
+gleichnamigen Claim aus den Body-Claims des empfangenen Challenge-Token belegt 
+werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS die produzierte Signed_Authentication_Data-Struktur mit dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PuK_IDP_ENC</span> aus dem Discovery Document verschlüsseln und an den Authorization-Endpunkt als Antwort auf die vom Authorization-Endpunkt empfangene Challenge übermitteln. Der Wert des Header-Claims <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">exp</span> der hierbei produzierten &quot;Encrypted_Authentication_Data&quot;-Struktur MUSS hierbei identisch mit dem gleichnamigen Claim aus den Body-Claims des empfangenen Challenge-Token belegt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_21601" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118740" revision="567403">
+    <title><![CDATA[Reaktion auf Fehlermeldungen des Authorization-Endpunkts]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die Fehlermeldungen des Authorization-Endpunkts 
+bei Fehlschlag der Authentifizierung dem Nutzer anzeigen. ]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Das Authenticator-Modul MUSS die Fehlermeldungen des Authorization-Endpunkts bei Fehlschlag der Authentifizierung dem Nutzer anzeigen. </span>]]></description_html>
+  </requirement>
+  <requirement id="A_21602" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118738" revision="567403">
+    <title><![CDATA[Ermöglichung der Inspektion von lokal gespeicherten Daten]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer bei erfolgter Registrierung seines 
+Geräts diesen Umstand anzeigen und darstellen welche Daten zur Verwendung von 
+alternativen Authentisierungsmittel auf seinem Gerät gespeichert sind.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Nutzer bei erfolgter Registrierung seines Geräts diesen Umstand anzeigen und darstellen welche Daten zur Verwendung von alternativen Authentisierungsmittel auf seinem Gerät gespeichert sind.]]></description_html>
+  </requirement>
+  <requirement id="A_21603" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-25" technicalID="ML-118739" revision="567403">
+    <title><![CDATA[Ermöglichung der Löschung von alternativen Authentisierungsmitteln und lokal gespeicherten Daten]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Möglichkeit geben, lokal 
+gespeicherte Daten dauerhaft zu löschen und über Betriebssystem-APIs des Geräts 
+eine Löschung des PrK_SE_AUT auszulösen. Die Löschung MUSS eventuell vorhandene
+SSO_TOKEN mit einbeziehen.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Das Authenticator-Modul MUSS dem Nutzer die Möglichkeit geben, lokal gespeicherte Daten dauerhaft zu löschen und über Betriebssystem-APIs des Geräts eine Löschung des PrK_SE_AUT auszulösen. Die Löschung MUSS eventuell vorhandene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> mit einbeziehen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21604" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118746" revision="567403">
+    <title><![CDATA[Hinweise an den Nutzer bei der lokalen Löschung von alternativen Authentisierungsmitteln und lokal gespeicherten Daten]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS den Nutzer bei der lokalen Löschung seiner 
+Registrierungsdaten darauf hinweisen, dass eine zukünftige Anmeldung hiermit 
+ausgeschlossen ist, aber die Daten weiterhin am IdP-Dienst hinterlegt sind. Es 
+MUSS den Benutzer darauf hinweisen, dass ein Entfernen über die am 
+Pairing-Endpunkt realisierte Deregistrierungsfunktion erfolgen kann. ]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Das Authenticator-Modul MUSS den Nutzer bei der lokalen Löschung seiner Registrierungsdaten darauf hinweisen, dass eine zukünftige Anmeldung hiermit ausgeschlossen ist, aber die Daten weiterhin am IdP-Dienst hinterlegt sind. Es MUSS den Benutzer darauf hinweisen, dass ein Entfernen über die am Pairing-Endpunkt realisierte Deregistrierungsfunktion erfolgen kann. </span>]]></description_html>
+  </requirement>
+  <requirement id="A_21605" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118743" revision="567403">
+    <title><![CDATA[Realisierung der Inspektions- und Deregistrierungsfunktion am Authenticator-Modul]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Möglichkeit zur Inspektion der am 
+Pairing-Endpunkt gespeicherten Pairing-Daten und zur Deaktivierung der 
+Pairing-Daten geben.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Möglichkeit zur Inspektion der am Pairing-Endpunkt gespeicherten Pairing-Daten und zur Deaktivierung der Pairing-Daten geben.]]></description_html>
+  </requirement>
+  <requirement id="A_21442" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-116926" revision="567403">
+    <title><![CDATA[Inspektions- und Deregistrierungsfunktion des IDP-Dienstes: Authentisierung des Nutzers]]></title>
+    <description><![CDATA[Die Authentisierung des Nutzers und die Autorisierung des Authenticator-Moduls 
+am Pairing-Endpunkt zur Nutzung der Inspektions- und Deregistrierungsfunktion 
+MUSS über den IDP-Dienst auf Basis eines von ihm erstelltenACCESS_TOKEN 
+erfolgen. Der Scope der Anfrage ist „openid pairing“.]]></description>
+    <description_html><![CDATA[Die Authentisierung des Nutzers und die Autorisierung des Authenticator-Moduls am Pairing-Endpunkt zur Nutzung der Inspektions- und Deregistrierungsfunktion MUSS über den IDP-Dienst auf Basis eines von ihm erstellten <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> erfolgen. Der Scope der Anfrage ist „openid pairing“.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21443" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-116927" revision="567403">
+    <title><![CDATA[Inspektions- und Deregistrierungsfunktion des IdP-Dienstes: Verschlüsselung des ACCESS_TOKEN]]></title>
+    <description><![CDATA[Das zur Authentifizierung des Nutzers und Autorisierung des 
+Authenticator-Moduls verwendete ACCESS_TOKEN MUSS vom Authenticator-Modul mit 
+dem öffentlichen Schlüssel PuK_IDP_Enc aus dem Discovery Document verschlüsselt 
+werden.]]></description>
+    <description_html><![CDATA[Das zur Authentifizierung des Nutzers und Autorisierung des Authenticator-Moduls verwendete ACCESS_TOKEN MUSS vom Authenticator-Modul mit dem öffentlichen Schlüssel PuK_IDP_Enc aus dem Discovery Document verschlüsselt werden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21444" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-116928" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Übertragung des "ACCESS_TOKEN"]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS das bezogene ACCESS_TOKEN an den Pairing-Endpunkt 
+übertragen. Die hierbei verwendeten Request-Parameter MÜSSEN um einen Indikator 
+erweitert werden, die die Nutzung der Inspektionsfunktion anzeigen.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS das bezogene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> an den Pairing-Endpunkt übertragen. Die hierbei verwendeten Request-Parameter MÜSSEN um einen Indikator erweitert werden, die die Nutzung der Inspektionsfunktion anzeigen.]]></description_html>
+  </requirement>
+  <requirement id="A_21608" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118742" revision="567403">
+    <title><![CDATA[Option zur Deaktivierung einzelner Pairing-Daten]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Möglichkeit zur Deaktivierung jedes 
+der angezeigten Pairing-Daten geben.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Nutzer die Möglichkeit zur Deaktivierung jedes der angezeigten Pairing-Daten geben.]]></description_html>
+  </requirement>
+  <requirement id="A_21446" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-116930" revision="567403">
+    <title><![CDATA[Authenticator-Modul: Übermittelung eines Kommandos zur Deregistrierung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS den Key-Identifier des zur Löschung angefragten 
+Pairings zusammen mit einemACCESS_TOKEN an den Pairing-Endpunkt übertragen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Das Authenticator-Modul MUSS den Key-Identifier des zur Löschung angefragten Pairings zusammen mit einem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> an den Pairing-Endpunkt übertragen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21607" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118741" revision="567403">
+    <title><![CDATA[Abbildung der Pairing-Daten auf der Nutzeroberfläche des Authenticator-Moduls]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS die in der Antwort des Pairing-Endpunkts 
+enthaltenen Pairing-Daten auf der Nutzeroberfläche abbilden. Die Anzeige MUSS 
+pro Pairing-Eintrag die folgenden Daten enthalten:
+ * die im Pairing-Eintrag enthaltenen Werte zum registrierten Produktnamen des 
+Geräts, Seriennummer, Aussteller und Gültigkeitsende des zur Authentifizierung 
+verwendeten Authentifizierungszertifikats C.CH.AUT und den Key-Identifier,
+ * den vom Nutzer vergebenen Namen des Geräts,
+ * den Zeitpunkt der Anlage des Pairing.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS die in der Antwort des Pairing-Endpunkts enthaltenen Pairing-Daten auf der Nutzeroberfläche abbilden. Die Anzeige MUSS pro Pairing-Eintrag die folgenden Daten enthalten: <ul><li>die im Pairing-Eintrag enthaltenen Werte zum registrierten Produktnamen des Geräts, Seriennummer, Aussteller und Gültigkeitsende des zur Authentifizierung verwendeten Authentifizierungszertifikats C.CH.AUT und den Key-Identifier,</li><li>den vom Nutzer vergebenen Namen des Geräts,</li><li>den Zeitpunkt der Anlage des Pairing.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_21617" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-15" technicalID="ML-118809" revision="567403">
+    <title><![CDATA[Anzeige des Ergebnisses der Deregistrierung]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS dem Benutzer das Ergebnis der Deregistrierung des 
+von ihm gewählten Pairing auf der Benutzeroberfläche anzeigen. Es MUSS anzeigen,
+ * ob das Pairing deaktiviert wurde bzw. in welcher Frist dies geschieht.
+ * ob technische Fehler eine Deaktivierung verhindern.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS dem Benutzer das Ergebnis der Deregistrierung des von ihm gewählten Pairing auf der Benutzeroberfläche anzeigen. Es MUSS anzeigen, <ul><li>ob das Pairing deaktiviert wurde bzw. in welcher Frist dies geschieht.</li><li>ob technische Fehler eine Deaktivierung verhindern.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_22424" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-126119" revision="567403">
+    <title><![CDATA[Einverständniserklärung zur Datenverarbeitung durch Dritte]]></title>
+    <description><![CDATA[Im Falle der Nutzung von alternativen Authentisierungsanwendungen MUSS der 
+Authenticator des IDP-Dienstes sicherstellen, dass die Einwilligung des Nutzers 
+zur Datenverarbeitung durch den Anbieter des IDP-Dienstes eingeholt wird und 
+nur nach dessen Zustimmung der Anwendungsfall ermöglicht werden kann.]]></description>
+    <description_html><![CDATA[Im Falle der Nutzung von alternativen Authentisierungsanwendungen MUSS der Authenticator des IDP-Dienstes sicherstellen, dass die Einwilligung des Nutzers zur Datenverarbeitung durch den Anbieter des IDP-Dienstes eingeholt wird und nur nach dessen Zustimmung der Anwendungsfall ermöglicht werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_22296" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-125019" revision="567403">
+    <title><![CDATA[Einlesen und Prüfen der Liste der alternativen Authentisierungsanwendungen]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS die Liste der 
+bekannten alternativen Authentisierungsanwendungen unter der im Discovery 
+Document des IDP-Dienstes unter "kk_app_list_uri" gefundenen Adresse beziehen 
+und ihre Integrität prüfen.
+Die Signatur des unter "kk_app_list_uri" heruntergeladenen JWS muss 
+mathematisch geprüft und auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der 
+Rollen-OID"oid_idpd" zurückgeführt werden, welches von einer dem 
+Authenticator-Modul bekannten CA der Komponenten-PKI ausgestellt wurde.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS die Liste der bekannten alternativen Authentisierungsanwendungen unter der im Discovery Document des IDP-Dienstes unter &quot;kk_app_list_uri&quot; gefundenen Adresse beziehen und ihre Integrität prüfen.<br/>
+ <span title="Added">Die Signatur des unter &quot;<span style="font-size: 10pt;line-height: 1.5;">kk_app_list_uri&quot; heruntergeladenen JWS muss </span>mathematisch geprüft und auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID <span style="font-style: italic;">&quot;</span><span style="font-style: normal;">oid_idpd</span><span style="font-style: italic;">&quot;</span> zurückgeführt werden, welches von einer dem Authenticator-Modul bekannten CA der Komponenten-PKI ausgestellt wurde.<span id="polarion-comment:859"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22294" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-125017" revision="567403">
+    <title><![CDATA[Ermöglichen der Nutzung von sektoralen Identity Providern zur Authentisierung]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS dem Nutzer die Option zur 
+Verwendung von sektoralen Identity Providern zur Authentisierung ermöglichen. 
+Hierzu MÜSSEN ihm die Namen "kk_app_name" der verfügbaren alternativen 
+Authentisierungsanwendungen, aus der zuvor heruntergeladenen Liste, in 
+nachvollziehbarer Form auf der Benutzeroberfläche dargestellt und ihm eine 
+Auswahl angeboten werden.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS dem Nutzer die Option zur Verwendung von sektoralen Identity Providern zur Authentisierung ermöglichen. Hierzu MÜSSEN ihm die Namen &quot;kk_app_name&quot; der verfügbaren alternativen Authentisierungsanwendungen, aus der zuvor heruntergeladenen Liste, in nachvollziehbarer Form auf der Benutzeroberfläche dargestellt und ihm eine Auswahl angeboten werden.]]></description_html>
+  </requirement>
+  <requirement id="A_22295" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-125016" revision="567403">
+    <title><![CDATA[Anfrage zur Authentisierung bei einem sektoralen Identity Provider beim IDP-Dienst]]></title>
+    <description><![CDATA[Bei Auswahl eines sektoralen Identity Provider durch den Nutzer MUSS das 
+Authenticator-Modul des IDP-Dienstes einen Authorization-Request an den 
+Third-Party Authorization Endpoint des IDP-Dienstes senden. Der Authorization 
+Request entspricht der in [gemSpec_IDP_Dienst#7.1] genannten Form, aber MUSS um 
+einen weiteren Parameter "kk_app_id" ergänzt werden, dessen Wert dem 
+Identifikator (kk_app_id) des Authenticator-Moduls eines sektoralen 
+IDP-Dienstes entspricht, welcher zum vom Benutzer ausgewählten Namen 
+(kk_app_name) gehört.]]></description>
+    <description_html><![CDATA[Bei Auswahl eines sektoralen Identity Provider durch den Nutzer MUSS das Authenticator-Modul des IDP-Dienstes einen Authorization-Request an den Third-Party Authorization Endpo<span style="font-size: 10pt;line-height: 1.5;">int des IDP-Dienstes senden. Der Authorization Request entspricht der in [gemSpec_IDP_Dienst#7.1] genannten Form, aber MUSS um einen weiteren Parameter &quot;kk_app_id&quot; ergänzt werden, dessen Wert dem Identifikator (kk_app_id) des Authenticator-Moduls eines sektoralen IDP-Dienstes entspricht, welcher zum vom Benutzer ausgewählten Namen (kk_app_name) gehört.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22299" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-125045" revision="567403">
+    <title><![CDATA[Weiterleitung des Authorization Request an einen sektoralen Identity Provider]]></title>
+    <description><![CDATA[Im Falle der Nutzung von alternativen Authentisierungsanwendungen MUSS das 
+Authenticator-Modul des IDP-Dienstes die Antwort des IDP-Dienstes als 
+Authorization Request an die in der target_url des redirect enthaltene URI 
+weiterleiten und sich dabei den verwendeten "state" Parameter merken, um später 
+erhaltene Antworten des sektoralen Identity Provider zuzuordnen.]]></description>
+    <description_html><![CDATA[Im Falle der Nutzung von alternativen Authentisierungsanwendungen MUSS das Authenticator-Modul des IDP-Dienstes die Antwort des IDP-Dienstes als Authorization Request an die in der target_url des redirect enthaltene URI weiterleiten und sich dabei den verwendeten &quot;state&quot; Parameter merken, um später erhaltene Antworten des sektoralen Identity Provider zuzuordnen.]]></description_html>
+  </requirement>
+  <requirement id="A_22313" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-125060" revision="567403">
+    <title><![CDATA[Absicherung des Aufrufs zu Authenticator-Modulen von sektoralen Identity Providern]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS für Aufrufe zu 
+Authenticator-Modulen sektoraler Identity Provider die Verifikationsmechanismen 
+des Betriebssystems verwenden. Die folgenden Parameter müssen gesetzt sein: 
+Android: Keine weiteren.
+iOS: .universalLinksOnly:false]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS für Aufrufe zu Authenticator-Modulen sektoraler Identity Provider die Verifikationsmechanismen des Betriebssystems verwenden. Die folgenden Parameter müssen gesetzt sein: <br/>Android: Keine weiteren.<br/>iOS: .universalLinksOnly:false]]></description_html>
+  </requirement>
+  <requirement id="A_22300" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-125046" revision="567403">
+    <title><![CDATA[Registrierung zur App-zu-App-Kommunikation]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS sich um App-zu-App-Aufrufe zu 
+verarbeiten im Betriebssystem unter der URI
+https://das-e-rezept-fuer-deutschland.de 
+<https://das-e-rezept-fuer-deutschland.de> registrieren.]]></description>
+    <description_html><![CDATA[<span title="Added">Das Authenticator-Modul des IDP-Dienstes MUSS sich um App-zu-App-Aufrufe zu verarbeiten im Betriebssystem unter der URI <a class="descriptionLink" target="_top" href="https://das-e-rezept-fuer-deutschland.de">https://das-e-rezept-fuer-deutschland.de</a> registrieren.<span id="polarion-comment:864"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22301" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-125047" revision="567403">
+    <title><![CDATA[Annahme des Authorization Code über App2App-Kommunikation]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS den Authorization Code 
+"AUTHORIZATION_CODE_IDP",  den state-Parameter sowie den Parameter 
+"kk_app_redirect_uri", welche mittels App2App-Kommunikation 
+vom Authenticator-Modul des sektoralen Identity Provider übergeben werden, 
+akzeptieren, wenn der state mit dem Wert einer kürzlich vom IDP-Dienst 
+erhaltenen Anfrage übereinstimmt.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS den Authorization Code &quot;AUTHORIZATION_CODE_IDP&quot;,  den state-Parameter sowie den Parameter &quot;kk_app_redirect_uri&quot;, welche mittels App2App-Kommunikation vom Authenticator-Modul des sektoralen Identity Provider übergeben werden, akzeptieren, wenn der state mit dem Wert einer kürzlich vom IDP-Dienst erhaltenen Anfrage übereinstimmt.]]></description_html>
+  </requirement>
+  <requirement id="A_22302" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-125048" revision="567403">
+    <title><![CDATA[Weiterleitung des Authorization Code an den IDP-Dienst]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS den empfangenen Authorization 
+Code "AUTHORIZATION_CODE_IDP",  den state-Parameter sowie den Parameter 
+"kk_app_redirect_uri" als HTTP-POST an den im Discovery Document referenzierten 
+Third-Party Authorization Endpoint des IDP-Dienstes weiterleiten.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS den empfangenen Authorization Code &quot;AUTHORIZATION_CODE_IDP&quot;,  den state-Parameter sowie den Parameter &quot;kk_app_redirect_uri&quot; als HTTP-POST an den im Discovery Document referenzierten Third-Party Authorization Endpoint des IDP-Dienstes weiterleiten.]]></description_html>
+  </requirement>
+  <requirement id="A_22349" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-28" technicalID="ML-125555" revision="567403">
+    <title><![CDATA[Funktionsfähigkeit des Authenticator-Modul des IDP-Dienstes]]></title>
+    <description><![CDATA[Der Anbieter des Authenticator-Modul des IDP-Dienstes MUSS sicherstellen, dass 
+die durch das Betriebssystem notwendigen Voraussetzungen für die 
+Funktionsfähigkeit des Authenticator-Moduls des IDP (z.B. Manifest, 
+Entitlement, Dateien im .well-known Verzeichnis der verwendeten Domain aus 
+A_22300) erfüllt sind.]]></description>
+    <description_html><![CDATA[Der Anbieter des Authenticator-Modul des IDP-Dienstes MUSS sicherstellen, dass die durch das Betriebssystem notwendigen Voraussetzungen für die Funktionsfähigkeit des Authenticator-Moduls des IDP (z.B. Manifest, Entitlement, Dateien im .well-known Verzeichnis der verwendeten Domain aus A_22300) erfüllt sind.]]></description_html>
+  </requirement>
+  <requirement id="A_22291" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-125015" revision="567403">
+    <title><![CDATA[Registrierungsdaten des Authenticator-Moduls auf dem Endgerät (Android)]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS zur korrekten Funktion 
+der App2App-Kommunikation in seiner Android-Distribution in seinem Manifest 
+mindestens den folgenden Intent aufnehmen:
+ObjektAusgestaltungErgänzung
+AndroidManifest.xml/Intent<intent-filter 
+android:autoVerify="true">               
+ <action android:name="android.intent.action.VIEW" />               
+ <category android:name="android.intent.category.DEFAULT"/>                
+<category android:name="android.intent.category.BROWSABLE"/>                
+<data android:scheme="https" android:host="
+https://das-e-rezept-fuer-deutschland.de 
+<https://das-e-rezept-fuer-deutschland.de>"/>
+ </intent-filter>Das Flag "autoVerfiy" MUSS auf "true" gesetzt werden. 
+ Der Parameter <URL> MUSS dem beim zentralen IDP-Dienst registrierten Wert 
+entsprechen. ]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS zur korrekten Funktion der App2App-Kommunikation in seiner Android-Distribution in seinem Manifest mindestens den folgenden Intent aufnehmen: <table style="width: 100%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 157.9px;height: 19.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Objekt</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 415.962px;height: 19.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ausgestaltung</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 76.9375px;height: 19.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ergänzung</th></tr><tr><td style="text-align: left;vertical-align: top;width: 157.9px;height: 307.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">AndroidManifest.xml/Intent</td><td style="text-align: left;vertical-align: top;width: 415.962px;height: 307.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 8pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">&lt;intent-filter android:autoVerify=&quot;true&quot;&gt;               <br/> &lt;action android:name=&quot;android.intent.action.VIEW&quot; /&gt;               <br/> &lt;category android:name=&quot;android.intent.category.DEFAULT&quot;/&gt;                &lt;category android:name=&quot;android.intent.category.BROWSABLE&quot;/&gt;                &lt;data android:scheme=&quot;https&quot; android:host=&quot;<span style="font-weight: bold;"><a class="descriptionLink" target="_top" href="https://das-e-rezept-fuer-deutschland.de">https://das-e-rezept-fuer-deutschland.de</a></span>&quot;/&gt;<br/> &lt;/intent-filter&gt;</span></td><td style="text-align: left;vertical-align: top;width: 76.9375px;height: 307.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Das Flag &quot;autoVerfiy&quot; MUSS auf &quot;true&quot; gesetzt werden. <br/> Der Parameter &lt;URL&gt; MUSS dem beim zentralen IDP-Dienst registrierten Wert entsprechen. <br/></td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="A_22292" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-125013" revision="567403">
+    <title><![CDATA[Registrierungsdaten des Authenticator-Moduls  auf dem Endgerät (iOS)]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS zur korrekten Funktion 
+der App2App-Kommunikation in seiner iOS-Distribution mindestens das folgende 
+Entitlement aufnehmen: 
+
+
+ObjektInhalt
+*.entitlement<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
+     <key>com.apple.developer.associated-domains</key>
+     <array>
+         <string>applinks:erezept.dev.gematik.solutions</string>
+     </array>
+     <key>com.apple.developer.default-data-protection</key>
+     <string>NSFileProtectionCompleteUnlessOpen</string>
+     <key>com.apple.developer.nfc.readersession.formats</key>
+     <array>
+         <string>TAG</string>
+     </array>
+ </dict>
+ </plist>]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS zur korrekten Funktion der App2App-Kommunikation in seiner iOS-Distribution mindestens das folgende Entitlement aufnehmen: <br/> <br/> <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 163.65px;height: 19.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Objekt</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 557.612px;height: 19.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Inhalt</th></tr><tr><td style="text-align: left;vertical-align: top;width: 163.65px;height: 200px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">*.entitlement</td><td style="text-align: left;vertical-align: top;width: 557.612px;height: 200px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 8pt;font-family: 'Courier New', Courier, monospace, HanWangKanTan;line-height: 1.5;">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<br/> &lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;<br/> &lt;plist version=&quot;1.0&quot;&gt;<br/> &lt;dict&gt;<br/>     &lt;key&gt;com.apple.developer.associated-domains&lt;/key&gt;<br/>     &lt;array&gt;<br/>         &lt;string&gt;applinks:erezept.dev.gematik.solutions&lt;/string&gt;<br/>     &lt;/array&gt;<br/>     &lt;key&gt;com.apple.developer.default-data-protection&lt;/key&gt;<br/>     &lt;string&gt;NSFileProtectionCompleteUnlessOpen&lt;/string&gt;<br/>     &lt;key&gt;com.apple.developer.nfc.readersession.formats&lt;/key&gt;<br/>     &lt;array&gt;<br/>         &lt;string&gt;TAG&lt;/string&gt;<br/>     &lt;/array&gt;<br/> &lt;/dict&gt;<br/> &lt;/plist&gt;</span></td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="A_22293" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-125014" revision="567403">
+    <title><![CDATA[Serverseitige Daten des Authenticator-Moduls]]></title>
+    <description><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS sicherstellen, dass unter 
+https://das-e-rezept-fuer-deutschland.de 
+<https://das-e-rezept-fuer-deutschland.de> die Dateien folgenden Inhalts im 
+Verzeichnis ./well-known hinterlegt sind:
+
+PlattformDateinameInhalt
+Google/AndroidassetLink.json[{  "relation": 
+["delegate_permission/common.handle_all_urls"],  "target": {    "namespace": 
+"android_app",    "package_name": "<Beispiel:com.example.erpfasttrack>",    
+"sha256_cert_fingerprints":    [...]  }}]
+Apple/iOSapple-app-site-association{  "applinks": {      "details": [
+           {             "appIDs": [ "A9FL89PFFL.de.gematik.erp4ios.eRezept" ],
+             "paths": ["*"]           }       ]   },
+....}]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des IDP-Dienstes MUSS sicherstellen, dass unter <span style="font-weight: bold;"><a href="https://das-e-rezept-fuer-deutschland.de" target="_top" class="descriptionLink">https://das-e-rezept-fuer-deutschland.de</a></span> die Dateien folgenden Inhalts im Verzeichnis ./well-known hinterlegt sind:<br/> <table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 93.1625px;height: 19.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Plattform</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 78.4px;height: 19.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Dateiname</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 452.763px;height: 19.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Inhalt</th></tr><tr><td style="text-align: left;vertical-align: top;width: 93.1625px;height: 136.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Google/Android</td><td style="text-align: left;vertical-align: top;width: 78.4px;height: 136.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">assetLink.json</td><td style="text-align: left;vertical-align: top;width: 452.763px;height: 136.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><pre><span style="font-size: 8pt;line-height: 1.5;">[{</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">  &quot;relation&quot;: [&quot;delegate_permission/common.handle_all_urls&quot;],</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">  &quot;target&quot;: {</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">    &quot;namespace&quot;: &quot;android_app&quot;,</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">    &quot;package_name&quot;: &quot;&lt;Beispiel:com.example.erpfasttrack&gt;&quot;,</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">    &quot;sha256_cert_fingerprints&quot;:</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">    [...]</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">  }</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">}]</span></pre></td></tr><tr><td style="text-align: left;vertical-align: top;width: 93.1625px;height: 167.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Apple/iOS</td><td style="text-align: left;vertical-align: top;width: 78.4px;height: 167.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">apple-app-site-association</td><td style="text-align: left;vertical-align: top;width: 452.763px;height: 167.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><pre><span style="font-size: 8pt;line-height: 1.5;">{</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">  &quot;applinks&quot;: {</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">      &quot;details&quot;: [</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">           {</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">             &quot;appIDs&quot;: [ &quot;A9FL89PFFL.de.gematik.erp4ios.eRezept&quot; ],</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">             &quot;paths&quot;: [&quot;*&quot;]</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">           }</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">       ]</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">   },<br/>....</span></pre><pre><span style="font-size: 8pt;line-height: 1.5;">}</span></pre></td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="A_20603" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-111153" revision="567403">
+    <title><![CDATA[Organisatorische Registrierung des Anwendungsfrontends]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS sich über einen organisatorischen Prozess am 
+IdP-Dienst registrieren und die vom IdP-Dienst dabei vergebene client_id im 
+Anwendungsfrontend speichern. Diese MUSS vom Anwendungsfrontend bei Nutzung des 
+IdP-Dienstes übertragen werden.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Das Anwendungsfrontend MUSS sich über einen organisatorischen Prozess am IdP-Dienst registrieren und die vom IdP-Dienst dabei vergebene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">client_id</span> im Anwendungsfrontend speichern. Diese MUSS vom Anwendungsfrontend bei Nutzung des IdP-Dienstes übertragen werden.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20740" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-112009" revision="567403">
+    <title><![CDATA[Bekanntgabe der Redirect-URI des Anwendungsfrontend]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS beim IdP-Dienst bei der Registrierung eine 
+redirect_uri hinterlegen. ]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Das Anwendungsfrontend MUSS beim IdP-Dienst bei der Registrierung eine <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">redirect_uri</span> hinterlegen. </span>]]></description_html>
+  </requirement>
+  <requirement id="A_20741" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-17" technicalID="ML-112010" revision="567403">
+    <title><![CDATA[Speicherung des Downloadpunktes des Discovery Document im Anwendungsfrontend]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS den vom IdP-Dienst bei der Registrierung 
+bekanntgegebenen Downloadpunkt des Discovery Document als konfigurierbaren 
+Parameter speichern.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS den vom <span style="font-size: 10pt;line-height: 1.5;">IdP-Dienst bei der Registrierung bekanntgegebenen Downloadpunkt des Discovery Document als konfigurierbaren Parameter speichern</span>.]]></description_html>
+  </requirement>
+  <requirement id="A_20512" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-17" technicalID="ML-110768" revision="567403">
+    <title><![CDATA[Regelmäßiges Einlesen des Discovery Document]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS das Discovery Document [RFC8414 
+<https://tools.ietf.org/html/rfc8414>] löschen, wenn dieses 24 Stunden alt oder 
+älter ist. Das Anwendungsfrontend MUSS das Discovery Document neu 
+herunterladen, einlesen und auswerten und danach die darin aufgeführten URI zu 
+den benötigten öffentlichen Schlüsseln (PUKs) und Diensten verwenden, wenn kein 
+aktuelles Discovery Document vorliegt.]]></description>
+    <description_html><![CDATA[Das <span id="polarion-comment:315"></span>Anwendungsfrontend <span style="font-weight: normal;">MUSS</span> das Discovery Document [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc8414">RFC8414</a>] löschen, wenn dieses 24 Stunden alt oder älter ist. Das Anwendungsfrontend MUSS das Discovery Document neu herunterladen, einlesen und auswerten und danach die darin aufgeführten URI zu den benötigten öffentlichen Schlüsseln (PUKs) und Diensten verwenden, wenn kein aktuelles Discovery Document vorliegt.]]></description_html>
+  </requirement>
+  <requirement id="A_20623" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-111179" revision="567403">
+    <title><![CDATA[Anwendungsfrontend: Prüfung der Signatur des Discovery Document]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS die Signatur des Discovery Document mathematisch 
+prüfen und auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID
+oid_idpd zurückführen können, welches rückführbar ist auf ein CA-Zertifikat aus 
+einer authentischen, integren und zeitlich gültigen TSL.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS die Signatur des Discovery Document mathematisch prüfen und auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">oid_idpd</span> zurückführen können, welches rückführbar ist auf ein CA-Zertifikat aus einer authentischen, integren und zeitlich gültigen TSL.]]></description_html>
+  </requirement>
+  <requirement id="A_20309" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-110417" revision="567403">
+    <title><![CDATA[Bildung von "CODE_VERIFIER" und "CODE_CHALLENGE"]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS zur Laufzeit einen CODE_VERIFIER (Zufallswert) 
+gemäß [RFC7636 # section-4.1 <https://tools.ietf.org/html/rfc7636#section-4.1>] 
+bilden. DerCODE_VERIFIER MUSS eine Entropie von mindestens 43 und maximal 128 
+Zeichen enthalten. Das Anwendungsfrontend MUSS über denCODE_VERIFIER einen 
+HASH-Wert, die sogenannteCODE_CHALLENGE, gemäß [RFC7636 # section-4.2 
+<https://tools.ietf.org/html/rfc7636#section-4.2>] bilden.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS zur Laufzeit einen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CODE_VERIFIER</span> (Zufallswert) gemäß [<a href="https://tools.ietf.org/html/rfc7636#section-4.1" target="_top" class="descriptionLink">RFC7636 # section-4.1</a>] bilden. Der <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CODE_VERIFIER</span> MUSS eine Entropie von mindestens 43 und maximal 128 Zeichen enthalten. Das Anwendungsfrontend MUSS über den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CODE_VERIFIER</span> einen HASH-Wert, die sogenannte <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CODE_CHALLENGE,</span> gemäß [<a href="https://tools.ietf.org/html/rfc7636#section-4.2" target="_top" class="descriptionLink">RFC7636 # section-4.2</a>] bilden.]]></description_html>
+  </requirement>
+  <requirement id="A_20483" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-110728" revision="567403">
+    <title><![CDATA[Formulierung und Inhalte der Anfrage zum "AUTHORIZATION_CODE" für einen "ACCESS_TOKEN"]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS über das Authenticator-Modul den Antrag zum 
+AUTHORIZATION_CODE für einen ACCESS_TOKEN via Private-Use URI Scheme 
+Redirection  [RFC8252 # section-7.1 
+<https://tools.ietf.org/html/rfc8252#section-7.1>] beim Authorization-Endpunkt 
+in Form eines HTTP/1.1 GET-Request stellen und dabei die folgenden Attribute 
+anführen:
+
+ * "response_type" 
+ * "scope" 
+ * "client_id" 
+ * "redirect_uri" 
+ * "code_challenge" (Hashwert des "code_verifier") [RFC7636 # section-4.2 
+<https://tools.ietf.org/html/rfc7636#section-4.2>]
+
+ * "code_challenge_method" HASH-Algorithmus (S256) [RFC7636 # section-4.3 
+<https://tools.ietf.org/html/rfc7636#section-4.3>]]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS über das Authenticator-Modul den Antrag zum<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"> AUTHORIZATION_CODE</span> für einen <span style="font-size: 11pt;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;line-height: 1.5;">ACCESS_TOKEN</span> via Private-Use URI Scheme Redirection  [<a href="https://tools.ietf.org/html/rfc8252#section-7.1" target="_top" class="descriptionLink">RFC8252 # section-7.1</a>] beim Authorization-Endpunkt in Form eines HTTP/1.1 GET-Request stellen und dabei die folgenden Attribute anführen: <br/>
+ 
+<div style="margin-left: 2em;">
+  <ul>
+    <li>&quot;<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">response_type</span>&quot;</li>
+    <li>&quot;<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">scope</span>&quot;</li>
+    <li>&quot;<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">client_id</span>&quot;</li>
+    <li>&quot;<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">redirect_uri</span>&quot;</li>
+    <li><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">&quot;code_challenge&quot;</span> (Hashwert des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">&quot;code_verifier&quot;</span>) [<a href="https://tools.ietf.org/html/rfc7636#section-4.2" target="_top" class="descriptionLink">RFC7636 # section-4.2</a>]<br/>
+    </li>
+    <li><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">&quot;code_challenge_method&quot;</span> HASH-Algorithmus (S256) [<a href="https://tools.ietf.org/html/rfc7636#section-4.3" target="_top" class="descriptionLink">RFC7636 # section-4.3</a>]</li>
+  </ul>
+</div>]]></description_html>
+  </requirement>
+  <requirement id="A_20085" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-17" technicalID="ML-108618" revision="567403">
+    <title><![CDATA[Fehlermeldungen des Anwendungsfrontends]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS leicht verständliche Fehlermeldungen ausgeben. Eine 
+exakte Form der Fehlermeldung ist nicht vorgegeben [RFC6749 # section-1.7 
+<https://tools.ietf.org/html/rfc6749#section-1.7>].]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS leicht verständliche Fehlermeldungen ausgeben. Eine exakte Form der Fehlermeldung ist nicht vorgegeben [<a class="descriptionLink" target="_top" href="https://tools.ietf.org/html/rfc6749#section-1.7">RFC6749 # section-1.7</a>].]]></description_html>
+  </requirement>
+  <requirement id="A_21323" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-116343" revision="567403">
+    <title><![CDATA[Erzeugung des "Token-Key"]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS vor dem Abrufen von ID_TOKEN und ACCESS_TOKEN einen 
+zufälligen 256 Bit AES-Schlüssel ("Token-Key“) erzeugen. ]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS vor dem Abrufen von <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> einen zufälligen 256 Bit AES-Schlüssel (&quot;Token-Key“) erzeugen. ]]></description_html>
+  </requirement>
+  <requirement id="A_21324" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-13" technicalID="ML-116344" revision="567403">
+    <title><![CDATA[Erzeugen des "KEY_VERIFIER"]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS dem KEY_VERIFIER bilden, indem "Token-Key" und 
+CODE_VERIFIER in einem JSON-Objekt kodiert werden.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">KEY_VERIFIER</span> bilden, indem &quot;Token-Key&quot; und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CODE_VERIFIER</span> in einem JSON-Objekt kodiert werden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20529-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-116347" revision="567403">
+    <title><![CDATA[Senden von "AUTHORIZATION_CODE" und "KEY_VERIFIER" an den Token-Endpunkt]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS den KEY_VERIFIER mittels JWE (JSON Web Encryption 
+(JWE) [RFC7516 # section-3 <https://tools.ietf.org/html/rfc7516#section-3>]) und
+PuK_IDP_ENC verschlüsseln und zusammen mit dem AUTHORIZATION_CODE TLS-gesichert 
+als HTTP/1.1 POST Request an den Token-Endpunkt senden.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">KEY_VERIFIER</span> mittels JWE (<span style="font-size: 10pt;line-height: 1.5;">JSON Web Encryption (JWE) [<a href="https://tools.ietf.org/html/rfc7516#section-3" target="_top">RFC7516 # section-3</a>]) </span>und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PuK_IDP_ENC</span> verschlüsseln und zusammen mit dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> TLS-gesichert als HTTP/1.1 POST Request an den Token-Endpunkt senden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_19937" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-17" technicalID="ML-107999" revision="567403">
+    <title><![CDATA[Fehlermeldungen des Token-Endpunktes Anzeige]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS in der Lage sein, die vom Token-Endpunkt 
+übertragenen Fehlermeldungen anzuzeigen.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend <span style="font-weight: normal;">MUSS</span> in der Lage sein, die vom Token-Endpunkt übertragenen Fehlermeldungen anzuzeigen.]]></description_html>
+  </requirement>
+  <requirement id="A_20605" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-18" technicalID="ML-111155" revision="567403">
+    <title><![CDATA[Fehlermeldung des Token-Endpunktes Formatierung]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS den Inhalt der Fehlermeldungen sowie mögliche 
+Hinweise zur Fehlervermeidung vom Token-Endpunkt übernehmen.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS den Inhalt der Fehlermeldungen sowie mögliche Hinweise zur Fehlervermeidung vom Token-Endpunkt übernehmen.]]></description_html>
+  </requirement>
+  <requirement id="A_20079" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-18" technicalID="ML-108609" revision="567403">
+    <title><![CDATA[Ausfall der Fehlermeldung des Token-Endpunktes]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS im Falle eines Timeout selbständig eine 
+Fehlermeldung generieren, wenn eine Fehlermeldung durch den Token-Endpunkt 
+ausbleibt.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS im Falle eines Timeout selbständig eine Fehlermeldung generieren, wenn eine Fehlermeldung durch den Token-Endpunkt ausbleibt.]]></description_html>
+  </requirement>
+  <requirement id="A_19938-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-15" technicalID="ML-116348" revision="567403">
+    <title><![CDATA[Annahme des ID_TOKEN]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS das vom Token-Endpunkt ausgegebene ID_TOKEN als 
+HTTP/1.1-Statusmeldung 200 verarbeiten und mittels "Token-Key" entschlüsseln.
+ Das Anwendungsfrontend MUSS das ID_TOKEN ablehnen, wenn dieses außerhalb der 
+mit dem Token-Endpunkt etablierten TLS-Verbindung übertragen wird oder nicht 
+mit dem vorher übermittelten "Token-Key" verschlüsselt war. ]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS das vom Token-Endpunkt ausgegebene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> als HTTP/1.1-Statusmeldung 200 verarbeiten und mittels &quot;Token-Key&quot; entschlüsseln. <br/>
+Das Anwendungsfrontend MUSS das <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> ablehnen, wenn dieses außerhalb der mit dem Token-Endpunkt etablierten TLS-Verbindung übertragen wird oder nicht mit dem vorher übermittelten &quot;Token-Key&quot; verschlüsselt war. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20625" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-111180" revision="567403">
+    <title><![CDATA[Anwendungsfrontend: Prüfung der Signatur des ID_TOKEN]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS die Signatur des ID_TOKEN mathematisch prüfen und 
+auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID oid_idpd 
+zurückführen können, welches rückführbar ist auf ein CA-Zertifikat aus einer 
+authentischen, integren und zeitlich gültigen TSL.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS die Signatur des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN </span>mathematisch prüfen und auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID oid_idpd zurückführen können, welches rückführbar ist auf ein CA-Zertifikat aus einer authentischen, integren und zeitlich gültigen TSL.]]></description_html>
+  </requirement>
+  <requirement id="A_20283-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-116349" revision="567403">
+    <title><![CDATA[Annahme des "ACCESS_TOKEN"]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS das vom Token-Endpunkt ausgegebene ACCESS_TOKEN in 
+der HTTP/1.1-Statusmeldung 200 verarbeiten und mittels "Token-Key" 
+entschlüsseln. 
+ Das Anwendungsfrontend MUSS das ACCESS_TOKEN ablehnen, wenn dieses außerhalb 
+der mit dem Token-Endpunkt etablierten TLS-Verbindung übertragen wird oder 
+nicht mit dem vorher übermittelten "Token-Key" verschlüsselt war. ]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS das vom Token-Endpunkt ausgegebene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN </span>in der HTTP/1.1-Statusmeldung 200 verarbeiten und mittels &quot;Token-Key&quot; entschlüsseln. <br/>
+Das Anwendungsfrontend MUSS das <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN </span>ablehnen, wenn dieses außerhalb der mit dem Token-Endpunkt etablierten TLS-Verbindung übertragen wird oder nicht mit dem vorher übermittelten &quot;Token-Key&quot; verschlüsselt war. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20602" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-111152" revision="567403">
+    <title><![CDATA[Einreichen des "ACCESS_TOKEN" beim Fachdienst]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS das ACCESS_TOKEN im Rahmen des entsprechenden 
+fachlichen Aufrufs beim Fachdienst einreichen, um Zugang zu den angeforderten 
+Daten zu erhalten.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS das <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> im Rahmen des entsprechenden fachlichen Aufrufs beim Fachdienst einreichen, um Zugang zu den angeforderten Daten zu erhalten.]]></description_html>
+  </requirement>
+  <requirement id="A_21325" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-116354" revision="567403">
+    <title><![CDATA[Verschlüsselte Übertragung zum Fachdienst]]></title>
+    <description><![CDATA[Das Anwendungsfrontend MUSS den entschlüsselten ACCESS_TOKEN, zusätzlich zur 
+Übertragung mittels TLS, auf Anwendungsebene verschlüsselt zum Fachdienst 
+übertragen. ]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend MUSS den entschlüsselten <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span>, zusätzlich zur Übertragung mittels TLS, auf Anwendungsebene verschlüsselt zum Fachdienst übertragen. ]]></description_html>
+  </requirement>
+  <requirement id="A_21326" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-116355" revision="567403">
+    <title><![CDATA[Löschung von "ACCESS_TOKEN"]]></title>
+    <description><![CDATA[Das Anwendungsfrontend  MUSS ACCESS_TOKEN beim Beenden sowie nach Ablauf ihrer 
+Gültigkeit sicher löschen.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend  MUSS <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> beim Beenden sowie nach Ablauf ihrer Gültigkeit sicher löschen.]]></description_html>
+  </requirement>
+  <requirement id="A_21327" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-116356" revision="567403">
+    <title><![CDATA[Löschung von "ID_TOKEN"]]></title>
+    <description><![CDATA[Das Anwendungsfrontend  MUSS ID_TOKEN beim Beenden sowie nach Ablauf ihrer 
+Gültigkeit sicher löschen.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend  MUSS <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> beim Beenden sowie nach Ablauf ihrer Gültigkeit sicher löschen.]]></description_html>
+  </requirement>
+  <requirement id="A_21328" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-18" technicalID="ML-116357" revision="567403">
+    <title><![CDATA[Sichere Speicherung der Token]]></title>
+    <description><![CDATA[Das Anwendungsfrontend  MUSS empfangene ID_TOKEN und ACCESS_TOKEN gegen 
+unberechtigten Zugriff schützen.]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend  MUSS empfangene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> gegen unberechtigten Zugriff schützen.]]></description_html>
+  </requirement>
+  <requirement id="A_23082" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133240" revision="567403">
+    <title><![CDATA[Abruf und Anzeige der IDP Liste]]></title>
+    <description><![CDATA[Anwendungsfrontends MÜSSEN, sofern nicht anderweitig ein sektoraler Identity 
+Provider zuvor gemerkt oder festgelegt wurde, die IDP-Liste vom 
+Authorization-Server herunterladen, auf Integrität prüfen und (bei 
+erfolgreicher Prüfung) dem Benutzer zur Auswahl anzeigen.]]></description>
+    <description_html><![CDATA[Anwendungsfrontends MÜSSEN, sofern nicht anderweitig ein sektoraler Identity Provider zuvor gemerkt oder festgelegt wurde, die IDP-Liste vom Authorization-Server herunterladen, auf Integrität prüfen und (bei erfolgreicher Prüfung) dem Benutzer zur Auswahl anzeigen.]]></description_html>
+  </requirement>
+  <requirement id="A_23083" type="leafRequirement" severity="SOLL" lastUpdate="2023-02-06" technicalID="ML-133238" revision="567403">
+    <title><![CDATA[Auslösung der Benutzerauthentifizierung]]></title>
+    <description><![CDATA[Anwendungsfrontends SOLL zur Auslösung der Benutzerauthentifizierung einen 
+OAuth Authorization Request an den zugehörigen Authorization-Server schicken.]]></description>
+    <description_html><![CDATA[<span style="color: #330033;">Anwendungsfrontends SOLL zur Auslösung der Benutzerauthentifizierung einen OAuth Authorization Request an den zugehörigen Authorization-Server schicken.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23084" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133239" revision="567403">
+    <title><![CDATA[Aufruf des Authenticator-Moduls]]></title>
+    <description><![CDATA[Anwendungsfrontends MÜSSEN bei Erhalt einer URI-PAR nach 
+https://www.rfc-editor.org/rfc/rfc9126.html#name-successful-response 
+<https://www.rfc-editor.org/rfc/rfc9126.html#name-successful-response> das 
+Authenticator-Modul mittels der übergebenen Redirect-URL aufrufen und hierbei 
+ggf. die Link-Technologie des jeweiligen Betriebssystems verwenden.]]></description>
+    <description_html><![CDATA[<span style="color: #330033;">Anwendungsfrontends MÜSSEN bei Erhalt einer URI-PAR nach <a class="descriptionLink" target="_top" href="https://www.rfc-editor.org/rfc/rfc9126.html#name-successful-response">https://www.rfc-editor.org/rfc/rfc9126.html#name-successful-response</a> das Authenticator-Modul mittels der übergebenen Redirect-URL aufrufen und hierbei ggf. die Link-Technologie des jeweiligen Betriebssystems verwenden.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23085" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133241" revision="567403">
+    <title><![CDATA[Registrierung des Anwendungsfrontends]]></title>
+    <description><![CDATA[Anwendungsfrontends MÜSSEN sich mittels Universal-Link bzw. App-Link unter der 
+URL des Authorization-Servers im Betriebssystems registrieren.]]></description>
+    <description_html><![CDATA[<span style="color: #330033;">Anwendungsfrontends MÜSSEN sich mittels Universal-Link bzw. App-Link unter der URL des Authorization-Servers im Betriebssystems registrieren.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23086" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133242" revision="567403">
+    <title><![CDATA[Aufruf des Authorization-Servers]]></title>
+    <description><![CDATA[Anwendungsfrontends MÜSSEN den AUTHORIZATION_CODE vom Authenticator-Modul 
+annehmen und an den Authorization-Server weiterleiten.]]></description>
+    <description_html><![CDATA[<span style="color: #330033;">Anwendungsfrontends MÜSSEN den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> vom Authenticator-Modul annehmen und an den Authorization-Server weiterleiten.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23081" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133230" revision="567403">
+    <title><![CDATA[Automatisches Löschen von Token bei Inaktivität]]></title>
+    <description><![CDATA[Anwendungsfrontends und Web-Backend MÜSSEN bei Inaktivität des Nutzers von 10 
+Minuten automatisch zwischengespeicherteACCESS_TOKEN und REFRESH_TOKEN löschen.]]></description>
+    <description_html><![CDATA[Anwendungsfrontends und Web-Backend MÜSSEN bei Inaktivität des Nutzers von 10 Minuten automatisch zwischengespeicherte <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">REFRESH_TOKEN</span> löschen.]]></description_html>
+  </requirement>
+  <requirement id="A_23097" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133288" revision="567403">
+    <title><![CDATA[Logout im Anwendungsfrontend]]></title>
+    <description><![CDATA[Anwendungsfrontends MÜSSEN den Nutzern die Möglichkeit zum Abmelden bieten, und 
+in diesem Fall zwischengespeicherteACESS_TOKEN und REFRESH_TOKEN verwerfen.]]></description>
+    <description_html><![CDATA[Anwendungsfrontends MÜSSEN den Nutzern die Möglichkeit zum Abmelden bieten, und in diesem Fall zwischengespeicherte <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACESS_TOKEN</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">REFRESH_TOKEN</span> verwerfen.]]></description_html>
+  </requirement>
+  <requirement id="AF_10119" type="useCase" severity="not defined" lastUpdate="2023-02-06" technicalID="ML-133243" revision="567403">
+    <title><![CDATA[Abruf des "ACCESS_TOKEN"]]></title>
+    <description><![CDATA[Das Anwendungsfrontend SOLL folgenden Anwendungsfall umsetzen.
+
+ Tabelle # : Anwendungsfall "Abruf des ACCESS_TOKEN" 
+
+Attribute Bemerkung 
+Beschreibung Ein Anwender möchte einen in der TI registrierte Fachdienst 
+nutzen. Der Fachdienst muss sicherstellen, dass der Anwender zur Nutzung des 
+Dienstes berechtigt ist. Hierzu authentisiert sich der Anwender gegenüber einem 
+sektoralen Identity Provider, bei dem er registriert ist. Nach Abschluss der 
+Authentisierung des Nutzers gegenüber dem sektoralen Identity Provider, erhält 
+das Anwendungsfrontend oder Web-Backend vom Authorization-Server den
+AUTHORIZATION_CODE mit, dem er das ACCESS_TOKEN abrufen kann.
+
+Akteur Anwender der Fachanwendung 
+Auslöser Ein Anwender möchte eine Gesundheitsanwendung der TI (Fachdienst) 
+nutzen. Als Voraussetzung muss er sich bei einem sektoralen Identity Provider 
+authentifizieren, bei welchem er registriert ist. Nach Abschluss der 
+Authentifizierung erhält der Authorization-Server vom sektoralen Identity 
+Provider einenID_TOKEN (entsprechend ).
+
+Komponenten 
+ * Anwendungsfrontend oder Web-Backend 
+ * Authorization-Server eines Fachdienstes 
+ * Fachdienst API
+
+Vorbedingung  Der Authorization-Server hat entsprechend dem  den ID_TOKEN 
+erhalten.
+
+Ablauf 
+ * Der Authorization-Server sendet einen AUTHORIZATION_CODE an das 
+Anwendungsfrontend oder Web-Backend ([gemSpec_IDP_Sek] Tabelle:"Parameter des 
+Redirect-Request"). 
+ * Das Anwendungsfrontend oder Web-Backend ruft mit diesem AUTHORIZATION_CODE 
+den Token-Endpunkt des Authorization-Servers auf. 
+ * Der Authorization-Server sendet einen ACCESS_TOKEN und ggf. ein 
+REFRESH_TOKEN zurück. 
+ * Das Anwendungsfrontend oder Web-Backend ruft mittels des ACCESS_TOKEN die 
+Fachdienst-API auf.
+
+Ergebnis Das Anwendungsfrontend oder Web-Backend hat den ACCESS_TOKEN zum 
+Zugriff auf die Fachdienst API. 
+Akzeptanzkriterien , ,   
+Alternativen 
+ * Das Anwendungsfrontend oder Web-Backend hat bereits zuvor ein ACCESS_TOKEN 
+erhalten, welches abgelaufen ist. 
+ * Um ein neues ACCESS_TOKEN zu erhalten, ruft das Anwendungsfrontend oder 
+Web-Backend den Authorization-Server mittels REFRESH_TOKEN auf (anstelle des 
+AUTHORIZATION_CODE). 
+ * Der Authorization-Server antwortet mit einem gültigen ACCESS_TOKEN und ggf. 
+einem neuenREFRESH_TOKEN. 
+ * Das Anwendungsfrontend oder Web-Backend ruft mittels des ACCESS_TOKEN die 
+Fachdienst-API auf.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;color: #000000;">Das Anwendungsfrontend SOLL folgenden Anwendungsfall umsetzen.</span><br/>
+ 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span> : Anwendungsfall &quot;Abruf des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span>&quot; 
+</p>
+ 
+<table id="polarion_wiki macro name=table;params=width=100%|uid=204" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Attribute</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Bemerkung</th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beschreibung</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ein Anwender möchte einen in der TI registrierte Fachdienst nutzen. Der Fachdienst muss sicherstellen, dass der Anwender zur Nutzung des Dienstes berechtigt ist. Hierzu authentisiert sich der Anwender gegenüber einem sektoralen Identity Provider, bei dem er registriert ist. Nach Abschluss der Authentisierung des Nutzers gegenüber dem sektoralen Identity Provider, erhält das Anwendungsfrontend oder Web-Backend vom Authorization-Server den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> mit, dem er das <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> abrufen kann.<br/>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akteur</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Anwender der Fachanwendung</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Auslöser</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ein Anwender möchte eine Gesundheitsanwendung der TI (Fachdienst) nutzen. Als Voraussetzung muss er sich bei einem sektoralen Identity Provider authentifizieren, bei welchem er registriert ist. Nach Abschluss der Authentifizierung erhält der Authorization-Server vom sektoralen Identity Provider einen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> (entsprechend <span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="AF_10118 - &quot;Benutzerauthentifizierung und Erhalt des ID_TOKEN&quot;" data-url="/wiki/Spezifikation/gemSpec_IDP_FD?selection=ML-133235"></span>).<br/>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Komponenten</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ul>
+          <li>Anwendungsfrontend oder Web-Backend</li>
+          <li>Authorization-Server eines Fachdienstes</li>
+          <li>Fachdienst API<br/>
+            </li>
+        </ul>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Vorbedingung</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> Der Authorization-Server hat entsprechend dem <span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="AF_10118 - &quot;Benutzerauthentifizierung und Erhalt des ID_TOKEN&quot;" data-url="/wiki/Spezifikation/gemSpec_IDP_FD?selection=ML-133235"></span> den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> erhalten.<br/>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ablauf</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ol>
+          <li>Der Authorization-Server sendet einen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> an das Anwendungsfrontend oder Web-Backend ([gemSpec_IDP_Sek] Tabelle: <span style="font-style: italic;">&quot;Parameter des Redirect-Request&quot;</span>).</li>
+          <li>Das Anwendungsfrontend oder Web-Backend ruft mit diesem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> den Token-Endpunkt des Authorization-Servers auf.</li>
+          <li>Der Authorization-Server sendet einen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> und ggf. ein <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">REFRESH_TOKEN</span> zurück.</li>
+          <li>Das Anwendungsfrontend oder Web-Backend ruft mittels des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> die Fachdienst-API auf.<br/>
+            </li>
+        </ol>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ergebnis</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Das Anwendungsfrontend oder Web-Backend hat den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> zum Zugriff auf die Fachdienst API.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akzeptanzkriterien</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span class="polarion-rte-link" data-type="workItem" id="fake" data-item-id="ML-133246" data-option-id="short"></span>, <span class="polarion-rte-link" data-type="workItem" id="fake" data-item-id="ML-133244" data-option-id="short"></span>, <span class="polarion-rte-link" data-type="workItem" id="fake" data-item-id="ML-133245" data-option-id="short"></span> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Alternativen</td>
+      <td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"> 
+        <ol>
+          <li><span style="color: #000000;">Das Anwendungsfrontend oder Web-Backend hat bereits zuvor ein <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> erhalten, welches abgelaufen ist.</span></li>
+          <li><span style="color: #000000;">Um ein neues <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> zu erhalten, ruft das Anwendungsfrontend oder Web-Backend den Authorization-Server mittels <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">REFRESH_TOKEN</span> auf (anstelle des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span>).</span></li>
+          <li><span style="color: #000000;">Der Authorization-Server antwortet mit einem gültigen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> und ggf. einem neuen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">REFRESH_TOKEN</span>.</span></li>
+          <li><span style="color: #000000;">Das Anwendungsfrontend oder Web-Backend ruft mittels des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> die Fachdienst-API auf.</span></li>
+        </ol>
+        </td>
+    </tr>
+  </tbody>
+</table>]]></description_html>
+  </requirement>
+  <requirement id="ML-133246" type="acceptanceObject" severity="not defined" lastUpdate="2023-02-06" technicalID="ML-133246" revision="567403">
+    <title><![CDATA[AF_10119 - Nutzer wurde erfolgreich authentifiziert]]></title>
+    <description><![CDATA[Der Nutzer wurde erfolgreich authentifiziert.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Der Nutzer wurde erfolgreich authentifiziert.</span>]]></description_html>
+  </requirement>
+  <requirement id="ML-133244" type="acceptanceObject" severity="not defined" lastUpdate="2023-02-06" technicalID="ML-133244" revision="567403">
+    <title><![CDATA[AF_10119 - "ACCESS_TOKEN" ausgestellt]]></title>
+    <description><![CDATA[Es wurde ein ACCESS_TOKEN und ggf. REFRESH_TOKEN für den Nutzer und den 
+Authentisierungskontext ausgestellt.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Es wurde ein <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> und ggf. <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">REFRESH_TOKEN</span> für den Nutzer und den Authentisierungskontext ausgestellt.</span>]]></description_html>
+  </requirement>
+  <requirement id="ML-133245" type="acceptanceObject" severity="not defined" lastUpdate="2023-02-06" technicalID="ML-133245" revision="567403">
+    <title><![CDATA[AF_10119 - OAuth 2.0 Security Best Current Practice eingehalten]]></title>
+    <description><![CDATA[Die OAuth 2.0 Security Best Current Practice 
+https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics 
+<https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics> wurden 
+eingehalten.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Die OAuth 2.0 Security Best Current Practice <a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics">https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics</a> wurden eingehalten.</span>]]></description_html>
+  </requirement>
+</requirements>

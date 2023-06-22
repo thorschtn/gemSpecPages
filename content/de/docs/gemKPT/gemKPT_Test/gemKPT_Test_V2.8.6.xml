@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="TIP1-A_6517-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-108585" revision="564926">
+    <title><![CDATA[Eigenverantwortlicher Test: TBI]]></title>
+    <description><![CDATA[Die TBI der Referenzumgebung MUSS seine Aufgaben gemäß Tabelle Tab_Test_005 
+Eigenverantwortlicher Test erfüllen.]]></description>
+    <description_html><![CDATA[Die TBI der Referenzumgebung MUSS seine Aufgaben gemäß Tabelle Tab_Test_005 Eigenverantwortlicher Test erfüllen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6518" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4746" revision="564926">
+    <title><![CDATA[Eigenverantwortlicher Test: TDI]]></title>
+    <description><![CDATA[Die TDI der Referenzumgebung MUSS ihre Aufgaben gemäß Tabelle Tab_Test_005 
+Eigenverantwortlicher Test erfüllen.]]></description>
+    <description_html><![CDATA[Die TDI der Referenzumgebung MUSS ihre Aufgaben gemäß Tabelle Tab_Test_005 Eigenverantwortlicher Test erfüllen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6519" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4747" revision="564926">
+    <title><![CDATA[Eigenverantwortlicher Test: Hersteller und Anbieter]]></title>
+    <description><![CDATA[Hersteller und Anbieter MÜSSEN im Rahmen der Eigenverantwortlichen Tests ihre 
+Pflichten gemäß Tabelle Tab_Test_005 Eigenverantwortlicher Test erfüllen.]]></description>
+    <description_html><![CDATA[Hersteller und Anbieter MÜSSEN im Rahmen der Eigenverantwortlichen Tests ihre Pflichten gemäß Tabelle Tab_Test_005 Eigenverantwortlicher Test erfüllen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7358" type="leafRequirement" severity="SOLL" lastUpdate="2022-03-28" technicalID="ML-74940" revision="564926">
+    <title><![CDATA[Qualität des Produktmusters]]></title>
+    <description><![CDATA[Das Produktmuster SOLL bereits über die vollen Funktionalitäten verfügen. Die 
+noch nicht vollständig oder erfolgreich EvT-getesteten Funktionen SOLLEN vom 
+Hersteller dokumentiert werden. Abweichungen sind mit dem Test- und 
+Transitionmanager abzustimmen.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"> </div>
+Das Produktmuster SOLL bereits über die vollen Funktionalitäten verfügen. Die noch nicht vollständig oder erfolgreich EvT-getesteten Funktionen SOLLEN vom Hersteller dokumentiert werden. Abweichungen sind mit dem Test- und Transitionmanager abzustimmen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6521" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-28" technicalID="ML-4751" revision="564926">
+    <title><![CDATA[Zulassungstest: TBI]]></title>
+    <description><![CDATA[Die TBI der Testumgebung MUSS ihre Aufgaben gemäß Tabelle Tab_Test_006 
+Zulassungstest erfüllen.]]></description>
+    <description_html><![CDATA[Die TBI der Testumgebung MUSS ihre Aufgaben gemäß Tabelle Tab_Test_006 Zulassungstest erfüllen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6523" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4753" revision="564926">
+    <title><![CDATA[Zulassungstest: Hersteller und Anbieter]]></title>
+    <description><![CDATA[Hersteller und Anbieter MÜSSEN im Rahmen der Zulassungstests ihre Pflichten 
+gemäß Tabelle Tab_Test_006 Zulassungstest erfüllen.]]></description>
+    <description_html><![CDATA[Hersteller und Anbieter MÜSSEN im Rahmen der Zulassungstests ihre Pflichten gemäß Tabelle Tab_Test_006 Zulassungstest erfüllen.]]></description_html>
+  </requirement>
+  <requirement id="A_20061" type="leafRequirement" severity="MUSS" lastUpdate="2021-09-30" technicalID="ML-108576" revision="564926">
+    <title><![CDATA[Beschreibung Art und Umfang der Fehlerkorrektur]]></title>
+    <description><![CDATA[Der Hersteller eines Produktes MUSS auf Anfrage der gematik bei Fehlern, die im 
+Zulassungstests festgestellt worden sind, vor der Fehlerbehebung eine kurze 
+Beschreibung hinsichtlich Art und Umfang der Fehlerkorrektur an die gematik 
+liefern und mit ihr abstimmen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Produktes MUSS auf Anfrage der gematik bei Fehlern, die im Zulassungstests festgestellt worden sind, vor der Fehlerbehebung eine kurze Beschreibung hinsichtlich Art und Umfang der Fehlerkorrektur an die gematik liefern und mit ihr abstimmen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_4923" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-4769" revision="564926">
+    <title><![CDATA[Dauerhafte Verfügbarkeit RU und TU]]></title>
+    <description><![CDATA[Die jeweilige Testbetriebsinstanz (TBI) der Referenzumgebung und der 
+Testumgebung MUSS sicherstellen, dass ihre Produkte dauerhaft zur Verfügung 
+stehen.]]></description>
+    <description_html><![CDATA[Die jeweilige Testbetriebsinstanz (TBI) der Referenzumgebung und der Testumgebung MUSS sicherstellen, dass ihre Produkte dauerhaft zur Verfügung stehen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2724" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-4737" revision="564926">
+    <title><![CDATA[TBI verantwortet Betrieb RU und TU]]></title>
+    <description><![CDATA[Die jeweilige Testbetriebsinstanz MUSS den technischen Betrieb in der 
+Referenzumgebung und in der Testumgebung für ihr jeweiliges Referenzobjekt 
+verantworten.]]></description>
+    <description_html><![CDATA[Die jeweilige Testbetriebsinstanz MUSS den technischen Betrieb in der Referenzumgebung und in der Testumgebung für ihr jeweiliges Referenzobjekt verantworten.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6526" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4885" revision="564926">
+    <title><![CDATA[Produkttypen: Bereitstellung]]></title>
+    <description><![CDATA[Die Hersteller oder Anbieter eines Produkttyps MÜSSEN ihr Produkt pro Version 
+gemäß Tabelle Tab_Test_019 Produkttypen der TI vorsehen.]]></description>
+    <description_html><![CDATA[Die Hersteller oder Anbieter eines Produkttyps MÜSSEN ihr Produkt pro Version gemäß Tabelle Tab_Test_019 Produkttypen der TI vorsehen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_5053" type="implementationRequirement" severity="MUSS" lastUpdate="2018-12-14" technicalID="ML-4886" revision="564926">
+    <title><![CDATA[Nutzbarkeit Konnektor in RU/TU und PU]]></title>
+    <description><![CDATA[Der Hersteller / Anbieter eines Konnektors MUSS sicherstellen, dass dieser in 
+allen Systemumgebungen (RU/TU und PU) betreibbar ist. Hierbei MUSS der Wechsel 
+des Vertrauensankers und die Erkennung der unterschiedlichen Systemumgebung 
+berücksichtigt werden.]]></description>
+    <description_html><![CDATA[Der Hersteller / Anbieter eines Konnektors MUSS sicherstellen, dass dieser in allen Systemumgebungen (RU/TU und PU) betreibbar ist. Hierbei MUSS der Wechsel des Vertrauensankers und die Erkennung der unterschiedlichen Systemumgebung berücksichtigt werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6527" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-4887" revision="564926">
+    <title><![CDATA[Testkarten]]></title>
+    <description><![CDATA[Die jeweiligen testdurchführenden Instanzen (TDI) der Referenzumgebung und der 
+Testumgebung MÜSSEN sicherstellen, dass für den Testbetrieb nur die Testkarten 
+verwendet werden, die gemäß der [gemSpec_TK] befüllt sind.]]></description>
+    <description_html><![CDATA[Die jeweiligen testdurchführenden Instanzen (TDI) der Referenzumgebung und der Testumgebung MÜSSEN sicherstellen, dass für den Testbetrieb nur die Testkarten verwendet werden, die gemäß der [gemSpec_TK] befüllt sind.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3194" type="implementationRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-4771" revision="564926">
+    <title><![CDATA[Informationstechnische Trennung PU von RU/TU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass die RU und die TU von der PU dadurch 
+informationstechnisch getrennt werden, dass unterschiedliche Namensräume, 
+Vertrauensräume und Kommunikationspfade eingerichtet werden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass die RU und die TU von der PU dadurch informationstechnisch getrennt werden, dass unterschiedliche Namensräume, Vertrauensräume und Kommunikationspfade eingerichtet werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3195" type="implementationRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-4772" revision="564926">
+    <title><![CDATA[Logische Trennung RU und TU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass die Referenzumgebung von der Testumgebung bis 
+zu den Zugangspunkten des Zentralen Netzes logisch separiert ist.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass die Referenzumgebung von der Testumgebung bis zu den Zugangspunkten des Zentralen Netzes logisch separiert ist.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2710" type="implementationRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-4774" revision="564926">
+    <title><![CDATA[Netzwerktechnologie Testumgebung]]></title>
+    <description><![CDATA[Der TIZP MUSS für die Testumgebung die identische Netzwerktechnologie wie in 
+der Produktivumgebung verwenden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS für die Testumgebung die identische Netzwerktechnologie wie in der Produktivumgebung verwenden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2713" type="implementationRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-4776" revision="564926">
+    <title><![CDATA[Separate Vertrauensräume]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass neben dem Vertrauensraum der 
+Produktivumgebung genau ein davon völlig separierter und rückwirkungsfreier 
+Vertrauensraum für die Referenzumgebung und die Testumgebung eingerichtet 
+werden (Nicht-Produktiv-Vertrauensraum).]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass neben dem Vertrauensraum der Produktivumgebung genau ein davon völlig separierter und rückwirkungsfreier Vertrauensraum für die Referenzumgebung und die Testumgebung eingerichtet werden (Nicht-Produktiv-Vertrauensraum).]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3016" type="implementationRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-4777" revision="564926">
+    <title><![CDATA[Nutzung Nicht-Produktiv-Vertrauensraum für RU und TU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass der für die Testsysteme definierte 
+Vertrauensraum gleichermaßen für die Referenzumgebung und Testumgebung genutzt 
+werden kann.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass der für die Testsysteme definierte Vertrauensraum gleichermaßen für die Referenzumgebung und Testumgebung genutzt werden kann.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_4191" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4768" revision="564926">
+    <title><![CDATA[Keine Echtdaten in RU und TU]]></title>
+    <description><![CDATA[Die jeweiligen testdurchführenden Instanzen (TDI) der Referenzumgebung und der 
+Testumgebung MÜSSEN sicherstellen, dass keine Echtdaten in die Referenzumgebung 
+und in die Testumgebung eingebracht werden.]]></description>
+    <description_html><![CDATA[Die jeweiligen testdurchführenden Instanzen (TDI) der Referenzumgebung und der Testumgebung MÜSSEN sicherstellen, dass keine Echtdaten in die Referenzumgebung und in die Testumgebung eingebracht werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_4928" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4779" revision="564926">
+    <title><![CDATA[Testidentitäten für RU und TU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass nicht smartcard-basierte Testidentitäten (z. 
+B. Softwarezertifikate) für Geräte in der Referenzumgebung und der Testumgebung 
+bereitgestellt werden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass nicht smartcard-basierte Testidentitäten (z. B. Softwarezertifikate) für Geräte in der Referenzumgebung und der Testumgebung bereitgestellt werden.]]></description_html>
+  </requirement>
+  <requirement id="GS-A_2162" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-6599" revision="564926">
+    <title><![CDATA[Kryptographisches Material in Entwicklungs- und Testumgebungen]]></title>
+    <description><![CDATA[Die jeweiligen testdurchführenden Instanzen (TDI) und die jeweilige 
+Testbetriebsinstanz (TBI) der Referenzumgebung und der Testumgebung MÜSSEN 
+sicherstellen, dass in diesen Umgebungen keine kryptographischen Identitäten 
+bzw. Schlüssel der Produktivumgebung der TI (Umgebungen mit Echtdaten) genutzt 
+werden.]]></description>
+    <description_html><![CDATA[Die jeweiligen testdurchführenden Instanzen (TDI) und die jeweilige Testbetriebsinstanz (TBI) der Referenzumgebung und der Testumgebung MÜSSEN sicherstellen, dass in diesen Umgebungen keine kryptographischen Identitäten bzw. Schlüssel der Produktivumgebung der TI (Umgebungen mit Echtdaten) genutzt werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_5049" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4781" revision="564926">
+    <title><![CDATA[Betriebliche Umsetzung von Teststufen]]></title>
+    <description><![CDATA[Der TIZP MUSS die Durchführbarkeit einzelner Teststufen in der jeweiligen 
+Systemumgebung sicherstellen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS die Durchführbarkeit einzelner Teststufen in der jeweiligen Systemumgebung sicherstellen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2718" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4785" revision="564926">
+    <title><![CDATA[Betriebliche Zielstellungen in RU und TU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass alle Systemumgebungen entsprechend der 
+Vorgaben aus den übergreifenden Richtlinien zum Betrieb der TI [gemRL_Betr_TI] 
+ausgeprägt sind.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass alle Systemumgebungen entsprechend der Vorgaben aus den übergreifenden Richtlinien zum Betrieb der TI [gemRL_Betr_TI] ausgeprägt sind.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_4930" type="leafRequirement" severity="SOLL" lastUpdate="2022-09-07" technicalID="ML-4786" revision="564926">
+    <title><![CDATA[Automatisierung von Tests]]></title>
+    <description><![CDATA[Die testdurchführenden Instanzen der Referenzumgebung und der Testumgebung 
+SOLLEN Tests automatisieren.]]></description>
+    <description_html><![CDATA[Die testdurchführenden Instanzen der Referenzumgebung und der Testumgebung SOLLEN Tests automatisieren.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3360" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4787" revision="564926">
+    <title><![CDATA[Zentraler Anlaufpunkt für Anfragen und Probleme in RU und TU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass in der Referenzumgebung und in der 
+Testumgebung ein zentraler Anlaufpunkt für Anfragen und Probleme hinsichtlich 
+Bereitstellung sowie Integration von Produkten und des Betriebs der RU oder TU 
+eingerichtet wird.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass in der Referenzumgebung und in der Testumgebung ein zentraler Anlaufpunkt für Anfragen und Probleme hinsichtlich Bereitstellung sowie Integration von Produkten und des Betriebs der RU oder TU eingerichtet wird.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2720" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-4788" revision="564926">
+    <title><![CDATA[RU/TU: Funktionales Abbild der Produktivumgebung]]></title>
+    <description><![CDATA[Die jeweilige TBI MUSS sicherstellen, dass die Produkte der Referenzumgebung 
+und Testumgebung bei laufendem Produktivbetrieb ein funktionales Abbild 
+(Produkte und Konfigurationen) der Produkte der Produktivumgebung sind.]]></description>
+    <description_html><![CDATA[Die jeweilige TBI MUSS sicherstellen, dass die Produkte der Referenzumgebung und Testumgebung bei laufendem Produktivbetrieb ein funktionales Abbild (Produkte und Konfigurationen) der Produkte der Produktivumgebung sind.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2726" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-4789" revision="564926">
+    <title><![CDATA[Bestandteile RU und TU]]></title>
+    <description><![CDATA[Die jeweilige TBI MUSS sicherstellen, dass ihre zugelassenen Produkte 
+(Referenzobjekte) in der Referenzumgebung und der Testumgebung enthalten sind, 
+die durch die Architekturen der TI-Plattform und der Fachprojekte festgelegt 
+wurden.]]></description>
+    <description_html><![CDATA[Die jeweilige TBI MUSS sicherstellen, dass ihre zugelassenen Produkte (Referenzobjekte) in der Referenzumgebung und der Testumgebung enthalten sind, die durch die Architekturen der TI-Plattform und der Fachprojekte festgelegt wurden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2727" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4790" revision="564926">
+    <title><![CDATA[Sicherstellung der Kommunikation in RU und TU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass in der Referenzumgebung und in der 
+Testumgebung die gleiche Netzwerkarchitektur wie in der Produktivumgebung 
+genutzt wird.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass in der Referenzumgebung und in der Testumgebung die gleiche Netzwerkarchitektur wie in der Produktivumgebung genutzt wird.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2722-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-108586" revision="564926">
+    <title><![CDATA[TBI integriert die Produkttypen in seine Systemumgebung]]></title>
+    <description><![CDATA[Die jeweilige TBI MUSS Testobjekte und Referenzobjekte in die Referenzumgebung 
+und die Testumgebung integrieren.]]></description>
+    <description_html><![CDATA[Die jeweilige TBI MUSS Testobjekte und Referenzobjekte in die Referenzumgebung und die Testumgebung integrieren.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3017" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-4792" revision="564926">
+    <title><![CDATA[Systemumgebungsmanagement RU sowie TU]]></title>
+    <description><![CDATA[Die jeweilige TBI MUSS sicherstellen, dass das Systemumgebungsmanagement 
+unterschiedliche Konfigurationen und Wiederherstellungspunkte für die 
+Referenzumgebung und Testumgebung ermöglicht (Testdatenbestand, 
+Konfigurationseinstellungen, Versionen).
+ Die Fachdienstbetreiber VSDM müssen keine älteren Konfigurationseinstellungen 
+und Versionen bereitstellen.]]></description>
+    <description_html><![CDATA[Die jeweilige TBI MUSS sicherstellen, dass das Systemumgebungsmanagement unterschiedliche Konfigurationen und Wiederherstellungspunkte für die Referenzumgebung und Testumgebung ermöglicht (Testdatenbestand, Konfigurationseinstellungen, Versionen). <br/>
+Die Fachdienstbetreiber VSDM müssen keine älteren Konfigurationseinstellungen und Versionen bereitstellen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3361" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-4796" revision="564926">
+    <title><![CDATA[Dokumentation für den Betrieb in der RU und TU bereitstellen]]></title>
+    <description><![CDATA[Die TBI MUSS sicherstellen, dass alle erforderlichen Dokumente (z.B. der 
+Netzplan) für den Betrieb der Referenzumgebung und der Testumgebung den 
+Beteiligten vor Testbeginn zur Verfügung gestellt werden.]]></description>
+    <description_html><![CDATA[Die TBI MUSS sicherstellen, dass alle erforderlichen Dokumente (z.B. der Netzplan) für den Betrieb der Referenzumgebung und der Testumgebung den Beteiligten vor Testbeginn zur Verfügung gestellt werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6083" type="leafRequirement" severity="SOLL" lastUpdate="2021-01-22" technicalID="ML-4798" revision="564926">
+    <title><![CDATA[Anzahl der Fachdienste als Referenzobjekte]]></title>
+    <description><![CDATA[Es SOLLEN mindestens zwei Fachdienste VSDM in TU und RU permanent als 
+Referenzobjekt zur Verfügung stehen. Eine Abstimmung und die Koordination 
+findet über den Test & Transitionmanager der gematik statt. Ausnahmen für die 
+Verfügbarkeit von weniger als zwei Fachdiensten als Referenzobjekte SOLLEN mit 
+dem Test & Transitionmanager der gematik abgestimmt werden.]]></description>
+    <description_html><![CDATA[Es SOLLEN mindestens zwei Fachdienste VSDM in TU und RU permanent als Referenzobjekt zur Verfügung stehen. Eine Abstimmung und die Koordination findet über den Test & Transitionmanager der gematik statt. Ausnahmen für die Verfügbarkeit von weniger als zwei Fachdiensten als Referenzobjekte SOLLEN mit dem Test & Transitionmanager der gematik abgestimmt werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2737" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4800" revision="564926">
+    <title><![CDATA[Exklusiver Zugriff bestimmter Akteure]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass auf Anfrage der jeweiligen testdurchführenden 
+Instanz (Zulassungsnehmer) der jeweiligen Systemumgebung ein zeitlich 
+exklusiver und diskriminierungsfreier Zugriff auf Produkte, 
+Fachdienstschnittstellen und Kommunikationspfade in der Referenzumgebung bzw. 
+in der Testumgebung in Abstimmung mit der TKI der gematik bereit gestellt 
+werden kann.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass auf Anfrage der jeweiligen testdurchführenden Instanz (Zulassungsnehmer) der jeweiligen Systemumgebung ein zeitlich exklusiver und diskriminierungsfreier Zugriff auf Produkte, Fachdienstschnittstellen und Kommunikationspfade in der Referenzumgebung bzw. in der Testumgebung in Abstimmung mit der TKI der gematik bereit gestellt werden kann.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2738" type="leafRequirement" severity="SOLL" lastUpdate="2021-01-28" technicalID="ML-4801" revision="564926">
+    <title><![CDATA[Exklusiver Zugriff organisatorisch]]></title>
+    <description><![CDATA[Die jeweilige TBI SOLL den zeitlich exklusiven Zugriff für bestimmte Akteure 
+(Personen, Produkte, Testwerkzeuge) in der Referenzumgebung und in der 
+Testumgebung durch organisatorische Maßnahmen unterstützen.]]></description>
+    <description_html><![CDATA[Die jeweilige TBI SOLL den zeitlich exklusiven Zugriff für bestimmte Akteure (Personen, Produkte, Testwerkzeuge) in der Referenzumgebung und in der Testumgebung durch organisatorische Maßnahmen unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2739" type="leafRequirement" severity="SOLL" lastUpdate="2019-10-15" technicalID="ML-4802" revision="564926">
+    <title><![CDATA[Exklusiver Zugriff technisch unterstützt]]></title>
+    <description><![CDATA[Der TIZP SOLL den zeitlich exklusiven Zugriff für bestimmte Akteure (Personen, 
+Produkte, Testwerkzeuge) in der Referenzumgebung und in der Testumgebung durch 
+technische Mittel unterstützen.]]></description>
+    <description_html><![CDATA[Der TIZP SOLL den zeitlich exklusiven Zugriff für bestimmte Akteure (Personen, Produkte, Testwerkzeuge) in der Referenzumgebung und in der Testumgebung durch technische Mittel unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2740" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4804" revision="564926">
+    <title><![CDATA[Logging von Produktaußenaktivitäten]]></title>
+    <description><![CDATA[Der TIZP MUSS für ein detailliertes Logging von Aktivitäten an 
+Außenschnittstellen aller am Test beteiligten Produkte mit Hilfe geeigneter 
+Testwerkzeuge in der Referenzumgebung und Testumgebung sorgen (Produkte als 
+Black-Box).]]></description>
+    <description_html><![CDATA[Der TIZP MUSS für ein detailliertes Logging von Aktivitäten an Außenschnittstellen aller am Test beteiligten Produkte mit Hilfe geeigneter Testwerkzeuge in der Referenzumgebung und Testumgebung sorgen (Produkte als Black-Box).]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2745" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4805" revision="564926">
+    <title><![CDATA[Außenlogging zeitgleich mit Produktbereitstellung]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass zeitgleich mit der Bereitstellung von 
+Produkten für die TI das Loggen an den Außenschnittstellen der betreffenden 
+Produkte in der Referenzumgebung und Testumgebung erfolgen kann.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass zeitgleich mit der Bereitstellung von Produkten für die TI das Loggen an den Außenschnittstellen der betreffenden Produkte in der Referenzumgebung und Testumgebung erfolgen kann.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2741" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4806" revision="564926">
+    <title><![CDATA[Logging auf Applikationsebene]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass Außenaktivitäten von allen am Test 
+beteiligten Produkten in der Referenzumgebung und Testumgebung auf 
+Applikationsebene protokolliert werden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass Außenaktivitäten von allen am Test beteiligten Produkten in der Referenzumgebung und Testumgebung auf Applikationsebene protokolliert werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2742" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4807" revision="564926">
+    <title><![CDATA[Logging von Aktivitäten auf Transportebene]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass Außenaktivitäten von allen am Test 
+beteiligten Produkten in der Referenzumgebung und Testumgebung auf 
+Transportebene protokolliert werden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass Außenaktivitäten von allen am Test beteiligten Produkten in der Referenzumgebung und Testumgebung auf Transportebene protokolliert werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2743" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4808" revision="564926">
+    <title><![CDATA[Logging von Aktivitäten auf Netzwerkebene]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass Außenaktivitäten von allen am Test 
+beteiligten Produkten in der Referenzumgebung und Testumgebung auf 
+Netzwerkebene protokolliert werden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass Außenaktivitäten von allen am Test beteiligten Produkten in der Referenzumgebung und Testumgebung auf Netzwerkebene protokolliert werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3362" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4810" revision="564926">
+    <title><![CDATA[Bereitstellung Logdaten in RU und TU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass die Logdaten der am Test beteiligten Produkte 
+sofort nach deren Erzeugung der testdurchführenden Instanz der betreffenden 
+Systemumgebung zur Verfügung gestellt werden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass die Logdaten der am Test beteiligten Produkte sofort nach deren Erzeugung der testdurchführenden Instanz der betreffenden Systemumgebung zur Verfügung gestellt werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7330" type="leafRequirement" severity="SOLL" lastUpdate="2022-09-07" technicalID="ML-74958" revision="564926">
+    <title><![CDATA[Tracedaten von echten Außenschnittstellen]]></title>
+    <description><![CDATA[Die testdurchführende Instanz SOLL seine eigenverantwortlichen Tests an den 
+Außenschnittstellen des Testobjekts und nicht an internen Loopback Devices 
+durchführen.]]></description>
+    <description_html><![CDATA[Die testdurchführende Instanz SOLL seine eigenverantwortlichen Tests an den Außenschnittstellen des Testobjekts und nicht an internen Loopback Devices durchführen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7331" type="leafRequirement" severity="SOLL" lastUpdate="2022-07-05" technicalID="ML-74959" revision="564926">
+    <title><![CDATA[Bereitstellung von Tracedaten an Außenschnittstelle]]></title>
+    <description><![CDATA[Die testdurchführende Instanz SOLL bei eigenverantwortlichen Tests an denen an 
+der Außenschnittstelle des Produkts Daten transferiert werden der gematik einen 
+Mitschnitt zur Verfügung stellen, der die folgenden Punkte erfüllt:
+ • vollständig sein (komplette Paketgröße und gesamte MTU-Size)
+ • tatsächlichen Daten (insbesondere Messdaten, wie z. B. Zeitstempel) 
+enthalten
+ • ein auswertbares Format, (z. B. pcap oder pcapng) haben
+ • und bei Mitschnitt verschlüsselter Protocol-Layer (z.B. TLS-Layer) und 
+Nutzung eines Simulators als Peer, das Mastersecret als separate Datei 
+bereitstellen.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 40px;"></div><span style="background-color: #FFFF99;"> </span>Die testdurchführende Instanz SOLL bei eigenverantwortlichen Tests an denen an der Außenschnittstelle des Produkts Daten transferiert werden der gematik einen Mitschnitt zur Verfügung stellen, der die folgenden Punkte erfüllt:<br/>
+ • vollständig sein (komplette Paketgröße und gesamte MTU-Size)<br/>
+ • tatsächlichen Daten (insbesondere Messdaten, wie z. B. Zeitstempel) enthalten<br/>
+ • ein auswertbares Format, (z. B. pcap oder pcapng) haben<br/>
+ • und bei Mitschnitt verschlüsselter Protocol-Layer (z.B. TLS-Layer) und Nutzung eines Simulators als Peer, das Mastersecret als separate Datei bereitstellen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2731" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4813" revision="564926">
+    <title><![CDATA[Integration von Testwerkzeugen in RU und TU]]></title>
+    <description><![CDATA[Der TIZP MUSS in der Referenzumgebung und in der Testumgebung die Möglichkeit 
+bieten, Testwerkzeuge hardware- und softwaremäßig zu integrieren. Der TIZP MUSS 
+den Zugriff und die Nutzung dieser Testwerkzeuge der jeweiligen 
+testdurchführenden Instanz jederzeit gewähren und sicherstellen. Der TIZP MUSS 
+der testdurchführenden Instanz die entsprechenden Rechte auf dem Testwerkzeug 
+gewähren.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in der Referenzumgebung und in der Testumgebung die Möglichkeit bieten, Testwerkzeuge hardware- und softwaremäßig zu integrieren. Der TIZP MUSS den Zugriff und die Nutzung dieser Testwerkzeuge der jeweiligen testdurchführenden Instanz jederzeit gewähren und sicherstellen. Der TIZP MUSS der testdurchführenden Instanz die entsprechenden Rechte auf dem Testwerkzeug gewähren.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2735" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4814" revision="564926">
+    <title><![CDATA[Testwerkzeug Netzwerk-Sniffer]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass er den Netzwerkverkehr auf allen 
+Netzwerkmedien bis zu den Zugangspunkten des Zentralen Netzes der TI durch 
+Netzwerk-Sniffer ohne Paketverluste und rückwirkungsfrei in Referenz- und 
+Testumgebung mitschneiden kann.
+
+ Der Mitschnitt MUSS vollständig (komplette Paketgröße und gesamte MTU-Size), 
+mit tatsächlichen Daten (insbesondere Messdaten, wie z. B. Zeitstempel) und in 
+einem auswertbaren Format (pcap) erfolgen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass er den Netzwerkverkehr auf allen Netzwerkmedien bis zu den Zugangspunkten des Zentralen Netzes der TI durch Netzwerk-Sniffer ohne Paketverluste und rückwirkungsfrei in Referenz- und Testumgebung mitschneiden kann.<br/>
+ <br/>
+ Der Mitschnitt MUSS vollständig (komplette Paketgröße und gesamte MTU-Size), mit tatsächlichen Daten (insbesondere Messdaten, wie z. B. Zeitstempel) und in einem auswertbaren Format (pcap) erfolgen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7332" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-74961" revision="564926">
+    <title><![CDATA[Bereitstellung Remotezugang zu Netzwerksniffer]]></title>
+    <description><![CDATA[Der TIZP MUSS der testdurchführenden Instanz einen sicheren Zugang (z.B. SSH) 
+zum Steuern der Netzwerksniffer bereitstellen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS der testdurchführenden Instanz einen sicheren Zugang (z.B. SSH) zum Steuern der Netzwerksniffer bereitstellen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_13505" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-74865" revision="564926">
+    <title><![CDATA[Bereitstellung von Log- und Tracedaten]]></title>
+    <description><![CDATA[Der TIZP MUSS Log- und Trace-Daten der jeweiligen testdurchführenden Instanz 
+unmittelbar nach deren Generierung bereitstellen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS Log- und Trace-Daten der jeweiligen testdurchführenden Instanz unmittelbar nach deren Generierung bereitstellen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2751" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4815" revision="564926">
+    <title><![CDATA[Flexibel einstellbarer Sniffing-Detaillierungsgrad]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass der Detaillierungsgrad der durch 
+Netzwerk-Sniffer mitgeschnittenen Netzwerkdaten aller am Test beteiligten 
+Produkte in der Referenzumgebung und Testumgebung flexibel (Dauer, Detailierung 
+und Umfang) einstellbar ist.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass der Detaillierungsgrad der durch Netzwerk-Sniffer mitgeschnittenen Netzwerkdaten aller am Test beteiligten Produkte in der Referenzumgebung und Testumgebung flexibel (Dauer, Detailierung und Umfang) einstellbar ist.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2736" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4816" revision="564926">
+    <title><![CDATA[Testwerkzeug Man-in-the-Middle-Box]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass die Referenzumgebung und Testumgebung die 
+Möglichkeit bieten, zeitlich begrenzt den Netzwerkverkehr auf allen 
+Netzwerkmedien durch Man-in-the-Middle-Boxen hindurchzuleiten, um 
+Netzwerkpakete gezielt zu unterdrücken, umzuordnen oder zu modifizieren sowie 
+Replay-Attacken und Penetrationstests durchzuführen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass die Referenzumgebung und Testumgebung die Möglichkeit bieten, zeitlich begrenzt den Netzwerkverkehr auf allen Netzwerkmedien durch Man-in-the-Middle-Boxen hindurchzuleiten, um Netzwerkpakete gezielt zu unterdrücken, umzuordnen oder zu modifizieren sowie Replay-Attacken und Penetrationstests durchzuführen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2732" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4817" revision="564926">
+    <title><![CDATA[Zentrale Sammelstelle für Logdaten]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass für die Referenzumgebung und für die 
+Testumgebung je eine zentrale Speichermöglichkeit bereitgestellt wird für: 
+ * Logdaten von Produktaußenaktivitäten aller am Test beteiligten Produkte für 
+10 Werktage 
+ * Mitschnitte gemäß [TIP1-A_2735] 
+ * Monitoring Daten (SOAP), die an die Störungsampel geschickt werden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass für die Referenzumgebung und für die Testumgebung je eine zentrale Speichermöglichkeit bereitgestellt wird für: 
+<ul>
+  <li>Logdaten von Produktaußenaktivitäten aller am Test beteiligten Produkte für 10 Werktage</li>
+  <li>Mitschnitte gemäß [TIP1-A_2735]</li>
+  <li>Monitoring Daten (SOAP), die an die Störungsampel geschickt werden.</li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2734" type="implementationRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-4819" revision="564926">
+    <title><![CDATA[Separate Netzwerkanbindung für Test]]></title>
+    <description><![CDATA[Der TIZP MUSS für die Referenzumgebung und für die Testumgebung separate 
+Netzwerkanschlüsse für Testwerkzeuge bereitstellen. Die gematik wird über diese 
+Anschlüsse eigene Laborumgebungen anbinden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS für die Referenzumgebung und für die Testumgebung separate Netzwerkanschlüsse für Testwerkzeuge bereitstellen. Die gematik wird über diese Anschlüsse eigene Laborumgebungen anbinden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15593" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-76964" revision="564926">
+    <title><![CDATA[Ersatz bei defekten dezentralen Produkten]]></title>
+    <description><![CDATA[Bei Schäden am Gerät, die üblicherweise über Garantie- bzw. Gewährleistungen 
+geregelt werden, MUSS der Hersteller von dezentralen Komponenten diese 
+reparieren oder ersetzen. Ebenso MUSS der Hersteller die regelmäßigen 
+Wartungsarbeiten (wie z.B. Batteriewechsel oder Zertifikatstausch) 
+ermöglichen/unterstützen, so dass die gematik die Testbereitschaft 
+aufrechterhalten kann.]]></description>
+    <description_html><![CDATA[Bei Schäden am Gerät, die üblicherweise über Garantie- bzw. Gewährleistungen geregelt werden, MUSS der Hersteller von dezentralen Komponenten diese reparieren oder ersetzen. Ebenso MUSS der Hersteller die regelmäßigen Wartungsarbeiten (wie z.B. Batteriewechsel oder Zertifikatstausch) ermöglichen/unterstützen, so dass die gematik die Testbereitschaft aufrechterhalten kann.]]></description_html>
+  </requirement>
+  <requirement id="A_15594" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-76963" revision="564926">
+    <title><![CDATA[Vorhalten testbereiter dezentraler Komponenten]]></title>
+    <description><![CDATA[Ein Hersteller eines zugelassenen dezentralen Produktes (außer AdV-Server) MUSS 
+der gematik für die Tests im Rahmen der Zulassungsverfahren von jeder 
+zugelassenen Produktversion auf Aufforderung der gematik innerhalb von einer 
+Woche unentgeltlich für einen von der gematik festgelegten Zeitraum zwei Geräte 
+zur Verfügung stellen. Darüber hinaus kann der Hersteller für angeforderte 
+Geräte einen marktüblichen Preis verlangen.]]></description>
+    <description_html><![CDATA[Ein Hersteller eines zugelassenen dezentralen Produktes (außer AdV-Server) MUSS der gematik für die Tests im Rahmen der Zulassungsverfahren von jeder zugelassenen Produktversion auf Aufforderung der gematik innerhalb von einer Woche unentgeltlich für einen von der gematik festgelegten Zeitraum zwei Geräte zur Verfügung stellen. Darüber hinaus kann der Hersteller für angeforderte Geräte einen marktüblichen Preis verlangen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6084" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-26" technicalID="ML-74968" revision="564926">
+    <title><![CDATA[Konfigurationen und Dienste im Servicekatalog]]></title>
+    <description><![CDATA[Anbieter des VPN-Zugangsdienstes MÜSSEN für ihr Referenzobjekt in der TU 
+Konfigurationen und Dienste, welche für den Test der gematik genutzt werden, in 
+einem Servicekatalog zu marktüblichen Konditionen anbieten. Der Mindestumfang 
+ist in der Tabelle „Inhalte und Bedingungen des Servicekatalogs“ beschrieben.
+
+
+ Tabelle #: Inhalte und Bedingungen des Servicekatalogs 
+
+Service-Beschreibung
+
+Remote-Anbindung via Internet im Rahmen des Zulassungstests in der TU im 
+gematik-Zulassungsverfahren. Beinhaltet die Nutzung, Bereitstellung von 
+Registrierungsinformationen und Dokumentation für die Remote-Anbindung an den 
+VPN-Zugangsdienst der TU.
+
+Testunterstützung „Remote“ im Rahmen des Tests in der TU für die gematik. 
+Allgemeine Test- und Problemlösungsunterstützung, insb. das Bereitstellen von 
+Log und Debug-Informationen im Rahmen des Tests in der TU. Beinhaltet die 
+Nutzung, Bereitstellung von Registrierungsinformationen und Dokumentationen für 
+die Remote-Anbindung an den VPN-Zugangsdienst der TU.
+
+Testunterstützung der gematik.
+
+Datenlieferung für die zentrale Störungsampel im Rahmen des Betriebs in der TU 
+für Serviceprovider SPZD in der Haupt- und Nebenzeit.]]></description>
+    <description_html><![CDATA[Anbieter des VPN-Zugangsdienstes MÜSSEN für ihr Referenzobjekt in der TU Konfigurationen und Dienste, welche für den Test der gematik genutzt werden, in einem Servicekatalog zu marktüblichen Konditionen anbieten. Der Mindestumfang ist in der Tabelle „Inhalte und Bedingungen des Servicekatalogs“ beschrieben.<br/>
+<br/>
+<p data-keep-next="true" class="polarion-rte-caption-paragraph">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Inhalte und Bedingungen des Servicekatalogs
+</p>
+<table style="margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="background-color: #D9D9D9;text-align: left;vertical-align: top;width: 348pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;"><span style="font-weight: bold;">Service-Beschreibung</span><br/>
+      </th>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 348pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;">Remote-Anbindung via Internet im Rahmen des Zulassungstests in der TU im gematik-Zulassungsverfahren. Beinhaltet die Nutzung, Bereitstellung von Registrierungsinformationen und Dokumentation für die Remote-Anbindung an den VPN-Zugangsdienst der TU.<br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 348pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;">Testunterstützung „Remote“ im Rahmen des Tests in der TU für die gematik. Allgemeine Test- und Problemlösungsunterstützung, insb. das Bereitstellen von Log und Debug-Informationen im Rahmen des Tests in der TU. Beinhaltet die Nutzung, Bereitstellung von Registrierungsinformationen und Dokumentationen für die Remote-Anbindung an den VPN-Zugangsdienst der TU.<br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 348pt;height: 11pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;">Testunterstützung der gematik.<br/>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;width: 348pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;">Datenlieferung für die zentrale Störungsampel im Rahmen des Betriebs in der TU für Serviceprovider SPZD in der Haupt- und Nebenzeit.<br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6079" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-74969" revision="564926">
+    <title><![CDATA[Updates von Referenzobjekten]]></title>
+    <description><![CDATA[Die Hersteller bzw. Anbieter von Referenzobjekten MÜSSEN Hotfixes, Patches und 
+Updates für die Systemumgebungen einspielen oder zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Die Hersteller bzw. Anbieter von Referenzobjekten MÜSSEN Hotfixes, Patches und Updates für die Systemumgebungen einspielen oder zur Verfügung stellen.<span style="background-color: #FFFF66;"><br/>
+  </span>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6080" type="leafRequirement" severity="SOLL" lastUpdate="2022-07-05" technicalID="ML-74970" revision="564926">
+    <title><![CDATA[Softwarestand von Referenzobjekten]]></title>
+    <description><![CDATA[Die Hersteller bzw. Anbieter von Referenzobjekten SOLLEN dafür sorgen, dass der 
+Software-Stand bzw. Versions- oder Patchstand dem der Komponenten der PU 
+entspricht.]]></description>
+    <description_html><![CDATA[Die Hersteller bzw. Anbieter von Referenzobjekten SOLLEN dafür sorgen, dass der Software-Stand bzw. Versions- oder Patchstand dem der Komponenten der PU entspricht.<span style="background-color: #FFFF66;"><br/>
+  </span>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6081" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-74971" revision="564926">
+    <title><![CDATA[Bereitstellung der Referenzobjekte]]></title>
+    <description><![CDATA[Hersteller und Anbieter von Komponenten der TI-Plattform Zone zentral und der 
+Provider Zone MÜSSEN in RU und TU Referenzobjekte bereitstellen, welche ein 
+funktionales Abbild der PU-Komponente sind.]]></description>
+    <description_html><![CDATA[Hersteller und Anbieter von Komponenten der TI-Plattform Zone zentral und der Provider Zone MÜSSEN in RU und TU Referenzobjekte bereitstellen, welche ein funktionales Abbild der PU-Komponente sind. <br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6093" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-74972" revision="564926">
+    <title><![CDATA[Ausprägung der Referenzobjekte]]></title>
+    <description><![CDATA[Möchte ein Hersteller oder Anbieter von Komponenten der TI-Plattform Zone 
+zentral und der Provider Zone die Ausprägung seines Referenzobjektes anpassen, 
+so MUSS dies in Abstimmung mit dem Test- und Transition-Manager der gematik 
+geschehen.]]></description>
+    <description_html><![CDATA[Möchte ein Hersteller oder Anbieter von Komponenten der TI-Plattform Zone zentral und der Provider Zone die Ausprägung seines Referenzobjektes anpassen, so MUSS dies in Abstimmung mit dem Test- und Transition-Manager der gematik geschehen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6082" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-19" technicalID="ML-74973" revision="564926">
+    <title><![CDATA[Versionen der Referenzobjekte]]></title>
+    <description><![CDATA[Sollten mehrere Versionen eines Produkts der TI-Plattform Zone dezentral bzw. 
+der Personal Zone in der PU betrieben werden, so MUSS der Hersteller bzw. 
+Anbieter dafür sorgen, dass alle Versionen als Referenzobjekte in RU und TU zur 
+Verfügung stehen. Von der Anforderung unberührt gelten die Festlegungen in 
+Tab_Test_019. So muss beispielsweise keine Version des ePA-Frontend des 
+Versicherten in der RU bereitgestellt werden.]]></description>
+    <description_html><![CDATA[Sollten mehrere Versionen eines Produkts der TI-Plattform Zone dezentral <span style="font-style: normal;">bzw. der Personal Zone</span> in der PU betrieben werden, so MUSS der Hersteller bzw. Anbieter dafür sorgen, dass alle Versionen als Referenzobjekte in RU und TU zur Verfügung stehen. Von der Anforderung unberührt gelten die Festlegungen in Tab_Test_019. So muss beispielsweise keine Version des ePA-Frontend des Versicherten in der RU bereitgestellt werden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6088" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-74974" revision="564926">
+    <title><![CDATA[Unterstützung bei Fehlernachstellung]]></title>
+    <description><![CDATA[Der Zulassungsnehmer eines Produkts MUSS bei der Fehlernachstellung, an denen 
+sein Produkt beteiligt ist, die gematik bzw. einen Dritten unterstützen.]]></description>
+    <description_html><![CDATA[Der Zulassungsnehmer eines Produkts MUSS bei der Fehlernachstellung, an denen sein Produkt beteiligt ist, die gematik bzw. einen Dritten unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_20059" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-108570" revision="564926">
+    <title><![CDATA[Festlegung von Konfiguration von Produktinstanzen durch die gematik]]></title>
+    <description><![CDATA[Ein Hersteller MUSS für den Zeitraum des Zulassungstests auf Anfrage der 
+gematik die Konfiguration seiner Produktinstanz auf von der gematik festgelegte 
+Werte anpassen.]]></description>
+    <description_html><![CDATA[Ein Hersteller MUSS für den Zeitraum des Zulassungstests auf Anfrage der gematik die Konfiguration seiner Produktinstanz auf von der gematik festgelegte Werte anpassen.]]></description_html>
+  </requirement>
+  <requirement id="A_20060" type="leafRequirement" severity="MUSS" lastUpdate="2021-09-30" technicalID="ML-108572" revision="564926">
+    <title><![CDATA[Versionierung der Konfiguration von Produktinstanzen]]></title>
+    <description><![CDATA[Der Hersteller MUSS für den Zeitraum des Zulassungstests die Konfigurationen 
+seiner Produktinstanz versionieren und rückspielbar ablegen sowie auf Anfrage 
+der TDI TU jederzeit eine detaillierte Auskunft über die verwendete 
+Konfiguration bereitstellen.]]></description>
+    <description_html><![CDATA[Der Hersteller MUSS für den Zeitraum des Zulassungstests die Konfigurationen seiner Produktinstanz versionieren und rückspielbar ablegen sowie auf Anfrage der TDI TU jederzeit eine detaillierte Auskunft über die verwendete Konfiguration bereitstellen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2757" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-75042" revision="564926">
+    <title><![CDATA[Qualitätssicherungsmaßnahmen der Hersteller und Anbieter]]></title>
+    <description><![CDATA[Der TIZP MUSS in der Referenzumgebung die Qualitätssicherungsmaßnahmen der 
+Hersteller und Anbieter zur Erzielung einer Zulassungseignung für die durch die 
+Hersteller und Anbieter umzusetzenden Produkte der TI ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in der Referenzumgebung die Qualitätssicherungsmaßnahmen der Hersteller und Anbieter zur Erzielung einer Zulassungseignung für die durch die Hersteller und Anbieter umzusetzenden Produkte der TI ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_4124" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4823" revision="564926">
+    <title><![CDATA[Aufbau RU]]></title>
+    <description><![CDATA[Der TIZP MUSS sicherstellen, dass alle erforderlichen Testobjekte, 
+Testwerkzeuge und Kommunikationspfade bereitgestellt und verfügbar gehalten 
+werden.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS sicherstellen, dass alle erforderlichen Testobjekte, Testwerkzeuge und Kommunikationspfade bereitgestellt und verfügbar gehalten werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2758" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4824" revision="564926">
+    <title><![CDATA[Ermöglichen von Tests im Rahmen einer (Teil-)Integration (RU)]]></title>
+    <description><![CDATA[Der TIZP MUSS in der Referenzumgebung Tests im Rahmen einer (Teil-)Integration 
+ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in der Referenzumgebung Tests im Rahmen einer (Teil-)Integration ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2760" type="leafRequirement" severity="KANN" lastUpdate="2021-01-28" technicalID="ML-4825" revision="564926">
+    <title><![CDATA[Performance]]></title>
+    <description><![CDATA[Die TBI KANN die Performance (Durchsatz, Bearbeitungszeit) seiner Dienste in 
+der Referenzumgebung in Abstimmung mit der testkoordinierenden Instanz auch 
+abweichend von der Performance der Produktivumgebung vorgeben.]]></description>
+    <description_html><![CDATA[Die TBI KANN die Performance (Durchsatz, Bearbeitungszeit) seiner Dienste in der Referenzumgebung in Abstimmung mit der testkoordinierenden Instanz auch abweichend von der Performance der Produktivumgebung vorgeben.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_5052" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-4829" revision="564926">
+    <title><![CDATA[Dauerhafte Verfügbarkeit in der RU]]></title>
+    <description><![CDATA[Hersteller und Anbieter von Produkten der TI MÜSSEN mindestens eine konkrete 
+Ausprägung von jedem Produkttyp dauerhaft in der Referenzumgebung zur Verfügung 
+stellen.]]></description>
+    <description_html><![CDATA[Hersteller und Anbieter von Produkten der TI MÜSSEN mindestens eine konkrete Ausprägung von jedem Produkttyp dauerhaft in der Referenzumgebung zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2766" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4831" revision="564926">
+    <title><![CDATA[Zugang zur Referenzumgebung durch gematik]]></title>
+    <description><![CDATA[Der TIZP MUSS der gematik Zugang zur Referenzumgebung gewähren, um ihre 
+Testwerkzeuge einzubringen und diese für den Einsatz in der Testumgebung weiter 
+entwickeln zu können.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS der gematik Zugang zur Referenzumgebung gewähren, um ihre Testwerkzeuge einzubringen und diese für den Einsatz in der Testumgebung weiter entwickeln zu können.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2767" type="leafRequirement" severity="KANN" lastUpdate="2019-10-15" technicalID="ML-4832" revision="564926">
+    <title><![CDATA[Splittung der Referenzumgebung]]></title>
+    <description><![CDATA[Der TIZP KANN die Referenzumgebung auf der Ebene von Instanzen von Produkten 
+der TI oder durch Virtualisierung in eine oder mehrere Referenzumgebungen 
+splitten.]]></description>
+    <description_html><![CDATA[Der TIZP KANN die Referenzumgebung auf der Ebene von Instanzen von Produkten der TI oder durch Virtualisierung in eine oder mehrere Referenzumgebungen splitten.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2768" type="leafRequirement" severity="SOLL" lastUpdate="2019-10-15" technicalID="ML-4835" revision="564926">
+    <title><![CDATA[Zweck von Instanzen der Referenzumgebung]]></title>
+    <description><![CDATA[Der TIZP SOLL in der Referenzumgebung durch Bereitstellung von Instanzen von 
+Komponenten der TI die ungestörte, selbständige und unabhängige 
+Testdurchführung für die Entwicklung und Herstellung von TI-Produkten durch die 
+Hersteller und Anbieter ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP SOLL in der Referenzumgebung durch Bereitstellung von Instanzen von Komponenten der TI die ungestörte, selbständige und unabhängige Testdurchführung für die Entwicklung und Herstellung von TI-Produkten durch die Hersteller und Anbieter ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6538" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4837" revision="564926">
+    <title><![CDATA[Durchführung von Produkttests]]></title>
+    <description><![CDATA[Der TIZP MUSS in der Referenzumgebung die Durchführung von Produkttests 
+ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in der Referenzumgebung die Durchführung von Produkttests ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6539" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4838" revision="564926">
+    <title><![CDATA[Durchführung von Produktübergreifenden Tests]]></title>
+    <description><![CDATA[Der TIZP MUSS in der Referenzumgebung die Durchführung von 
+Produktübergreifenden Tests ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in der Referenzumgebung die Durchführung von Produktübergreifenden Tests ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2773" type="leafRequirement" severity="KANN" lastUpdate="2019-10-15" technicalID="ML-4839" revision="564926">
+    <title><![CDATA[Simulatoren als Ersatz für Dienste]]></title>
+    <description><![CDATA[Die TDI KANN zentrale Dienste und fachanwendungsspezifische Dienste für EvT in 
+den Produkttests durch Simulatoren ersetzen.]]></description>
+    <description_html><![CDATA[Die TDI KANN zentrale Dienste und fachanwendungsspezifische Dienste für EvT in den Produkttests durch Simulatoren ersetzen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2775" type="leafRequirement" severity="SOLL" lastUpdate="2022-09-08" technicalID="ML-4841" revision="564926">
+    <title><![CDATA[Performance in RU]]></title>
+    <description><![CDATA[Die testdurchführende Instanz der Referenzumgebung SOLL in der Referenzumgebung 
+das Leistungsverhalten der zuzulassenden Komponente simulieren und die 
+Einhaltung der Leistungsanforderungen prüfen.]]></description>
+    <description_html><![CDATA[Die testdurchführende Instanz der Referenzumgebung SOLL in der Referenzumgebung das Leistungsverhalten der zuzulassenden Komponente simulieren und die Einhaltung der Leistungsanforderungen prüfen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6085" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-74983" revision="564926">
+    <title><![CDATA[Referenzobjekte eines Produkts]]></title>
+    <description><![CDATA[Nach Zulassung eines Produkts der TI-Plattform Zone zentral sowie des 
+Intermediärs VSDM und der Fachdienste ePA MUSS der Hersteller oder Anbieter 
+dieses als Referenzobjekt in der TU bereitstellen. Die Bereitstellung bezieht 
+sich auf den Zeitraum, in dem das Produkt in der TI (PU) eingesetzt wird.]]></description>
+    <description_html><![CDATA[Nach Zulassung eines Produkts der TI-Plattform Zone zentral sowie des Intermediärs VSDM und der Fachdienste ePA MUSS der Hersteller oder Anbieter dieses als Referenzobjekt in der TU bereitstellen. Die Bereitstellung bezieht sich auf den Zeitraum, in dem das Produkt in der TI (PU) eingesetzt wird.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6086" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-4845" revision="564926">
+    <title><![CDATA[Unterstützung bei Anbindung eines Produktes]]></title>
+    <description><![CDATA[Der Zulassungsnehmer MUSS nach erfolgter Zulassung die Anbindung der 
+Referenzobjekte produktseitig unterstützen. Dies entfällt, wenn das bereits 
+vorhandene Testobjekt zum Referenzobjekt wird.]]></description>
+    <description_html><![CDATA[Der Zulassungsnehmer MUSS nach erfolgter Zulassung die Anbindung der Referenzobjekte produktseitig unterstützen. Dies entfällt, wenn das bereits vorhandene Testobjekt zum Referenzobjekt wird.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2783" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4847" revision="564926">
+    <title><![CDATA[Marktübliche Testwerkzeuge]]></title>
+    <description><![CDATA[Der TIZP MUSS marktübliche Testwerkzeuge und Testtreiber dauerhaft in der 
+Testumgebung zur Verfügung stellen. Hierzu gehört z. B. Wireshark.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS marktübliche Testwerkzeuge und Testtreiber dauerhaft in der Testumgebung zur Verfügung stellen. Hierzu gehört z. B. Wireshark.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2785" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4848" revision="564926">
+    <title><![CDATA[Simulatoren für Fehleranalyse]]></title>
+    <description><![CDATA[Der TIZP MUSS in der Testumgebung sicherstellen, dass Simulatoren, die er für 
+eigene Tests genutzt hat, erhalten bleiben.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in der Testumgebung sicherstellen, dass Simulatoren, die er für eigene Tests genutzt hat, erhalten bleiben. <br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6087" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-4849" revision="564926">
+    <title><![CDATA[Zugang zur Adminschnittstelle bei dezentralen Produkten]]></title>
+    <description><![CDATA[Der Hersteller von dezentralen Produkten MUSS der gematik Zugang zur 
+administrativen Schnittstelle für Referenzobjekte bereitstellen. Der Hersteller 
+MUSS ein Benutzerhandbuch für diese Produkte bereitstellen.]]></description>
+    <description_html><![CDATA[Der Hersteller von dezentralen Produkten MUSS der gematik Zugang zur administrativen Schnittstelle für Referenzobjekte bereitstellen. Der Hersteller MUSS ein Benutzerhandbuch für diese Produkte bereitstellen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3363" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-28" technicalID="ML-4851" revision="564926">
+    <title><![CDATA[Nutzung von Produkt-Schnittstellen in der TU]]></title>
+    <description><![CDATA[Die TBI MUSS der testdurchführenden Instanz ermöglichen, alle 
+Außenschnittstellen eines in die Testumgebung integrierten Produkts zu nutzen.]]></description>
+    <description_html><![CDATA[Die TBI MUSS der testdurchführenden Instanz ermöglichen, alle Außenschnittstellen eines in die Testumgebung integrierten Produkts zu nutzen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3364" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4852" revision="564926">
+    <title><![CDATA[Produktspezifische Parameter in der TU]]></title>
+    <description><![CDATA[Der TIZP MUSS vor Testbeginn produktspezifische Anbindungsparameter für die 
+Integration des jeweiligen Produkts in die Testumgebung definieren.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS vor Testbeginn produktspezifische Anbindungsparameter für die Integration des jeweiligen Produkts in die Testumgebung definieren.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_3365" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4853" revision="564926">
+    <title><![CDATA[Publikation Produktspezifische Parameter in der TU]]></title>
+    <description><![CDATA[Der TIZP MUSS vor Testbeginn die definierten produktspezifischen Parameter für 
+die Integration des jeweiligen Produkts in die Testumgebung den Herstellern und 
+Anbietern übermitteln.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS vor Testbeginn die definierten produktspezifischen Parameter für die Integration des jeweiligen Produkts in die Testumgebung den Herstellern und Anbietern übermitteln.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2790" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-29" technicalID="ML-4855" revision="564926">
+    <title><![CDATA[Leistungstest]]></title>
+    <description><![CDATA[Die TBI MUSS sicherstellen, dass im Rahmen von Leistungstests temporär die 
+Testumgebung stufenweise skaliert werden kann, um das Verhalten des Systems bei 
+Laststeigerungen und Systemausbau zu überprüfen.]]></description>
+    <description_html><![CDATA[Die TBI MUSS sicherstellen, dass im Rahmen von Leistungstests temporär die Testumgebung stufenweise skaliert werden kann, um das Verhalten des Systems bei Laststeigerungen und Systemausbau zu überprüfen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_4192" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-28" technicalID="ML-4856" revision="564926">
+    <title><![CDATA[Dimensionierung TU für PU-Fehlernachstellung]]></title>
+    <description><![CDATA[Die TBI MUSS sicherstellen, dass die Testumgebung ausreichend dimensioniert 
+ist, um eine Fehlernachstellung für die Produktivumgebung zu ermöglichen.]]></description>
+    <description_html><![CDATA[Die TBI MUSS sicherstellen, dass die Testumgebung ausreichend dimensioniert ist, um eine Fehlernachstellung für die Produktivumgebung zu ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2792" type="leafRequirement" severity="KANN" lastUpdate="2019-10-15" technicalID="ML-4857" revision="564926">
+    <title><![CDATA[Splitten der Testumgebung]]></title>
+    <description><![CDATA[Der TIZP KANN in Abstimmung mit der TDI der gematik die Testumgebung splitten, 
+wenn: 
+ * der Ausnahmefall eintritt, dass funktionale Produkttests für zu viele 
+Produkte durchzuführen sind und damit produktübergreifende Tests behindert 
+werden, 
+ * es sich um eine temporär begrenzte Instanziierung oder Virtualisierung 
+handelt oder wenn nicht virtualisierbare Produkte dediziert bereitgestellt 
+werden müssen.]]></description>
+    <description_html><![CDATA[Der TIZP KANN in Abstimmung mit der TDI der gematik die Testumgebung splitten, wenn: 
+<ul>
+  <li>der Ausnahmefall eintritt, dass funktionale Produkttests für zu viele Produkte durchzuführen sind und damit produktübergreifende Tests behindert werden,</li>
+  <li>es sich um eine temporär begrenzte Instanziierung oder Virtualisierung handelt oder wenn nicht virtualisierbare Produkte dediziert bereitgestellt werden müssen.</li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2795" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4861" revision="564926">
+    <title><![CDATA[Parallele Tests]]></title>
+    <description><![CDATA[Die TBI MUSS, auf Anfrage der TDI der gematik, zwecks paralleler Durchführung 
+von Tests bei unterschiedlichen Versionsständen die Testumgebung in mehreren 
+Instanzen ausprägen, sofern die Produkte die Ausprägung mehrerer Instanzen in 
+unterschiedlichen Versionen unterstützen.]]></description>
+    <description_html><![CDATA[Die TBI MUSS, auf Anfrage der TDI der gematik, zwecks paralleler Durchführung von Tests bei unterschiedlichen Versionsständen die Testumgebung in mehreren Instanzen ausprägen, sofern die Produkte die Ausprägung mehrerer Instanzen in unterschiedlichen Versionen unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2797" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4862" revision="564926">
+    <title><![CDATA[Örtliche Verteilung von Testobjekten und Testtreibern]]></title>
+    <description><![CDATA[Der TIZP MUSS die Möglichkeit der Verteilung von Testobjekten und Testtreibern 
+über Standortgrenzen hinweg schaffen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS die Möglichkeit der Verteilung von Testobjekten und Testtreibern über Standortgrenzen hinweg schaffen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2800" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4863" revision="564926">
+    <title><![CDATA[Nachweis der Anforderungserfüllung]]></title>
+    <description><![CDATA[Der TIZP MUSS, auf Anfrage der TDI der gematik, die Testumgebung so gestalten, 
+dass in einer verteilten und produktivnahen Umgebung der Nachweis der Erfüllung 
+von funktionalen und nicht-funktionalen sowie der Sicherheitsanforderungen an 
+einzelne Produkte erbracht werden kann.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS, auf Anfrage der TDI der gematik, die Testumgebung so gestalten, dass in einer verteilten und produktivnahen Umgebung der Nachweis der Erfüllung von funktionalen und nicht-funktionalen sowie der Sicherheitsanforderungen an einzelne Produkte erbracht werden kann.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2802" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4864" revision="564926">
+    <title><![CDATA[Integration und produktübergreifende Tests]]></title>
+    <description><![CDATA[Der TIZP MUSS die Integration von Produkten und produktübergreifende Tests in 
+mehreren Ausbaustufen, angefangen von der Integration der TI-Plattform bis zur 
+vollständigen Abbildung der Funktionalität der Produktivumgebung, ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS die Integration von Produkten und produktübergreifende Tests in mehreren Ausbaustufen, angefangen von der Integration der TI-Plattform bis zur vollständigen Abbildung der Funktionalität der Produktivumgebung, ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2805" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-4865" revision="564926">
+    <title><![CDATA[Zeitnahe Anpassung von Produktkonfigurationen]]></title>
+    <description><![CDATA[Der Hersteller oder Anbieter von Produkten MUSS sicherstellen, dass in der 
+Testumgebung die Produkte (außer Smartcards) sich in ihren Konfigurationen 
+zeitnah (möglichst kleiner 1 Arbeitstag) anpassen lassen.]]></description>
+    <description_html><![CDATA[Der Hersteller oder Anbieter von Produkten MUSS sicherstellen, dass in der Testumgebung die Produkte (außer Smartcards) sich in ihren Konfigurationen zeitnah (möglichst kleiner 1 Arbeitstag) anpassen lassen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2806" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-07" technicalID="ML-4866" revision="564926">
+    <title><![CDATA[Zeitnahe Anpassung der Konfiguration der Testumgebung]]></title>
+    <description><![CDATA[Die TBI MUSS sicherstellen, dass die Testumgebung sich in ihren Konfigurationen 
+zeitnah anpassen lässt.]]></description>
+    <description_html><![CDATA[Die TBI MUSS sicherstellen, dass die Testumgebung sich in ihren Konfigurationen zeitnah anpassen lässt.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2807" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4867" revision="564926">
+    <title><![CDATA[Zentrale Steuerung paralleler Tests]]></title>
+    <description><![CDATA[Der TIZP MUSS in Zusammenarbeit mit der testdurchführenden Instanz TDI in der 
+Testumgebung parallele Testaktivitäten ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in Zusammenarbeit mit der testdurchführenden Instanz TDI in der Testumgebung parallele Testaktivitäten ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2808" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4869" revision="564926">
+    <title><![CDATA[Produkttests]]></title>
+    <description><![CDATA[Der TIZP MUSS in der Testumgebung die Unterstützung von Produkttests 
+ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in der Testumgebung die Unterstützung von Produkttests ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2810" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-4870" revision="564926">
+    <title><![CDATA[Produktübergreifende Tests]]></title>
+    <description><![CDATA[Der TIZP MUSS in der Testumgebung die Unterstützung von produktübergreifenden 
+Tests (schrittweise Integration aller Produkte) ermöglichen.]]></description>
+    <description_html><![CDATA[Der TIZP MUSS in der Testumgebung die Unterstützung von produktübergreifenden Tests (schrittweise Integration aller Produkte) ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_2803-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-28" technicalID="ML-108587" revision="564926">
+    <title><![CDATA[Nachstellen von PU-Fehlern in der TU]]></title>
+    <description><![CDATA[Die Testbetriebsinstanz (TBI) der Testumgebung MUSS das Nachstellen von 
+Fehlern, die in der Produktivumgebung auftreten, in der Testumgebung 
+ermöglichen.]]></description>
+    <description_html><![CDATA[Die Testbetriebsinstanz (TBI) der Testumgebung MUSS das Nachstellen von Fehlern, die in der Produktivumgebung auftreten, in der Testumgebung ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6532" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4914" revision="564926">
+    <title><![CDATA[Zulassung eines neuen Produkts: Aufgaben der TDI]]></title>
+    <description><![CDATA[Die jeweilige TDI MUSS für die Zulassung eines neuen Produkts ihre 
+Testvorgehensweise gemäß Tabelle Tab_Test_021 Szenario: Zulassung eines neuen 
+Produkts umsetzen.]]></description>
+    <description_html><![CDATA[Die jeweilige TDI MUSS für die Zulassung eines neuen Produkts ihre Testvorgehensweise gemäß Tabelle Tab_Test_021 Szenario: Zulassung eines neuen Produkts umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6533" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4915" revision="564926">
+    <title><![CDATA[Zulassung eines neuen Produkts: Aufgaben der Hersteller und Anbieter]]></title>
+    <description><![CDATA[Die Hersteller und Anbieter von Produkten MÜSSEN für die Zulassung eines neuen 
+Produkts ihre Testvorgehensweise gemäß Tabelle Tab_Test_021 Szenario: Zulassung 
+eines neuen Produkts umsetzen.]]></description>
+    <description_html><![CDATA[Die Hersteller und Anbieter von Produkten MÜSSEN für die Zulassung eines neuen Produkts ihre Testvorgehensweise gemäß Tabelle Tab_Test_021 Szenario: Zulassung eines neuen Produkts umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6536" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4919" revision="564926">
+    <title><![CDATA[Zulassung eines geänderten Produkts: Aufgaben der TDI]]></title>
+    <description><![CDATA[Die jeweilige TDI MUSS für die Zulassung eines geänderten Produkts ihre 
+Testvorgehensweise gemäß Tabelle Tab_Test_022 Szenario: Zulassung eines 
+geänderten Produkts umsetzen.]]></description>
+    <description_html><![CDATA[Die jeweilige TDI MUSS für die Zulassung eines geänderten Produkts ihre Testvorgehensweise gemäß Tabelle Tab_Test_022 Szenario: Zulassung eines geänderten Produkts umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6537" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4920" revision="564926">
+    <title><![CDATA[Zulassung eines geänderten Produkts: Aufgaben der Hersteller und Anbieter]]></title>
+    <description><![CDATA[Die Hersteller und Anbieter von Produkten MÜSSEN für die Zulassung eines 
+geänderten Produkts ihre Testvorgehensweise gemäß Tabelle Tab_Test_022 
+Szenario: Zulassung eines geänderten Produkts umsetzen.]]></description>
+    <description_html><![CDATA[Die Hersteller und Anbieter von Produkten MÜSSEN für die Zulassung eines geänderten Produkts ihre Testvorgehensweise gemäß Tabelle Tab_Test_022 Szenario: Zulassung eines geänderten Produkts umsetzen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7333" type="leafRequirement" severity="SOLL" lastUpdate="2022-07-05" technicalID="ML-75000" revision="564926">
+    <title><![CDATA[Parallelbetrieb von Release oder Produkttypversion]]></title>
+    <description><![CDATA[In der Übergangsphase von Dokumentenreleases in welcher mehrere 
+Produkttypversionen parallel Gültigkeit haben SOLL die testdurchführende 
+Instanz die Interoperabilitätstests immer gegen die aktuell höchste verfügbare 
+Produktversionsnummer des bzw. der jeweiligen Hersteller durchführen (je nach 
+Anzahl in Tabelle 13: Tab_Test_033 Mindestumfang der 
+Interoperabilitätsprüfung). Für alle weiteren, zum Zeitpunkt der Inbetriebnahme 
+in der PU vorhandenen, Produktversionsnummern SOLLEN, in Abstimmung mit dem 
+Test- und Transitionmanager der gematik, angemessene Regressionstests im Rahmen 
+der Interoperabilitätstests durchgeführt werden.
+ Eventuell zu beachtende Integrations- bzw. Testreihenfolgen gehen aus der von 
+der gematik veröffentlichten Migrationsstrategie des jeweiligen Releases hervor.]]></description>
+    <description_html><![CDATA[In der Übergangsphase von Dokumentenreleases in welcher mehrere Produkttypversionen parallel Gültigkeit haben SOLL die testdurchführende Instanz die Interoperabilitätstests immer gegen die aktuell höchste verfügbare Produktversionsnummer des bzw. der jeweiligen Hersteller durchführen (je nach Anzahl in Tabelle 13: Tab_Test_033 Mindestumfang der Interoperabilitätsprüfung). Für alle weiteren, zum Zeitpunkt der Inbetriebnahme in der PU vorhandenen, Produktversionsnummern SOLLEN, in Abstimmung mit dem Test- und Transitionmanager der gematik, angemessene Regressionstests im Rahmen der Interoperabilitätstests durchgeführt werden.<br/>
+ Eventuell zu beachtende Integrations- bzw. Testreihenfolgen gehen aus der von der gematik veröffentlichten Migrationsstrategie des jeweiligen Releases hervor.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7334" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-05" technicalID="ML-75001" revision="564926">
+    <title><![CDATA[Risikoabschätzung bezüglich der Interoperabilität]]></title>
+    <description><![CDATA[Die testdurchführende Instanz MUSS eine Risikoabschätzung für eventuelle 
+Interoperabilitätsprobleme mit Komponenten, welche in einer neuen 
+Produkttypversion noch nicht oder gemäß Tab_Test_033 Mindestumfang der 
+Interoperabilitätsprüfung nicht in ausreichender Anzahl verfügbar sind, auf 
+Grundlage der Migrationsstrategie durchführen und der gematik vorlegen.]]></description>
+    <description_html><![CDATA[Die testdurchführende Instanz MUSS eine Risikoabschätzung für eventuelle Interoperabilitätsprobleme mit Komponenten, welche in einer neuen Produkttypversion noch nicht oder gemäß Tab_Test_033 Mindestumfang der Interoperabilitätsprüfung nicht in ausreichender Anzahl verfügbar sind, auf Grundlage der Migrationsstrategie durchführen und der gematik vorlegen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6772" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-4891" revision="564926">
+    <title><![CDATA[Partnerprodukte bei Interoperabilitätstests]]></title>
+    <description><![CDATA[Der Zulassungsnehmer MUSS die Interoperabilitätstests gegen Referenzobjekte 
+durchführen. Sind Referenzobjekte nicht verfügbar, ist in Abstimmung mit der 
+gematik die Nutzung von geeigneten Testobjekten möglich.]]></description>
+    <description_html><![CDATA[Der Zulassungsnehmer MUSS die Interoperabilitätstests gegen Referenzobjekte durchführen. Sind Referenzobjekte nicht verfügbar, ist in Abstimmung mit der gematik die Nutzung von geeigneten Testobjekten möglich.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6529" type="leafRequirement" severity="MUSS" lastUpdate="2022-03-28" technicalID="ML-4892" revision="564926">
+    <title><![CDATA[Produkttypen: Mindestumfang der Interoperabilitätsprüfung]]></title>
+    <description><![CDATA[Die testdurchführende Instanz (TDI) MUSS zum Nachweis der Interoperabilität 
+alle für das jeweilige Produkt relevanten anwendungsfallbasierten Tests mit der 
+Mindestanzahl von Produkten gemäß Tabelle 13: Tab_Test_033 Mindestumfang der 
+Interoperabilitätsprüfung durchführen.]]></description>
+    <description_html><![CDATA[Die testdurchführende Instanz (TDI) MUSS zum Nachweis der Interoperabilität alle für das jeweilige Produkt relevanten anwendungsfallbasierten Tests mit der Mindestanzahl von Produkten gemäß Tabelle 13: Tab_Test_033 Mindestumfang der Interoperabilitätsprüfung durchführen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7335" type="leafRequirement" severity="MUSS" lastUpdate="2022-07-26" technicalID="ML-75003" revision="564926">
+    <title><![CDATA[Bereitstellung der Testdokumentation]]></title>
+    <description><![CDATA[Der Zulassungsnehmer MUSS die geforderte Testdokumentation auf geeignete Weise 
+in Abstimmung mit dem Test- & Transitionmanager der gematik zur Verfügung 
+stellen.]]></description>
+    <description_html><![CDATA[Der Zulassungsnehmer MUSS die geforderte Testdokumentation auf geeignete Weise in Abstimmung mit dem Test- &amp; Transitionmanager der gematik zur Verfügung stellen.<br/>]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_6524-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-12-20" technicalID="ML-108582" revision="564926">
+    <title><![CDATA[Testdokumentation gemäß Vorlagen]]></title>
+    <description><![CDATA[Der Zulassungsnehmer MUSS sich bei der Erstellung der Testdokumentation an die 
+Tabellen Tab_Test_013 Testkonzept, Tab_Test_014 Testspezifikation, Tab_Test_015 
+Release Notes, Tab_Test_016 Produktdokumentation, Tab_Test_017 Testprotokoll 
+und Tab_Test_018 Testbericht halten.]]></description>
+    <description_html><![CDATA[Der Zulassungsnehmer MUSS sich bei der Erstellung der Testdokumentation an die Tabellen Tab_Test_013 Testkonzept, Tab_Test_014 Testspezifikation, Tab_Test_015 Release Notes, Tab_Test_016 Produktdokumentation, Tab_Test_017 Testprotokoll und Tab_Test_018 Testbericht halten.]]></description_html>
+  </requirement>
+  <requirement id="A_20065" type="leafRequirement" severity="SOLL" lastUpdate="2022-12-20" technicalID="ML-108583" revision="564926">
+    <title><![CDATA[Nutzung der Dokumententemplates der gematik]]></title>
+    <description><![CDATA[Die Testdokumentation SOLL gemäß der Templates, die im Rahmen des 
+Zulassungsverfahrens von der gematik zur Verfügung gestellt werden, erstellt 
+werden.Abweichungen sind mit dem jeweiligen Testmanager der gematik abzustimmen.]]></description>
+    <description_html><![CDATA[Die Testdokumentation SOLL gemäß der Templates, die im Rahmen des Zulassungsverfahrens von der gematik zur Verfügung gestellt werden, erstellt werden. <span style="font-size: 10pt;line-height: 1.5;">Abweichungen sind mit dem jeweiligen Testmanager der gematik abzustimmen.</span><br/>]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2812" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4895" revision="564926">
+    <title><![CDATA[Bereitstellung Testkartensätze]]></title>
+    <description><![CDATA[Betreiber und Anbieter von Fachdiensten VSDM MÜSSEN Testkarten für RU und TU 
+von den Krankenkassen bereitstellen, deren produktive eGK sie mit VSD-, CMS - 
+Updates versorgen. Bei Testkarten, MÜSSEN Update Inhalte (VSD, CMS) bekannt 
+gemacht werden.]]></description>
+    <description_html><![CDATA[Betreiber und Anbieter von Fachdiensten VSDM MÜSSEN Testkarten für RU und TU von den Krankenkassen bereitstellen, deren produktive eGK sie mit VSD-, CMS - Updates versorgen. Bei Testkarten, MÜSSEN Update Inhalte (VSD, CMS) bekannt gemacht werden.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_3029" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4896" revision="564926">
+    <title><![CDATA[Bereitstellung von Testkarten]]></title>
+    <description><![CDATA[Betreiber der Fachdienste VSDM MÜSSEN spezifikationskonform physische und 
+virtuelle Testkarten eGK und täglich wechselnde Updates bereitstellen, wie im 
+Kapitel Flip/Flop Verfahren formuliert.]]></description>
+    <description_html><![CDATA[Betreiber der Fachdienste VSDM MÜSSEN spezifikationskonform physische und virtuelle Testkarten eGK und täglich wechselnde Updates bereitstellen, wie im Kapitel Flip/Flop Verfahren formuliert.<br/>]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_3030" type="leafRequirement" severity="KANN" lastUpdate="2021-01-22" technicalID="ML-4897" revision="564926">
+    <title><![CDATA[Bereitstellung von spezifikationsabweichende Testkarten]]></title>
+    <description><![CDATA[Bewusst spezifikationsabweichende Testkarten eGK KÖNNEN (physisch oder 
+virtuell) von den Betreibern der Fachdiensten VSDM bereitgestellt werden.]]></description>
+    <description_html><![CDATA[Bewusst spezifikationsabweichende Testkarten eGK KÖNNEN (physisch oder virtuell) von den Betreibern der Fachdiensten VSDM bereitgestellt werden.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2814" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4898" revision="564926">
+    <title><![CDATA[Eindeutigkeit der Testkartenschlüssel]]></title>
+    <description><![CDATA[Betreiber und Anbieter der Fachdienste VSDM MÜSSEN bei der Generierung 
+symmetrischer Schlüssel für die Testkarten, die definierten Vorgaben der 
+testdurchführenden Instanz der TU berücksichtigen.]]></description>
+    <description_html><![CDATA[Betreiber und Anbieter der Fachdienste VSDM MÜSSEN bei der Generierung symmetrischer Schlüssel für die Testkarten, die definierten Vorgaben der testdurchführenden Instanz der TU berücksichtigen.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2815" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4899" revision="564926">
+    <title><![CDATA[Berücksichtigung von Vorgaben zur Schlüsselerzeugung]]></title>
+    <description><![CDATA[Betreiber und Anbieter der Fachdienste VSDM MÜSSEN bei der Generierung 
+symmetrischer Schlüssel für die Testkarten, die definierten Vorgaben der 
+testdurchführenden Instanz der TU berücksichtigen.]]></description>
+    <description_html><![CDATA[Betreiber und Anbieter der Fachdienste VSDM MÜSSEN bei der Generierung symmetrischer Schlüssel für die Testkarten, die definierten Vorgaben der testdurchführenden Instanz der TU berücksichtigen.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2825" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4903" revision="564926">
+    <title><![CDATA[Bereitstellen von VSD-Updates]]></title>
+    <description><![CDATA[Betreiber der Fachdienste VSDM MÜSSEN für die Testkarten der diese Dienste 
+beauftragenden Krankenkassen täglich ein VSD-Update zu Testzwecken 
+bereitstellen.]]></description>
+    <description_html><![CDATA[Betreiber der Fachdienste VSDM MÜSSEN für die Testkarten der diese Dienste beauftragenden Krankenkassen täglich ein VSD-Update zu Testzwecken bereitstellen.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2826" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4904" revision="564926">
+    <title><![CDATA[Bereitstellen datumsbasierter VSD-Updates]]></title>
+    <description><![CDATA[Betreiber der Fachdienste VSDM MÜSSEN für die Testkarten zu Testzwecken für 
+gerade und ungerade Tage zwei unterschiedliche VSD-Updates bereitstellen.]]></description>
+    <description_html><![CDATA[Betreiber der Fachdienste VSDM MÜSSEN für die Testkarten zu Testzwecken für gerade und ungerade Tage zwei unterschiedliche VSD-Updates bereitstellen.<span style="font-weight: bold;"></span><br/>]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2827" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-25" technicalID="ML-48473" revision="564926">
+    <title><![CDATA[Prüfen der eGK-Sperrung]]></title>
+    <description><![CDATA[Anbieter der Fachdienste VSDM MÜSSEN für die Testkarten zu Testzwecken an 
+geraden Kalendertagen (z.B. der 16. Tag des Monats) ein CMS-Update mit dem Ziel 
+bereitstellen, die Gesundheitsanwendung auf der eGK zu sperren.]]></description>
+    <description_html><![CDATA[Anbieter der Fachdienste VSDM MÜSSEN für die Testkarten zu Testzwecken an geraden Kalendertagen (z.B. der 16. Tag des Monats) ein CMS-Update mit dem Ziel bereitstellen, die Gesundheitsanwendung auf der eGK zu sperren.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2828" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-25" technicalID="ML-48474" revision="564926">
+    <title><![CDATA[Prüfen der eGK-Entsperrung]]></title>
+    <description><![CDATA[Anbieter der Fachdienste VSDM MÜSSEN für die Testkarten zu Testzwecken an 
+ungeraden Kalendertagen (z.B. der 17. Tag des Monats) ein CMS-Update mit dem 
+Ziel bereitstellen, die Gesundheitsanwendung auf der eGK zu entsperren.]]></description>
+    <description_html><![CDATA[Anbieter der Fachdienste VSDM MÜSSEN für die Testkarten zu Testzwecken an ungeraden Kalendertagen (z.B. der 17. Tag des Monats) ein CMS-Update mit dem Ziel bereitstellen, die Gesundheitsanwendung auf der eGK zu entsperren.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2830" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4906" revision="564926">
+    <title><![CDATA[Integration multipler Anbieter]]></title>
+    <description><![CDATA[Der Fachdienstbetreiber des mandantenfähigen Fachdienstes MUSS mindestens zwei 
+Anbieter integrieren.]]></description>
+    <description_html><![CDATA[Der Fachdienstbetreiber des mandantenfähigen Fachdienstes MUSS mindestens zwei Anbieter integrieren.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2831" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4907" revision="564926">
+    <title><![CDATA[Verwendung von Testkarten]]></title>
+    <description><![CDATA[Der Fachdienstbetreiber des mandantenfähigen Fachdienstes MUSS sicherstellen, 
+dass während des produktübergreifenden Tests für jeden Mandanten eines 
+Fachdienstes mindestens 2 Testkarten verwaltet werden.]]></description>
+    <description_html><![CDATA[Der Fachdienstbetreiber des mandantenfähigen Fachdienstes MUSS sicherstellen, dass während des produktübergreifenden Tests für jeden Mandanten eines Fachdienstes mindestens 2 Testkarten verwaltet werden.]]></description_html>
+  </requirement>
+  <requirement id="VSDM-A_2832" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-22" technicalID="ML-4908" revision="564926">
+    <title><![CDATA[Umsetzung des Flip/Flop-Verfahrens]]></title>
+    <description><![CDATA[Der Fachdienstbetreiber des mandantenfähigen Fachdienstes MUSS sicherstellen, 
+dass das Flip/Flop-Verfahren für Testmaßnahmen für alle Mandanten aktiviert 
+wird.]]></description>
+    <description_html><![CDATA[Der Fachdienstbetreiber des mandantenfähigen Fachdienstes MUSS sicherstellen, dass das Flip/Flop-Verfahren für Testmaßnahmen für alle Mandanten aktiviert wird.]]></description_html>
+  </requirement>
+  <requirement id="A_18807" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-25" technicalID="ML-101527" revision="564926">
+    <title><![CDATA[Durchführung von gematik-Testfällen (EvT) beim Fachdienst VSDM]]></title>
+    <description><![CDATA[Hersteller von Fachdiensten VSDM MÜSSEN im Rahmen ihrer eigenverantwortlichen 
+Tests, die von der gematik zur Verfügung gestellten Testfälle durchführen.]]></description>
+    <description_html><![CDATA[Hersteller von Fachdiensten VSDM MÜSSEN im Rahmen ihrer eigenverantwortlichen Tests, die von der gematik zur Verfügung gestellten Testfälle durchführen.]]></description_html>
+  </requirement>
+  <requirement id="A_18892" type="leafRequirement" severity="MUSS" lastUpdate="2020-08-12" technicalID="ML-101874" revision="564926">
+    <title><![CDATA[Durchführung von gematik-Testfällen (EvT) beim Fachdienst KOM-LE]]></title>
+    <description><![CDATA[Hersteller von Fachdiensten KOM-LE MÜSSEN im Rahmen ihrer eigenverantwortlichen 
+Tests, die von der gematik zur Ausführung bereitgestellten Testfälle 
+durchführen.]]></description>
+    <description_html><![CDATA[Hersteller von Fachdiensten KOM-LE MÜSSEN im Rahmen ihrer eigenverantwortlichen Tests, die von der gematik zur Ausführung bereitgestellten Testfälle durchführen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7338-01" type="leafRequirement" severity="SOLL" lastUpdate="2020-06-08" technicalID="ML-109445" revision="564926">
+    <title><![CDATA[Anzahl der KTR-AdV als Referenzobjekte]]></title>
+    <description><![CDATA[Hersteller einer KTR-AdV SOLLEN mindestens ein KTR-AdV Produkt in der TU 
+permanent als Referenzobjekt zur Verfügung stellen. Eine Abstimmung und die 
+Koordination finden über den Test & Transitionmanager der gematik statt. 
+Ausnahmen für die Verfügbarkeit von weniger als einem KTR-AdV als 
+Referenzobjekt SOLLEN mit dem Test & Transitionmanager der gematik abgestimmt 
+werden.]]></description>
+    <description_html><![CDATA[Hersteller einer KTR-AdV SOLLEN mindestens ein KTR-AdV Produkt in der TU permanent als Referenzobjekt zur Verfügung stellen. Eine Abstimmung und die Koordination finden über den Test &amp; Transitionmanager der gematik statt. Ausnahmen für die Verfügbarkeit von weniger als einem KTR-AdV als Referenzobjekt SOLLEN mit dem Test &amp; Transitionmanager der gematik abgestimmt werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7339-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-08-12" technicalID="ML-109446" revision="564926">
+    <title><![CDATA[Bereitstellung Testkartensätze für KTR-AdV]]></title>
+    <description><![CDATA[Hersteller der KTR-AdV MÜSSEN der gematik personalisierte Testkartensätze eGK 
+nach [gemSpec_TK_FD] bereitstellen. ]]></description>
+    <description_html><![CDATA[Hersteller der KTR-AdV MÜSSEN der gematik personalisierte Testkartensätze eGK nach [gemSpec_TK_FD] bereitstellen. ]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7340-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-08-12" technicalID="ML-109564" revision="564926">
+    <title><![CDATA[Bereitstellung von Testkarten KTR-AdV]]></title>
+    <description><![CDATA[Hersteller der KTR-AdV MÜSSEN spezifikationskonform physische und virtuelle 
+Testkarten eGK nach [gemSpec_TK_FD] bereitstellen.]]></description>
+    <description_html><![CDATA[Hersteller der KTR-AdV MÜSSEN spezifikationskonform physische und virtuelle Testkarten eGK nach [gemSpec_TK_FD] bereitstellen.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7342-01" type="leafRequirement" severity="SOLL" lastUpdate="2020-08-12" technicalID="ML-109566" revision="564926">
+    <title><![CDATA[Eindeutigkeit der Testkarte pro Testkartenkategorie]]></title>
+    <description><![CDATA[Hersteller der KTR-AdV SOLLEN sicherstellen, dass eGK Testkarten für KTR-AdV so 
+personalisiert sind, dass jeweils eine definierte Testkategorie berücksichtigt 
+wird.]]></description>
+    <description_html><![CDATA[Hersteller der KTR-AdV SOLLEN sicherstellen, dass eGK Testkarten für KTR-AdV so personalisiert sind, dass jeweils eine definierte Testkategorie berücksichtigt wird.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7343-01" type="leafRequirement" severity="SOLL" lastUpdate="2020-08-12" technicalID="ML-109567" revision="564926">
+    <title><![CDATA[Berücksichtigung von Vorgaben zur Schlüsselerzeugung eGK Testkarten für KTR-AdV]]></title>
+    <description><![CDATA[Hersteller der KTR-AdV SOLLEN sicherstellen, dass bei der Generierung 
+symmetrischer Schlüssel für die eGK Testkarten, die definierten Vorgaben nach 
+[gemSpec_TK_FD] der testdurchführenden Instanz der TU berücksichtigt werden.]]></description>
+    <description_html><![CDATA[Hersteller der KTR-AdV SOLLEN sicherstellen, dass bei der Generierung symmetrischer Schlüssel für die eGK Testkarten, die definierten Vorgaben nach [gemSpec_TK_FD] der testdurchführenden Instanz der TU berücksichtigt werden.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7344-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-08-12" technicalID="ML-109568" revision="564926">
+    <title><![CDATA[Integration multipler Anbieter für KTR-AdV]]></title>
+    <description><![CDATA[Hersteller eines mandantenfähigen Produktes KTR-AdV MÜSSEN mindestens 2 
+Krankenkassen integrieren.]]></description>
+    <description_html><![CDATA[Hersteller eines mandantenfähigen Produktes KTR-AdV MÜSSEN mindestens 2 Krankenkassen integrieren.]]></description_html>
+  </requirement>
+  <requirement id="TIP1-A_7345-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-08-12" technicalID="ML-109569" revision="564926">
+    <title><![CDATA[Bereitstellung SM-B für KTR-AdV]]></title>
+    <description><![CDATA[Hersteller einer mandantenfähigen KTR-AdV MÜSSEN sicherstellen, dass während 
+des produktübergreifenden Tests für jeden Mandanten eine SM-B verwaltet wird.]]></description>
+    <description_html><![CDATA[Hersteller einer mandantenfähigen KTR-AdV MÜSSEN sicherstellen, dass während des produktübergreifenden Tests für jeden Mandanten eine SM-B verwaltet wird.]]></description_html>
+  </requirement>
+  <requirement id="A_17809-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-01-19" technicalID="ML-114311" revision="564926">
+    <title><![CDATA[Bereitstellung weiterer ePA-Produkttypen für Zulassungstest]]></title>
+    <description><![CDATA[Der Hersteller eines der im Folgenden genannten Produkttypen MUSS die in seinen 
+produktübergreifenden EvT genutzten ePA-Produkte der TDI der TU für den 
+Zulassungstest zur Verfügung stellen. Hierzu gehören das ePA-Aktensystem, das 
+Frontend des Versicherten, der SGD1 sowie der Signaturdienst.]]></description>
+    <description_html><![CDATA[Der Hersteller eines der im Folgenden genannten Produkttypen MUSS die in seinen produktübergreifenden EvT genutzten ePA-Produkte der TDI der TU für den Zulassungstest zur Verfügung stellen. Hierzu gehören das ePA-Aktensystem, das Frontend des Versicherten, der SGD1 sowie der Signaturdienst. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_15641" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-91532" revision="564926">
+    <title><![CDATA[technischer Prozess für Aktenzustände]]></title>
+    <description><![CDATA[Der Hersteller eines ePA-Aktensystems MUSS eine oder mehrere Schnittstellen 
+anbieten, die es der TDI der TU ermöglicht, automatisiert Aktenkonten in die 
+folgenden Zustände zu bringen: 
+
+ * neues Aktenkonto erstellt
+ * bestehendes Aktenkonto gelöscht
+ * bestehendes Aktenkonto zurücksetzen auf Initialstand
+ * ein definierter Inhalt im Aktenkonto vorhanden]]></description>
+    <description_html><![CDATA[Der Hersteller eines ePA-Aktensystems MUSS eine oder mehrere Schnittstellen anbieten, die es der TDI der TU ermöglicht, automatisiert Aktenkonten in die folgenden Zustände zu bringen: <br/> <ul><li>neues Aktenkonto erstellt</li><li>bestehendes Aktenkonto gelöscht</li><li>bestehendes Aktenkonto zurücksetzen auf Initialstand</li><li>ein definierter Inhalt im Aktenkonto vorhanden<br/></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_15643" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-91534" revision="564926">
+    <title><![CDATA[Legitimierung von Testidentitäten]]></title>
+    <description><![CDATA[Der Hersteller eines ePA-Aktensystems MUSS die von der TDI der TU vorgegebenen 
+Testidentitäten für die Eröffnung und Verwaltung eines Kontos legitimieren.]]></description>
+    <description_html><![CDATA[Der Hersteller eines ePA-Aktensystems MUSS die von der TDI der TU vorgegebenen Testidentitäten für die Eröffnung und Verwaltung eines Kontos legitimieren.]]></description_html>
+  </requirement>
+  <requirement id="A_18806" type="leafRequirement" severity="MUSS" lastUpdate="2020-08-12" technicalID="ML-101526" revision="564926">
+    <title><![CDATA[Durchführung von gematik-Testfällen (EvT) beim ePA-Aktensystem]]></title>
+    <description><![CDATA[Hersteller von ePA-Aktensystemen MÜSSEN im Rahmen ihrer eigenverantwortlichen 
+Tests, die von der gematik zur Verfügung gestellten Testfälle durchführen.]]></description>
+    <description_html><![CDATA[Hersteller von ePA-Aktensystemen MÜSSEN im Rahmen ihrer eigenverantwortlichen Tests, die von der gematik zur Verfügung gestellten Testfälle durchführen.]]></description_html>
+  </requirement>
+  <requirement id="A_15644-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-109215" revision="564926">
+    <title><![CDATA[Importieren kryptografischer Artefakte]]></title>
+    <description><![CDATA[Der Hersteller eines ePA-Frontend des Versicherten MUSS die TDI der TU dadurch 
+unterstützen, dass das ePA-Frontend des Versicherten im Test kryptografische 
+Artefakte (z.B. Schlüssel oder Zertifikate) für das simulierte Aktensystem 
+akzeptiert und diese von der TDI der TU importiert werden können. ]]></description>
+    <description_html><![CDATA[Der Hersteller eines ePA-Frontend des Versicherten MUSS die TDI der TU dadurch unterstützen, dass das ePA-Frontend des Versicherten im Test kryptografische Artefakte (z.B. Schlüssel oder Zertifikate) für das simulierte Aktensystem akzeptiert und diese von der TDI der TU importiert werden können. ]]></description_html>
+  </requirement>
+  <requirement id="A_15695-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-109216" revision="564926">
+    <title><![CDATA[Geräte für ePA-Frontend des Versicherten]]></title>
+    <description><![CDATA[Der Hersteller eines ePA-Frontend des Versicherten MUSS bei
+
+ * der Erstzulassung und
+
+ * bei Folgezulassungen mit einem erheblichen Änderungsumfang im Vergleich zur 
+Vorversion
+ der TDI der TU ein vollständig vorinstalliertes Gerät für jedes unterstützte 
+Betriebssystem inkl. benötigter Lizenzen und Zugangsdaten bereitstellen. Auf 
+dem Gerät MUSS eine Test-App nach [gemSpec_Frontend_Vers] installiert sein.]]></description>
+    <description_html><![CDATA[Der Hersteller eines ePA-Frontend des Versicherten MUSS bei<br/>
+ 
+<ul>
+  <li>der Erstzulassung und<br/>
+  </li>
+  <li>bei Folgezulassungen mit einem erheblichen Änderungsumfang im Vergleich zur Vorversion<br/>
+  </li>
+</ul>
+der TDI der TU ein vollständig vorinstalliertes Gerät für jedes unterstützte Betriebssystem inkl. benötigter Lizenzen und Zugangsdaten bereitstellen. Auf dem Gerät MUSS eine Test-App nach [gemSpec_Frontend_Vers] installiert sein.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_18394-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-109218" revision="564926">
+    <title><![CDATA[Bereitstellung eines ePA-Frontend des Versicherten bei Folgezulassungen]]></title>
+    <description><![CDATA[Der Hersteller eines ePA-Frontend des Versicherten MUSS bei Folgezulassungen 
+die Geräte über eine der folgenden Möglichkeiten bereitstellen:
+
+ * Tausch des alten, der TDI der TU bereitgestellten Gerätes, durch ein 
+anderes mit entsprechend vorinstallierter Software, Zugangsdaten und Lizenzen 
+ * Bereitstellung der zu aktualisierenden Software (die Test-App und 
+notwendige Hilfsprogramme) inklusive 
+ * Anleitung zur Aktualisierung 
+ * Auflistung der erwarteten Software-Versionen und bei Bedarf, wie die 
+jeweilige Version geprüft werden kann 
+ * falls nötig, aktualisierte oder neue Lizenzen 
+ * Bereitstellung einer aktualisierten virtuellen Maschine mit 
+vorinstallierter Software, Zugangsdaten und Lizenzen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines ePA-Frontend des Versicherten MUSS bei Folgezulassungen die Geräte über eine der folgenden Möglichkeiten bereitstellen:<br/>
+ 
+<ol>
+  <li>Tausch des alten, der TDI der TU bereitgestellten Gerätes, durch ein anderes mit entsprechend vorinstallierter Software, Zugangsdaten und Lizenzen</li>
+  <li>Bereitstellung der zu aktualisierenden Software (die Test-App und notwendige Hilfsprogramme) inklusive</li>
+  <ul>
+    <li>Anleitung zur Aktualisierung</li>
+    <li>Auflistung der erwarteten Software-Versionen und bei Bedarf, wie die jeweilige Version geprüft werden kann</li>
+    <li>falls nötig, aktualisierte oder neue Lizenzen</li>
+  </ul>
+  <li>Bereitstellung einer aktualisierten virtuellen Maschine mit vorinstallierter Software, Zugangsdaten und Lizenzen.</li>
+</ol>]]></description_html>
+  </requirement>
+  <requirement id="A_17612-01" type="leafRequirement" severity="MUSS" lastUpdate="2020-06-08" technicalID="ML-109219" revision="564926">
+    <title><![CDATA[Alternative Identität erstellen]]></title>
+    <description><![CDATA[Ein Hersteller eines ePA-Frontend des Versicherten das die alternative 
+Authentisierung unterstützt, MUSS auf Anfrage der TDI der TU alternative 
+Identitäten des Versicherten bereitstellen.]]></description>
+    <description_html><![CDATA[Ein Hersteller eines ePA-Frontend des Versicherten das die alternative Authentisierung unterstützt, MUSS auf Anfrage der TDI der TU alternative Identitäten des Versicherten bereitstellen.<span style="background-color: #FFFF99;"><br/>
+</span>]]></description_html>
+  </requirement>
+  <requirement id="A_21193-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-08-31" technicalID="ML-122802" revision="564926">
+    <title><![CDATA[ePA-Frontend des Versicherten mit Testtreiber - grafische Logausgabe]]></title>
+    <description><![CDATA[Der Hersteller eines ePA-Frontend des Versicherten MUSS im Rahmen der 
+Bereitstellung einer App mit Testtreiberschnittstelle nach [gemSpec_ePA_FdV] 
+auf dem Testgerät eine grafische Logausgabe mit folgenden Informationen 
+bereitstellen:
+ ·         TSL-Update
+ o    Ergebnis (success/failed) 
+ o    Element TSLSequenceNumber der aktiven TSL (nach der Aktualitätsprüfung / 
+dem Update)
+ o    Erstes Element TSLLocation der aktiven TSL (nach der Aktualitätsprüfung 
+/ dem Update)
+ ·         Zertifikatsprüfung (z.B. bei TLS-Handshakes und 
+VAU-Verbindungsaufbauten)
+ o    Seriennummer des Zertifikats 
+ o    Ergebnis der Zertifikatsprüfung (success/failed) 
+ o    OCSP-Status (good/revoked/unknown/unavailable) 
+ ·         Operation
+ o    <Interface>::<Operationsname> 
+ o    Ergebnis der Operation (success/failed) 
+ Ein Eintrag "Operation" enthält jeweils eine technische Operation der 
+Komponenten Authentisierung, Autorisierung, Dokumentenverwaltung, SigD, SGD1, 
+SGD2 oder VZD.
+ Jeder Logeintrag MUSS mit einem lesbaren Zeitstempel (Datum und Uhrzeit) 
+beginnen. <=
+ Hinweis: 
+ Der OCSP-Status "unavailable" soll genutzt werden, falls aus irgendeinem 
+Grund kein OCSP-Status ermittelt werden konnte, z.B. Nicht-Erreichbarkeit des 
+OCSP. Die anderen drei Statuswerte entsprechen dem, was ein OCSP-Responder 
+zurückliefern kann.]]></description>
+    <description_html><![CDATA[Der Hersteller eines ePA-Frontend des Versicherten MUSS im Rahmen der Bereitstellung einer App mit Testtreiberschnittstelle nach [gemSpec_ePA_FdV] auf dem Testgerät eine grafische Logausgabe mit folgenden Informationen bereitstellen:<br/> ·         TSL-Update<br/> o    Ergebnis (success/failed) <br/> o    Element TSLSequenceNumber der aktiven TSL (nach der Aktualitätsprüfung / dem Update) <br/> o    Erstes Element TSLLocation der aktiven TSL (nach der Aktualitätsprüfung / dem Update) <br/> ·         Zertifikatsprüfung (z.B. bei TLS-Handshakes und VAU-Verbindungsaufbauten)<br/> o    Seriennummer des Zertifikats <br/> o    Ergebnis der Zertifikatsprüfung (success/failed) <br/> o    OCSP-Status (good/revoked/unknown/unavailable) <br/> ·         Operation<br/> o    &lt;Interface&gt;::&lt;Operationsname&gt; <br/> o    Ergebnis der Operation (success/failed) <br/> Ein Eintrag &quot;Operation&quot; enthält jeweils eine technische Operation der Komponenten Authentisierung, Autorisierung, Dokumentenverwaltung, SigD, SGD1, SGD2 oder VZD. <br/> Jeder Logeintrag MUSS mit einem lesbaren Zeitstempel (Datum und Uhrzeit) beginnen. &lt;=<br/> Hinweis: <br/> Der OCSP-Status &quot;unavailable&quot; soll genutzt werden, falls aus irgendeinem Grund kein OCSP-Status ermittelt werden konnte, z.B. Nicht-Erreichbarkeit des OCSP. Die anderen drei Statuswerte entsprechen dem, was ein OCSP-Responder zurückliefern kann.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_21195" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-12-06" technicalID="ML-114344" revision="564926">
+    <title><![CDATA[ePA-Frontend des Versicherten: Beschränkung Einsatz der Logausgabe]]></title>
+    <description><![CDATA[Das produktive Frontend des Versicherten DARF die Logausgabe nach A_21193-01 
+NICHT enthalten.]]></description>
+    <description_html><![CDATA[Das produktive Frontend des Versicherten DARF die Logausgabe nach A_21193-01 NICHT enthalten.]]></description_html>
+  </requirement>
+  <requirement id="A_17317" type="leafRequirement" severity="MUSS" lastUpdate="2019-06-21" technicalID="ML-93487" revision="564926">
+    <title><![CDATA[Zugang zum KTR-Consumer bzw. Basis-Consumer]]></title>
+    <description><![CDATA[Der Hersteller eines Basis-Consumers oder KTR-Consumers MUSS nach der Anbindung 
+seines Produktes in der TU dem Test der gematik einen Zugang auf die 
+Clientschnittstelle zu seinem Produkt einrichten.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Basis-Consumers oder KTR-Consumers MUSS nach der Anbindung seines Produktes in der TU dem Test der gematik einen Zugang auf die Clientschnittstelle zu seinem Produkt einrichten.]]></description_html>
+  </requirement>
+  <requirement id="A_17539" type="leafRequirement" severity="MUSS" lastUpdate="2019-10-15" technicalID="ML-93978" revision="564926">
+    <title><![CDATA[Zuweisung alternativer Versicherten-Identitäten]]></title>
+    <description><![CDATA[Der Hersteller eines Signaturdienstes MUSS der TDI der TU auf Anfrage 
+alternative Identitäten für Versicherte erstellen können.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Signaturdienstes MUSS der TDI der TU auf Anfrage alternative Identitäten für Versicherte erstellen können.]]></description_html>
+  </requirement>
+  <requirement id="A_17778" type="leafRequirement" severity="MUSS" lastUpdate="2019-06-21" technicalID="ML-94323" revision="564926">
+    <title><![CDATA[Zugriff auf Schnittstellen des Schlüsselgenerierungsdienstes]]></title>
+    <description><![CDATA[Der Hersteller eines Schlüsselgenerierungsdienstes MUSS der TDI der TU direkten 
+Zugriff durch die TU auf seine spezifizierten Schnittstellen bereitstellen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines Schlüsselgenerierungsdienstes MUSS der TDI der TU direkten Zugriff durch die TU auf seine spezifizierten Schnittstellen bereitstellen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="WA-A_2121" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-31945" revision="564926">
+    <title><![CDATA[Verfügbarkeit der Anwendung in der Testumgebung]]></title>
+    <description><![CDATA[Der Anbieter einer WANDA Smart MUSS auf Anfrage der gematik alle für 
+Bestätigungstests bereitgestellten Dienste einer WANDA Smart in der 
+Testumgebung zur Verfügung stellen.]]></description>
+    <description_html><![CDATA[Der Anbieter einer WANDA Smart MUSS auf Anfrage der gematik alle für Bestätigungstests bereitgestellten Dienste einer WANDA Smart in der Testumgebung zur Verfügung stellen.]]></description_html>
+  </requirement>
+  <requirement id="WA-A_2122" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-08" technicalID="ML-31946" revision="564926">
+    <title><![CDATA[Eigenverantwortlicher Test: Anbieter weiterer Anwendungen]]></title>
+    <description><![CDATA[Der Anbieter einer WANDA Smart MUSS im Rahmen der Eigenverantwortlichen Tests 
+seine Pflichten gemäß Tabelle Tab_Test_005 Eigenverantwortlicher Test erfüllen.]]></description>
+    <description_html><![CDATA[Der Anbieter einer WANDA Smart MUSS im Rahmen der Eigenverantwortlichen Tests seine Pflichten gemäß Tabelle Tab_Test_005 Eigenverantwortlicher Test erfüllen.]]></description_html>
+  </requirement>
+  <requirement id="WA-A_2123" type="leafRequirement" severity="SOLL" lastUpdate="2021-10-07" technicalID="ML-31947" revision="564926">
+    <title><![CDATA[Eigenverantwortlicher Test: Verwendung Template]]></title>
+    <description><![CDATA[Der Anbieter einer WANDA Smart SOLL im Rahmen der Eigenverantwortlichen Tests 
+das von der gematik erstellte Template für den Testbericht nutzen.]]></description>
+    <description_html><![CDATA[Der Anbieter einer WANDA Smart SOLL im Rahmen der Eigenverantwortlichen Tests das von der gematik erstellte Template für den Testbericht nutzen.]]></description_html>
+  </requirement>
+  <requirement id="WA-A_2124" type="leafRequirement" severity="MUSS" lastUpdate="2021-10-07" technicalID="ML-31948" revision="564926">
+    <title><![CDATA[Bestätigungstest: Anbieter weiterer Anwendungen]]></title>
+    <description><![CDATA[Der Anbieter einer WANDA Smart MUSS im Rahmen der Bestätigungstests seine 
+Pflichten gemäß Tabelle Tab_Test_007 Bestätigungstest erfüllen.]]></description>
+    <description_html><![CDATA[Der Anbieter einer WANDA Smart MUSS im Rahmen der Bestätigungstests seine Pflichten gemäß Tabelle Tab_Test_007 Bestätigungstest erfüllen.]]></description_html>
+  </requirement>
+</requirements>

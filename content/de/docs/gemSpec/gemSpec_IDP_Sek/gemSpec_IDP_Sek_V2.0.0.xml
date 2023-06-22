@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="A_22838" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129513" revision="567395">
+    <title><![CDATA[Entgegennahme von Sperrmeldungen]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS Sperrmeldungen von Sperrberechtigten, zu 
+von ihm verantworteten Authentisierungsmitteln, jederzeit entgegennehmen und 
+das betroffene Authentisierungsmittel oder auch den gesamten Zugang des Nutzers 
+daraufhin unverzüglich sperren.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS Sperrmeldungen von Sperrberechtigten, zu von ihm verantworteten Authentisierungsmitteln, jederzeit entgegennehmen und das betroffene Authentisierungsmittel oder auch den gesamten Zugang des Nutzers daraufhin unverzüglich sperren.]]></description_html>
+  </requirement>
+  <requirement id="A_22690" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128519" revision="567395">
+    <title><![CDATA[Darstellen der Voraussetzungen für sicheren Betrieb des Produkts im Betriebshandbuch]]></title>
+    <description><![CDATA[Der Hersteller des sektoralen IDP MUSS für sein Produkt im dazugehörigen 
+Betriebshandbuch leicht ersichtlich darstellen, welche Voraussetzungen vom 
+Betreiber und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer 
+Betrieb des Produktes gewährleistet werden kann.]]></description>
+    <description_html><![CDATA[Der Hersteller des sektoralen IDP MUSS für sein Produkt im dazugehörigen Betriebshandbuch leicht ersichtlich darstellen, welche Voraussetzungen vom Betreiber und der Betriebsumgebung erfüllt werden müssen, damit ein sicherer Betrieb des Produktes gewährleistet werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_22691" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128518" revision="567395">
+    <title><![CDATA[Sicherer Betrieb des Produkts nach Betriebshandbuch]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen IDP MUSS die im Betriebshandbuch des eingesetzten 
+sektoralen IDP beschriebenen Voraussetzungen für den sicheren Betrieb des 
+Produktes gewährleisten.]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen IDP MUSS die im Betriebshandbuch des eingesetzten sektoralen IDP beschriebenen Voraussetzungen für den sicheren Betrieb des Produktes gewährleisten.]]></description_html>
+  </requirement>
+  <requirement id="A_23201" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134276" revision="567395">
+    <title><![CDATA[Betriebliche Konstellation des sektoralen IDP]]></title>
+    <description><![CDATA[Der Anbieter sektoraler IDP MUSS die „Konstellation I“ gemäß [gemPKT_Betr 
+#„Anbieterkonstellationen“] einnehmen und somit den Betrieb selbst durchführen.
+ Der Anbieter sektoraler IDP MUSS keinen Versichertenhelpdesk (VHD) zur 
+Verfügung stellen.
+ Der Anbieter sektoraler IDP MUSS keinen User Helpdesk (UHD) zur Verfügung 
+stellen.
+
+Hinweis:
+ Der Betreiber eines sektoralen IDP stellt den Anbieterzulassungsantrag bei 
+der gematik und nimmt somit die Rolle "Anbieter sektoraler IDP" ein. 
+ Ansprechpartner der Versicherten ist die Krankenkasse. 
+ In allen Konstellation [gemPKT_Betr #„Anbieterkonstellationen“] wird der 
+Betrieb nicht zerteilt. Das heißt, es gibt immer genau einen Verantwortlichen 
+für den Betrieb.
+ Dieser Verantwortliche muss bezüglich des Betriebs ein uneingeschränktes 
+Direktions- und Weisungsrecht haben, welches auch auf mögliche 
+Unterauftragnehmer wirkt.
+ Dieser Verantwortliche ist im hier vorliegenden Fall der Anbieter des 
+sektoraler IDP.
+ Eine Situation, in welcher die Betriebsleistung ausschließlich durch 
+Unterauftragnehmer erbracht wird, ist in "Konstellation I" [gemKPT_Betr 
+#„Anbieterkonstellationen“] ausgeschlossen.
+ Für alle ITIL-Prozesse (z.B. INC, PRO, CHG, ... ) und für zu erbringende 
+Leistungen (RCA, Service Level, Audits, ...) ist aus gematik-Sicht der 
+Verantwortliche alleiniger single point of contact (SPOC).
+ Das Verbot der Auslagerung des Betriebs hat auch zum Hintergrund, dass der 
+Zulassungsnehmer grundsätzlich über dieses Direktions- und Weisungsrecht 
+verfügen muss.
+ Mögliche Verzögerungen im Störungsfall durch Kommunikationsübergänge zu 
+Unterauftragnehmern fallen zulasten des Anbieters.
+ Der Antragsteller informiert die gematik über die Unterauftragnehmer gemäß 
+gemSpec_IDP_Sek#A_23411.]]></description>
+    <description_html><![CDATA[Der Anbieter sektoraler IDP MUSS die „Konstellation I“ gemäß [gemPKT_Betr #„Anbieterkonstellationen“] einnehmen und somit den Betrieb selbst durchführen.<br/>
+ Der Anbieter sektoraler IDP MUSS keinen Versichertenhelpdesk (VHD) zur Verfügung stellen.<br/>
+ Der Anbieter sektoraler IDP MUSS keinen User Helpdesk (UHD) zur Verfügung stellen.<br/>
+ <br/>
+ <span style="font-style: italic;">Hinweis:<br/>
+  Der Betreiber eines sektoralen IDP stellt den Anbieterzulassungsantrag bei der gematik und nimmt somit die Rolle &quot;Anbieter sektoraler IDP&quot; ein. <br/>
+  Ansprechpartner der Versicherten ist die Krankenkasse. <br/>
+  In allen Konstellation [gemPKT_Betr #„Anbieterkonstellationen“] wird der Betrieb nicht zerteilt. Das heißt, es gibt immer genau einen Verantwortlichen für den Betrieb. <br/>
+  Dieser Verantwortliche muss bezüglich des Betriebs ein uneingeschränktes Direktions- und Weisungsrecht haben, welches auch auf mögliche Unterauftragnehmer wirkt.<br/>
+  Dieser Verantwortliche ist im hier vorliegenden Fall der Anbieter des sektoraler IDP.<br/>
+  Eine Situation, in welcher die Betriebsleistung <span style="font-weight: bold;">ausschließlich </span>durch Unterauftragnehmer erbracht wird, ist in &quot;Konstellation I&quot; [gemKPT_Betr #„Anbieterkonstellationen“] ausgeschlossen.<br/>
+  Für alle ITIL-Prozesse (z.B. INC, PRO, CHG, ... ) und für zu erbringende Leistungen (RCA, Service Level, Audits, ...) ist aus gematik-Sicht der Verantwortliche alleiniger single point of contact (SPOC).<br/>
+  Das Verbot der Auslagerung des Betriebs hat auch zum Hintergrund, dass der Zulassungsnehmer grundsätzlich über dieses Direktions- und Weisungsrecht verfügen muss.<br/>
+  Mögliche Verzögerungen im Störungsfall durch Kommunikationsübergänge zu Unterauftragnehmern fallen zulasten des Anbieters.<br/>
+  Der Antragsteller informiert die gematik über die Unterauftragnehmer gemäß gemSpec_IDP_Sek#A_23411.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23411" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-136000" revision="567395">
+    <title><![CDATA[Nennung der Unterauftragnehmer des Anbieters]]></title>
+    <description><![CDATA[Der Anbieter MUSS der gematik seine Unterauftragnehmer zum Zeitpunkt der 
+Antragsstellung auf Anbieterzulassung mitteilen.
+ Bei Änderungen (Hinzukommen / Wegfall) der Unterauftragnehmer MUSS der 
+Anbieter die gematik informieren.
+ Die gematik behält sich in begründeten Einzelfällen das Recht vor, einzelne 
+Unterauftragnehmer vom Betrieb auszuschließen.
+Hinweis:
+ Dieses Widerspruchsrecht ist begründet aus Verstößen gegen Anforderungen oder 
+gesetzlichen Regelungen (z.B. Verstoß gegen gemSpec_IDP_Sek#A_23099).
+ Um Problemen vorzubeugen, ist eine rechtzeitige Information sinnvoll.]]></description>
+    <description_html><![CDATA[Der Anbieter MUSS der gematik seine Unterauftragnehmer zum Zeitpunkt der Antragsstellung auf Anbieterzulassung mitteilen.<br/>
+Bei Änderungen (Hinzukommen / Wegfall) der Unterauftragnehmer MUSS der Anbieter die gematik informieren.<br/>
+Die gematik behält sich in begründeten Einzelfällen das Recht vor, einzelne Unterauftragnehmer vom Betrieb auszuschließen.<span id="polarion-comment:1842"></span><br/>
+ <span style="font-style: italic;">Hinweis:<br/>
+  Dieses Widerspruchsrecht ist begründet aus Verstößen gegen Anforderungen oder gesetzlichen Regelungen (z.B. Verstoß gegen gemSpec_IDP_Sek#A_23099).<br/>
+  Um Problemen vorzubeugen, ist eine rechtzeitige Information sinnvoll.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23337" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-135352" revision="567395">
+    <title><![CDATA[Mindestvorgaben für Schlüssel von sektoralen IDPs als Teilnehmer der TI-Föderation]]></title>
+    <description><![CDATA[Ein sektoraler IDP als Teilnehmer der TI-Föderation MUSS bei dem eingesetzten 
+Schlüsselmaterial (Signatur,  Authorisierungstoken, Entity Statement, etc.), 
+folgende Vorgaben umsetzen:
+
+ * Alle verwendeten Schlüssel MÜSSEN ein Sicherheitsniveau von 120 Bit 
+ermöglichen (vgl. [gemSpec_Krypt#5 "Migration 120-Bit Sicherheitsniveau"]).
+ * Alle ECC-Schlüssel MÜSSEN auf einem folgenden der Domainparameter (Kurven) 
+basieren:
+ * 
+ * P-256 oder P-384 [FIPS-186-4]]]></description>
+    <description_html><![CDATA[Ein sektoraler IDP als Teilnehmer der TI-Föderation MUSS bei dem eingesetzten Schlüsselmaterial (Signatur,  Authorisierungstoken, Entity Statement, etc.), folgende Vorgaben umsetzen:<br/> <ol><li>Alle verwendeten Schlüssel MÜSSEN ein Sicherheitsniveau von 120 Bit ermöglichen (vgl. [gemSpec_Krypt#5 &quot;Migration 120-Bit Sicherheitsniveau&quot;]).</li><li>Alle ECC-Schlüssel MÜSSEN auf einem <span id="polarion-comment:1803"></span>folgenden der Domainparameter (Kurven) basieren:</li><li style="list-style: none"><ol><li>P-256 oder P-384 [FIPS-186-4]</li></ol></li></ol>]]></description_html>
+  </requirement>
+  <requirement id="A_23044" type="leafRequirement" severity="KANN" lastUpdate="2023-02-06" technicalID="ML-133131" revision="567395">
+    <title><![CDATA[Unterstützung von Diensten außerhalb der TI]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP KANN die Anmeldung an weiteren Diensten 
+außerhalb der Föderationunterstützen und diesen die Authentisierung von Nutzern 
+auf Basis der bestehenden digitalen Identitäten anbieten.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der Anbieter des sektoralen IDP KANN die Anmeldung an weiteren Diensten außerhalb der Föderation <span style="font-size: 10pt;line-height: 1.5;">unterstützen</span> und diesen die Authentisierung von Nutzern auf Basis der bestehenden digitalen Identitäten anbieten.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22239" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-08" technicalID="ML-124922" revision="567395">
+    <title><![CDATA[Schützenswerte Objekte]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS die folgenden 
+kryptographischen Objekte als schützenswerte Objekte in seinem 
+Sicherheitskonzept berücksichtigen: (a) Private Schlüssel, (b) Öffentlicher 
+Schlüssel, (c) Öffentliche Schlüssel von registrierten Clients, (d) Datensätze 
+zu den einzelnen Nutzern, (e) Authentisierungsinformationen von 
+Sperrberechtigten, (f) Dokumentation über beauftragte und durchgeführte 
+Sperrungen, (g) Statusinformationen, (h) Authentisierungsinformationen zur 
+Authentisierung von internen Akteuren bzw. Rollen, (i) Protokolldaten, (j) 
+Konfigurationsdaten.]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS die folgenden kryptographischen Objekte als schützenswerte Objekte in seinem Sicherheitskonzept berücksichtigen: (a) Private Schlüssel, (b) Öffentlicher Schlüssel, (c) Öffentliche Schlüssel von registrierten Clients, (d) Datensätze zu den einzelnen Nutzern, (e) Authentisierungsinformationen von Sperrberechtigten, (f) Dokumentation über beauftragte und durchgeführte Sperrungen, (g) Statusinformationen, (h) Authentisierungsinformationen zur Authentisierung von internen Akteuren bzw. Rollen, (i) Protokolldaten, (j) Konfigurationsdaten.<span id="polarion-comment:1527"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22240" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-124923" revision="567395">
+    <title><![CDATA[Berücksichtigung OWASP-Top-10-Risiken]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS Maßnahmen zum Schutz vor den 
+zum Zulassungszeitpunkt aktuellen OWASP-Top-10-Risiken umsetzen und 
+dokumentieren, wie es vorgesehen ist, ebenfalls auf die nach dem 
+Zulassungszeitpunkt aktuellen OWASP-Top-10-Risiken zu reagieren.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS Maßnahmen zum Schutz vor den zum Zulassungszeitpunkt aktuellen OWASP-Top-10-Risiken umsetzen und dokumentieren, wie es vorgesehen ist, ebenfalls auf die nach dem Zulassungszeitpunkt aktuellen OWASP-Top-10-Risiken zu reagieren.]]></description_html>
+  </requirement>
+  <requirement id="A_22241" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-124924" revision="567395">
+    <title><![CDATA[Interner Datenaustausch der Komponenten des sektoralen Identity Provider]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS beim internen 
+Datenaustausch die Integrität, Authentizität und Vertraulichkeit der Daten 
+sichern.]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS beim internen Datenaustausch die Integrität, Authentizität und Vertraulichkeit der Daten sichern.]]></description_html>
+  </requirement>
+  <requirement id="A_22242-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-07" technicalID="ML-132880" revision="567395">
+    <title><![CDATA[Gesicherte externe Schnittstellen des sektoralen Identity Provider]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS für den Datenaustausch mit 
+anderen Rollen und Diensten Mechanismen zur Sicherung der Datenintegrität, der 
+Authentizität und der Vertraulichkeit der Daten zur Verfügung stellen. Hierzu 
+gehören z. B. die Schnittstellen vom Anbieter eines sektoralen Identity 
+Provider zur Attributbestätigenden Stelle für die Übermittlung der Attribute 
+bei der Einrichtung eines Nutzers sowie von Supportfälle.]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS für den Datenaustausch mit anderen Rollen und Diensten Mechanismen zur Sicherung der Datenintegrität, der Authentizität und der Vertraulichkeit der Daten zur Verfügung stellen. Hierzu gehören z. B. die Schnittstellen vom Anbieter eines sektoralen Identity Provider zur Attributbestätigenden Stelle für die Übermittlung der Attribute bei der Einrichtung eines Nutzers sowie von Supportfälle.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_22243-02" type="leafRequirement" severity="SOLL" lastUpdate="2023-02-07" technicalID="ML-134204" revision="567395">
+    <title><![CDATA[Nutzung bestehender Datensätze bei Registrierung für Endanwender (Versicherte)]]></title>
+    <description><![CDATA[Der Anbieter des sektorale Identity Provider SOLL für die Registrierung der 
+Endanwender die bestehenden Datensätze der Endanwender (Versicherte) beim 
+Kostenträger verwenden, so wie sie für eine Identifikation nach [GKV-SV 
+Richtlinie "Kontakt mit Versicherten] beschrieben wurden.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektorale Identity Provider SOLL für die Registrierung der Endanwender die bestehenden Datensätze der Endanwender (Versicherte) beim Kostenträger verwenden, so wie sie für eine Identifikation nach [GKV-SV Richtlinie &quot;Kontakt mit Versicherten] beschrieben wurden.]]></description_html>
+  </requirement>
+  <requirement id="A_22244" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-124927" revision="567395">
+    <title><![CDATA[Trennung der Betriebsumgebungen]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS sicherstellen, dass das 
+Testsystem von dem Produktivsystem technisch, organisatorisch und betrieblich 
+so getrennt wird, dass keine gegenseitige Beeinflussung und keine Verwechslung 
+möglich sind. ]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS sicherstellen, dass das Testsystem von dem Produktivsystem technisch, organisatorisch und betrieblich so getrennt wird, dass keine gegenseitige Beeinflussung und keine Verwechslung möglich sind. ]]></description_html>
+  </requirement>
+  <requirement id="A_22245" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-124928" revision="567395">
+    <title><![CDATA[Datenschutzgerechte Einrichtungs- und Sperrprozesse]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS die Einrichtungs- und 
+Sperrprozesse datenschutzgerecht ausgestalten, d.h. insbesondere sind für die 
+Verarbeitung der Antrags- und Sperrauftragsdaten die Datenschutzgrundsätze 
+gemäß Art. 5 DSGVO zu berücksichtigen, sowie die technischen und 
+organisatorischen Maßnahmen nach Art. 25 und Art. 32 DSGVO zu treffen.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der Anbieter eines sektoralen Identity Provider MUSS die Einrichtungs- und Sperrprozesse datenschutzgerecht ausgestalten, d.h. insbesondere sind für die Verarbeitung der Antrags- und Sperrauftragsdaten die Datenschutzgrundsätze gemäß Art. 5 DSGVO zu berücksichtigen, sowie die technischen und organisatorischen Maßnahmen nach Art. 25 und Art. 32 DSGVO zu treffen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22246" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-15" technicalID="ML-124929" revision="567395">
+    <title><![CDATA[Löschung von Nutzerinformationen]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS die Attributsdaten und 
+Sperraufträge zu einem Nutzer unverzüglich löschen, sobald die gesetzlichen 
+oder vertraglichen Aufbewahrungsfristen erreicht sind.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der Anbieter eines sektoralen Identity Provider MUSS die Attributsdaten und Sperraufträge zu einem Nutzer unverzüglich löschen, sobald die gesetzlichen oder vertraglichen Aufbewahrungsfristen erreicht sind.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22839" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129516" revision="567395">
+    <title><![CDATA[Fehlerprotokollierung]]></title>
+    <description><![CDATA[Falls der Anbieter eines sektoralen IDP eine Protokollierung zum Zwecke der 
+Fehler- bzw. Störungsbehebung durchführen muss, MÜSSEN die Protokolldaten 
+entsprechend dem Datenschutzgrundsatz der Datenminimierung (gemäß Art. 5 Abs. 1 
+Satz 1 lit.c DSGVO unter Berücksichtigung der Art. 25, 32 DSGVO) derart 
+gestaltet sein, dass nur personenbezogene Daten in der Art und dem Umfang 
+enthalten sind, wie sie zur Behebung erforderlich sind. Insbesondere MUSS der 
+Anbieter eines sektoralen IDP sicherstellen, dass ein Bezug zwischen Nutzer und 
+Fachdienst aus den Protokollen nicht ersichtlich sein.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Falls der Anbieter eines sektoralen IDP eine Protokollierung zum Zwecke der Fehler- bzw. Störungsbehebung durchführen muss, MÜSSEN die Protokolldaten entsprechend dem Datenschutzgrundsatz der Datenminimierung (gemäß Art. 5 Abs. 1 Satz 1 lit.c DSGVO unter Berücksichtigung der Art. 25, 32 DSGVO) derart gestaltet sein, dass nur personenbezogene Daten in der Art und dem Umfang enthalten sind, wie sie zur Behebung erforderlich sind.</span> Insbesondere MUSS der Anbieter eines sektoralen IDP sicherstellen, dass ein Bezug zwischen Nutzer und Fachdienst aus den Protokollen nicht ersichtlich sein.<span id="polarion-comment:1505"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23021" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133036" revision="567395">
+    <title><![CDATA[Trennung von Diensten der Föderation und weiteren unterstützten Anwendungen]]></title>
+    <description><![CDATA[Wenn der Anbieter eines sektoralen Identity Providers die Anmeldung an weiteren 
+Dienste außerhalb der Föderation unterstützt MUSS sichergestellt sein, dass die 
+Anforderungen an Verfügbarkeit, Performance und Sicherheit der Schnittstellen 
+für Fachdienste der Föderation erfüllt werden.]]></description>
+    <description_html><![CDATA[Wenn der Anbieter eines sektoralen Identity Providers die Anmeldung an weiteren Dienste außerhalb der Föderation unterstützt MUSS sichergestellt sein, dass die Anforderungen an Verfügbarkeit, Performance und Sicherheit der Schnittstellen für Fachdienste der Föderation erfüllt werden.<span id="polarion-comment:1596"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23023" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133039" revision="567395">
+    <title><![CDATA[Sicherung externen Schnittstellen gegen bösartige Eingaben]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS sicherstellen, dass alle Eingabewerte, welche vom 
+sektoralen IDP über externe Schnittstellen (siehe Tabelle "
+Schnittstellenübersicht") entgegengenommen und verarbeitet werden, auf 
+schadhafte Werte geprüft werden.]]></description>
+    <description_html><![CDATA[Der sektorale IDP MUSS sicherstellen, dass alle Eingabewerte, welche vom sektoralen IDP über externe Schnittstellen (siehe Tabelle &quot;<span style="font-style: italic;">Schnittstellenübersicht</span>&quot;) entgegengenommen und verarbeitet werden,<span id="polarion-comment:1506"></span> auf schadhafte Werte geprüft werden.<span id="polarion-comment:1597"></span><br/>]]></description_html>
+  </requirement>
+  <requirement id="A_23022" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133038" revision="567395">
+    <title><![CDATA[Prozesse zum Ändern oder Löschen von Daten der Authentisierungsprozesse]]></title>
+    <description><![CDATA[Werden Daten der Authentisierungsprozesse im sektoralen IDP geändert oder 
+gelöscht, ohne dass der Nutzer direkt involviert ist, so MUSS der Anbieter des 
+sektoralen IDP sicherstellen, dass die operativen Prozesse dazu ausschließlich 
+im 4-Augen-Prinzip ausgeführt werden. Der Nutzer ist über die Änderungen zu 
+informieren und die Änderung MUSS erkennbar sein.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #172B4D;line-height: 1.5;">Werden Daten der Authentisierungsprozesse im sektoralen IDP geändert oder gelöscht, ohne dass der Nutzer direkt involviert ist, so MUSS der Anbieter des sektoralen IDP sicherstellen, dass die operativen Prozesse dazu ausschließlich im 4-Augen-Prinzip ausgeführt werden. Der Nutzer ist über die Änderungen zu informieren und die Änderung MUSS erkennbar sein.<span id="polarion-comment:1798"></span><span id="polarion-comment:1817"></span><span id="polarion-comment:1838"></span><span id="polarion-comment:1663"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23499" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-136621" revision="567395">
+    <title><![CDATA[Prozesse zum Ändern oder Löschen von personenbezogene Daten]]></title>
+    <description><![CDATA[Werden personenbezogene Daten im sektoralen IDP geändert oder gelöscht, ohne 
+dass der Betroffene direkt involviert ist, so MUSS der Anbieter des sektoralen 
+IDP sicherstellen, dass die operativen Prozesse dazu ausschließlich im 
+4-Augen-Prinzip ausgeführt werden. Der Nutzer ist über die Änderungen zu 
+informieren. Personenbezogene Daten, die über den Synchronisationsprozess mit 
+den Kassensystemen geändert oder gelöscht werden, sind von diesem operativen 
+Prozess nicht betroffen.]]></description>
+    <description_html><![CDATA[Werden personenbezogene Daten im sektoralen IDP geändert oder gelöscht, ohne dass der Betroffene direkt involviert ist, so MUSS der Anbieter des sektoralen IDP sicherstellen, dass die operativen Prozesse dazu ausschließlich im 4-Augen-Prinzip ausgeführt werden. Der Nutzer ist über die Änderungen zu informieren. Personenbezogene Daten, die über den Synchronisationsprozess mit den Kassensystemen geändert oder gelöscht werden, sind von diesem operativen Prozess nicht betroffen.<span id="polarion-comment:1839"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22824" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129474" revision="567395">
+    <title><![CDATA[Verhalten bei Vollauslastung]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS den Dienst so 
+konfigurieren, dass bei Vollauslastung der Systemressourcen im sektoralen 
+Identity Provider keine weiteren Verbindungen angenommen werden und dieser 
+stattdessen mit dem HTTP-Statuscode "429 - Too Many Requests" antwortet.]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS den Dienst so konfigurieren, dass bei Vollauslastung der Systemressourcen im sektoralen Identity Provider keine weiteren Verbindungen angenommen werden und dieser stattdessen mit dem HTTP-Statuscode &quot;429 - Too Many Requests&quot; antwortet.]]></description_html>
+  </requirement>
+  <requirement id="A_22692" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128520" revision="567395">
+    <title><![CDATA[Kriterien für die Standortwahl von Rechenzentren]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS nachweisen, dass er die aktuellen 
+Empfehlungen des BSI bei der Standortwahl seiner Rechenzentren vollumfänglich 
+umsetzt. Der Anbieter des sektoralen IDP MUSS Unterschreitungen der 
+Empfehlungen des BSI begründen und die Abmilderung der Risiken begründet 
+nachweisen. Der Anbieter des sektoralen IDP MUSS einen Prozess für die 
+Umsetzung zukünftige Empfehlungen des BSI bei der Standortwahl seiner 
+Rechenzentren nachweisen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS nachweisen, dass er die aktuellen Empfehlungen des BSI bei der Standortwahl seiner Rechenzentren vollumfänglich umsetzt. Der Anbieter des sektoralen IDP MUSS Unterschreitungen der Empfehlungen des BSI begründen und die Abmilderung der Risiken begründet nachweisen. Der Anbieter des sektoralen IDP MUSS einen Prozess für die Umsetzung zukünftige Empfehlungen des BSI bei der Standortwahl seiner Rechenzentren nachweisen.]]></description_html>
+  </requirement>
+  <requirement id="A_22250" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-11" technicalID="ML-124933" revision="567395">
+    <title><![CDATA[Schutz der Verbindung zum sektoralen Identity Provider]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS sicherstellen, dass die 
+Schnittstellen des sektoralen Identity Provider nur über eine gegen Abhören, 
+Manipulation und Replay-Angriffe geschützte Verbindung genutzt werden können.]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen Identity Provider MUSS sicherstellen, dass die Schnittstellen des sektoralen Identity Provider nur über eine gegen Abhören, Manipulation und Replay-Angriffe geschützte Verbindung genutzt werden können.]]></description_html>
+  </requirement>
+  <requirement id="A_22512" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-126997" revision="567395">
+    <title><![CDATA[Schutz der Schnittstellen des sektoralen Identity Provider ins Internet]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen IDP MUSS sicherstellen, dass seine Schnittstellen 
+ins Internet an allen Standorten durch einen DDoS-mitigierenden Dienstleister 
+geschützt werden.]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen IDP MUSS sicherstellen, dass seine Schnittstellen ins Internet an allen Standorten durch einen DDoS-mitigierenden Dienstleister geschützt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_23099" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133299" revision="567395">
+    <title><![CDATA[Datenverarbeitung innerhalb der Europäischen Union]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen IDP MUSS im Sinne der vollständigen 
+DSGVO-Konformität sicherstellen, dass die Datenverarbeitung innerhalb der 
+Europäischen Union erfolgt und dieses auch nachweisen.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der Anbieter eines sektoralen IDP MUSS im Sinne der vollständigen DSGVO-Konformität sicherstellen, dass die Datenverarbeitung innerhalb der Europäischen Union erfolgt und dieses auch nachweisen.<span id="polarion-comment:1631"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22694" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128526" revision="567395">
+    <title><![CDATA[Georedundanz des sektoralen Identity Provider]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS diesen an mindestens zwei 
+Standorten betreiben.
+Jeder Standort MUSS dabei die Performancevorgaben allein erfüllen. 
+Eine getrennte Adressierung durch zugreifende Anwendungsfrontends und 
+Fachdiensten MUSS hierdurch möglich sein - alternativ ist diese Adressierung 
+auch durch den DDoS-mitigierenden Dienstleister erlaubt.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS diesen an mindestens zwei Standorten betreiben. <br/>Jeder Standort MUSS dabei die Performancevorgaben allein erfüllen. <br/>Eine getrennte Adressierung durch zugreifende Anwendungsfrontends und Fachdiensten MUSS hierdurch möglich sein - alternativ ist diese Adressierung auch durch den DDoS-mitigierenden Dienstleister erlaubt.<br/><span id="polarion-comment:1509"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22695" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128525" revision="567395">
+    <title><![CDATA[Mindestabstand für Georedundanz des sektoralen Identity Provider]]></title>
+    <description><![CDATA[Ab dem 31.12.2023 MUSS der Anbieter des sektoralen Identity Provider seinen 
+Dienst an zwei Standorten gemäß A_22692 betreiben, wobei eine Unterschreitung 
+des Abstandes von 100 km gemäß A_22692 nicht zulässig ist.]]></description>
+    <description_html><![CDATA[Ab dem 31.12.2023 MUSS der Anbieter des sektoralen Identity Provider seinen Dienst an zwei Standorten gemäß A_22692 betreiben, wobei eine Unterschreitung des Abstandes von 100 km gemäß A_22692 nicht zulässig ist.]]></description_html>
+  </requirement>
+  <requirement id="A_22506-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-07" technicalID="ML-134767" revision="567395">
+    <title><![CDATA[Unabhängiges Bedienpersonal pro Standort des sektoralen Identity Provider]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS pro Standort ein 
+unabhängiges Bedienpersonal vorhalten, um die Risiken der Standortvorgaben des 
+BSI tragen zu können.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS pro Standort ein unabhängiges Bedienpersonal vorhalten, um die Risiken der Standortvorgaben des BSI tragen zu können.]]></description_html>
+  </requirement>
+  <requirement id="A_22508" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-126858" revision="567395">
+    <title><![CDATA[Ausschluss von nicht erlaubten Authenticator-Modul Versionen (Rohdatenerfassung v.02)]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS von ihm nicht erlaubte 
+Authenticator-Module (anhand der Versionsnummern) ablehnen, von einer 
+Kommunikation mit dem sektoralen Identity Provider ausschließen und diesen 
+Verbindungsversuch mit dem Status-Code 79105 in den Rohdaten protokollieren.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider MUSS von ihm nicht erlaubte Authenticator-Module (anhand der Versionsnummern) ablehnen, von einer Kommunikation mit dem sektoralen Identity Provider ausschließen und diesen Verbindungsversuch mit dem Status-Code 79105 in den Rohdaten protokollieren.]]></description_html>
+  </requirement>
+  <requirement id="A_22509" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-126861" revision="567395">
+    <title><![CDATA[Ausschluss bei fehlenden Authenticator-Modul Versionsnummern (Rohdatenerfassung v.02)]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS Authenticator-Module mit fehlenden 
+Versionsnummern ablehnen, von einer Kommunikation mit dem sektoralen Identity 
+Provider ausschließen und diesen Verbindungsversuch in den Rohdaten mit dem 
+Error-Code 403 protokollieren.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider MUSS Authenticator-Module mit fehlenden Versionsnummern ablehnen, von einer Kommunikation mit dem sektoralen Identity Provider ausschließen und diesen Verbindungsversuch in den Rohdaten mit dem Error-Code 403 protokollieren.]]></description_html>
+  </requirement>
+  <requirement id="A_22931" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-07" technicalID="ML-132222" revision="567395">
+    <title><![CDATA[Zu verwendende Produktversion in der Kommunikation zum IDP]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS in Requests an den IDP seine 
+Produktversion übermitteln.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS in Requests an den IDP seine Produktversion übermitteln.]]></description_html>
+  </requirement>
+  <requirement id="A_22253" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-124935" revision="567395">
+    <title><![CDATA[Ausschluss bestimmter Authenticator-Modul Versionen von der Kommunikation]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS die vom Authenticator-Modul mitgeteilte 
+Versionsnummer erkennen und festgelegte Versionsnummern über eine blockinglist 
+von einer Kommunikation ausschließen können.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider MUSS die vom Authenticator-Modul mitgeteilte Versionsnummer erkennen und festgelegte Versionsnummern über eine blockinglist von einer Kommunikation ausschließen können.<span id="polarion-comment:1523"></span><span id="polarion-comment:1599"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22254-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-02" technicalID="ML-126859" revision="567395">
+    <title><![CDATA[Ausschluss von Authenticator-Modul Versionen (Rohdatenerfassung v.02)]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS auf Anweisung der gematik 
+Authenticator-Module mit bestimmten Versionsnummern von einer Kommunikation mit 
+dem sektoralen Identity Provider ausschließen und diesen Verbindungsversuch in 
+den Rohdaten protokollieren.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider MUSS auf Anweisung der gematik Authenticator-Module mit bestimmten Versionsnummern von einer Kommunikation mit dem sektoralen Identity Provider ausschließen und diesen Verbindungsversuch in den Rohdaten protokollieren.]]></description_html>
+  </requirement>
+  <requirement id="A_23192" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134205" revision="567395">
+    <title><![CDATA[Maximale Verwendungsdauer für Schlüssel]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS Schlüsselpaare welche zur 
+Signatur von Entity Statements bzw.ID_TOKEN oder zur TLS-Authentisierung 
+verwendet werden, nach maximal 398 Tagen austauschen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS Schlüsselpaare welche zur Signatur von Entity Statements bzw. <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> oder zur TLS-Authentisierung verwendet werden, nach maximal <span style="font-size: 10pt;line-height: 1.5;">398 Tagen austauschen.<span id="polarion-comment:1692"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22864" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129574" revision="567395">
+    <title><![CDATA[Umsetzung von Operationen in einer Vertrauenswürdigen Ausführungsumgebung (VAU)]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS die Verarbeitung aller Operationen welche die Ziele gemäß
+A_23018, A_23019 und A_22959 gewährleisten in einer Vertrauenswürdigen 
+Ausführungsumgebung umsetzen. Die HTTP-Verbindungen zwischen Fachdiensten und 
+sektoralem IDP MÜSSEN als mTLS-Verbindungen ausgelegt werden, welche innerhalb 
+der VAU terminieren.]]></description>
+    <description_html><![CDATA[Der sektorale IDP MUSS die Verarbeitung aller Operationen welche die Ziele gemäß <span style="font-size: 10pt;line-height: 1.5;">A_23018, A_23019 und A_22959 gewährleisten </span>in einer Vertrauenswürdigen Ausführungsumgebung umsetzen. Die HTTP-Verbindungen zwischen Fachdiensten und sektoralem IDP MÜSSEN als mTLS-Verbindungen<span id="polarion-comment:1646"></span> ausgelegt werden, welche innerhalb der VAU terminieren.]]></description_html>
+  </requirement>
+  <requirement id="A_23002" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-132956" revision="567395">
+    <title><![CDATA[sicherer Betrieb der Vertrauenswürdigen Ausführungsumgebung (VAU)]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS sicherstellen, dass alle Operationen, 
+welche die Ziele gemäß A_23018, A_23019 und A_22959 gewährleisten, in einer 
+vertrauenswürdigen Ausführungsumgebung umgesetzt werden.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS sicherstellen, dass alle Operationen, welche die Ziele gemäß A_23018, A_23019 und A_22959 gewährleisten, in einer vertrauenswürdigen Ausführungsumgebung umgesetzt werden.<span id="polarion-comment:1602"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23018" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-133011" revision="567395">
+    <title><![CDATA[Anforderungen an den Schutz vor Profilbildung]]></title>
+    <description><![CDATA[* Aus den Daten, welche zum Zweck eines Reporting an die gematik erstellt 
+werden, DARF es NICHT möglich sein, dass eine Zuordnung von Fachdiensten 
+zu einzelnen Authentisierungen oder Nutzern durchgeführt werden kann.
+ * Die Verknüpfung einer Nutzeridentität / Authentisierung zu einem Fachdienst 
+DARF sowohl für Dritte als auch den Betreiber selbst NICHT einsehbar sein.]]></description>
+    <description_html><![CDATA[<div style="margin-left: 2em"><ul><li>Aus den Daten, welche zum Zweck eines Reporting an die gematik erstellt werden, DARF es NICHT möglich sein, dass eine Zuordnung von Fachdiensten zu einzelnen Authentisierungen oder Nutzern durchgeführt werden kann.</li><li><span style="font-size: 11pt;color: #172B4D;line-height: 1.5;">Die Verknüpfung einer Nutzeridentität / Authentisierung zu einem Fachdienst DARF sowohl für Dritte als auch den Betreiber selbst NICHT einsehbar sein</span>.<span id="polarion-comment:1836"></span></li></ul></div>]]></description_html>
+  </requirement>
+  <requirement id="A_23019" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-133010" revision="567395">
+    <title><![CDATA[Anforderungen an den Schutz der Operationen in einer Vertrauenswürdigen Ausführungsumgebung (VAU)]]></title>
+    <description><![CDATA[* Sowohl Dritte als auch der Betreiber selbst DARF NICHT Zugriff auf das 
+Schlüsselmaterial der TLS-Verbindungen haben.
+ * Sowohl Dritte als auch der Betreiber selbst DARF NICHT Zugriff auf die für 
+die Signatur vonID_TOKEN verwendeten Schlüssel haben.
+ * Sowohl Dritte als auch der Betreiber selbst DARF NICHT Zugriff auf die im 
+AUTHORIZATION_CODE und in der Request-URI kodierten Informationen haben.]]></description>
+    <description_html><![CDATA[<ul><li>Sowohl Dritte als auch der Betreiber selbst DARF NICHT Zugriff auf das Schlüsselmaterial der TLS-Verbindungen haben.<span id="polarion-comment:1371"></span></li><li>Sowohl Dritte als auch der Betreiber selbst DARF NICHT Zugriff auf die für die Signatur von <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> verwendeten Schlüssel haben.</li><li>Sowohl Dritte als auch der Betreiber selbst DARF NICHT Zugriff auf die im <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> und in der Request-URI kodierten Informationen haben.</li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_22959" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132631" revision="567395">
+    <title><![CDATA[Prozess zur Consent-Freigabe durch den Nutzer]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS dafür sorgen, dass der Prozess zur 
+Freigabe des Consent durch den Nutzer verschlüsselt und nicht einsehbar für 
+Dritte oder den Betreiber selbst erfolgt.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS dafür sorgen, dass der Prozess zur Freigabe des Consent durch den Nutzer verschlüsselt und nicht einsehbar für Dritte oder den Betreiber selbst erfolgt.<span id="polarion-comment:1011"></span><span id="polarion-comment:1055"></span><span id="polarion-comment:1573"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22829" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129481" revision="567395">
+    <title><![CDATA[Anbieter sektoraler IDP Speicherung Schlüsselmaterial in HSM]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS das private Schlüsselmaterial für 
+kryptografische Verfahren in einem HSM speichern, dessen Eignung durch eine 
+erfolgreiche Evaluierung nachgewiesen wurde. Als Evaluierungsschemata kommen 
+dabei Common Criteria oder Federal Information Processing Standard (FIPS) in 
+Frage.
+ Die Prüftiefe MUSS mindestens: 
+
+ * FIPS 140-2 Level 3 oder
+ * Common Criteria EAL 4+ erweitert um AVA_VAN.5 entsprechen]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der Anbieter des sektoralen IDP MUSS das private Schlüsselmaterial für kryptografische Verfahren in einem HSM speichern, dessen Eignung durch eine erfolgreiche Evaluierung nachgewiesen wurde. Als Evaluierungsschemata kommen dabei Common Criteria oder Federal Information Processing Standard (FIPS) in Frage.<br/> Die Prüftiefe MUSS mindestens: <br/></span> <ol style="color: #172B4D;"><li><span style="color: #000000;">FIPS 140-2 Level 3 oder</span></li><li><span style="color: #000000;">Common Criteria EAL 4+ erweitert um AVA_VAN.5 entsprechen</span></li></ol><span id="polarion-comment:1632"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23205" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134282" revision="567395">
+    <title><![CDATA[Prozesse für die Verwaltung des HSM]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS Prozesse für die Verwaltung der Systeme 
+der VAU etablieren, welche die Authentizität und Integrität der 
+Verarbeitungskontexte systematisch von einem kryptographischen Root-of-Trust 
+ableiten, der in einem HSM gemäß A_22829 verwaltet wird.
+ Der Anbieter des sektoralen IDP MUSS bei der Ableitung ein Vertrauensniveau 
+erreichen, welches für den Schutzbedarf der in der VAU verarbeiteten Daten 
+angemessenen ist und das auf Attestation der genutzten Systeme sowie ggf. auf 
+der Prüfung von Signaturen der geladenen Software inklusive ihrer Konfiguration 
+basiert.
+ Der Anbieter des sektoralen IDP MUSS für die Verwaltung des Root-of-Trust ein 
+Mehraugenprinzip umsetzen und - soweit für systematischen Ausschluss einseitig 
+durch den Anbieter durchführbarer Manipulationen erforderlich - eine 
+Einbeziehung der gematik vorsehen.
+ Der Anbieter des sektoralen IDP MUSS der gematik dabei eine Remote-Teilnahme 
+an den erforderlichen Zeremonien ermöglichen. ]]></description>
+    <description_html><![CDATA[<span style="color: #172B4D;">Der Anbieter des sektoralen IDP MUSS Prozesse für die Verwaltung der Systeme der VAU etablieren, welche die Authentizität und Integrität der Verarbeitungskontexte systematisch von einem kryptographischen Root-of-Trust ableiten, <span style="font-weight: normal;">der in einem HSM gemäß A_22829 verwaltet wird.</span><br/> Der Anbieter des sektoralen IDP MUSS bei der Ableitung ein Vertrauensniveau erreichen, welches für den Schutzbedarf der in der VAU verarbeiteten Daten angemessenen ist und das auf Attestation der genutzten Systeme sowie ggf. auf der Prüfung von Signaturen der geladenen Software inklusive ihrer Konfiguration basiert.<br/> Der Anbieter des sektoralen IDP MUSS für die Verwaltung des Root-of-Trust ein Mehraugenprinzip umsetzen und - soweit für systematischen Ausschluss einseitig durch den Anbieter durchführbarer Manipulationen erforderlich - eine Einbeziehung der gematik vorsehen.<br/> Der Anbieter des sektoralen IDP MUSS der gematik dabei eine Remote-Teilnahme an den erforderlichen Zeremonien ermöglichen.</span> <span id="polarion-comment:1702"></span><span id="polarion-comment:1792"></span><span id="polarion-comment:1820"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22830" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129483" revision="567395">
+    <title><![CDATA[sektoraler IDP – Verarbeitungskontext der VAU]]></title>
+    <description><![CDATA[Der Verarbeitungskontext des sektoralen IDP MUSS sämtliche physikalischen 
+Systemkomponenten sowie sämtliche Softwarekomponenten umfassen, deren 
+Sicherheitseigenschaften sich auf den Schutz der personenbezogenen Daten vor 
+Zugriff durch Unbefugte bei ihrer Verarbeitung im Klartext auswirken können.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der<span id="polarion-comment:1118"></span> Verarbeitungskontext des sektoralen IDP<span id="polarion-comment:1383"></span> MUSS sämtliche physikalischen Systemkomponenten sowie sämtliche Softwarekomponenten umfassen, deren Sicherheitseigenschaften sich auf den Schutz der personenbezogenen Daten vor Zugriff durch Unbefugte bei ihrer<span id="polarion-comment:975"></span> Verarbeitung im Klartext auswirken können.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22840" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129528" revision="567395">
+    <title><![CDATA[Verschlüsselung von außerhalb des Verarbeitungskontextes der VAU gespeicherten Daten]]></title>
+    <description><![CDATA[Der Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass sämtliche 
+schützenswerten Daten vor einer Speicherung außerhalb der VAU verschlüsselt 
+werden. Dies betrifft auch Daten zu Logging und Protokollierung.]]></description>
+    <description_html><![CDATA[Der<span id="polarion-comment:1119"></span> Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass sämtliche schützenswerten Daten vor einer Speicherung außerhalb der VAU verschlüsselt werden. Dies betrifft auch Daten zu Logging und Protokollierung.]]></description_html>
+  </requirement>
+  <requirement id="A_22841" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129526" revision="567395">
+    <title><![CDATA[Schutz der Persistenzschlüssel durch ein HSM]]></title>
+    <description><![CDATA[Schlüsselmaterial, dass zur Verschlüsselung von außerhalb des 
+Verarbeitungskontextes der VAU gespeicherten Daten genutzt wird, MUSS entweder 
+durch ein HSM geschützt in den Verarbeitungskontext der VAU eingebracht werden, 
+oder in einem HSM verbleiben.]]></description>
+    <description_html><![CDATA[Schlüsselmaterial, dass zur Verschlüsselung von außerhalb des Verarbeitungskontextes der VAU gespeicherten Daten genutzt wird, MUSS entweder durch ein HSM geschützt in den Verarbeitungskontext der VAU eingebracht werden, oder in einem HSM verbleiben.<span id="polarion-comment:1681"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22842" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129527" revision="567395">
+    <title><![CDATA[Bereitstellung Persistenzschlüssel]]></title>
+    <description><![CDATA[Das HSM der VAU des sektoralen IDP MUSS eine Schnittstelle zum Abruf 
+symmetrischer Persistenzschlüssel bereitstellen. Erzeugte Schlüssel für die 
+Persistierung der Daten MÜSSEN eineindeutig einem Nutzer zugeordnet sein.]]></description>
+    <description_html><![CDATA[Das HSM der VAU des sektoralen IDP MUSS eine Schnittstelle zum Abruf symmetrischer Persistenzschlüssel bereitstellen. Erzeugte Schlüssel für die Persistierung der Daten MÜSSEN eineindeutig einem Nutzer zugeordnet sein.<span id="polarion-comment:1682"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22843" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129537" revision="567395">
+    <title><![CDATA[Geschützte Weitergabe von Daten an autorisierte Nutzer durch die VAU]]></title>
+    <description><![CDATA[Der Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass sämtliche 
+schützenswerten Daten ausschließlich über TLS-gesicherte Verbindungen 
+weitergegeben werden.]]></description>
+    <description_html><![CDATA[Der<span id="polarion-comment:1123"></span> Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass sämtliche schützenswerten Daten ausschließlich über TLS-gesicherte Verbindungen weitergegeben werden.<span id="polarion-comment:1840"></span><span id="polarion-comment:1633"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22844" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129538" revision="567395">
+    <title><![CDATA[Transportverschlüsselte Übertragung von Daten mit Fachdiensten]]></title>
+    <description><![CDATA[Der Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass er nur 
+mTLS-gesichert mit Fachdiensten kommuniziert.]]></description>
+    <description_html><![CDATA[Der<span id="polarion-comment:1124"></span> Verarbeitungskontext des sektoralen IDP MUSS sicherstellen, dass er nur mTLS-gesichert<span id="polarion-comment:1647"></span> mit Fachdiensten kommuniziert.<span id="polarion-comment:977"></span><span id="polarion-comment:1634"></span><span id="polarion-comment:1699"></span><span id="polarion-comment:1816"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22847" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129531" revision="567395">
+    <title><![CDATA[Authentisierung gegenüber Clients]]></title>
+    <description><![CDATA[Der Verarbeitungskontext des sektoralen IDP MUSS sich gegenüber Clients, welche 
+mit ihm kommunizieren, mit einem TLS-Zertifikat ausweisen, auf dessen privaten 
+Schlüssel der Betreiber des sektoralen IDP keinen Zugriff hat.]]></description>
+    <description_html><![CDATA[Der<span id="polarion-comment:1125"></span> Verarbeitungskontext des sektoralen IDP MUSS sich gegenüber Clients, welche mit ihm kommunizieren, mit einem TLS-Zertifikat ausweisen, auf dessen privaten Schlüssel der Betreiber des sektoralen IDP keinen Zugriff hat.]]></description_html>
+  </requirement>
+  <requirement id="A_23006" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132981" revision="567395">
+    <title><![CDATA[Subdomäne für Webservice-Endpunkte in der VAU]]></title>
+    <description><![CDATA[Der Verarbeitungskontext des sektoralen IDP MUSS diese Endpunkte anbieten:
+
+ * Endpunkt für Authorization Requests 
+ * Endpunkt für Pushed Authorization Requests 
+ * Token-Endpunkt  Für die Endpunkte der VAU MUSS eine eigene Subdomäne, 
+welche keine Wildcard-Domäne ist, erstellt werden.]]></description>
+    <description_html><![CDATA[Der Verarbeitungskontext des sektoralen IDP MUSS diese Endpunkte anbieten:<br/>
+ 
+<ul>
+  <li>Endpunkt für Authorization Requests</li>
+  <li>Endpunkt für Pushed Authorization Requests</li>
+  <li>Token-Endpunkt</li>
+</ul>
+Für die Endpunkte der VAU MUSS eine eigene Subdomäne, welche keine Wildcard-Domäne ist, erstellt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_22943" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132555" revision="567395">
+    <title><![CDATA[Richtlinien zum TLS-Verbindungsaufbau]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS dafür sorgen, dass der 
+Verarbeitungskontext des sektoralen IDP sich beim TLS-Verbindungsaufbau über 
+das Transportnetz gegenüber dem Client mit einem TLS-Zertifikat eines 
+Herausgebers gemäß [CAB-Forum] authentisiert. Der Anbieter MUSS dafür sorgen, 
+dass Clientsysteme beim TLS-Verbindungsaufbau eine vereinfachte 
+Zertifikatsprüfung mit TLS-Standardbibliotheken durchführen können. ]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS dafür sorgen, dass der Verarbeitungskontext des sektoralen IDP sich beim TLS-Verbindungsaufbau über das Transportnetz gegenüber dem Client mit einem TLS-Zertifikat eines Herausgebers gemäß [CAB-Forum] authentisiert. Der Anbieter MUSS dafür sorgen, dass Clientsysteme beim TLS-Verbindungsaufbau eine vereinfachte Zertifikatsprüfung mit TLS-Standardbibliotheken durchführen können. <span id="polarion-comment:1585"></span><span id="polarion-comment:1751"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22980" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132853" revision="567395">
+    <title><![CDATA[Grundlage zur Prüfung der TLS-Zertifikate mittels Certificate Transparency]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS die TLS-Zertifikate, welche in seinem 
+Verarbeitungskontext terminieren, aus einer CA beziehen, welche Certificate 
+Transparency gemäß RFC 6962 / RFC 9162 unterstützt und täglich prüfen und 
+sicherstellen, dass für die zur Verbindungen in den Verarbeitungskontext der 
+VAU vorgesehen Domänen keine unbekannten Zertifikate im Certificate 
+Transparency Log gelistet werden. Im Fehlerfall MUSS ein "Security Incident" 
+(gemäß 3.4 gemRL_Betr_TI) erstellt werden. ]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS die TLS-Zertifikate, welche in seinem Verarbeitungskontext terminieren, aus einer CA beziehen, welche Certificate Transparency gemäß RFC 6962 / RFC 9162<span id="polarion-comment:1015"></span> unterstützt und täglich prüfen und sicherstellen, dass für die zur<span id="polarion-comment:1148"></span> Verbindungen<span id="polarion-comment:1752"></span> in den Verarbeitungskontext der VAU vorgesehen Domänen keine unbekannten Zertifikate im Certificate Transparency Log gelistet werden. Im Fehlerfall MUSS ein &quot;Security Incident&quot; (gemäß 3.4 gemRL_Betr_TI) erstellt werden. </span>]]></description_html>
+  </requirement>
+  <requirement id="A_22981" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132851" revision="567395">
+    <title><![CDATA[Grundlage zur Prüfung der TLS-Zertifikate mittels Certification Authority Authorization (CAA) Records]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS für die TLS-Zertifikate welche in seinem 
+Verarbeitungskontext terminieren Certification Authority Authorization (CAA) 
+DNS Resource Records nach RFC 6844 bereitstellen, welche die Validität der 
+ausstellenden CA verifizieren. ]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS für die TLS-Zertifikate welche in seinem Verarbeitungskontext terminieren Certification Authority Authorization (CAA) DNS Resource Records nach RFC 6844 bereitstellen, welche die Validität der ausstellenden CA verifizieren. </span><span style="font-size: 10pt;color: #FF6666;line-height: 1.5;"><span id="polarion-comment:1017"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22982" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132852" revision="567395">
+    <title><![CDATA[Bereitstellung der öffentlichen Schlüssel der TLS-Zertifikate]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS die öffentlichen Schlüssel der 
+TLS-Zertifikate, welche in seinem Verarbeitungskontext terminieren, dem 
+Federation Master bereitstellen. Der organisatorische Prozess zur 
+Schlüsselübergabe ist in [] beschrieben.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS die öffentlichen Schlüssel der TLS-Zertifikate,<span id="polarion-comment:1373"></span> welche in seinem Verarbeitungskontext terminieren, dem Federation Master bereitstellen. Der organisatorische Prozess zur Schlüsselübergabe ist in [<span class="polarion-rte-link" data-type="polarion" id="fake" data-custom-label="gemSpec_IDP_FedMaster" data-url="/wiki/Spezifikation/gemSpec_IDP_FedMaster?selection=ML-132570"></span>] beschrieben.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22848" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129535" revision="567395">
+    <title><![CDATA[Isolation zwischen Datenverarbeitungsprozessen mehrerer Verarbeitungskontexte der VAU]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS die in ihr ablaufenden Verarbeitungen für die 
+Daten eines Verarbeitungskontextes von den Verarbeitungen für die Daten anderer 
+Verarbeitungskontexte in solcher Weise trennen, dass mit technischen Mitteln 
+ausgeschlossen wird, dass die Verarbeitungen eines Verarbeitungskontextes 
+schadhaft auf die Verarbeitung eines anderen Verarbeitungskontextes einwirken 
+können. Die VAU des sektoralen IDP MUSS dabei insbesondere verhindern, dass die 
+Verarbeitungen von Daten innerhalb eines Verarbeitungskontextes zur 
+fehlerhaften Ausstellungen von Identitätsbestätigungen bei einem 
+Authentifizierungsvorgang in einem anderen Verarbeitungskontext führen könnte.]]></description>
+    <description_html><![CDATA[<span style="color: #242424;">Die VAU des sektoralen IDP MUSS die in ihr ablaufenden Verarbeitungen für die Daten eines Verarbeitungskontextes von den Verarbeitungen für die Daten anderer Verarbeitungskontexte in solcher Weise trennen, dass mit technischen Mitteln ausgeschlossen wird, dass die Verarbeitungen eines Verarbeitungskontextes schadhaft auf die Verarbeitung eines anderen Verarbeitungskontextes einwirken können. Die VAU des sektoralen IDP MUSS dabei insbesondere verhindern, dass die Verarbeitungen von Daten innerhalb eines Verarbeitungskontextes zur fehlerhaften Ausstellungen von Identitätsbestätigungen bei einem Authentifizierungsvorgang in einem anderen Verarbeitungskontext führen könnte.<span id="polarion-comment:1771"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22849" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129533" revision="567395">
+    <title><![CDATA[Isolation der VAU von Datenverarbeitungsprozessen des Anbieters]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS die in ihren Verarbeitungskontexten ablaufenden 
+Datenverarbeitungsprozesse von allen sonstigen Datenverarbeitungsprozessen des 
+Anbieters trennen und damit gewährleisten, dass sowohl Dritte als auch der 
+Betreiber des sektoralen IDP selbst vom Zugriff auf die in der VAU 
+verarbeiteten schützenswerten Daten ausgeschlossen ist.]]></description>
+    <description_html><![CDATA[Die<span id="polarion-comment:1127"></span> VAU des sektoralen IDP MUSS die in ihren Verarbeitungskontexten ablaufenden Datenverarbeitungsprozesse von allen sonstigen Datenverarbeitungsprozessen des Anbieters trennen und damit gewährleisten, dass sowohl Dritte als auch der Betreiber des sektoralen IDP selbst vom Zugriff auf die in der VAU verarbeiteten schützenswerten Daten ausgeschlossen ist.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_22850" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129532" revision="567395">
+    <title><![CDATA[Ausschluss von Manipulationen an der Software der VAU]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS eine Manipulation der eingesetzten Software 
+erkennen und eine Ausführung der manipulierten Software verhindern.]]></description>
+    <description_html><![CDATA[Die<span id="polarion-comment:1128"></span> VAU des sektoralen IDP MUSS eine Manipulation der eingesetzten Software erkennen und eine Ausführung der manipulierten Software verhindern.]]></description_html>
+  </requirement>
+  <requirement id="A_22851" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129530" revision="567395">
+    <title><![CDATA[Ausschluss von Manipulationen an der Hardware der VAU]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS die Integrität der eingesetzten Hardware 
+schützen und damit insbesondere Manipulationen an der Hardware sowohl durch 
+Dritte als auch der Betreiber des sektoralen IDP ausschließen.]]></description>
+    <description_html><![CDATA[Die<span id="polarion-comment:1129"></span> VAU des sektoralen IDP MUSS die Integrität der eingesetzten Hardware schützen und damit insbesondere Manipulationen an der Hardware sowohl durch Dritte als auch der Betreiber des sektoralen IDP ausschließen.]]></description_html>
+  </requirement>
+  <requirement id="A_22852" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129529" revision="567395">
+    <title><![CDATA[Kontinuierliche Wirksamkeit des Manipulationsschutzes der VAU]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS den Ausschluss von Manipulationen an der 
+Hardware und der Software sowohl durch Dritte als auch der Betreiber des 
+sektoralen IDP mit Mitteln umsetzen, deren dauerhafte und kontinuierliche 
+Wirksamkeit gewährleistet werden kann.]]></description>
+    <description_html><![CDATA[Die<span id="polarion-comment:1130"></span> VAU des sektoralen IDP MUSS den Ausschluss von Manipulationen an der Hardware und der Software sowohl durch Dritte als auch der Betreiber des sektoralen IDP mit Mitteln umsetzen, deren dauerhafte und kontinuierliche Wirksamkeit gewährleistet werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_22853" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129525" revision="567395">
+    <title><![CDATA[Ausschluss von Manipulationen über physische Angriffe]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS mit technischen und/oder organisatorischen 
+Mitteln ausschließen, dass ein Angreifer aus dem betrieblichen Umfeld des IDP 
+physische Angriffsmittel zur Kompromittierung der VAU zum Einsatz bringen kann.]]></description>
+    <description_html><![CDATA[Die VAU des sektoralen IDP MUSS mit technischen und/oder organisatorischen Mitteln ausschließen, dass ein Angreifer aus dem betrieblichen Umfeld des IDP physische Angriffsmittel zur Kompromittierung der VAU zum Einsatz bringen kann.<span id="polarion-comment:978"></span><span id="polarion-comment:1604"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22854" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129524" revision="567395">
+    <title><![CDATA[Nutzdatenbereinigung vor physischem Zugang zu Systemen der VAU]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS mit technischen und/oder organisatorischen 
+Mitteln sicherstellen, dass physischer Zugang zu Hardware-Komponenten der 
+Verarbeitungskontexte nur erfolgen kann, nachdem gewährleistet ist, dass aus 
+ihnen keine Nutzdaten extrahiert werden können.]]></description>
+    <description_html><![CDATA[Die<span id="polarion-comment:1132"></span> VAU des sektoralen IDP MUSS mit technischen und/oder organisatorischen Mitteln sicherstellen, dass physischer Zugang zu Hardware-Komponenten der Verarbeitungskontexte nur erfolgen kann, nachdem gewährleistet ist, dass aus ihnen keine Nutzdaten extrahiert werden können.]]></description_html>
+  </requirement>
+  <requirement id="A_22868" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129595" revision="567395">
+    <title><![CDATA[Private Schlüssel im HSM]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS folgende private Schlüssel in einem Hardware Security 
+Module (HSM) erzeugen und anwenden: 
+
+ * die Schlüssel zur Signatur von Token und Entity Statements 
+ * die Schlüssel der TLS-Zertifikate für die sichere Verbindung zum 
+Verarbeitungskontext
+Die Prüftiefe des HSM MUSS dabei den in [A_22829] angegebenen Standards 
+entsprechen.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der <span id="polarion-comment:1133"></span>sektorale IDP MUSS folgende private Schlüssel in einem Hardware Security Module (HSM) erzeugen und anwenden: <br/>
+</span> 
+<ul>
+  <li><span style="color: #000000;">die Schlüssel zur Signatur von Token und Entity Statements</span></li>
+  <li><span style="color: #000000;">die Schlüssel der TLS-Zertifikate für die sichere Verbindung zum Verarbeitungskontext<br/>
+    </span></li>
+</ul>
+<span style="color: #000000;">Die Prüftiefe des HSM MUSS dabei den in [A_22829] angegebenen Standards entsprechen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22855" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129523" revision="567395">
+    <title><![CDATA[HSM-Kryptographieschnittstelle verfügbar nur für Instanzen der VAU]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS mit technischen Mitteln die Manipulationen 
+sowohl durch Dritte als auch den Betreiber des sektoralen IDP ausschließen und 
+gewährleisten, dass nur Instanzen der VAU Zugriff auf die 
+Kryptographieschnittstelle des HSM zur Nutzung des privaten Schlüsselmaterials 
+für ihre TLS-Zertifikate und die Signaturschlüssel für die Token und Entity 
+Statements erhalten können.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;"><span style="color: #172B4D;">Die VAU des sektoralen IDP MUSS mit technischen Mitteln die Manipulationen sowohl durch Dritte als auch den Betreiber des sektoralen IDP ausschließen und gewährleisten, dass nur Instanzen der VAU Zugriff auf die Kryptographieschnittstelle des HSM zur Nutzung des privaten Schlüsselmaterials für ihre TLS-Zertifikate und die Signaturschlüssel für die Token und Entity Statements erhalten können</span>.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22856" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129522" revision="567395">
+    <title><![CDATA[Konsistenter Systemzustand des Verarbeitungskontextes der VAU]]></title>
+    <description><![CDATA[Die VAU des sektoralen IDP MUSS sicherstellen, dass ein konsistenter Zustand 
+des Verarbeitungskontextes auch bei Bedienfehlern oder technischen Problemen 
+immer erhalten bleibt bzw. wiederhergestellt werden kann.]]></description>
+    <description_html><![CDATA[Die<span id="polarion-comment:1135"></span> VAU des sektoralen IDP MUSS sicherstellen, dass ein konsistenter Zustand des Verarbeitungskontextes auch bei Bedienfehlern oder technischen Problemen immer erhalten bleibt bzw. wiederhergestellt werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_22567" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-127782" revision="567395">
+    <title><![CDATA[Informationsverpflichtung über Mandanten des Anbieters sektoraler IDP]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS der gematik initial zur Zulassung und 
+danach jeweils bei Änderungen tagesaktuell die Liste der Mandanten 
+(Versicherungen) mitteilen, für deren Versicherte er den Dienst anbietet.
+ Dabei MUSS der Anbieter des sektoralen IDP die IK-Nummer der Kasse und die 
+Telematik-ID der Kasse aus dem "Verfahren zur Herausgabe der SMC-B für 
+Kostenträger" nennen, in welchem der GKV-SV die Echtheit der Kasse bereits 
+bestätigt hat.
+ Der Meldung ist die Beauftragung durch die Kasse als Erklärung schriftlich 
+beizufügen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS der gematik initial zur Zulassung und danach jeweils bei Änderungen tagesaktuell die Liste der Mandanten (Versicherungen) mitteilen, für deren Versicherte er den Dienst anbietet. <br/>
+Dabei MUSS der Anbieter des sektoralen IDP die IK-Nummer der Kasse und die Telematik-ID der Kasse aus dem &quot;Verfahren zur Herausg<span style="font-style: normal;">abe der SMC-B für Kostenträger</span>&quot; nennen, in welchem der GKV-SV die Echtheit der Kasse bereits bestätigt hat. <br/>
+Der Meldung ist die Beauftragung durch die Kasse als Erklärung schriftlich beizufügen.]]></description_html>
+  </requirement>
+  <requirement id="A_23053" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133183" revision="567395">
+    <title><![CDATA[Bereitstellung von Testinstanzen]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS nach der Zulassung neben der produktiven 
+Instanz weitere Testinstanzen des sektoralen IDPs bereitstellen. Das sind 
+zunächst eine RU-Instanz und eine TU-Instanz.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS nach der Zulassung neben der produktiven Instanz weitere Testinstanzen des sektoralen IDPs bereitstellen. Das sind zunächst eine RU-Instanz und eine TU-Instanz.]]></description_html>
+  </requirement>
+  <requirement id="A_23054" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133181" revision="567395">
+    <title><![CDATA[Skalierung von Testinstanzen]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS zusätzliche Testinstanzen über einen 
+Business-Service Katalog anbieten. Diese KÖNNEN unterschiedliche Performance 
+und Lastanforderungen ausweisen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS zusätzliche Testinstanzen über einen Business-Service Katalog anbieten. Diese KÖNNEN unterschiedliche Performance und Lastanforderungen ausweisen.<span id="polarion-comment:1607"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23055" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133182" revision="567395">
+    <title><![CDATA[Aufbau RU-Instanz]]></title>
+    <description><![CDATA[Der Hersteller des sektoralen IDPs MUSS die RU-Instanz iterativ aufbauen und 
+der gematik frühzeitig einen Zugriff auf Zwischenstände ermöglichen.]]></description>
+    <description_html><![CDATA[Der Hersteller des sektoralen IDPs MUSS die RU-Instanz iterativ aufbauen und der gematik frühzeitig einen Zugriff auf Zwischenstände ermöglichen.<span id="polarion-comment:1608"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23056" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133186" revision="567395">
+    <title><![CDATA[Bereitstellung der TU-Instanz]]></title>
+    <description><![CDATA[Der Hersteller des sektoralen IDPs MUSS die TU-Instanz zur Zulassung 
+bereitstellen.]]></description>
+    <description_html><![CDATA[Der Hersteller des sektoralen IDPs MUSS die TU-Instanz zur Zulassung bereitstellen.]]></description_html>
+  </requirement>
+  <requirement id="A_23057" type="leafRequirement" severity="SOLL" lastUpdate="2023-02-06" technicalID="ML-133187" revision="567395">
+    <title><![CDATA[Version der TU-Instanz]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP SOLL dafür sorgen, dass die Version der 
+TU-Instanz - außer für die Abnahme einer neuen Version - der der produktiven 
+Instanz entspricht.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP SOLL<span id="polarion-comment:1489"></span> dafür sorgen, dass die Version der TU-Instanz - außer für die Abnahme einer neuen Version - der der produktiven Instanz entspricht.<span id="polarion-comment:1609"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23058" type="leafRequirement" severity="KANN" lastUpdate="2023-02-06" technicalID="ML-133184" revision="567395">
+    <title><![CDATA[Änderung der Version der RU-Instanz]]></title>
+    <description><![CDATA[Der Hersteller des sektoralen IDPs KANN die Version der RU-Instanz während der 
+Entwicklung nach Absprache mit der gematik ohne Change-Prozess ändern. 
+Downtimes MÜSSEN dabei der gematik ankündigt werden. Dadurch sollen schnelle 
+Feedbackschleifen während der Entwicklung ermöglicht werden.]]></description>
+    <description_html><![CDATA[Der Hersteller des sektoralen IDPs KANN die Version der RU-Instanz während der Entwicklung<span id="polarion-comment:1490"></span> nach Absprache mit der gematik ohne Change-Prozess ändern. Downtimes MÜSSEN dabei der gematik ankündigt werden. Dadurch sollen schnelle Feedbackschleifen während der Entwicklung ermöglicht werden.]]></description_html>
+  </requirement>
+  <requirement id="A_23163" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133870" revision="567395">
+    <title><![CDATA[Anpassung RU-Instanz]]></title>
+    <description><![CDATA[Möchte ein Hersteller oder Anbieter des sektoralen IDP seine RU-Instanz 
+anpassen, so MUSS dies in Abstimmung mit dem Testmanager der gematik geschehen.]]></description>
+    <description_html><![CDATA[Möchte ein Hersteller oder Anbieter des sektoralen IDP seine RU-Instanz anpassen, so MUSS dies in Abstimmung mit dem Testmanager der gematik geschehen.]]></description_html>
+  </requirement>
+  <requirement id="A_23060" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133190" revision="567395">
+    <title><![CDATA[Testversion des Authenticator-Moduls für Testinstanzen]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS eine Testversion seines 
+Authenticator-Moduls in einer App bereitstellen, die mit allen Testinstanzen 
+des sektoralen IDPs genutzt werden kann. Das können verschiedene Apps oder eine 
+konfigurierbare sein. Die Testversion MUSS kurzfristig und auf Anfrage an die 
+gematik, aber auch an Dritte - z. B. DIGA-Hersteller - bereitgestellt werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS eine Testversion seines Authenticator-Moduls in einer App bereitstellen, die mit allen Testinstanzen des sektoralen IDPs genutzt werden kann. Das können verschiedene Apps oder eine konfigurierbare sein. Die Testversion MUSS kurzfristig<span id="polarion-comment:1492"></span> und auf Anfrage an die gematik, aber auch an Dritte - z. B. DIGA-Hersteller - bereitgestellt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_23061" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133188" revision="567395">
+    <title><![CDATA[Betriebssysteme der Testversion des Authenticator-Moduls]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS eine Testversion seines 
+Authenticator-Moduls in einer App für alle von ihm produktiv unterstützten 
+Betriebssysteme bereitstellen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS eine Testversion seines Authenticator-Moduls in einer App für alle von ihm produktiv unterstützten Betriebssysteme bereitstellen.]]></description_html>
+  </requirement>
+  <requirement id="A_23062" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133189" revision="567395">
+    <title><![CDATA[Funktionsumfang der Testversion des Authenticator-Moduls]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS eine Testversion des Authenticator-Moduls 
+bereitstellen, die funktional der Produktivversion entspricht.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS eine Testversion des Authenticator-Moduls bereitstellen, die funktional der Produktivversion entspricht.]]></description_html>
+  </requirement>
+  <requirement id="A_23063" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133193" revision="567395">
+    <title><![CDATA[Bereitstellung einfacher Testidentitäten]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS  einfache Testidentitäten für alle seine 
+Testinstanzen bereitstellen. Diese MÜSSEN mindestens ein 
+Authentisierungsverfahren anbieten, so dass sie in Tests verwendet werden 
+können.  
+Der Anbieter des sektoralen IDPs MUSS zunächst 50 einfache Testidentitäten je 
+Testinstanz bereitstellen. Auf Anfrage der gematik MÜSSEN bei Bedarf weitere 
+einfache Testidentitäten angelegt werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS  einfache Testidentitäten für alle seine Testinstanzen bereitstellen. Diese MÜSSEN mindestens ein Authentisierungsverfahren anbieten, so dass sie in Tests verwendet werden können.  <br/>Der Anbieter des sektoralen IDPs MUSS zunächst 50 einfache Testidentitäten je Testinstanz bereitstellen. Auf Anfrage der gematik MÜSSEN bei Bedarf weitere einfache Testidentitäten angelegt werden.<span id="polarion-comment:1635"></span><span id="polarion-comment:1783"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23300" type="leafRequirement" severity="SOLL" lastUpdate="2023-02-06" technicalID="ML-135029" revision="567395">
+    <title><![CDATA[Authentisierungsverfahren für Testautomatisierung]]></title>
+    <description><![CDATA[Mindestens eines der Authentisierungsverfahren der vom Anbieter des sektoralen 
+IDP bereitgestellten Testidentitäten SOLL automatisierbar sein.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Mindestens eines der Authentisierungsverfahren der vom Anbieter des sektoralen IDP bereitgestellten Testidentitäten SOLL automatisierbar sein.<span id="polarion-comment:1784"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23065" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133191" revision="567395">
+    <title><![CDATA[Bereitstellung Authentisierungsmöglichkeiten für einfache Testidentitäten]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs KANN zusätzlich zu einem automatisierbaren 
+Authentisierungsverfahren auch die produktiv verwendeten 
+Authentisierungsverfahren für die Testidentitäten im Zusammenspiel mit seinem 
+Authenticator-Modul bereitstellen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des sektoralen IDPs KANN zusätzlich zu einem automatisierbaren Authentisierungsverfahren auch die produktiv verwendeten Authentisierungsverfahren für die Testidentitäten im Zusammenspiel mit seinem Authenticator-Modul bereitstellen.<span id="polarion-comment:1711"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23154" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133819" revision="567395">
+    <title><![CDATA[KVNRs für einfache Testidentitäten]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS die KVNRs für seine einfachen 
+Testidentitäten nach Absprache mit der gematik wählen, damit Kollisionen 
+vermieden werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS die KVNRs für seine einfachen Testidentitäten nach Absprache mit der gematik wählen, damit Kollisionen vermieden werden.<span id="polarion-comment:1712"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23155" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133817" revision="567395">
+    <title><![CDATA[Bereitstellung komplexer Testidentitäten]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS bei der Bereitstellung komplexer 
+Testidentitäten für alle seinen Testinstanzen unterstützen. Diese Unterstützung 
+kann z. B. in der Einbindung kartenbasierter Testidentitäten einer Kasse oder 
+der gematik oder Test-nPAs bestehen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS bei der Bereitstellung komplexer Testidentitäten für alle seinen Testinstanzen unterstützen. Diese Unterstützung kann z. B. in der Einbindung kartenbasierter Testidentitäten einer Kasse oder der gematik oder Test-nPAs bestehen.<span id="polarion-comment:1713"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23156" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133818" revision="567395">
+    <title><![CDATA[Bereitstellung Authentisierungsmöglichkeiten für komplexe Testidentitäten]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDPs MUSS die produktiv verwendeten 
+Authentisierungsverfahren für die komplexen Testidentitäten im Zusammenspiel 
+mit seinem Authenticator-Modul bereitstellen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDPs MUSS die produktiv verwendeten Authentisierungsverfahren für die komplexen Testidentitäten im Zusammenspiel mit seinem Authenticator-Modul bereitstellen.<span id="polarion-comment:1714"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23413" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-136002" revision="567395">
+    <title><![CDATA[Entity Statement vom Federation Master abrufen]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS zur Teilnehmerbestätigung anfragender Fachdienste deren 
+Entity Statements vom Federation Master entsprechend [gemSpec_IDP_FedMaster]#
+AF_10101 einholen.]]></description>
+    <description_html><![CDATA[Der sektorale IDP MUSS zur Teilnehmerbestätigung anfragender Fachdienste deren Entity Statements vom Federation Master entsprechend [<span style="font-size: 10pt;line-height: 1.5;">gemSpec_IDP_FedMaster]#</span>AF_10101 einholen.<span id="polarion-comment:1821"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22662" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128373" revision="567395">
+    <title><![CDATA[Registrierung beim Federation Master durch organisatorischen Prozess]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS seine öffentlichen Schlüssel für die 
+Signatur des selbst signierten Entity Statement über einen vom Federation 
+Master angebotenen organisatorischen Prozess bei diesem bekannt machen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS seine öffentlichen Schlüssel für die Signatur des selbst signierten Entity Statement über einen vom Federation Master angebotenen organisatorischen Prozess bei diesem bekannt machen.]]></description_html>
+  </requirement>
+  <requirement id="A_22643" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128318" revision="567395">
+    <title><![CDATA[Entity Statement des sektoralen IDP]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS ein selbst signiertes Entity Statement gemäß [OpenID 
+Connect Federation 1.0#entity-statement 
+<https://openid.net/specs/openid-connect-federation-1_0.html#entity-statement>] 
+bereitstellen und im Internet verfügbar machen.  Mindestens die in den Tabellen 
+Header Entity Statement des sektoralen IDP und Body Entity Statement des 
+sektoralen IDP in  genannten Daten und Werte MÜSSEN im Entity Statement 
+enthalten sein.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der sektorale IDP MUSS ein selbst signiertes Entity Statement gemäß [<a href="https://openid.net/specs/openid-connect-federation-1_0.html#entity-statement" target="_top" class="descriptionLink">OpenID Connect Federation 1.0#entity-statement</a>] bereitstellen und im Internet verfügbar machen. <span id="polarion-comment:991"></span> Mindestens die in den Tabellen <span style="font-size: 10pt;background-color: #FFFFFF;line-height: 1.5;"><span style="font-style: italic;">Header Entity Statement des sektoralen IDP</span> und <span style="font-style: italic;">Body Entity Statement des sektoralen IDP</span> in</span> <span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-132850" data-option-id="longoutline"></span> genannten Daten und Werte MÜSSEN im Entity Statement enthalten sein.</span><p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;"></p><p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;"></p>]]></description_html>
+  </requirement>
+  <requirement id="A_22710" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128766" revision="567395">
+    <title><![CDATA[Vorlaufzeit bei geplantem Schlüsselwechsel]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS Signaturschlüssel im Rahmen eines 
+geplanten Schlüsselwechsels mindestens 24 Stunden vor Verwendung in seinem 
+jwks-Schlüsselsatz veröffentlichen und beim Federation Master über einen 
+organisatorischen Prozess hinterlegen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des sektoralen IDP MUSS Signaturschlüssel im Rahmen eines geplanten Schlüsselwechsels mindestens 24 Stunden vor Verwendung in seinem jwks-Schlüsselsatz veröffentlichen und beim Federation Master über einen organisatorischen Prozess hinterlegen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22711" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128767" revision="567395">
+    <title><![CDATA[Regelmäßige Erneuerung des Entity Statement des sektoralen IDP]]></title>
+    <description><![CDATA[Das Entity Statement des sektoralen IDP MUSS täglich neu ausgestellt werden.]]></description>
+    <description_html><![CDATA[Das Entity Statement des sektoralen IDP MUSS täglich neu ausgestellt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_23010" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-133002" revision="567395">
+    <title><![CDATA[Maximale Gültigkeitsdauer eines Entity Statement des sektoralen IDP]]></title>
+    <description><![CDATA[Die maximale Gültigkeitsdauer eines Entity Statement des sektoralen IDP 
+(Attributwerteiat und exp im Entity Statement) DARF 24 Stunden NICHT 
+überschreiten.]]></description>
+    <description_html><![CDATA[Die maximale Gültigkeitsdauer eines Entity Statement des sektoralen IDP (Attributwerte <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">iat</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">exp </span>im Entity Statement) DARF 24 Stunden NICHT überschreiten.]]></description_html>
+  </requirement>
+  <requirement id="A_22644" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128319" revision="567395">
+    <title><![CDATA[Entity Statement - Prüfung angebotener URLs]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS alle von ihm im Entity Statement angebotenen URLs 
+stündlich auf bloße Erreichbarkeit prüfen.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der sektorale IDP MUSS alle von ihm im Entity Statement angebotenen URLs stündlich auf bloße Erreichbarkeit prüfen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23132" type="leafRequirement" severity="SOLL" lastUpdate="2023-02-06" technicalID="ML-133655" revision="567395">
+    <title><![CDATA[Regelmäßige Aktualisierung der Entity Statements bekannter Fachdienste]]></title>
+    <description><![CDATA[Der sektorale Identity Provider SOLL die Entity Statements für bekannte 
+Fachdienste nach 2 Stunden erneut herunterladen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der sektorale Identity Provider SOLL die Entity Statements für bekannte Fachdienste nach 2 Stunden erneut herunterladen.<span id="polarion-comment:1576"></span><span id="polarion-comment:1746"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23133" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133654" revision="567395">
+    <title><![CDATA[Maximale Gültigkeitsdauer der Entity Statements bekannter Fachdienste]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS die Entity Statements für bekannte 
+Fachdienste nach maximal 24 Stunden verwerfen.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider MUSS die<span style="font-size: 10pt;line-height: 1.5;"> Entity Statements für bekannte Fachdienste nach maximal 24 Stunden verwerfen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22649" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128348" revision="567395">
+    <title><![CDATA[Anfragen unbekannter Clients]]></title>
+    <description><![CDATA[Der Produkttyp sektoraler IDP MUSS Pushed Authorization Request von Clients mit 
+dem http-Statuscode 401 (Unauthorized) ablehnen, wenn diese nicht in der 
+Föderation oder direkt beim sektoralen IDP registriert sind. Ist der Fachdienst 
+dem sektorale IDP nicht bekannt, so stößt dieser intern die automatische 
+Registrierung (
+https://openid.net/specs/openid-connect-federation-1_0.html#section-10.1.1.1.1) 
+<https://openid.net/specs/openid-connect-federation-1_0.html#section-10.1.1.1.1)>
+ an damit nachfolgende Anfragen angenommen werden können.]]></description>
+    <description_html><![CDATA[Der Produkttyp sektoraler IDP MUSS Pushed Authorization Request von Clients mit dem http-Statuscode 401 (Unauthorized) ablehnen, wenn diese nicht in der Föderation oder direkt beim sektoralen IDP registriert sind. <span style="color: #172B4D;">Ist der Fachdienst dem sektorale IDP nicht bekannt, so stößt dieser intern die automatische Registrierung (<a target="_blank" href="https://openid.net/specs/openid-connect-federation-1_0.html#section-10.1.1.1.1)">https://openid.net/specs/openid-connect-federation-1_0.html#section-10.1.1.1.1)</a> an damit nachfolgende Anfragen angenommen werden können.<span id="polarion-comment:1841"></span></span><span id="polarion-comment:1541"></span><span id="polarion-comment:1591"></span><span id="polarion-comment:1665"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22922" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-131761" revision="567395">
+    <title><![CDATA[Anfragen veralteter Authenticator Versionen]]></title>
+    <description><![CDATA[Der Produkttyp sektoraler IDP MUSS Authorization Request von veralteten 
+Authenticator Versionen ablehnen, wenn diese aus Kompatibilitätsgründen durch 
+die gematik gesperrt wurden.]]></description>
+    <description_html><![CDATA[Der Produkttyp sektoraler IDP MUSS Authorization Request von veralteten Authenticator Versionen ablehnen, wenn diese aus Kompatibilitätsgründen durch die gematik gesperrt wurden.<span id="polarion-comment:1396"></span><span id="polarion-comment:1613"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22650" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128349" revision="567395">
+    <title><![CDATA[automatische Registration von Fachdiensten]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS eine automatische Registrierung eines Fachdienstes bei 
+Übermittlung eines Authorization Request mit self_signed_tls_client_auth gemäß [
+OpenID Connect Federation 1.0 (section-10.1) 
+<https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.10.1>] 
+durchführen, sofern dieser Dienst nicht bereits am IDP registriert wurde. Nach 
+Abruf des Entity Statement des Fachdienstes beim Fachdienst selbst MUSS der 
+sektorale IDP beim Federation Master dessen Entity Statement zum Fachdienst 
+gemäß [OpenID Connect Federation 1.0 (section-7.1) 
+<https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.7.1>] 
+abrufen und so dessen Zugehörigkeit zur Föderation bestätigen zu lassen.
+ Anschließend registriert der sektorale IDP den Fachdienst und importiert 
+dessen Schlüssel für die Authentisierung und Verschlüsselung von Token.]]></description>
+    <description_html><![CDATA[Der sektorale IDP<span id="polarion-comment:1237"></span> MUSS eine automatische Registrierung eines Fachdienstes bei Übermittlung eines Authorization Request mit<span style="font-size: 10pt;line-height: 1.5;"> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;color: #222222;">self_signed_tls_client_auth<span id="polarion-comment:1638"></span></span> gemäß [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.10.1">OpenID Connect Federation 1.0 (section-10.1)</a>] <span style="color: #172B4D;">durchführen</span>,</span> sofern dieser Dienst nicht bereits am IDP registriert wurde. Nach Abruf des Entity Statement des Fachdienstes beim Fachdienst selbst MUSS der sektorale IDP beim Federation Master dessen Entity Statement zum Fachdienst gemäß [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.7.1">OpenID Connect Federation 1.0 (section-7.1)</a>] abrufen und so dessen Zugehörigkeit zur Föderation bestätigen zu lassen.<span id="polarion-comment:1398"></span> Anschließend registriert der sektorale IDP den Fachdienst und importiert dessen Schlüssel für die Authentisierung und Verschlüsselung von Token.]]></description_html>
+  </requirement>
+  <requirement id="A_22651" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128359" revision="567395">
+    <title><![CDATA[Parameter des Pushed Authorization Request durch den sektoralen IDP]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS die Annahme von Pushed Authorization Request gemäß [
+OAuth 2.0 Pushed Authorization Requests#section-2 
+<https://datatracker.ietf.org/doc/html/rfc9126>] unterstützen und den Endpoint 
+für Pushed Authorization Request im Entity Statement des sektoralen IDP 
+pushed_authorization_request_endpoint bekanntgeben.
+ Der sektorale IDP MUSS mindestens die in der  Tabelle Parameter Pushed 
+Authorization Request dargestellten Parameter im Pushed Authorization Request 
+des Authorization-Server eines Fachdienstes annehmen. ]]></description>
+    <description_html><![CDATA[Der sektorale IDP MUSS die Annahme von Pushed Authorization Request gemäß [<a href="https://datatracker.ietf.org/doc/html/rfc9126" target="_top" class="descriptionLink">OAuth 2.0 Pushed Authorization Requests#section-2</a>] unterstützen und den Endpoint für Pushed Authorization Request im Entity Statement des sektoralen IDP <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">pushed_authorization_request_endpoint</span> bekanntgeben.<br/>
+Der sektorale IDP MUSS mindestens die in der <span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-132850" data-option-id="longoutline"></span> <span style="font-style: italic;">Tabelle Parameter Pushed Authorization Request</span> dargestellten Parameter im Pushed Authorization Request des Authorization-Server eines Fachdienstes annehmen. <span id="polarion-comment:917"></span> 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph">
+  <span id="polarion-comment:1253"></span>
+</p>
+<p class="polarion-rte-caption-paragraph" style="text-align: center;"></p>]]></description_html>
+  </requirement>
+  <requirement id="A_22966" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132659" revision="567395">
+    <title><![CDATA[Prüfung eingehender Pushed Authorization Request durch den sektoralen IDP]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS die eingehende Pushed Authorization Request validieren 
+und invalide Request gemäß [OAuth 2.0 Pushed Authorization Requests#section-2.3 
+<https://datatracker.ietf.org/doc/html/rfc9126#section-2.3> ] mit einer 
+Fehlernmeldung quittieren. Die Validierung des eingegangenen Pushed 
+Authorization Request schließt die Prüfung der im Request enthaltenen Werte für 
+redirect_uri und scope gegen die für den Fachdienst zulässigen (d.h. bei der 
+Registrierung gemeldeten) Werte ein.]]></description>
+    <description_html><![CDATA[Der sektorale IDP MUSS die eingehende Pushed Authorization Request validieren und invalide Request gemäß [<a href="https://datatracker.ietf.org/doc/html/rfc9126#section-2.3" target="_top" class="descriptionLink">OAuth 2.0 Pushed Authorization Requests#section-2.3</a> ] mit einer Fehlernmeldung quittieren. Die Validierung des eingegangenen Pushed Authorization Request schließt die Prüfung der im Request enthaltenen Werte für r<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">edirect_uri</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">scope </span>gegen die für den Fachdienst zulässigen (d.h. bei der Registrierung gemeldeten) Werte ein.<span id="polarion-comment:1226"></span><br/>]]></description_html>
+  </requirement>
+  <requirement id="A_22991" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132891" revision="567395">
+    <title><![CDATA[Prüfung des TLS Clientzertifikates am PAR-Endpunkt des sektoralen IDP]]></title>
+    <description><![CDATA[Der PAR-Endpunkt des sektoralen IDP MUSS das im Rahmen der 
+self_signed_tls_client_auth übertragene Zertifikat des Fachdienstes wie folgt 
+überprüfen:
+
+ * Das Zertifikat ist über das Entity Statement des Fachdienstes zu 
+verifizieren.
+ * Das Zertifikat ist zeitlich gültig.]]></description>
+    <description_html><![CDATA[Der PAR-Endpunkt des sektoralen IDP MUSS das im Rahmen der <span style="font-size: 11pt;color: #222222;line-height: 1.5;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">self_signed_tls_client_auth</span> </span>übertragene Zertifikat des Fachdienstes wie folgt überprüfen:<br/> <ul><li>Das Zertifikat ist über das Entity Statement des Fachdienstes zu verifizieren.</li><li>Das Zertifikat ist zeitlich gültig.</li></ul><span id="polarion-comment:1639"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22992" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132892" revision="567395">
+    <title><![CDATA[Antwort auf einen eingehenden Pushed Authorization Request durch den sektoralen IDP]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS auf einen validen Pushed Authorization Request mit einem 
+http-Statuscode 201 gemäß OAuth 2.0 Pushed Authorization Requests (section-2.2) 
+<https://datatracker.ietf.org/doc/html/rfc9126#section-2.2> antworten.]]></description>
+    <description_html><![CDATA[Der sektorale IDP MUSS auf einen validen Pushed Authorization Request mit einem http-Statuscode 201 gemäß <a href="https://datatracker.ietf.org/doc/html/rfc9126#section-2.2" target="_top" class="descriptionLink">OAuth 2.0 Pushed Authorization Requests (section-2.2)</a> antworten.]]></description_html>
+  </requirement>
+  <requirement id="A_22993" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-132893" revision="567395">
+    <title><![CDATA[Gültigkeit der vom sektoralen IDP erstellten Request-URI]]></title>
+    <description><![CDATA[Die Gültigkeit der vom sektoralen IDP erstellten Request-URI DARF NICHT 90 
+Sekunden überschreiten.]]></description>
+    <description_html><![CDATA[Die Gültigkeit der vom sektoralen IDP erstellten Request-URI DARF NICHT <span style="color: #000000;">90 Sekunden</span> <span id="polarion-comment:1251"></span>überschreiten.]]></description_html>
+  </requirement>
+  <requirement id="A_22312-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-07" technicalID="ML-132896" revision="567395">
+    <title><![CDATA[Einhaltung der Standards bei der Realisierung des Authorization-Endpunkts]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS die Schnittstelle Authorization-Endpunkt 
+gemäß [RFC6749 - The OAuth 2.0 Authorization Framework (section-3.1) 
+<https://datatracker.ietf.org/doc/html/rfc6749#section-3.1>], [RFC8252 - OAuth 
+2.0 for Native Apps <https://datatracker.ietf.org/doc/html/rfc8252>] und 
+[RFC9126 -  OAuth 2.0 Pushed Authorization Requests (section-4) 
+<https://datatracker.ietf.org/doc/html/rfc9126#section-4> ] sowie weitere darin 
+festgelegte Standards implementieren. Hierbei MÜSSEN nur im Rahmen der 
+gemSpec_IDP_Sek relevante Aspekte (Authorization Code Flow ohne User Info 
+Endpoint) berücksichtigt werden.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider MUSS die Schnittstelle Authorization-Endpunkt gemäß [RFC6749 - <a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc6749#section-3.1">The OAuth 2.0 Authorization Framework (section-3.1)</a>], [RFC8252 - <a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc8252">OAuth 2.0 for Native Apps</a>] und [RFC9126 -  <span style="font-size: 10pt;line-height: 1.5;"><a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc9126#section-4">OAuth 2.0 Pushed Authorization Requests (section-4)</a> </span>] sowie weitere darin festgelegte Standards implementieren. Hierbei MÜSSEN nur im Rahmen der gemSpec_IDP_Sek relevante Aspekte (Authorization Code Flow ohne User Info Endpoint) berücksichtigt werden.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_22324" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-23" technicalID="ML-125072" revision="567395">
+    <title><![CDATA[Verwendung des Attributes "state" durch sektoralen IDP]]></title>
+    <description><![CDATA[Der Authorization-Endpunkt des sektoralen Identity Provider MUSS den state
+-Parameter [RFC6749 # section-10.12] der Anfrage in allen darauf basierenden 
+Responses verwenden.]]></description>
+    <description_html><![CDATA[Der Authorization-Endpunkt des sektoralen Identity Provider MUSS den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">state</span>-Parameter [RFC6749 # section-10.12] der Anfrage in allen darauf basierenden Responses verwenden.]]></description_html>
+  </requirement>
+  <requirement id="A_22325-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-07" technicalID="ML-133105" revision="567395">
+    <title><![CDATA[Übermitteln des "AUTHORIZATION_CODE" an den Sender des Requests]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS den AUTHORIZATION_CODE und den state auf 
+demselben Kanal beantworten, auf dem er den Authorization Request empfangen hat.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider MUSS den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> und den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">state</span> auf demselben Kanal beantworten, auf dem er den Authorization Request empfangen hat.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_22653" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128369" revision="567395">
+    <title><![CDATA[Annahme von "AUTHORIZATION_CODE" und "CODE_VERIFIER"]]></title>
+    <description><![CDATA[Der Token-Endpunkt des sektoralen IDP MUSS die vom Authorization-Server eines 
+Fachdienstes übertragenenAUTHORIZATION_CODE und CODE_VERIFIER annehmen.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der Token-Endpunkt des sektoralen IDP MUSS die vom Authorization-Server eines Fachdienstes übertragenen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CODE_VERIFIER</span> annehmen. <span id="polarion-comment:1393"></span><span id="polarion-comment:949"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23007" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132997" revision="567395">
+    <title><![CDATA[Gültigkeit des "AUTHORIZATION_CODE"]]></title>
+    <description><![CDATA[Die Gültigkeitsdauer eines AUTHORIZATION_CODE DARF 90 Sekunden NICHT 
+überschreiten.]]></description>
+    <description_html><![CDATA[Die Gültigkeitsdauer eines <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> DARF 90 Sekunden NICHT überschreiten.]]></description_html>
+  </requirement>
+  <requirement id="A_23162" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133847" revision="567395">
+    <title><![CDATA[Invalidisierung des "AUTHORIZATION_CODE"]]></title>
+    <description><![CDATA[Der AUTHORIZATION_CODE MUSS nach einmaliger Verwendung invalidiert werden.]]></description>
+    <description_html><![CDATA[Der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> MUSS nach einmaliger Verwendung invalidiert werden.<span id="polarion-comment:1587"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22321" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-10" technicalID="ML-125067" revision="567395">
+    <title><![CDATA[Prüfung des "CODE_VERIFIER"]]></title>
+    <description><![CDATA[Der Token-Endpunkt des sektoralen Identity Provider MUSS die Überprüfung des 
+CODE_VERIFIER gegen die CODE_CHALLENGE mit S256 (Algorithmus nach [RFC7636 # 
+section-4.2]) durchführen.]]></description>
+    <description_html><![CDATA[Der Token-Endpunkt des sektoralen Identity Provider MUSS die Überprüfung des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CODE_VERIFIER</span> gegen die <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">CODE_CHALLENGE</span> mit S256 (Algorithmus nach [RFC7636 # section-4.2]) durchführen.]]></description_html>
+  </requirement>
+  <requirement id="A_22654" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128366" revision="567395">
+    <title><![CDATA[Prüfung des TLS Clientzertifikates am Token-Endpunkt des sektoralen IDP]]></title>
+    <description><![CDATA[Der Token-Endpunkt des sektoralen IDP MUSS das im Rahmen der 
+self_signed_tls_client_auth übertragene Zertifikat des Fachdienstes wie folgt 
+überprüfen:
+
+ * Das Zertifikat ist über das Entity Statement des Fachdienstes zu 
+verifizieren.
+ * Das Zertifikat ist zeitlich gültig.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der Token-Endpunkt des sektoralen IDP MUSS das im Rahmen der <span style="font-size: 11pt;color: #222222;line-height: 1.5;"><span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">self_signed_tls_client_auth</span> </span>übertragene Zertifikat des Fachdienstes wie folgt überprüfen:<br/></span><ul><li>Das Zertifikat ist über das Entity Statement des Fachdienstes zu verifizieren.</li><li>Das Zertifikat ist zeitlich gültig.<span id="polarion-comment:1642"></span></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_22323" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-07" technicalID="ML-125070" revision="567395">
+    <title><![CDATA[Protokollierung der Token-Ausgabe in allen Fällen]]></title>
+    <description><![CDATA[Der Token-Endpunkt des sektoralen Identity Provider MUSS im Positivfall die 
+Herausgabe der Token und im Negativfall die Token-Anfrage protokollieren.]]></description>
+    <description_html><![CDATA[Der Token-Endpunkt des sektoralen Identity Provider MUSS im Positivfall die Herausgabe der Token und im Negativfall die Token-Anfrage protokollieren.<span id="polarion-comment:1255"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22316" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-06-10" technicalID="ML-125064" revision="567395">
+    <title><![CDATA[Maximale Gültigkeitsdauer von "ID_TOKEN"]]></title>
+    <description><![CDATA[Der sektorale Identity Provider DARF ID_TOKEN mit einer Gültigkeitsdauer von 
+mehr als 300 Sekunden (5 Minuten) NICHT ausstellen.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider DARF <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> mit einer Gültigkeitsdauer von mehr als 300 Sekunden (5 Minuten) NICHT ausstellen.]]></description_html>
+  </requirement>
+  <requirement id="A_22706" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128761" revision="567395">
+    <title><![CDATA["ID_TOKEN" des sektoralen IDP]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS nach erfolgreicher Prüfung des erhaltenen 
+AUTHORIZATION_CODE dem aufrufenden Authorization-Server des Fachdienstes ein 
+ID_TOKEN gemäß OIDC Standard OpenID Connect Core 1.0 (section-2) 
+<https://openid.net/specs/openid-connect-core-1_0.html#IDToken> mit den 
+angefragten scopes zurückgeben.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der sektorale IDP MUSS nach erfolgreicher Prüfung des erhaltenen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> dem aufrufenden Authorization-Server des Fachdienstes ein <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> gemäß OIDC Standard <a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-core-1_0.html#IDToken">OpenID Connect Core 1.0 (section-2)</a> mit den angefragten</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> <span style="color: #000000;">zurückgeben.<span id="polarion-comment:1256"></span> <span id="polarion-comment:1086"></span><span id="polarion-comment:1614"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22983" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132856" revision="567395">
+    <title><![CDATA[Signaturverfahren für Signatur des "ID_TOKEN" des sektoralen IDP]]></title>
+    <description><![CDATA[Das für die Signatur der ID_TOKEN zu verwendende Verfahren MUSS ECDSA auf Basis 
+der NIST-Kurve P-256 sein. (vergleiche JSON Web Signature (section-3) 
+<https://openid.net/specs/draft-jones-json-web-signature-04.html#DefiningECDSA>
+).]]></description>
+    <description_html><![CDATA[Das für die Signatur der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> zu verwendende Verfahren MUSS ECDSA auf Basis der NIST-Kurve P-256 sein. (vergleiche <a class="descriptionLink" target="_top" href="https://openid.net/specs/draft-jones-json-web-signature-04.html#DefiningECDSA">JSON Web Signature (section-3)</a>).]]></description_html>
+  </requirement>
+  <requirement id="A_22655" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128367" revision="567395">
+    <title><![CDATA[Signatur des "ID_TOKEN" des sektoralen IDP]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS die ID_TOKEN unter Verwendung eines privaten Schlüssels 
+der in seinem Entity Statement untersigned_jwks_uri referenzierten öffentlichen 
+Schlüssel signieren [OpenID Connect Federation 1.0 (section-4.2) 
+<https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.4.2>].]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der sektorale IDP MUSS die <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> unter Verwendung eines <span id="polarion-comment:1404"></span>privaten Schlüssels der in seinem Entity Statement unter <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">signed_jwks_uri</span> referenzierten öffentlichen Schlüssel signieren [<a href="https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.4.2" target="_top" class="descriptionLink">OpenID Connect Federation 1.0 (section-4.2)</a>]. <span id="polarion-comment:1087"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23193" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134210" revision="567395">
+    <title><![CDATA[Verschlüsseln der "ID_TOKEN"]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS einen  Verschlüsselungsschlüssel des Fachdienstes über 
+den use Parameter ("use = enc") aus dessen jwks wählen und mit diesem das
+ID_TOKEN verschlüsseln. Im JWE-Header des Token referenziert der sektorale IDP 
+über den Parameterkid einen Hinweis auf den verwendeten 
+Verschlüsselungsschlüssel. Als Verschlüsselungsverfahren MUSS hierbei 
+ECDH-ES+A256KW verwendet werden.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der sektorale IDP MUSS einen  Verschlüsselungsschlüssel des Fachdienstes über den use Parameter (&quot;use = enc&quot;) aus dessen jwks wählen und mit diesem das <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> verschlüsseln. Im JWE-Header des Token referenziert der sektorale IDP über den Parameter <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">kid</span> einen Hinweis auf den verwendeten Verschlüsselungsschlüssel. Als Verschlüsselungsverfahren MUSS hierbei ECDH-ES+A256KW verwendet werden.<span id="polarion-comment:1683"></span> <span id="polarion-comment:1776"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22989" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132885" revision="567395">
+    <title><![CDATA["scopes" und "claims" des sektoralen IDP für Versicherte]]></title>
+    <description><![CDATA[Ein sektoraler IDP, welcher den Identitäten für Versicherte verwaltet MUSS 
+mindestens die folgendenscopes und claims unterstützen:
+
+Tabelle #: scopes und claims
+
+
+
+
+
+ScopeClaimWertBeschreibung
+urn:telematik:geburtsdatumbirthdatestringDie Angaben des Geburtsdatums des 
+Nutzers erfolgt im FormatISO 8601:2004 
+<https://openid.net/specs/openid-connect-core-1_0.html#ISO8601-2004>
+ [ISO8601‑2004] YYYY-MM-DD. 
+
+Ist das Geburtsdatum nicht bekannt, so wird es (analog einer Festlegung für 
+diesen Fall bei Ausstellung einer eGK) durch folgende Regeln definiert. (dabei 
+wird davon ausgegangen, dass das Geburtsjahr immer vorhanden ist):
+
+ * Ist der Monat aber nicht der Tag des Geburtsdatums bekannt, so wird der 15. 
+des Monat als Geburtsdatum festgelegt (TT.03.1975 ->15.03.1975)
+ * Sind Tag und Monat des Geburtsdatums nicht bekannt, so wird der 01.07. des 
+Jahres als Geburtsdatum festgelegt (TT.MM.1975 ->01.07.1975)
+urn:telematik:alterurn:telematik:claims:alterstringAlter der Person in Jahren 
+zum Zeitpunkt der Erstellung des Tokens
+urn:telematik:display_nameurn:telematik:claims:display_namestring Analog zu 
+name gemäß [OpenID Connect Core 1.0]
+ Vollständiger Name des Versicherten in anzeigbarer Form inklusive aller 
+Namensbestandteile und ggf. vorhandener Titel oder Namenszusätze.
+urn:telematik:given_nameurn:telematik:claims:given_namestring Nur der Vorname 
+des Versicherten - unter Berücksichtigung der [DiGA-Kriterien]
+urn:telematik:geschlechturn:telematik:claims:geschlechtstringGeschlecht des 
+Nutzers.
+ Kodierung analog VSDM M =männlich, W = weiblich, X = unbestimmt, D = divers
+urn:telematik:emailurn:telematik:claims:emailstringE-Mail Addresse des 
+Versicherten, wenn bekannt
+urn:telematik:versicherter
+urn:telematik:claims:professionstringFür Versicherte 1.2.276.0.76.4.49
+urn:telematik:claims:idstringFür Versicherte der unveränderliche Anteil 
+der KVNR
+urn:telematik:claims:organizationstringID oder Name der attributsbestätigenden 
+Stelle (IK-Nummer der Kasse)]]></description>
+    <description_html><![CDATA[Ein sektoraler IDP, welcher den Identitäten für Versicherte verwaltet MUSS mindestens die folgenden <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claims</span> unterstützen:<br/> <p class="polarion-rte-caption-paragraph" data-keep-next="true">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claims<span id="polarion-comment:1696"></span></span></p><p class="polarion-rte-caption-paragraph" data-keep-next="true"></p><p class="polarion-rte-caption-paragraph" data-keep-next="true"></p><table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=205"><tbody><tr><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 172px;height: 58.4688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Scope</th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 194px;height: 58.4688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Claim</th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 36px;height: 58.4688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Wert</th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 307px;height: 58.4688px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beschreibung</th></tr><tr><td style="width: 172px;height: 50px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;" colspan="1">urn:telematik:geburtsdatum</td><td style="width: 194px;height: 50px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">birthdate</td><td style="width: 36px;height: 50px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string</td><td style="width: 307px;height: 50px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Die Angaben des Geburtsdatums des Nutzers erfolgt im Format <a class="info" target="_top" href="https://openid.net/specs/openid-connect-core-1_0.html#ISO8601-2004">ISO 8601:2004</a> [ISO8601‑2004] YYYY-MM-DD. <span id="polarion-comment:1616"></span><br/><br/> <span style="font-style: normal;font-size: 10pt;line-height: 1.5;"><span style="color: #242424;">Ist das Geburtsdatum nicht bekannt, so wird es (analog einer Festlegung für diesen Fall bei Ausstellung einer eGK) durch folgende Regeln definiert. (dabei wird davon ausgegangen, dass das Geburtsjahr immer vorhanden ist):</span><br/></span> <ul><li><span style="font-style: normal;color: #242424;">Ist der Monat aber nicht der Tag des Geburtsdatums bekannt, so wird der 15. des Monat als Geburtsdatum festgelegt (TT.03.1975 -&gt;15.03.1975)</span></li><li><span style="font-style: normal;color: #242424;">Sind Tag und Monat des Geburtsdatums nicht bekannt, so wird der 01.07. des Jahres als Geburtsdatum festgelegt (TT.MM.1975 -&gt;01.07.1975)<span id="polarion-comment:1704"></span></span></li></ul></td></tr><tr><td style="width: 172px;height: 50px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:alter</td><td style="width: 194px;height: 50px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:claims:alter</td><td style="width: 36px;height: 50px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string</td><td style="width: 307px;height: 50px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Alter der Person in Jahren zum Zeitpunkt der Erstellung des Tokens</td></tr><tr><td style="width: 172px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:display_name</td><td style="width: 194px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:claims:display_name</td><td style="width: 36px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string </td><td style="width: 307px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Analog zu name gemäß [OpenID Connect Core 1.0]<br/> Vollständiger Name des Versicherten in anzeigbarer Form inklusive aller Namensbestandteile und ggf. vorhandener Titel oder Namenszusätze.</td></tr><tr><td style="width: 172px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:given_name<span id="polarion-comment:1697"></span></td><td style="width: 194px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:claims:given_name</td><td style="width: 36px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string </td><td style="width: 307px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Nur der Vorname des Versicherten - unter Berücksichtigung der [DiGA-Kriterien]</td></tr><tr><td style="width: 172px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:geschlecht</td><td style="width: 194px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:claims:geschlecht</td><td style="width: 36px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string</td><td style="width: 307px;height: 12px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Geschlecht des Nutzers.<br/> Kodierung analog VSDM M =männlich, W = weiblich, X = unbestimmt, D = divers</td></tr><tr><td style="width: 172px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:email</td><td style="width: 194px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:claims:email</td><td style="width: 36px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string</td><td style="width: 307px;height: 20px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">E-Mail Addresse des Versicherten, wenn bekannt</td></tr><tr><td style="width: 172px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;" rowspan="3" colspan="1">urn:telematik:versicherter<br/></td><td style="width: 194px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:claims:profession</td><td style="width: 36px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string</td><td style="width: 307px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Für Versicherte 1.2.276.0.76.4.49</td></tr><tr><td style="width: 194px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:claims:id</td><td style="width: 36px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string</td><td style="width: 307px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Für Versicherte der unveränderliche Anteil der KVNR</td></tr><tr><td style="width: 194px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">urn:telematik:claims:organization</td><td style="width: 36px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">string</td><td style="width: 307px;height: 35px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ID oder Name der attributsbestätigenden Stelle (IK-Nummer der Kasse)</td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="A_23197" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134214" revision="567395">
+    <title><![CDATA[Nutzung eines pairwise Subject als Pseudonym des Versicherten]]></title>
+    <description><![CDATA[Der sektorale IDP MUSS das Attribut "sub" gemäß [OpenID Connect Core 1.0 
+(sektion-8.1) 
+<https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg> ] als 
+pairwise Subject Identifiers bilden. Dieses wird als pseudonyme ID des 
+Versicherten verwendet:
+
+ * Der Subject Identifier MUSS je Versichertem und Fachdienst fest und 
+eineindeutig sein
+ * Der Subject Identifier MUSS sich für einen Versicherten gegenüber jedem 
+Fachdienst unterscheiden.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der sektorale IDP MUSS das Attribut &quot;sub&quot; gemäß [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg">OpenID Connect Core 1.0 (sektion-8.1)</a> ] als pairwise Subject Identifiers bilden. Dieses wird als pseudonyme ID des Versicherten verwendet:</span><br/> <ul><li><span style="font-size: 10pt;line-height: 1.5;">Der Subject Identifier MUSS je Versichertem und Fachdienst fest und eineindeutig sein</span></li><li><span style="font-size: 10pt;line-height: 1.5;">Der Subject Identifier MUSS sich für einen Versicherten gegenüber jedem Fachdienst unterscheiden.<span id="polarion-comment:1802"></span></span></li></ul>]]></description_html>
+  </requirement>
+  <requirement id="A_22990" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-132884" revision="567395">
+    <title><![CDATA[Umgang mit fehlenden oder verwehrten Informationen]]></title>
+    <description><![CDATA[Ein sektoraler IDP MUSS, wenn ihm der Wert eines claims nicht vorliegt und es 
+keine Regel für eine Alternativbelegung gibt (siehe z. B. Belegungsregel "
+birthday" in A_22989) oder ein scope vom Nutzer verwehrt wurde, diesen claim im 
+ID_TOKEN mit einem Leerstring belegen.]]></description>
+    <description_html><![CDATA[Ein sektoraler IDP MUSS, wenn ihm der Wert eines <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claims</span> nicht vorliegt und es keine Regel für eine Alternativbelegung gibt (siehe z. B. Belegungsregel &quot;<span style="font-style: italic;">birthday</span>&quot; in A_22989) oder ein <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scope</span> vom Nutzer verwehrt wurde, diesen <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claim</span> im <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> mit einem Leerstring belegen.<span id="polarion-comment:1782"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23024" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133046" revision="567395">
+    <title><![CDATA[Definition "gematik-ehealth-loa-substantial"]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS gematik-ehealth-loa-substantial wie folgt 
+interpretieren: 
+Der Wert gematik-ehealth-loa-substantial entspricht der Widerstandsfähigkeit 
+des Authentisierungsmittels und Protokolls gegen das Angriffspotential 
+"moderate" nach [ISO18045].
+Zertifizierungen, Notifizierung  oder Bestätigungen von Prozessen oder 
+Prozessbestandteilen vergleichbarer Normen und Richtlinien, z. B. nach 
+Verordnung (EU) Nr. 910/2014 in Verbindung mit (EU) 2015/1502 an elektronische 
+Identifizierungsmittel, BSI TR-03107-1 oder vergleichbar, können nachgenutzt 
+werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-substantial</span> wie folgt interpretieren: <br/>Der Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-substantial</span> entspricht der Widerstandsfähigkeit des Authentisierungsmittels und Protokolls gegen das Angriffspotential &quot;moderate&quot; nach [ISO18045].<br/>Zertifizierungen, Notifizierung  oder Bestätigungen von Prozessen oder Prozessbestandteilen vergleichbarer Normen und Richtlinien, z. B. nach Verordnung (EU) Nr. 910/2014 in Verbindung mit (EU) 2015/1502 an elektronische Identifizierungsmittel, BSI TR-03107-1 oder vergleichbar, können nachgenutzt werden.<span id="polarion-comment:1620"></span><span id="polarion-comment:1747"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23025" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133052" revision="567395">
+    <title><![CDATA[Definition "gematik-ehealth-loa-high"]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS gematik-ehealth-loa-high wie folgt 
+interpretieren: 
+Der Wert gematik-ehealth-loa-high entspricht der Widerstandsfähigkeit des 
+Authentisierungsmittels und Protokolls gegen das Angriffspotential "high" nach 
+[ISO18045].
+Zertifizierungen, Notifizierung  oder Bestätigungen von Prozessen oder 
+Prozessbestandteilen vergleichbarer Normen und Richtlinien, z. B. nach 
+Verordnung (EU) Nr. 910/2014 in Verbindung mit (EU) 2015/1502 an elektronische 
+Identifizierungsmittel, BSI TR-03107-1 oder vergleichbar, können nachgenutzt 
+werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high</span> wie folgt interpretieren: <br/>Der Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high</span> entspricht der Widerstandsfähigkeit des Authentisierungsmittels und Protokolls gegen das Angriffspotential &quot;high&quot; nach [ISO18045].<br/>Zertifizierungen, Notifizierung  oder Bestätigungen von Prozessen oder Prozessbestandteilen vergleichbarer Normen und Richtlinien, z. B. nach Verordnung (EU) Nr. 910/2014 in Verbindung mit (EU) 2015/1502 an elektronische Identifizierungsmittel, BSI TR-03107-1 oder vergleichbar, können nachgenutzt werden.<span id="polarion-comment:1621"></span><span id="polarion-comment:1748"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22987" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132883" revision="567395">
+    <title><![CDATA[Claim "acr" für eine "gematik-ehealth-loa-substantial" Authentisierungsstärke]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS sicherstellen das der claim acr nur auf 
+den Wert gematik-ehealth-loa-substantial gesetzt wird wenn der Nutzer 
+mindestens auf dem Niveau "substanziell" authentisiert wurde (siehe A_23024 
+- Definition "gematik-ehealth-loa-substantial").]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS sicherstellen das der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claim acr</span> nur auf den Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-<span style="font-size: 10pt;line-height: 1.5;">substantial</span></span> gesetzt wird wenn der Nutzer mindestens auf dem Niveau &quot;substanziell&quot; authentisiert wurde (siehe A_23024 - Definition &quot;gematik-ehealth-loa-substantial&quot;).<span id="polarion-comment:1742"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22988" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132882" revision="567395">
+    <title><![CDATA[Claim "acr" für eine "gematik-ehealth-loa-high" Authentisierungsstärke]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS sicherstellen das der claim acr nur auf 
+den Wert gematik-ehealth-loa-high gesetzt wird wenn der Nutzer auf dem Niveau 
+"hoch" authentisiert wurde (siehe A_23025 - Definition 
+"gematik-ehealth-loa-high").]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen IDP MUSS sicherstellen das der <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claim acr</span> nur auf den Wert <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high</span> gesetzt wird wenn der Nutzer auf dem Niveau &quot;hoch&quot; authentisiert wurde (siehe A_23025 - Definition &quot;gematik-ehealth-loa-high&quot;).<span id="polarion-comment:1743"></span><span id="polarion-comment:1284"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22865" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129594" revision="567395">
+    <title><![CDATA[Verpflichtende Verfahren zur Identifikation von Nutzern]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS einen Prozess zur Identifikation von 
+Nutzern mit mindestens diesen Identifikationsverfahren zur Nutzeridentifikation 
+anbieten:
+
+ * Identifikation mittels elektronischem Identitätsnachweis (online 
+Ausweisfunktion)
+ * Identifikation mittelt eGK und PIN]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Der Anbieter des sektoralen IDP MUSS einen Prozess zur Identifikation von Nutzern mit mindestens diesen Identifikationsverfahren zur Nutzeridentifikation anbieten:<br/></span> <ul><li><span style="color: #000000;">Identifikation mittels <span style="font-size: 10pt;line-height: 1.5;">elektronischem Identitätsnachweis</span> (online Ausweisfunktion<span id="polarion-comment:1099"></span>)</span></li><li><span style="color: #000000;">Identifikation mittelt eGK und PIN</span></li></ul><span id="polarion-comment:1622"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22334-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-07" technicalID="ML-133040" revision="567395">
+    <title><![CDATA[Verifikation des Versicherten vor erster Nutzung]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen IDP MUSS sicherstellen, dass der Zuordnungsprozess 
+zwischen einer natürlichen Person und den Daten der Attributbestätigenden 
+Stelle eindeutig ist.]]></description>
+    <description_html><![CDATA[<span style="font-style: normal;color: #000000;">Der Anbieter des sektoralen IDP MUSS sicherstellen, dass der Zuordnungsprozess zwischen einer natürlichen Person und den Daten der Attributbestätigenden Stelle eindeutig ist.</span><br/>]]></description_html>
+  </requirement>
+  <requirement id="A_23102" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133343" revision="567395">
+    <title><![CDATA[Weitere Verfahren zur Identifikation von Nutzern]]></title>
+    <description><![CDATA[Alle Verfahren zur Identifikation des Nutzers müssen dem Angriffspotential high 
+nach ISO 18045 standhalten. Die Bewertung der Zulässigkeit der 
+Identifikationsverfahren erfolgt in Einzelprüfung durch die gematik. ]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Alle Verfahren zur Identifikation des Nutzers müssen dem Angriffspotential high nach ISO 18045 standhalten. Die Bewertung der Zulässigkeit der Identifikationsverfahren erfolgt in Einzelprüfung durch die gematik.</span><span style="font-size: 10pt;color: #000000;line-height: 1.5;"> <span id="polarion-comment:1623"></span><span id="polarion-comment:1806"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22712" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129058" revision="567395">
+    <title><![CDATA[Unterstützung von NFC eGK und PIN]]></title>
+    <description><![CDATA[Der Hersteller eines sektoralen IDP MUSS ein Authentifizierungsverfahren über 
+NFC mittels eGK und PIN unterstützen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines sektoralen IDP MUSS ein Authentifizierungsverfahren über NFC mittels eGK und PIN unterstützen.<span id="polarion-comment:1624"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22713" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129059" revision="567395">
+    <title><![CDATA[Unterstützung des elektronischen Identitätsnachweis (online-Ausweisfunktion)]]></title>
+    <description><![CDATA[Der Hersteller eines sektoralen IDP MUSS ein Authentifizierungsverfahren mittels
+elektronischem Identitätsnachweis (online-Ausweisfunktion) unterstützen.]]></description>
+    <description_html><![CDATA[Der Hersteller eines sektoralen IDP MUSS ein Authentifizierungsverfahren mittels <span style="font-size: 10pt;color: #242424;line-height: 1.5;">elektronischem Identitätsnachweis (online-Ausweisfunktion)</span> unterstützen.]]></description_html>
+  </requirement>
+  <requirement id="A_23026" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133055" revision="567395">
+    <title><![CDATA[Entfernen von Authentifizierungsverfahren, welche die Vorgaben nicht mehr erfüllen]]></title>
+    <description><![CDATA[Der Anbieter eines sektoralen IDP MUSS sicherstellen, dass Authentifikations
+verfahren entfernt/ausgeschlossen werden, wenn sie das entsprechende 
+Sicherheitsniveau gematik-ehealth-loa-high bzw. gematik-ehealth-loa-substantial 
+nicht mehr erfüllen.]]></description>
+    <description_html><![CDATA[Der Anbieter eines sektoralen IDP MUSS sicherstellen, dass <span style="font-size: 10pt;line-height: 1.5;">Authentifikations</span>verfahren entfernt/ausgeschlossen werden, wenn sie das entsprechende Sicherheitsniveau <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-high</span> bzw. <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">gematik-ehealth-loa-<span style="font-size: 10pt;line-height: 1.5;">substantial</span></span> nicht mehr erfüllen. <span id="polarion-comment:1449"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23129" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133622" revision="567395">
+    <title><![CDATA[Identifikation des Authentifizierungsverfahren]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS den claim amr im ID_TOKEN entsprechend dem 
+durchgeführten Authentisierungsverfahren nach folgender Tabelle belegen. 
+Tabelle # Codierung der Authentisierungsverfahren
+
+AuthentifizierungsverfahrenWert des amr Claimzulässiges Niveau (acr)
+Authentifizierung mittels eGK und PINurn:telematik:auth:eGK
+gematik-ehealth-loa-high
+Authentifizierung mittel elektronischem Identitätsnachweis 
+(online-Ausweisfunktion)urn:telematik:auth:eIDgematik-ehealth-loa-high
+Anderes Authentisierungsverfahrenurn:telematik:auth:other
+gematik-ehealth-loa-high und 
+ gematik-ehealth-loa-substantial]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der sektorale Identity Provider MUSS den claim <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">amr</span> im <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> entsprechend dem durchgeführten Authentisierungsverfahren nach folgender Tabelle belegen.</span>  <p style="text-align: left;" class="polarion-rte-caption-paragraph" data-keep-next="true">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span> Codierung der Authentisierungsverfahren<span id="polarion-comment:1766"></span></p><table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 596px;height: 26px;border: 1px solid #CCCCCC;padding: 5px;">Authentifizierungsverfahren</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 321px;height: 26px;border: 1px solid #CCCCCC;padding: 5px;">Wert des <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">amr</span> Claim</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 379px;height: 26px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">zulässiges Niveau <span style="font-style: normal;font-family: 'Courier New', Courier, monospace, HanWangKanTan;">(acr)</span></span></th></tr><tr><td style="text-align: left;vertical-align: top;width: 596px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;">Authentifizierung mittels eGK und PIN</td><td style="text-align: left;vertical-align: top;width: 321px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;">urn:telematik:auth:eGK</td><td style="text-align: left;vertical-align: top;width: 379px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;">gematik-ehealth-loa-high</td></tr><tr><td style="text-align: left;vertical-align: top;width: 596px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;">Authentifizierung mittel elektronischem Identitätsnachweis (online-Ausweisfunktion)</td><td style="text-align: left;vertical-align: top;width: 321px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;">urn:telematik:auth:eID</td><td style="text-align: left;vertical-align: top;width: 379px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;">gematik-ehealth-loa-high</td></tr><tr><td style="text-align: left;vertical-align: top;width: 596px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-weight: normal;">Anderes A</span>uthentisierungs<span style="font-weight: normal;">v</span>erfahren<span id="polarion-comment:1588"></span><span id="polarion-comment:1824"></span></span></td><td style="text-align: left;vertical-align: top;width: 321px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;">urn:telematik:auth:other</td><td style="text-align: left;vertical-align: top;width: 379px;height: 17.2727px;border: 1px solid #CCCCCC;padding: 5px;">gematik-ehealth-loa-high und <br/> gematik-ehealth-loa-<span style="font-size: 10pt;line-height: 1.5;">substantial</span></td></tr></tbody></table><span id="polarion-comment:1543"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22744" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129313" revision="567395">
+    <title><![CDATA[Authenticator auf Zweitgerät]]></title>
+    <description><![CDATA[Der Hersteller eines sektoralen IDP MUSS ein technisches Verfahren für den Fall 
+etablieren, dass ein Nutzer das Authenticator-Modul auf einem anderen Gerät 
+betreibt als die Frontend Komponente des  Fachdienstes, welcher eine 
+Authentifizierung beim sektoralen IDP angefragt hat. In diesem Fall MUSS der 
+sektorale IDP für den Auth-Endpunkt ein WebFrontend bieten, welches die weitere 
+Authentisierung über einen Authenticator auf einem anderen Gerät ermöglicht.]]></description>
+    <description_html><![CDATA[Der Hersteller eines sektoralen IDP MUSS ein technisches Verfahren für den Fall etablieren, dass ein Nutzer das Authenticator-Modul auf einem anderen Gerät betreibt als die Frontend Komponente des  Fachdienstes, welcher eine Authentifizierung beim sektoralen IDP angefragt hat. In diesem Fall MUSS der sektorale IDP für den Auth-Endpunkt ein WebFrontend bieten, welches die weitere Authentisierung über einen Authenticator auf einem anderen Gerät ermöglicht.<span id="polarion-comment:1777"></span> <span id="polarion-comment:1460"></span><span style="font-size: 10pt;background-color: #FFFFFF;line-height: 1.5;"><span id="polarion-comment:1098"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22306" type="leafRequirement" severity="MUSS" lastUpdate="2022-10-26" technicalID="ML-125056" revision="567395">
+    <title><![CDATA[Information des Nutzers bei fehlender Installation des gewählten Authenticator-Moduls]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS auf der unter redirect_uri 
+des Authenticator-Moduls erreichbaren Webseite darstellen, aus welcher Quelle 
+das jeweilige Authenticator-Modul des sektoralen Identity Provider zu beziehen 
+ist, auf welchen Geräten/Plattformen es installiert werden kann und welche 
+Voraussetzungen für die Verwendung zur Authentifizierung zu erfüllen sind (z. 
+B. erforderliche Registrierungsprozeduren beim Anbieter des sektoralen Identity 
+Provider).]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS auf der unter <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">redirect_uri</span> des Authenticator-Moduls erreichbaren Webseite darstellen, aus welcher Quelle das jeweilige Authenticator-Modul des sektoralen Identity Provider zu beziehen ist, auf welchen Geräten/Plattformen es installiert werden kann und welche Voraussetzungen für die Verwendung zur Authentifizierung zu erfüllen sind (z. B. erforderliche Registrierungsprozeduren beim Anbieter des sektoralen Identity Provider).<span id="polarion-comment:1780"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22257" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-23" technicalID="ML-124940" revision="567395">
+    <title><![CDATA[Operationsaufruf erfordert erfolgreiche Authentifizierung]]></title>
+    <description><![CDATA[Der sektorale Identity Provider MUSS sicherstellen, dass Authorization Request 
+nur nach vorheriger erfolgreicherAuthentifikation des Nutzers mit einem 
+AUTHORIZATION_CODE beantwortet werden.]]></description>
+    <description_html><![CDATA[Der sektorale Identity Provider MUSS sicherstellen, dass Authorization Request nur nach vorheriger erfolgreicher <span style="font-size: 10pt;line-height: 1.5;">Authentifikation </span>des Nutzers mit einem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> beantwortet werden.]]></description_html>
+  </requirement>
+  <requirement id="A_22235" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-23" technicalID="ML-124917" revision="567395">
+    <title><![CDATA[Information des Versicherten über Änderungen an Authentifizierungsfaktoren]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS den Versicherten über 
+Änderungen an Authentifizierungsfaktoren informieren.
+ Die Information des Versicherten kann dabei auch über die 
+Attributbestätigende Stelle erfolgen, welche den Anbieter des sektoralen 
+Identity Provider mit der Erstellung des elektronischen Identifizierungsmittels 
+beauftragt hat.]]></description>
+    <description_html><![CDATA[<span style="font-style: normal;color: #000000;">Der Anbieter des sektoralen Identity Provider MUSS den Versicherten über Änderungen an Authentifizierungsfaktoren informieren.<br/> Die Information des Versicherten kann dabei auch über die Attributbestätigende Stelle erfolgen, welche den Anbieter des sektoralen Identity Provider mit der Erstellung des elektronischen Identifizierungsmittels beauftragt hat.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22236" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-23" technicalID="ML-124918" revision="567395">
+    <title><![CDATA[Auskunft an Versicherten]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS dem Versicherten auf dessen 
+Verlangen Auskunft geben über
+
+ * erfolgte Zugriffe auf das elektronische Identifizierungsmittel des 
+Versicherten und
+ * Änderungen der Authentifizierungsfaktoren des Versicherten.]]></description>
+    <description_html><![CDATA[<span style="font-style: normal;color: #000000;">Der Anbieter des sektoralen Identity Provider MUSS dem Versicherten auf dessen Verlangen Auskunft geben über<br/></span> <ul><li><span style="font-style: normal;color: #000000;">erfolgte Zugriffe auf das elektronische Identifizierungsmittel des Versicherten und</span></li><li><span style="font-style: normal;color: #000000;">Änderungen der Authentifizierungsfaktoren des Versicherten.</span></li></ul><span id="polarion-comment:932"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22750" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129380" revision="567395">
+    <title><![CDATA[Gerätebindung und Authentisierung für gematik-ehealth-loa-high]]></title>
+    <description><![CDATA[Abhängig von der Geräteausstattung des Nutzers ist eine Gerätebindung für 
+einen festgelegten Zeitraum ohne Erneuerung gültig. Der Anbieter des sektoralen 
+IDP MUSS, wenn er eine Gerätebindung im Rahmen eines Authentisierungsverfahren 
+nutzt, die Zeitrahmen der Gültigkeit für die Gerätebindung gemäß Tabelle "
+Übersicht Gerätebindung" berücksichtigen. Die Gerätebindung MUSS durch den 
+Nutzer nach Ablauf dieser Frist dementsprechend erneuert werden.
+ Der Anbieter des sektoralen IDP MUSS, mit den zur Verfügung stehende 
+Plattformmechanismen, einen kryptographischen Nachweis der Gerätebindung auf 
+dem Endgerät erzeugen und auf Serverseite prüfen (z.B. Android: Key & ID 
+Attestation; iOS: DCAppAttestService).
+ Das Vertrauensniveau einer Gerätebindung als Authentisierungsfaktor 
+entspricht dem für die Einrichtung verwendeten Verfahren.
+
+ Tabelle #: Übersicht Gerätebindung für gematik-ehealth-loa-high
+
+GerätenutzungAuthentisierung
+ohne Hardware KeystoreDie Gerätebindung kann
+a) durch Identifikation, welche dem Niveau "gematik-ehealth-loa-high" 
+entsprichtoder  
+b) mit einer 2FA, welche dem Niveau "gematik-ehealth-loa-high" entspricht,
+angelegt werden.
+
+ Die Gerätebindung kann für 24 Stunden zusammen mit einem Faktor aus den 
+Bereichen Wissen oder Inhärenz auf dem Niveau "gematik-ehealth-loa-high" 
+genutzt werden.
+
+mit Hardware KeystoreDie Gerätebindung kann
+a) durch Identifikation, welche dem Niveau "gematik-ehealth-loa-high" 
+entsprichtoder  
+b) mit einer 2FA, welche dem Niveau "gematik-ehealth-loa-high" entspricht,
+angelegt werden.
+
+ Die Gerätebindung kann für 6 Monate zusammen mit einem Faktor aus den 
+Bereichen Wissen oder Inhärenz auf dem Niveau "gematik-ehealth-loa-high" 
+genutzt werden.
+mit zertifiziertem Secure ElementDie Gerätebindung kann
+a) durch Identifikation, welche dem Niveau "gematik-ehealth-loa-high" 
+entsprichtoder  
+b) mit einer 2FA, welche dem Niveau "gematik-ehealth-loa-high" entspricht,
+angelegt werden.
+
+ Die Gerätebindung kann unbegrenzt zusammen mit einem Faktor aus den Bereichen 
+Wissen oder Inhärenz auf dem Niveau "gematik-ehealth-loa-high" genutzt werden.]]></description>
+    <description_html><![CDATA[<p style="text-align: left;" class="polarion-rte-caption-paragraph" data-keep-next="true"><span style="font-style: normal;font-size: 10pt;line-height: 1.5;">Abhängig von der Geräteausstattung des Nutzers ist eine Gerätebindung für einen festgelegten Zeitraum ohne Erneuerung gültig. Der Anbieter des sektoralen IDP MUSS, wenn er eine Gerätebindung im Rahmen eines Authentisierungsverfahren nutzt, die Zeitrahmen der Gültigkeit für die Gerätebindung gemäß Tabelle &quot;<span style="font-style: italic;">Übersicht Gerätebindung</span>&quot; berücksichtigen. Die Gerätebindung MUSS durch den Nutzer nach Ablauf dieser Frist dementsprechend erneuert werden.<br/> Der Anbieter des sektoralen IDP MUSS, mit den zur Verfügung stehende Plattformmechanismen, einen kryptographischen Nachweis der Gerätebindung auf dem Endgerät erzeugen und auf Serverseite prüfen (z.B. Android: Key & ID Attestation; iOS: DCAppAttestService).<br/> Das Vertrauensniveau einer Gerätebindung als Authentisierungsfaktor entspricht dem für die Einrichtung verwendeten Verfahren.</span><br/><br/> Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: Übersicht Gerätebindung für gematik-ehealth-loa-high<span id="polarion-comment:1767"></span></p><table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 256px;height: 24.9906px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 11pt;color: #172B4D;line-height: 1.5;">Gerätenutzung</span></th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 475px;height: 24.9906px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 11pt;color: #172B4D;line-height: 1.5;">Authentisierung</span></th></tr><tr><td style="text-align: left;vertical-align: top;width: 256px;height: 136px;border: 1px solid #CCCCCC;padding: 5px;">ohne Hardware Keystore</td><td style="text-align: left;vertical-align: top;width: 475px;height: 136px;border: 1px solid #CCCCCC;padding: 5px;">Die Gerätebindung kann<br/> <div style="margin-left: 40px;">a) durch Identifikation, welche dem Niveau &quot;gematik-ehealth-loa-high&quot; entspricht</div>oder  <br/> <div style="margin-left: 40px;">b) mit einer 2FA, welche dem Niveau &quot;gematik-ehealth-loa-high&quot; entspricht,</div>angelegt werden.<br/><br/> Die Gerätebindung kann für 24 Stunden zusammen mit einem Faktor aus den Bereichen Wissen oder Inhärenz auf dem Niveau &quot;gematik-ehealth-loa-high&quot; genutzt werden.<span id="polarion-comment:1793"></span><br/></td></tr><tr><td style="text-align: left;vertical-align: top;width: 256px;height: 125px;border: 1px solid #CCCCCC;padding: 5px;">mit Hardware Keystore</td><td style="text-align: left;vertical-align: top;width: 475px;height: 125px;border: 1px solid #CCCCCC;padding: 5px;">Die Gerätebindung kann<br/> <div style="margin-left: 40px;">a) durch Identifikation, welche dem Niveau &quot;gematik-ehealth-loa-high&quot; entspricht</div>oder  <br/> <div style="margin-left: 40px;">b) mit einer 2FA, welche dem Niveau &quot;gematik-ehealth-loa-high&quot; entspricht,</div>angelegt werden.<br/><br/> Die Gerätebindung kann für 6 Monate zusammen mit einem Faktor aus den Bereichen Wissen oder Inhärenz auf dem Niveau &quot;gematik-ehealth-loa-high&quot; genutzt werden.<span id="polarion-comment:1794"></span></td></tr><tr><td style="text-align: left;vertical-align: top;width: 256px;height: 65px;border: 1px solid #CCCCCC;padding: 5px;">mit zertifiziertem Secure Element</td><td style="text-align: left;vertical-align: top;width: 475px;height: 65px;border: 1px solid #CCCCCC;padding: 5px;">Die Gerätebindung kann<br/> <div style="margin-left: 40px;">a) durch Identifikation, welche dem Niveau &quot;gematik-ehealth-loa-high&quot; entspricht</div>oder  <br/> <div style="margin-left: 40px;">b) mit einer 2FA, welche dem Niveau &quot;gematik-ehealth-loa-high&quot; entspricht,</div>angelegt werden.<br/><br/> Die Gerätebindung kann unbegrenzt zusammen mit einem Faktor aus den Bereichen Wissen oder Inhärenz auf dem Niveau &quot;gematik-ehealth-loa-high&quot; genutzt werden.<span id="polarion-comment:1795"></span><br/></td></tr></tbody></table><p style="text-align: center;" class="polarion-rte-caption-paragraph"></p><span id="polarion-comment:1626"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22939" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132367" revision="567395">
+    <title><![CDATA[Widerspruch zur Weitergabe einzelner Scopes]]></title>
+    <description><![CDATA[Authenticator-Module des sektoralen IDP MÜSSEN dem Nutzer die Möglichkeit geben 
+einem Dienst einzelnescopes nicht zu übermitteln. Auch auf das Risiko hin das 
+dieser Dienst dann nicht verwendet werden kann.]]></description>
+    <description_html><![CDATA[Authenticator-Module des sektoralen IDP MÜSSEN dem Nutzer die Möglichkeit geben einem Dienst einzelne <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">scopes</span> nicht zu übermitteln. Auch auf das Risiko hin das dieser Dienst dann nicht verwendet werden kann.]]></description_html>
+  </requirement>
+  <requirement id="A_23051" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133140" revision="567395">
+    <title><![CDATA[Authenticator-Module für Android und iOS]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS den Nutzern 
+Authenticator-Module für Android (imGoogle Play Store) und iOS (im App Store) 
+bereitstellen. Weitere Verbreitungswege sind zulässig aber nicht verpflichtend.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS den Nutzern Authenticator-Module für Android (im <span style="font-size: 10pt;line-height: 1.5;">Google Play Store</span>) und iOS (im <span style="font-size: 10pt;line-height: 1.5;">App Store)</span> bereitstellen. Weitere Verbreitungswege sind zulässig aber nicht verpflichtend.<span id="polarion-comment:1689"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22277-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134219" revision="567395">
+    <title><![CDATA[Authenticator-Modul: Schutz vor überalterter Software]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS dafür Sorge tragen, dass die 
+in App Stores veröffentlichten Authenticator-Module schnellstmöglich 
+aktualisiert und die Nutzer über Updates informiert werden.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS dafür Sorge tragen, dass die in App Stores veröffentlichten Authenticator-Module schnellstmöglich aktualisiert und die Nutzer über Updates informiert werden.<span id="polarion-comment:1688"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23389" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-135467" revision="567395">
+    <title><![CDATA[Authenticator-Modul: Schutz vor Missbrauch]]></title>
+    <description><![CDATA[Das Authenticator-Modul des sektoralen IDP MUSS
+
+ * Geräte mit Jailbreak oder Root-Zugriff entsprechend dem aktuellen Stand der 
+Technik erkennen. Das Authenticator-Modul MUSS dem Nutzer darstellen, welche 
+Risiken für die Daten des Nutzers bestehen (z. B., dass diese offengelegt 
+werden könnten) und die Fortsetzung unterbinden. 
+ * den Start in einer Entwicklungs-/Debug-Umgebung sicher erkennen und 
+unterbinden. 
+ * den Start abbrechen, falls es unter ungewöhnlichen Benutzerrechten 
+gestartet wird (z. B. root oder nobody). 
+ * Zertifikats-Pinning für die Verbindung zum sektoralen IDP unterstützen. Es 
+DARF Zertifikate NICHT akzeptieren, deren Zertifikatskette dem Hersteller nicht 
+vertrauenswürdig erscheint [RFC7469]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul des sektoralen IDP MUSS<br/>
+ 
+<ul>
+  <li>Geräte mit Jailbreak oder Root-Zugriff entsprechend dem aktuellen Stand der Technik erkennen. Das Authenticator-Modul MUSS dem Nutzer darstellen, welche Risiken für die Daten des Nutzers bestehen (z. B., dass diese offengelegt werden könnten) und die Fortsetzung unterbinden.</li>
+  <li>den Start in einer Entwicklungs-/Debug-Umgebung sicher erkennen und unterbinden.</li>
+  <li>den Start abbrechen, falls es unter ungewöhnlichen Benutzerrechten gestartet wird (z. B. root oder nobody).</li>
+  <li>Zertifikats-Pinning für die Verbindung zum sektoralen IDP unterstützen. Es DARF Zertifikate NICHT akzeptieren, deren Zertifikatskette dem Hersteller nicht vertrauenswürdig erscheint [RFC7469</li>
+</ul>]]></description_html>
+  </requirement>
+  <requirement id="A_22659" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128372" revision="567395">
+    <title><![CDATA[Realisierung der App2App-Kommunikation im Fall Android]]></title>
+    <description><![CDATA[Im Kontext von Android-Anwendungen MÜSSEN Authenticator-Module zu sektoralen 
+IDP für die wechselseitige Verlinkung den unter [ANDROIDAPPLINKS] beschriebenen 
+App-Link-Mechanismus verwenden und damit Aufrufe an die Adresse des 
+Authorization-EP ermöglichen.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Im Kontext von Android-Anwendungen MÜSSEN Authenticator-Module zu sektoralen IDP für die wechselseitige Verlinkung den unter [ANDROIDAPPLINKS] beschriebenen App-Link-Mechanismus verwenden und damit Aufrufe an die Adresse des Authorization-EP ermöglichen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22660" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128370" revision="567395">
+    <title><![CDATA[Realisierung der App2App-Kommunikation im Fall Apple/iOS]]></title>
+    <description><![CDATA[Im Kontext von iOS-Anwendungen MÜSSEN Authenticator-Module zu sektoralen IDP 
+für die wechselseitige Verlinkung den unter [APPLEUNIVERSAL] beschriebenen 
+Universal-Link-Mechanismus verwenden und damit Aufrufe an die Adresse des 
+Authorization-EP ermöglichen.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Im Kontext von iOS-Anwendungen MÜSSEN Authenticator-Module zu sektoralen IDP für die wechselseitige Verlinkung den unter [APPLEUNIVERSAL] beschriebenen Universal-Link-Mechanismus verwenden und damit Aufrufe an die Adresse des Authorization-EP ermöglichen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_22661" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-128371" revision="567395">
+    <title><![CDATA[Serverseitige Registrierungsdaten]]></title>
+    <description><![CDATA[Anbieter von sektoralen IDP MÜSSEN sicherstellen, dass die durch das 
+Betriebssystem notwendigen Voraussetzungen für die Funktionsfähigkeit ihres 
+Authenticator-Moduls erfüllt sind (z. B.Registrierung der Anwendung zur 
+App2App-Kommunikation entsprechend der Mechanismen unter [ANDROIDAPPLINKS] bzw. 
+[APPLEUNIVERSAL] zur Verknüpfung der Anwendung mit einer Webseite).]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Anbieter von sektoralen IDP MÜSSEN sicherstellen, dass die durch das Betriebssystem notwendigen Voraussetzungen für die Funktionsfähigkeit ihres Authenticator-Moduls erfüllt sind (z. B. <span style="font-size: 10pt;line-height: 1.5;">Registrierung der Anwendung zur App2App-Kommunikation entsprechend der Mechanismen unter [ANDROIDAPPLINKS] bzw. [APPLEUNIVERSAL] zur Verknüpfung der Anwendung mit einer Webseite</span>).</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23203" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134280" revision="567395">
+    <title><![CDATA[Zu unterstützende Betriebssystemversionen]]></title>
+    <description><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS dafür Sorge tragen, dass 
+seine Authenticator-Module jederzeit:
+
+ * iOS Betriebssystem: Die noch offiziell von Apple mit OS-Updates versorgten 
+Geräte
+ * Android-Betriebssystem:  Versionen mindestens der letzten zwei 
+Jahre unterstützen.]]></description>
+    <description_html><![CDATA[Der Anbieter des sektoralen Identity Provider MUSS dafür Sorge tragen, dass seine Authenticator-Module jederzeit:<br/> <ul><li>iOS Betriebssystem: Die noch offiziell von Apple mit OS-Updates versorgten Geräte</li><li>Android-Betriebssystem:  Versionen mindestens der letzten zwei Jahre unterstützen.</li></ul><span id="polarion-comment:1805"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22308-01" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-132847" revision="567395">
+    <title><![CDATA[Beschränkung des Authenticator-Moduls eines sektoralen IDP auf die Authentifizierung]]></title>
+    <description><![CDATA[Das Authenticator-Modul beim Aufruf durch das Anwendungsfrontend DARF NICHT 
+weitere/andere Funktionalitäten anbieten als solche, die direkt oder indirekt 
+zur Authentifizierung des Nutzers dienen (z. B. Einrichtung, Registrierung, 
+dafür relevante Informationen). Insbesondere Werbung für andere Leistungen oder 
+Funktionen DARF NICHT angezeigt werden.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;background-color: #FFFFFF;line-height: 1.5;">Das Authenticator-Modul beim Aufruf durch das Anwendungsfrontend DARF NICHT weitere/andere Funktionalitäten anbieten als solche, die direkt oder indirekt zur Authentifizierung des Nutzers dienen (z. B. Einrichtung, Registrierung, dafür relevante Informationen). Insbesondere Werbung für andere Leistungen oder Funktionen DARF NICHT angezeigt werden.<span id="polarion-comment:1627"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22311" type="leafRequirement" severity="MUSS" lastUpdate="2022-09-27" technicalID="ML-125057" revision="567395">
+    <title><![CDATA[Verwendung der ursprünglichen Adresse zur Übergabe des "AUTHORIZATION_CODE"]]></title>
+    <description><![CDATA[Authenticator-Module von sektoralen Identity Provider MÜSSEN die bei der 
+Übergabe des Authorization Request erhaltene redirect_uri für die Übergabe des 
+AUTHORIZATION_CODE verwenden. Außer für diesen Aufruf DARF er NICHT an andere 
+Anwendungen übergeben werden.]]></description>
+    <description_html><![CDATA[Authenticator-Module<span id="polarion-comment:1090"></span> von sektoralen Identity Provider MÜSSEN die bei der Übergabe des Authorization Request erhaltene <span style="font-size: 10pt;color: #172B4D;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">redirect_uri</span> </span>für die Übergabe des <span style="font-size: 10pt;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;line-height: 1.5;">AUTHORIZATION_CODE</span> verwenden. Außer für diesen Aufruf DARF er NICHT an andere Anwendungen übergeben werden.]]></description_html>
+  </requirement>
+  <requirement id="A_22978" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132846" revision="567395">
+    <title><![CDATA[Aufbereiten von Geräteinformationen]]></title>
+    <description><![CDATA[Authenticator-Module von sektoralen IDP SOLLEN Informationen zum 
+verwendeten Endgerät des Nutzers erheben können welche die Inhalte 
+des Datentyps "Device_Type" abbilden.
+ Um die Authentizität des Datensatzes zu gewährleisten, muss die 
+Vertrauenswürdigkeit zum Zeitpunkt der Erhebung des Datensatzes geprüft und 
+nachgewiesen werden.
+ Hierfür müssen geeignete und zur Verfügung stehende Plattformmechanismen 
+genutzt werden (z. B. Android: SafetyNet Attestation / Integrity API, Key & ID 
+Attestation; iOS: DCAppAttestService).]]></description>
+    <description_html><![CDATA[Authenticator-Module von sektoralen IDP SOLLEN Informationen zum verwendeten Endgerät des Nutzers erheben können welche die Inhalte des Datentyps &quot;Device_Type&quot; abbilden.<br/>
+Um die Authentizität des Datensatzes zu gewährleisten, muss die Vertrauenswürdigkeit zum Zeitpunkt der Erhebung des Datensatzes geprüft und nachgewiesen werden. <br/>
+Hierfür müssen geeignete und zur Verfügung stehende Plattformmechanismen genutzt werden (z. B. Android: SafetyNet Attestation / Integrity API, Key &amp; ID Attestation; iOS: DCAppAttestService).<span id="polarion-comment:1715"></span><span id="polarion-comment:1829"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23031" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133084" revision="567395">
+    <title><![CDATA[Authenticator-Modul: OAuth 2.0 Pushed Authorization Request (PAR)]]></title>
+    <description><![CDATA[Das Authenticator-Modul MUSS mittels App2App-Kommunikation übertragene Anfragen 
+entsprechend [OAuth 2.0 Pushed Authorization Requests (section-4) 
+<https://datatracker.ietf.org/doc/html/rfc9126#section-4>] annehmen und 
+gewährleisten, dass der Request TLS-gesichert in die vertrauenswürdige 
+Ausführungsumgebung des sektoralen IDP übermittelt wird.]]></description>
+    <description_html><![CDATA[Das Authenticator-Modul MUSS mittels App2App-Kommunikation übertragene Anfragen<span id="polarion-comment:1513"></span> entsprechend [<a href="https://datatracker.ietf.org/doc/html/rfc9126#section-4" target="_top" class="descriptionLink">OAuth 2.0 Pushed Authorization Requests (section-4)</a>] annehmen und gewährleisten, dass der Request TLS-gesichert in die vertrauenswürdige Ausführungsumgebung des sektoralen IDP übermittelt wird.]]></description_html>
+  </requirement>
+  <requirement id="A_22832" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129488" revision="567395">
+    <title><![CDATA[Authenticator-Modul: Anzeige des "user_consent"]]></title>
+    <description><![CDATA[Authenticator-Module des sektoralen IDP MUSS die Willenserklärung des Nutzers 
+zur Übermittlung seiner in denclaims angeforderten Daten zum anfragenden 
+Fachdienst über ein für den Betreiber des sektoralen IDP nicht einsehbares 
+Verfahren einholen. ]]></description>
+    <description_html><![CDATA[Authenticator-Module des sektoralen IDP MUSS die Willenserklärung des Nutzers zur Übermittlung seiner in den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">claims</span> angeforderten Daten zum anfragenden Fachdienst über ein für den Betreiber des sektoralen IDP nicht einsehbares Verfahren einholen. <span id="polarion-comment:1094"></span>]]></description_html>
+  </requirement>
+</requirements>

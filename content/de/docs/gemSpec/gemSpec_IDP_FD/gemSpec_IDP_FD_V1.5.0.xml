@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirements>
+  <requirement id="A_23045" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133134" revision="567408">
+    <title><![CDATA[Registrierung des Fachdienstes]]></title>
+    <description><![CDATA[Anbieter von Fachdiensten MÜSSEN bei der Registrierung ihrer 
+Authorization-Server am Federation Master die von ihnen erwarteten Attribute in 
+scopes (siehe Abschnitt ) beschreiben und dem Federation Master zur Verfügung 
+stellen. Die Registrierung MUSS ebenso die absolute URI des Fachdienstes im 
+Internet umfassen (seine Client-ID) sowie dessen Signaturschlüssel für das 
+Entity_Statement.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Anbieter von Fachdiensten MÜSSEN bei der Registrierung ihrer Authorization-Server am Federation Master die von ihnen erwarteten Attribute in</span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> <span style="color: #000000;">(siehe Abschnitt <span data-option-id="long" data-item-id="ML-128467" id="fake" data-type="workItem" class="polarion-rte-link"></span>) beschreiben und dem Federation Master zur Verfügung stellen. Die Registrierung <span title="Removed">MUSS ebenso</span> die absolute URI des Fachdienstes im Internet <span title="Removed">umfassen (seine Client-ID) sowie dessen Signaturschlüssel für das Entity_Statement</span>.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23046" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133135" revision="567408">
+    <title><![CDATA[öffentlicher Schlüssel des Federation Master]]></title>
+    <description><![CDATA[Anbieter von Fachdiensten MÜSSEN den öffentlichen Signaturschlüssel des 
+Federation Master durch einen sicheren Registrierungsprozess im 
+Authorization-Server einbringen und initial zur Signaturprüfung verwenden.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Anbieter von Fachdiensten MÜSSEN den öffentlichen Signaturschlüssel des Federation Master durch einen sicheren Registrierungsprozess im Authorization-Server einbringen und initial zur Signaturprüfung verwenden.<span id="polarion-comment:659"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23042" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133122" revision="567408">
+    <title><![CDATA[Verifikation der Certificate Transparency für TLS Verbindungen in die VAU]]></title>
+    <description><![CDATA[Die Hersteller der Fachdienste MÜSSEN prüfen ob die CA, welche die TLS 
+Zertifikate für Verbindungen in den sicheren Verarbeitungskontext eines 
+sektoralen Identity Provider erstellt hat, Certificate Transparency gemäß RFC 
+6962/RFC 9162 unterstützt.]]></description>
+    <description_html><![CDATA[Die Hersteller der Fachdienste MÜSSEN prüfen ob die CA, welche die TLS Zertifikate für Verbindungen in den sicheren Verarbeitungskontext eines sektoralen Identity Provider erstellt hat, Certificate Transparency gemäß RFC 6962/RFC 9162 unterstützt.]]></description_html>
+  </requirement>
+  <requirement id="A_23035" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133115" revision="567408">
+    <title><![CDATA[pseudonymes Attribut "sub"]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN das Attribut sub als pseudonyme ID des Versicherten in 
+Kombination mit demiss des ausstellenden IDP verwenden, da dieses nur 
+eineindeutig je IDP ist.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Fachdienste MÜSSEN das Attribut <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">sub</span> als pseudonyme ID des Versicherten in Kombination mit dem <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">iss</span> des ausstellenden IDP verwenden, da dieses nur eineindeutig je IDP ist.</span><span id="polarion-comment:660"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23036" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133116" revision="567408">
+    <title><![CDATA[Inhalte der "scopes" für Versicherte]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN bei ihrer Registrierung am Federation Master sicherstellen, 
+dass ausschließlich die fachlich benötigten Attribute aus der in 
+[gemSpec_IDP_Sek] Kapitel:"Token-Endpunkt Ausgangsdaten" definierten Auswahl als
+scopes beantragt werden.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN bei ihrer Registrierung am Federation Master sicherstellen, dass ausschließlich die fachlich benötigten Attribute aus der in [gemSpec_IDP_Sek] Kapitel: <span style="font-style: italic;">&quot;<span style="font-size: 10pt;line-height: 1.5;">Token-Endpunkt Ausgangsdaten</span>&quot;</span> definierten Auswahl als <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> beantragt werden.]]></description_html>
+  </requirement>
+  <requirement id="A_23037" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133117" revision="567408">
+    <title><![CDATA[Robustheit bei fehlenden Daten]]></title>
+    <description><![CDATA[Sind einzelne claims des angefragten scopes nicht im ID_TOKEN enthalten oder 
+leer, weil beispielsweise der Nutzer die Herausgabe verweigert oder Daten nicht 
+hinterlegt wurden, so MUSS der Fachdienste das ID_TOKEN trotzdem akzeptieren 
+und innerhalb der Fachanwendung geeignet reagieren.]]></description>
+    <description_html><![CDATA[Sind einzelne <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">claims</span> des angefragten <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">scopes</span> nicht im <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> enthalten oder leer<span id="polarion-comment:678"></span>, weil beispielsweise der Nutzer die Herausgabe verweigert oder Daten nicht hinterlegt wurden, so MUSS der Fachdienste das <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> trotzdem akzeptieren und innerhalb der Fachanwendung geeignet reagieren.]]></description_html>
+  </requirement>
+  <requirement id="A_23004" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132975" revision="567408">
+    <title><![CDATA[Anforderung eines Vertrauensniveaus]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN eine Authentisierung auf dem für den Zugriff auf ihre 
+Fachdaten notwendigen Vertrauensniveau im Parameter acr_values des Pushed 
+Authorization-Request anfragen oder wenn nur ein Wert in Frage kommt diesen im 
+Feld default_acr_values ihres Entity Statements nennen.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN eine Authentisierung auf dem für den Zugriff auf ihre Fachdaten notwendigen Vertrauensniveau im Parameter <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">acr_values</span> des Pushed Authorization-Request anfragen oder wenn nur ein Wert in Frage kommt diesen im Feld <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">default_acr_values</span> ihres Entity Statements nennen.]]></description_html>
+  </requirement>
+  <requirement id="A_23005" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-132974" revision="567408">
+    <title><![CDATA[Verifikation des durchgeführten Vertrauensniveaus]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN prüfen, ob das im ID_TOKEN im Feld acr 
+gelistete Vertrauensniveau der durchgeführten Authentisierung für den Zugriff 
+auf ihre Fachdaten ausreicht.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN prüfen, ob das im <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> im Feld <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">acr</span> gelistete Vertrauensniveau der durchgeführten Authentisierung für den Zugriff auf ihre Fachdaten ausreicht.]]></description_html>
+  </requirement>
+  <requirement id="AF_10116" type="useCase" severity="not defined" lastUpdate="2023-02-06" technicalID="ML-133107" revision="567408">
+    <title><![CDATA[Bereitstellung Liste registrierte Identity Provider]]></title>
+    <description><![CDATA[Tabelle #: Anwendungsfall "Bereitstellung Liste registrierte Identity Provider"
+
+AttributeBemerkung
+BeschreibungEin Anwender möchte einen in der TI registrierte Fachdienst 
+nutzen. Der Fachdienst muss sicherstellen, dass der Anwender zur Nutzung des 
+Dienstes berechtigt ist. Hierzu authentisiert sich der Anwender gegenüber einem 
+sektoralen Identity Provider, bei dem er registriert ist. Diesen wählt er aus 
+einer Liste aller in der TI zur Verfügung stehenden sektoralen Identity 
+Provider aus.
+ Der Authorization-Server MUSS dem Anwendungsfrontend oder dem Web-Backend 
+eine Liste der in der TI registrierten sektoralen Identity Provider zur 
+Verfügung stellen, oder selbst dem Benutzer eine Auswahlmöglichkeit bieten. 
+Diese Liste MUSS sich der Authorization-Server vom Federation Master abfragen.
+ Jeder Listeneintrag MUSS mindestens diese Informationen enthalten:
+
+ * eindeutige issuer-id des sektoralen Identity Provider in der TI-Föderation
+ * Name des sektoralen Identity Provider in lesbarer Form
+ * Logo des sektoralen Identity Provider (wenn vorhanden).Der Anwender des 
+Fachdienstes MUSS genau einen sektoralen Identity Provider aus der Liste 
+auswählen. Das Anwendungsfrontend kann sich die Zuordnung eines Anwenders zu 
+seinem sektoralen Identity Provider speichern, so dass die Abfrage der Liste 
+nicht bei jeder Anmeldung des Anwenders wiederholt werden muss.
+
+AkteurAnwender der Fachanwendung
+AuslöserEin Anwender möchte eine Gesundheitsanwendung der TI (Fachdienst) 
+nutzen. Als Voraussetzung für die Authentifizierung des Anwenders muss dieser 
+auswählen, bei welchem Identity Provider er registriert ist (bei Versicherten - 
+Auswahl der Krankenkasse).
+Komponenten
+ * Anwendungsfrontend (App oder Web) oder Web-Backend
+ * Authorization-Server eines Fachdienstes
+ * Federation Master
+Vorbedingung
+ * Es gibt eine Liste der in der TI-Föderation registrierten (sektoralen) 
+Identity Provider, deren Schlüssel dem Federation Master bekannt sind.
+
+ * Der Anwender ist durch einen der (sektoraler) Identity Provider 
+identifiziert worden.
+ * Das Entity Statement des Federation Master steht zur Verfügung und die 
+unter dem Attribut idp_list_endpoint benannte URL ist aus dem Internet 
+erreichbar. 
+Ablauf
+ * Das Anwendungsfrontend oder Web-Backend (im Folgenden als aufrufende 
+Instanz bezeichnet) schickt eine Anfrage zum Abruf der IDP-Liste an den 
+Authorization-Server.
+ * Der Authorization-Server prüft, ob er die IDP-Liste kennt und diese nicht 
+älter als 24h ist. Kennt er die IDP-Liste nicht oder ist diese älter als 24h, 
+so ruft er diese vom Federation Master ab. Hierbei greift er auf die 
+entsprechende URL zu, die im Entity Statement des Federation Master angegeben 
+ist.
+ * Der Authorization-Server gibt die vom Federation Master erhaltene IDP-Liste 
+an die aufrufende Instanz zurück. Der Inhalt der Liste ist hierbei nicht zu 
+verändern. (Daher gelten an dieser Stelle keine weiteren Detailanforderungen an 
+die Struktur und Inhalt der Liste. Eine Umschlüsselung der IDP-Liste ist 
+zulässig.)
+ * Die aufrufende Instanz überprüft die Integrität der erhaltenen IDP-Liste, 
+die entweder vom Federation Master oder vom Authorization-Server signiert ist ([
+gemSpec_IDP_FedMaster] Kapitel: "Anwendungsfall - IDP-Liste bereitstellen").
+ * Die aufrufende Instanz kann die IDP-Liste für die Dauer ihrer Gültigkeit 
+(Feld "exp") zwischenspeichern.
+ErgebnisDas Anwendungsfrontend zeigt dem Nutzer die Liste der registrierten 
+Identity Provider an.
+
+Akzeptanzkriterien ,  ,   
+AlternativenDas Anwendungsfrontend oder Web-Backend hat die IDP-Liste bereits 
+zwischengespeichert. In diesem Fall KANN auf den Abruf der IDP Liste verzichtet 
+werden.
+
+ Das Anwendungsfrontend oder Web-Backend kennt (z. B. aus früheren Sitzungen) 
+den sektoralen Identity Provider des Anwenders. In diesem Fall KANN auf den 
+Abruf und Anzeige der IDP Liste verzichtet werden.
+
+ Der Fachdienst KANN sich die notwendigen Informationen auch über die 
+Standard-Schnittstelle federation_list_endpoint des Federation Master abrufen (
+OpenID Connect Federation 1.0#name-federation-entity 
+<https://openid.net/specs/openid-connect-federation-1_0-21.html#name-federation-entity>
+). In diesem Fall muss er selbst eine Übersicht aller sektoralen Identity 
+Provider generieren, deren Entity Statements auslesen und mit den so erhaltenen 
+Informationen dem Nutzer eine Auswahl anbieten.]]></description>
+    <description_html><![CDATA[<p class="polarion-rte-caption-paragraph" data-keep-next="true"><span style="font-weight: normal;">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: Anwendungsfall &quot;Bereitstellung Liste registrierte Identity Provider&quot;</span></p><table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=290"><tbody><tr><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 137px;height: 19.4922px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Attribute</th><th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 594px;height: 19.4922px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Bemerkung</th></tr><tr><td style="vertical-align: top;width: 137px;height: 244.31px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Beschreibung</span></td><td style="vertical-align: top;width: 594px;height: 244.31px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Ein Anwender möchte einen in der TI registrierte Fachdienst nutzen. Der Fachdienst muss sicherstellen, dass der Anwender zur Nutzung des Dienstes berechtigt ist. Hierzu authentisiert sich der Anwender gegenüber einem sektoralen Identity Provider, bei dem er registriert ist. Diesen wählt er aus einer Liste aller in der TI zur Verfügung stehenden sektoralen Identity Provider aus.<br/> Der Authorization-Server MUSS dem Anwendungsfrontend <span title="Added">oder dem Web-Backend </span>eine Liste der in der TI registrierten sektoralen Identity Provider zur Verfügung stellen, oder selbst dem Benutzer eine Auswahlmöglichkeit bieten. Diese Liste MUSS sich der Authorization-Server vom Federation Master abfragen.<br/> Jeder Listeneintrag MUSS mindestens diese Informationen enthalten:<br/></span> <ul><li><span style="font-weight: normal;">eindeutige issuer-id des sektoralen Identity Provider in der TI-Föderation</span></li><li><span style="font-weight: normal;">Name des sektoralen Identity Provider in lesbarer Form</span></li><li><span style="font-weight: normal;">Logo des sektoralen Identity Provider (wenn vorhanden).</span></li></ul><span style="font-weight: normal;">Der Anwender des Fachdienstes MUSS genau einen sektoralen Identity Provider aus der Liste auswählen. Das Anwendungsfrontend kann sich die Zuordnung eines Anwenders zu seinem sektoralen Identity Provider speichern, so dass die Abfrage der Liste nicht bei jeder Anmeldung des Anwenders wiederholt werden muss.<br/></span></td></tr><tr><td style="vertical-align: top;width: 137px;height: 19.4922px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Akteur</span></td><td style="vertical-align: top;width: 594px;height: 19.4922px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Anwender der Fachanwendung</span></td></tr><tr><td style="vertical-align: top;width: 137px;height: 38.9844px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Auslöser</span></td><td style="vertical-align: top;width: 594px;height: 38.9844px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Ein Anwender möchte eine Gesundheitsanwendung der TI (Fachdienst) nutzen. Als Voraussetzung für die Authentifizierung des Anwenders muss dieser auswählen, bei welchem Identity Provider er registriert ist (bei Versicherten - Auswahl der Krankenkasse).</span></td></tr><tr><td style="vertical-align: top;width: 137px;height: 88.3724px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Komponenten</span></td><td style="vertical-align: top;width: 594px;height: 88.3724px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><ul><li><span style="font-weight: normal;">Anwendungsfrontend <span title="Added">(App oder Web) oder Web-Backend</span></span></li><li><span style="font-weight: normal;">Authorization-Server eines Fachdienstes</span></li><li><span style="font-weight: normal;">Federation Master</span></li></ul></td></tr><tr><td style="vertical-align: top;width: 137px;height: 88.3724px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Vorbedingung</span></td><td style="vertical-align: top;width: 594px;height: 88.3724px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><ol><li><span style="font-weight: normal;">Es gibt eine Liste der in der TI-Föderation registrierten (sektoralen) Identity Provider, deren Schlüssel dem Federation Master bekannt sind.<br/></span></li><li><span style="font-weight: normal;">Der Anwender ist durch einen der (sektoraler) Identity Provider identifiziert worden.</span></li><li><span style="font-weight: normal;">Das Entity Statement des Federation Master steht zur Verfügung und die unter dem Attribut idp_list_endpoint benannte URL ist aus dem Internet erreichbar. </span></li></ol></td></tr><tr><td style="vertical-align: top;width: 137px;height: 171.549px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Ablauf</span></td><td style="vertical-align: top;width: 594px;height: 171.549px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><ol><li><span style="font-weight: normal;">Das Anwendungsfrontend <span title="Added">oder Web-Backend (im Folgenden als aufrufende Instanz bezeichnet) </span>schickt eine Anfrage zum Abruf der IDP-Liste an den Authorization-Server.</span></li><li><span style="font-weight: normal;">Der Authorization-Server prüft, ob er die IDP-Liste kennt und diese nicht älter als 24h ist. Kennt er die IDP-Liste nicht oder ist diese älter als 24h, so ruft er diese vom Federation Master ab. Hierbei greift er auf die entsprechende URL zu, die im Entity Statement des Federation Master angegeben ist.<span id="polarion-comment:647"></span></span></li><li><span style="font-weight: normal;">Der Authorization-Server gibt die vom Federation Master erhaltene IDP-Liste an <span title="Added">die aufrufende Instanz</span> zurück. Der Inhalt der Liste ist hierbei nicht zu verändern. (Daher gelten an dieser Stelle keine weiteren Detailanforderungen an die Struktur und Inhalt der Liste. <span title="Added">Eine Umschlüsselung der IDP-Liste ist zulässig.</span>)</span></li><li><span style="font-weight: normal;">Die aufrufende Instanz überprüft die Integrität der erhaltenen IDP-Liste, die entweder vom Federation Master oder vom Authorization-Server signiert ist ([<span style="font-size: 10pt;line-height: 1.5;">gemSpec_IDP_FedMaster</span>] Kapitel: <span style="font-style: italic;">&quot;</span><span style="font-style: normal;">Anwendungsfall - IDP-Liste bereitstellen</span><span style="font-style: italic;">&quot;</span>).</span></li><li><span style="font-weight: normal;">Die aufrufende Instanz kann die IDP-Liste für die Dauer ihrer Gültigkeit (Feld &quot;exp&quot;) zwischenspeichern.</span></li></ol></td></tr><tr><td style="vertical-align: top;width: 137px;height: 19.4922px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Ergebnis</span></td><td style="vertical-align: top;width: 594px;height: 19.4922px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Das Anwendungsfrontend zeigt dem Nutzer die Liste der registrierten Identity Provider an.<br/></span></td></tr><tr><td style="vertical-align: top;width: 137px;height: 19.4922px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Akzeptanzkriterien</span></td><td style="vertical-align: top;width: 594px;height: 19.4922px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;"><span data-option-id="short" data-item-id="ML-133108" id="fake" data-type="workItem" class="polarion-rte-link"></span> , <span data-option-id="short" data-item-id="ML-133109" id="fake" data-type="workItem" class="polarion-rte-link"></span> ,  <span data-option-id="short" data-item-id="ML-128411" id="fake" data-type="workItem" class="polarion-rte-link"></span> </span></td></tr><tr><td style="vertical-align: top;width: 137px;height: 58.4766px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Alternativen</span></td><td style="vertical-align: top;width: 594px;height: 58.4766px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;">Das Anwendungsfrontend <span title="Added">oder Web-Backend hat die IDP-Liste bereits zwischengespeichert. </span>In diesem Fall KANN auf den Abruf der IDP Liste verzichtet werden.<br/><br/> Das Anwendungsfrontend <span title="Added">oder Web-Backend </span>kennt (z. B. aus früheren Sitzungen) den sektoralen Identity Provider des Anwenders. In diesem Fall KANN auf den Abruf und Anzeige der IDP Liste verzichtet werden.<br/><br/> Der Fachdienst KANN sich die notwendigen Informationen auch über die Standard-Schnittstelle federation_list_endpoint des Federation Master abrufen (<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-federation-1_0-21.html#name-federation-entity">OpenID Connect Federation 1.0#name-federation-entity</a>). In diesem Fall muss er selbst eine Übersicht aller sektoralen Identity Provider generieren, deren Entity Statements auslesen und mit den so erhaltenen Informationen dem Nutzer eine Auswahl anbieten.<span id="polarion-comment:666"></span></span><br/></td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="ML-133108" type="acceptanceObject" severity="not defined" lastUpdate="2022-10-26" technicalID="ML-133108" revision="567408">
+    <title><![CDATA[AF_10116 - Abruf der IDP-Liste liefert signiertes JWS als Response]]></title>
+    <description><![CDATA[Der Authorization-Server nimmt vom Anwendungsfrontend den Request zum Abruf der 
+IDP-Liste entgegen und gibt als Response ein signiertes JWS zurück.]]></description>
+    <description_html><![CDATA[Der Authorization-Server nimmt vom Anwendungsfrontend den Request zum Abruf der IDP-Liste entgegen und gibt als Response ein signiertes JWS zurück.]]></description_html>
+  </requirement>
+  <requirement id="ML-133109" type="acceptanceObject" severity="not defined" lastUpdate="2022-10-26" technicalID="ML-133109" revision="567408">
+    <title><![CDATA[AF_10116 - Integere IDP-Liste]]></title>
+    <description><![CDATA[Das Anwendungsfrontend oder Web-Backend hat die Integrität der erhaltenen 
+IDP-Liste erfolgreich geprüft.
+ ]]></description>
+    <description_html><![CDATA[Das Anwendungsfrontend <span title="Added">oder Web-Backend hat die Integrität der erhaltenen IDP-Liste erfolgreich geprüft.<br/>
+</span> ]]></description_html>
+  </requirement>
+  <requirement id="A_23033" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133110" revision="567408">
+    <title><![CDATA[Integritätsschutz der IDP-Liste]]></title>
+    <description><![CDATA[Die Integrität der vom Anwendungsfrontend verarbeitete IDP-Liste MUSS 
+gewährleistet werden (z. B. mittels Signaturprüfung).]]></description>
+    <description_html><![CDATA[<span title="Added">Die Integrität der vom Anwendungsfrontend verarbeitete IDP-Liste MUSS gewährleistet werden (z. B. mittels Signaturprüfung).</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23336" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-135347" revision="567408">
+    <title><![CDATA[Mindestvorgaben für Schlüssel von Fachdiensten als Teilnehmer der TI-Föderation]]></title>
+    <description><![CDATA[Ein Fachdienst als Teilnehmer der TI-Föderation MUSS bei dem eingesetzten 
+Schlüsselmaterial (Signatur, Authorisierungstoken, Entity Statement, etc.), 
+folgende Vorgaben umsetzen:
+
+ * Alle verwendeten Schlüssel MÜSSEN ein Sicherheitsniveau von 120 Bit 
+ermöglichen (vgl. [gemSpec_Krypt#5 "Migration 120-Bit Sicherheitsniveau"]). 
+ * Alle ECC-Schlüssel MÜSSEN auf einem folgenden der Domainparameter (Kurven) 
+basieren: 
+ * P-256 oder P-384 [FIPS-186-4]]]></description>
+    <description_html><![CDATA[Ein Fachdienst als Teilnehmer der TI-Föderation MUSS bei dem eingesetzten Schlüsselmaterial (Signatur, Authorisierungstoken, Entity Statement, etc.), folgende Vorgaben umsetzen:<br/>
+ 
+<ol>
+  <li>Alle verwendeten Schlüssel MÜSSEN ein Sicherheitsniveau von 120 Bit ermöglichen (vgl. [gemSpec_Krypt#5 &quot;Migration 120-Bit Sicherheitsniveau&quot;]).</li>
+  <li>Alle ECC-Schlüssel MÜSSEN auf einem folgenden der Domainparameter (Kurven) basieren:</li>
+  <ol>
+    <li>P-256 oder P-384 [FIPS-186-4]</li>
+  </ol>
+</ol>]]></description_html>
+  </requirement>
+  <requirement id="A_23034" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133111" revision="567408">
+    <title><![CDATA[Entity Statement veröffentlichen]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN über sich ein, ES256 signiertes, Entity Statement 
+gemäß [OpenID Connect Federation 1.0#rfc.section.6 
+<https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.6>] 
+unter".well-known/openid-federation" veröffentlichen. Das Entity Statement ist 
+maximal 24h gültig.]]></description>
+    <description_html><![CDATA[Authorization-Server MÜSSEN über sich ein, ES256 signiertes, Entity Statement gemäß [<a class="descriptionLink" target="_top" href="https://openid.net/specs/openid-connect-federation-1_0.html#rfc.section.6">OpenID Connect Federation 1.0#rfc.section.6</a>] unter <span style="font-size: 10pt;line-height: 1.5;">&quot;.well-known/openid-federation&quot;</span> veröffentlichen. Das Entity Statement ist maximal 24h gültig.<span id="polarion-comment:646"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23038" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133120" revision="567408">
+    <title><![CDATA[Entity Statement abrufen]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN benötigte Schlüssel und Endpunkte des Federation 
+Master und verwendeter sektoraler Identity Provider durch Abfrage ihrer Entity 
+Statements entsprechend [gemSpec_IDP_FedMaster]#AF_10101 einholen.]]></description>
+    <description_html><![CDATA[Authorization-Server MÜSSEN benötigte Schlüssel und Endpunkte des Federation Master und verwendeter sektoraler Identity Provider durch Abfrage ihrer Entity Statements entsprechend [<span style="font-size: 10pt;line-height: 1.5;">gemSpec_IDP_FedMaster]#</span>AF_10101 einholen.]]></description_html>
+  </requirement>
+  <requirement id="A_23039" type="leafRequirement" severity="KANN" lastUpdate="2023-02-06" technicalID="ML-133118" revision="567408">
+    <title><![CDATA[Entity Statement vorhalten]]></title>
+    <description><![CDATA[Authorization-Server KÖNNEN einmal heruntergeladene fremde Entity Statements 
+zwischenspeichern. Diese SOLLEN nach 12 Stunden erneut heruntergeladen werden 
+und MÜSSEN nach maximal 24 Stunden verworfen werden.]]></description>
+    <description_html><![CDATA[Authorization-Server KÖNNEN einmal heruntergeladene fremde Entity Statements zwischenspeichern. Diese SOLLEN nach 12 Stunden erneut heruntergeladen werden und MÜSSEN nach maximal 24 Stunden verworfen werden.<span id="polarion-comment:648"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23040" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133119" revision="567408">
+    <title><![CDATA[Fachdienst: Prüfung der Signatur des Entity Statements]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN die Signatur der heruntergeladenen Entity Statement 
+prüfen und auf einen zeitlich gültigen Signaturschlüssel zurückführen, welcher 
+von dem ihm bekannten Federation Master oder von einem durch den Federation 
+Master beglaubigten sektoralen Identity Provider ausgestellt sein MUSS. Vor der 
+weiteren Verwendung MUSS die Prüfung der Entity Statements erfolgreich 
+abgeschlossen sein.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Authorization-Server MÜSSEN die Signatur der heruntergeladenen Entity Statement <span id="polarion-comment:664"></span>prüfen und auf einen zeitlich gültigen Signaturschlüssel zurückführen, welcher von dem ihm bekannten Federation Master oder von einem durch den Federation Master beglaubigten sektoralen Identity Provider ausgestellt sein MUSS. Vor der weiteren Verwendung MUSS die Prüfung der Entity Statements erfolgreich abgeschlossen sein.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23183" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134170" revision="567408">
+    <title><![CDATA[Veröffentlichen der TLS Authentisierungsschlüssel]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN sicherstellen, dass die für die TLS Client 
+Authentisierung gegenüber sektoralen IDPs verwendeten Schlüssel über das Entity 
+Statement validiert werden können, indem für diese Zertifikate im Schlüsselsatz 
+(jwks) des Fachdienstes abgelegt werden. ("use = sig", x5c Objekt gesetzt). 
+Nach [RFC8705-section 2.2 (
+https://www.rfc-editor.org/rfc/rfc8705.html#name-self-signed-certificate-mut 
+<https://www.rfc-editor.org/rfc/rfc8705.html#name-self-signed-certificate-mut>
+)] ist der Authorization-Server erfolgreich authentifiziert, wenn das 
+Zertifikat, das er während des Handshakes vorgelegt hat, mit einem der für 
+diesen bestimmten Client registrierten Zertifikate übereinstimmt.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;">Authorization-Server MÜSSEN sicherstellen, dass die für die TLS Client Authentisierung gegenüber sektoralen IDPs verwendeten Schlüssel über das Entity Statement validiert werden können, indem für diese Zertifikate im Schlüsselsatz (jwks) des Fachdienstes abgelegt werden. (&quot;use = sig&quot;, x5c Objekt gesetzt). Nach [RFC8705-section 2.2 (<a href="https://www.rfc-editor.org/rfc/rfc8705.html#name-self-signed-certificate-mut" target="_top">https://www.rfc-editor.org/rfc/rfc8705.html#name-self-signed-certificate-mut</a>)] ist der Authorization-Server erfolgreich authentifiziert, wenn das Zertifikat, das er während des Handshakes vorgelegt hat, mit einem der für diesen bestimmten Client registrierten Zertifikate übereinstimmt.<span id="polarion-comment:676"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23185" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134188" revision="567408">
+    <title><![CDATA[Gültigkeitsdauer der TLS Authentisierungsschlüssel]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN sicherstellen, dass die für die Authentisierung des 
+Fachdienstes, als Client der mTLS Verbindung zum sektoralen IDP, verwendeten 
+Zertifikate eine maximale Gültigkeit von 398 Tagen haben und das 
+Schlüsselmaterial anschließend nicht weiterverwendet wird. ]]></description>
+    <description_html><![CDATA[Authorization-Server MÜSSEN sicherstellen, <span style="font-style: normal;">dass die für die <span style="font-size: 10pt;line-height: 1.5;">Authentisierung des Fachdienstes, als Client der mTLS Verbindung zum sektoralen IDP, verwendeten Zertifikate</span> eine maximale Gültigkeit von 398 Tagen haben und das Schlüsselmaterial anschließend nicht weiterverwendet wird. <span id="polarion-comment:677"></span></span><span style="font-style: italic;"><span id="polarion-comment:640"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23194" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134211" revision="567408">
+    <title><![CDATA[Veröffentlichen der öffentlichen Verschlüsselungsschlüssel]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN sicherstellen, dass die für die Verschlüsselung von 
+ID_TOKEN durch den sektoralen IDPs verwendeten öffentlichen Schlüssel über das 
+Entity Statement zur Verfügung gestellt werden, indem diese im Schlüsselsatz 
+(jwks) des Fachdienstes abgelegt werden. (use = enc).]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Authorization-Server MÜSSEN sicherstellen, dass die für die Verschlüsselung von <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> durch den sektoralen IDPs verwendeten öffentlichen Schlüssel über das Entity Statement zur Verfügung gestellt werden, indem diese im Schlüsselsatz (jwks) des Fachdienstes abgelegt werden. (use = enc).<span id="polarion-comment:652"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23196" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134213" revision="567408">
+    <title><![CDATA[Zulässige Schlüssel]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN sicherstellen, dass für TLS-Authentisierung, 
+Token-Verschlüsselung und Signatur seines Entity Statements nur ECC Schlüssel 
+der Kurve P256 [RFC-5480] verwendet werden.]]></description>
+    <description_html><![CDATA[<span style="color: #000000;"><span style="font-size: 10pt;line-height: 1.5;">Authorization-Server MÜSSEN sicherstellen, dass für TLS-Authentisierung, Token-Verschlüsselung und Signatur seines Entity Statements nur ECC Schlüssel der Kurve P256 [RFC-5480] verwendet werden</span>.</span><span id="polarion-comment:651"></span><span id="polarion-comment:663"></span>]]></description_html>
+  </requirement>
+  <requirement id="AF_10117" type="useCase" severity="not defined" lastUpdate="2023-02-06" technicalID="ML-133209" revision="567408">
+    <title><![CDATA[OAuth 2.0 Pushed Authorization Request]]></title>
+    <description><![CDATA[Tabelle #: Anwendungsfall "OAuth 2.0 Pushed Authorization Request" 
+
+Attribute Bemerkung 
+Beschreibung Ein Anwender möchte einen in der TI registrierten Fachdienst 
+nutzen. Der Fachdienst muss sicherstellen, dass der Anwender zur Nutzung des 
+Dienstes berechtigt ist. Hierzu authentisiert sich der Anwender gegenüber einem 
+sektoralen Identity Provider, bei dem er registriert ist.
+ Der Authorization-Server MUSS bei Erhalt eines Autorisierung Requests vom 
+Anwendungsfrontend oder vom Web-Backend eine entsprechende Anfrage (Pushed 
+Authorization Request) an den angegebenen sektoralen Identity Provider senden. 
+Anschließend sendet der Authorization-Server die vom sektoralen Identity 
+Provider erhaltene URI zurück an die aufrufende Instanz. 
+Akteur Anwender der Fachanwendung 
+Auslöser Ein Anwender möchte eine Gesundheitsanwendung der TI (Fachdienst) 
+nutzen. Als Voraussetzung muss er sich bei einem sektoralen Identity Provider 
+authentifizieren, bei welchem er registriert ist. 
+Komponenten 
+ * Anwendungsfrontend oder Web-Backend 
+ * Authorization-Server eines Fachdienstes 
+ * sektoraler Identity Provider 
+Vorbedingung 
+ * Der Anwender ist durch einen der (sektoralen) Identity Provider 
+identifiziert worden 
+ * Das Entity Statement des Federation Master steht zur Verfügung. 
+ * Der involvierte sektorale Identity Provider ist beim Federation Master 
+registriert. 
+Ablauf 
+ * Das Anwendungsfrontend oder Web-Backend schickt einen OAUTH2 Authorization 
+Request unter Angabe des zu verwendenden sektoralen Identity Providers an den 
+Authorization Endpoint des Authorization-Servers ([gemSpec_IDP_Sek] Tabelle:
+"Authorization Request von Anwendungsfrontend zum Authorization-Server") und 
+authentisiert sich dabei als Client, dessen TLS-Verbindung mit einem Zertifikat 
+über das Entity Statement des Fachdienst validierbar ist. 
+ * Der Fachdienst prüft, ob er das Entity Statement des angegebenen sektoralen 
+Identity Provider kennt und ob dieses nicht älter als 24h ist. Ist das Entity 
+Statement des angegebenen sektoralen Identity Provider unbekannt oder älter als 
+24h, lädt der Authorization-Server das Entity Statement vom angegebenen 
+sektoralen Identity Provider entsprechend [gemSpec_IDP_Sek] Kapitel: "Entity 
+Statement des sektoralen IDP". 
+ * Der Authorization-Server sendet seinerseits einen Authentication Request an 
+den Authentication Endpoint des angegebenen sektoralen Identity Providers 
+([gemSpec_IDP_Sek] Tabelle:"Parameter Pushed Authorization Request").
+ In diesem Request sind zufällige "state" und "nonce" Parameter enthalten, 
+welche der Fachdienst nutzt, um spätere Antworten zuzuordnen und zu validieren.
+
+ * (Falls nötig, lädt der sektorale Identity Provider das Entity Statement vom 
+Authorization-Server entsprechend A_23034.) 
+ * Der sektorale Identity Provider antwortet mit einer URI auf den Pushed 
+Authorization Request ([gemSpec_IDP_Sek] Tabelle:"Parameter der HTTP-Response") 
+(https://www.rfc-editor.org/rfc/rfc9126.html 
+<https://www.rfc-editor.org/rfc/rfc9126.html>). 
+ * Der Authorization-Server sendet die URI zurück an die aufrufende Instanz. 
+([gemSpec_IDP_Sek] Tabelle:"Request Parameter des Fachdienstes zum sektoralen 
+IDP") 
+Ergebnis Das Anwendungsfrontend oder Web-Backend hat die PAR URI erhalten, 
+mittels derer er die Benutzerauthentifizierung initiieren kann. 
+Akzeptanzkriterien ,    
+Alternativen keine]]></description>
+    <description_html><![CDATA[<p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: Anwendungsfall &quot;OAuth 2.0 Pushed Authorization Request&quot;
+</p>
+<table id="polarion_wiki macro name=table;params=width=99.87%" class="polarion-Document-table" style="width: 99.87%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Attribute</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Bemerkung</th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beschreibung</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ein Anwender möchte einen in der TI registrierten Fachdienst nutzen. Der Fachdienst muss sicherstellen, dass der Anwender zur Nutzung des Dienstes berechtigt ist. Hierzu authentisiert sich der Anwender gegenüber einem sektoralen Identity Provider, bei dem er registriert ist.<br/>
+        Der Authorization-Server MUSS bei Erhalt eines Autorisierung Requests vom Anwendungsfrontend oder vom Web-Backend eine entsprechende Anfrage (Pushed Authorization Request) an den angegebenen sektoralen Identity Provider senden. Anschließend sendet der Authorization-Server die vom sektoralen Identity Provider erhaltene URI zurück an die aufrufende Instanz.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akteur</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Anwender der Fachanwendung</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Auslöser</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ein Anwender möchte eine Gesundheitsanwendung der TI (Fachdienst) nutzen. Als Voraussetzung muss er sich bei einem sektoralen Identity Provider authentifizieren, bei welchem er registriert ist.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Komponenten</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">
+        <ul>
+          <li>Anwendungsfrontend oder Web-Backend</li>
+          <li>Authorization-Server eines Fachdienstes</li>
+          <li>sektoraler Identity Provider</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Vorbedingung</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">
+        <ol>
+          <li>Der Anwender ist durch einen der (sektoralen) Identity Provider identifiziert worden</li>
+          <li>Das Entity Statement des Federation Master steht zur Verfügung.</li>
+          <li>Der involvierte sektorale Identity Provider ist beim Federation Master registriert.</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ablauf</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">
+        <ol>
+          <li>Das Anwendungsfrontend oder Web-Backend schickt einen OAUTH2 Authorization Request unter Angabe des zu verwendenden sektoralen Identity Providers an den Authorization Endpoint des Authorization-Servers ([gemSpec_IDP_Sek] Tabelle: <span style="font-style: italic;">&quot;Authorization Request von Anwendungsfrontend zum Authorization-Server&quot;</span>) und authentisiert sich dabei als Client, dessen TLS-Verbindung mit einem Zertifikat über das Entity Statement des Fachdienst validierbar ist.<span id="polarion-comment:639"></span></li>
+          <li>Der Fachdienst prüft, ob er das Entity Statement des angegebenen sektoralen Identity Provider kennt und ob dieses nicht älter als 24h ist. Ist das Entity Statement des angegebenen sektoralen Identity Provider unbekannt oder älter als 24h, lädt der Authorization-Server das Entity Statement vom angegebenen sektoralen Identity Provider entsprechend [<span style="font-size: 10pt;line-height: 1.5;">gemSpec_IDP_Sek</span>] Kapitel: <span style="font-style: italic;">&quot;Entity Statement des sektoralen IDP&quot;</span>.<span id="polarion-comment:645"></span></li>
+          <li>Der Authorization-Server sendet seinerseits einen Authentication Request an den Authentication Endpoint des angegebenen sektoralen Identity Providers ([gemSpec_IDP_Sek] Tabelle: <span style="font-style: italic;">&quot;Parameter Pushed Authorization Request&quot;</span>).<br/>
+            In diesem Request sind zufällige &quot;state&quot; und &quot;nonce&quot; Parameter enthalten, welche der Fachdienst nutzt, um spätere Antworten zuzuordnen und zu validieren.<br/>
+          </li>
+          <li>(Falls nötig, lädt der sektorale Identity Provider das Entity Statement vom Authorization-Server entsprechend A_23034.)</li>
+          <li>Der sektorale Identity Provider antwortet mit einer URI auf den Pushed Authorization Request ([gemSpec_IDP_Sek] Tabelle: <span style="font-style: italic;">&quot;Parameter der HTTP-Response&quot;</span>) (<a href="https://www.rfc-editor.org/rfc/rfc9126.html" target="_top" class="descriptionLink">https://www.rfc-editor.org/rfc/rfc9126.html</a>).</li>
+          <li>Der Authorization-Server sendet die URI zurück an die aufrufende Instanz. ([gemSpec_IDP_Sek] Tabelle: <span style="font-style: italic;">&quot;Request Parameter des Fachdienstes zum sektoralen IDP&quot;</span>)</li>
+        </ol>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ergebnis</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Das Anwendungsfrontend oder Web-Backend hat die PAR URI erhalten, mittels derer er die Benutzerauthentifizierung initiieren kann.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akzeptanzkriterien</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span class="polarion-rte-link" data-type="workItem" id="fake" data-item-id="ML-133233" data-option-id="short"></span>, <span class="polarion-rte-link" data-type="workItem" id="fake" data-item-id="ML-133234" data-option-id="short"></span>  </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 116px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Alternativen</td>
+      <td style="text-align: left;vertical-align: top;width: 613px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">keine</td>
+    </tr>
+  </tbody>
+</table>]]></description_html>
+  </requirement>
+  <requirement id="ML-133233" type="acceptanceObject" severity="not defined" lastUpdate="2022-10-26" technicalID="ML-133233" revision="567408">
+    <title><![CDATA[AF_10117 - Antwort auf den Pushed Authorization Request]]></title>
+    <description><![CDATA[Das Anwendungsfrontend oder Web-Backend hat die Antwort auf den Pushed 
+Authorization Request vom Authorization-Server erhalten.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Das Anwendungsfrontend oder Web-Backend hat die Antwort auf den Pushed Authorization Request vom Authorization-Server erhalten.</span>]]></description_html>
+  </requirement>
+  <requirement id="ML-133234" type="acceptanceObject" severity="not defined" lastUpdate="2022-10-26" technicalID="ML-133234" revision="567408">
+    <title><![CDATA[AF_10117 - PAR URI]]></title>
+    <description><![CDATA[Die gelieferte Antwort enthält die PAR URI, mittels derer das 
+Anwendungsfrontend oder Web-Backend die Benutzerauthentifizierung initiieren 
+kann.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Die gelieferte Antwort enthält die PAR URI, mittels derer das Anwendungsfrontend oder Web-Backend die Benutzerauthentifizierung initiieren kann.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23047" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133136" revision="567408">
+    <title><![CDATA[Endpunkt für OAuth 2.0 Authorization Endpoint]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN einen OAuth 2.0 Authorization Endpunkt anbieten um 
+Authorization Requests mit PKCE/Code Challenge entsprechend
+https://datatracker.ietf.org/doc/html/rfc6749#section-4.1.1 
+<https://datatracker.ietf.org/doc/html/rfc6749#section-4.1.1> und 
+https://datatracker.ietf.org/doc/html/rfc7636#section-4.3 
+<https://datatracker.ietf.org/doc/html/rfc7636#section-4.3> zu akzeptieren und 
+zu verarbeiten.]]></description>
+    <description_html><![CDATA[Authorization-Server MÜSSEN einen OAuth 2.0 Authorization Endpunkt anbieten um Authorization Requests mit PKCE/Code Challenge entsprechend <a href="https://datatracker.ietf.org/doc/html/rfc6749#section-4.1.1" target="_top" class="descriptionLink">https://datatracker.ietf.org/doc/html/rfc6749#section-4.1.1</a> und <a href="https://datatracker.ietf.org/doc/html/rfc7636#section-4.3" target="_top" class="descriptionLink">https://datatracker.ietf.org/doc/html/rfc7636#section-4.3</a> zu akzeptieren und zu verarbeiten.]]></description_html>
+  </requirement>
+  <requirement id="A_23048" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133137" revision="567408">
+    <title><![CDATA[Response für OAuth 2.0 Pushed Authorization Requests]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN nach Erhalt eines Authorization Request 
+entsprechend OAuth 2.0 Pushed Authorization Requests (PAR) 
+https://datatracker.ietf.org/doc/html/rfc9126 
+<https://datatracker.ietf.org/doc/html/rfc9126> mit sektoralen Identity 
+Providern kommunizieren und eine entsprechende Antwort an die aufrufende 
+Instanz zurück senden.]]></description>
+    <description_html><![CDATA[Authorization-Server MÜSSEN nach Erhalt eines Authorization Request entsprechend OAuth 2.0 Pushed Authorization Requests (PAR) <a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc9126">https://datatracker.ietf.org/doc/html/rfc9126</a> mit sektoralen Identity Providern kommunizieren und eine entsprechende Antwort an die aufrufende Instanz zurück senden.]]></description_html>
+  </requirement>
+  <requirement id="A_23500" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-136624" revision="567408">
+    <title><![CDATA[Ablehnung des PAR als "unauthorized" (HTTP 401)]]></title>
+    <description><![CDATA[Wird der erstmalige PAR des Fachdienstes an einen sektoralen IDP mit dem 
+Fehlercode HTTP 401 quittiert, so war der Fachdienst dem sektoralen IDP noch 
+nicht bekannt. Der Fachdienst MUSS in diesem Fall den PAR wiederholen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #172B4D;line-height: 1.5;">Wird der erstmalige PAR des Fachdienstes an einen sektoralen IDP mit dem Fehlercode HTTP 401 quittiert, so <span style="font-weight: normal;">war</span> der Fachdienst dem sektoralen IDP <span style="font-weight: normal;">noch </span>nicht bekannt. Der Fachdienst MUSS in diesem Fall den PAR wiederholen.<span id="polarion-comment:675"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="AF_10118" type="useCase" severity="not defined" lastUpdate="2023-02-06" technicalID="ML-133235" revision="567408">
+    <title><![CDATA[Benutzerauthentifizierung und Erhalt des ID_TOKEN]]></title>
+    <description><![CDATA[Tabelle #: Anwendungsfall "Benutzerauthentifizierung und Erhalt des ID_TOKEN"
+
+AttributeBemerkung
+BeschreibungEin Anwender möchte einen in der TI registrierten Fachdienst 
+nutzen. Der Fachdienst muss sicherstellen, dass der Anwender zur Nutzung des 
+Dienstes berechtigt ist. Hierzu authentisiert sich der Anwender gegenüber einem 
+sektoralen Identity Provider, bei dem er registriert ist. Nach Abschluss der 
+Authentisierung des Nutzers gegenüber dem sektoralen Identity Provider, erhält 
+der Authorization-Server denAUTHORIZATION_CODE mit dem er das ID_TOKEN abrufen 
+kann.
+
+AkteurAnwender der Fachanwendung
+AuslöserEin Anwender möchte eine Gesundheitsanwendung der TI (Fachdienst) 
+nutzen. Als Voraussetzung muss er sich bei einem sektoralen Identity Provider 
+authentifizieren, bei welchem er registriert ist. Das Anwendungsfrontend erhält 
+vom Authorization-Server die Pushed Authorization Requests URI zurück ([
+gemSpec_IDP_Sek] Kapitel: "PAR-Endpunkt Ausgangsdaten").
+
+Komponenten
+ * Anwendungsfrontend oder Web-Backend
+ * Authorization-Server eines Fachdienstes
+ * sektoraler Identity Provider
+
+Vorbedingung
+ * Der Anwender ist durch einen der (sektoraler) Identity Provider 
+identifiziert worden
+ * Das Entity Statement des Federation Master steht zur Verfügung.
+ * Der involvierte sektorale Identity Provider ist beim Federation Master 
+registriert.
+ * Eine OAuth 2.0 Pushed Authorization Request URI wurde entsprechend [
+gemSpec_IDP_Sek] Kapitel: "PAR-Endpunkt Ausgangsdaten" zurück geliefert.
+
+Ablauf
+ * Das Anwendungsfrontend oder Web-Backend ruft den Authorization-Endpunkt des 
+sektoralen Identity Providers auf und übergibt die OAuth 2.0 Pushed 
+Authorization Requests URI. Diese leitet weiter auf das Web-Frontend des 
+sektoralen Identity Providers oder direkt auf dessen Authenticator-Modul. (Die 
+eigentliche Authentifizierung erfolgt Implementations-spezifisch und wird hier 
+nicht weiter definiert.)
+
+ * Nach erfolgreichem Abschluss der Authentisierung sendet der sektorale 
+Identity Provider einenAUTHORIZATION_CODE an das aufrufende Anwendungsfrontend 
+oder Web-Backend.
+
+ * Das Anwendungsfrontend oder Web-Backend sendet den AUTHORIZATION_CODE an 
+den Authorization-Server.
+ * Der Authorization-Server sendet den AUTHORIZATION_CODE an den involvierten 
+sektoralen Identity Provider([gemSpec_IDP_Sek] Kapitel: "Detailinformationen 
+zum App-App-Flow" - Schritt 10) und authentisiert sich dabei als Client der TLS 
+Verbindung mit einem Zertifikat das über sein Entity Statement validierbar ist.
+
+ * Der sektorale Identity Provider überprüft die Gültigkeit des 
+AUTHORIZATION_CODE entsprechend 
+https://datatracker.ietf.org/doc/html/rfc7636#section-4.6 
+<https://datatracker.ietf.org/doc/html/rfc7636#section-4.6>
+
+ * Der sektorale Identity Provider antwortet dem Authorization-Server nach 
+erfolgreicher Überprüfung desAUTHORIZATION_CODE mit dem zugehörigen ID_TOKEN. 
+([gemSpec_IDP_Sek] Kapitel:"Detailinformationen zum App-App-Flow" - Schritt 11)
+
+ErgebnisDer Nutzer ist authentifiziert und der Authorization-Server hat den 
+ID_TOKEN mit dem es den ACCESS_TOKEN zum Zugriff auf die Fachdienst API abrufen 
+kann.
+Akzeptanzkriterien,  
+
+Alternativenkeine]]></description>
+    <description_html><![CDATA[<p style="text-align: left;" class="polarion-rte-caption-paragraph">Tabelle <span class="polarion-rte-caption" data-sequence="Tabelle">#</span>: Anwendungsfall &quot;Benutzerauthentifizierung und Erhalt des <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span>&quot;</p><table style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;" class="polarion-Document-table" id="polarion_wiki macro name=table;params=width=100%|uid=145"><tbody><tr><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Attribute</th><th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Bemerkung</th></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beschreibung</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ein Anwender möchte einen in der TI registrierten Fachdienst nutzen. Der Fachdienst muss sicherstellen, dass der Anwender zur Nutzung des Dienstes berechtigt ist. Hierzu authentisiert sich der Anwender gegenüber einem sektoralen Identity Provider, bei dem er registriert ist. Nach Abschluss der Authentisierung des Nutzers gegenüber dem sektoralen Identity Provider, erhält der Authorization-Server den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> mit dem er das <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> abrufen kann.<br/></td></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akteur</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Anwender der Fachanwendung</td></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Auslöser</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ein Anwender möchte eine Gesundheitsanwendung der TI (Fachdienst) nutzen. Als Voraussetzung muss er sich bei einem sektoralen Identity Provider authentifizieren, bei welchem er registriert ist. Das Anwendungsfrontend erhält vom Authorization-Server die Pushed Authorization Requests URI zurück ([<span style="font-size: 10pt;line-height: 1.5;">gemSpec_IDP_Sek</span>] Kapitel: <span style="font-style: italic;">&quot;</span><span style="font-style: normal;">PAR-Endpunkt Ausgangsdaten</span><span style="font-style: italic;">&quot;</span>).<br/></td></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Komponenten</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><ul><li>Anwendungsfrontend oder Web-Backend</li><li>Authorization-Server eines Fachdienstes</li><li>sektoraler Identity Provider<br/></li></ul></td></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Vorbedingung</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><ol><li>Der Anwender ist durch einen der (sektoraler) Identity Provider identifiziert worden</li><li>Das Entity Statement des Federation Master steht zur Verfügung.</li><li>Der involvierte sektorale Identity Provider ist beim Federation Master registriert.</li><li>Eine OAuth 2.0 Pushed Authorization Request URI wurde entsprechend [<span style="font-size: 10pt;line-height: 1.5;">gemSpec_IDP_Sek</span>] Kapitel: <span style="font-style: italic;">&quot;</span><span style="font-style: normal;">PAR-Endpunkt Ausgangsdaten</span><span style="font-style: italic;">&quot;</span> zurück geliefert.<br/></li></ol></td></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ablauf</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><ol><li>Das Anwendungsfrontend oder Web-Backend ruft den Authorization-Endpunkt des sektoralen Identity Providers auf und übergibt die OAuth 2.0 Pushed Authorization Requests URI. Diese leitet weiter auf das Web-Frontend des sektoralen Identity Providers oder direkt auf dessen Authenticator-Modul. (Die eigentliche Authentifizierung erfolgt Implementations-spezifisch und wird hier nicht weiter definiert.)<br/></li><li>Nach erfolgreichem Abschluss der Authentisierung sendet der sektorale Identity Provider einen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> an das aufrufende Anwendungsfrontend oder Web-Backend.<br/></li><li>Das Anwendungsfrontend oder Web-Backend sendet den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> an den Authorization-Server.</li><li>Der Authorization-Server sendet den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> an den involvierten sektoralen Identity Provider <span style="color: #000000;">([gemSpec_IDP_Sek] Kapitel: <span style="font-style: italic;">&quot;</span><span style="font-style: normal;">Detailinformationen zum App-App-Flow</span><span style="font-style: italic;">&quot;</span> - Schritt 10) und authentisiert sich dabei als Client der TLS Verbindung mit einem Zertifikat das über sein Entity Statement validierbar ist.<span id="polarion-comment:641"></span><br/></span></li><li><span style="color: #000000;">Der sektorale Identity Provider überprüft die Gültigkeit des <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> entsprechend <a class="descriptionLink" target="_top" href="https://datatracker.ietf.org/doc/html/rfc7636#section-4.6">https://datatracker.ietf.org/doc/html/rfc7636#section-4.6</a><br/></span></li><li><span style="color: #000000;">Der sektorale Identity Provider antwortet dem Authorization-Server nach erfolgreicher Überprüfung des <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">AUTHORIZATION_CODE</span> mit dem zugehörigen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span>. ([gemSpec_IDP_Sek] Kapitel: <span style="font-style: italic;">&quot;</span><span style="font-style: normal;">Detailinformationen zum App-App-Flow</span><span style="font-style: italic;">&quot;</span> - Schritt 11)</span><br/></li></ol></td></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Ergebnis</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Der Nutzer ist authentifiziert und der Authorization-Server hat den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> mit dem es den <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> zum Zugriff auf die Fachdienst API abrufen kann.</td></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Akzeptanzkriterien</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="color: #FF0000;"><span data-option-id="short" data-item-id="ML-133236" id="fake" data-type="workItem" class="polarion-rte-link"></span></span><span style="color: #000000;">, <span data-option-id="short" data-item-id="ML-133237" id="fake" data-type="workItem" class="polarion-rte-link"></span> </span><br/></td></tr><tr><td style="text-align: left;vertical-align: top;width: 130px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Alternativen</td><td style="text-align: left;vertical-align: top;width: 600px;height: 17px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="color: #000000;">keine</span><br/></td></tr></tbody></table>]]></description_html>
+  </requirement>
+  <requirement id="ML-133236" type="acceptanceObject" severity="not defined" lastUpdate="2022-10-26" technicalID="ML-133236" revision="567408">
+    <title><![CDATA[AF_10118 - ID_TOKEN erhalten]]></title>
+    <description><![CDATA[Der Authorization-Server hat einen ID_TOKEN vom sektoralen Identity Provider 
+erhalten.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Der Authorization-Server hat einen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> vom sektoralen Identity Provider erhalten.</span>]]></description_html>
+  </requirement>
+  <requirement id="ML-133237" type="acceptanceObject" severity="not defined" lastUpdate="2022-10-26" technicalID="ML-133237" revision="567408">
+    <title><![CDATA[AF_10118 - ID_TOKEN entspricht Vorgaben]]></title>
+    <description><![CDATA[Der erhaltene ID_TOKEN entspricht den Vorgaben in [gemSpec_IDP_Sek] Tabellen: 
+"Header-claims des ID_TOKEN des sektoralen IDP", "Signature Header-claims des 
+ID_TOKEN des sektoralen IDP" und "Body-claims für den ID_TOKEN des sektoralen 
+IDP".]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;font-style: normal;">Der erhaltene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> entspricht den Vorgaben in [gemSpec_IDP_Sek] Tabellen: &quot;Header-<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">claims</span> des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> des sektoralen IDP&quot;, &quot;Signature Header-<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">claims</span> des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> des sektoralen IDP&quot; und &quot;Body-<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">claims</span> für den <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> des sektoralen IDP&quot;.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_23195" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134212" revision="567408">
+    <title><![CDATA[Entschlüsseln der ID_TOKEN]]></title>
+    <description><![CDATA[Der Fachdienst MUSS das erhaltene ID_TOKEN vor der Verwendung mit seinem 
+korrespondierenden privaten Entschlüsselungskey entsprechend der "kid" in 
+Header entschlüsseln.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Fachdienst MUSS das erhaltene <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> vor der Verwendung mit seinem korrespondierenden privaten Entschlüsselungskey entsprechend der &quot;kid&quot; in Header entschlüsseln.<span id="polarion-comment:653"></span></span>]]></description_html>
+  </requirement>
+  <requirement id="A_23049" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133138" revision="567408">
+    <title><![CDATA[Überprüfung des "ID_TOKEN" durch den Authorization-Server]]></title>
+    <description><![CDATA[Zugriffsgeschützte Fachdienste MÜSSEN vor Gewährung des Zugriffs, den erhaltenen
+ID_TOKEN wie folgt prüfen. Nur nach erfolgreicher Überprüfung darf der Zugriff 
+gewährt werden.
+
+ * Das ID_TOKEN muss valide signiert sein durch einen Schlüssel des 
+ausstellenden sektoralen Identity Provider
+ * Das ID_TOKEN muss zeitlich gültig sein (Felder: iat, exp)
+ * Das ID_TOKEN muss im Feld aud den jeweiligen Fachdienst eingetragen haben.
+ * Falls es sich um eine pseudonyme Benutzeranmeldung handelt, muss die 
+Kombination der Felderiss und sub auf den Benutzer zugeordnet werden.
+
+ * Das Feld nonce MUSS mit der ausgelösten Authentisierungsanfrage 
+übereinstimmen.]]></description>
+    <description_html><![CDATA[Zugriffsgeschützte Fachdienste MÜSSEN vor Gewährung des Zugriffs, den erhaltenen <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> wie folgt prüfen. Nur nach erfolgreicher Überprüfung darf der Zugriff gewährt werden.<br/> <ol><li>Das<span id="polarion-comment:654"></span> <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> muss valide signiert sein durch einen Schlüssel des ausstellenden sektoralen Identity Provider</li><li>Das <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> muss zeitlich gültig sein (Felder: <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">iat</span>, <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">exp</span>)</li><li>Das <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> muss im Feld <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">aud</span> den jeweiligen Fachdienst eingetragen haben.</li><li>Falls es sich um eine pseudonyme Benutzeranmeldung handelt, muss die Kombination der Felder <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">iss</span> und <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">sub</span> auf den Benutzer zugeordnet werden.<br/></li><li>Das Feld <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">nonce</span> MUSS mit der ausgelösten Authentisierungsanfrage übereinstimmen.</li></ol>]]></description_html>
+  </requirement>
+  <requirement id="A_22861" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-129564" revision="567408">
+    <title><![CDATA[Aktualisierung der bekannten Signaturschlüssel bei unbekannter "kid" der Signatur]]></title>
+    <description><![CDATA[Bei der Überprüfung eines ID_TOKEN MUSS der Fachdienst, wenn der vom sektoralen 
+Identity Provider verwendete Signatur-Schlüssel ihm unbekannt ist, das Entity 
+Statement des sektoralen Identity Provider sowie die Schlüssel hinter einer 
+eventuell verwendeten signed_jwks_uri herunterladen und auf Vorhandensein der 
+verwendetenkid prüfen. ]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Bei der Überprüfung eines <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> MUSS der Fachdienst, wenn der vom sektoralen Identity Provider verwendete Signatur-Schlüssel ihm unbekannt ist, das Entity Statement des sektoralen Identity Provider sowie die Schlüssel hinter einer eventuell verwendeten <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">signed_jwks_uri</span></span> <span style="font-size: 10pt;line-height: 1.5;">herunterladen und auf Vorhandensein der verwendeten <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">kid</span> prüfen. </span>]]></description_html>
+  </requirement>
+  <requirement id="A_23050" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133139" revision="567408">
+    <title><![CDATA[Löschen personenbezogener Daten]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN personenbezogene Daten wie z. B. ID_TOKEN sofort 
+nach Abschluss des Verarbeitungsprozesses verwerfen und dürfen diese nicht 
+dauerhaft speichern, sofern diese nicht anderweitig zu legitimen Zwecken 
+vorgehalten werden müssen (z. B. Protokollierung).]]></description>
+    <description_html><![CDATA[Authorization-Server MÜSSEN personenbezogene Daten wie z. B. <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> sofort nach Abschluss des Verarbeitungsprozesses verwerfen und dürfen diese nicht dauerhaft speichern, sofern diese nicht anderweitig zu legitimen Zwecken vorgehalten werden müssen (z. B. Protokollierung).<span id="polarion-comment:661"></span>]]></description_html>
+  </requirement>
+  <requirement id="A_22860" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-129543" revision="567408">
+    <title><![CDATA[Prüfung benötigter "scopes"]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN erhaltene ID_TOKEN auf das Vorhandensein der benötigten 
+scopes überprüfen.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN erhaltene <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">ID_TOKEN</span> auf das Vorhandensein der benötigten <span style="font-family: 'Courier New', Courier, monospace, HanWangKanTan;">scopes</span> überprüfen.]]></description_html>
+  </requirement>
+  <requirement id="A_23076" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-133229" revision="567408">
+    <title><![CDATA[OAuth 2.0 Token Endpunkt]]></title>
+    <description><![CDATA[Authorization-Server MÜSSEN einen OAuth 2.0 Token Endpunkt anbieten um dort das 
+Abrufen von Zugriffstoken mittels OAuth Code Flow und PKCE entsprechend
+https://datatracker.ietf.org/doc/html/rfc7636 
+<https://datatracker.ietf.org/doc/html/rfc7636> zu ermöglichen.]]></description>
+    <description_html><![CDATA[Authorization-Server MÜSSEN einen OAuth 2.0 Token Endpunkt anbieten um dort das Abrufen von Zugriffstoken mittels OAuth Code Flow und PKCE entsprechend <a href="https://datatracker.ietf.org/doc/html/rfc7636" target="_top" class="descriptionLink">https://datatracker.ietf.org/doc/html/rfc7636</a> zu ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="A_23077" type="leafRequirement" severity="KANN" lastUpdate="2023-02-06" technicalID="ML-133227" revision="567408">
+    <title><![CDATA[OAuth "ACCESS_TOKEN"]]></title>
+    <description><![CDATA[Authorization-Server KÖNNEN Zugriffstoken entsprechend OAuth ACCESS_TOKEN
+ anbieten.]]></description>
+    <description_html><![CDATA[Authorization-Server KÖNNEN Zugriffstoken entsprechend OAuth <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> anbieten.]]></description_html>
+  </requirement>
+  <requirement id="A_23078" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-133228" revision="567408">
+    <title><![CDATA[Zugriffstoken ohne Personenbezogene Daten]]></title>
+    <description><![CDATA[Vom Authorization-Server bereitgestellte Zugriffstoken DÜRFEN NICHT 
+personenbezogene Daten enthalten, es sei denn diese sind Ende-zu-Ende 
+verschlüsselt.]]></description>
+    <description_html><![CDATA[Vom Authorization-Server bereitgestellte Zugriffstoken DÜRFEN NICHT personenbezogene Daten enthalten, es sei denn diese sind Ende-zu-Ende verschlüsselt.]]></description_html>
+  </requirement>
+  <requirement id="A_23079" type="leafRequirement" severity="DARF NICHT" lastUpdate="2023-02-06" technicalID="ML-133231" revision="567408">
+    <title><![CDATA[Gültigkeitszeitraum von Zugriffstoken]]></title>
+    <description><![CDATA[Vom Authorization-Server bereitgestellte Zugriffstoken DÜRFEN NICHT länger als 
+10 Minuten gültig sein.]]></description>
+    <description_html><![CDATA[Vom Authorization-Server bereitgestellte Zugriffstoken DÜRFEN NICHT länger als 10 Minuten gültig sein.]]></description_html>
+  </requirement>
+  <requirement id="A_23080" type="leafRequirement" severity="KANN" lastUpdate="2023-02-06" technicalID="ML-133232" revision="567408">
+    <title><![CDATA[OAUTH 2.0 "REFRESH_TOKEN"]]></title>
+    <description><![CDATA[Authorization-Server KÖNNEN einen OAuth 2.0 Token Endpunkt anbieten um dort das 
+Abrufen vonREFRESH_TOKEN entsprechend 
+https://datatracker.ietf.org/doc/html/rfc6749#section-1.5 
+<https://datatracker.ietf.org/doc/html/rfc6749#section-1.5> zu ermöglichen.]]></description>
+    <description_html><![CDATA[Authorization-Server KÖNNEN einen OAuth 2.0 Token Endpunkt anbieten um dort das Abrufen von <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">REFRESH_TOKEN</span> entsprechend <a href="https://datatracker.ietf.org/doc/html/rfc6749#section-1.5" target="_top" class="descriptionLink">https://datatracker.ietf.org/doc/html/rfc6749#section-1.5</a> zu ermöglichen.]]></description_html>
+  </requirement>
+  <requirement id="A_23204" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-134281" revision="567408">
+    <title><![CDATA[Verwerfen der Token bei Inaktivität]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN nach maximal 10-minütiger Inaktivität des Nutzers vorhandene 
+ACCESS_TOKEN und REFRESH_TOKEN verwerfen und eine erneute Authentisierung 
+fordern.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN nach maximal 10-minütiger Inaktivität des Nutzers vorhandene <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">REFRESH_TOKEN</span> verwerfen und eine erneute Authentisierung fordern.]]></description_html>
+  </requirement>
+  <requirement id="A_20295" type="leafRequirement" severity="MUSS" lastUpdate="2020-11-12" technicalID="ML-110383" revision="567408">
+    <title><![CDATA[Adressen des Dienstes werden registriert]]></title>
+    <description><![CDATA[Der Anbieter des Fachdienstes MUSS, um die Erreichbarkeit des Fachdienstes zu 
+gewährleisten, entsprechende Adressen im TI-Namensraum beantragen. In Fällen, 
+in denen der Fachdienst ebenfalls aus dem Internet erreichbar sein soll,MUSS 
+der Anbieter des Fachdienstes neben der TI-internen auch die notwendigen 
+öffentlichen Adressen bei einem Internet Service Provider (ISP) seiner Wahl 
+beantragen.]]></description>
+    <description_html><![CDATA[Der Anbieter des Fachdienstes <span style="font-weight: normal;">MUSS, </span>um die Erreichbarkeit des Fachdienstes zu gewährleisten, entsprechende Adressen im TI-Namensraum beantragen. In Fällen, in denen der Fachdienst ebenfalls aus dem Internet erreichbar sein soll, <span style="font-weight: normal;">MUSS</span> der Anbieter des Fachdienstes neben der TI-internen auch die notwendigen öffentlichen Adressen bei einem Internet Service Provider (ISP) seiner Wahl beantragen.]]></description_html>
+  </requirement>
+  <requirement id="A_20739" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-112008" revision="567408">
+    <title><![CDATA[Registrierung der Claims des Fachdienstes]]></title>
+    <description><![CDATA[Anbieter von Fachdiensten MÜSSEN bei der Registrierung ihrer Fachdienste am 
+IDP-Dienst die von ihnen erwarteten Attribute in einem Claim (siehe Abschnitt 
+ ) beschreiben und dem IDP-Dienst zur Verfügung stellen. Die RegistrierungMUSS 
+ebenso die absoluten URI des Fachdienstes in der TI sowie im Internet – wenn 
+der Fachdienst auch im Internet erreichbar sein muss – umfassen.]]></description>
+    <description_html><![CDATA[Anbieter von Fachdiensten <span style="font-weight: normal;">MÜSSEN</span> bei der Registrierung ihrer Fachdienste am IDP-Dienst die von ihnen erwarteten Attribute in einem Claim (siehe Abschnitt <span class="polarion-rte-link" data-type="crossReference" id="fake" data-item-id="ML-104231" data-option-id="longoutline"></span> ) beschreiben und dem IDP-Dienst zur Verfügung stellen. Die Registrierung <span style="font-weight: normal;">MUSS</span> ebenso die absoluten URI des Fachdienstes in der TI sowie im Internet – wenn der Fachdienst auch im Internet erreichbar sein muss – umfassen.]]></description_html>
+  </requirement>
+  <requirement id="A_20676" type="leafRequirement" severity="MUSS" lastUpdate="2020-11-12" technicalID="ML-111634" revision="567408">
+    <title><![CDATA[Nutzer-Informationen im Claim]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN die im Claim benötigten, anforderbaren Informationen über 
+den Nutzer bei ihrer Registrierung beim IdP-Dienst angeben.]]></description>
+    <description_html><![CDATA[Fachdienste <span style="font-weight: normal;">MÜSSEN</span> die im Claim benötigten, anforderbaren Informationen über den Nutzer bei ihrer Registrierung beim IdP-Dienst angeben.]]></description_html>
+  </requirement>
+  <requirement id="A_20297-03" type="leafRequirement" severity="MUSS" lastUpdate="2023-02-06" technicalID="ML-124948" revision="567408">
+    <title><![CDATA[Inhalte der Claims für Versicherte]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN bei ihrer Registrierung am IDP-Dienst sicherstellen, dass 
+für Versicherte mit einer eGK als Nutzer die fachlich benötigten Attribute aus 
+der folgenden Auswahl als Claims beantragt werden. Standardclaims sind mit 
+"public", eigene Claims mit "private" gekennzeichnet:
+
+
+ Tabelle #: TAB_IDP_FD_0003 Inhalte der Claims für Versicherte 
+
+Attribut Inhalt 
+iss (public) Beinhaltet die URL des IDP-Dienstes als HTTPS-Adresse mit Pfad 
+und Angabe des Ports, wenn dieser vom Standard abweicht. Zusätzliche 
+Query-Parameter sind nicht erlaubt.
+
+sub (public) Beinhaltet einen Identifikator. Es werden 3 Eingangswerte 
+verwendet: der Fachdienstidentifier (konfiguriert), ein Fachdienst-spezifischer 
+Salt (konfiguriert) und der ClaimidNummer.
+ Diese Eingangswerte werden verkettet in der Reihenfolge: 
+Fachdienstidentifier, ClaimidNummer und Fachdienst-spezifischer Salt. Dieser 
+verkettete Text wird mit SHA-256 gehasht, das Ergebnis ist der Claimsub.
+ SHA256 (fd_identifier + idNummer + fd_salt)
+ Dieser zusammengesetzte Wert wird nach der pairwise-Methode [
+openid-connect-core-1_0 # PairwiseAlg 
+<https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg>] vom 
+IDP-Dienst zusammengestellt. 
+nonce (public) Beinhaltet einen Zufallswert, welchen der IDP-Dienst nach den 
+Vorgaben des Anwendungsfrontends befüllt und anhand dessen das 
+Anwendungsfrontend seine Vorgänge unterscheiden und zuordnen kann. (Dieser 
+Claim ist nur inID_TOKEN enthalten.) 
+acr (public) Authentication Context Class Reference gemäß [
+openid-connect-core-1_0 # IDToken 
+<https://openid.net/specs/openid-connect-core-1_0.html#IDToken>] mit dem 
+konkreten Wert "gematik-ehealth-loa-high". 
+amr (public) Authentication Method Reference gemäß [
+https://tools.ietf.org/html/rfc8176 <https://tools.ietf.org/html/rfc8176>] und [
+https://openid.net/specs/openid-connect-modrna-authentication-1_0.html 
+<https://openid.net/specs/openid-connect-modrna-authentication-1_0.html>] 
+aud (public)
+Hier sind gemäß [RFC7519 # section-4.1.3 
+<https://tools.ietf.org/html/rfc7519#section-4.1.3>] entweder die URI des 
+Fachdienstes oder ein entsprechender eindeutiger String eingetragen, die bzw. 
+der den Fachdienst identifiziert. 
+professionOID
+ (private) Beinhaltet die professionOID des Versicherten gemäß 
+[gemSpec_OID#Tab_PKI_402]. 
+given_name (public) Vorname des Versicherten: der IDP-Dienst liest dies aus 
+dem nonQES-Signaturzertifikat oder demID_TOKEN eines sektoralen Identity 
+Provider aus. 
+family_name (public) Nachname des Versicherten: der IDP-Dienst liest dies aus 
+dem nonQES-Signaturzertifikat oder demID_TOKEN eines sektoralen Identity 
+Provider aus. 
+organizationName (private) ID oder Name der bestätigenden Stelle: der 
+IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat oder demID_TOKEN eines 
+sektoralen Identity Provider aus. 
+idNummer (private) Beinhaltet die KVNR des Versicherten: der IDP-Dienst liest 
+dies aus dem nonQES-Signaturzertifikat oder demID_TOKEN eines sektoralen 
+Identity Provider aus. 
+jti ID des Token]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN bei ihrer Registrierung am IDP-Dienst sicherstellen, dass <span style="font-size: 10pt;line-height: 1.5;">für Versicherte mit einer eGK als Nutzer</span> die fachlich benötigten Attribute aus der folgenden Auswahl als Claims beantragt werden. Standardclaims sind mit &quot;public&quot;, eigene Claims mit &quot;private&quot; gekennzeichnet:<br/>
+ <br/>
+ 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: TAB_IDP_FD_0003 Inhalte der Claims für Versicherte 
+</p>
+ 
+<table id="polarion_wiki macro name=table;params=width=100%|uid=client2" class="polarion-Document-table" style="width: 100%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 419px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Attribut</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 1227px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Inhalt</th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 57.2px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">iss</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 57.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beinhaltet die URL des IDP-Dienstes als HTTPS-Adresse mit Pfad und Angabe des Ports, wenn dieser vom Standard abweicht. Zusätzliche Query-Parameter sind nicht erlaubt.<br/>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">sub</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beinhaltet einen Identifikator. Es werden 3 Eingangswerte verwendet: der Fachdienstidentifier (konfiguriert), ein Fachdienst-spezifischer Salt (konfiguriert) und der Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span>.<br/>
+        Diese Eingangswerte werden verkettet in der Reihenfolge: Fachdienstidentifier, Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span> und Fachdienst-spezifischer Salt. Dieser verkettete Text wird mit SHA-256 gehasht, das Ergebnis ist der Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">sub</span>.<br/>
+        SHA256 (<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">fd_identifier</span> + <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span> + <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">fd_salt</span>)<br/>
+        Dieser zusammengesetzte Wert wird nach der pairwise-Methode [<a href="https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg" target="_top" class="descriptionLink">openid-connect-core-1_0 # PairwiseAlg</a>] vom IDP-Dienst zusammengestellt.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 57.2px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">nonce</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 57.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beinhaltet einen Zufallswert, welchen der IDP-Dienst nach den Vorgaben des Anwendungsfrontends befüllt und anhand dessen das Anwendungsfrontend seine Vorgänge unterscheiden und zuordnen kann. (Dieser Claim ist nur in <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> enthalten.)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 39px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">acr</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 39px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Authentication Context Class Reference gemäß [<a href="https://openid.net/specs/openid-connect-core-1_0.html#IDToken" target="_top" class="descriptionLink">openid-connect-core-1_0 # IDToken</a>] mit dem konkreten Wert &quot;gematik-ehealth-loa-high&quot;.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">amr</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;">Authentication Method Reference gemäß [<a href="https://tools.ietf.org/html/rfc8176" target="_top" class="descriptionLink">https://tools.ietf.org/html/rfc8176</a>] und [<a href="https://openid.net/specs/openid-connect-modrna-authentication-1_0.html" target="_top" class="descriptionLink">https://openid.net/specs/openid-connect-modrna-authentication-1_0.html</a>]</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">aud</span> (public)<br/>
+        </td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;">Hier sind gemäß [<a href="https://tools.ietf.org/html/rfc7519#section-4.1.3" target="_top" class="descriptionLink">RFC7519 # section-4.1.3</a>] entweder die URI des Fachdienstes oder ein entsprechender eindeutiger String eingetragen, die bzw. der den Fachdienst identifiziert.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 47.6px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">professionOID<br/>
+          </span> (private)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 47.6px;border: 1px solid #CCCCCC;padding: 5px;">Beinhaltet die <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">professionOID</span> des Versicherten gemäß [gemSpec_OID#Tab_PKI_402].</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">given_name</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Vorname des Versicherten: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat oder dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> eines sektoralen Identity Provider aus.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">family_name</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Nachname des Versicherten: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat oder dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> eines sektoralen Identity Provider aus.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">organizationName</span> (private)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">ID oder Name der bestätigenden Stelle: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat oder dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> eines sektoralen Identity Provider aus.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span> (private)</td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 18.8px;border: 1px solid #CCCCCC;padding: 5px;">Beinhaltet die KVNR des Versicherten: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat oder dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> eines sektoralen Identity Provider aus.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 419px;height: 23.6px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">jti</span></td>
+      <td style="text-align: left;vertical-align: top;width: 1227px;height: 23.6px;border: 1px solid #CCCCCC;padding: 5px;">ID des Token</td>
+    </tr>
+  </tbody>
+</table>]]></description_html>
+  </requirement>
+  <requirement id="A_20505-02" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-01" technicalID="ML-116955" revision="567408">
+    <title><![CDATA[Inhalte der Claims für Leistungserbringer (HBA)]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN bei ihrer Registrierung am IDP-Dienst sicherstellen, dass 
+für Leistungserbringer mit einer HBA als Nutzer die fachlich benötigten 
+Attribute aus der folgenden Auswahl als Claims beantragt werden - 
+Standardclaims sind mit "public", eigene Claims mit "private" gekennzeichnet:
+
+
+ Tabelle #: TAB_IDP_FD_0004 Inhalte des Claims für Leistungserbringer (HBA) 
+
+Attribut Inhalt 
+iss (public) Beinhaltet die URL des IDP-Dienstes als HTTPS-Adresse mit Pfad 
+und Angabe des Ports, wenn dieser vom Standard abweicht. Zusätzliche 
+Query-Parameter sind nicht erlaubt.
+
+sub (public) Beinhaltet einen Identifikator. Es werden 3 Eingangswerte 
+verwendet: der Fachdienstidentifier (konfiguriert), ein Fachdienst-spezifischer 
+Salt (konfiguriert) und der ClaimidNummer.
+ Diese Eingangswerte werden verkettet in der Reihenfolge: 
+Fachdienstidentifier, ClaimidNummer und Fachdienst-spezifischer Salt. Dieser 
+verkettete Text wird mit SHA-256 gehasht, das Ergebnis ist der Claimsub.
+ SHA256 (fd_identifier + idNummer + fd_salt)
+ Dieser zusammengesetzte Wert wird nach der pairwise-Methode [
+openid-connect-core-1_0 # PairwiseAlg 
+<https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg>] vom 
+IDP-Dienst zusammengestellt. 
+nonce (public) Beinhaltet einen Zufallswert, welchen der IDP-Dienst nach den 
+Vorgaben des Anwendungsfrontends bzw. Primärsystems befüllt und anhand dessen 
+das Primärsystem seine Vorgänge unterscheiden kann. (Dieser Claim ist nur in
+ID_TOKEN enthalten.) 
+acr (public) Authentication Context Class Reference gemäß [
+openid-connect-core-1_0 # IDToken 
+<https://openid.net/specs/openid-connect-core-1_0.html#IDToken>] mit dem 
+konkreten Wert "gematik-ehealth-loa-high". 
+amr (public) Authentication Method Reference gemäß [
+https://tools.ietf.org/html/rfc8176 <https://tools.ietf.org/html/rfc8176>] und [
+https://openid.net/specs/openid-connect-modrna-authentication-1_0.html 
+<https://openid.net/specs/openid-connect-modrna-authentication-1_0.html>] 
+aud (public)
+Hier sind gemäß [RFC7519 # section-4.1.3 
+<https://tools.ietf.org/html/rfc7519#section-4.1.3>] entweder die URI des 
+Fachdienstes oder ein entsprechender eindeutiger String eingetragen, die bzw. 
+der den Fachdienst identifizieren. 
+professionOID (private) Beinhaltet die professionOID des Leistungserbringers 
+gemäß [gemSpec_OID # Tab_PKI_402]. 
+given_name (public) Vorname des Leistungserbringers: der IDP-Dienst liest dies 
+aus dem nonQES-Signaturzertifikat aus. 
+family_name (public) Nachname des Leistungserbringers: der IDP-Dienst liest 
+dies aus dem nonQES-Signaturzertifikat aus. 
+organizationName (private) leer - Der Wert des Claims ist immer NULL, da der 
+Wert im AUT-Zertifikat immer leer ist.Der NULL-Wert darf nicht zur Ablehnung 
+des Tokens durch den Fachdienst führen. 
+idNummer (private) Beinhaltet die Telematik-ID des Leistungserbringers: der 
+IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus. 
+jti ID des Token]]></description>
+    <description_html><![CDATA[Fachdienste <span style="font-weight: normal;">MÜSSEN</span> bei ihrer Registrierung am IDP-Dienst sicherstellen, dass <span style="font-size: 10pt;line-height: 1.5;">für Leistungserbringer mit einer HBA als Nutzer die fachlich benötigten Attribute aus der folgenden Auswahl als Claims beantragt werden - Standardclaims sind mit &quot;public&quot;, eigene Claims mit &quot;private&quot; gekennzeichnet:<br/>
+  <br/>
+  </span> 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: TAB_IDP_FD_0004 Inhalte des Claims für Leistungserbringer (HBA) 
+</p>
+ 
+<table id="polarion_wiki macro name=table;params=width=100%|uid=client2" class="polarion-Document-table" style="width: 100%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 114px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Attribut</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 466.8px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Inhalt</th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">iss</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beinhaltet die URL des IDP-Dienstes als HTTPS-Adresse mit Pfad und Angabe des Ports, wenn dieser vom Standard abweicht. Zusätzliche Query-Parameter sind nicht erlaubt.<br/>
+        </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">sub</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beinhaltet einen Identifikator. Es werden 3 Eingangswerte verwendet: der Fachdienstidentifier (konfiguriert), ein Fachdienst-spezifischer Salt (konfiguriert) und der Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span>.<br/>
+        Diese Eingangswerte werden verkettet in der Reihenfolge: Fachdienstidentifier, Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span> und Fachdienst-spezifischer Salt. Dieser verkettete Text wird mit SHA-256 gehasht, das Ergebnis ist der Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">sub</span>.<br/>
+        SHA256 (<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">fd_identifier</span> + <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer </span>+ <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">fd_salt</span>)<br/>
+        Dieser zusammengesetzte Wert wird nach der pairwise-Methode [<a href="https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg" target="_top" class="descriptionLink">openid-connect-core-1_0 # PairwiseAlg</a>] vom IDP-Dienst zusammengestellt.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 57.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">nonce</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 57.2px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beinhaltet einen Zufallswert, welchen der IDP-Dienst nach den Vorgaben des Anwendungsfrontends bzw. Primärsystems befüllt und anhand dessen das Primärsystem seine Vorgänge unterscheiden kann. (Dieser Claim ist nur in <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> enthalten.)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">acr</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Authentication Context Class Reference gemäß [<a href="https://openid.net/specs/openid-connect-core-1_0.html#IDToken" target="_top" class="descriptionLink">openid-connect-core-1_0 # IDToken</a>] mit dem konkreten Wert &quot;gematik-ehealth-loa-high&quot;.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">amr</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Authentication Method Reference gemäß [<a href="https://tools.ietf.org/html/rfc8176" target="_top" class="descriptionLink">https://tools.ietf.org/html/rfc8176</a>] und [<a href="https://openid.net/specs/openid-connect-modrna-authentication-1_0.html" target="_top" class="descriptionLink">https://openid.net/specs/openid-connect-modrna-authentication-1_0.html</a>]</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">aud</span> (public)<br/>
+        </td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 38px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Hier sind gemäß [<a href="https://tools.ietf.org/html/rfc7519#section-4.1.3" target="_top" class="descriptionLink">RFC7519 # section-4.1.3</a>] entweder die URI des Fachdienstes oder ein entsprechender eindeutiger String eingetragen, die bzw. der den Fachdienst identifizieren.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">professionOID</span> (private)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beinhaltet die <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">professionOID</span> des Leistungserbringers gemäß [gemSpec_OID # Tab_PKI_402].</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">given_name</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Vorname des Leistungserbringers: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">family_name</span> (public)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Nachname des Leistungserbringers: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">organizationName</span> (private)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">leer - Der Wert des Claims ist immer NULL, da der Wert im AUT-Zertifikat immer leer ist. <span style="font-size: 10pt;line-height: 1.5;">Der NULL-Wert darf nicht zur Ablehnung des Tokens durch den Fachdienst führen.</span></td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span> (private)</td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">Beinhaltet die Telematik-ID des Leistungserbringers: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 114px;height: 23.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">jti</span></td>
+      <td style="text-align: left;vertical-align: top;width: 466.8px;height: 23.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;">ID des Token</td>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20506-03" type="leafRequirement" severity="MUSS" lastUpdate="2022-08-01" technicalID="ML-125077" revision="567408">
+    <title><![CDATA[Inhalte der Claims für Leistungserbringerinstitutionen (SMC-B)]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN bei ihrer Registrierung am IDP-Dienst sicherstellen, dass 
+für Leistungserbringerinstitutionen mit einer SMC-B für Nutzer die fachlich 
+benötigten Attribute aus der folgenden Auswahl als Claims beantragt werden 
+(Standardclaims sind mit "public", eigene Claims mit "private" gekennzeichnet):
+
+
+
+ Tabelle #: AB_IDP_FD_0005 Inhalte des Claim für 
+Leistungserbringerinstitutionen (SMC-B)
+
+Attribut Inhalt 
+iss (public) Beinhaltet die URL des IdP-Dienstes als HTTPS-Adresse mit Pfad 
+und Angabe des Ports, wenn dieser vom Standard abweicht. Zusätzliche 
+Query-Parameter sind nicht erlaubt.
+
+sub (public) Beinhaltet einen Identifikator. Es werden 3 Eingangswerte 
+verwendet: der Fachdienst-Identifier (konfiguriert), ein 
+Fachdienst-spezifischer Salt (konfiguriert) und der ClaimidNummer.
+ Diese Eingangswerte werden verkettet in der Reihenfolge: 
+Fachdienst-Identifier, ClaimidNummer und Fachdienst-spezifischer Salt. Dieser 
+verkettete Text wird mit SHA-256 gehasht. Das Ergebnis ist der Claimsub.
+ SHA256 (fd_identifier + idNummer + fd_salt)
+ Dieser zusammengesetzte Wert wird nach der pairwise-Methode [
+openid-connect-core-1_0 # PairwiseAlg 
+<https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg>] vom 
+IDP-Dienst zusammengestellt. 
+nonce (public) Beinhaltet einen Zufallswert, welchen der IDP-Dienst nach den 
+Vorgaben des Anwendungsfrontends befüllt und anhand dessen das 
+Anwendungsfrontend seine Vorgänge unterscheiden kann. (Dieser Claim ist nur in
+ID_TOKEN enthalten.) 
+acr (public) Authentication Context Class Reference gemäß [
+openid-connect-core-1_0 # IDToken 
+<https://openid.net/specs/openid-connect-core-1_0.html#IDToken>] mit dem 
+konkreten Wert "gematik-ehealth-loa-high". 
+amr (public) Authentication Method Reference gemäß  [
+https://tools.ietf.org/html/rfc8176 <https://tools.ietf.org/html/rfc8176>] und [
+https://openid.net/specs/openid-connect-modrna-authentication-1_0.html 
+<https://openid.net/specs/openid-connect-modrna-authentication-1_0.html>] 
+aud (public)
+Hier sind gemäß [RFC7519 # section-4.1.3 
+<https://tools.ietf.org/html/rfc7519#section-4.1.3>] entweder die URI des 
+Fachdienstes oder ein entsprechender eindeutiger String eingetragen, die bzw. 
+der den Fachdienst identifizieren. 
+professionOID (private) Beinhaltet die professionOID der 
+Leistungserbringerinstitution gemäß [gemSpec_OID#Tab_PKI_403]. 
+given_name (public) Vorname des Verantwortlichen/Inhabers: der IDP-Dienst 
+liest dies aus dem nonQES-Signaturzertifikat aus. Sollte der Wert nicht im 
+Zertifikat vorhanden sein, wird der Wert des Claims mit NULL gefüllt. Der 
+NULL-Wert darf nicht zur Ablehnung des Tokens durch den Fachdienst führen. 
+family_name (public) Nachname des Verantwortlichen/Inhabers: der IDP-Dienst 
+liest dies aus dem nonQES-Signaturzertifikat aus. Sollte der Wert nicht im 
+Zertifikat vorhanden sein, wird der Wert des Claims mit NULL gefüllt. Der 
+NULL-Wert darf nicht zur Ablehnung des Tokens durch den Fachdienst führen. 
+organizationName (private) Beinhaltet die Bezeichnung der Institution, so wie 
+diese im nonQES-Signaturzertifikat im Attributsubject/commonName eingetragen 
+ist. Der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus. Sollte 
+der Wert nicht im Zertifikat vorhanden sein, wird der Wert des Claims mit NULL 
+gefüllt. Der NULL-Wert darf nicht zur Ablehnung des Tokens durch den Fachdienst 
+führen. 
+idNummer (private) Beinhaltet die Telematik-ID der 
+Leistungserbringerinstitution: der IDP-Dienst liest dies aus dem 
+nonQES-Signaturzertifikat aus. 
+jti ID des Token]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN bei ihrer Registrierung am IDP-Dienst sicherstellen, dass <span style="font-size: 10pt;line-height: 1.5;">für Leistungserbringerinstitutionen mit einer SMC-B für Nutzer die fachlich benötigten Attribute aus der folgenden Auswahl als Claims beantragt werden (Standardclaims sind mit &quot;public&quot;, eigene Claims mit &quot;private&quot; gekennzeichnet):<br/>
+  <br/>
+  </span> <br/>
+ 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: AB_IDP_FD_0005 Inhalte des Claim für Leistungserbringerinstitutionen (SMC-B) 
+</p>
+ 
+<table id="polarion_wiki macro name=table;params=width=100%|uid=client2" class="polarion-Document-table" style="width: 100%;margin-left: 0px;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;">
+  <tbody>
+    <tr>
+      <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 148px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Attribut</span></th>
+      <th style="background-color: #F0F0F0;text-align: left;vertical-align: top;width: 584px;height: 18.8px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-weight: normal;font-size: 10pt;line-height: 1.5;">Inhalt</span></th>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 34px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">iss</span> (public)</span></td>
+      <td style="width: 584px;height: 34px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beinhaltet die URL des IdP-Dienstes als HTTPS-Adresse mit Pfad und Angabe des Ports, wenn dieser vom Standard abweicht. Zusätzliche Query-Parameter sind nicht erlaubt.<br/>
+          </span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">sub</span> (public)</span></td>
+      <td style="width: 584px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beinhaltet einen Identifikator. Es werden 3 Eingangswerte verwendet: der Fachdienst-Identifier (konfiguriert), ein Fachdienst-spezifischer Salt (konfiguriert) und der Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span>.<br/>
+          Diese Eingangswerte werden verkettet in der Reihenfolge: Fachdienst-Identifier, Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span> und Fachdienst-spezifischer Salt. Dieser verkettete Text wird mit SHA-256 gehasht. Das Ergebnis ist der Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">sub</span>.<br/>
+          SHA256 (<span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">fd_identifier </span>+ <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer </span>+ <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">fd_salt</span>)<br/>
+          Dieser zusammengesetzte Wert wird nach der pairwise-Methode [<a href="https://openid.net/specs/openid-connect-core-1_0.html#PairwiseAlg" target="_top" class="descriptionLink">openid-connect-core-1_0 # PairwiseAlg</a>] vom IDP-Dienst zusammengestellt.</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 47px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">nonce</span> (public)</span></td>
+      <td style="width: 584px;height: 47px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beinhaltet einen Zufallswert, welchen der IDP-Dienst nach den Vorgaben des Anwendungsfrontends befüllt und anhand dessen das Anwendungsfrontend seine Vorgänge unterscheiden kann. (Dieser Claim ist nur in <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span> enthalten.)</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 47.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">acr</span> (public)</span></td>
+      <td style="width: 584px;height: 47.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Authentication Context Class Reference gemäß [<a href="https://openid.net/specs/openid-connect-core-1_0.html#IDToken" target="_top" class="descriptionLink">openid-connect-core-1_0 # IDToken</a>] mit dem konkreten Wert &quot;gematik-ehealth-loa-high&quot;.</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 47.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">amr</span> (public)</span></td>
+      <td style="width: 584px;height: 47.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Authentication Method Reference gemäß  [<a href="https://tools.ietf.org/html/rfc8176" target="_top" class="descriptionLink">https://tools.ietf.org/html/rfc8176</a>] und [<a href="https://openid.net/specs/openid-connect-modrna-authentication-1_0.html" target="_top" class="descriptionLink">https://openid.net/specs/openid-connect-modrna-authentication-1_0.html</a>]</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 47.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">aud</span> (public)<br/>
+          </span></td>
+      <td style="width: 584px;height: 47.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Hier sind gemäß [<a href="https://tools.ietf.org/html/rfc7519#section-4.1.3" target="_top" class="descriptionLink">RFC7519 # section-4.1.3</a>] entweder die URI des Fachdienstes oder ein entsprechender eindeutiger String eingetragen, die bzw. der den Fachdienst identifizieren.</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">professionOID</span> (private)</span></td>
+      <td style="width: 584px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beinhaltet die <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">professionOID</span> der Leistungserbringerinstitution gemäß [gemSpec_OID#Tab_PKI_403].</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">given_name</span> (public)</span></td>
+      <td style="width: 584px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Vorname des Verantwortlichen/Inhabers: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus. Sollte der Wert nicht im Zertifikat vorhanden sein, wird der Wert des Claims mit NULL gefüllt. Der NULL-Wert darf nicht zur Ablehnung des Tokens durch den Fachdienst führen.</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">family_name</span> (public)</span></td>
+      <td style="width: 584px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Nachname des Verantwortlichen/Inhabers: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus. Sollte der Wert nicht im Zertifikat vorhanden sein, wird der Wert des Claims mit NULL gefüllt. Der NULL-Wert darf nicht zur Ablehnung des Tokens durch den Fachdienst führen.</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">organizationName</span> (private)</span></td>
+      <td style="width: 584px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beinhaltet die Bezeichnung der Institution, so wie diese im nonQES-Signaturzertifikat im Attribut <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">subject/commonName</span> <span id="polarion-comment:621"></span>eingetragen ist. Der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus. Sollte der Wert nicht im Zertifikat vorhanden sein, wird der Wert des Claims mit NULL gefüllt. Der NULL-Wert darf nicht zur Ablehnung des Tokens durch den Fachdienst führen.</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;"><span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">idNummer</span> (private)</span></td>
+      <td style="width: 584px;height: 39.6px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">Beinhaltet die Telematik-ID der Leistungserbringerinstitution: der IDP-Dienst liest dies aus dem nonQES-Signaturzertifikat aus.</span></td>
+    </tr>
+    <tr>
+      <td style="width: 148px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;line-height: 1.5;">jti</span></td>
+      <td style="width: 584px;height: 20.4px;border: 1px solid #CCCCCC;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;line-height: 1.5;">ID des Token</span></td>
+    </tr>
+  </tbody>
+</table>]]></description_html>
+  </requirement>
+  <requirement id="A_20019" type="leafRequirement" severity="MUSS" lastUpdate="2021-06-04" technicalID="ML-108502" revision="567408">
+    <title><![CDATA[Blacklisting von IP-Adressen]]></title>
+    <description><![CDATA[Der Fachdienst MUSS eine Blacklist führen, in welcher er IP-Adressen oder ganze 
+Subnetze einträgt, wenn Angriffsszenarien von diesen Adressen oder Netzen 
+erfolgen.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Der Fachdienst MUSS eine Blacklist führen, in welcher er IP-Adressen oder ganze Subnetze einträgt, wenn Angriffsszenarien von diesen Adressen oder Netzen erfolgen.</span><span style="font-weight: bold;"> </span>]]></description_html>
+  </requirement>
+  <requirement id="A_20020" type="leafRequirement" severity="MUSS" lastUpdate="2022-11-30" technicalID="ML-108501" revision="567408">
+    <title><![CDATA[Bereinigung der "IP-Adresse"-Blacklist Host-Adressen]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN Host-Adressen mit einer Verzögerung von einer Stunde aus der 
+Blacklist streichen, wenn von der gefilterten IP-Adresse keine weiteren 
+Angriffe mehr verzeichnet werden.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Fachdienste MÜSSEN Host-Adressen mit einer Verzögerung von einer Stunde aus der Blacklist streichen, wenn von der gefilterten IP-Adresse keine weiteren Angriffe mehr verzeichnet werden.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20631" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-11-30" technicalID="ML-111191" revision="567408">
+    <title><![CDATA[Einschränkung zur Bereinigung der "IP-Adresse"-Blacklist Subnetze]]></title>
+    <description><![CDATA[Fachdienste DÜRFEN Netzadressen NICHT aus der Blacklist streichen, wenn es sich 
+hierbei um Blacklisting auf Basis von Geo-IP-Adressbereichen handelt.]]></description>
+    <description_html><![CDATA[Fachdienste DÜRFEN Netzadressen NICHT aus der Blacklist streichen, wenn es sich hierbei um Blacklisting auf Basis von Geo-IP-Adressbereichen handelt.]]></description_html>
+  </requirement>
+  <requirement id="A_20362" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-110487" revision="567408">
+    <title><![CDATA["ACCESS_TOKEN" generelle Struktur]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN die gemäß [RFC7519 # section-7.1 
+<https://tools.ietf.org/html/rfc7519#section-7.1>] vorgeschriebene Struktur der 
+ACCESS_TOKEN gemäß [RFC7519 # section-7.2 
+<https://tools.ietf.org/html/rfc7519#section-7.2>] validieren.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;font-family: Arial, Helvetica;">Fachdienste MÜSSEN die gemäß [<a href="https://tools.ietf.org/html/rfc7519#section-7.1" target="_top" class="descriptionLink">RFC7519 # section-7.1</a>] vorgeschriebene Struktur der</span> <span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span><span style="font-weight: normal;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span><span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span> gemäß [<a href="https://tools.ietf.org/html/rfc7519#section-7.2" target="_top">RFC7519 # section-7.2</a>] validieren.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20363-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-116345" revision="567408">
+    <title><![CDATA["ACCESS_TOKEN" sind verschlüsselt]]></title>
+    <description><![CDATA[Der Fachdienst MUSS die für ihn vom Anwendungsfrontend verschlüsselten 
+ACCESS_TOKEN entsprechend dem für diese Übertragung vorgesehenen Verfahren 
+entschlüsseln. ]]></description>
+    <description_html><![CDATA[Der Fachdienst MUSS die für ihn vom Anwendungsfrontend verschlüsselten <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> entsprechend dem für diese Übertragung vorgesehenen Verfahren entschlüsseln. <span style="font-weight: bold;font-style: normal;"><br/>
+</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20364" type="leafRequirement" severity="DARF NICHT" lastUpdate="2022-06-20" technicalID="ML-110489" revision="567408">
+    <title><![CDATA[Unverschlüsselt eingehende ACCESS_TOKEN sind ungültig]]></title>
+    <description><![CDATA[Fachdienste DÜRFEN unverschlüsselt eingehende ACCESS_TOKEN NICHT annehmen.]]></description>
+    <description_html><![CDATA[Fachdienste <span style="font-weight: normal;">DÜRFEN</span> unverschlüsselt eingehende <span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span><span style="font-weight: normal;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span><span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span> <span style="font-weight: normal;">NICHT</span> annehmen. <br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20365-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-117674" revision="567408">
+    <title><![CDATA[Die Signatur des "ACCESS_TOKEN" ist zu prüfen]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN die Signatur der ACCESS_TOKEN gegen den öffentlichen 
+Schlüssel des Token-Endpunktes PUK_IDP_SIG prüfen. Fachdienste MÜSSEN den 
+öffentlichen SchlüsselPUK_IDP_SIG dabei dem Discovery Document des IDP-Dienstes 
+entnehmen.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN die Signatur der <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> gegen den öffentlichen Schlüssel des Token-Endpunktes <span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span><span style="font-weight: normal;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PUK_IDP_SIG</span><span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span> prüfen. <span style="font-size: 10pt;line-height: 1.5;">Fachdienste MÜSSEN den öffentlichen Schlüssel <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PUK_IDP_SIG</span> dabei dem Discovery Document des IDP-Dienstes entnehmen.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20504" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-110754" revision="567408">
+    <title><![CDATA[Reaktion bei ungültiger oder fehlender Signatur des "ACCESS_TOKEN"]]></title>
+    <description><![CDATA[Der Fachdienst MUSS alle mit dem ACCESS_TOKEN verbundenen Vorgänge abbrechen, 
+wenn dasACCESS_TOKEN nicht signiert oder dessen Signatur fehlerhaft ist.]]></description>
+    <description_html><![CDATA[Der Fachdienst <span style="font-weight: normal;">MUSS </span>alle mit dem <span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span><span style="font-weight: normal;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span><span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span> verbundenen Vorgänge abbrechen, wenn das <span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span><span style="font-weight: normal;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span><span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span> nicht signiert oder dessen Signatur fehlerhaft ist.<br/>]]></description_html>
+  </requirement>
+  <requirement id="A_20367" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-110492" revision="567408">
+    <title><![CDATA[Fehlermeldungen bei Übertragungsfehler des "ACCESS_TOKEN" melden]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN Fehler, welche bei der Annahme des ACCESS_TOKEN entstehen, 
+melden. Die Fehlermeldung MUSS mit dem privaten Schlüssel PRK_FD signiert sein. 
+Die Fehlermeldungen MÜSSEN für den Anwender verständlich formuliert sein.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Fachdienste MÜSSEN Fehler, welche bei der Annahme des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> entstehen, melden</span>. Die Fehlermeldung MUSS mit dem privaten Schlüssel <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">PRK_FD</span> signiert sein. Die Fehlermeldungen MÜSSEN für den Anwender verständlich formuliert sein.]]></description_html>
+  </requirement>
+  <requirement id="A_20369-01" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-116778" revision="567408">
+    <title><![CDATA[Abbruch bei unerwarteten Inhalten]]></title>
+    <description><![CDATA[Der Fachdienst MUSS die im ACCESS_TOKEN übertragenen Attribute mit denen 
+vergleichen, die mit dem IDP-Dienst bei der Registrierung vereinbart wurden und 
+alle mit demACCESS_TOKEN in Verbindung stehenden Vorgänge abbrechen, wenn dem 
+ACCESS_TOKEN für die Verarbeitung notwendige Claims fehlen oder aber andere als 
+die mit dem IDP-Dienst vereinbarten personenbezogenen Attribute vorhanden sind.]]></description>
+    <description_html><![CDATA[<span style="font-weight: normal;">Der Fachdienst MUSS die im <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> übertragenen Attribute mit denen vergleichen, die mit dem IDP-Dienst bei der Registrierung vereinbart wurden und alle mit dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> in Verbindung stehenden Vorgänge abbrechen, wenn dem <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> für die Verarbeitung notwendige Claims fehlen oder aber andere als die mit dem IDP-Dienst vereinbarten personenbezogenen Attribute vorhanden sind.</span>]]></description_html>
+  </requirement>
+  <requirement id="A_20370" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-110494" revision="567408">
+    <title><![CDATA[Abbruch bei falschen Datentypen der Attribute]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN ACCESS_TOKEN ablehnen, wenn die in einem Attribut 
+vorgetragenen Werte nicht dem schematisch erwarteten Datentyp des Attributes 
+entsprechen.]]></description>
+    <description_html><![CDATA[Fachdienste <span style="font-weight: normal;">MÜSSEN</span> <span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span><span style="font-weight: normal;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span><span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span> ablehnen, wenn die in einem Attribut vorgetragenen Werte nicht dem schematisch erwarteten Datentyp des Attributes entsprechen.]]></description_html>
+  </requirement>
+  <requirement id="A_20373" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-110499" revision="567408">
+    <title><![CDATA[Prüfung der Gültigkeit des "ACCESS_TOKEN" für den Zugriff auf Fachdienste ohne "nbf"]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN sicherstellen, dass der Zeitraum der Verwendung des Tokens 
+zwischen den im Token mitgelieferten Werten der Attribute iat und exp liegt.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN sicherstellen, dass der Zeitraum der Verwendung des Tokens zwischen den im Token mitgelieferten Werten der Attribute <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">iat</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">exp</span> liegt.]]></description_html>
+  </requirement>
+  <requirement id="A_20374" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-110498" revision="567408">
+    <title><![CDATA[Prüfung der Gültigkeit des "ACCESS_TOKEN" für den Zugriff auf Fachdienste mit "nbf"]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN sicherstellen, dass der Zeitraum der Verwendung des Tokens 
+zwischen den im Token mitgelieferten Werten der Attributenbf und exp liegt.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN sicherstellen, dass der Zeitraum der Verwendung des Tokens zwischen den im Token mitgelieferten Werten der Attribute <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">nbf</span> und <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">exp</span> liegt.]]></description_html>
+  </requirement>
+  <requirement id="A_21520" type="leafRequirement" severity="MUSS" lastUpdate="2022-06-20" technicalID="ML-117676" revision="567408">
+    <title><![CDATA[Prüfung des "aud" Claim des ACCESS_TOKEN mit der vom Fachdienst registrierten URI]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN den Claim aud des ACCESS_TOKEN mit ihrer beim IDP-Dienst 
+registrierten URI prüfen. Nur wenn diese übereinstimmen, gilt diese Prüfung als 
+positiv validiert.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN den Claim <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">aud</span> des <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> mit ihrer beim IDP-Dienst registrierten URI prüfen. Nur wenn diese übereinstimmen, gilt diese Prüfung als positiv validiert.]]></description_html>
+  </requirement>
+  <requirement id="A_21521" type="leafRequirement" severity="MUSS" lastUpdate="2022-10-27" technicalID="ML-117678" revision="567408">
+    <title><![CDATA[Fachdienst: Prüfung der Signatur des Discovery Document]]></title>
+    <description><![CDATA[Fachdienste MÜSSEN die Signatur des Discovery Document mathematisch prüfen und 
+auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID oid_idpd
+ zurückführen können, welches von einer ihm bekannten 
+Komponenten-PKI ausgestellt wurde.]]></description>
+    <description_html><![CDATA[Fachdienste MÜSSEN die Signatur des Discovery Document mathematisch prüfen und auf ein zeitlich gültiges C.FD.SIG-Zertifikat mit der Rollen-OID <span style="font-style: normal;">oid_idpd</span> zurückführen können, welches von einer ihm bekannten Komponenten-PKI ausgestellt wurde.]]></description_html>
+  </requirement>
+  <requirement id="A_20679-01" type="leafRequirement" severity="MUSS" lastUpdate="2021-12-13" technicalID="ML-116733" revision="567408">
+    <title><![CDATA[Beantragung eines Claims für Fachdienste]]></title>
+    <description><![CDATA[Der Anbieter des Fachdienstes MUSS sich für die Beantragung eines Claims beim 
+IdP-Dienst registrieren, um ein Claim für eine bestimmte Nutzergruppe für 
+seinen Fachdienst zu beantragen.]]></description>
+    <description_html><![CDATA[Der Anbieter des Fachdienstes <span style="font-weight: normal;">MUSS</span> sich für die Beantragung eines Claims beim IdP-Dienst registrieren, um ein Claim für eine bestimmte Nutzergruppe für seinen Fachdienst zu beantragen.]]></description_html>
+  </requirement>
+  <requirement id="A_20375-01" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-16" technicalID="ML-117040" revision="567408">
+    <title><![CDATA[Angabe der Lebensdauer des "ACCESS_TOKEN"]]></title>
+    <description><![CDATA[Der Anbieter des Fachdienstes MUSS bei der Registrierung der Claims im Attribut 
+tokenTimeout angeben, welche Lebensdauer das ACCESS_TOKEN haben soll.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;line-height: 1.5;">Der Anbieter des Fachdienstes MUSS</span> bei der Registrierung der Claims im Attribut <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">tokenTimeout</span> angeben, welche Lebensdauer das <span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span><span style="font-weight: normal;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span><span style="font-weight: bold;font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;"></span> haben soll.]]></description_html>
+  </requirement>
+  <requirement id="A_20503-02" type="leafRequirement" severity="MUSS" lastUpdate="2023-01-17" technicalID="ML-135393" revision="553910">
+    <title><![CDATA[Mit Fachdiensten abgestimmte Lebenszyklen]]></title>
+    <description><![CDATA[Der Anbieter des Fachdienstes MUSS bei der 
+Registrierung die folgenden Werte aus den hier vorgegebenen Bereichen angeben.
+ Liste der Lebenszyklen der Token registrierter Fachdienste:
+
+ Tabelle #: AB_IDP_FD_0006 Lebenszyklen der Token 
+
+Name Werte Beispiel Anmerkung 
+Fachdienst <String> eRp Name des Fachdienstes 
+Lebensdauer ACCESS_TOKEN
+ (in Sekunden) 60-900 300 sec (= 5Minuten) Die Gültigkeitsdauer der 
+ACCESS_TOKEN darf maximal 15 Minuten betragen 
+Maximale Gültigkeit der Session
+ (in Sekunden) 0-43.200 43.200 (=12 Stunden) Die Session (Gültigkeitsdauer von 
+SSO_TOKEN bzw. ID_TOKEN)  darf maximal 12 Stunden betragen. Für diesen Zeitraum 
+braucht das Authenticator-Modul keine erneute Nutzer-Authentifizierung 
+durchzuführen, um beim IDP-Dienst einen neuenACCESS_TOKEN für den Fachdienst zu 
+erlangen.]]></description>
+    <description_html><![CDATA[<span style="font-size: 10pt;color: #000000;line-height: 1.5;">Der Anbieter des Fachdienstes MUSS bei der Registrierung die folgenden Werte aus den hier vorgegebenen Bereichen angeben.<br style="color: #172B4D;"/>
+  Liste der Lebenszyklen der Token registrierter Fachdienste:</span><br/>
+ 
+<p data-keep-next="true" class="polarion-rte-caption-paragraph" style="text-align: left;">
+  Tabelle <span data-sequence="Tabelle" class="polarion-rte-caption">#</span>: AB_IDP_FD_0006 Lebenszyklen der Token 
+</p>
+ 
+<table id="polarion_wiki macro name=table;params=width=100%" class="polarion-Document-table" style="width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 262.836px;height: 17.037px;border: 1px solid #CCCCCC;padding: 5px;">Name</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 157.813px;height: 17.037px;border: 1px solid #CCCCCC;padding: 5px;">Werte</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 195.764px;height: 17.037px;border: 1px solid #CCCCCC;padding: 5px;">Beispiel</th>
+      <th style="font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 311.667px;height: 17.037px;border: 1px solid #CCCCCC;padding: 5px;">Anmerkung</th>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 262.836px;height: 17.037px;border: 1px solid #CCCCCC;padding: 5px;">Fachdienst</td>
+      <td style="text-align: left;vertical-align: top;width: 157.813px;height: 17.037px;border: 1px solid #CCCCCC;padding: 5px;">&lt;String&gt;</td>
+      <td style="text-align: left;vertical-align: top;width: 195.764px;height: 17.037px;border: 1px solid #CCCCCC;padding: 5px;">eRp</td>
+      <td style="text-align: left;vertical-align: top;width: 311.667px;height: 17.037px;border: 1px solid #CCCCCC;padding: 5px;">Name des Fachdienstes</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 262.836px;height: 40px;border: 1px solid #CCCCCC;padding: 5px;"><span style="font-size: 10pt;color: #000000;line-height: 1.5;">Lebensdauer <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span><br/>
+          (in Sekunden)</span></td>
+      <td style="text-align: left;vertical-align: top;width: 157.813px;height: 40px;border: 1px solid #CCCCCC;padding: 5px;">60-900</td>
+      <td style="text-align: left;vertical-align: top;width: 195.764px;height: 40px;border: 1px solid #CCCCCC;padding: 5px;">300 sec (= 5Minuten)</td>
+      <td style="text-align: left;vertical-align: top;width: 311.667px;height: 40px;border: 1px solid #CCCCCC;padding: 5px;">Die Gültigkeitsdauer der <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> darf maximal 15 Minuten betragen</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;vertical-align: top;width: 262.836px;height: 34.0741px;border: 1px solid #CCCCCC;padding: 5px;">Maximale Gültigkeit der Session<br/>
+        (in Sekunden)</td>
+      <td style="text-align: left;vertical-align: top;width: 157.813px;height: 34.0741px;border: 1px solid #CCCCCC;padding: 5px;">0-43.200</td>
+      <td style="text-align: left;vertical-align: top;width: 195.764px;height: 34.0741px;border: 1px solid #CCCCCC;padding: 5px;">43.200 (=12 Stunden)</td>
+      <td style="text-align: left;vertical-align: top;width: 311.667px;height: 34.0741px;border: 1px solid #CCCCCC;padding: 5px;">Die Session (Gültigkeitsdauer von <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">SSO_TOKEN</span> bzw. <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ID_TOKEN</span>)  darf maximal 12 Stunden betragen. Für diesen Zeitraum braucht das Authenticator-Modul keine erneute Nutzer-Authentifizierung durchzuführen, um beim IDP-Dienst einen neuen <span style="font-family: &#39;Courier New&#39;, Courier, monospace, HanWangKanTan;">ACCESS_TOKEN</span> für den Fachdienst zu erlangen.</td>
+    </tr>
+  </tbody>
+</table>
+ <br/>]]></description_html>
+  </requirement>
+</requirements>

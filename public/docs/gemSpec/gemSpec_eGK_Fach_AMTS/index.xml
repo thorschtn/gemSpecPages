@@ -1,0 +1,453 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> – gemSpec_eGK_Fach_AMTS</title>
+    <link>/docs/gemSpec/gemSpec_eGK_Fach_AMTS/</link>
+    <description>Recent content in gemSpec_eGK_Fach_AMTS on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="/docs/gemSpec/gemSpec_eGK_Fach_AMTS/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: gemSpec_eGK_Fach_AMTS_V1.2.0</title>
+      <link>/docs/gemSpec/gemSpec_eGK_Fach_AMTS/gemSpec_eGK_Fach_AMTS_V1.2.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/gemSpec/gemSpec_eGK_Fach_AMTS/gemSpec_eGK_Fach_AMTS_V1.2.0/</guid>
+      <description>
+        
+        
+        
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;style&gt;
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 100%;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* ol {
+  list-style-type: none;
+  Remove default numbering
+}
+
+ol &gt; li:before {
+  counter-increment: mycounter;
+  content: counter(mycounter) &#34;. &#34;;
+}
+
+ol:first-of-type {
+  counter-reset: mycounter;
+} */
+
+@media print { h1, h2 { break-before: page; } }
+
+
+&lt;/style&gt;
+  &lt;meta charset=&#34;utf-8&#34;&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;p id=&#34;polarion_1&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_2&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_3&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_4&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_5&#34;&gt; &lt;span style=&#34;font-weight: bold;text-decoration: underline;font-size: 12pt;line-height: 1.5;&#34;&gt;Elektronische Gesundheitskarte und Telematikinfrastruktur&lt;/span&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_6&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_7&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_8&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_9&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_10&#34; style=&#34;text-align: center;&#34;&gt; &lt;span style=&#34;font-weight: bold;font-size: 28pt;line-height: 1.2;&#34;&gt;Speicherstrukturen der eGK für die Fachanwendung AMTS&lt;/span&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_11&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_12&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;div id=&#34;polarion_editor_html_block1&#34; class=&#34;polarion-dle-wiki-block&#34;&gt; 
+   &lt;div id=&#34;polarion_editor_html_block_content&#34; contenteditable=&#34;false&#34;&gt;&lt;/div&gt;
+   &lt;pre id=&#34;polarion_editor_html_block_source&#34; class=&#34;polarion-dle-wiki-block-source&#34; contenteditable=&#34;false&#34;&gt;
+    &lt;table&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Version&lt;/td&gt;
+      &lt;td&gt;1.2.0&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Revision&lt;/td&gt;
+      &lt;td&gt;548770&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Stand&lt;/td&gt;
+      &lt;td&gt;26.10.2018&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Status&lt;/td&gt;
+      &lt;td&gt;freigegeben&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Klassifizierung&lt;/td&gt;
+      &lt;td&gt;öffentlich&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+      &lt;td&gt;Referenzierung&lt;/td&gt;
+      &lt;td&gt;gemSpec_eGK_Fach_AMTS&lt;/td&gt;
+     &lt;/tr&gt;
+    &lt;/table&gt;&lt;/pre&gt; 
+  &lt;/div&gt;
+  &lt;p id=&#34;polarion_13&#34;&gt; &lt;br&gt; &lt;/p&gt;
+  &lt;h1 id=&#34;polarion_wiki macro name=module-workitem;params=id=konnektorPTV5PlusMaintenance-6&#34;&gt;Dokumentinformationen&lt;/h1&gt;
+  &lt;p id=&#34;polarion_22&#34;&gt; &lt;span style=&#34;font-weight: bold;&#34;&gt;Änderungen zur Vorversion&lt;/span&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_23&#34;&gt;Einarbeitung P15.9.&lt;/p&gt;
+  &lt;p id=&#34;polarion_24&#34;&gt; &lt;br&gt; &lt;span style=&#34;font-weight: bold;&#34;&gt;Dokumentenhistorie&lt;/span&gt; &lt;/p&gt;
+  &lt;table id=&#34;polarion_wiki macro name=table;params=width=100%|uid=2&#34; class=&#34;polarion-Document-table&#34; style=&#34;width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;&#34;&gt; 
+   &lt;tbody&gt; 
+    &lt;tr&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 60.2222px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Version&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 69.1111px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Stand&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 49.5556px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Kap./ Seite&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 274.444px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Grund der Änderung, besondere Hinweise&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 94px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Bearbeitung&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 60.2222px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;1.0.0&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 69.1111px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;02.08.17&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 49.5556px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 274.444px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Initialversion Online-Rollout (Stufe 2.1) &lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 94px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;gematik&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 60.2222px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;1.1.0&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 69.1111px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;18.12.17&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 49.5556px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 274.444px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;falsche Referenz entfernt/korrigiert&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 94px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;gematik&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 60.2222px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 69.1111px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 49.5556px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 274.444px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;Einarbeitung P15.9&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 94px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 60.2222px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;1.2.0&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 69.1111px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;26.10.18&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 49.5556px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 274.444px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;freigegeben&lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 94px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;gematik&lt;/td&gt; 
+    &lt;/tr&gt; 
+   &lt;/tbody&gt; 
+  &lt;/table&gt;
+  &lt;h1 id=&#34;polarion_wiki macro name=module-workitem;params=id=konnektorPTV5PlusMaintenance-7&#34;&gt;Inhaltsverzeichnis&lt;/h1&gt;
+  &lt;div id=&#34;polarion_wiki macro name=toc&#34;&gt;&lt;/div&gt;
+  &lt;div id=&#34;toc_container&#34;&gt;
+   &lt;p class=&#34;toc_title&#34;&gt;&lt;h1&gt;&lt;/h1&gt;&lt;/p&gt;
+   &lt;li&gt;&lt;a href=&#34;#polarion_wiki macro name=module-workitem;params=id=konnektorPTV5PlusMaintenance-6&#34;&gt;Dokumentinformationen&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&#34;#polarion_wiki macro name=module-workitem;params=id=konnektorPTV5PlusMaintenance-7&#34;&gt;Inhaltsverzeichnis&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : &lt;a href=&#34;#1&#34;&gt;1 Einordnung des Dokuments&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : &lt;a href=&#34;#1.1&#34;&gt;1.1 Zielsetzung&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : &lt;a href=&#34;#1.2&#34;&gt;1.2 Zielgruppe&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : &lt;a href=&#34;#1.3&#34;&gt;1.3 Geltungsbereich&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : &lt;a href=&#34;#1.4&#34;&gt;1.4 Methodik&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : : &lt;a href=&#34;#1.4.1&#34;&gt;1.4.1 Hinweis auf offene Punkte&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : &lt;a href=&#34;#2&#34;&gt;2 Einwilligung (EF.EinwilligungAMTS)&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : &lt;a href=&#34;#3&#34;&gt;3 eMP/AMTS-Daten (EF.AMTS)&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : &lt;a href=&#34;#4&#34;&gt;4 Verweise (EF.VerweiseAMTS)&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : &lt;a href=&#34;#5&#34;&gt;5 Status (EF.StatusAMTS)&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : &lt;a href=&#34;#6&#34;&gt;6 Anhang A – Verzeichnisse&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : &lt;a href=&#34;#6.1&#34;&gt;6.1 Abkürzungen&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : &lt;a href=&#34;#6.2&#34;&gt;6.2 Glossar&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : &lt;a href=&#34;#6.3&#34;&gt;6.3 Tabellenverzeichnis&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : &lt;a href=&#34;#6.4&#34;&gt;6.4 Referenzierte Dokumente&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : : &lt;a href=&#34;#6.4.1&#34;&gt;6.4.1 Dokumente der gematik&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt; : : : &lt;a href=&#34;#6.4.2&#34;&gt;6.4.2 Weitere Dokumente&lt;/a&gt;&lt;/li&gt;
+  &lt;/div&gt;
+  &lt;p id=&#34;polarion_30&#34;&gt;&lt;/p&gt;
+  &lt;h2 id=&#34;1&#34;&gt;1 Einordnung des Dokuments&lt;/h2&gt;
+  &lt;h3 id=&#34;1.1&#34;&gt;1.1 Zielsetzung&lt;/h3&gt;
+  &lt;p id=&#34;polarion_31&#34;&gt;Das Dokument beschreibt die für die Fachanwendung eMP/AMTS-Datenmanagement spezifische Speicherstruktur der elektronischen Gesundheitskarte (eGK) und ergänzt die Fachmodulspezifikation AMTS [gemSpec_FM_AMTS].&lt;/p&gt;
+  &lt;p id=&#34;polarion_32&#34;&gt;Die Zugriffsrechte auf die Container der Fachanwendung AMTS sind im Dokument [gemSpec_eGK_ObjSys] spezifiziert.&lt;/p&gt;
+  &lt;h3 id=&#34;1.2&#34;&gt;1.2 Zielgruppe&lt;/h3&gt;
+  &lt;p id=&#34;polarion_33&#34;&gt;Das Dokument ist maßgeblich für Hersteller und Anbieter von Produkten der Telematikinfrastruktur.&lt;/p&gt;
+  &lt;h3 id=&#34;1.3&#34;&gt;1.3 Geltungsbereich&lt;/h3&gt;
+  &lt;p id=&#34;polarion_34&#34;&gt;Dieses Dokument enthält normative Festlegungen zur Telematikinfrastruktur des deutschen Gesundheitswesens für den Online-Rollout (Stufe 2). Der Gültigkeitszeitraum der vorliegenden Version und deren Anwendung in Zulassungs- oder Abnahmeverfahren wird durch die gematik GmbH in gesonderten Dokumenten (z.&amp;nbsp;B. Dokumentenlandkarte, Produkttypsteckbrief, Leistungsbeschreibung) festgelegt und bekannt gegeben.&lt;/p&gt;
+  &lt;p id=&#34;polarion_35&#34; data-keep-next=&#34;true&#34;&gt; &lt;span style=&#34;font-weight: bold;&#34;&gt;Wichtiger Schutzrechts-/Patentrechtshinweis&lt;/span&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_36&#34; data-keep-next=&#34;true&#34;&gt; &lt;span style=&#34;font-style: italic;font-size: 10pt;line-height: 1.5;&#34;&gt;Die nachfolgende Spezifikation ist von der gematik allein unter technischen Gesichtspunkten erstellt worden. Im Einzelfall kann nicht ausgeschlossen werden, dass die Implementierung der Spezifikation in technische Schutzrechte Dritter eingreift. Es ist allein Sache des Anbieters oder Herstellers, durch geeignete Maßnahmen dafür Sorge zu tragen, dass von ihm aufgrund der Spezifikation angebotene Produkte und/oder Leistungen nicht gegen Schutzrechte Dritter verstoßen und sich ggf. die erforderlichen Erlaubnisse/Lizenzen von den betroffenen Schutzrechtsinhabern einzuholen. Die gematik GmbH übernimmt insofern keinerlei Gewährleistungen.&lt;/span&gt; &lt;/p&gt;
+  &lt;h3 id=&#34;1.4&#34;&gt;1.4 Methodik&lt;/h3&gt;
+  &lt;p id=&#34;polarion_37&#34;&gt;Anforderungen als Ausdruck normativer Festlegungen werden durch eine eindeutige ID sowie die dem RFC 2119 [RFC2119] entsprechenden, in Großbuchstaben geschriebenen deutschen Schlüsselworte MUSS, DARF NICHT, SOLL, SOLL NICHT, KANN gekennzeichnet.&lt;/p&gt;
+  &lt;p id=&#34;polarion_38&#34;&gt;Sie werden im Dokument wie folgt dargestellt:&lt;/p&gt;
+  &lt;p id=&#34;polarion_39&#34;&gt; &lt;span style=&#34;font-weight: bold;&#34;&gt;&amp;lt;AFO-ID&amp;gt; - &amp;lt;Titel der Afo&amp;gt;&lt;br&gt; &lt;/span&gt;&lt;span style=&#34;font-weight: normal;&#34;&gt; Text / Beschreibung&lt;/span&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;&lt;br&gt; [&lt;/span&gt;&lt;span style=&#34;font-weight: normal;&#34;&gt;&amp;lt;=&lt;/span&gt;&lt;span style=&#34;font-weight: bold;&#34;&gt;]&lt;/span&gt;&lt;br&gt; &lt;/p&gt;
+  &lt;p id=&#34;polarion_40&#34;&gt;Dabei umfasst die Anforderung sämtliche innerhalb der Textmarken angeführten Inhalte.&lt;/p&gt;
+  &lt;p id=&#34;polarion_41&#34;&gt;&lt;/p&gt;
+  &lt;p id=&#34;polarion_42&#34;&gt;Weiterhin werden in diesem Dokument Datentypen verwendet, die in Tabelle Tab_eGK_Fach_AMTS_001 Datentypen definiert sind. Längenangaben für Informationselemente erfolgen in Byte.&lt;/p&gt;
+  &lt;p id=&#34;polarion_43&#34;&gt;&lt;/p&gt;
+  &lt;p id=&#34;polarion_44&#34; class=&#34;polarion-rte-caption-paragraph&#34;&gt; Tabelle &lt;span data-sequence=&#34;Tabelle&#34; class=&#34;polarion-rte-caption&#34;&gt;1&lt;/span&gt;: Tab_eGK_Fach_AMTS_001 Datentypen &lt;/p&gt;
+  &lt;table id=&#34;polarion_45&#34; style=&#34;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;&#34;&gt; 
+   &lt;tbody&gt; 
+    &lt;tr&gt; 
+     &lt;th style=&#34;background-color: #D9D9D9;text-align: left;vertical-align: middle;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-weight: bold;font-size: 10pt;line-height: 1.5;&#34;&gt;Datentyp&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;background-color: #D9D9D9;text-align: left;vertical-align: middle;width: 391pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-weight: bold;font-size: 10pt;line-height: 1.5;&#34;&gt;Definition&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;ALPHA&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 391pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Zeichenkette nach ISO 8859-15, mit NUL-Zeichen terminiert, falls die Länge der Zeichenkette die Größe des Informationselements unterschreitet&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;BCD&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 391pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Binary Coded Decimal, z.&amp;nbsp;B. ´20 07´ für 2007&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 55pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;BINÄR&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 391pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;vorzeichenloser, ganzzahliger, numerischer Wert in binärer Big-Endian-Darstellung&lt;/span&gt;&lt;br&gt; &lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;der Wertebereich eines BINÄR-Wertes mit Länge 1 ist dementsprechend 0...255 und mit der Länge 2 0...65535&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+   &lt;/tbody&gt; 
+  &lt;/table&gt;
+  &lt;p id=&#34;polarion_46&#34;&gt;&lt;/p&gt;
+  &lt;p id=&#34;polarion_47&#34;&gt;Der verwendete Zeichensatz für die Inhalte der Informationsobjekte der Fachanwendung eMP/AMTS-Datenmanagement auf der eGK ist nach [gemSpec_FM _AMTS] ISO 8859-15.&lt;/p&gt;
+  &lt;h4 id=&#34;1.4.1&#34;&gt;1.4.1 Hinweis auf offene Punkte&lt;/h4&gt;
+  &lt;p id=&#34;polarion_48&#34;&gt; &lt;span style=&#34;font-style: italic;font-size: 9pt;color: #3333FF;background-color: #FFFF99;line-height: 1.5;&#34;&gt;Offene Punkt sind durch einen gelben Rahmen und blaue Schrift markiert.&lt;/span&gt; &lt;/p&gt;
+  &lt;h2 id=&#34;2&#34;&gt;2 Einwilligung (EF.EinwilligungAMTS)&lt;/h2&gt;
+  &lt;p id=&#34;polarion_50&#34;&gt; Die Datei &lt;span style=&#34;font-family: &#39;Courier New&#39;, Courier, monospace;&#34;&gt;EF.EinwilligungAMTS&lt;/span&gt; wird nicht verwendet. Einwilligungsdaten werden stattdessen in &lt;span style=&#34;font-family: &#39;Courier New&#39;, Courier, monospace;&#34;&gt;EF.AMTS&lt;/span&gt; gespeichert. &lt;/p&gt;
+  &lt;div id=&#34;AMTS-A_2660&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2660 - FM AMTS: Speicherstruktur EF.EinwilligungAMTS auf der eGK&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Das Fachmodul AMTS DARF die Datei &lt;/span&gt;&lt;span style=&#34;font-family: &#39;Courier New&#39;, Courier, monospace;&#34;&gt;EF.EinwilligungAMTS&lt;/span&gt;&lt;span&gt; NICHT verwenden.&lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;h2 id=&#34;3&#34;&gt;3 eMP/AMTS-Daten (EF.AMTS)&lt;/h2&gt;
+  &lt;p id=&#34;polarion_53&#34;&gt; Die Datei &lt;span style=&#34;font-family: &#39;Courier New&#39;, Courier, monospace;&#34;&gt;EF.AMTS&lt;/span&gt; dient zur Speicherung der eMP/AMTS-Daten und des Ortes, an dem die Einwilligung in die Fachanwendung erteilt wurde. &lt;/p&gt;
+  &lt;div id=&#34;AMTS-A_2123&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2123 - FM AMTS: Speicherstruktur EF.AMTS auf der eGK&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Das Fachmodul AMTS MUSS beim Zugriff auf die Datei &lt;/span&gt;&lt;span style=&#34;font-family: &#39;Courier New&#39;, Courier, monospace;&#34;&gt;EF.AMTS&lt;/span&gt;&lt;span&gt; der &lt;/span&gt;&lt;span&gt;eGK&lt;/span&gt;&lt;span&gt; die in Tabelle &lt;/span&gt;&lt;span&gt;Tab_eGK_Fach_&lt;/span&gt;&lt;span&gt;AMTS_&lt;/span&gt;&lt;span&gt;00&lt;/span&gt;&lt;span&gt;4 festgelegte Speicherstruktur verwenden.&lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;p id=&#34;polarion_55&#34;&gt;&lt;/p&gt;
+  &lt;p id=&#34;polarion_56&#34; data-keep-next=&#34;true&#34; class=&#34;polarion-rte-caption-paragraph&#34;&gt; Tabelle &lt;span data-sequence=&#34;Tabelle&#34; class=&#34;polarion-rte-caption&#34;&gt;2&lt;/span&gt;: Tab_eGK_Fach_AMTS_004 Struktur der Datei EF.AMTS &lt;/p&gt;
+  &lt;table id=&#34;polarion_57&#34; style=&#34;margin-left: 0px;margin-right: auto;empty-cells: show;border-collapse: collapse;&#34;&gt; 
+   &lt;tbody&gt; 
+    &lt;tr&gt; 
+     &lt;th style=&#34;background-color: #D9D9D9;text-align: left;vertical-align: middle;width: 83pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-weight: bold;font-size: 10pt;line-height: 1.5;&#34;&gt;Informations-element&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;background-color: #D9D9D9;text-align: left;vertical-align: middle;width: 57pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-weight: bold;font-size: 10pt;line-height: 1.5;&#34;&gt;Länge in Byte&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;background-color: #D9D9D9;text-align: left;vertical-align: middle;width: 35pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-weight: bold;font-size: 10pt;line-height: 1.5;&#34;&gt;Typ&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;background-color: #D9D9D9;text-align: left;vertical-align: middle;width: 50pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-weight: bold;font-size: 10pt;line-height: 1.5;&#34;&gt;Initial-wert&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;background-color: #D9D9D9;text-align: left;vertical-align: middle;width: 225pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-weight: bold;font-size: 10pt;line-height: 1.5;&#34;&gt;Bemerkung&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 83pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Einwilligung_Length&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 57pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;2 Byte&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 35pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Binär&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 50pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;0&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 225pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Anzahl Bytes des Informationselementes Einwilligung_Data&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 83pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Einwilligung_Data&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 57pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;variabel&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 35pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Binär&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 50pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;0&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 225pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Enthält die Einwilligungsdaten der Fachanwendung eMP/AMTS-Datenmanagement.&lt;/span&gt;&lt;br&gt; &lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Der Inhalt ist als Extended-Markup-Language(XML)-Datei gemäß anzuwendender XML-Schema-Version, gzip-komprimiert nach [RFC1952] und nicht verschlüsselt abgelegt. Der zu verwendende Zeichensatz für die fachlichen Inhalte ist ISO8859-15.&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 83pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;AMTS_Length&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 57pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;2 Byte&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 35pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Binär&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 50pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;0&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 225pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Anzahl Bytes des Informationselementes AMTS_Data&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 83pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;AMTS_Data&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 57pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;variabel&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 35pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Binär&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 50pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;0&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;vertical-align: middle;width: 225pt;border: 1px solid #000000;border-top: 1px solid #000000;border-bottom: 1px solid #000000;border-right: 1px solid #000000;border-left: 1px solid #000000;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Enthält die Nutzdaten der Fachanwendung eMP/AMTS-Datenmanagement.&lt;/span&gt;&lt;br&gt; &lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Der Inhalt ist als Extended-Markup-Language(XML)-Datei gemäß anzuwendender XML-Schema-Version, gzip-komprimiert nach [RFC1952] und nicht verschlüsselt abgelegt. Der zu verwendende Zeichensatz für die fachlichen Inhalte ist ISO8859-15.&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+   &lt;/tbody&gt; 
+  &lt;/table&gt;
+  &lt;p id=&#34;polarion_58&#34;&gt;&lt;/p&gt;
+  &lt;div id=&#34;AMTS-A_2622&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2622 - FM AMTS: Update des Timestamps in EF.StatusAMTS nach Schreibzugriff&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Nach dem Schreibzugriff auf die Datei EF.AMTS MÜSSEN die Operationen &lt;/span&gt;&lt;span&gt;WriteMP&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;WriteConsent&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;und&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;DeleteConsent&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;den &lt;/span&gt;&lt;span&gt;Timestamp&lt;/span&gt;&lt;span&gt; in &lt;/span&gt;&lt;span&gt;EF.StatusAMTS&lt;/span&gt;&lt;span&gt; aktualisieren. &lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;AMTS-A_2620&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2620 - FM AMTS: WriteConsent – Transformationsprozess der Einwilligungsdaten&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Die Operation &lt;/span&gt;&lt;span&gt;WriteConsent&lt;/span&gt;&lt;span&gt; MUSS die Einwilligungsdaten von Base64 nach XML dekodieren, anschließend gegen das Schema&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;gemäß [&lt;/span&gt;&lt;span&gt;gemSpec_Info_AMTS&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;span&gt; validieren und abschließend entsprechend [RFC1952] &lt;/span&gt;&lt;span&gt;gzip&lt;/span&gt;&lt;span&gt;-komprimieren.&lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;AMTS-A_2111&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2111 - FM AMTS: WriteConsent – Fehlerbehandlung bei invaliden Einwilligungsdaten&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Falls sich die Einwilligungsdaten im XML-Format nicht gegen&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;das&lt;/span&gt;&lt;span&gt; Schema &lt;/span&gt;&lt;span&gt;gemäß [&lt;/span&gt;&lt;span&gt;gemSpec_Info_AMTS&lt;/span&gt;&lt;span&gt;] &lt;/span&gt;&lt;span&gt;validieren lassen, MUSS das Fachmodul AMTS die Operation &lt;/span&gt;&lt;span&gt;WriteConsent&lt;/span&gt;&lt;span&gt; mit dem Code 6060 gemäß [gemSpec_FM_AMTS#Tab_FM_AMTS_199] abbrechen.&lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;AMTS-A_2114&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2114 - FM AMTS: WriteConsent – Kein Überschreiben einer vorhandenen Einwilligungsdaten&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Die Operation &lt;/span&gt;&lt;span&gt;WriteConsent&lt;/span&gt;&lt;span&gt; DARF vorhandene Einwilligungsdaten NICHT überschreiben.&lt;/span&gt;&lt;span style=&#34;font-weight: bolder;&#34;&gt; &lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;AMTS-A_2115&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2115 - FM AMTS: WriteConsent – Fehlermeldung bei vorhandenen Einwilligungsdaten&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;Falls auf der eGK bereits Einwilligungsdaten vorhanden sind, MUSS das Fachmodul AMTS die Operation WriteConsent mit dem Code 6010 gemäß [gemSpec_FM_AMTS#Tab_FM_AMTS_199] abbrechen.&lt;span style=&#34;font-weight: bold;&#34;&gt; &lt;/span&gt;&lt;br&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;AMTS-A_2621&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2621 - FM AMTS: ReadConsent – Transformationsprozess der Einwilligungsdaten&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Die Operation &lt;/span&gt;&lt;span&gt;ReadConsent&lt;/span&gt;&lt;span&gt; MUSS die Einwilligungsdaten dekomprimieren und anschließend nach Base64 kodieren.&lt;/span&gt;&lt;span style=&#34;font-weight: bolder;&#34;&gt; &lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;AMTS-A_2118&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2118 - FM AMTS: ReadConsent – Fehlerbehandlung bei fehlenden Einwilligungsdaten&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Falls auf der &lt;/span&gt;&lt;span&gt;eGK&lt;/span&gt;&lt;span&gt; keine Einwilligungsdaten vorhanden sind, MUSS die Operation &lt;/span&gt;&lt;span&gt;ReadConsent&lt;/span&gt;&lt;span&gt; mit dem Code 6061 gemäß [gemSpec_FM_AMTS#Tab_FM_AMTS_199] abbrechen.&lt;/span&gt;&lt;span style=&#34;font-weight: bolder;&#34;&gt; &lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;AMTS-A_2121&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2121 - FM AMTS: DeleteConsent – Speicherstruktur EF.AMTS löschen&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Die Operation &lt;/span&gt;&lt;span&gt;DeleteConsent&lt;/span&gt;&lt;span&gt; MUSS beim Löschen der Einwilligungsdaten alle Speicherplätze von &lt;/span&gt;&lt;span style=&#34;font-family: &#39;Courier New&#39;, Courier, monospace;&#34;&gt;EF.AMTS&lt;/span&gt;&lt;span&gt; mit NUL-Zeichen (0x00) überschreiben.&lt;/span&gt;&lt;span style=&#34;font-weight: bolder;&#34;&gt; &lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;h2 id=&#34;4&#34;&gt;4 Verweise (EF.VerweiseAMTS)&lt;/h2&gt;
+  &lt;p id=&#34;polarion_67&#34;&gt;In Stufe A der Fachanwendung eMP/AMTS-Datenmanagement gibt es keine Daten, die außerhalb der eGK gespeichert und daher auch nicht referenziert werden müssen.&lt;/p&gt;
+  &lt;div id=&#34;AMTS-A_2126&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2126 - FM AMTS: Speicherstruktur EF.VerweiseAMTS auf der eGK&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Das Fachmodul AMTS DARF die Datei &lt;/span&gt;&lt;span style=&#34;font-family: &#39;Courier New&#39;, Courier, monospace;&#34;&gt;EF.VerweiseAMTS&lt;/span&gt;&lt;span&gt; NICHT verwenden.&lt;/span&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;h2 id=&#34;5&#34;&gt;5 Status (EF.StatusAMTS)&lt;/h2&gt;
+  &lt;div id=&#34;AMTS-A_2127&#34;&gt;
+   &lt;p&gt;&lt;b&gt;AMTS-A_2127 - FM AMTS: Speicherstruktur EF.StatusAMTS auf der eGK&lt;/b&gt;&lt;/p&gt;
+   &lt;p&gt;&lt;p style=&#34;margin-left: 0px;&#34;&gt;&lt;span&gt;Das Fach&lt;/span&gt;&lt;span&gt;modul AMTS MUSS beim Zugriff auf die Datei &lt;/span&gt;&lt;span style=&#34;font-family: &#39;Courier New&#39;, Courier, monospace;&#34;&gt;EF.StatusAMTS&lt;/span&gt;&lt;span&gt; der &lt;/span&gt;&lt;span&gt;eGK&lt;/span&gt;&lt;span&gt; die in Tabelle &lt;/span&gt;&lt;span&gt;Tab_eGK_Fach&lt;/span&gt;&lt;span&gt;_AMTS&lt;/span&gt;&lt;span&gt;_00&lt;/span&gt;&lt;span&gt;5 festgelegte Speicherstruktur verwenden.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&#34;polarion-rte-caption-paragraph&#34; data-keep-next=&#34;true&#34; id=&#34;polarion___1&#34;&gt;&lt;span&gt;Tabelle &lt;/span&gt;&lt;span class=&#34;polarion-rte-caption&#34; data-sequence=&#34;Tabelle&#34;&gt;3&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;Tab_eGK_Fach&lt;/span&gt;&lt;span&gt;_AMTS&lt;/span&gt;&lt;span&gt;_00&lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt; Struktur der Datei &lt;/span&gt;&lt;span&gt;EF.StatusAMTS&lt;/span&gt;&lt;/p&gt;
+    &lt;table style=&#34;empty-cells: show;border-collapse: collapse;margin: auto auto auto 0px;&#34;&gt;
+     &lt;tbody&gt;
+      &lt;tr&gt;
+       &lt;th style=&#34;vertical-align: middle;width: 95pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(217, 217, 217);text-align: left;&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: bolder;font-size: 10pt;&#34;&gt;Informations-element&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;
+       &lt;th style=&#34;vertical-align: middle;width: 45pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(217, 217, 217);text-align: left;&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: bolder;font-size: 10pt;&#34;&gt;Länge in Byte&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;
+       &lt;th style=&#34;vertical-align: middle;width: 44pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(217, 217, 217);text-align: left;&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: bolder;font-size: 10pt;&#34;&gt;Typ&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;
+       &lt;th style=&#34;vertical-align: middle;width: 84pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(217, 217, 217);text-align: left;&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: bolder;font-size: 10pt;&#34;&gt;Initialwert&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;
+       &lt;th style=&#34;vertical-align: middle;width: 183pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);background-color: rgb(217, 217, 217);text-align: left;&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-weight: bolder;font-size: 10pt;&#34;&gt;Bemerkung&lt;/span&gt;&lt;/p&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+       &lt;td rowspan=&#34;2&#34; style=&#34;vertical-align: middle;width: 95pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;Status&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td rowspan=&#34;2&#34; style=&#34;vertical-align: middle;width: 45pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td rowspan=&#34;2&#34; style=&#34;vertical-align: middle;width: 44pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;ALPHA&lt;/span&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td rowspan=&#34;2&#34; style=&#34;vertical-align: middle;width: 84pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;„0“&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 183pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;„1“ = Transaktionen offen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 183pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;„0“ = keine Transaktionen offen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 95pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;Timestamp&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 45pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;14&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 44pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;ALPHA&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 84pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;„0“&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 183pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;Timestamp&lt;/span&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt; in UTC der letzten Aktualisierung der EF.AMTS im Format [&lt;/span&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;YYYYMMDDhhmmss&lt;/span&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;]&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 95pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;Version fachliches Informationsmodell&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 45pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 44pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;BCD&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 84pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;0x0000000000&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 183pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;[zur Zeit nicht verwendet]&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 95pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;Version fachliche Speicherstruktur&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 45pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;5&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 44pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;BCD&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 84pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;0x0000000000&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+       &lt;td style=&#34;vertical-align: middle;width: 183pt;border-top: 1px solid rgb(0, 0, 0);border-bottom: 1px solid rgb(0, 0, 0);border-left: 1px solid rgb(0, 0, 0);border-right: 1px solid rgb(0, 0, 0);&#34;&gt;&lt;p&gt;&lt;span style=&#34;font-size: 10pt;&#34;&gt;[zur Zeit nicht verwendet]&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+     &lt;/tbody&gt;
+    &lt;/table&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt; &lt;b&gt;[&amp;lt;=]&lt;/b&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;h2 id=&#34;6&#34;&gt;6 Anhang A – Verzeichnisse&lt;/h2&gt;
+  &lt;h3 id=&#34;6.1&#34;&gt;6.1 Abkürzungen&lt;/h3&gt;
+  &lt;table id=&#34;polarion_wiki macro name=table;params=width=100%|uid=3&#34; class=&#34;polarion-Document-table&#34; style=&#34;width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;&#34;&gt; 
+   &lt;tbody&gt; 
+    &lt;tr&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 94px;height: 19.3333px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Kürzel&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 486px;height: 19.3333px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Erläuterung&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 94px;height: 20.2222px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;AMTS&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 486px;height: 20.2222px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Arzneimitteltherapiesicherheit&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 94px;height: 20.2222px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;eMP&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 486px;height: 20.2222px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;elektronischer Medikationsplan&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+   &lt;/tbody&gt; 
+  &lt;/table&gt;
+  &lt;h3 id=&#34;6.2&#34;&gt;6.2 Glossar&lt;/h3&gt;
+  &lt;p id=&#34;polarion_74&#34;&gt;Das Glossar der gematik wird als gesondertes Dokument zur Verfügung gestellt.&lt;/p&gt;
+  &lt;h3 id=&#34;6.3&#34;&gt;6.3 Tabellenverzeichnis&lt;/h3&gt;
+  &lt;div data-sequence=&#34;Tabelle&#34; id=&#34;polarion_wiki macro name=tof;params=uid=1&#34;&gt;&lt;/div&gt;
+  &lt;div id=&#34;toc_container&#34;&gt;
+   &lt;p class=&#34;toc_title&#34;&gt;&lt;h1&gt;&lt;/h1&gt;&lt;/p&gt;
+   &lt;li&gt;&lt;a href=&#34;#polarion_44&#34;&gt;Tabelle 1: Tab_eGK_Fach_AMTS_001 Datentypen&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&#34;#polarion_56&#34;&gt;Tabelle 2: Tab_eGK_Fach_AMTS_004 Struktur der Datei EF.AMTS&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&#34;#polarion___1&#34;&gt;Tabelle 3: Tab_eGK_Fach_AMTS_005 Struktur der Datei EF.StatusAMTS&lt;/a&gt;&lt;/li&gt;
+  &lt;/div&gt;
+  &lt;p id=&#34;polarion_75&#34;&gt;&lt;/p&gt;
+  &lt;h3 id=&#34;6.4&#34;&gt;6.4 Referenzierte Dokumente&lt;/h3&gt;
+  &lt;h4 id=&#34;6.4.1&#34;&gt;6.4.1 Dokumente der gematik&lt;/h4&gt;
+  &lt;p id=&#34;polarion_76&#34;&gt; Die nachfolgende Tabelle enthält die Bezeichnung der in dem vorliegenden Dokument referenzierten Dokumente der gematik zur Telematikinfrastruktur. Deren zu diesem Dokument passende jeweils gültige Versionsnummer ist in der aktuellen, von der gematik veröffentlichten Dokumentenlandkarte enthalten.&lt;br&gt; &lt;/p&gt;
+  &lt;table id=&#34;polarion_wiki macro name=table;params=width=100%|uid=1&#34; class=&#34;polarion-Document-table&#34; style=&#34;width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;&#34;&gt; 
+   &lt;tbody&gt; 
+    &lt;tr&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 210px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[Quelle]&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 370px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Herausgeber: Titel&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 210px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[gemGlossar]&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 370px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;gematik: Glossar der Telematikinfrastruktur&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 210px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[gemSpec_eGK_ObjSys]&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 370px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;gematik: Spezifikation der elektronischen Gesundheitskarte&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 210px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[gemSpec_FM_AMTS]&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 370px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;gematik: Spezifikation Fachmodul AMTS&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 210px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[gemKPT_Sich_AMTS]&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 370px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;gematik: Sicherheitskonzept Fachanwendung eMP/AMTS&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 210px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt; &lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[gemSpec_Info_AMTS]&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 370px;height: 19px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt; &lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;gematik: Informationsmodell eMP/AMTS-Datenmanagement&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+   &lt;/tbody&gt; 
+  &lt;/table&gt;
+  &lt;h4 id=&#34;6.4.2&#34;&gt;6.4.2 Weitere Dokumente&lt;/h4&gt;
+  &lt;table id=&#34;polarion_wiki macro name=table;params=width=100%|uid=4&#34; class=&#34;polarion-Document-table&#34; style=&#34;width: 100%;margin-left: auto;margin-right: auto;border: 1px solid #CCCCCC;empty-cells: show;border-collapse: collapse;&#34;&gt; 
+   &lt;tbody&gt; 
+    &lt;tr&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 117.111px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[Quelle]&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+     &lt;th style=&#34;font-weight: bold;background-color: #F0F0F0;text-align: left;vertical-align: top;width: 462.889px;height: 18.4444px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;Herausgeber (Erscheinungsdatum): Titel&lt;/span&gt;&lt;br&gt; &lt;/th&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 117.111px;height: 57.5556px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[RFC2119]&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 462.889px;height: 57.5556px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;RFC 2119 (März 1997): Key words for use in RFCs to Indicate Requirement Levels, S. Bradner&lt;/span&gt;&lt;br&gt; &lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;&lt;a href=&#34;https://www.ietf.org/rfc/rfc2119.txt&#34; target=&#34;_top&#34; class=&#34;descriptionLink&#34;&gt;https://www.ietf.org/rfc/rfc2119.txt&lt;/a&gt;&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+    &lt;tr&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 117.111px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;[RFC1952]&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+     &lt;td style=&#34;text-align: left;vertical-align: top;width: 462.889px;height: 38px;border: 1px solid #CCCCCC;padding: 5px;&#34;&gt;&lt;span style=&#34;font-size: 10pt;line-height: 1.5;&#34;&gt;RFC 2119 (Mai 1996): GZIP file format specification version 4.3, P. Deutsch, &lt;br&gt; &lt;a href=&#34;https://www.ietf.org/rfc/rfc1952.txt&#34; target=&#34;_top&#34; class=&#34;descriptionLink&#34;&gt;https://www.ietf.org/rfc/rfc1952.txt&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt; &lt;/td&gt; 
+    &lt;/tr&gt; 
+   &lt;/tbody&gt; 
+  &lt;/table&gt;
+  &lt;p id=&#34;polarion_14&#34;&gt;&lt;/p&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
