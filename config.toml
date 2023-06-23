@@ -1,6 +1,8 @@
 baseURL = "/"
 title = "gematik"
 
+timeout = 120000
+
 # Language settings
 contentDir = "content/de"
 defaultContentLanguage = "de"
